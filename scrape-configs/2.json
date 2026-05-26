@@ -1,0 +1,67 @@
+{
+  "id": 2,
+  "name": "두루누비(DMZ 평화의 길 공식 사이트): 자료실 > 공지사항 > DMZ 검색(내용)",
+  "description": "강원화진지역 국가지질공원 - 자료실 공지사항 내용 기준 DMZ 검색",
+  "baseUrl": "https://www.koreadmz.kr",
+  "startUrl": [
+    "https://www.koreadmz.kr/geopark/pds/notice?searchCondition=TITLE&searchKeyword=dmz"
+  ],
+  "scheduleTime": [
+    "09:00"
+  ],
+  "enabled": false,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "detailLinks",
+      "params": {
+        "selector": "table.skinTb.skinTb-data-resList.skinTb-data-bgEven tbody tr td.skinTb-sbj a",
+        "attribute": "href"
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "div.contsArea.skinContainer div.skinTb.skinTb-data-resList.skinTb-data-bgSbj div.skinTb-tr div.skinTb-td.skinTb-sbj"
+          },
+          {
+            "name": "writer",
+            "type": "uniqueText",
+            "selector": "div.contsArea.skinContainer div.skinTb.skinTb-data-resList.skinTb-data-bgSbj div.skinTb-tr div.skinTb-td.col2.skinTb-name"
+          },
+          {
+            "name": "writedate",
+            "type": "uniqueText",
+            "selector": "div.contsArea.skinContainer div.skinTb.skinTb-data-resList.skinTb-data-bgSbj div.skinTb-tr div.skinTb-td.col2.skinTb-date"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "div.skinTb-td.skinTb-conts"
+          },
+          {
+            "name": "img",
+            "type": "images",
+            "selector": "div.skinTb-td.skinTb-conts div.skinMt-xsmall div.boGallery-img img, div.skinTb-td.skinTb-conts p img"
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "paging",
+      "params": {
+        "selector": "#content div.contsArea.skinContainer div.pager"
+      }
+    }
+  ],
+  "createdAt": "2026-05-26T00:00:00.000Z",
+  "updatedAt": "2026-05-26T08:53:38.466Z",
+  "lastExecutedAt": "2026-05-26T08:53:38.466Z"
+}
