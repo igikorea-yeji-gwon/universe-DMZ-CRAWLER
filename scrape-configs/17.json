@@ -1,5 +1,6 @@
 {
   "id": 17,
+  "origin_id": 16,
   "name": "경기도 DMZ: DMZ 아카이브 > 갤러리 > DMZ 검색(제목)",
   "description": "경기도 DMZ 포털 갤러리 제목 기준 DMZ 검색",
   "baseUrl": "https://dmz.gg.go.kr",

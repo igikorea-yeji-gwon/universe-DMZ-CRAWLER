@@ -1,5 +1,6 @@
 {
   "id": 6,
+  "origin_id": 12,
   "name": "DMZ박물관: 소식/참여 > 박물관소식 > DMZ 검색(내용)",
   "description": "DMZ박물관 박물관소식 내용 기준 DMZ 검색",
   "baseUrl": "https://www.dmzmuseum.com",

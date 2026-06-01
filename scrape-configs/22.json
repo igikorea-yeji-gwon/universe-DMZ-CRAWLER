@@ -1,12 +1,15 @@
 {
   "id": 22,
+  "origin_id": 16,
   "name": "경기도 DMZ: 경기도 DMZ > 보도자료 > DMZ 검색(내용)",
   "description": "경기도 DMZ 포털 보도자료 내용 기준 DMZ 검색",
   "baseUrl": "https://dmz.gg.go.kr",
   "startUrl": [
     "https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=3&menuId=54"
   ],
-  "scheduleTime": ["09:00"],
+  "scheduleTime": [
+    "09:00"
+  ],
   "enabled": false,
   "webhook": true,
   "steps": [
@@ -15,8 +18,14 @@
       "type": "formSubmit",
       "params": {
         "fields": [
-          { "selector": "select#searchCondition", "value": "REMARK" },
-          { "selector": "input#searchKeyword",    "value": "dmz" }
+          {
+            "selector": "select#searchCondition",
+            "value": "REMARK"
+          },
+          {
+            "selector": "input#searchKeyword",
+            "value": "dmz"
+          }
         ],
         "submitSelector": "button[onclick*='searchIt']"
       }

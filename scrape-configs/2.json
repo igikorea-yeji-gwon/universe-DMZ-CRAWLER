@@ -1,5 +1,6 @@
 {
   "id": 2,
+  "origin_id": 11,
   "name": "두루누비(DMZ 평화의 길 공식 사이트): 자료실 > 공지사항 > DMZ 검색(내용)",
   "description": "강원화진지역 국가지질공원 - 자료실 공지사항 내용 기준 DMZ 검색",
   "baseUrl": "https://www.koreadmz.kr",
@@ -62,6 +63,6 @@
     }
   ],
   "createdAt": "2026-05-26T00:00:00.000Z",
-  "updatedAt": "2026-06-01T05:11:16.401Z",
-  "lastExecutedAt": "2026-06-01T05:11:16.401Z"
+  "updatedAt": "2026-06-01T05:57:32.117Z",
+  "lastExecutedAt": "2026-06-01T05:57:32.117Z"
 }

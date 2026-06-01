@@ -1,5 +1,6 @@
 {
   "id": 11,
+  "origin_id": 14,
   "name": "숲나들e: 참여마당 > 공지사항 > DMZ 검색(제목)",
   "description": "숲나들e 공지사항 제목 기준 DMZ 검색",
   "baseUrl": "https://www.foresttrip.go.kr",

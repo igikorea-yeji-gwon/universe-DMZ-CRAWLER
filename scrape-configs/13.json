@@ -1,5 +1,6 @@
 {
   "id": 13,
+  "origin_id": 15,
   "name": "한국등산트레킹지원센터: 알림마당 > 공지사항 > DMZ 검색",
   "description": "한국등산트레킹지원센터 공지사항 DMZ 검색",
   "baseUrl": "https://komount.or.kr",
