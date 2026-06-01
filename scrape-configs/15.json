@@ -1,0 +1,76 @@
+{
+  "id": 15,
+  "name": "경기도 DMZ: DMZ 아카이브 > 자료실 > DMZ 검색(제목)",
+  "description": "경기도 DMZ 포털 자료실 제목 기준 DMZ 검색",
+  "baseUrl": "https://dmz.gg.go.kr",
+  "startUrl": [
+    "https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=4&menuId=57"
+  ],
+  "scheduleTime": ["09:00"],
+  "enabled": false,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "formSubmit",
+      "params": {
+        "fields": [
+          { "selector": "select#searchCondition", "value": "SUBJECT" },
+          { "selector": "input#searchKeyword",    "value": "dmz" }
+        ],
+        "submitSelector": "button[onclick*='searchIt']"
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "detailLinks",
+      "params": {
+        "selector": "table#boardList tbody tr td.subject a",
+        "attribute": "href"
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "div.s-v-board-default div.header h2"
+          },
+          {
+            "name": "writer-list",
+            "type": "uniqueText",
+            "selector": "table#boardList tbody tr td:nth-child(4)"
+          },
+          {
+            "name": "writedate-list",
+            "type": "uniqueText",
+            "selector": "table#boardList tbody tr td:nth-child(5)"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "div.s-v-board-default div.content"
+          },
+          {
+            "name": "img",
+            "type": "images",
+            "selector": "div.s-v-board-default div.content img"
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-004",
+      "type": "paging",
+      "params": {
+        "selector": "ul.pagination"
+      }
+    }
+  ],
+  "createdAt": "2026-06-01T00:00:00.000Z",
+  "updatedAt": "2026-06-01T00:00:00.000Z",
+  "lastExecutedAt": null
+}

@@ -1,0 +1,67 @@
+{
+  "id": 5,
+  "name": "DMZ박물관: 소식/참여 > 박물관소식 > DMZ 검색(제목)",
+  "description": "DMZ박물관 박물관소식 제목 기준 DMZ 검색",
+  "baseUrl": "https://www.dmzmuseum.com",
+  "startUrl": [
+    "https://www.dmzmuseum.com/museum/community?mode=&firstYN=N&searchCondition=TITLE&searchKeyword=dmz"
+  ],
+  "scheduleTime": [
+    "09:00"
+  ],
+  "enabled": false,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "detailLinks",
+      "params": {
+        "selector": "table.skinTb.skinTb-data-resList.skinTb-data-bgEven tbody tr td.skinTb-sbj a",
+        "attribute": "onclick"
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "div.skinTb.skinTb-data-resList.skinTb-data-bgSbj div.skinTb-td.skinTb-sbj"
+          },
+          {
+            "name": "writer",
+            "type": "uniqueText",
+            "selector": "div.skinTb.skinTb-data-resList.skinTb-data-bgSbj div.skinTb-td.col2.skinTb-name"
+          },
+          {
+            "name": "writedate",
+            "type": "uniqueText",
+            "selector": "div.skinTb.skinTb-data-resList.skinTb-data-bgSbj div.skinTb-td.col2.skinTb-date"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "div.skinTb-td.skinTb-conts"
+          },
+          {
+            "name": "img",
+            "type": "images",
+            "selector": "div.skinTb-td.skinTb-conts div.skinMt-xsmall div.boGallery-img img, div.skinTb-td.skinTb-conts p img"
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "paging",
+      "params": {
+        "selector": "div.pager"
+      }
+    }
+  ],
+  "createdAt": "2026-05-26T00:00:00.000Z",
+  "updatedAt": "2026-05-26T00:00:00.000Z",
+  "lastExecutedAt": null
+}

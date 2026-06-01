@@ -4,6 +4,7 @@
 //
 // 목차
 //   1. 전체 구조
+//   1-1. formSubmit - POST 검색 폼 제출
 //   2. detailLinks - 상세 URL 수집 방식
 //      2-1.   data-* 속성 + customTransform으로 URL 조합
 //      2-1-1. data-* 속성이 여러 개인데 일부가 고정값인 경우
@@ -44,6 +45,86 @@ const minimalExample = [
   { id: "step-001", type: "detailLinks", params: { selector: "...", attribute: "href" } },
   { id: "step-002", type: "scrapDetail", params: { targets: [ /* ... */ ] } },
   { id: "step-003", type: "paging",      params: { selector: "..." } }
+];
+
+
+// =============================================================================
+// 1-1. formSubmit - POST 검색 폼 제출
+// =============================================================================
+// 검색 결과가 GET URL 파라미터로 반환되지 않고, 폼 POST로만 처리되는 사이트에서 사용한다.
+//
+// [ 언제 필요한가? ]
+//   브라우저 네트워크 탭에서 검색 결과 URL을 복사해 직접 접근했을 때
+//   결과가 나오지 않고 기본 목록만 보이는 경우 → POST 처리 사이트
+//
+// [ 동작 순서 ]
+//   1. startUrl 페이지를 먼저 로드 (검색 폼이 있는 목록 페이지)
+//   2. formSubmit 스텝: 지정한 필드에 값 입력 → 제출 버튼 클릭 → 결과 페이지 대기
+//   3. 이후 detailLinks, scrapDetail, paging 스텝이 결과 페이지에서 정상 동작
+//
+// [ 주의사항 ]
+//   - formSubmit은 첫 번째 페이지에서만 실행된다 (페이지네이션 반복 시 재실행 방지).
+//   - 결과 URL에 page/pageIndex 등 파라미터가 포함되면 paging 스텝이 정상 동작한다.
+//   - AJAX 방식(페이지 이동 없이 결과만 갱신)은 지원하지 않는다.
+//
+// params:
+//   fields         : 입력할 폼 필드 배열. selector + value 쌍으로 지정.
+//                    input 태그 → fill(value), select 태그 → selectOption(value) 자동 처리.
+//   submitSelector : 제출 버튼의 CSS 셀렉터. 클릭 후 navigation 대기.
+//
+// HTML 패턴 예시:
+//   <input id="searchKeyword" name="searchKeyword" type="text">
+//   <select name="searchCondition">
+//     <option value="SUBJECT">제목</option>
+//     <option value="CONTENT">내용</option>
+//   </select>
+//   <button class="btn_search">검색</button>
+
+const formSubmitExample = {
+  id: "step-001",
+  type: "formSubmit",
+  params: {
+    fields: [
+      { selector: "input#searchKeyword",        value: "dmz"     },  // 텍스트 입력
+      { selector: "select[name='searchCondition']", value: "SUBJECT" }  // 드롭다운 선택
+    ],
+    submitSelector: "button.btn_search"   // 클릭할 제출 버튼
+  }
+};
+
+// 전체 Config 예시 (POST 검색 사이트):
+const formSubmitFullExample = [
+  {
+    id: "step-001",
+    type: "formSubmit",
+    params: {
+      fields: [
+        { selector: "input#searchKeyword", value: "dmz" }
+      ],
+      submitSelector: "a.search, button[type='submit']"
+    }
+  },
+  {
+    id: "step-002",
+    type: "detailLinks",
+    params: { selector: "table.board tbody tr td.title a", attribute: "href" }
+  },
+  {
+    id: "step-003",
+    type: "scrapDetail",
+    params: {
+      targets: [
+        { name: "title",     type: "uniqueText",     selector: "h2.view-title" },
+        { name: "writedate", type: "uniqueText",     selector: "span.date" },
+        { name: "content",   type: "duplicatedText", selector: "div.content" }
+      ]
+    }
+  },
+  {
+    id: "step-004",
+    type: "paging",
+    params: { selector: "div.pager" }
+  }
 ];
 
 

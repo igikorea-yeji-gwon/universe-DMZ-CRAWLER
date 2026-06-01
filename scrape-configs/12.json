@@ -1,0 +1,62 @@
+{
+  "id": 12,
+  "name": "숲나들e: 참여마당 > 공지사항 > DMZ 검색(내용)",
+  "description": "숲나들e 공지사항 내용 기준 DMZ 검색",
+  "baseUrl": "https://www.foresttrip.go.kr",
+  "startUrl": [
+    "https://www.foresttrip.go.kr/pot/cc/nm/selectNticBbrssListView.do?hmpgId=FRTRL&twbbsId=&nowPage=1&bbrssMsterId=BBRSSMSTER_00000001&srchType=twbbsCont&srwrd=DMZ&wrdtBgn=&wrdtEnd="
+  ],
+  "scheduleTime": [
+    "09:00"
+  ],
+  "enabled": false,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "detailLinks",
+      "params": {
+        "selector": "table.tbl.default.b_list02 tbody tr td.left a.title",
+        "attribute": "onclick"
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "div.board_view div.view_bg strong"
+          },
+          {
+            "name": "writer",
+            "type": "uniqueText",
+            "selector": "div.view_bg div.infoWrap:first-of-type div.infoItem.right span"
+          },
+          {
+            "name": "writedate",
+            "type": "uniqueText",
+            "selector": "div.view_bg div.infoItem.left span"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "#infoWrap > div[style*=\"white-space\"]"
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "paging",
+      "params": {
+        "selector": "div.page_list"
+      }
+    }
+  ],
+  "createdAt": "2026-06-01T00:00:00.000Z",
+  "updatedAt": "2026-06-01T00:00:00.000Z",
+  "lastExecutedAt": null
+}

@@ -382,6 +382,33 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
               }
               break;
 
+            case 'formSubmit':
+              // 첫 페이지에서만 폼 제출 — 페이지네이션 반복 시 재실행 방지
+              if (currentPage === 1) {
+                const { fields = [], submitSelector } = step.params;
+                for (const field of fields) {
+                  try {
+                    const tagName = await page.$eval(
+                      field.selector,
+                      (el) => el.tagName.toLowerCase(),
+                    );
+                    if (tagName === 'select') {
+                      await page.selectOption(field.selector, field.value);
+                    } else {
+                      await page.fill(field.selector, field.value);
+                    }
+                  } catch {
+                    this.logger.warn(`  ↳ [formSubmit] 필드 없음: ${field.selector}`);
+                  }
+                }
+                if (submitSelector) {
+                  await page.click(submitSelector);
+                  // 페이지 이동(POST redirect) 또는 AJAX 응답 모두 networkidle로 대기
+                  await page.waitForLoadState('networkidle', { timeout: 30000 });
+                }
+              }
+              break;
+
             case 'paging':
               if (currentPage >= this.MAX_PAGE) break outer;
               let hasNext = null;

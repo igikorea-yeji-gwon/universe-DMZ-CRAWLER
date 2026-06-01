@@ -164,16 +164,13 @@ export class PageNavigationService {
         timeout: 29000,
       });
     } catch (e) {
-      this.googleChatService.sendAlert('리스트 셀렉터 타임아웃', {
-        'configId': `${configId ?? '알 수 없음'}`,
-        '셀렉터': step.params.selector,
-        'URL': url,
-        '에러': (e as Error).message,
-      }, webhook, 'timeout');
-      throw e;
+      // 페이지네이션 후 결과 없는 페이지거나 마지막 페이지일 수 있음 → 빈 배열 반환
+      this.logger.warn(`[${configId ?? '?'}] 리스트 셀렉터 없음 (결과 없음 또는 페이지 끝): ${url}`);
+      return [];
     }
 
     let rawVals: string[];
+    let elementHrefs: string[] = [];
 
     // 'javascript' 플래그인 경우 실제로는 href 속성에서 값을 가져와야 합니다.
     if (step.params.attribute === 'javascript') {
@@ -188,8 +185,15 @@ export class PageNavigationService {
         step.params.attribute,
       );
     }
-    // 테스트
-    // rawVals = [];
+
+    // onclick에서 this.href 치환을 위해 요소의 실제 resolved href 수집
+    if (step.params.attribute === 'onclick') {
+      elementHrefs = await page.$$eval(
+        step.params.selector,
+        (els) => els.map((el) => (el as HTMLAnchorElement).href || el.getAttribute('href') || ''),
+      );
+    }
+
     console.log('rawVals2', rawVals);
 
     if (url.includes('https://search-home.moj.go.kr/search.jsp')) {
@@ -206,33 +210,9 @@ export class PageNavigationService {
     }
     const detailUrls: string[] = [];
 
-    for (const val of rawVals) {
+    for (let i = 0; i < rawVals.length; i++) {
+      const val = rawVals[i];
       if (step.params.attribute === 'onclick') {
-        // 나중에 이거로 바꿔야 할지도...
-        // const m = val.match(/^(\w+)\(([^)]*)\)/);
-        // const fnName = m?.[1];
-        // const argsString = m?.[2];
-
-        // =========
-        // ② javascript: 접두어 제거
-        // const cleaned = val
-        //   .replace(/^javascript:\s*/, '')
-        //   .replace(/\s*;\s*return false;?$/, '')
-        //   .replace(/;$/, ''); // ← 세미콜론 제거
-        // // ③ 함수명 및 인수 파싱
-        // const [, fnName, argsString] =
-        //   cleaned.match(/^(\w+)\(([\s\S]*)\)$/) || [];
-
-        // // ② 커스텀 스플릿: " , " 밖의 콤마 기준으로 나누기
-        // const args = argsString
-        //   .split(/,(?=(?:[^']*'[^']*')*[^']*$)/) // 따옴표 안의 콤마는 무시
-        //   .map(
-        //     (arg) =>
-        //       arg
-        //         .trim() // 앞뒤 공백 제거
-        //         .replace(/^'(.*)'$/, '$1'), // '…' → …
-        //   );
-        // =========
         const cleaned = val
           .replace(/^javascript:\s*/, '')
           .replace(/\s*;\s*return false;?$/, '')
@@ -242,10 +222,15 @@ export class PageNavigationService {
         const fnName = m[1];
         const argsString = m[2];
 
+        const resolvedHref = elementHrefs[i] || '';
         const args = argsString
           ? argsString
               .split(/,(?=(?:[^']*'[^']*')*[^']*$)/)
-              .map((arg) => arg.trim().replace(/^'(.*)'$/, '$1'))
+              .map((arg) => {
+                const trimmed = arg.trim().replace(/^'(.*)'$/, '$1');
+                // this.href → 요소의 실제 href로 치환
+                return trimmed === 'this.href' ? resolvedHref : trimmed;
+              })
           : [];
 
         await Promise.all([
@@ -431,17 +416,16 @@ export class PageNavigationService {
       const rawPageIndex = params.get('pageIndex');
       const rawPg = params.get('pg');
       const _page = params.get('_page');
+      const rawNowPage = params.get('nowPage');
 
       if (
         rawPage !== null ||
         rawPageIndex !== null ||
         rawPg !== null ||
-        _page !== null
+        _page !== null ||
+        rawNowPage !== null
       ) {
-        // 숫자로 파싱 가능한 값을 찾기
-        // const base = rawPage !== null ? rawPage : rawPageIndex!;
-        // 또는 null 병합 연산자
-        const base = rawPage ?? rawPageIndex ?? rawPg ?? _page!;
+        const base = rawPage ?? rawPageIndex ?? rawPg ?? _page ?? rawNowPage!;
         const parsed = parseInt(base, 10);
 
         if (!isNaN(parsed)) {
@@ -459,6 +443,9 @@ export class PageNavigationService {
           }
           if (_page !== null) {
             params.set('_page', String(next));
+          }
+          if (rawNowPage !== null) {
+            params.set('nowPage', String(next));
           }
 
           const nextUrl = currentUrl.toString();
