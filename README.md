@@ -106,6 +106,8 @@ scrape-configs/          # Config JSON 파일 저장 폴더 (id별 파일)
 
 스크래핑 동작은 `steps` JSON 배열로 정의됩니다.
 
+상세 페이지가 목록 페이지에서 받은 세션/쿠키를 요구하는 사이트는 config 최상위에 `"useListSession": true`를 추가합니다. 값이 없거나 `false`이면 기존처럼 상세 페이지별 새 context를 사용합니다.
+
 ```json
 [
   { "id": "step-001", "type": "detailLinks", "params": { "selector": "a.article", "attribute": "href" } },

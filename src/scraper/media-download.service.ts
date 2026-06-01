@@ -50,8 +50,16 @@ export class MediaDownloadService {
     const results: any[] = [];
     for (let i = 0; i < items.length; i++) {
       const { url, caption } = items[i];
+      if (!url || /^(data|blob):/i.test(url)) {
+        this.logger.warn(`이미지 다운로드 skip: 지원하지 않는 URL (${url})`);
+        continue;
+      }
       // 1) 절대 URL 변환
       const imgUrl = new URL(url, page.url()).href;
+      if (!/^https?:/i.test(imgUrl)) {
+        this.logger.warn(`이미지 다운로드 skip: HTTP URL 아님 (${imgUrl})`);
+        continue;
+      }
 
       // 2) 요청 및 상태 체크
       const requestContext = page.context().request;

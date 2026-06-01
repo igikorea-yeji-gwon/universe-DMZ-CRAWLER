@@ -195,6 +195,8 @@ export class PageNavigationService {
     }
 
     console.log('rawVals2', rawVals);
+    // TODO(QA): 임시로 목록 상세 링크는 앞 2개만 확인한다.
+    rawVals = rawVals.slice(0, 2);
 
     if (url.includes('https://search-home.moj.go.kr/search.jsp')) {
       const ExceptionList = [
@@ -212,7 +214,16 @@ export class PageNavigationService {
 
     for (let i = 0; i < rawVals.length; i++) {
       const val = rawVals[i];
-      if (step.params.attribute === 'onclick') {
+      if (step.params.customTransform) {
+        const { pattern, output } = step.params.customTransform;
+        const transformed = val.replace(new RegExp(pattern), (_match, ...groups) =>
+          output.replace(/\$\{(\d+)\}/g, (_: string, n: string) => groups[parseInt(n) - 1] ?? ''),
+        );
+        const hrefUrl = transformed.startsWith('http')
+          ? transformed
+          : new URL(transformed, url).toString();
+        detailUrls.push(hrefUrl);
+      } else if (step.params.attribute === 'onclick') {
         const cleaned = val
           .replace(/^javascript:\s*/, '')
           .replace(/\s*;\s*return false;?$/, '')
@@ -270,15 +281,6 @@ export class PageNavigationService {
         // 3) URL 저장 후 뒤로 가기
         detailUrls.push(page.url());
         await page.goBack({ waitUntil: 'domcontentloaded' });
-      } else if (step.params.customTransform) {
-        const { pattern, output } = step.params.customTransform;
-        const transformed = val.replace(new RegExp(pattern), (_match, ...groups) =>
-          output.replace(/\$\{(\d+)\}/g, (_: string, n: string) => groups[parseInt(n) - 1] ?? ''),
-        );
-        const hrefUrl = transformed.startsWith('http')
-          ? transformed
-          : new URL(transformed, url).toString();
-        detailUrls.push(hrefUrl);
       } else {
         if (val.includes('/;jsessionid=')) {
           try {
@@ -467,6 +469,14 @@ export class PageNavigationService {
 
     // 2) 기존 + 새로 추가된 모든 전략별 셀렉터 리스트
     const selectors = [
+      // A-0) 전달받은 pagination 컨테이너 내부에서 먼저 찾는다.
+      `${linkSelector} a[keyvalue="${nextNum}"]`,
+      `${linkSelector} a.pager-link-data-next`,
+      `${linkSelector} a[href*="pageIndex=${nextNum}"]`,
+      `${linkSelector} li.on + li a`,
+      `${linkSelector} .active + a`,
+      `${linkSelector} a.active + a`,
+
       // A) keyvalue 속성 기반 (예전 구조)
       `${linkSelector}[keyvalue="${nextNum}"]`,
 

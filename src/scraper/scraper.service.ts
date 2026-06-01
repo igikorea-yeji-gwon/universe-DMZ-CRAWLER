@@ -10,13 +10,7 @@ import { format } from 'date-fns';
 import axios from 'axios';
 import { Article } from 'src/news/news.entity';
 import { ProcessService } from '../../dist/common/utils/scrapProcess/process.service';
-import {
-  firefox,
-  chromium,
-  Browser,
-  Page,
-  BrowserContext,
-} from 'playwright';
+import { firefox, chromium, Browser, Page, BrowserContext } from 'playwright';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { MediaDownloadService } from './media-download.service';
 import { HtmlParsingService } from './html-parsing.service';
@@ -28,6 +22,7 @@ interface ScrapeConfig {
   id: any;
   steps: any[];
   webhook?: boolean;
+  useListSession?: boolean;
 }
 
 @Injectable()
@@ -74,23 +69,69 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
   };
   private browser: Browser;
 
+  // 목록 페이지 세션/쿠키를 상세 페이지에서도 유지할지 config 값으로 판단한다.
+  private shouldUseListSession(config: ScrapeConfig): boolean {
+    return config.useListSession === true;
+  }
+
+  private async gotoListPage(page: Page, url: string): Promise<Page> {
+    const attempts: Array<'domcontentloaded' | 'load' | 'commit'> = [
+      'domcontentloaded',
+      'load',
+      'commit',
+    ];
+    let lastError: Error | null = null;
+    let activePage = page;
+    const context = page.context();
+
+    for (const waitUntil of attempts) {
+      try {
+        await activePage.goto(url, { waitUntil, timeout: 50000 });
+        await activePage
+          .waitForLoadState('networkidle', { timeout: 5000 })
+          .catch(() => {});
+        return activePage;
+      } catch (e) {
+        lastError = e as Error;
+        this.logger.warn(
+          `목록 페이지 이동 실패 (${waitUntil}) → 재시도: ${lastError.message}`,
+        );
+        await activePage.close().catch(() => {});
+        activePage = await context.newPage();
+      }
+    }
+
+    await activePage.close().catch(() => {});
+    throw lastError ?? new Error(`목록 페이지 이동 실패: ${url}`);
+  }
+
   // 상세페이지별 처리를 함수화
-  async scrapeOne(url: string, targets, configId: number, listData?: Record<string, string>, webhook = true) {
+  async scrapeOne(
+    url: string,
+    targets,
+    configId: number,
+    listData?: Record<string, string>,
+    webhook = true,
+    sharedContext?: BrowserContext,
+  ) {
     this.logger.log(`▶ [${configId}] ${url}`);
     if (url.includes('sections-offices/')) return;
 
-    const context = await this.browser.newContext({
-      userAgent:
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
-        'AppleWebKit/537.36 (KHTML, like Gecko) ' +
-        'Chrome/114.0.0.0 Safari/537.36',
-      locale: 'en-US',
-      extraHTTPHeaders: {
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
-      acceptDownloads: true, // 파일 다운로드 이벤트 활성화
-      ignoreHTTPSErrors: true, // https 인증 검증 무시
-    });
+    const ownsContext = !sharedContext;
+    const context =
+      sharedContext ??
+      (await this.browser.newContext({
+        userAgent:
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
+          'AppleWebKit/537.36 (KHTML, like Gecko) ' +
+          'Chrome/114.0.0.0 Safari/537.36',
+        locale: 'en-US',
+        extraHTTPHeaders: {
+          'Accept-Language': 'en-US,en;q=0.9',
+        },
+        acceptDownloads: true, // 파일 다운로드 이벤트 활성화
+        ignoreHTTPSErrors: true, // https 인증 검증 무시
+      }));
     const page = await context.newPage();
     const temp: Record<string, any> = {};
 
@@ -98,11 +139,15 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
       try {
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 50000 });
       } catch (e) {
-        this.googleChatService.sendAlert('상세 페이지 접근 실패', {
-          'configId': `${configId}`,
-          'URL': url,
-          '에러': (e as Error).message,
-        }, webhook);
+        this.googleChatService.sendAlert(
+          '상세 페이지 접근 실패',
+          {
+            configId: `${configId}`,
+            URL: url,
+            에러: (e as Error).message,
+          },
+          webhook,
+        );
         throw e;
       }
 
@@ -118,12 +163,15 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
       // 제목이 비어있으면 알림 후 skip
       if (!titleText.trim()) {
         console.warn(`⚠️ 제목 없음, 기사 skip: ${url}`);
-        this.googleChatService.sendAlert('제목 없음, 기사 skip', {
-          'configId': `${configId}`,
-          '셀렉터': titleSelector || '없음',
-          'URL': url,
-        }, webhook);
-        await page.close();
+        this.googleChatService.sendAlert(
+          '제목 없음, 기사 skip',
+          {
+            configId: `${configId}`,
+            셀렉터: titleSelector || '없음',
+            URL: url,
+          },
+          webhook,
+        );
         return null;
       }
       // 리스트에서 미리 추출한 데이터 적용 (writer-list → writer 등)
@@ -170,9 +218,15 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
           // 2) data 추출
           if (target.type === 'duplicatedText') {
             if (page.url().includes('www.congress.gov')) {
-              data = await this.htmlParsingService.extractParagraphs(page, target.selector);
+              data = await this.htmlParsingService.extractParagraphs(
+                page,
+                target.selector,
+              );
             } else {
-              data = await this.htmlParsingService.exportVisibleText(page, target.selector);
+              data = await this.htmlParsingService.exportVisibleText(
+                page,
+                target.selector,
+              );
             }
           } else if (target.type === 'uniqueText') {
             if (target?.name.includes('date')) {
@@ -190,13 +244,24 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
               data = textsViaEval.join(' ');
               // writer 필드에서 '기자명' 제거
               if (target.name === 'writer') {
-                data = data.replace(/기자명\s*/g, '').trim();
+                data = data.replace(/기자명\s*/g, '').replace(/^작성자\s*/g, '').trim();
               }
             }
           } else if (target.type === 'images') {
-            data = await this.mediaDownloadService.handleImagesStep(page, target, configId, webhook);
+            data = await this.mediaDownloadService.handleImagesStep(
+              page,
+              target,
+              configId,
+              webhook,
+            );
           } else if (target.type === 'file') {
-            data = await this.mediaDownloadService.handleFileStep(page, target, configId, temp['title'], webhook);
+            data = await this.mediaDownloadService.handleFileStep(
+              page,
+              target,
+              configId,
+              temp['title'],
+              webhook,
+            );
             if (data === null) {
               console.warn(`⚠️ 비정상 파일 감지, 기사 skip: ${url}`);
               await page.close();
@@ -241,7 +306,6 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         } else {
           temp[key] = data;
         }
-
       }
 
       temp.currentUrl = url;
@@ -251,7 +315,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
       return temp;
     } finally {
       await page.close();
-      await context.close();
+      if (ownsContext) {
+        await context.close();
+      }
     }
   }
 
@@ -266,8 +332,11 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     const limit = pLimit(2);
 
     const webhook = config.webhook ?? true;
+    const useListSession = this.shouldUseListSession(config);
     const tasks = config.startUrl.map((url) =>
-      limit(() => this.scrapeUrl(url, config.steps, config.id, webhook)),
+      limit(() =>
+        this.scrapeUrl(url, config.steps, config.id, webhook, useListSession),
+      ),
     );
 
     const pagesData = await Promise.all(tasks);
@@ -295,6 +364,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     steps: any[],
     configId: any,
     webhook = true,
+    useListSession = false,
   ): Promise<any[]> {
     console.log('scrapeUrl-ID : ', configId);
 
@@ -304,9 +374,12 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         '(KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
       locale: 'en-US',
       extraHTTPHeaders: { 'Accept-Language': 'en-US,en;q=0.9' },
+      acceptDownloads: true,
+      ignoreHTTPSErrors: true,
     });
-    const page: Page = await context.newPage();
+    let page: Page = await context.newPage();
     const results: any[] = [];
+    const seenDetailUrls = new Set<string>();
 
     // 페이징 스텝이 정의되어 있는지 확인
     const hasPagingStep = steps.some((s) => s.type === 'paging');
@@ -314,14 +387,17 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     try {
       // 2) 실제 탐색 시도 (DOMContentLoaded + networkidle 병행 대기)
       try {
-        await page.goto(url, { waitUntil: 'networkidle', timeout: 50000 });
+        page = await this.gotoListPage(page, url);
       } catch (e) {
         console.error('Navigation failed:', (e as Error).message);
+        return results;
       }
 
       let currentPage = 1;
       outer: while (true) {
         let detailUrls: string[] = [];
+        let detailUrlIndexes: number[] = [];
+        let stopPagingByDuplicatePage = false;
 
         // steps 순서대로 처리
         for (const step of steps) {
@@ -342,22 +418,58 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
                 current.includes('www.koreaexim.go.kr') ||
                 current.includes('www.kida.re.kr/frt/board/frtNormalBoard')
               ) {
-                detailUrls = await this.pageNavigationService.extractDetailUrls(page, step, current, configId, webhook);
+                detailUrls = await this.pageNavigationService.extractDetailUrls(
+                  page,
+                  step,
+                  current,
+                  configId,
+                  webhook,
+                );
               } else {
-                detailUrls = await this.pageNavigationService.extractDetailUrls_0611(page, step, configId, webhook);
+                detailUrls =
+                  await this.pageNavigationService.extractDetailUrls_0611(
+                    page,
+                    step,
+                    configId,
+                    webhook,
+                  );
+              }
+              const extractedDetailUrls = detailUrls;
+              if (extractedDetailUrls.length > 0) {
+                const newDetailUrlPairs: Array<{ url: string; index: number }> =
+                  [];
+                extractedDetailUrls.forEach((detailUrl, index) => {
+                  if (seenDetailUrls.has(detailUrl)) return;
+                  seenDetailUrls.add(detailUrl);
+                  newDetailUrlPairs.push({ url: detailUrl, index });
+                });
+
+                if (newDetailUrlPairs.length === 0) {
+                  this.logger.warn(
+                    `[${configId}] 중복 페이지 감지: 새 상세 URL 없음 (${page.url()})`,
+                  );
+                  stopPagingByDuplicatePage = true;
+                }
+
+                detailUrls = newDetailUrlPairs.map((pair) => pair.url);
+                detailUrlIndexes = newDetailUrlPairs.map(
+                  (pair) => pair.index,
+                );
               }
               break;
 
             case 'scrapDetail':
               // 리스트 페이지에서 '-list' 타겟 데이터 미리 추출
-              const listTargets = (step.params.targets || []).filter(
-                (t) => t.name.endsWith('-list'),
+              const listTargets = (step.params.targets || []).filter((t) =>
+                t.name.endsWith('-list'),
               );
               const listDataArray: Record<string, string>[] = [];
               if (listTargets.length > 0) {
                 for (const lt of listTargets) {
                   const values = await page.$$eval(lt.selector, (els) =>
-                    els.map((el) => (el.textContent || '').replace(/\s+/g, ' ').trim()),
+                    els.map((el) =>
+                      (el.textContent || '').replace(/\s+/g, ' ').trim(),
+                    ),
                   );
                   values.forEach((val, i) => {
                     if (!listDataArray[i]) listDataArray[i] = {};
@@ -372,8 +484,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
                 detailUrls,
                 step,
                 configId,
-                listDataArray,
+                detailUrlIndexes.map((index) => listDataArray[index]),
                 webhook,
+                useListSession ? context : undefined,
               );
               if (Array.isArray(scrapResults)) {
                 results.push(...scrapResults);
@@ -388,9 +501,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
                 const { fields = [], submitSelector } = step.params;
                 for (const field of fields) {
                   try {
-                    const tagName = await page.$eval(
-                      field.selector,
-                      (el) => el.tagName.toLowerCase(),
+                    const tagName = await page.$eval(field.selector, (el) =>
+                      el.tagName.toLowerCase(),
                     );
                     if (tagName === 'select') {
                       await page.selectOption(field.selector, field.value);
@@ -398,18 +510,23 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
                       await page.fill(field.selector, field.value);
                     }
                   } catch {
-                    this.logger.warn(`  ↳ [formSubmit] 필드 없음: ${field.selector}`);
+                    this.logger.warn(
+                      `  ↳ [formSubmit] 필드 없음: ${field.selector}`,
+                    );
                   }
                 }
                 if (submitSelector) {
                   await page.click(submitSelector);
                   // 페이지 이동(POST redirect) 또는 AJAX 응답 모두 networkidle로 대기
-                  await page.waitForLoadState('networkidle', { timeout: 30000 });
+                  await page.waitForLoadState('networkidle', {
+                    timeout: 30000,
+                  });
                 }
               }
               break;
 
             case 'paging':
+              if (stopPagingByDuplicatePage) break outer;
               if (currentPage >= this.MAX_PAGE) break outer;
               let hasNext = null;
               // 한국문화관광연구원용
@@ -442,7 +559,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
       return results;
     } finally {
-      await page.close();
+      await page.close().catch(() => {});
       await context.close();
     }
   }
@@ -456,6 +573,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     configId: any,
     listDataArray?: Record<string, string>[],
     webhook = true,
+    sharedContext?: BrowserContext,
   ): Promise<any[]> {
     const results: any[] = [];
     for (let i = 0; i < detailUrls.length; i++) {
@@ -467,6 +585,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         configId,
         listData,
         webhook,
+        sharedContext,
       );
       if (Array.isArray(pageResults)) {
         results.push(...pageResults);
@@ -588,5 +707,4 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     // }
     return res;
   }
-
 }

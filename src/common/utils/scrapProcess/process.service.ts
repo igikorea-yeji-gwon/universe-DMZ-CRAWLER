@@ -379,8 +379,11 @@ export class ProcessService {
       'yyyy.M.d',
       'yyyy.MM.dd',
       'yyyy.MM.dd HH:mm',
+      'yyyy.MM.dd HH:mm:ss',
       'yyyy-M-d HH:mm',
+      'yyyy-M-d HH:mm:ss',
       'yyyy-MM-dd HH:mm',
+      'yyyy-MM-dd HH:mm:ss',
       'yyyy-MM-dd', // ISO 날짜
       'MMMM d, yyyy',
       'MMMM d, yyyy hh:mm a',

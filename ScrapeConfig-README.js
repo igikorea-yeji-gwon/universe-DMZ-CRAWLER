@@ -38,6 +38,12 @@
 //   scrapDetail  : 수집된 URL에서 실제 데이터 추출
 //   paging       : 다음 페이지로 이동 후 detailLinks → scrapDetail 반복
 //
+// 최상위 옵션:
+//   useListSession: boolean
+//     - 기본값은 false와 동일하게 동작한다.
+//     - true면 목록 페이지를 연 브라우저 context의 세션/쿠키를 상세 페이지 수집에도 공유한다.
+//     - 상세 URL을 직접 열면 에러 페이지가 나오고, 목록을 거친 뒤에만 상세가 열리는 게시판에서 사용한다.
+//
 // ※ paging이 없으면 첫 번째 페이지만 수집하고 종료된다.
 //
 // 최소 구성 예시:

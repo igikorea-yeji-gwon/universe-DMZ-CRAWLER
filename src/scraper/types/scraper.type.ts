@@ -1,4 +1,3 @@
-
 export interface PagedResult<T> {
   data: T[];
   total: number;
@@ -72,6 +71,7 @@ export interface TargetScraperConfig {
   // userId: number;
   description?: string;
   enabled?: boolean;
+  useListSession?: boolean;
   lastExecutedAt?: Date;
   // 분류 추가?
 }
@@ -118,6 +118,7 @@ export interface scrapConfig {
   steps: Record<string, any>[];
   description: string;
   enabled: boolean;
+  useListSession?: boolean;
 }
 
 export interface ScrapConfigAllData extends scrapConfig {

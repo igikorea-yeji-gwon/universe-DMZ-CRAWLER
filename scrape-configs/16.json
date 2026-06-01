@@ -6,7 +6,9 @@
   "startUrl": [
     "https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=4&menuId=57"
   ],
-  "scheduleTime": ["09:00"],
+  "scheduleTime": [
+    "09:00"
+  ],
   "enabled": false,
   "webhook": true,
   "steps": [
@@ -15,8 +17,14 @@
       "type": "formSubmit",
       "params": {
         "fields": [
-          { "selector": "select#searchCondition", "value": "REMARK" },
-          { "selector": "input#searchKeyword",    "value": "dmz" }
+          {
+            "selector": "select#searchCondition",
+            "value": "REMARK"
+          },
+          {
+            "selector": "input#searchKeyword",
+            "value": "dmz"
+          }
         ],
         "submitSelector": "button[onclick*='searchIt']"
       }
@@ -71,6 +79,6 @@
     }
   ],
   "createdAt": "2026-06-01T00:00:00.000Z",
-  "updatedAt": "2026-06-01T00:00:00.000Z",
-  "lastExecutedAt": null
+  "updatedAt": "2026-06-01T05:12:19.886Z",
+  "lastExecutedAt": "2026-06-01T05:12:19.886Z"
 }

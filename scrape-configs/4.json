@@ -17,7 +17,11 @@
       "type": "detailLinks",
       "params": {
         "selector": "table.skinTb.skinTb-data-resList.skinTb-data-bgEven tbody tr td.skinTb-sbj a",
-        "attribute": "href"
+        "attribute": "onclick",
+        "customTransform": {
+          "pattern": "goPage\\((\\d+)\\).*",
+          "output": "/portal/community/notice/inje?articleSeq=${1}&searchCondition=CONTENT&searchKeyword=dmz"
+        }
       }
     },
     {
@@ -62,6 +66,6 @@
     }
   ],
   "createdAt": "2026-05-26T00:00:00.000Z",
-  "updatedAt": "2026-05-26T00:00:00.000Z",
-  "lastExecutedAt": null
+  "updatedAt": "2026-06-01T05:09:21.128Z",
+  "lastExecutedAt": "2026-06-01T05:09:21.128Z"
 }

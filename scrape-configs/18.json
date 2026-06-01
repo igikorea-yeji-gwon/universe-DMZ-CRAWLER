@@ -6,7 +6,9 @@
   "startUrl": [
     "https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=5&menuId=55"
   ],
-  "scheduleTime": ["09:00"],
+  "scheduleTime": [
+    "09:00"
+  ],
   "enabled": false,
   "webhook": true,
   "steps": [
@@ -15,8 +17,14 @@
       "type": "formSubmit",
       "params": {
         "fields": [
-          { "selector": "select#searchCondition", "value": "REMARK" },
-          { "selector": "input#searchKeyword",    "value": "dmz" }
+          {
+            "selector": "select#searchCondition",
+            "value": "REMARK"
+          },
+          {
+            "selector": "input#searchKeyword",
+            "value": "dmz"
+          }
         ],
         "submitSelector": "button[onclick*='searchIt']"
       }
@@ -25,7 +33,7 @@
       "id": "step-002",
       "type": "detailLinks",
       "params": {
-        "selector": "table#boardList tbody tr td.subject a",
+        "selector": "a.thumbnail[href*='boardView.do']",
         "attribute": "href"
       }
     },
@@ -40,14 +48,14 @@
             "selector": "div.s-v-board-default div.header h2"
           },
           {
-            "name": "writer-list",
+            "name": "writer",
             "type": "uniqueText",
-            "selector": "table#boardList tbody tr td:nth-child(4)"
+            "selector": "div.s-v-board-default div.header dl dd"
           },
           {
             "name": "writedate-list",
             "type": "uniqueText",
-            "selector": "table#boardList tbody tr td:nth-child(5)"
+            "selector": "a.thumbnail[href*='boardView.do'] span.info"
           },
           {
             "name": "content",
@@ -71,6 +79,6 @@
     }
   ],
   "createdAt": "2026-06-01T00:00:00.000Z",
-  "updatedAt": "2026-06-01T00:00:00.000Z",
-  "lastExecutedAt": null
+  "updatedAt": "2026-06-01T05:52:47.913Z",
+  "lastExecutedAt": "2026-06-01T05:52:47.913Z"
 }
