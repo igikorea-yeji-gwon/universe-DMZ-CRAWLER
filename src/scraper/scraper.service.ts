@@ -4,6 +4,7 @@ import {
   OnModuleDestroy,
   OnModuleInit,
 } from '@nestjs/common';
+import { createHash } from 'crypto';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { UtilService } from 'src/common/util.service';
 import { format } from 'date-fns';
@@ -20,6 +21,7 @@ import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 interface ScrapeConfig {
   startUrl: string[];
   id: any;
+  origin_id?: number;
   steps: any[];
   webhook?: boolean;
   useListSession?: boolean;
@@ -113,9 +115,18 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     listData?: Record<string, string>,
     webhook = true,
     sharedContext?: BrowserContext,
+    originId = 0,
   ) {
     this.logger.log(`▶ [${configId}] ${url}`);
     if (url.includes('sections-offices/')) return;
+
+    const articleHash = createHash('md5').update(url).digest('hex').slice(0, 8);
+
+    const alreadySaved = originId > 0 && await this.s3Service.articleExists(originId, articleHash);
+    if (alreadySaved) {
+      this.logger.log(`[${configId}] 이미 저장된 기사 skip (S3): ${url}`);
+      return null;
+    }
 
     const ownsContext = !sharedContext;
     const context =
@@ -181,9 +192,23 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         }
       }
 
+      const dmzPattern = /dmz/i;
+      let dmzChecked = false;
+
       for (const target of targets) {
         // '-list' 타겟은 리스트에서 이미 추출했으므로 skip
         if (target.name.endsWith('-list')) continue;
+
+        // 미디어 타겟 직전 DMZ 검수 — 한 번만 체크
+        if (!dmzChecked && (target.type === 'images' || target.type === 'file')) {
+          dmzChecked = true;
+          const titleStr   = String(temp.title   ?? '');
+          const contentStr = String(temp.content  ?? '');
+          if (!dmzPattern.test(titleStr) && !dmzPattern.test(contentStr)) {
+            this.logger.log(`[${configId}] DMZ 검수 실패 → 미디어 skip: ${url}`);
+            return null;
+          }
+        }
 
         // 1) 기본값 세팅
         let dataDefault: any;
@@ -251,21 +276,33 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
             data = await this.mediaDownloadService.handleImagesStep(
               page,
               target,
-              configId,
+              originId,
               webhook,
+              articleHash,
             );
           } else if (target.type === 'file') {
-            data = await this.mediaDownloadService.handleFileStep(
-              page,
-              target,
-              configId,
-              temp['title'],
-              webhook,
-            );
-            if (data === null) {
-              console.warn(`⚠️ 비정상 파일 감지, 기사 skip: ${url}`);
-              await page.close();
-              return null;
+            const selectorExists = (await page.locator(target.selector).count()) > 0;
+            if (!selectorExists) {
+              data = target.optional ? [] : null;
+              if (!target.optional) {
+                console.warn(`⚠️ 비정상 파일 감지, 기사 skip: ${url}`);
+                await page.close();
+                return null;
+              }
+            } else {
+              data = await this.mediaDownloadService.handleFileStep(
+                page,
+                target,
+                originId,
+                temp['title'],
+                webhook,
+                articleHash,
+              );
+              if (data === null) {
+                console.warn(`⚠️ 비정상 파일 감지, 기사 skip: ${url}`);
+                await page.close();
+                return null;
+              }
             }
           }
         } catch {
@@ -309,6 +346,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
       }
 
       temp.currentUrl = url;
+      temp._originId   = originId;
+      temp._hash       = articleHash;
+
       return temp;
     } catch (e) {
       console.error(`❌ scrapeOne 전체 실패 (${url}):`, e.message);
@@ -333,27 +373,31 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
     const webhook = config.webhook ?? true;
     const useListSession = this.shouldUseListSession(config);
+    const originId = config.origin_id ?? 0;
     const tasks = config.startUrl.map((url) =>
       limit(() =>
-        this.scrapeUrl(url, config.steps, config.id, webhook, useListSession),
+        this.scrapeUrl(url, config.steps, config.id, webhook, useListSession, originId),
       ),
     );
 
     const pagesData = await Promise.all(tasks);
-    const scraperData = pagesData.flat();
+    // scrapeOne에서 DMZ 검수 실패 시 null 반환 → 제거
+    const scraperData = pagesData.flat().filter(Boolean);
 
-    const dmzPattern = /dmz/i;
-    const filtered = scraperData.filter((item) => {
-      const title = String(item?.title ?? '');
-      const content = String(item?.content ?? '');
-      return dmzPattern.test(title) || dmzPattern.test(content);
-    });
+    this.logger.log(`[${config.id}] DMZ 검수 완료: ${scraperData.length}건 통과`);
 
-    this.logger.log(
-      `[${config.id}] DMZ 검수: ${scraperData.length}건 수집 → ${filtered.length}건 통과`,
+    // 검수 통과한 기사 meta.json 저장
+    await Promise.all(
+      scraperData.map((item) => {
+        const { _originId, _hash, ...meta } = item;
+        if (!_originId || !_hash) return;
+        return this.s3Service.saveArticleMeta(_originId, _hash, meta).catch((e) =>
+          this.logger.warn(`meta.json 저장 실패: ${e.message}`),
+        );
+      }),
     );
 
-    return { configId: config.id, data: filtered };
+    return { configId: config.id, data: scraperData };
   }
 
   /**
@@ -365,6 +409,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     configId: any,
     webhook = true,
     useListSession = false,
+    originId = 0,
   ): Promise<any[]> {
     console.log('scrapeUrl-ID : ', configId);
 
@@ -487,6 +532,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
                 detailUrlIndexes.map((index) => listDataArray[index]),
                 webhook,
                 useListSession ? context : undefined,
+                originId,
               );
               if (Array.isArray(scrapResults)) {
                 results.push(...scrapResults);
@@ -574,6 +620,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     listDataArray?: Record<string, string>[],
     webhook = true,
     sharedContext?: BrowserContext,
+    originId = 0,
   ): Promise<any[]> {
     const results: any[] = [];
     for (let i = 0; i < detailUrls.length; i++) {
@@ -586,6 +633,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         listData,
         webhook,
         sharedContext,
+        originId,
       );
       if (Array.isArray(pageResults)) {
         results.push(...pageResults);

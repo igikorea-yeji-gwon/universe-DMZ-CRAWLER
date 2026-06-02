@@ -90,6 +90,7 @@ export interface PromptParams {
 
 export interface ScrapeConfig {
   id?: number;
+  origin_id?: number;
   name: string;
   scheduleTime: string[];
   baseUrl: string;
@@ -100,8 +101,6 @@ export interface ScrapeConfig {
   description?: string;
   enabled?: boolean;
   lastExecutedAt?: Date;
-  // userId: number;
-  // 분류 추가?
 }
 
 export interface AddScrapConfigRequest {
@@ -111,6 +110,7 @@ export interface AddScrapConfigRequest {
 
 export interface scrapConfig {
   id?: number;
+  origin_id?: number;
   name: string;
   scheduleTime: string[];
   baseUrl: string;

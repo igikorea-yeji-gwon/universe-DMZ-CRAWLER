@@ -23,7 +23,7 @@ export class MediaDownloadService {
    * 브라우저 세션의 쿠키/인증 정보를 사용하여 보호된 이미지도 다운로드할 수 있다.
    * SVG 이미지는 건너뛴다.
    */
-  async handleImagesStep(page: Page, target: any, configId: number, webhook = true) {
+  async handleImagesStep(page: Page, target: any, originId: number, webhook = true, articleHash = 'unknown') {
     const { selector, captionSelector, containerSelector } = target;
     // 1) selector에 해당하는 모든 이미지 URL 및 캡션 추출
     const items = await page.$$eval(
@@ -105,7 +105,8 @@ export class MediaDownloadService {
           ext,
           'img',
           `${Date.now()}_${i}`,
-          configId,
+          originId,
+          articleHash,
         );
 
         results.push({
@@ -125,7 +126,7 @@ export class MediaDownloadService {
    * 파일명에서 공백/쉼표를 제거하고, 확장자가 없으면 .pdf를 추가한다.
    * KDI 사이트의 경우 특별한 클릭 처리를 수행한다.
    */
-  async handleFileStep(page: Page, target: any, configId: number, title?: string, webhook = true) {
+  async handleFileStep(page: Page, target: any, originId: number, title?: string, webhook = true, articleHash = 'unknown') {
     let { selector } = target;
 
     // 73번 파일 시각화 클릭 필요
@@ -167,7 +168,7 @@ export class MediaDownloadService {
             await fs.mkdir(path.dirname(tempPath), { recursive: true });
             await fs.writeFile(tempPath, buffer);
 
-            const key = await this.s3Service.saveFileToS3(tempPath, configId, originalName);
+            const key = await this.s3Service.saveFileToS3(tempPath, originId, originalName, articleHash);
             await fs.unlink(tempPath);
             output.push({ originalName, s3Path: key });
           } catch (e) {
@@ -209,7 +210,7 @@ export class MediaDownloadService {
             await fs.mkdir(path.dirname(tempPath), { recursive: true });
             await fs.writeFile(tempPath, buffer);
 
-            const key = await this.s3Service.saveFileToS3(tempPath, configId, originalName);
+            const key = await this.s3Service.saveFileToS3(tempPath, originId, originalName, articleHash);
             await fs.unlink(tempPath);
             output.push({ originalName, s3Path: key });
           } catch (hrefErr) {

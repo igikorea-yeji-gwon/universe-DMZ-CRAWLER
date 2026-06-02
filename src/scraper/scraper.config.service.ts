@@ -447,4 +447,8 @@ export class ScraperConfigService implements OnModuleInit {
     const { pageSize = 10, pageNumber = 1 } = dto;
     return { total: 0, pageSize, pageNumber, data: [] };
   }
+
+  async getFilesByOrigin(originId: number) {
+    return this.s3Service.listFilesByOrigin(originId);
+  }
 }

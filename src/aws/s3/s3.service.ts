@@ -7,6 +7,7 @@ import {
   ListObjectsV2Command,
   DeleteObjectCommand,
 } from '@aws-sdk/client-s3';
+import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 import * as stream from 'stream';
 import { Upload } from '@aws-sdk/lib-storage';
 import { v4 as uuid } from 'uuid';
@@ -174,14 +175,10 @@ export class S3Service {
   //   return scraperData;
   // }
 
-  async saveFileToS3(tempPath: string, configId: number, originalName: string) {
+  async saveFileToS3(tempPath: string, originId: number, originalName: string, articleHash = 'unknown') {
     const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
-    const today = moment().format('YYYY-MM-DD');
-    // const uuidName = `${uuid()}_${originalName}`;
     const uuidName = `${originalName}`;
-    const category = 'file';
-    const configName = `${configId}`;
-    const key = `news-crawler/file/${configName}/${today}/${category}/${uuidName}`;
+    const key = `news-crawler/articles/${originId}/${articleHash}/files/${uuidName}`;
 
     // 3) S3 업로드
     const fileBuffer = await fs.readFile(tempPath);
@@ -208,14 +205,13 @@ export class S3Service {
     ext: string,
     category: string,
     filenameBase = '',
-    configId: number,
+    originId: number,
+    articleHash = 'unknown',
   ) {
-    const configName = `${configId}`;
-    const today = moment().format('YYYY-MM-DD');
     const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
     const base = filenameBase || uuid();
     const filename = `${base}${ext}`;
-    const key = `news-crawler/file/${configName}/${today}/${category}/${filename}`;
+    const key = `news-crawler/articles/${originId}/${articleHash}/img/${filename}`;
 
     // 확장자에 따라 MIME 타입 결정
     let contentType = 'application/octet-stream';
@@ -242,6 +238,71 @@ export class S3Service {
     // );
 
     // return `s3://${bucket}/${key}`;
+  }
+
+  async articleExists(originId: number, articleHash: string): Promise<boolean> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const prefix = `news-crawler/articles/${originId}/${articleHash}/`;
+    const res = await this.s3.send(
+      new ListObjectsV2Command({ Bucket: bucket, Prefix: prefix, MaxKeys: 1 }),
+    );
+    return (res.Contents?.length ?? 0) > 0;
+  }
+
+  async saveArticleMeta(originId: number, articleHash: string, data: Record<string, any>): Promise<string> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const key = `news-crawler/articles/${originId}/${articleHash}/meta.json`;
+    await this.s3.send(
+      new PutObjectCommand({
+        Bucket: bucket,
+        Key: key,
+        Body: JSON.stringify(data, null, 2),
+        ContentType: 'application/json',
+      }),
+    );
+    return `s3://${bucket}/${key}`;
+  }
+
+  async listFilesByOrigin(originId: number): Promise<any[]> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const prefix = `news-crawler/articles/${originId}/`;
+
+    // 1) meta.json 키만 수집
+    const metaKeys: string[] = [];
+    let continuationToken: string | undefined;
+    do {
+      const res = await this.s3.send(
+        new ListObjectsV2Command({ Bucket: bucket, Prefix: prefix, ContinuationToken: continuationToken }),
+      );
+      for (const obj of res.Contents ?? []) {
+        if (obj.Key?.endsWith('meta.json')) metaKeys.push(obj.Key);
+      }
+      continuationToken = res.IsTruncated ? res.NextContinuationToken : undefined;
+    } while (continuationToken);
+
+    // 2) 각 meta.json 읽어서 s3Path → presigned URL 변환
+    const toPresigned = (s3Path: string) => {
+      const key = s3Path.replace(`s3://${bucket}/`, '');
+      return getSignedUrl(this.s3, new GetObjectCommand({ Bucket: bucket, Key: key }), { expiresIn: 3600 });
+    };
+
+    const results: any[] = [];
+    for (const metaKey of metaKeys) {
+      try {
+        const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: metaKey }));
+        const body = await obj.Body?.transformToString('utf-8');
+        const { img = [], file = [], ...meta } = JSON.parse(body ?? '{}');
+
+        const [images, files] = await Promise.all([
+          Promise.all((img as any[]).filter(i => i?.s3Path).map(i => toPresigned(i.s3Path))),
+          Promise.all((file as any[]).filter(f => f?.s3Path).map(f => toPresigned(f.s3Path))),
+        ]);
+
+        results.push({ ...meta, images, files });
+      } catch { /* meta.json 파싱 실패 시 skip */ }
+    }
+
+    return results;
   }
 
   async saveLogToS3(configId: number, log: Record<string, any>): Promise<void> {

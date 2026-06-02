@@ -262,4 +262,11 @@ export class ScraperConfigController {
   async mockvideoScrap() {
     return this.scraperConfigService.videoTest();
   }
+
+  @Get('download/:originId')
+  @ApiOperation({ summary: 'origin_id 기준 S3 수집파일 목록 반환 (presigned URL 포함)' })
+  @ApiParam({ name: 'originId', type: Number, example: 11 })
+  async downloadByOrigin(@Param('originId', ParseIntPipe) originId: number) {
+    return this.scraperConfigService.getFilesByOrigin(originId);
+  }
 }
