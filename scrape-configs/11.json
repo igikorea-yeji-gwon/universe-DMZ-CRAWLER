@@ -8,9 +8,9 @@
     "https://www.foresttrip.go.kr/pot/cc/nm/selectNticBbrssListView.do?hmpgId=FRTRL&nowPage=1&bbrssMsterId=BBRSSMSTER_00000001&srchType=twbbsSubjc&srwrd=DMZ&wrdtBgn=&wrdtEnd="
   ],
   "scheduleTime": [
-    "09:00"
+    "11:00"
   ],
-  "enabled": false,
+  "enabled": true,
   "webhook": true,
   "steps": [
     {

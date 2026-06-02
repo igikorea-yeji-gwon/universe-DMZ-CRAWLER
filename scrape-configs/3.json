@@ -10,7 +10,7 @@
   "scheduleTime": [
     "09:00"
   ],
-  "enabled": false,
+  "enabled": true,
   "webhook": true,
   "steps": [
     {

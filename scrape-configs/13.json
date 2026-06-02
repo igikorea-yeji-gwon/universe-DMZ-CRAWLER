@@ -8,9 +8,9 @@
     "https://komount.or.kr/board/list.do?selectedId=&boardCode=B01&pageIndex=1&searchKeyword=DMZ"
   ],
   "scheduleTime": [
-    "09:00"
+    "12:00"
   ],
-  "enabled": false,
+  "enabled": true,
   "webhook": true,
   "useListSession": true,
   "steps": [

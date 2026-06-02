@@ -8,9 +8,9 @@
     "https://www.dmzmuseum.com/museum/community/media?pageIndex=1&mode=&firstYN=N&searchCondition=TITLE&searchKeyword=dmz"
   ],
   "scheduleTime": [
-    "09:00"
+    "10:00"
   ],
-  "enabled": false,
+  "enabled": true,
   "webhook": true,
   "steps": [
     {

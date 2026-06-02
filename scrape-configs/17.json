@@ -8,9 +8,9 @@
     "https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=5&menuId=55"
   ],
   "scheduleTime": [
-    "09:00"
+    "13:00"
   ],
-  "enabled": false,
+  "enabled": true,
   "webhook": true,
   "steps": [
     {

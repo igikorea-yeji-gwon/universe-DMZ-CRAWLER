@@ -47,7 +47,22 @@ export class ScraperConfigService implements OnModuleInit {
     return { total: 0, pageSize, pageNumber, data: [] };
   }
 
-  async onModuleInit() {}
+  async onModuleInit() {
+    const configs = this.jsonConfigService.findAll();
+    const enabledTimes = new Set<string>();
+
+    for (const config of configs) {
+      if (!config.enabled) continue;
+      for (const time of config.scheduleTime ?? []) {
+        if (!enabledTimes.has(time)) {
+          this.setCronJobForTime(time);
+          enabledTimes.add(time);
+        }
+      }
+    }
+
+    this.logger.log(`✅ 스케줄 등록 완료: ${[...enabledTimes].join(', ') || '없음'}`);
+  }
 
   async getScraperTargets() {
     return this.jsonConfigService.findAll();
