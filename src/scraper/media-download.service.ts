@@ -170,7 +170,8 @@ export class MediaDownloadService {
 
             const key = await this.s3Service.saveFileToS3(tempPath, originId, originalName, articleHash);
             await fs.unlink(tempPath);
-            output.push({ originalName, s3Path: key });
+            const fileTy1 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
+            output.push({ originalName, s3Path: key, file_ty: fileTy1 });
           } catch (e) {
             console.warn(`⚠️ KINU fileDown1 다운로드 실패 (${(e as Error).message})`);
           }
@@ -212,7 +213,8 @@ export class MediaDownloadService {
 
             const key = await this.s3Service.saveFileToS3(tempPath, originId, originalName, articleHash);
             await fs.unlink(tempPath);
-            output.push({ originalName, s3Path: key });
+            const fileTy2 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
+            output.push({ originalName, s3Path: key, file_ty: fileTy2 });
           } catch (hrefErr) {
             console.warn(`⚠️ href fallback 실패 (${(hrefErr as Error).message}), 다음으로 넘어갑니다`);
           }
@@ -259,7 +261,8 @@ export class MediaDownloadService {
       );
       await fs.unlink(tempPath);
 
-      output.push({ originalName, s3Path: key });
+      const fileTy3 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
+      output.push({ originalName, s3Path: key, file_ty: fileTy3 });
     }
 
     // 비정상 확장자(.do 등) 또는 확장자 없는 파일이 포함되면 null 리턴 → 기사 skip
