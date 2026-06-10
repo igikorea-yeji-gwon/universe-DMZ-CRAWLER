@@ -15,6 +15,8 @@ import { ProcessService } from 'src/common/utils/scrapProcess/process.service';
 import { GeminiAnalyzerService } from 'src/common/utils/geminiAnalyze/gemini-analyzer.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { JsonConfigService } from './json-config.service';
+import { CubridService } from 'src/database/cubrid.service';
+import { NewsSyncService } from 'src/news/news-sync.service';
 
 @Module({
   imports: [ScheduleModule.forRoot()],
@@ -33,6 +35,8 @@ import { JsonConfigService } from './json-config.service';
     GeminiAnalyzerService,
     GoogleChatService,
     JsonConfigService,
+    CubridService,
+    NewsSyncService,
   ],
 })
 export class ScraperModule {}

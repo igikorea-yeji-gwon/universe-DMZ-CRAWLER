@@ -116,8 +116,8 @@ export interface scrapConfig {
   baseUrl: string;
   startUrl: string[];
   steps: Record<string, any>[];
-  description: string;
-  enabled: boolean;
+  description?: string;
+  enabled?: boolean;
   useListSession?: boolean;
 }
 

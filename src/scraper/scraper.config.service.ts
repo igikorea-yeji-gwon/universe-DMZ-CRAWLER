@@ -24,6 +24,7 @@ import {
   initListJson,
 } from 'src/openai/openai.entity';
 import { ListConfigDto, ListLogDto, ScrapedDataDto } from './dto/scraperDtos';
+import { NewsSyncService } from 'src/news/news-sync.service';
 
 @Injectable()
 export class ScraperConfigService implements OnModuleInit {
@@ -36,6 +37,7 @@ export class ScraperConfigService implements OnModuleInit {
     private taskTracker: TaskTrackerService,
     private openAIService: OpenAIService,
     private jsonConfigService: JsonConfigService,
+    private newsSyncService: NewsSyncService,
   ) {}
 
   async fondOneScrapedDate(_id: number) {
@@ -465,5 +467,9 @@ export class ScraperConfigService implements OnModuleInit {
 
   async getFilesByOrigin(originId: number) {
     return this.s3Service.listFilesByOrigin(originId);
+  }
+
+  async syncS3ToDb(originId: number) {
+    return this.newsSyncService.syncOriginToDb(originId);
   }
 }

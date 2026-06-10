@@ -269,4 +269,11 @@ export class ScraperConfigController {
   async downloadByOrigin(@Param('originId', ParseIntPipe) originId: number) {
     return this.scraperConfigService.getFilesByOrigin(originId);
   }
+
+  @Post('sync/:originId')
+  @ApiOperation({ summary: 'S3 meta.json → CUBRID DB 동기화 (origin_id 기준)' })
+  @ApiParam({ name: 'originId', type: Number, example: 11 })
+  async syncToDB(@Param('originId', ParseIntPipe) originId: number) {
+    return this.scraperConfigService.syncS3ToDb(originId);
+  }
 }
