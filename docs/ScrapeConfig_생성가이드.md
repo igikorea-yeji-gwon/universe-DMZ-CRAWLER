@@ -1,0 +1,216 @@
+# 수집 메타데이터 생성 방법
+
+> 명세서를 받으면 `scrape-configs/N.json`을 자동 생성한다.  
+> **사람이 줄 정보는 최소화하고, 나머지는 URL을 직접 분석해서 채운다.**  
+> Step 상세 작성법은 **[`ScrapeConfig_Steps_작성가이드.md`](./ScrapeConfig_Steps_작성가이드.md)** 참조.
+
+---
+
+## 1. 사람이 줘야 할 정보 (최소 명세)
+
+아래 6가지만 있으면 생성 가능하다.
+
+| 항목 | 설명 | 예시 |
+|------|------|------|
+| **config id** | 기존 최댓값 + 1 | `16` |
+| **origin_id** | news_origin 테이블 PK | `16` |
+| **사이트명** | 공식 한글 명칭 | `경기도 DMZ` |
+| **게시판 경로** | 메뉴 depth (name 필드에 사용) | `DMZ 아카이브 > 자료실` |
+| **목록 URL** | DMZ 검색 결과가 나오는 게시판 URL | `https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=4&menuId=57` |
+| 상세페이지 URL | 게시물 하나의 상세 URL (선택, 있으면 빠름) | `https://dmz.gg.go.kr/dmz/bbs/boardView.do?bsIdx=4&menuId=57&idx=123` |
+| **scheduleTime** | 하루 1회 실행 시각 | `12:00` |
+
+> **목록 URL은 가능하면 DMZ 검색어가 포함된 URL로 준다.**  
+> 검색 결과 페이지를 브라우저에서 열고 주소창 URL을 그대로 복사하면 된다.  
+> URL에 검색어가 없어 직접 접근 시 결과가 안 보이는 경우엔 그냥 게시판 URL만 줘도 된다.
+>
+> **상세페이지 URL은 없어도 되지만**, 있으면 제목·날짜·본문·이미지 셀렉터를 바로 잡을 수 있어 분석이 빠르다.  
+> 목록에서 게시물 하나를 클릭한 뒤 주소창 URL을 복사하면 된다.
+
+---
+
+## 2. AI가 분석해서 채우는 것
+
+목록 URL을 받으면 실제 HTML을 분석해 아래를 자동으로 결정한다.
+
+| 항목 | 판단 방법 |
+|------|----------|
+| GET vs POST (formSubmit 여부) | URL 직접 접근 시 결과가 보이면 GET, 기본 목록만 보이면 POST |
+| formSubmit fields / submitSelector | POST인 경우, 검색 폼 HTML에서 input·select·button 셀렉터 추출 |
+| detailLinks selector / attribute | 목록 `<a>` 태그 구조 분석 (href / onclick / javascript / data-* / click) |
+| customTransform | href가 ID만 담고 있거나 JS 경로 추출이 필요한 경우 패턴 작성 |
+| 상세페이지 각 필드 selector | title / writedate / writer / content / img / file |
+| writedate·writer 위치 | 상세페이지에 있으면 거기서, 없으면 `-list`로 목록에서 추출 |
+| paging selector | 페이지 번호 영역 셀렉터 |
+| useListSession | 목록을 거쳐야만 상세가 열리는지 여부 |
+| optional (file/img) | 첨부파일 없는 게시물 비율에 따라 결정 |
+
+---
+
+## 3. Output JSON 구조
+
+```json
+{
+  "id": <number>,
+  "origin_id": <number>,
+  "name": "사이트명: 게시판경로 > DMZ 검색(제목)",
+  "description": "<한 줄 설명>",
+  "baseUrl": "https://example.com",
+  "startUrl": ["<목록 URL>"],
+  "scheduleTime": ["HH:MM"],
+  "enabled": true,
+  "webhook": true,
+  "steps": [
+
+    // ① (POST 사이트만) formSubmit
+    {
+      "id": "step-001",
+      "type": "formSubmit",
+      "params": {
+        "fields": [
+          { "selector": "<조건 select>", "value": "SUBJECT" },
+          { "selector": "<검색어 input>", "value": "dmz" }
+        ],
+        "submitSelector": "<제출 버튼>"
+      }
+    },
+
+    // ② detailLinks
+    {
+      "id": "step-00N",
+      "type": "detailLinks",
+      "params": {
+        "selector": "<목록 링크 selector>",
+        "attribute": "href | onclick | javascript | data-xxx | click",
+        // 필요한 경우에만:
+        "customTransform": {
+          "type": "regex",
+          "pattern": "<캡처 그룹>",
+          "output": "<URL 템플릿 ${1}>"
+        }
+      }
+    },
+
+    // ③ scrapDetail
+    {
+      "id": "step-00N",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          { "name": "title",          "type": "uniqueText",     "selector": "..." },
+          { "name": "writedate",      "type": "uniqueText",     "selector": "..." },
+          { "name": "writer",         "type": "uniqueText",     "selector": "..." },
+          { "name": "content",        "type": "duplicatedText", "selector": "..." },
+          { "name": "img",            "type": "images",         "selector": "..." },
+          { "name": "file", "type": "file", "optional": true,   "selector": "..." }
+        ]
+      }
+    },
+
+    // ④ (선택) paging
+    {
+      "id": "step-00N",
+      "type": "paging",
+      "params": { "selector": "..." }
+    }
+  ]
+}
+```
+
+> `createdAt`, `updatedAt`, `lastExecutedAt`은 자동 생성 — 직접 입력하지 않는다.
+
+---
+
+## 4. name 작성 규칙
+
+```
+사이트명(한글 공식명): 메뉴1 > 메뉴2 > DMZ 검색(제목)
+```
+
+예시:
+- `두루누비(DMZ 평화의 길 공식 사이트): 자료실 > 공지사항 > DMZ 검색(제목)`
+- `경기도 DMZ: DMZ 아카이브 > 자료실 > DMZ 검색(제목)`
+- `숲나들e: 참여마당 > 공지사항 > DMZ 검색(제목)`
+
+---
+
+## 5. 완성 예시 (15.json)
+
+**받은 명세:**
+
+| 항목 | 값 |
+|------|----|
+| config id | `15` |
+| origin_id | `16` |
+| 사이트명 | `경기도 DMZ` |
+| 게시판 경로 | `DMZ 아카이브 > 자료실` |
+| 목록 URL | `https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=4&menuId=57` |
+| scheduleTime | `12:00` |
+
+**URL 분석 결과 → 자동 결정된 내용:**
+- URL 직접 접근 시 기본 목록만 보임 → **POST** (formSubmit 필요)
+- 검색 폼: `select#searchCondition` (SUBJECT), `input#searchKeyword` (dmz), 제출: `button[onclick*='searchIt']`
+- 목록 링크: `<a href="/dmz/bbs/...">` → attribute: `href`
+- 날짜·작성자: 상세페이지에 없고 목록에만 있음 → `-list` 사용
+- 이미지 있음, 파일 없음
+
+**산출된 15.json:**
+```json
+{
+  "id": 15,
+  "origin_id": 16,
+  "name": "경기도 DMZ: DMZ 아카이브 > 자료실 > DMZ 검색(제목)",
+  "description": "경기도 DMZ 포털 자료실 제목 기준 DMZ 검색",
+  "baseUrl": "https://dmz.gg.go.kr",
+  "startUrl": ["https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=4&menuId=57"],
+  "scheduleTime": ["12:00"],
+  "enabled": true,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "formSubmit",
+      "params": {
+        "fields": [
+          { "selector": "select#searchCondition", "value": "SUBJECT" },
+          { "selector": "input#searchKeyword",    "value": "dmz" }
+        ],
+        "submitSelector": "button[onclick*='searchIt']"
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "detailLinks",
+      "params": {
+        "selector": "table#boardList tbody tr td.subject a",
+        "attribute": "href"
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          { "name": "title",          "type": "uniqueText",     "selector": "div.s-v-board-default div.header h2" },
+          { "name": "writer-list",    "type": "uniqueText",     "selector": "table#boardList tbody tr td:nth-child(4)" },
+          { "name": "writedate-list", "type": "uniqueText",     "selector": "table#boardList tbody tr td:nth-child(5)" },
+          { "name": "content",        "type": "duplicatedText", "selector": "div.s-v-board-default div.content" },
+          { "name": "img",            "type": "images",         "selector": "div.s-v-board-default div.content img" }
+        ]
+      }
+    },
+    {
+      "id": "step-004",
+      "type": "paging",
+      "params": { "selector": "ul.pagination" }
+    }
+  ]
+}
+```
+
+---
+
+## 참고
+
+- Step 상세 작성법 전체: **[`ScrapeConfig_Steps_작성가이드.md`](./ScrapeConfig_Steps_작성가이드.md)**
+- news_origin origin_id 목록: CUBRID `SELECT origin_id, origin_nm FROM news_origin ORDER BY origin_id`

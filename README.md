@@ -26,7 +26,9 @@ ScraperService.runWorkflow()
     ├─ HtmlParsingService     → CSS 셀렉터로 텍스트/데이터 추출 (cheerio)
     └─ MediaDownloadService   → 이미지/파일 다운로드 → S3 업로드
     ↓
-JSON 반환 (DB 저장 없음)
+Gemini 영문 번역 (title_en, content_text_en)
+    ↓
+JSON 반환 / S3 meta.json 저장 (DB 저장 없음)
     ↓
 TaskTrackerService.complete() → 실행 로그 S3 저장
 ```
@@ -48,6 +50,11 @@ src/
 │   ├── types/scraper.type.ts        # TypeScript 인터페이스
 │   ├── dto/scraperDtos.ts
 │   └── scraper.module.ts
+│
+├── translation/
+│   ├── translation.controller.ts   # CMS/외부용 번역 API
+│   ├── translation.service.ts      # Gemini 번역 + 긴 본문 분할
+│   └── dto/translation.dto.ts
 │
 ├── aws/s3/
 │   └── s3.service.ts                # S3 업로드/다운로드
@@ -125,7 +132,7 @@ scrape-configs/          # Config JSON 파일 저장 폴더 (id별 파일)
 - `scrapDetail` — 상세 페이지에서 필드 수집
 - `paging` — 다음 페이지로 이동
 
-> 상세 작성 방법은 [ScrapeConfig-README.js](./ScrapeConfig-README.js) 참고
+> 상세 작성 방법은 [ScrapeConfig_Steps_작성가이드.md](./docs/ScrapeConfig_Steps_작성가이드.md) 참고
 
 ---
 
@@ -153,7 +160,10 @@ scrape-configs/          # Config JSON 파일 저장 폴더 (id별 파일)
 | `AWS_BUCKET_NAME` | ✅ | S3 버킷 이름 |
 | `AWS_ACCESS_KEY_ID` | ✅ | AWS 자격증명 |
 | `AWS_SECRET_ACCESS_KEY` | ✅ | AWS 자격증명 |
-| `GEMINI_API_KEY` | ❌ | Gemini AI (날짜 파싱용, 없어도 동작) |
+| `GEMINI_API_KEY` | ❌ | Gemini AI (날짜 파싱/영문 번역, 없으면 번역 API 비활성화) |
+| `GEMINI_TRANSLATION_MODEL` | ❌ | 번역 모델 (기본: `gemini-2.5-flash-lite`) |
+| `GEMINI_TRANSLATION_MAX_CHARS` | ❌ | 번역 요청당 최대 글자 수 (기본: `6000`) |
+| `GEMINI_TRANSLATION_CONCURRENCY` | ❌ | 동시 번역 요청 수 (기본: `2`) |
 | `OPENAI_API_KEY` | ❌ | Config 자동 생성 기능 (`POST /scraper/config/init`) |
 | `GOOGLE_WEB_HOOK` | ❌ | Google Chat 에러 알림 웹훅 URL |
 | `GOOGLE_WEB_HOOK_TIMEOUT` | ❌ | 타임아웃용 대체 웹훅 URL |
@@ -179,8 +189,23 @@ npm run start:dev
 npm run start
 ```
 
+## 번역 API
+
+- `POST /translation/text` - 단일 문자열 번역
+- `POST /translation/fields` - CMS에서 전달한 임의 필드 객체 번역
+- `POST /translation/article` - `title_en`, `writer_en`, `content_en` 형식으로 번역
+
+크롤러는 S3 `meta.json` 저장 전에 뉴스 기본 필드를 자동 번역합니다. 번역에
+실패해도 원문 수집과 저장은 계속됩니다.
+
 ## Swagger 접속
 
 ```
 http://localhost:3000/api
 ```
+
+## 관련 문서
+
+- [ScrapeConfig_Steps_작성가이드.md](./docs/ScrapeConfig_Steps_작성가이드.md) — `steps` 작성법 (detailLinks, scrapDetail, paging 등)
+- [Spring_뉴스적재_API명세서.md](./docs/Spring_뉴스적재_API명세서.md) — Spring 프로젝트의 뉴스 DB 적재 API 명세서
+- [ScrapeConfig_생성가이드.md](./docs/ScrapeConfig_생성가이드.md) — `scrape-configs/N.json` 생성 가이드
