@@ -17,6 +17,7 @@ import { MediaDownloadService } from './media-download.service';
 import { HtmlParsingService } from './html-parsing.service';
 import { PageNavigationService } from './page-navigation.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
+import { TranslationService } from 'src/translation/translation.service';
 
 interface ScrapeConfig {
   startUrl: string[];
@@ -40,6 +41,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     private htmlParsingService: HtmlParsingService,
     private pageNavigationService: PageNavigationService,
     private googleChatService: GoogleChatService,
+    private translationService: TranslationService,
   ) {}
 
   async onModuleInit() {
@@ -386,14 +388,31 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
     this.logger.log(`[${config.id}] DMZ 검수 완료: ${scraperData.length}건 통과`);
 
-    // 검수 통과한 기사 meta.json 저장
+    // 검수 통과한 기사 번역 후 meta.json 저장
     await Promise.all(
-      scraperData.map((item) => {
+      scraperData.map(async (item) => {
         const { _originId, _hash, ...meta } = item;
         if (!_originId || !_hash) return;
-        return this.s3Service.saveArticleMeta(_originId, _hash, meta).catch((e) =>
-          this.logger.warn(`meta.json 저장 실패: ${e.message}`),
-        );
+
+        this.logger.log(`[${config.id}] 번역 시작: "${meta.title ?? ''}"`);
+        try {
+          const translated = await this.translationService.translateArticle(meta);
+          meta.title_en = translated.title_en ?? '';
+          meta.content_text_en = translated.content_en ?? '';
+          this.logger.log(
+            `[${config.id}] 번역 완료: title_en="${meta.title_en.slice(0, 50)}..."`,
+          );
+        } catch (e) {
+          this.logger.warn(
+            `[${config.id}] 영문 번역 실패, 원문만 저장: ${e.message}`,
+          );
+        }
+
+        return this.s3Service
+          .saveArticleMeta(_originId, _hash, meta)
+          .catch((e) =>
+            this.logger.warn(`meta.json 저장 실패: ${e.message}`),
+          );
       }),
     );
 

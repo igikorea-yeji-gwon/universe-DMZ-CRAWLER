@@ -23,7 +23,7 @@ import {
   initDetailJson,
   initListJson,
 } from 'src/openai/openai.entity';
-import { ListConfigDto, ListLogDto, ScrapedDataDto } from './dto/scraperDtos';
+import { ListConfigDto } from './dto/scraperDtos';
 
 @Injectable()
 export class ScraperConfigService implements OnModuleInit {
@@ -37,15 +37,6 @@ export class ScraperConfigService implements OnModuleInit {
     private openAIService: OpenAIService,
     private jsonConfigService: JsonConfigService,
   ) {}
-
-  async fondOneScrapedDate(_id: number) {
-    return [];
-  }
-
-  async findScrapData(dto: ScrapedDataDto): Promise<PagedResult<any>> {
-    const { pageSize = 10, pageNumber = 1 } = dto;
-    return { total: 0, pageSize, pageNumber, data: [] };
-  }
 
   async onModuleInit() {
     const configs = this.jsonConfigService.findAll();
@@ -378,13 +369,6 @@ export class ScraperConfigService implements OnModuleInit {
     return { ...listJson, ...detailJson };
   }
 
-  async getLogById(_id: number) {
-    return null;
-  }
-
-  async getLatestLogs(_limit = 20) {
-    return [];
-  }
 
   async listConfigs(
     dto: ListConfigDto,
@@ -399,68 +383,6 @@ export class ScraperConfigService implements OnModuleInit {
       endDate,
     });
     return { data, total, pageSize, pageNumber };
-  }
-
-  async listLogs(dto: ListLogDto) {
-    const { pageSize, pageNumber } = dto;
-    return { total: 0, pageSize, pageNumber, data: [] };
-  }
-
-  async runScrep(id?) {
-    const found = this.jsonConfigService.findById(Number(id) ?? 7);
-    const scheduleConfigs = found ? [found] : [];
-
-    const scraperResult: WorkflowResult = await this.scraperService.runWorkflow(
-      scheduleConfigs[0],
-    );
-
-    this.jsonConfigService.updateLastExecutedAt(scraperResult.configId);
-    this.logger.log(`✅ 스크래핑 완료 - ${scraperResult.data.length}건`);
-
-    return scraperResult.data;
-  }
-
-  /**
-   * 신규 스크래퍼 대상을 동적으로 작업을 등록합니다.
-   */
-  async addScrapeConfigAndJobs(target: scrapConfig): Promise<boolean> {
-    try {
-      const configWithoutId = omit(target, 'id') as scrapConfig;
-      const newConfig = this.jsonConfigService.create(configWithoutId);
-
-      // for (const time of newConfig.scheduleTime) {
-      //   try {
-      //     this.setCronJobForTime(time);
-      //   } catch (cronErr) {
-      //     this.logger.error(
-      //       `⛔️ CronJob 등록 실패 (ID: ${newConfig.id})`,
-      //       cronErr.stack || cronErr,
-      //     );
-      //     // 상황에 따라 예외 던지기 or 무시하고 진행
-      //     throw new InternalServerErrorException(`크론 잡 등록 실패 (${time})`);
-      //   }
-      // }
-
-      this.logger.log(`✅ 스케줄러 등록 완료: ${newConfig.id}`);
-      return true;
-    } catch (err) {
-      this.logger.error(`💥 Unknown Error: ${err.message}`, err.stack);
-      throw new InternalServerErrorException(
-        '스케줄 등록 중 알 수 없는 오류가 발생했습니다.',
-      );
-    }
-  }
-
-  async videoTest() {
-    const pageUrl =
-      // 'https://munitv.unikorea.go.kr/unitv/web/vod/view.do?id=6367&aid=18';
-      'https://www.rfa.org/english/video/united-nations-general-assembly-holds-session-on-human-rights-abuses-in-north-korea/';
-    this.scraperService.videoScrap(pageUrl);
-  }
-
-  async getScrapData(dto: ScrapedDataDto) {
-    const { pageSize = 10, pageNumber = 1 } = dto;
-    return { total: 0, pageSize, pageNumber, data: [] };
   }
 
   async getFilesByOrigin(originId: number) {

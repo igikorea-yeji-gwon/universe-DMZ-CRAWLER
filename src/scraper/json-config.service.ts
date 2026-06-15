@@ -1,4 +1,4 @@
-import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import * as fs from 'fs';
 import * as path from 'path';
 import { scrapConfig, ScrapConfigAllData } from './types/scraper.type';
@@ -9,13 +9,13 @@ const CONFIG_DIR =
   path.join(process.cwd(), 'scrape-configs');
 
 @Injectable()
-export class JsonConfigService implements OnModuleInit {
+export class JsonConfigService {
   private readonly logger = new Logger(JsonConfigService.name);
 
   /** 인메모리 캐시: id → config */
   private cache = new Map<number, ScrapConfigAllData>();
 
-  onModuleInit() {
+  constructor() {
     this.loadAll();
   }
 

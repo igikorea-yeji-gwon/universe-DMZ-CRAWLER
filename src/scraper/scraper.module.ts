@@ -15,9 +15,10 @@ import { ProcessService } from 'src/common/utils/scrapProcess/process.service';
 import { GeminiAnalyzerService } from 'src/common/utils/geminiAnalyze/gemini-analyzer.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { JsonConfigService } from './json-config.service';
+import { TranslationModule } from 'src/translation/translation.module';
 
 @Module({
-  imports: [ScheduleModule.forRoot()],
+  imports: [ScheduleModule.forRoot(), TranslationModule],
   controllers: [ScraperConfigController],
   providers: [
     ScraperConfigService,
