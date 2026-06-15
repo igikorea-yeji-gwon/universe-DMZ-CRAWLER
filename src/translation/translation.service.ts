@@ -216,10 +216,11 @@ export class TranslationService {
       'If the source contains HTML tags (e.g., <p>, <br>, <a>, <strong>, <ul>, <li>), preserve every tag, attribute, and the overall HTML structure exactly as-is — translate only the human-readable text inside the tags, and do not add, remove, or reorder tags.',
       'Tokens of the form @@PLACEn@@ are placeholders for place names — copy them to the output exactly as written, without translating, modifying, or removing them.',
       'For any Korean administrative place names that are NOT wrapped in a @@PLACEn@@ placeholder (e.g., 시/도/군/구/읍/면/동/리), romanize them using the Revised Romanization of Korean and keep the administrative unit as a hyphenated suffix (e.g., 옹진군 → Ongjin-gun, 파주시 → Paju-si) instead of translating the suffix into words like "County" or "City".',
+      'The "=== TEXT START ===" and "=== TEXT END ===" markers below only delimit the input — they are not part of the content. Do not include them, or any similar marker, in your output.',
       '',
-      '<source>',
+      '=== TEXT START ===',
       text,
-      '</source>',
+      '=== TEXT END ===',
     ].join('\n');
 
     try {
