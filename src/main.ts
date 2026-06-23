@@ -32,6 +32,11 @@ async function bootstrap() {
   app.use(json({ limit: '50mb' }));
   app.use(urlencoded({ limit: '50mb', extended: true }));
 
+  const server = app.getHttpServer();
+  server.setTimeout(120_000);
+  server.keepAliveTimeout = 120_000;
+  server.headersTimeout = 121_000;
+
   await app.listen(3000);
 }
 bootstrap();
