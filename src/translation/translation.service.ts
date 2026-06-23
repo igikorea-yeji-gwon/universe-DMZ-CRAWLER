@@ -14,6 +14,11 @@ export interface TranslationOptions {
   targetLanguage?: string;
 }
 
+// 고정 번역이 필요한 전문 용어 (Gemini가 매번 다르게 번역하는 것 방지)
+const TERM_DICTIONARY: Record<string, string> = {
+  'DMZ·접경지역': 'DMZ and Border Area',
+};
+
 // DMZ 인접 행정구역명 → 정부 표준 로마자 표기 (의미 번역이 아닌 음역 고정)
 const PLACE_NAME_DICTIONARY: Record<string, string> = {
   인천광역시: 'Incheon',
@@ -91,8 +96,11 @@ export class TranslationService {
       );
     }
 
+    const { text: termedText, placeholders: termPlaceholders } =
+      this.maskTerms(normalizedText);
+
     const { text: maskedText, placeholders } = this.maskPlaceNames(
-      normalizedText,
+      termedText,
       sourceLanguage,
       targetLanguage,
     );
@@ -108,7 +116,34 @@ export class TranslationService {
       );
     }
 
-    return this.unmaskPlaceNames(translatedChunks.join('\n\n'), placeholders);
+    const unmaskedPlaces = this.unmaskPlaceNames(translatedChunks.join('\n\n'), placeholders);
+    return this.unmaskTerms(unmaskedPlaces, termPlaceholders);
+  }
+
+  private maskTerms(text: string): { text: string; placeholders: Map<string, string> } {
+    const placeholders = new Map<string, string>();
+    let masked = text;
+    let index = 0;
+
+    for (const [korean, english] of Object.entries(TERM_DICTIONARY).sort(
+      ([a], [b]) => b.length - a.length,
+    )) {
+      if (!masked.includes(korean)) continue;
+      const token = `@@TERM${index}@@`;
+      placeholders.set(token, english);
+      masked = masked.split(korean).join(token);
+      index += 1;
+    }
+
+    return { text: masked, placeholders };
+  }
+
+  private unmaskTerms(text: string, placeholders: Map<string, string>): string {
+    let result = text;
+    for (const [token, english] of placeholders) {
+      result = result.split(token).join(english);
+    }
+    return result;
   }
 
   // 행정구역명을 Gemini가 의미 번역하지 못하도록 플레이스홀더로 치환
@@ -214,7 +249,7 @@ export class TranslationService {
       'Preserve paragraph breaks, URLs, numbers, proper nouns, and the original meaning.',
       'Use a natural, factual news-writing style. Do not summarize or omit content.',
       'If the source contains HTML tags (e.g., <p>, <br>, <a>, <strong>, <ul>, <li>), preserve every tag, attribute, and the overall HTML structure exactly as-is — translate only the human-readable text inside the tags, and do not add, remove, or reorder tags.',
-      'Tokens of the form @@PLACEn@@ are placeholders for place names — copy them to the output exactly as written, without translating, modifying, or removing them.',
+      'Tokens of the form @@PLACEn@@ or @@TERMn@@ are placeholders — copy them to the output exactly as written, without translating, modifying, or removing them.',
       'For any Korean administrative place names that are NOT wrapped in a @@PLACEn@@ placeholder (e.g., 시/도/군/구/읍/면/동/리), romanize them using the Revised Romanization of Korean and keep the administrative unit as a hyphenated suffix (e.g., 옹진군 → Ongjin-gun, 파주시 → Paju-si) instead of translating the suffix into words like "County" or "City".',
       'The "=== TEXT START ===" and "=== TEXT END ===" markers below only delimit the input — they are not part of the content. Do not include them, or any similar marker, in your output.',
       '',
@@ -258,6 +293,7 @@ export class TranslationService {
 
   private splitText(text: string): string[] {
     if (text.length <= this.maxChunkLength) return [text];
+    if (/<[a-z][\s\S]*?>/i.test(text)) return this.splitHtml(text);
 
     const paragraphs = text.split(/\n{2,}/);
     const chunks: string[] = [];
@@ -284,6 +320,38 @@ export class TranslationService {
 
     if (current) chunks.push(current);
     return chunks;
+  }
+
+  // HTML 콘텐츠를 태그 경계(</tr>, </li>, </p>)에서만 분할해 구조 파손 방지
+  private splitHtml(text: string): string[] {
+    const safeBreaks: number[] = [];
+    const pattern = /<\/(?:tr|li|p)>/gi;
+    let match: RegExpExecArray | null;
+    while ((match = pattern.exec(text)) !== null) {
+      safeBreaks.push(match.index + match[0].length);
+    }
+
+    const chunks: string[] = [];
+    let start = 0;
+
+    while (start < text.length) {
+      const end = start + this.maxChunkLength;
+      if (end >= text.length) {
+        chunks.push(text.slice(start));
+        break;
+      }
+
+      const lastBreak = safeBreaks.filter(pos => pos > start && pos <= end).pop();
+      if (lastBreak) {
+        chunks.push(text.slice(start, lastBreak));
+        start = lastBreak;
+      } else {
+        chunks.push(text.slice(start, end));
+        start = end;
+      }
+    }
+
+    return chunks.filter(c => c.trim().length > 0);
   }
 
   private splitLongParagraph(paragraph: string): string[] {
