@@ -322,13 +322,14 @@ export class TranslationService {
     return chunks;
   }
 
-  // HTML 콘텐츠를 태그 경계(</tr>, </li>, </p>)에서만 분할해 구조 파손 방지
+  // HTML 콘텐츠를 최상위 요소 경계(</table>, </ul>, </p> 등)에서만 분할
+  // 테이블 내부(</tr>)에서 자르면 Gemini가 구조를 망가뜨리므로 절대 하지 않음
   private splitHtml(text: string): string[] {
-    const safeBreaks: number[] = [];
-    const pattern = /<\/(?:tr|li|p)>/gi;
+    const topBreaks: number[] = [];
+    const pattern = /<\/(?:table|ul|ol|div|section|article|p)>/gi;
     let match: RegExpExecArray | null;
     while ((match = pattern.exec(text)) !== null) {
-      safeBreaks.push(match.index + match[0].length);
+      topBreaks.push(match.index + match[0].length);
     }
 
     const chunks: string[] = [];
@@ -341,13 +342,21 @@ export class TranslationService {
         break;
       }
 
-      const lastBreak = safeBreaks.filter(pos => pos > start && pos <= end).pop();
+      // 한계 내에서 자를 수 있는 가장 뒤쪽 최상위 경계 탐색
+      const lastBreak = topBreaks.filter(pos => pos > start && pos <= end).pop();
       if (lastBreak) {
         chunks.push(text.slice(start, lastBreak));
         start = lastBreak;
       } else {
-        chunks.push(text.slice(start, end));
-        start = end;
+        // 한계 내에 경계가 없으면 다음 최상위 경계까지 늘림 (테이블 파손 방지)
+        const nextBreak = topBreaks.find(pos => pos > end);
+        if (nextBreak) {
+          chunks.push(text.slice(start, nextBreak));
+          start = nextBreak;
+        } else {
+          chunks.push(text.slice(start));
+          break;
+        }
       }
     }
 
