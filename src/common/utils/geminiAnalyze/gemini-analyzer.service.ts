@@ -1,4 +1,4 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable, Logger, ServiceUnavailableException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import * as path from 'path';
@@ -82,6 +82,7 @@ export class GeminiAnalyzerService {
       };
     } catch (error) {
       this.logger.error(`이미지 분석 실패: ${error.message}`);
+      this.throwIfUnavailable(error);
       throw error;
     }
   }
@@ -126,9 +127,8 @@ export class GeminiAnalyzerService {
         );
 
       } catch (error) {
-        article.isNkImage.push(
-          'false' //분석 실패
-        );
+        this.throwIfUnavailable(error);
+        article.isNkImage.push('false');
         this.logger.error(`❌ 이미지 ${i + 1} 분석 실패: ${error.message}`);
       }
 
@@ -151,7 +151,16 @@ export class GeminiAnalyzerService {
       return response.response.text().trim();
     } catch (error) {
       this.logger.error(`Gemini 텍스트 요청 실패: ${error.message}`);
+      this.throwIfUnavailable(error);
       throw error;
+    }
+  }
+
+  private throwIfUnavailable(error: Error): void {
+    if (error.message?.includes('503') || error.message?.includes('Service Unavailable')) {
+      throw new ServiceUnavailableException(
+        'Gemini API가 일시적으로 사용 불가합니다. 잠시 후 다시 시도해주세요.',
+      );
     }
   }
 

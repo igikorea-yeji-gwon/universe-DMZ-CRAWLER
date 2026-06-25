@@ -322,14 +322,28 @@ export class TranslationService {
     return chunks;
   }
 
-  // HTML 콘텐츠를 최상위 요소 경계(</table>, </ul>, </p> 등)에서만 분할
-  // 테이블 내부(</tr>)에서 자르면 Gemini가 구조를 망가뜨리므로 절대 하지 않음
+  // HTML 콘텐츠를 테이블 바깥의 블록 요소 경계에서만 분할
+  // 테이블 내부의 </p>, </tr> 등에서 자르면 Gemini가 구조를 망가뜨리므로 절대 하지 않음
   private splitHtml(text: string): string[] {
     const topBreaks: number[] = [];
-    const pattern = /<\/(?:table|ul|ol|div|section|article|p)>/gi;
+    let tableDepth = 0;
+
+    const tokenRegex = /<(\/?)(?:table|ul|ol|div|section|article|p)\b[^>]*>/gi;
     let match: RegExpExecArray | null;
-    while ((match = pattern.exec(text)) !== null) {
-      topBreaks.push(match.index + match[0].length);
+    while ((match = tokenRegex.exec(text)) !== null) {
+      const isClosing = match[1] === '/';
+      const tagName = match[0].replace(/<\/?([a-z]+).*/i, '$1').toLowerCase();
+
+      if (tagName === 'table') {
+        if (isClosing) {
+          tableDepth = Math.max(0, tableDepth - 1);
+          if (tableDepth === 0) topBreaks.push(match.index + match[0].length);
+        } else {
+          tableDepth++;
+        }
+      } else if (tableDepth === 0 && isClosing) {
+        topBreaks.push(match.index + match[0].length);
+      }
     }
 
     const chunks: string[] = [];
@@ -342,13 +356,13 @@ export class TranslationService {
         break;
       }
 
-      // 한계 내에서 자를 수 있는 가장 뒤쪽 최상위 경계 탐색
+      // 한계 내에서 자를 수 있는 가장 뒤쪽 경계 탐색
       const lastBreak = topBreaks.filter(pos => pos > start && pos <= end).pop();
       if (lastBreak) {
         chunks.push(text.slice(start, lastBreak));
         start = lastBreak;
       } else {
-        // 한계 내에 경계가 없으면 다음 최상위 경계까지 늘림 (테이블 파손 방지)
+        // 한계 내에 경계가 없으면 다음 경계까지 늘림 (테이블 파손 방지)
         const nextBreak = topBreaks.find(pos => pos > end);
         if (nextBreak) {
           chunks.push(text.slice(start, nextBreak));
