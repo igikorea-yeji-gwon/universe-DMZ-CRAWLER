@@ -87,6 +87,7 @@ export class TranslationService {
       targetLanguage.toLowerCase() === 'english' &&
       !this.containsKorean(normalizedText)
     ) {
+      this.logger.log(`번역 스킵 (한국어 없음): "${normalizedText.slice(0, 50)}"`);
       return normalizedText;
     }
 
@@ -106,6 +107,7 @@ export class TranslationService {
     );
 
     const chunks = this.splitText(maskedText);
+    this.logger.log(`번역 요청: ${chunks.length}청크, 총 ${maskedText.length}자`);
     const translatedChunks: string[] = [];
 
     for (const chunk of chunks) {
@@ -116,8 +118,12 @@ export class TranslationService {
       );
     }
 
-    const unmaskedPlaces = this.unmaskPlaceNames(translatedChunks.join('\n\n'), placeholders);
-    return this.unmaskTerms(unmaskedPlaces, termPlaceholders);
+    const result = this.unmaskTerms(
+      this.unmaskPlaceNames(translatedChunks.join('\n\n'), placeholders),
+      termPlaceholders,
+    );
+    this.logger.log(`번역 완료: ${result.length}자 → "${result.slice(0, 80)}..."`);
+    return result;
   }
 
   private maskTerms(text: string): { text: string; placeholders: Map<string, string> } {
@@ -258,6 +264,7 @@ export class TranslationService {
       '=== TEXT END ===',
     ].join('\n');
 
+    this.logger.log(`Gemini 번역 API 호출 (${text.length}자, 모델: ${this.modelName})`);
     try {
       const response = await this.ai!.models.generateContent({
         model: this.modelName,
@@ -273,6 +280,7 @@ export class TranslationService {
       if (!translated) {
         throw new Error('Gemini가 빈 번역 결과를 반환했습니다.');
       }
+      this.logger.log(`Gemini 응답 수신: ${translated.length}자`);
       return translated;
     } catch (error) {
       this.logger.error(`Gemini 번역 실패: ${error.message}`);
