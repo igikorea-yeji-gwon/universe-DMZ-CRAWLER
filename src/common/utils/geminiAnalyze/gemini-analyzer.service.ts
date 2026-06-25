@@ -1,6 +1,6 @@
 import { Injectable, Logger, ServiceUnavailableException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
 import * as path from 'path';
 import * as fs from 'fs';
 import { Article } from 'src/news/news.entity';
@@ -23,8 +23,8 @@ export interface ArticleAnalysisResult {
 @Injectable()
 export class GeminiAnalyzerService {
   private readonly logger = new Logger(GeminiAnalyzerService.name);
-  private readonly genAI: GoogleGenerativeAI;
-  private readonly model: any;
+  private readonly genAI: GoogleGenAI;
+  private readonly modelName = 'gemini-2.5-flash-lite';
   private readonly PROMPT: string;
 
 
@@ -38,8 +38,7 @@ export class GeminiAnalyzerService {
     this.PROMPT = fs.existsSync(promptPath)
       ? fs.readFileSync(promptPath, 'utf-8')
       : '';
-    this.genAI = new GoogleGenerativeAI(apiKey);
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
+    this.genAI = new GoogleGenAI({ apiKey });
   }
 
   /**
@@ -59,15 +58,18 @@ export class GeminiAnalyzerService {
         if (metadata.caption) fullPrompt += `- 이미지 캡션: ${metadata.caption}\n`;
       }
 
-      const imagePart = {
-        inlineData: {
-          data: base64Data,
-          mimeType: 'image/jpeg',
-        },
-      };
-
-      const response = await this.model.generateContent([fullPrompt, imagePart]);
-      const text = response.response.text();
+      const response = await this.genAI.models.generateContent({
+        model: this.modelName,
+        contents: [
+          {
+            parts: [
+              { text: fullPrompt },
+              { inlineData: { data: base64Data, mimeType: 'image/jpeg' } },
+            ],
+          },
+        ],
+      });
+      const text = response.text;
 
       const jsonMatch = text.match(/\{[\s\S]*\}/);
       if (!jsonMatch) {
@@ -145,10 +147,13 @@ export class GeminiAnalyzerService {
    * 텍스트 질문에 대한 응답 반환
    */
   async askQuestion(prompt: string): Promise<string> {
-    if (!this.model) return '';
+    if (!this.genAI) return '';
     try {
-      const response = await this.model.generateContent(prompt);
-      return response.response.text().trim();
+      const response = await this.genAI.models.generateContent({
+        model: this.modelName,
+        contents: prompt,
+      });
+      return response.text.trim();
     } catch (error) {
       this.logger.error(`Gemini 텍스트 요청 실패: ${error.message}`);
       this.throwIfUnavailable(error);
