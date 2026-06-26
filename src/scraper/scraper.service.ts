@@ -7,10 +7,8 @@ import {
 import { createHash } from 'crypto';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { UtilService } from 'src/common/util.service';
-import { format } from 'date-fns';
 import axios from 'axios';
-import { Article } from 'src/news/news.entity';
-import { ProcessService } from '../../dist/common/utils/scrapProcess/process.service';
+import { ProcessService } from 'src/common/utils/scrapProcess/process.service';
 import { firefox, chromium, Browser, Page, BrowserContext } from 'playwright';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { MediaDownloadService } from './media-download.service';
@@ -705,73 +703,5 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
    */
   async videoScrap(pageUrl: string) {
     return this.mediaDownloadService.videoScrap(this.browser, pageUrl);
-  }
-
-  // IGI 적재 크롤러에 맞는 Response 형식으로 변환
-  async changeNkinfoForm(
-    targets: {
-      data: Record<string, any>;
-      id: number;
-      createdAt: Date;
-      configId: number;
-    }[],
-  ) {
-    const res: Article[] = [];
-
-    for (const { data, createdAt } of targets) {
-      // if (Array.isArray(data)) {
-      const obj = data as Record<string, any>;
-      // 3) 이제 각 요소에서 마음껏 키 접근 가능
-      // for (const obj of arr) {
-      const article = new Article();
-
-      article.title = obj.title || '';
-      article.writer = obj?.author || obj?.writer || '';
-      article.writer = article.writer.replace(/기자명\s*/g, '').trim();
-      // const todayStr = format(new Date(), 'yyyyMMdd');
-      article.writedate =
-        (obj?.writedate as string) || format(`${createdAt}`, 'yyyyMMdd');
-      // article.writedate = (obj?.writedate as string) || '';
-      article.cururl = (obj?.currentUrl as string) || '';
-      article.content = (obj?.content as string) || '';
-      article.cdatetime = format(`${createdAt}`, 'yyyy-MM-dd HH:mm:ss.sss');
-
-      // 이미지 변환
-      if (obj?.img) {
-        for (const img of obj?.img) {
-          // img 자체가 배열인 경우에는 그냥 다음으로
-          if (Array.isArray(img)) continue;
-          // 그 외에 url 이 없으면 skip
-          if (!img?.url) continue;
-
-          const base64 = await this.s3Service.imgLinkToBase64WithS3Key(
-            img.s3Path,
-          );
-          // imgLinkToBase64WithStream(
-          //   img.url,
-          // );
-          article.images?.push(base64);
-          article.imgurl.push(img.url);
-          article.imgCaptions?.push(img?.caption ?? '');
-        }
-      }
-
-      if (obj?.file) {
-        article.pdfFiles = [];
-        for (const file of obj?.file) {
-          article.pdfFiles?.push(file?.s3Path);
-        }
-        // article.pdfFiles?.push(obj?.file?.s3Path);
-      }
-      article.pdfPath = '';
-
-      res.push(article);
-    }
-    // } else {
-    // data가 배열이 아니면 건너뛰거나 기본 처리
-    // console.warn(`Unexpected data shape for id=${id}`, data);
-    // }
-    // }
-    return res;
   }
 }
