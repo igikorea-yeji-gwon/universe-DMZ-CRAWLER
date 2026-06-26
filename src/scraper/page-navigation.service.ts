@@ -195,8 +195,6 @@ export class PageNavigationService {
     }
 
     console.log('rawVals2', rawVals);
-    // TODO(QA): 임시로 목록 상세 링크는 앞 2개만 확인한다.
-    rawVals = rawVals.slice(0, 2);
 
     if (url.includes('https://search-home.moj.go.kr/search.jsp')) {
       const ExceptionList = [
