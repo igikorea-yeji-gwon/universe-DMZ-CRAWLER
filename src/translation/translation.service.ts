@@ -283,7 +283,30 @@ export class TranslationService {
       this.logger.log(`Gemini 응답 수신: ${translated.length}자`);
       return translated;
     } catch (error) {
-      this.logger.error(`Gemini 번역 실패: ${error.message}`);
+      // "fetch failed"는 껍데기 메시지일 뿐 — 진짜 원인은 error.cause에 들어있다.
+      // (예: ECONNRESET / ETIMEDOUT / UND_ERR_CONNECT_TIMEOUT 등 저수준 네트워크 코드)
+      const cause: any = (error as any)?.cause;
+      const detail = {
+        모델: this.modelName,
+        글자수: text.length,
+        message: (error as Error)?.message,
+        name: (error as Error)?.name,
+        status: (error as any)?.status ?? (error as any)?.statusCode,
+        code: (error as any)?.code ?? cause?.code,
+        causeMessage: cause?.message,
+        errno: cause?.errno,
+        syscall: cause?.syscall,
+        address: cause?.address,
+        port: cause?.port,
+      };
+      this.logger.error(
+        `Gemini 번역 실패 → ${JSON.stringify(detail, null, 2)}`,
+      );
+      // 스택까지 콘솔에 그대로 출력 (원인 객체 포함)
+      console.error('[TranslationService] Gemini 번역 원본 에러:', error);
+      if (cause) {
+        console.error('[TranslationService] error.cause:', cause);
+      }
       throw new BadGatewayException('Gemini 번역 요청에 실패했습니다.');
     }
   }
