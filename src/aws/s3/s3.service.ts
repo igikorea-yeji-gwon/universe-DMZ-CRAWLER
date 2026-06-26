@@ -345,35 +345,6 @@ export class S3Service {
     return { bucket: match[1], key: match[2] };
   }
 
-  // S3 키로 이미지 가져와 base64로 리턴
-  async imgLinkToBase64WithS3Key(uri: string): Promise<string> {
-    const { key } = this.parseS3Uri(uri);
-    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
-    // 1) GetObject 호출
-    const command = new GetObjectCommand({
-      Bucket: bucket,
-      Key: key,
-    });
-    const res = await this.s3.send(command);
-
-    // 2) S3 스트림(body)을 Buffer로 수집
-    const stream = res.Body as Readable;
-    const chunks: Buffer[] = [];
-    for await (const chunk of stream) {
-      chunks.push(typeof chunk === 'string' ? Buffer.from(chunk) : chunk);
-    }
-    const buffer = Buffer.concat(chunks);
-
-    // 3) MIME 타입 추출 (기본값 application/octet-stream)
-    let mimeType = res.ContentType || 'image/jpeg';
-    if (mimeType === 'application/octet-stream') {
-      mimeType = 'image/jpeg';
-    }
-    // 4) Base64 인코딩 및 반환
-    const base64 = buffer.toString('base64');
-    return `data:${mimeType};base64,${base64}`;
-  }
-
   getBucketName(): string {
     return this.configService.get<string>('AWS_BUCKET_NAME');
   }
