@@ -1,0 +1,71 @@
+{
+  "id": 23,
+  "origin_id": 19,
+  "name": "통일부: 통일부소식 > 보도자료 > DMZ 검색(제목+내용)",
+  "description": "통일부 보도자료 제목+내용 기준 DMZ 검색",
+  "baseUrl": "https://www.unikorea.go.kr",
+  "startUrl": [
+    "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/list?searchCondition=all&searchKeyword=dmz&pageIdx=&searchKeyword-ori="
+  ],
+  "scheduleTime": [
+    "15:00"
+  ],
+  "enabled": true,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "detailLinks",
+      "params": {
+        "selector": "table.bbsList tbody tr td.title a.art",
+        "attribute": "href"
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "article.board-detail h3.detail-title"
+          },
+          {
+            "name": "writer",
+            "type": "uniqueText",
+            "selector": "div.board-head-desc dl.writer dd.created"
+          },
+          {
+            "name": "writedate",
+            "type": "uniqueText",
+            "selector": "div.board-head-desc dl:nth-child(2) dd.created"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "div.board-detail-content div.board_content:not(.ext01)"
+          },
+          {
+            "name": "img",
+            "type": "images",
+            "selector": "div.board-detail-content div.board_content:not(.ext01) img"
+          },
+          {
+            "name": "file",
+            "type": "file",
+            "optional": true,
+            "selector": "section.section-attach div.attach-list ul li.file a.dl_file"
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "paging",
+      "params": {
+        "selector": "div.board-btns ul.pagination"
+      }
+    }
+  ]
+}

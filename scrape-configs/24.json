@@ -1,0 +1,71 @@
+{
+  "id": 24,
+  "origin_id": 20,
+  "name": "한국관광공사: 알림마당 > 보도자료 > DMZ 검색(제목+내용)",
+  "description": "한국관광공사 보도자료 제목+내용 기준 DMZ 검색",
+  "baseUrl": "https://knto.or.kr",
+  "startUrl": [
+    "https://knto.or.kr/pressRelease?srchStdg=&fieldTy=&srchText=dmz"
+  ],
+  "scheduleTime": [
+    "16:00"
+  ],
+  "enabled": true,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "detailLinks",
+      "params": {
+        "selector": "ul.board-list.list-body li div.board-data-subject span.txt-subject a",
+        "attribute": "href"
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "div.board-view-title span.text.txt-subject"
+          },
+          {
+            "name": "writedate",
+            "type": "uniqueText",
+            "selector": "div.board-view-title span.text.txt-date"
+          },
+          {
+            "name": "writer-list",
+            "type": "uniqueText",
+            "selector": "ul.board-list.list-body li div.col.col-writer span"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "div.board-view-content"
+          },
+          {
+            "name": "img",
+            "type": "images",
+            "selector": "div.board-view-content img"
+          },
+          {
+            "name": "file",
+            "type": "file",
+            "optional": true,
+            "selector": "div.board-file-group a.btn-download"
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "paging",
+      "params": {
+        "selector": "div.paginate"
+      }
+    }
+  ]
+}

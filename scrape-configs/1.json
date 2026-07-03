@@ -2,10 +2,10 @@
   "id": 1,
   "origin_id": 11,
   "name": "두루누비(DMZ 평화의 길 공식 사이트): 자료실 > 공지사항 > DMZ 검색(제목)",
-  "description": "강원화진지역 국가지질공원 - 자료실 공지사항 제목 기준 DMZ 검색",
+  "description": "자료실 공지사항 제목 기준 DMZ 검색",
   "baseUrl": "https://www.koreadmz.kr",
   "startUrl": [
-    "https://www.koreadmz.kr/geopark/pds/notice?searchCondition=CONTENT&searchKeyword=dmz"
+    "https://www.koreadmz.kr/geopark/pds/notice?searchCondition=TITLE&searchKeyword=dmz"
   ],
   "scheduleTime": [
     "09:00"
@@ -63,6 +63,6 @@
     }
   ],
   "createdAt": "2026-05-26T00:00:00.000Z",
-  "updatedAt": "2026-06-11T00:00:34.024Z",
-  "lastExecutedAt": "2026-06-11T00:00:34.024Z"
+  "updatedAt": "2026-07-01T01:56:04.040Z",
+  "lastExecutedAt": "2026-07-01T01:56:04.040Z"
 }
