@@ -24,6 +24,7 @@ interface ScrapeConfig {
   steps: any[];
   webhook?: boolean;
   useListSession?: boolean;
+  maxPage?: number; // config별 최대 순회 페이지 수 (미지정 시 MAX_PAGE)
 }
 
 @Injectable()
@@ -71,24 +72,60 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
   };
   private browser: Browser;
 
+  // ── 요청 스로틀 ────────────────────────────────────────────────
+  // 같은 호스트에 연속 요청을 보내면 일부 사이트(예: gnews.gg.go.kr)의
+  // 레이트 기반 WAF가 연결을 끊거나(ERR_EMPTY_RESPONSE) 무응답으로 막는다.
+  // 호스트별로 마지막 요청 시각을 기록해 최소 간격을 강제한다.
+  private readonly lastRequestAt = new Map<string, number>();
+  private readonly DEFAULT_THROTTLE_MS = 1500;
+  private readonly THROTTLE_BY_HOST: Record<string, number> = {
+    'gnews.gg.go.kr': 5000, // 실측상 ~8회/짧은시간 넘으면 차단 → 넉넉히 (URL 해시 변경 후 첫 전량 재수집 대비 3000→5000)
+  };
+
+  // 대상 호스트에 대해 최소 간격이 지나도록 대기한다. (호스트가 다르면 서로 무관)
+  private async throttle(targetUrl: string): Promise<void> {
+    let host: string;
+    try {
+      host = new URL(targetUrl).host;
+    } catch {
+      return; // 잘못된 URL이면 스로틀 생략
+    }
+    const minInterval =
+      this.THROTTLE_BY_HOST[host] ?? this.DEFAULT_THROTTLE_MS;
+    const now = Date.now();
+    const last = this.lastRequestAt.get(host) ?? 0;
+    const jitter = last ? Math.floor(Math.random() * 500) : 0;
+    // 다음 허용 시각을 예약해두면 동시/연속 호출에도 간격이 보장된다.
+    const scheduled = Math.max(now, last + minInterval) + jitter;
+    this.lastRequestAt.set(host, scheduled);
+    const waitMs = scheduled - now;
+    if (waitMs > 0) {
+      await new Promise((resolve) => setTimeout(resolve, waitMs));
+    }
+  }
+
   // 목록 페이지 세션/쿠키를 상세 페이지에서도 유지할지 config 값으로 판단한다.
   private shouldUseListSession(config: ScrapeConfig): boolean {
     return config.useListSession === true;
   }
 
   private async gotoListPage(page: Page, url: string): Promise<Page> {
-    const attempts: Array<'domcontentloaded' | 'load' | 'commit'> = [
+    // WAF 차단(연결 끊김/무응답)에 걸리면 goto가 timeout까지 대기하므로,
+    // 재시도 단계와 단계별 timeout을 줄여 최악의 경우 대기시간을 축소한다.
+    // (기존 3단계 × 50s = 최대 150s → 2단계 × 20s = 최대 40s)
+    const attempts: Array<'domcontentloaded' | 'commit'> = [
       'domcontentloaded',
-      'load',
       'commit',
     ];
+    const GOTO_TIMEOUT = 20000;
     let lastError: Error | null = null;
     let activePage = page;
     const context = page.context();
 
     for (const waitUntil of attempts) {
       try {
-        await activePage.goto(url, { waitUntil, timeout: 50000 });
+        await this.throttle(url);
+        await activePage.goto(url, { waitUntil, timeout: GOTO_TIMEOUT });
         await activePage
           .waitForLoadState('networkidle', { timeout: 5000 })
           .catch(() => {});
@@ -148,6 +185,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
     try {
       try {
+        await this.throttle(url);
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 50000 });
       } catch (e) {
         this.googleChatService.sendAlert(
@@ -188,7 +226,16 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
       // 리스트에서 미리 추출한 데이터 적용 (writer-list → writer 등)
       if (listData) {
         for (const [key, val] of Object.entries(listData)) {
-          temp[key] = val;
+          // 목록에서 추출한 날짜도 상세 날짜와 동일하게 YYYYMMDD로 정규화
+          if (key.includes('date')) {
+            try {
+              temp[key] = await this.processService.changeDateForm(val);
+            } catch {
+              temp[key] = val;
+            }
+          } else {
+            temp[key] = val;
+          }
         }
       }
 
@@ -305,8 +352,10 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
               }
             }
           }
-        } catch {
-          this.logger.warn(`  ↳ [${target.name}] 셀렉터 불일치, 기본값 사용`);
+        } catch (e) {
+          this.logger.warn(
+            `  ↳ [${target.name}] 추출 실패, 기본값 사용: ${(e as Error).message}`,
+          );
           data = dataDefault;
         }
 
@@ -361,7 +410,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     }
   }
 
-  private readonly MAX_PAGE = 3; // 기본 최대 순회 페이지 수
+  private readonly MAX_PAGE = 60; // 기본 최대 순회 페이지 수
   /**
    * 주 진입점: 다중 startUrl을 병렬로 처리하고, 각 URL에 대해 scrapeUrl 실행
    */
@@ -376,7 +425,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     const originId = config.origin_id ?? 0;
     const tasks = config.startUrl.map((url) =>
       limit(() =>
-        this.scrapeUrl(url, config.steps, config.id, webhook, useListSession, originId),
+        this.scrapeUrl(url, config.steps, config.id, webhook, useListSession, originId, config.maxPage),
       ),
     );
 
@@ -418,7 +467,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
   }
 
   /**
-   * 단일 URL을 최대 MAX_PAGE만큼 순회하며 스크랩
+   * 단일 URL을 최대 maxPage(기본 MAX_PAGE)만큼 순회하며 스크랩
    */
   private async scrapeUrl(
     url: string,
@@ -427,7 +476,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     webhook = true,
     useListSession = false,
     originId = 0,
+    maxPage?: number,
   ): Promise<any[]> {
+    const pageLimit = maxPage ?? this.MAX_PAGE;
     console.log('scrapeUrl-ID : ', configId);
 
     const context: BrowserContext = await this.browser.newContext({
@@ -521,6 +572,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
               break;
 
             case 'scrapDetail':
+              // 새 상세 URL이 없으면(중복 페이지 감지 등) 목록 재평가를 건너뛴다.
+              // 늦게 도착한 내비게이션이 컨텍스트를 파괴해 $$eval이 죽는 것 방지.
+              if (detailUrls.length === 0) break;
               // 리스트 페이지에서 '-list' 타겟 데이터 미리 추출
               const listTargets = (step.params.targets || []).filter((t) =>
                 t.name.endsWith('-list'),
@@ -590,8 +644,10 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
             case 'paging':
               if (stopPagingByDuplicatePage) break outer;
-              if (currentPage >= this.MAX_PAGE) break outer;
+              if (currentPage >= pageLimit) break outer;
               let hasNext = null;
+              // 다음 페이지 이동 전에도 같은 호스트 스로틀 적용
+              await this.throttle(page.url());
               // 한국문화관광연구원용
               if (page.url().includes('www.kcti.re.kr/web/board/')) {
                 hasNext = await this.pageNavigationService.clickNext_ME(
