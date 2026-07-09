@@ -150,21 +150,36 @@ export class MediaDownloadService {
     for (const handle of handles) {
       if (!(await handle.isVisible())) continue;
 
-      // KINU fileDown1: onclick에서 ID를 파싱하여 직접 다운로드
+      // KINU fileDown1/fileDown2: onclick을 파싱하여 직접 다운로드
+      // - fileDown1('id')  → download.do?id={id} 로 바로 다운로드
+      // - fileDown2('/library/api/media/url?...') → 중계 API가 URL 인코딩된
+      //   실제 파일 URL(오브젝트 스토리지)을 응답 본문으로 반환 → 그 주소로 다운로드
       if (page.url().includes('www.kinu.or.kr')) {
         const onclickVal = await handle.getAttribute('onclick');
         const fileDown1Match = onclickVal?.match(/fileDown1\('(.+?)'\)/);
-        if (fileDown1Match && fileDown1Match[1]) {
-          const fileId = fileDown1Match[1];
-          const downloadUrl = `https://www.kinu.or.kr/main/module/report/download.do?id=${fileId}`;
+        const fileDown2Match = onclickVal?.match(/fileDown2\('(.+?)'\)/);
+        if (fileDown1Match?.[1] || fileDown2Match?.[1]) {
+          const fileId = fileDown1Match?.[1];
           try {
+            let downloadUrl: string;
+            if (fileId) {
+              downloadUrl = `https://www.kinu.or.kr/main/module/report/download.do?id=${fileId}`;
+            } else {
+              const apiUrl = new URL(fileDown2Match![1], page.url()).href;
+              const apiRes = await page.context().request.get(apiUrl);
+              if (!apiRes.ok()) {
+                console.warn(`⚠️ KINU fileDown2 API 실패 (${apiRes.status()}): ${apiUrl}`);
+                continue;
+              }
+              downloadUrl = unescape((await apiRes.text()).trim());
+            }
             const res = await page.context().request.get(downloadUrl);
             if (!res.ok()) {
               console.warn(`⚠️ KINU 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
               continue;
             }
             const buffer = Buffer.from(await res.body());
-            const originalName = title ? `${title.replace(/[\s,+/\\:*?"<>|]+/g, '_')}.pdf` : `${fileId}.pdf`;
+            const originalName = title ? `${title.replace(/[\s,+/\\:*?"<>|]+/g, '_')}.pdf` : `${fileId ?? 'kinu_file'}.pdf`;
             const tempPath = path.join(process.cwd(), 'tmp', `${Date.now()}_${originalName}`);
             await fs.mkdir(path.dirname(tempPath), { recursive: true });
             await fs.writeFile(tempPath, buffer);
@@ -174,7 +189,7 @@ export class MediaDownloadService {
             const fileTy1 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
             output.push({ originalName, s3Path: key, file_ty: fileTy1 });
           } catch (e) {
-            console.warn(`⚠️ KINU fileDown1 다운로드 실패 (${(e as Error).message})`);
+            console.warn(`⚠️ KINU fileDown 다운로드 실패 (${(e as Error).message})`);
           }
           continue;
         }

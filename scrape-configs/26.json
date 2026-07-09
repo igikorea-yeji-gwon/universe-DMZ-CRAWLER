@@ -51,6 +51,12 @@
             "type": "images",
             "optional": true,
             "selector": "article.db-board-view div.thumb-area div.thumb.cover img"
+          },
+          {
+            "name": "file",
+            "type": "file",
+            "optional": true,
+            "selector": "a.btn-pdf-down[onclick*='fileDown']"
           }
         ]
       }
@@ -63,6 +69,6 @@
       }
     }
   ],
-  "lastExecutedAt": "2026-07-08T06:00:04.879Z",
-  "updatedAt": "2026-07-08T06:00:04.879Z"
+  "lastExecutedAt": "2026-07-09T05:28:05.973Z",
+  "updatedAt": "2026-07-09T05:28:05.973Z"
 }
