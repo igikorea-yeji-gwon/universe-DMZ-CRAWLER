@@ -1,8 +1,12 @@
 # 의존성
 node_modules/
 
+#문서
+/docs/
+
 # 빌드 결과물
 dist/
+package-lock.json
 
 # 환경변수 (민감정보)
 .env
