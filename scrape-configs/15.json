@@ -1,8 +1,8 @@
 {
   "id": 15,
   "origin_id": 16,
-  "name": "경기도 DMZ: DMZ 아카이브 > 자료실 > DMZ 검색(제목)",
-  "description": "경기도 DMZ 포털 자료실 제목 기준 DMZ 검색",
+  "name": "경기도 DMZ: DMZ 아카이브 > 자료실 > DMZ 검색",
+  "description": "경기도 DMZ 포털 자료실 DMZ 검색",
   "baseUrl": "https://dmz.gg.go.kr",
   "startUrl": [
     "https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=4&menuId=57"
@@ -80,6 +80,6 @@
     }
   ],
   "createdAt": "2026-06-01T00:00:00.000Z",
-  "updatedAt": "2026-07-01T03:27:29.853Z",
-  "lastExecutedAt": "2026-07-01T03:27:29.853Z"
+  "updatedAt": "2026-07-05T04:00:56.171Z",
+  "lastExecutedAt": "2026-07-05T04:00:56.171Z"
 }

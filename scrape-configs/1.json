@@ -2,7 +2,7 @@
   "id": 1,
   "origin_id": 11,
   "name": "두루누비(DMZ 평화의 길 공식 사이트): 자료실 > 공지사항 > DMZ 검색(제목)",
-  "description": "자료실 공지사항 제목 기준 DMZ 검색",
+  "description": "두루누비 자료실 공지사항 제목 기준 DMZ 검색",
   "baseUrl": "https://www.koreadmz.kr",
   "startUrl": [
     "https://www.koreadmz.kr/geopark/pds/notice?searchCondition=TITLE&searchKeyword=dmz"
@@ -63,6 +63,6 @@
     }
   ],
   "createdAt": "2026-05-26T00:00:00.000Z",
-  "updatedAt": "2026-07-01T01:56:04.040Z",
-  "lastExecutedAt": "2026-07-01T01:56:04.040Z"
+  "updatedAt": "2026-07-08T00:00:42.907Z",
+  "lastExecutedAt": "2026-07-08T00:00:42.907Z"
 }
