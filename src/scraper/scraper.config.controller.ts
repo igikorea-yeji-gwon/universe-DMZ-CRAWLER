@@ -20,6 +20,7 @@ import {
 } from '@nestjs/swagger';
 import { initScraperRequest } from './types/scraper.type';
 import { ScraperConfigService } from './scraper.config.service';
+import { NewsDbService } from './news-db.service';
 import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
 import { ListConfigDto } from './dto/scraperDtos';
 
@@ -27,7 +28,10 @@ import { ListConfigDto } from './dto/scraperDtos';
 @Controller('scraper')
 @UseFilters(HttpExceptionFilter)
 export class ScraperConfigController {
-  constructor(private readonly scraperConfigService: ScraperConfigService) {}
+  constructor(
+    private readonly scraperConfigService: ScraperConfigService,
+    private readonly newsDbService: NewsDbService,
+  ) {}
 
   // ─── Config CRUD ────────────────────────────────────────────────────────────
 
@@ -105,5 +109,29 @@ export class ScraperConfigController {
   @ApiParam({ name: 'originId', type: Number, example: 11 })
   async downloadByOrigin(@Param('originId', ParseIntPipe) originId: number) {
     return this.scraperConfigService.getFilesByOrigin(originId);
+  }
+
+  // ─── [임시] S3 meta.json → Postgres 적재 ────────────────────────────────────
+
+  @Get('download2/:originId')
+  @ApiOperation({ summary: '[임시] origin_id 기준 S3 meta.json을 Postgres news/news_file 테이블에 적재' })
+  @ApiParam({ name: 'originId', type: Number, example: 16 })
+  @ApiResponse({
+    status: 200,
+    description: '적재 결과 요약',
+    schema: {
+      example: {
+        originId: 16,
+        totalMeta: 10,
+        inserted: 8,
+        skippedDuplicate: 2,
+        fileInserted: 12,
+        fileSkipped: 1,
+        errors: [],
+      },
+    },
+  })
+  async download2(@Param('originId', ParseIntPipe) originId: number) {
+    return this.newsDbService.loadArticlesToDb(originId);
   }
 }

@@ -16,6 +16,8 @@ import { GeminiAnalyzerService } from 'src/common/utils/geminiAnalyze/gemini-ana
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { JsonConfigService } from './json-config.service';
 import { TranslationModule } from 'src/translation/translation.module';
+import { NewsDbService } from './news-db.service';
+import { CubridService } from 'src/database/cubrid.service';
 
 @Module({
   imports: [ScheduleModule.forRoot(), TranslationModule],
@@ -34,6 +36,8 @@ import { TranslationModule } from 'src/translation/translation.module';
     GeminiAnalyzerService,
     GoogleChatService,
     JsonConfigService,
+    NewsDbService,
+    CubridService,
   ],
 })
 export class ScraperModule {}

@@ -265,11 +265,10 @@ export class S3Service {
     return `s3://${bucket}/${key}`;
   }
 
-  async listFilesByOrigin(originId: number): Promise<any[]> {
+  private async listMetaKeysByOrigin(originId: number): Promise<string[]> {
     const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
     const prefix = `news-crawler/articles/${originId}/`;
 
-    // 1) meta.json 키만 수집
     const metaKeys: string[] = [];
     let continuationToken: string | undefined;
     do {
@@ -281,6 +280,29 @@ export class S3Service {
       }
       continuationToken = res.IsTruncated ? res.NextContinuationToken : undefined;
     } while (continuationToken);
+
+    return metaKeys;
+  }
+
+  /** origin 하위의 모든 meta.json을 파싱해 원본 그대로 반환 (presigned 변환 없음) */
+  async listArticleMetasByOrigin(originId: number): Promise<Record<string, any>[]> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const metaKeys = await this.listMetaKeysByOrigin(originId);
+
+    const metas: Record<string, any>[] = [];
+    for (const metaKey of metaKeys) {
+      try {
+        const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: metaKey }));
+        const body = await obj.Body?.transformToString('utf-8');
+        metas.push(JSON.parse(body ?? '{}'));
+      } catch { /* meta.json 파싱 실패 시 skip */ }
+    }
+    return metas;
+  }
+
+  async listFilesByOrigin(originId: number): Promise<any[]> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const metaKeys = await this.listMetaKeysByOrigin(originId);
 
     // 2) 각 meta.json 읽어서 s3Path → presigned URL 변환
     const toPresigned = (s3Path: string) => {
