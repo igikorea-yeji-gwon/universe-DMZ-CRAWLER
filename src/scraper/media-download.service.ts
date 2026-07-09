@@ -128,6 +128,7 @@ export class MediaDownloadService {
    */
   async handleFileStep(page: Page, target: any, originId: number, title?: string, webhook = true, articleHash = 'unknown') {
     let { selector } = target;
+    const { attribute } = target;
 
     // 73번 파일 시각화 클릭 필요
     if (page.url().includes('www.kdi.re.kr')) {
@@ -144,7 +145,7 @@ export class MediaDownloadService {
     await page.waitForSelector(selector, { state: 'attached', timeout: 5000 });
 
     const handles = await page.locator(`${selector}:visible`).elementHandles();
-    const output: Array<{ originalName: string; s3Path: string }> = [];
+    const output: Array<{ originalName: string; s3Path: string; file_ty: string }> = [];
 
     for (const handle of handles) {
       if (!(await handle.isVisible())) continue;
@@ -179,28 +180,90 @@ export class MediaDownloadService {
         }
       }
 
+      // config에 attribute가 지정된 경우: 클릭 없이 속성값의 URL로 직접 다운로드
+      if (attribute) {
+        const attrVal = await handle.getAttribute(attribute);
+        // customTransform: 속성 raw 값(onclick 함수 호출, javascript:location.href 등)에서 URL 추출
+        let fileUrl = attrVal;
+        if (attrVal && target.customTransform) {
+          const { pattern, output } = target.customTransform;
+          fileUrl = attrVal.replace(new RegExp(pattern), (_match, ...groups) =>
+            output.replace(/\$\{(\d+)\}/g, (_: string, n: string) => groups[parseInt(n) - 1] ?? ''),
+          );
+        }
+        if (fileUrl && !fileUrl.startsWith('javascript:')) {
+          try {
+            const downloadUrl = new URL(fileUrl, page.url()).href;
+            const res = await page.context().request.get(downloadUrl);
+            if (!res.ok()) {
+              console.warn(`⚠️ ${attribute} 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
+              continue;
+            }
+            const buffer = Buffer.from(await res.body());
+            const originalName = await this.extractFilenameFromResponse(res, handle, downloadUrl, title);
+            console.log('파일명:', `${Date.now()}_${originalName}`);
+
+            const tempPath = path.join(process.cwd(), 'tmp', `${Date.now()}_${originalName}`);
+            await fs.mkdir(path.dirname(tempPath), { recursive: true });
+            await fs.writeFile(tempPath, buffer);
+
+            const key = await this.s3Service.saveFileToS3(tempPath, originId, originalName, articleHash);
+            await fs.unlink(tempPath);
+            const fileTy0 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
+            output.push({ originalName, s3Path: key, file_ty: fileTy0 });
+          } catch (e) {
+            console.warn(`⚠️ ${attribute} 다운로드 실패 (${(e as Error).message}), 다음으로 넘어갑니다`);
+          }
+          continue;
+        }
+      }
+
       // 1차: 클릭 기반 다운로드 시도
+      // 클릭이 다운로드 대신 페이지 이동을 일으키면(첨부 실파일 없음 등) 핸들이
+      // 무효화되므로, fallback에 쓸 href와 현재 URL을 클릭 전에 미리 확보한다.
+      const hrefBeforeClick = await handle.getAttribute('href').catch(() => null);
+      const urlBeforeClick = page.url();
       let download;
       try {
         const downloadPromise = page.waitForEvent('download', {
           timeout: 25000,
         });
+        // 다운로드 대신 메인 프레임이 이동하면 즉시 실패 처리 (20초 대기 방지)
+        const navDetected = new Promise<never>((_, reject) => {
+          page.once('framenavigated', (frame) => {
+            if (frame === page.mainFrame()) {
+              reject(new Error('클릭이 다운로드 대신 페이지 이동을 일으킴'));
+            }
+          });
+        });
+        navDetected.catch(() => {}); // race 종료 후 늦게 reject돼도 unhandled 방지
         await handle.click();
         download = await Promise.race([
           downloadPromise,
+          navDetected,
           new Promise<never>((_, reject) =>
             setTimeout(() => reject(new Error('download timeout')), 20000),
           ),
         ]);
       } catch (e) {
-        // 2차: 클릭 실패 시 href fallback
-        const hrefVal = await handle.getAttribute('href');
+        // 클릭으로 다른 페이지로 이동해버렸으면 상세 페이지로 복귀
+        if (page.url() !== urlBeforeClick) {
+          await page.goBack({ waitUntil: 'domcontentloaded' }).catch(() => {});
+        }
+        // 2차: 클릭 실패 시 href fallback (클릭 전에 확보해둔 값 사용)
+        const hrefVal = hrefBeforeClick;
         if (hrefVal && !hrefVal.startsWith('javascript:')) {
           try {
-            const downloadUrl = new URL(hrefVal, page.url()).href;
+            const downloadUrl = new URL(hrefVal, urlBeforeClick).href;
             const res = await page.context().request.get(downloadUrl);
             if (!res.ok()) {
               console.warn(`⚠️ href 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
+              continue;
+            }
+            // 파일 대신 HTML이 오면 첨부 실파일이 서버에 없는 것 (예: mnd DN_* 옛 글)
+            const contentType = res.headers()['content-type'] || '';
+            if (contentType.includes('text/html')) {
+              console.warn(`⚠️ 첨부 실파일 없음(HTML 응답), 파일 skip: ${downloadUrl}`);
               continue;
             }
             const buffer = Buffer.from(await res.body());
@@ -256,8 +319,9 @@ export class MediaDownloadService {
 
       const key = await this.s3Service.saveFileToS3(
         tempPath,
-        configId,
+        originId,
         originalName,
+        articleHash,
       );
       await fs.unlink(tempPath);
 
@@ -272,7 +336,7 @@ export class MediaDownloadService {
       if (!ext) {
         console.warn(`⚠️ 파일 확장자 없음 (${file.originalName}), 기사 skip`);
         this.googleChatService.sendAlert('파일 확장자 없음 - 셀렉터 확인 필요', {
-          'configId': `${configId}`,
+          'originId': `${originId}`,
           '파일명': file.originalName,
           'URL': page.url(),
         }, webhook);
@@ -281,7 +345,7 @@ export class MediaDownloadService {
       if (invalidExts.includes(ext)) {
         console.warn(`⚠️ 비정상 파일 확장자 감지 (${file.originalName}), 기사 skip`);
         this.googleChatService.sendAlert('비정상 파일 확장자 감지', {
-          'configId': `${configId}`,
+          'originId': `${originId}`,
           '파일명': file.originalName,
           '확장자': ext,
           'URL': page.url(),
