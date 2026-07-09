@@ -1,0 +1,80 @@
+{
+  "id": 28,
+  "origin_id": 24,
+  "name": "경기도 뉴스포털: 보도자료 > DMZ 검색(제목)",
+  "description": "경기도 뉴스포털 보도자료 제목 기준 DMZ 검색",
+  "baseUrl": "https://gnews.gg.go.kr",
+  "startUrl": [
+    "https://gnews.gg.go.kr/briefing/brief_gongbo.do?BS_CODE=s017&search=8&keyword=dmz%7Cdmz&subject_Code=BO01&page=1"
+  ],
+  "scheduleTime": [
+    "20:00"
+  ],
+  "enabled": true,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "detailLinks",
+      "params": {
+        "selector": "table td.tit a.txtLink",
+        "attribute": "href",
+        "customTransform": {
+          "type": "regex",
+          "pattern": "^[\\s\\S]*number=(\\d+)[\\s\\S]*$",
+          "output": "/briefing/brief_gongbo_view.do?BS_CODE=s017&number=${1}&subject_Code=BO01"
+        }
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "div.wrap#contents > h3"
+          },
+          {
+            "name": "writer-list",
+            "type": "uniqueText",
+            "selector": "table td.dp"
+          },
+          {
+            "name": "writedate-list",
+            "type": "uniqueText",
+            "selector": "table td.date"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "div.postbody div.postBody p"
+          },
+          {
+            "name": "img",
+            "type": "images",
+            "optional": true,
+            "selector": "div.postbody div.postBody img"
+          },
+          {
+            "name": "file",
+            "type": "file",
+            "optional": true,
+            "selector": "section.fileset26 span.file-item[data-url]",
+            "attribute": "data-url"
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "paging",
+      "params": {
+        "selector": "div.pagination"
+      }
+    }
+  ],
+  "lastExecutedAt": "2026-07-08T07:04:08.490Z",
+  "updatedAt": "2026-07-08T07:04:08.490Z"
+}

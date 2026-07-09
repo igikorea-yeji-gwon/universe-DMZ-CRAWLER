@@ -1,0 +1,84 @@
+{
+  "id": 25,
+  "origin_id": 21,
+  "name": "외교부: 뉴스·공지 > 보도자료 > DMZ 검색(제목)",
+  "description": "외교부 보도자료 제목 기준 DMZ 검색",
+  "baseUrl": "https://www.mofa.go.kr",
+  "startUrl": [
+    "https://www.mofa.go.kr/www/brd/m_4080/list.do?srchFr=&srchTo=&srchTp=0&srchWord=dmz&pitem=10"
+  ],
+  "scheduleTime": [
+    "17:00"
+  ],
+  "enabled": true,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "detailLinks",
+      "params": {
+        "selector": "table.tableB.type3 tbody tr td a",
+        "attribute": "href",
+        "customTransform": {
+          "type": "regex",
+          "pattern": "^[\\s\\S]*seq=(\\d+)[\\s\\S]*$",
+          "output": "/www/brd/m_4080/view.do?seq=${1}&page=1&pitem=10"
+        }
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "div.board_detail div.bo_head h2"
+          },
+          {
+            "name": "writer",
+            "type": "uniqueText",
+            "selector": "div.board_detail div.bo_head dl dd:nth-of-type(1)"
+          },
+          {
+            "name": "writedate",
+            "type": "uniqueText",
+            "selector": "div.board_detail div.bo_head dl dd:nth-of-type(2)"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "div.board_detail div.bo_con"
+          },
+          {
+            "name": "img",
+            "type": "images",
+            "selector": "div.board_detail div.bo_con img"
+          },
+          {
+            "name": "file",
+            "type": "file",
+            "optional": true,
+            "selector": "ul.bo_file li a[href*='down.do']",
+            "attribute": "href",
+            "customTransform": {
+              "type": "regex",
+              "pattern": "(down\\.do\\?[^\"']+)",
+              "output": "/www/brd/m_4080/${1}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "paging",
+      "params": {
+        "selector": "div.pagination"
+      }
+    }
+  ],
+  "lastExecutedAt": "2026-07-08T08:00:10.024Z",
+  "updatedAt": "2026-07-08T08:00:10.024Z"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 26,
+  "origin_id": 22,
+  "name": "통일연구원: 연구·DB > 통합검색 > DMZ 검색(통합)",
+  "description": "통일연구원 연구·DB 통합검색 DMZ 결과 수집",
+  "baseUrl": "https://www.kinu.or.kr",
+  "startUrl": [
+    "https://www.kinu.or.kr/main/search/search_detail.do?nav_code=mai1678926598&search_type=DB&search_text=dmz&gubun=total&start_date=&end_date="
+  ],
+  "scheduleTime": [
+    "18:00"
+  ],
+  "enabled": true,
+  "webhook": true,
+  "steps": [
+    {
+      "id": "step-001",
+      "type": "detailLinks",
+      "params": {
+        "selector": "a.bx[href*='/main/module/report/view.do']",
+        "attribute": "href"
+      }
+    },
+    {
+      "id": "step-002",
+      "type": "scrapDetail",
+      "params": {
+        "targets": [
+          {
+            "name": "title",
+            "type": "uniqueText",
+            "selector": "article.db-board-view div.desc p.subject"
+          },
+          {
+            "name": "writedate",
+            "type": "uniqueText",
+            "selector": "article.db-board-view div.desc dl dd:nth-of-type(1)"
+          },
+          {
+            "name": "writer",
+            "type": "uniqueText",
+            "selector": "article.db-board-view div.desc dl dd:nth-of-type(2)"
+          },
+          {
+            "name": "content",
+            "type": "duplicatedText",
+            "selector": "article.db-board-view div.cont_abstract, article.db-board-view div.cont_content"
+          },
+          {
+            "name": "thumbnail",
+            "type": "images",
+            "optional": true,
+            "selector": "article.db-board-view div.thumb-area div.thumb.cover img"
+          }
+        ]
+      }
+    },
+    {
+      "id": "step-003",
+      "type": "paging",
+      "params": {
+        "selector": "div#board_paging.board-paging"
+      }
+    }
+  ],
+  "lastExecutedAt": "2026-07-08T06:00:04.879Z",
+  "updatedAt": "2026-07-08T06:00:04.879Z"
+}
