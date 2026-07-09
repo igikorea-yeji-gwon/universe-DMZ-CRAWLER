@@ -300,6 +300,12 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
                 target.selector,
               );
             }
+            // 줄바꿈을 <br>로 변환하고 잔여 탭·중복 공백 정리하여 저장
+            data = (data as string)
+              .replace(/\s*[\r\n]+\s*/g, ' <br> ')
+              .replace(/\t+/g, ' ')
+              .replace(/ {2,}/g, ' ')
+              .trim();
           } else if (target.type === 'uniqueText') {
             if (target?.name.includes('date')) {
               const txt = await page.locator(target.selector).textContent();

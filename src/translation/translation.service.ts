@@ -359,13 +359,15 @@ export class TranslationService {
     const topBreaks: number[] = [];
     let tableDepth = 0;
 
-    const tokenRegex = /<(\/?)(?:table|ul|ol|div|section|article|p)\b[^>]*>/gi;
+    const tokenRegex = /<(\/?)(?:table|ul|ol|div|section|article|p|br)\b[^>]*>/gi;
     let match: RegExpExecArray | null;
     while ((match = tokenRegex.exec(text)) !== null) {
       const isClosing = match[1] === '/';
       const tagName = match[0].replace(/<\/?([a-z]+).*/i, '$1').toLowerCase();
 
-      if (tagName === 'table') {
+      if (tagName === 'br') {
+        if (tableDepth === 0) topBreaks.push(match.index + match[0].length);
+      } else if (tagName === 'table') {
         if (isClosing) {
           tableDepth = Math.max(0, tableDepth - 1);
           if (tableDepth === 0) topBreaks.push(match.index + match[0].length);
