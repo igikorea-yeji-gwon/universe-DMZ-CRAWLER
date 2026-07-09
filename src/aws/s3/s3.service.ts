@@ -242,9 +242,11 @@ export class S3Service {
 
   async articleExists(originId: number, articleHash: string): Promise<boolean> {
     const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
-    const prefix = `news-crawler/articles/${originId}/${articleHash}/`;
+    // meta.json은 수집 파이프라인 맨 마지막에 저장되는 완료 마커다.
+    // 파일/이미지만 올라가고 중간에 실패한 기사는 미저장으로 간주해 재수집한다.
+    const key = `news-crawler/articles/${originId}/${articleHash}/meta.json`;
     const res = await this.s3.send(
-      new ListObjectsV2Command({ Bucket: bucket, Prefix: prefix, MaxKeys: 1 }),
+      new ListObjectsV2Command({ Bucket: bucket, Prefix: key, MaxKeys: 1 }),
     );
     return (res.Contents?.length ?? 0) > 0;
   }
