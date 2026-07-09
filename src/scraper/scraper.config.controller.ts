@@ -111,10 +111,10 @@ export class ScraperConfigController {
     return this.scraperConfigService.getFilesByOrigin(originId);
   }
 
-  // ─── [임시] S3 meta.json → Postgres 적재 ────────────────────────────────────
+  // ─── [임시] S3 meta.json → CUBRID 적재 ────────────────────────────────────
 
   @Get('download2/:originId')
-  @ApiOperation({ summary: '[임시] origin_id 기준 S3 meta.json을 Postgres news/news_file 테이블에 적재' })
+  @ApiOperation({ summary: '[임시] origin_id 기준 S3 meta.json을 CUBRID news/news_file 테이블에 적재' })
   @ApiParam({ name: 'originId', type: Number, example: 16 })
   @ApiResponse({
     status: 200,
