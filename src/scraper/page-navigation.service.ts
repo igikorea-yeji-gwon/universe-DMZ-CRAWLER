@@ -474,6 +474,9 @@ export class PageNavigationService {
       `${linkSelector} li.on + li a`,
       `${linkSelector} .active + a`,
       `${linkSelector} a.active + a`,
+      // 국방부(mnd.go.kr) 등 '_paging' 구조: 현재 페이지가 클래스 없는 <strong>이고
+      // 다음 버튼이 a._listNext (href="javascript:page_link('N')")
+      `${linkSelector} a._listNext`,
 
       // A) keyvalue 속성 기반 (예전 구조)
       `${linkSelector}[keyvalue="${nextNum}"]`,
@@ -514,10 +517,22 @@ export class PageNavigationService {
           // 클릭과 동시에 네트워크 idle 상태를 기다립니다.
           try {
             console.log('1번쨰 Next 버튼 클릭 전 URL:', page.url());
+            const beforeUrl = page.url();
             await Promise.all([
               handle.click(),
               page.waitForLoadState('networkidle', { timeout: 30_000 }),
             ]);
+            // 일부 사이트(mnd 등)는 클릭 후 form POST 내비게이션이 늦게 시작돼
+            // networkidle이 먼저 풀린다. URL이 그대로면 늦은 내비게이션을 조금 더 기다린다.
+            // (AJAX 페이징이라 URL이 원래 안 바뀌는 사이트는 7초 대기 후 그대로 진행)
+            if (page.url() === beforeUrl) {
+              await page
+                .waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 7_000 })
+                .catch(() => {});
+              await page
+                .waitForLoadState('networkidle', { timeout: 10_000 })
+                .catch(() => {});
+            }
             console.log('1번쨰 Next 버튼 클릭 후 URL:', page.url());
             return true;
           } catch (error) {
