@@ -4,6 +4,7 @@ import { LoggerModule } from 'nestjs-pino';
 import { ScraperModule } from './scraper/scraper.module';
 import { ResponseInterceptor } from './common/interceptors/response.interceptor';
 import { TranslationModule } from './translation/translation.module';
+import { IsbnModule } from './isbn/isbn.module';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { TranslationModule } from './translation/translation.module';
       },
     }),
     TranslationModule,
+    IsbnModule,
     ScraperModule,
   ],
   providers: [ResponseInterceptor],
