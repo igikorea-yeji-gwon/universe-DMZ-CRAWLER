@@ -21,6 +21,7 @@ import {
 import { initScraperRequest } from './types/scraper.type';
 import { ScraperConfigService } from './scraper.config.service';
 import { NewsDbService } from './news-db.service';
+import { YnaFeedService } from './yna-feed.service';
 import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
 import { ListConfigDto } from './dto/scraperDtos';
 
@@ -31,6 +32,7 @@ export class ScraperConfigController {
   constructor(
     private readonly scraperConfigService: ScraperConfigService,
     private readonly newsDbService: NewsDbService,
+    private readonly ynaFeedService: YnaFeedService,
   ) {}
 
   // ─── Config CRUD ────────────────────────────────────────────────────────────
@@ -133,5 +135,30 @@ export class ScraperConfigController {
   })
   async download2(@Param('originId', ParseIntPipe) originId: number) {
     return this.newsDbService.loadArticlesToDb(originId);
+  }
+
+  // ─── 연합뉴스 RSS 피드 수집 ─────────────────────────────────────────────────
+
+  @Get('yna/collect')
+  @ApiOperation({
+    summary: '연합뉴스 RSS 피드 즉시 수집 (매시 정각 자동 수집과 동일 로직, 테스트용)',
+  })
+  @ApiResponse({
+    status: 200,
+    description: '수집 결과 요약',
+    schema: {
+      example: {
+        totalItems: 30,
+        keywordMatched: 3,
+        skippedDuplicate: 2,
+        inserted: 1,
+        fileInserted: 2,
+        translated: 1,
+        errors: [],
+      },
+    },
+  })
+  async collectYnaFeed() {
+    return this.ynaFeedService.collect();
   }
 }

@@ -88,6 +88,12 @@ export class NewsDbService {
         const fileRows = this.buildFileRows(meta);
         fileSkipped += fileRows.skipped;
 
+        // 번역 성공(영문 필드 존재) 여부에 따라 trsl_yn 결정
+        const trslYn =
+          String(meta.title_en ?? '').trim() || String(meta.content_text_en ?? '').trim()
+            ? 'Y'
+            : 'N';
+
         await client.beginTransaction();
         try {
           // news_id/file_id는 자동 생성이 아니므로 MAX+1로 직접 채번한다.
@@ -115,7 +121,7 @@ export class NewsDbService {
               category?.category_nm ?? null,
               origin.category_code,
               LANG_CODE,
-              'N',
+              trslYn,
               'Y',
               null,
               RGTR_ID,
