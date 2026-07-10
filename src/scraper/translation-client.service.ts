@@ -14,11 +14,13 @@ import axios, { AxiosInstance } from 'axios';
 export class TranslationClientService {
   private readonly logger = new Logger(TranslationClientService.name);
   private readonly http: AxiosInstance;
+  readonly baseURL: string;
 
   constructor(private readonly configService: ConfigService) {
     const baseURL =
       this.configService.get<string>('TRANSLATION_API_URL') ??
       'http://localhost:3100';
+    this.baseURL = baseURL;
     // 청크 분할 번역(긴 본문)은 오래 걸릴 수 있어 기본 타임아웃을 넉넉히 둔다
     const timeout =
       Number(this.configService.get('TRANSLATION_API_TIMEOUT_MS')) || 180_000;

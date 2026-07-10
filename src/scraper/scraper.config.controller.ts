@@ -22,6 +22,7 @@ import { initScraperRequest } from './types/scraper.type';
 import { ScraperConfigService } from './scraper.config.service';
 import { NewsDbService } from './news-db.service';
 import { YnaFeedService } from './yna-feed.service';
+import { TranslationClientService } from './translation-client.service';
 import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
 import { ListConfigDto } from './dto/scraperDtos';
 
@@ -33,6 +34,7 @@ export class ScraperConfigController {
     private readonly scraperConfigService: ScraperConfigService,
     private readonly newsDbService: NewsDbService,
     private readonly ynaFeedService: YnaFeedService,
+    private readonly translationClient: TranslationClientService,
   ) {}
 
   // ─── Config CRUD ────────────────────────────────────────────────────────────
@@ -135,6 +137,68 @@ export class ScraperConfigController {
   })
   async download2(@Param('originId', ParseIntPipe) originId: number) {
     return this.newsDbService.loadArticlesToDb(originId);
+  }
+
+  // ─── 번역 앱 연결 테스트 ────────────────────────────────────────────────────
+
+  @Get('translation/test')
+  @ApiOperation({
+    summary: '분리된 번역 앱(dmz-translation) 연결 테스트 — 목데이터 번역 왕복 확인',
+  })
+  @ApiQuery({
+    name: 'mock',
+    required: false,
+    enum: ['ko', 'en'],
+    description:
+      "ko(기본): 한글 목데이터로 실제 Gemini 번역까지 확인 / en: 영문 목데이터라 Gemini 호출 없이 HTTP 연결만 확인",
+  })
+  @ApiResponse({
+    status: 200,
+    description: '연결/번역 결과 (실패해도 200으로 원인 메시지 반환)',
+    schema: {
+      example: {
+        ok: true,
+        translationApiUrl: 'http://localhost:3100',
+        elapsedMs: 1234,
+        sent: { title: 'DMZ 평화의 길 운영 안내', writer: '홍길동 기자', content: '...' },
+        received: { title_en: '...', writer_en: '...', content_en: '...' },
+      },
+    },
+  })
+  async testTranslationConnection(@Query('mock') mock?: string) {
+    const sent =
+      mock === 'en'
+        ? {
+            // 한국어가 없으면 번역 앱이 Gemini 호출 없이 그대로 반환 → 연결만 검증
+            title: 'DMZ connectivity check',
+            writer: 'Test Writer',
+            content: 'This mock payload verifies the HTTP link only.',
+          }
+        : {
+            title: 'DMZ 평화의 길 운영 안내',
+            writer: '홍길동 기자',
+            content: '비무장지대 생태 관광 프로그램이 시작됩니다.',
+          };
+
+    const startedAt = Date.now();
+    try {
+      const received = await this.translationClient.translateArticle(sent);
+      return {
+        ok: true,
+        translationApiUrl: this.translationClient.baseURL,
+        elapsedMs: Date.now() - startedAt,
+        sent,
+        received,
+      };
+    } catch (e) {
+      return {
+        ok: false,
+        translationApiUrl: this.translationClient.baseURL,
+        elapsedMs: Date.now() - startedAt,
+        sent,
+        error: (e as Error).message,
+      };
+    }
   }
 
   // ─── 연합뉴스 RSS 피드 수집 ─────────────────────────────────────────────────
