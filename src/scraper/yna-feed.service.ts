@@ -1,6 +1,12 @@
-import { Injectable, Logger, NotFoundException } from '@nestjs/common';
+import {
+  Injectable,
+  Logger,
+  NotFoundException,
+  OnModuleInit,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { Cron } from '@nestjs/schedule';
+import { SchedulerRegistry } from '@nestjs/schedule';
+import { CronJob } from 'cron';
 import axios from 'axios';
 import { createHash } from 'crypto';
 import moment from 'moment';
@@ -48,8 +54,12 @@ interface FeedItem {
   matchedKeywords: string[];
 }
 
+// 5분 주기 수집 (매시 0·5·10…55분, 피드는 최신 목록만 제공 → 누적 저장)
+const YNA_CRON_ID = 'yna-feed-collect';
+const YNA_CRON_TIME = '0 */5 * * * *';
+
 @Injectable()
-export class YnaFeedService {
+export class YnaFeedService implements OnModuleInit {
   private readonly logger = new Logger(YnaFeedService.name);
   private running = false;
 
@@ -59,16 +69,35 @@ export class YnaFeedService {
     private readonly s3Service: S3Service,
     private readonly translationService: TranslationService,
     private readonly googleChatService: GoogleChatService,
+    private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
 
-  // 매시 정각 수집 (피드는 최신 30건 고정 → 누적 저장)
-  @Cron('0 0 * * * *', { timeZone: 'Asia/Seoul' })
-  async handleHourlyCollect(): Promise<void> {
-    try {
-      await this.collect();
-    } catch (e) {
-      this.logger.error(`[yna] 정기 수집 실패: ${(e as Error).message}`);
+  // 기존 스크래퍼와 동일하게 SchedulerRegistry로 동적 등록한다.
+  // (@Cron 데코레이터는 이 앱 구성에서 discovery가 안 붙어 발화하지 않음)
+  onModuleInit(): void {
+    if (this.schedulerRegistry.getCronJobs().has(YNA_CRON_ID)) {
+      const existing = this.schedulerRegistry.getCronJob(YNA_CRON_ID);
+      existing.stop();
+      this.schedulerRegistry.deleteCronJob(YNA_CRON_ID);
     }
+
+    const job = new CronJob(
+      YNA_CRON_TIME,
+      async () => {
+        try {
+          await this.collect();
+        } catch (e) {
+          this.logger.error(`[yna] 정기 수집 실패: ${(e as Error).message}`);
+        }
+      },
+      null,
+      false,
+      'Asia/Seoul',
+    );
+
+    this.schedulerRegistry.addCronJob(YNA_CRON_ID, job);
+    job.start();
+    this.logger.log(`[yna] 정기 수집 크론 등록 완료 (${YNA_CRON_TIME})`);
   }
 
   /**
