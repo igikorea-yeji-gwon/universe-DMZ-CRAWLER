@@ -146,30 +146,30 @@ export class YnaFeedService implements OnModuleInit {
         const origin = await this.findOrigin(client, originId);
         const category = await this.findCategory(client, origin.category_code);
 
-        // 배치 내 중복: 제목 + 기자명 + 날짜
+        // 연합뉴스 피드 link(.../view/AKR...?input=feed_unikorea)는 기사 고유·불변 식별자다.
+        // 제목+날짜는 (1) 동명 기사 오탐(서로 다른 기사 유실), (2) pubDate 파싱 실패 시
+        // 날짜가 흔들려 재전송분 중복 적재 위험이 있어, INSERT하는 link_url을 그대로 중복 키로 쓴다.
         const seenInBatch = new Set<string>();
 
         for (const item of matched) {
-          const dateOnly = item.regDt.slice(0, 10);
-          const batchKey = `${item.title}|${item.writer}|${dateOnly}`;
-          if (seenInBatch.has(batchKey)) {
+          if (seenInBatch.has(item.link)) {
             summary.skippedDuplicate++;
             continue;
           }
-          seenInBatch.add(batchKey);
+          seenInBatch.add(item.link);
 
           try {
-            // DB 중복: origin_id + 제목 + 날짜 (news에 writer 컬럼이 없어 기자명은 배치 단계에서만 비교)
+            // DB 중복: origin_id + link_url (INSERT 값과 동일 기준 → 재실행·재전송에도 왕복 일관)
             const dup = await this.queryRows(
               client,
               `SELECT news_id FROM news
-               WHERE origin_id = ? AND title = ? AND CAST(reg_dt AS DATE) = CAST(? AS DATE)
+               WHERE origin_id = ? AND link_url = ?
                LIMIT 1`,
-              [originId, item.title, item.regDt],
+              [originId, item.link],
             );
             if (dup.length > 0) {
               summary.skippedDuplicate++;
-              this.logger.log(`[yna] 중복 스킵: "${item.title}" (${dateOnly})`);
+              this.logger.log(`[yna] 중복 스킵: "${item.title}" (${item.link})`);
               continue;
             }
 

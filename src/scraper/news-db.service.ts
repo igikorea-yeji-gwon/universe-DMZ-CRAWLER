@@ -12,6 +12,10 @@ const FILE_EXTS = new Set([
 const RGTR_ID = 'admin';
 const LANG_CODE = 'ko';
 const DT_FORMAT = 'YYYY-MM-DD HH:mm:ss';
+// writedate 파싱 실패 시 쓰는 고정 sentinel. now(비결정적)를 쓰면 재실행마다
+// 날짜가 달라져 중복 검사(CAST(reg_dt AS DATE))가 빗나가므로, 결정적 값으로 고정한다.
+// 파싱 실패분은 reg_dt < '2000-01-01'로 추려 나중에 포맷 보정 가능.
+const UNPARSEABLE_DATE = '1970-01-01 00:00:00';
 
 interface FileRow {
   filePath: string;
@@ -60,7 +64,14 @@ export class NewsDbService {
         const linkUrl: string = meta.currentUrl ?? null;
 
         const now = moment().format(DT_FORMAT);
-        const regDt = this.parseWritedate(meta.writedate) ?? now;
+        const parsedDate = this.parseWritedate(meta.writedate);
+        if (!parsedDate) {
+          this.logger.warn(
+            `[download2] writedate 파싱 실패 → sentinel(${UNPARSEABLE_DATE}) 적용: ` +
+            `"${meta.writedate ?? ''}" (${meta.title ?? ''})`,
+          );
+        }
+        const regDt = parsedDate ?? UNPARSEABLE_DATE;
 
         const batchKey = `${meta.title ?? ''}|${meta.writer ?? ''}|${regDt.slice(0, 10)}`;
         if (seenInBatch.has(batchKey)) {
@@ -255,10 +266,22 @@ export class NewsDbService {
     return key.startsWith('/') ? key : `/${key}`;
   }
 
-  /** writedate('2025-06-13', '20250613' 등) → 'YYYY-MM-DD HH:mm:ss', 파싱 실패 시 null */
+  /** writedate('2025-06-13', '20250613', '2025.6.13 15:30', '2025년 6월 13일' 등)
+   *  → 'YYYY-MM-DD 00:00:00'(일 단위 정규화), 파싱 실패 시 null */
   private parseWritedate(writedate?: string): string | null {
     if (!writedate) return null;
-    const m = moment(String(writedate).trim(), ['YYYY-MM-DD', 'YYYYMMDD', 'YYYY.MM.DD', 'YYYY/MM/DD'], true);
+    const m = moment(
+      String(writedate).trim(),
+      [
+        'YYYY-MM-DD', 'YYYYMMDD', 'YYYY.MM.DD', 'YYYY/MM/DD',
+        'YYYY-M-D', 'YYYY.M.D', 'YYYY/M/D',
+        'YYYY-MM-DD HH:mm:ss', 'YYYY-MM-DD HH:mm',
+        'YYYY.MM.DD HH:mm:ss', 'YYYY.MM.DD HH:mm',
+        'YYYY/MM/DD HH:mm:ss', 'YYYY/MM/DD HH:mm',
+        'YYYY년 M월 D일', 'YYYY년 MM월 DD일',
+      ],
+      true,
+    );
     return m.isValid() ? m.startOf('day').format(DT_FORMAT) : null;
   }
 }
