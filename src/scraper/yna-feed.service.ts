@@ -13,7 +13,7 @@ import moment from 'moment';
 import { parseStringPromise } from 'xml2js';
 import { CubridService } from 'src/database/cubrid.service';
 import { S3Service } from 'src/aws/s3/s3.service';
-import { TranslationService } from 'src/translation/translation.service';
+import { TranslationClientService } from './translation-client.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 
 // 주무관 협의 키워드 — 제목/본문에 하나라도 포함되면 수집 대상
@@ -67,7 +67,7 @@ export class YnaFeedService implements OnModuleInit {
     private readonly configService: ConfigService,
     private readonly cubridService: CubridService,
     private readonly s3Service: S3Service,
-    private readonly translationService: TranslationService,
+    private readonly translationClient: TranslationClientService,
     private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
@@ -174,11 +174,12 @@ export class YnaFeedService implements OnModuleInit {
             }
 
             // 중복이 아닌 것이 확정된 뒤에만 번역 호출 (토큰 절약)
-            let titleEn = '';
-            let contentEn = '';
+            // 번역 앱 다운/실패 시 영문 필드는 null 그대로 적재 (trsl_yn='N')
+            let titleEn: string | null = null;
+            let contentEn: string | null = null;
             let trslYn = 'N';
             try {
-              const translated = await this.translationService.translateFields({
+              const translated = await this.translationClient.translateFields({
                 title: item.title,
                 content: item.content,
               });

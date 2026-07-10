@@ -15,7 +15,7 @@ import { MediaDownloadService } from './media-download.service';
 import { HtmlParsingService } from './html-parsing.service';
 import { PageNavigationService } from './page-navigation.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
-import { TranslationService } from 'src/translation/translation.service';
+import { TranslationClientService } from './translation-client.service';
 
 interface ScrapeConfig {
   startUrl: string[];
@@ -40,7 +40,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     private htmlParsingService: HtmlParsingService,
     private pageNavigationService: PageNavigationService,
     private googleChatService: GoogleChatService,
-    private translationService: TranslationService,
+    private translationClient: TranslationClientService,
   ) {}
 
   async onModuleInit() {
@@ -449,13 +449,16 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
         this.logger.log(`[${config.id}] 번역 시작: "${meta.title ?? ''}"`);
         try {
-          const translated = await this.translationService.translateArticle(meta);
+          const translated = await this.translationClient.translateArticle(meta);
           meta.title_en = translated.title_en ?? '';
           meta.content_text_en = translated.content_en ?? '';
           this.logger.log(
             `[${config.id}] 번역 완료: title_en="${meta.title_en.slice(0, 50)}..."`,
           );
         } catch (e) {
+          // 번역 앱 다운/실패 시 영문 필드는 null로 저장 → download2 적재 시 trsl_yn='N'
+          meta.title_en = null;
+          meta.content_text_en = null;
           this.logger.warn(
             `[${config.id}] 영문 번역 실패, 원문만 저장: ${e.message}`,
           );

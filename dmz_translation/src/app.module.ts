@@ -1,9 +1,8 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { LoggerModule } from 'nestjs-pino';
-import { ScraperModule } from './scraper/scraper.module';
 import { ResponseInterceptor } from './common/interceptors/response.interceptor';
-import { IsbnModule } from './isbn/isbn.module';
+import { TranslationModule } from './translation/translation.module';
 
 @Module({
   imports: [
@@ -18,8 +17,7 @@ import { IsbnModule } from './isbn/isbn.module';
         },
       },
     }),
-    IsbnModule,
-    ScraperModule,
+    TranslationModule,
   ],
   providers: [ResponseInterceptor],
 })
