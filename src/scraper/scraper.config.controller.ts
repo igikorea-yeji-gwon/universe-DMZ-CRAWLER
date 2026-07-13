@@ -23,6 +23,7 @@ import { ScraperConfigService } from './scraper.config.service';
 import { NewsDbService } from './news-db.service';
 import { YnaFeedService } from './yna-feed.service';
 import { TranslationClientService } from './translation-client.service';
+import { ArticleExportService } from './article-export.service';
 import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
 import { ListConfigDto } from './dto/scraperDtos';
 
@@ -35,6 +36,7 @@ export class ScraperConfigController {
     private readonly newsDbService: NewsDbService,
     private readonly ynaFeedService: YnaFeedService,
     private readonly translationClient: TranslationClientService,
+    private readonly articleExportService: ArticleExportService,
   ) {}
 
   // ─── Config CRUD ────────────────────────────────────────────────────────────
@@ -113,6 +115,63 @@ export class ScraperConfigController {
   @ApiParam({ name: 'originId', type: Number, example: 11 })
   async downloadByOrigin(@Param('originId', ParseIntPipe) originId: number) {
     return this.scraperConfigService.getFilesByOrigin(originId);
+  }
+
+  // ─── 스프링 연동: S3 meta.json → DB 적재용 정규화 JSON ─────────────────────
+
+  @Get('articles/:originId')
+  @ApiOperation({
+    summary:
+      'origin_id 기준 S3 meta.json을 DB 적재용(정규화) JSON으로 반환 — 스프링 뉴스 적재 배치 연동용',
+  })
+  @ApiParam({ name: 'originId', type: Number, example: 16 })
+  @ApiQuery({
+    name: 'since',
+    required: false,
+    example: '2026-07-13 00:00:00',
+    description: '이 시각(KST) 이후에 수집 완료된 기사만 반환 (증분 폴링용). 생략 시 전체 반환',
+  })
+  @ApiResponse({
+    status: 200,
+    description: '적재용 기사 목록',
+    schema: {
+      example: {
+        originId: 16,
+        since: '2026-07-13 00:00:00',
+        total: 2,
+        articles: [
+          {
+            originId: 16,
+            title: '기사 제목',
+            contentText: '본문...<br>문단2',
+            linkUrl: 'https://example.com/article/123',
+            writer: '홍길동',
+            regDt: '2026-07-12 00:00:00',
+            regDtParsed: true,
+            langCode: 'ko',
+            trslYn: 'Y',
+            titleEn: 'Article title',
+            contentTextEn: 'Body...',
+            collectedAt: '2026-07-13 09:05:12',
+            files: [
+              {
+                filePath: '/news-crawler/file/16/2026-07-12/img/xxx.jpg',
+                fileUrl: 'https://example.com/img/xxx.jpg',
+                fileTy: 'image',
+                sortOrder: 0,
+              },
+            ],
+            skippedFiles: 0,
+          },
+        ],
+      },
+    },
+  })
+  async exportArticles(
+    @Param('originId', ParseIntPipe) originId: number,
+    @Query('since') since?: string,
+  ) {
+    return this.articleExportService.exportArticles(originId, since);
   }
 
   // ─── [임시] S3 meta.json → CUBRID 적재 ────────────────────────────────────
@@ -205,7 +264,8 @@ export class ScraperConfigController {
 
   @Get('yna/collect')
   @ApiOperation({
-    summary: '연합뉴스 RSS 피드 즉시 수집 (매시 정각 자동 수집과 동일 로직, 테스트용)',
+    summary:
+      '연합뉴스 RSS 피드 즉시 수집 → S3 meta.json 저장 (5분 주기 자동 수집과 동일 로직, 테스트용. DB 적재는 스프링 담당)',
   })
   @ApiResponse({
     status: 200,
@@ -215,8 +275,8 @@ export class ScraperConfigController {
         totalItems: 30,
         keywordMatched: 3,
         skippedDuplicate: 2,
-        inserted: 1,
-        fileInserted: 2,
+        saved: 1,
+        imageUploaded: 2,
         translated: 1,
         errors: [],
       },

@@ -19,6 +19,7 @@ import { TranslationClientService } from './translation-client.service';
 import { NewsDbService } from './news-db.service';
 import { CubridService } from 'src/database/cubrid.service';
 import { YnaFeedService } from './yna-feed.service';
+import { ArticleExportService } from './article-export.service';
 
 @Module({
   imports: [ScheduleModule.forRoot()],
@@ -41,6 +42,7 @@ import { YnaFeedService } from './yna-feed.service';
     NewsDbService,
     CubridService,
     YnaFeedService,
+    ArticleExportService,
   ],
 })
 export class ScraperModule {}
