@@ -146,7 +146,8 @@ export class YnaFeedService implements OnModuleInit {
         const origin = await this.findOrigin(client, originId);
         const category = await this.findCategory(client, origin.category_code);
 
-        // 배치 내 중복: 제목 + 기자명 + 날짜
+        // 배치 내 중복: 제목 + 작성자 + 등록일자(일 단위)
+        // DB 중복: origin_id + 제목 + 등록일자 (news에 작성자 컬럼이 없어 DB 비교엔 작성자 제외)
         const seenInBatch = new Set<string>();
 
         for (const item of matched) {
@@ -159,7 +160,6 @@ export class YnaFeedService implements OnModuleInit {
           seenInBatch.add(batchKey);
 
           try {
-            // DB 중복: origin_id + 제목 + 날짜 (news에 writer 컬럼이 없어 기자명은 배치 단계에서만 비교)
             const dup = await this.queryRows(
               client,
               `SELECT news_id FROM news
