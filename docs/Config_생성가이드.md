@@ -1,8 +1,8 @@
 # 수집 메타데이터 생성 방법
 
-> 명세서를 받으면 `scrape-configs/N.json`을 자동 생성한다.  
+> 명세서를 받으면 `configs/N.json`을 자동 생성한다.  
 > **사람이 줄 정보는 최소화하고, 나머지는 URL을 직접 분석해서 채운다.**  
-> Step 상세 작성법은 **[`ScrapeConfig_Steps_작성가이드.md`](./ScrapeConfig_Steps_작성가이드.md)** 참조.
+> Step 상세 작성법은 **[`Config_Steps_작성가이드.md`](./Config_Steps_작성가이드.md)** 참조.
 
 ---
 
@@ -212,5 +212,5 @@
 
 ## 참고
 
-- Step 상세 작성법 전체: **[`ScrapeConfig_Steps_작성가이드.md`](./ScrapeConfig_Steps_작성가이드.md)**
+- Step 상세 작성법 전체: **[`Config_Steps_작성가이드.md`](./Config_Steps_작성가이드.md)**
 - news_origin origin_id 목록: CUBRID `SELECT origin_id, origin_nm FROM news_origin ORDER BY origin_id`

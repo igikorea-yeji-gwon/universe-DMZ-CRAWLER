@@ -1,4 +1,4 @@
-# ScrapeConfig Steps 작성 가이드
+# Config Steps 작성 가이드
 
 ## 목차
 
@@ -650,7 +650,7 @@ const case4_file_onclick = {
 
 ## 9. 완전한 예시 — 실제 사이트(koreadmz): 목록 HTML + 상세 HTML → 전체 config
 
-> 실제로 동작 검증된 케이스([scrape-configs/1.json](../scrape-configs/1.json)). 목록·상세 두 페이지의 태그를 나란히 놓고 셀렉터를 뽑아 하나의 config로 합치는 전 과정.
+> 실제로 동작 검증된 케이스([configs/1.json](../configs/1.json)). 목록·상세 두 페이지의 태그를 나란히 놓고 셀렉터를 뽑아 하나의 config로 합치는 전 과정.
 > - 목록: `https://www.koreadmz.kr/geopark/pds/notice?searchCondition=TITLE&searchKeyword=dmz`
 > - 상세: `https://www.koreadmz.kr/geopark/pds/notice?articleSeq=136`
 
@@ -758,4 +758,4 @@ const case4_file_onclick = {
 }
 ```
 
-> 실제 배포된 [1.json](../scrape-configs/1.json)은 셀렉터에 상위 경로를 더 길게 붙여 대상을 좁혔다(예: `div.contsArea.skinContainer ... div.skinTb-td.skinTb-sbj`). 위 예시는 같은 요소를 짧게 잡은 형태로, 둘 다 동작한다. 페이지에서 해당 셀렉터가 **정확히 1개**만 매칭되도록 필요한 만큼만 구체화하면 된다 (7·3-2 참조).
+> 실제 배포된 [1.json](../configs/1.json)은 셀렉터에 상위 경로를 더 길게 붙여 대상을 좁혔다(예: `div.contsArea.skinContainer ... div.skinTb-td.skinTb-sbj`). 위 예시는 같은 요소를 짧게 잡은 형태로, 둘 다 동작한다. 페이지에서 해당 셀렉터가 **정확히 1개**만 매칭되도록 필요한 만큼만 구체화하면 된다 (7·3-2 참조).
