@@ -1,9 +1,4 @@
-import {
-  Injectable,
-  Logger,
-  NotFoundException,
-  OnModuleInit,
-} from '@nestjs/common';
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { CronJob } from 'cron';
@@ -11,7 +6,6 @@ import axios from 'axios';
 import { createHash } from 'crypto';
 import moment from 'moment';
 import { parseStringPromise } from 'xml2js';
-import { CubridService } from 'src/database/cubrid.service';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { TranslationService } from 'src/translation/translation.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
@@ -40,8 +34,6 @@ const BROWSER_UA =
   '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
 const DT_FORMAT = 'YYYY-MM-DD HH:mm:ss';
-const RGTR_ID = 'admin';
-const LANG_CODE = 'ko';
 
 interface FeedItem {
   guid: string;
@@ -65,7 +57,6 @@ export class YnaFeedService implements OnModuleInit {
 
   constructor(
     private readonly configService: ConfigService,
-    private readonly cubridService: CubridService,
     private readonly s3Service: S3Service,
     private readonly translationService: TranslationService,
     private readonly googleChatService: GoogleChatService,
@@ -101,7 +92,10 @@ export class YnaFeedService implements OnModuleInit {
   }
 
   /**
-   * 연합뉴스 RSS 피드 수집 → 키워드 필터 → 중복 확인 → (신규만) 번역 → CUBRID 적재
+   * 연합뉴스 RSS 피드 수집 → 키워드 필터 → 중복 확인(S3 meta.json 존재 여부)
+   * → (신규만) 번역 → 이미지 S3 업로드 → meta.json 저장.
+   * DB 적재는 하지 않는다 — 스프링이 GET /scraper/articles/:originId 로 가져가 적재한다.
+   * meta.json 필드는 기존 config 스크래퍼 출력과 동일 스키마를 따른다.
    */
   async collect() {
     if (this.running) {
@@ -122,8 +116,8 @@ export class YnaFeedService implements OnModuleInit {
       totalItems: 0,
       keywordMatched: 0,
       skippedDuplicate: 0,
-      inserted: 0,
-      fileInserted: 0,
+      saved: 0,
+      imageUploaded: 0,
       translated: 0,
       errors: [] as { link: string; message: string }[],
     };
@@ -139,147 +133,79 @@ export class YnaFeedService implements OnModuleInit {
       );
       if (matched.length === 0) return summary;
 
-      const client = this.cubridService.createClient();
-      await client.connect();
+      // guid 기반 해시가 기사 식별자 — 배치 내 중복과 S3 중복(완료 마커) 모두 이걸로 거른다
+      const seenInBatch = new Set<string>();
 
-      try {
-        const origin = await this.findOrigin(client, originId);
-        const category = await this.findCategory(client, origin.category_code);
+      for (const item of matched) {
+        const articleHash = createHash('md5')
+          .update(item.guid || item.link)
+          .digest('hex')
+          .slice(0, 8);
 
-        // 배치 내 중복: 제목 + 작성자 + 등록일자(일 단위)
-        // DB 중복: origin_id + 제목 + 등록일자 (news에 작성자 컬럼이 없어 DB 비교엔 작성자 제외)
-        const seenInBatch = new Set<string>();
+        if (seenInBatch.has(articleHash)) {
+          summary.skippedDuplicate++;
+          continue;
+        }
+        seenInBatch.add(articleHash);
 
-        for (const item of matched) {
-          const dateOnly = item.regDt.slice(0, 10);
-          const batchKey = `${item.title}|${item.writer}|${dateOnly}`;
-          if (seenInBatch.has(batchKey)) {
+        try {
+          const alreadySaved = await this.s3Service.articleExists(originId, articleHash);
+          if (alreadySaved) {
             summary.skippedDuplicate++;
+            this.logger.log(`[yna] 중복 스킵(수집 완료 마커 존재): "${item.title}"`);
             continue;
           }
-          seenInBatch.add(batchKey);
 
+          // 중복이 아닌 것이 확정된 뒤에만 번역 호출 (토큰 절약)
+          let titleEn = '';
+          let contentEn = '';
           try {
-            const dup = await this.queryRows(
-              client,
-              `SELECT news_id FROM news
-               WHERE origin_id = ? AND title = ? AND CAST(reg_dt AS DATE) = CAST(? AS DATE)
-               LIMIT 1`,
-              [originId, item.title, item.regDt],
-            );
-            if (dup.length > 0) {
-              summary.skippedDuplicate++;
-              this.logger.log(`[yna] 중복 스킵: "${item.title}" (${dateOnly})`);
-              continue;
-            }
-
-            // 중복이 아닌 것이 확정된 뒤에만 번역 호출 (토큰 절약)
-            let titleEn = '';
-            let contentEn = '';
-            let trslYn = 'N';
-            try {
-              const translated = await this.translationService.translateFields({
-                title: item.title,
-                content: item.content,
-              });
-              titleEn = translated.title ?? '';
-              contentEn = translated.content ?? '';
-              trslYn = 'Y';
-              summary.translated++;
-            } catch (e) {
-              this.logger.warn(
-                `[yna] 번역 실패, 원문만 저장: "${item.title}" — ${(e as Error).message}`,
-              );
-            }
-
-            const articleHash = createHash('md5')
-              .update(item.guid || item.link)
-              .digest('hex')
-              .slice(0, 8);
-            const fileRows = await this.uploadImages(item.imgUrls, originId, articleHash);
-
-            await client.beginTransaction();
-            try {
-              const now = moment().format(DT_FORMAT);
-              const newsId = await this.nextId(
-                client,
-                'SELECT COALESCE(MAX(news_id), 0) + 1 AS next_id FROM news',
-              );
-
-              await client.execute(
-                `INSERT INTO news (
-                   news_id, title, content_text, origin_id, origin_nm, link_url,
-                   category_nm, category_id, lang_code, trsl_yn, use_yn,
-                   file_path, rgtr_id, reg_dt, mdfr_id, mdfcn_dt,
-                   title_en, content_text_en, origin_nm_en, category_nm_en, crawl_dt
-                 ) VALUES (
-                   ?, ?, ?, ?, ?, ?,
-                   ?, ?, ?, ?, ?,
-                   ?, ?, ?, ?, ?,
-                   ?, ?, ?, ?, ?
-                 )`,
-                [
-                  newsId,
-                  item.title,
-                  item.content,
-                  originId,
-                  origin.origin_nm,
-                  item.link,
-                  category?.category_nm ?? null,
-                  origin.category_code,
-                  LANG_CODE,
-                  trslYn,
-                  'Y',
-                  null,
-                  RGTR_ID,
-                  item.regDt,
-                  RGTR_ID,
-                  now,
-                  titleEn,
-                  contentEn,
-                  origin.origin_nm_en ?? null,
-                  category?.category_nm_en ?? null,
-                  now,
-                ],
-              );
-
-              let fileId = await this.nextId(
-                client,
-                'SELECT COALESCE(MAX(file_id), 0) + 1 AS next_id FROM news_file',
-              );
-              for (const row of fileRows) {
-                await client.execute(
-                  `INSERT INTO news_file (
-                     file_id, news_id, file_path, file_url, file_ty, sort_order,
-                     use_yn, rgtr_id, reg_dt, lang_code
-                   ) VALUES (?, ?, ?, ?, 'image', ?, 'Y', ?, ?, ?)`,
-                  [fileId++, newsId, row.filePath, row.fileUrl, row.sortOrder, RGTR_ID, now, LANG_CODE],
-                );
-                summary.fileInserted++;
-              }
-
-              await client.commit();
-              summary.inserted++;
-              this.logger.log(
-                `[yna] 적재 완료 news_id=${newsId} (이미지 ${fileRows.length}건, ` +
-                `키워드: ${item.matchedKeywords.join(',')}) "${item.title}"`,
-              );
-            } catch (e) {
-              await client.rollback().catch(() => undefined);
-              throw e;
-            }
+            const translated = await this.translationService.translateFields({
+              title: item.title,
+              content: item.content,
+            });
+            titleEn = translated.title ?? '';
+            contentEn = translated.content ?? '';
+            summary.translated++;
           } catch (e) {
-            this.logger.error(`[yna] 기사 적재 실패 (${item.link}): ${(e as Error).message}`);
-            summary.errors.push({ link: item.link, message: (e as Error).message });
+            this.logger.warn(
+              `[yna] 번역 실패, 원문만 저장: "${item.title}" — ${(e as Error).message}`,
+            );
           }
+
+          const imgRows = await this.uploadImages(item.imgUrls, originId, articleHash);
+          summary.imageUploaded += imgRows.length;
+
+          // 기존 config 스크래퍼의 meta.json 스키마와 동일한 필드명 사용
+          // (writedate/currentUrl/img[].s3Path — 스프링 적재 API가 이 스키마를 읽는다)
+          const meta = {
+            title: item.title,
+            content: item.content,
+            writer: item.writer,
+            writedate: item.regDt,
+            currentUrl: item.link,
+            title_en: titleEn,
+            content_text_en: contentEn,
+            img: imgRows,
+            guid: item.guid,
+            matchedKeywords: item.matchedKeywords,
+          };
+
+          await this.s3Service.saveArticleMeta(originId, articleHash, meta);
+          summary.saved++;
+          this.logger.log(
+            `[yna] meta.json 저장 완료 hash=${articleHash} (이미지 ${imgRows.length}건, ` +
+            `키워드: ${item.matchedKeywords.join(',')}) "${item.title}"`,
+          );
+        } catch (e) {
+          this.logger.error(`[yna] 기사 저장 실패 (${item.link}): ${(e as Error).message}`);
+          summary.errors.push({ link: item.link, message: (e as Error).message });
         }
-      } finally {
-        await client.close().catch(() => undefined);
       }
 
       this.logger.log(
         `[yna] 수집 종료: 피드 ${summary.totalItems}건, 매칭 ${summary.keywordMatched}건, ` +
-        `신규 ${summary.inserted}건, 중복 ${summary.skippedDuplicate}건, ` +
+        `신규 ${summary.saved}건, 중복 ${summary.skippedDuplicate}건, ` +
         `번역 ${summary.translated}건, 실패 ${summary.errors.length}건`,
       );
       return summary;
@@ -348,7 +274,7 @@ export class YnaFeedService implements OnModuleInit {
     }
 
     let text = html
-      // 이미지·캡션 블록은 통째로 제거 (이미지는 news_file로 별도 적재)
+      // 이미지·캡션 블록은 통째로 제거 (이미지는 img 배열로 별도 저장)
       .replace(/<figure[\s\S]*?<\/figure>/gi, '\n')
       .replace(/<br\s*\/?>/gi, '\n')
       .replace(/<[^>]+>/g, '');
@@ -411,12 +337,13 @@ export class YnaFeedService implements OnModuleInit {
 
   // ─── 이미지 업로드 ─────────────────────────────────────────────
 
+  /** 이미지 다운로드 → S3 업로드. meta.json img 배열용 { url, s3Path } 목록 반환 */
   private async uploadImages(
     imgUrls: string[],
     originId: number,
     articleHash: string,
-  ): Promise<{ filePath: string; fileUrl: string; sortOrder: number }[]> {
-    const rows: { filePath: string; fileUrl: string; sortOrder: number }[] = [];
+  ): Promise<{ url: string; s3Path: string }[]> {
+    const rows: { url: string; s3Path: string }[] = [];
 
     for (const url of imgUrls) {
       try {
@@ -435,55 +362,11 @@ export class YnaFeedService implements OnModuleInit {
           originId,
           articleHash,
         );
-        rows.push({
-          filePath: this.toDbFilePath(s3Path),
-          fileUrl: url,
-          sortOrder: rows.length,
-        });
+        rows.push({ url, s3Path });
       } catch (e) {
         this.logger.warn(`[yna] 이미지 다운로드 실패, 건너뜀: ${url} — ${(e as Error).message}`);
       }
     }
     return rows;
-  }
-
-  /** s3://bucket/key → /key (버킷 제거, 선행 슬래시 유지) */
-  private toDbFilePath(s3Path: string): string {
-    const key = s3Path.replace(/^s3:\/\/[^/]+/, '');
-    return key.startsWith('/') ? key : `/${key}`;
-  }
-
-  // ─── CUBRID 헬퍼 ───────────────────────────────────────────────
-
-  private async queryRows(client: any, sql: string, params?: any[]): Promise<any[]> {
-    const rows = await client.queryAllAsObjects(sql, params);
-    return rows ?? [];
-  }
-
-  private async nextId(client: any, sql: string): Promise<number> {
-    const rows = await this.queryRows(client, sql);
-    return Number(rows[0]?.next_id ?? rows[0]?.NEXT_ID ?? 1);
-  }
-
-  private async findOrigin(client: any, originId: number) {
-    const rows = await this.queryRows(
-      client,
-      'SELECT origin_id, origin_nm, origin_nm_en, category_code FROM news_origin WHERE origin_id = ?',
-      [originId],
-    );
-    if (rows.length === 0) {
-      throw new NotFoundException(`news_origin에 origin_id=${originId}가 없습니다.`);
-    }
-    return rows[0];
-  }
-
-  private async findCategory(client: any, categoryCode: string | null) {
-    if (!categoryCode) return null;
-    const rows = await this.queryRows(
-      client,
-      'SELECT category_code, category_nm, category_nm_en FROM news_category WHERE category_code = ?',
-      [categoryCode],
-    );
-    return rows[0] ?? null;
   }
 }

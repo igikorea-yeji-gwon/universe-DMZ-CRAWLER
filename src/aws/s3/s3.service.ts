@@ -265,39 +265,56 @@ export class S3Service {
     return `s3://${bucket}/${key}`;
   }
 
-  private async listMetaKeysByOrigin(originId: number): Promise<string[]> {
+  private async listMetaKeysByOrigin(
+    originId: number,
+    since?: Date,
+  ): Promise<{ key: string; lastModified: Date | null }[]> {
     const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
     const prefix = `news-crawler/articles/${originId}/`;
 
-    const metaKeys: string[] = [];
+    const entries: { key: string; lastModified: Date | null }[] = [];
     let continuationToken: string | undefined;
     do {
       const res = await this.s3.send(
         new ListObjectsV2Command({ Bucket: bucket, Prefix: prefix, ContinuationToken: continuationToken }),
       );
       for (const obj of res.Contents ?? []) {
-        if (obj.Key?.endsWith('meta.json')) metaKeys.push(obj.Key);
+        if (!obj.Key?.endsWith('meta.json')) continue;
+        if (since && obj.LastModified && obj.LastModified < since) continue;
+        entries.push({ key: obj.Key, lastModified: obj.LastModified ?? null });
       }
       continuationToken = res.IsTruncated ? res.NextContinuationToken : undefined;
     } while (continuationToken);
 
-    return metaKeys;
+    return entries;
   }
 
   /** origin 하위의 모든 meta.json을 파싱해 원본 그대로 반환 (presigned 변환 없음) */
   async listArticleMetasByOrigin(originId: number): Promise<Record<string, any>[]> {
-    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
-    const metaKeys = await this.listMetaKeysByOrigin(originId);
+    const entries = await this.listArticleMetaEntries(originId);
+    return entries.map((e) => e.meta);
+  }
 
-    const metas: Record<string, any>[] = [];
-    for (const metaKey of metaKeys) {
+  /**
+   * origin 하위 meta.json을 S3 LastModified(수집 완료 시각)와 함께 반환.
+   * since를 주면 그 시각 이후에 저장된 meta만 반환한다 (스프링 증분 폴링용).
+   */
+  async listArticleMetaEntries(
+    originId: number,
+    since?: Date,
+  ): Promise<{ meta: Record<string, any>; lastModified: Date | null }[]> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const metaEntries = await this.listMetaKeysByOrigin(originId, since);
+
+    const results: { meta: Record<string, any>; lastModified: Date | null }[] = [];
+    for (const { key, lastModified } of metaEntries) {
       try {
-        const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: metaKey }));
+        const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: key }));
         const body = await obj.Body?.transformToString('utf-8');
-        metas.push(JSON.parse(body ?? '{}'));
+        results.push({ meta: JSON.parse(body ?? '{}'), lastModified });
       } catch { /* meta.json 파싱 실패 시 skip */ }
     }
-    return metas;
+    return results;
   }
 
   async listFilesByOrigin(originId: number): Promise<any[]> {
@@ -311,7 +328,7 @@ export class S3Service {
     };
 
     const results: any[] = [];
-    for (const metaKey of metaKeys) {
+    for (const { key: metaKey } of metaKeys) {
       try {
         const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: metaKey }));
         const body = await obj.Body?.transformToString('utf-8');
