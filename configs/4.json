@@ -2,7 +2,7 @@
   "id": 4,
   "origin_id": 13,
   "name": "강원생태평화 스마트그린도시: 알림마당 > 공지게시판 > 인제공지 > DMZ 검색(내용)",
-  "description": "강원생태평화 스마트그린도시 - 인제공지 내용 기준 DMZ 검색",
+  "description": "알림마당 > 공지게시판 > 인제공지 > DMZ 검색(내용)",
   "baseUrl": "https://www.gwsgc.kr",
   "startUrl": [
     "https://www.gwsgc.kr/portal/community/notice/inje?searchCondition=CONTENT&searchKeyword=dmz"

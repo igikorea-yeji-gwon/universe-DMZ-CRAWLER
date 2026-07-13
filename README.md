@@ -17,7 +17,7 @@ http://localhost:3000/api
 ## 아키텍처 개요
 
 ```
-Config 등록 (REST API / scrape-configs/*.json)
+Config 등록 (REST API / configs/*.json)
     ↓
 CronJob 스케줄 등록 (SchedulerRegistry)
     ↓
@@ -70,7 +70,7 @@ src/
     │   └── geminiAnalyze/                   # Gemini AI (날짜 파싱용)
     └── webhook/google-chat.service.ts       # Google Chat 오류 알림
 
-scrape-configs/          # Config JSON 파일 저장 폴더 (id별 파일)
+configs/          # Config JSON 파일 저장 폴더 (id별 파일)
     ├── 1.json
     ├── 2.json
     └── ...
@@ -132,7 +132,7 @@ scrape-configs/          # Config JSON 파일 저장 폴더 (id별 파일)
 - `scrapDetail` — 상세 페이지에서 필드 수집
 - `paging` — 다음 페이지로 이동
 
-> 상세 작성 방법은 [ScrapeConfig_Steps_작성가이드.md](./docs/ScrapeConfig_Steps_작성가이드.md) 참고
+> 상세 작성 방법은 [Config_Steps_작성가이드.md](./docs/Config_Steps_작성가이드.md) 참고
 
 ---
 
@@ -143,7 +143,7 @@ scrape-configs/          # Config JSON 파일 저장 폴더 (id별 파일)
 | 프레임워크 | NestJS + @nestjs/schedule |
 | 브라우저 자동화 | Playwright (chromium headless) |
 | HTML 파싱 | cheerio |
-| Config 관리 | JSON 파일 (scrape-configs/*.json) |
+| Config 관리 | JSON 파일 (configs/*.json) |
 | 파일 저장 | AWS S3 |
 | 실행 로그 | AWS S3 (news-crawler/log/) |
 | AI 분석 | Google Gemini (날짜 파싱) |
@@ -206,6 +206,6 @@ http://localhost:3000/api
 
 ## 관련 문서
 
-- [ScrapeConfig_Steps_작성가이드.md](./docs/ScrapeConfig_Steps_작성가이드.md) — `steps` 작성법 (detailLinks, scrapDetail, paging 등)
+- [Config_Steps_작성가이드.md](./docs/Config_Steps_작성가이드.md) — `steps` 작성법 (detailLinks, scrapDetail, paging 등)
 - [Spring_뉴스적재_API명세서.md](./docs/Spring_뉴스적재_API명세서.md) — Spring 프로젝트의 뉴스 DB 적재 API 명세서
-- [ScrapeConfig_생성가이드.md](./docs/ScrapeConfig_생성가이드.md) — `scrape-configs/N.json` 생성 가이드
+- [Config_생성가이드.md](./docs/Config_생성가이드.md) — `configs/N.json` 생성 가이드

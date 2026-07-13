@@ -3,10 +3,12 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { scrapConfig, ScrapConfigAllData } from './types/scraper.type';
 
-// SCRAPE_CONFIG_DIR 환경변수로 경로 변경 가능, 기본값은 프로젝트 루트의 scrape-configs/
+// SCRAPE_CONFIG_DIR 환경변수로 경로 변경 가능, 기본값은 프로젝트 루트의 configs/
 const CONFIG_DIR =
   process.env.SCRAPE_CONFIG_DIR ??
-  path.join(process.cwd(), 'scrape-configs');
+  path.join(process.cwd(), 'configs');
+// 구 폴더명(scrape-configs). 남아 있으면 시작 시 configs/로 자동 이관
+const LEGACY_CONFIG_DIR = path.join(process.cwd(), 'scrape-configs');
 
 @Injectable()
 export class JsonConfigService {
@@ -33,6 +35,8 @@ export class JsonConfigService {
       this.logger.warn(`⚠️ ${CONFIG_DIR} 폴더가 없어 새로 생성했습니다.`);
     }
 
+    this.migrateLegacyDir();
+
     const files = fs.readdirSync(CONFIG_DIR).filter((f) => f.endsWith('.json'));
     this.cache.clear();
 
@@ -46,7 +50,35 @@ export class JsonConfigService {
       }
     }
 
-    this.logger.log(`✅ scrape-configs 로드 완료 (${this.cache.size}개)`);
+    this.logger.log(`✅ configs 로드 완료 (${this.cache.size}개)`);
+  }
+
+  /** 구 scrape-configs/ 폴더에만 있는 파일을 configs/로 이관 (운영 서버에서 API로 생성된 파일 보호) */
+  private migrateLegacyDir(): void {
+    if (
+      CONFIG_DIR === LEGACY_CONFIG_DIR ||
+      !fs.existsSync(LEGACY_CONFIG_DIR)
+    ) {
+      return;
+    }
+
+    const legacyFiles = fs
+      .readdirSync(LEGACY_CONFIG_DIR)
+      .filter((f) => f.endsWith('.json'));
+
+    let moved = 0;
+    for (const file of legacyFiles) {
+      const dest = path.join(CONFIG_DIR, file);
+      if (!fs.existsSync(dest)) {
+        fs.copyFileSync(path.join(LEGACY_CONFIG_DIR, file), dest);
+        moved++;
+      }
+    }
+    if (moved > 0) {
+      this.logger.warn(
+        `⚠️ 구 scrape-configs/에서 ${moved}개 파일을 configs/로 이관했습니다. 확인 후 구 폴더를 삭제하세요.`,
+      );
+    }
   }
 
   private writeFile(config: ScrapConfigAllData): void {
