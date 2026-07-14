@@ -5,7 +5,7 @@
   "description": "DMZ박물관 언론보도 내용 기준 DMZ 검색",
   "baseUrl": "https://www.dmzmuseum.com",
   "startUrl": [
-    "https://www.dmzmuseum.com/museum/community/media?pageIndex=1&mode=&firstYN=N&searchCondition=CONTENT&searchKeyword=dmz"
+    "https://www.dmzmuseum.com/museum/community/media?pageIndex=1&mode=&firstYN=N&searchCondition=CONTENT&searchKeyword={keyword}"
   ],
   "scheduleTime": [
     "10:00"
@@ -63,6 +63,21 @@
     }
   ],
   "createdAt": "2026-05-26T00:00:00.000Z",
-  "updatedAt": "2026-07-05T01:14:06.550Z",
-  "lastExecutedAt": "2026-07-05T01:14:06.550Z"
+  "updatedAt": "2026-07-14T06:55:17.933Z",
+  "lastExecutedAt": "2026-07-14T06:55:17.933Z",
+  "keywords": [
+    "DMZ",
+    "dmz",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
+  ]
 }

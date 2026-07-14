@@ -37,6 +37,6 @@ async function bootstrap() {
   server.keepAliveTimeout = 120_000;
   server.headersTimeout = 121_000;
 
-  await app.listen(3000);
+  await app.listen(Number(process.env.PORT) || 3000);
 }
 bootstrap();

@@ -15,14 +15,15 @@ import { ProcessService } from 'src/common/utils/scrapProcess/process.service';
 import { GeminiAnalyzerService } from 'src/common/utils/geminiAnalyze/gemini-analyzer.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { JsonConfigService } from './json-config.service';
-import { TranslationModule } from 'src/translation/translation.module';
+import { TranslationClientService } from './translation-client.service';
 import { NewsDbService } from './news-db.service';
 import { CubridService } from 'src/database/cubrid.service';
 import { YnaFeedService } from './yna-feed.service';
+import { YnaBackfillService } from './yna-backfill.service';
 import { ArticleExportService } from './article-export.service';
 
 @Module({
-  imports: [ScheduleModule.forRoot(), TranslationModule],
+  imports: [ScheduleModule.forRoot()],
   controllers: [ScraperConfigController],
   providers: [
     ScraperConfigService,
@@ -38,9 +39,11 @@ import { ArticleExportService } from './article-export.service';
     GeminiAnalyzerService,
     GoogleChatService,
     JsonConfigService,
+    TranslationClientService,
     NewsDbService,
     CubridService,
     YnaFeedService,
+    YnaBackfillService,
     ArticleExportService,
   ],
 })

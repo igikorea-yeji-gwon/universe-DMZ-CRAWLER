@@ -15,7 +15,7 @@ import { MediaDownloadService } from './media-download.service';
 import { HtmlParsingService } from './html-parsing.service';
 import { PageNavigationService } from './page-navigation.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
-import { TranslationService } from 'src/translation/translation.service';
+import { TranslationClientService } from './translation-client.service';
 
 interface ScrapeConfig {
   startUrl: string[];
@@ -25,6 +25,7 @@ interface ScrapeConfig {
   webhook?: boolean;
   useListSession?: boolean;
   maxPage?: number; // config별 최대 순회 페이지 수 (미지정 시 MAX_PAGE)
+  keywords?: string[]; // startUrl의 {keyword} 자리에 치환할 검색 키워드 목록
 }
 
 @Injectable()
@@ -40,7 +41,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     private htmlParsingService: HtmlParsingService,
     private pageNavigationService: PageNavigationService,
     private googleChatService: GoogleChatService,
-    private translationService: TranslationService,
+    private translationClient: TranslationClientService,
   ) {}
 
   async onModuleInit() {
@@ -145,6 +146,86 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
   }
 
   // 상세페이지별 처리를 함수화
+  /**
+   * 기사 URL 정규화: 매 요청마다 값이 바뀌는 세션·CSRF성 쿼리 파라미터를 제거한다.
+   * 해시(articleHash)·중복 판별용으로만 사용하고, 실제 페이지 이동은 원본 URL을 쓴다.
+   */
+  private normalizeArticleUrl(url: string): string {
+    try {
+      const u = new URL(url);
+      ['_csrf', 'csrf', 'csrfToken', 'JSESSIONID', 'PHPSESSID'].forEach((p) =>
+        u.searchParams.delete(p),
+      );
+      return u.toString();
+    } catch {
+      return url;
+    }
+  }
+
+  /** JSON 객체에서 'a.b.c' 점 경로로 값을 꺼낸다. */
+  private getByPath(obj: any, path?: string): any {
+    if (!path) return undefined;
+    return path
+      .split('.')
+      .reduce((o, k) => (o == null ? undefined : o[k]), obj);
+  }
+
+  /**
+   * 추출한 상세 URL 목록에 중복 제거를 적용한다.
+   * - seenOnThisUrl: 이 URL 크롤링(키워드) 내 페이징 중복 감지용
+   * - seenDetailUrls: 실행 전체(키워드 간) 중복 수집 방지용
+   * 반환 stop=true면 페이징을 중단해야 함(빈 목록 또는 중복 페이지).
+   */
+  private applyDetailUrlDedup(
+    extractedDetailUrls: string[],
+    seenOnThisUrl: Set<string>,
+    seenDetailUrls: Set<string>,
+    configId: any,
+    pageLabel: string,
+  ): { detailUrls: string[]; detailUrlIndexes: number[]; stop: boolean } {
+    if (extractedDetailUrls.length === 0) {
+      this.logger.warn(
+        `[${configId}] 빈 목록 페이지 감지 → 페이징 중단: ${pageLabel}`,
+      );
+      return { detailUrls: [], detailUrlIndexes: [], stop: true };
+    }
+    // 1) 이 URL 크롤링 기준 새 상세 URL인지 판단 → 페이징 중복 감지
+    // 중복 키는 정규화 URL(_csrf 등 제거) 기준, 이동은 원본 URL 사용
+    const newOnThisUrl: Array<{ url: string; key: string; index: number }> = [];
+    extractedDetailUrls.forEach((detailUrl, index) => {
+      const key = this.normalizeArticleUrl(detailUrl);
+      if (seenOnThisUrl.has(key)) return;
+      seenOnThisUrl.add(key);
+      newOnThisUrl.push({ url: detailUrl, key, index });
+    });
+
+    let stop = false;
+    if (newOnThisUrl.length === 0) {
+      this.logger.warn(
+        `[${configId}] 중복 페이지 감지: 새 상세 URL 없음 (${pageLabel})`,
+      );
+      stop = true;
+    }
+
+    // 2) 다른 키워드(startUrl)에서 이미 수집한 상세는 제외 — 페이징 판단에는 영향 없음
+    const newDetailUrlPairs = newOnThisUrl.filter(
+      (pair) => !seenDetailUrls.has(pair.key),
+    );
+    newDetailUrlPairs.forEach((pair) => seenDetailUrls.add(pair.key));
+    const skipped = newOnThisUrl.length - newDetailUrlPairs.length;
+    if (skipped > 0) {
+      this.logger.log(
+        `[${configId}] 다른 키워드에서 이미 수집한 상세 ${skipped}건 skip`,
+      );
+    }
+
+    return {
+      detailUrls: newDetailUrlPairs.map((pair) => pair.url),
+      detailUrlIndexes: newDetailUrlPairs.map((pair) => pair.index),
+      stop,
+    };
+  }
+
   async scrapeOne(
     url: string,
     targets,
@@ -153,11 +234,16 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     webhook = true,
     sharedContext?: BrowserContext,
     originId = 0,
+    keywordPattern?: RegExp | null,
   ) {
     this.logger.log(`▶ [${configId}] ${url}`);
     if (url.includes('sections-offices/')) return;
 
-    const articleHash = createHash('md5').update(url).digest('hex').slice(0, 8);
+    // 해시는 정규화 URL 기준 — _csrf 등 매번 바뀌는 토큰이 붙어도 같은 기사로 판별
+    const articleHash = createHash('md5')
+      .update(this.normalizeArticleUrl(url))
+      .digest('hex')
+      .slice(0, 8);
 
     const alreadySaved = originId > 0 && await this.s3Service.articleExists(originId, articleHash);
     if (alreadySaved) {
@@ -239,15 +325,17 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         }
       }
 
-      const dmzPattern = /dmz/i;
+      // 검수 패턴: null이면 검수 생략(키워드 검색으로 수집된 URL — 사이트가 이미 필터링),
+      // RegExp면 키워드 검수, 미지정(undefined)이면 기존 DMZ 검수
+      const dmzPattern = keywordPattern === null ? null : (keywordPattern ?? /dmz/i);
       let dmzChecked = false;
 
       for (const target of targets) {
         // '-list' 타겟은 리스트에서 이미 추출했으므로 skip
         if (target.name.endsWith('-list')) continue;
 
-        // 미디어 타겟 직전 DMZ 검수 — 한 번만 체크
-        if (!dmzChecked && (target.type === 'images' || target.type === 'file')) {
+        // 미디어 타겟 직전 DMZ 검수 — 한 번만 체크 (dmzPattern이 null이면 생략)
+        if (!dmzChecked && dmzPattern && (target.type === 'images' || target.type === 'file')) {
           dmzChecked = true;
           const titleStr   = String(temp.title   ?? '');
           const contentStr = String(temp.content  ?? '');
@@ -279,6 +367,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
           if (
             target.type !== 'duplicatedText' &&
             target.type !== 'images' &&
+            // optional file은 사전 대기 생략 — 첨부 없는 글마다 10초 타임아웃 낭비 방지.
+            // file 분기에 자체 존재 체크가 있고 handleFileStep도 5초 대기를 가짐
+            !(target.type === 'file' && target.optional) &&
             !page.url().includes('www.congress.gov')
           ) {
             await page.waitForSelector(target.selector, {
@@ -400,7 +491,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         }
       }
 
-      temp.currentUrl = url;
+      // 저장용 URL도 정규화 — link_url 기반 DB 중복 판별이 토큰 차이로 뚫리지 않도록
+      temp.currentUrl = this.normalizeArticleUrl(url);
       temp._originId   = originId;
       temp._hash       = articleHash;
 
@@ -416,7 +508,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     }
   }
 
-  private readonly MAX_PAGE = 60; // 기본 최대 순회 페이지 수
+  private readonly MAX_PAGE = 5; // 기본 최대 순회 페이지 수
   /**
    * 주 진입점: 다중 startUrl을 병렬로 처리하고, 각 URL에 대해 scrapeUrl 실행
    */
@@ -424,15 +516,63 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     config: ScrapeConfig,
   ): Promise<{ configId: any; data: any[] }> {
     const pLimit = (await import('p-limit')).default;
-    const limit = pLimit(2);
+    // startUrl 여러 개(키워드별 URL)를 순차 처리 — 동시 요청으로 인한 봇 차단 방지
+    const limit = pLimit(1);
 
     const webhook = config.webhook ?? true;
     const useListSession = this.shouldUseListSession(config);
     const originId = config.origin_id ?? 0;
-    const tasks = config.startUrl.map((url) =>
-      limit(() =>
-        this.scrapeUrl(url, config.steps, config.id, webhook, useListSession, originId, config.maxPage),
-      ),
+
+    // startUrl의 {keyword} 플레이스홀더를 keywords 배열로 전개 (한글은 URL 인코딩)
+    // keywords가 없거나 {keyword}가 없는 URL은 그대로 사용
+    const urlEntries = [
+      ...new Map(
+        config.startUrl
+          .flatMap((u) =>
+            u.includes('{keyword}') && config.keywords?.length
+              ? config.keywords.map((k) => ({
+                  url: u.replace(/\{keyword\}/g, encodeURIComponent(k)),
+                  fromKeyword: true, // 키워드 검색으로 수집 → 사이트가 이미 필터링
+                  keyword: k,
+                }))
+              : [{ url: u, fromKeyword: false, keyword: undefined }],
+          )
+          .map((e) => [e.url, e] as const),
+      ).values(),
+    ];
+    if (urlEntries.length > config.startUrl.length) {
+      this.logger.log(
+        `[${config.id}] 키워드 전개: startUrl ${config.startUrl.length}개 × 키워드 ${config.keywords!.length}개 → ${urlEntries.length}개 URL`,
+      );
+    }
+
+    // 검수 패턴: keywords가 있으면 키워드 검수, 없으면 기존 /dmz/i 검수
+    // (키워드 검색으로 전개된 URL은 검수 생략 — 아래에서 null 전달)
+    const keywordPattern = config.keywords?.length
+      ? new RegExp(
+          config.keywords
+            .map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+            .join('|'),
+          'i',
+        )
+      : undefined;
+
+    // 키워드 간 검색 결과가 겹치므로, 같은 실행 내에서 이미 긁은 상세 URL은 재수집하지 않도록 공유
+    const seenDetailUrls = new Set<string>();
+    const total = urlEntries.length;
+    const tasks = urlEntries.map((entry, i) =>
+      limit(async () => {
+        // 첫 URL 제외, 다음 URL 시작 전 3초 텀 — 봇 차단 방지
+        if (i > 0) await new Promise((r) => setTimeout(r, 3000));
+        // 진행 상황 로그: 키워드가 있으면 "3/15 [비무장지대]", 없으면 "1/1"
+        const progress = entry.keyword
+          ? `${i + 1}/${total} [${entry.keyword}]`
+          : `${i + 1}/${total}`;
+        this.logger.log(`[${config.id}] 수집 진행 ${progress}`);
+        // 키워드 검색 URL은 사후 검수 생략(null), 그 외엔 키워드/DMZ 검수
+        const inspectPattern = entry.fromKeyword ? null : keywordPattern;
+        return this.scrapeUrl(entry.url, config.steps, config.id, webhook, useListSession, originId, config.maxPage, seenDetailUrls, inspectPattern);
+      }),
     );
 
     const pagesData = await Promise.all(tasks);
@@ -449,13 +589,16 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
         this.logger.log(`[${config.id}] 번역 시작: "${meta.title ?? ''}"`);
         try {
-          const translated = await this.translationService.translateArticle(meta);
+          const translated = await this.translationClient.translateArticle(meta);
           meta.title_en = translated.title_en ?? '';
           meta.content_text_en = translated.content_en ?? '';
           this.logger.log(
             `[${config.id}] 번역 완료: title_en="${meta.title_en.slice(0, 50)}..."`,
           );
         } catch (e) {
+          // 번역 앱 다운/실패 시 영문 필드는 null로 저장 → download2 적재 시 trsl_yn='N'
+          meta.title_en = null;
+          meta.content_text_en = null;
           this.logger.warn(
             `[${config.id}] 영문 번역 실패, 원문만 저장: ${e.message}`,
           );
@@ -483,6 +626,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     useListSession = false,
     originId = 0,
     maxPage?: number,
+    seenDetailUrls: Set<string> = new Set<string>(),
+    keywordPattern?: RegExp | null,
   ): Promise<any[]> {
     const pageLimit = maxPage ?? this.MAX_PAGE;
     console.log('scrapeUrl-ID : ', configId);
@@ -498,10 +643,13 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     });
     let page: Page = await context.newPage();
     const results: any[] = [];
-    const seenDetailUrls = new Set<string>();
+    // 이 URL 크롤링 내에서 본 상세 URL (페이징 중복 감지용 — 키워드 간 공유 X)
+    const seenOnThisUrl = new Set<string>();
 
     // 페이징 스텝이 정의되어 있는지 확인
     const hasPagingStep = steps.some((s) => s.type === 'paging');
+    // JSON API 리스트 스텝 여부 — 페이징을 DOM 클릭 대신 page 파라미터 증가로 처리
+    const hasAjaxListStep = steps.some((s) => s.type === 'ajaxListApi');
 
     try {
       // 2) 실제 탐색 시도 (DOMContentLoaded + networkidle 병행 대기)
@@ -517,6 +665,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         let detailUrls: string[] = [];
         let detailUrlIndexes: number[] = [];
         let stopPagingByDuplicatePage = false;
+        // ajaxListApi가 JSON에서 만든 리스트 데이터(writer/date 등). null이면 DOM에서 추출.
+        let pageListData: Record<string, string>[] | null = null;
 
         // steps 순서대로 처리
         for (const step of steps) {
@@ -553,52 +703,141 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
                     webhook,
                   );
               }
-              const extractedDetailUrls = detailUrls;
-              if (extractedDetailUrls.length > 0) {
-                const newDetailUrlPairs: Array<{ url: string; index: number }> =
-                  [];
-                extractedDetailUrls.forEach((detailUrl, index) => {
-                  if (seenDetailUrls.has(detailUrl)) return;
-                  seenDetailUrls.add(detailUrl);
-                  newDetailUrlPairs.push({ url: detailUrl, index });
-                });
-
-                if (newDetailUrlPairs.length === 0) {
-                  this.logger.warn(
-                    `[${configId}] 중복 페이지 감지: 새 상세 URL 없음 (${page.url()})`,
-                  );
-                  stopPagingByDuplicatePage = true;
-                }
-
-                detailUrls = newDetailUrlPairs.map((pair) => pair.url);
-                detailUrlIndexes = newDetailUrlPairs.map(
-                  (pair) => pair.index,
+              {
+                const dedup = this.applyDetailUrlDedup(
+                  detailUrls,
+                  seenOnThisUrl,
+                  seenDetailUrls,
+                  configId,
+                  page.url(),
                 );
+                detailUrls = dedup.detailUrls;
+                detailUrlIndexes = dedup.detailUrlIndexes;
+                if (dedup.stop) stopPagingByDuplicatePage = true;
               }
               break;
+
+            case 'ajaxListApi': {
+              // 검색결과를 JSON API로 반환하는 사이트: 브라우저 렌더링 없이 API 직접 호출
+              const p = step.params || {};
+              const apiUrl = new URL(p.apiUrl, url).href;
+              const pageParam = p.pageParam || 'page';
+              const kwFrom = p.keywordFrom || 'searchKeyword';
+              const kwParam = p.keywordParam || 'searchKeyword';
+
+              // 현재 startUrl(키워드 전개 결과)의 쿼리에서 검색어를 읽어 POST 본문에 실음
+              let keyword = '';
+              try {
+                keyword = new URL(url).searchParams.get(kwFrom) || '';
+              } catch {
+                keyword = '';
+              }
+
+              const form: Record<string, string> = {
+                ...(p.baseParams || {}),
+                [pageParam]: String(currentPage),
+              };
+              if (keyword) form[kwParam] = keyword;
+
+              let json: any;
+              try {
+                await this.throttle(apiUrl);
+                const res = await page.context().request.post(apiUrl, {
+                  form,
+                  headers: {
+                    'X-Requested-With': 'XMLHttpRequest',
+                    Referer: url,
+                  },
+                  timeout: 30000,
+                });
+                if (!res.ok()) {
+                  this.logger.warn(
+                    `[${configId}] ajaxListApi HTTP ${res.status()} (page=${currentPage})`,
+                  );
+                  stopPagingByDuplicatePage = true;
+                  break;
+                }
+                json = await res.json();
+              } catch (e) {
+                this.logger.warn(
+                  `[${configId}] ajaxListApi 요청 실패 (page=${currentPage}): ${(e as Error).message}`,
+                );
+                stopPagingByDuplicatePage = true;
+                break;
+              }
+
+              const rows = this.getByPath(json, p.listPath);
+              const rowArr: any[] = Array.isArray(rows) ? rows : [];
+              const totalPages = Number(this.getByPath(json, p.totalPagePath)) || 0;
+
+              // 상세 URL 조립: 템플릿의 ${FIELD}를 JSON 행 필드로 치환
+              const tmpl: string = p.detailUrlTemplate;
+              const extractedDetailUrls = rowArr.map((row) =>
+                new URL(
+                  tmpl.replace(/\$\{(\w+)\}/g, (_m, k) =>
+                    encodeURIComponent(String(row[k] ?? '')),
+                  ),
+                  url,
+                ).href,
+              );
+
+              // JSON 필드 → 리스트 데이터(writer/writedate 등) 매핑, 원본 행 순서로 보관
+              if (p.listFields) {
+                pageListData = rowArr.map((row) => {
+                  const rec: Record<string, string> = {};
+                  for (const [target, field] of Object.entries(p.listFields)) {
+                    rec[target] = String(row[field as string] ?? '');
+                  }
+                  return rec;
+                });
+              }
+
+              const dedup = this.applyDetailUrlDedup(
+                extractedDetailUrls,
+                seenOnThisUrl,
+                seenDetailUrls,
+                configId,
+                `page=${currentPage}`,
+              );
+              detailUrls = dedup.detailUrls;
+              detailUrlIndexes = dedup.detailUrlIndexes;
+              if (dedup.stop) stopPagingByDuplicatePage = true;
+              // 마지막 페이지면 이번 페이지 처리 후 중단
+              if (totalPages && currentPage >= totalPages) {
+                stopPagingByDuplicatePage = true;
+              }
+
+              this.logger.log(
+                `[${configId}] ajaxListApi page ${currentPage}/${totalPages || '?'}: 결과 ${rowArr.length}건, 신규 ${detailUrls.length}건`,
+              );
+              break;
+            }
 
             case 'scrapDetail':
               // 새 상세 URL이 없으면(중복 페이지 감지 등) 목록 재평가를 건너뛴다.
               // 늦게 도착한 내비게이션이 컨텍스트를 파괴해 $$eval이 죽는 것 방지.
               if (detailUrls.length === 0) break;
-              // 리스트 페이지에서 '-list' 타겟 데이터 미리 추출
-              const listTargets = (step.params.targets || []).filter((t) =>
-                t.name.endsWith('-list'),
-              );
-              const listDataArray: Record<string, string>[] = [];
-              if (listTargets.length > 0) {
-                for (const lt of listTargets) {
-                  const values = await page.$$eval(lt.selector, (els) =>
-                    els.map((el) =>
-                      (el.textContent || '').replace(/\s+/g, ' ').trim(),
-                    ),
-                  );
-                  values.forEach((val, i) => {
-                    if (!listDataArray[i]) listDataArray[i] = {};
-                    // 'writer-list' → 'writer'로 저장
-                    const baseName = lt.name.replace(/-list$/, '');
-                    listDataArray[i][baseName] = val;
-                  });
+              // ajaxListApi가 JSON으로 만든 리스트 데이터가 있으면 그대로 사용,
+              // 없으면 리스트 페이지 DOM에서 '-list' 타겟 데이터 추출
+              const listDataArray: Record<string, string>[] = pageListData ?? [];
+              if (!pageListData) {
+                const listTargets = (step.params.targets || []).filter((t) =>
+                  t.name.endsWith('-list'),
+                );
+                if (listTargets.length > 0) {
+                  for (const lt of listTargets) {
+                    const values = await page.$$eval(lt.selector, (els) =>
+                      els.map((el) =>
+                        (el.textContent || '').replace(/\s+/g, ' ').trim(),
+                      ),
+                    );
+                    values.forEach((val, i) => {
+                      if (!listDataArray[i]) listDataArray[i] = {};
+                      // 'writer-list' → 'writer'로 저장
+                      const baseName = lt.name.replace(/-list$/, '');
+                      listDataArray[i][baseName] = val;
+                    });
+                  }
                 }
               }
 
@@ -610,6 +849,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
                 webhook,
                 useListSession ? context : undefined,
                 originId,
+                keywordPattern,
               );
               if (Array.isArray(scrapResults)) {
                 results.push(...scrapResults);
@@ -678,6 +918,12 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
           }
         }
 
+        // ajaxListApi 모드: DOM 페이징 대신 page 파라미터를 증가시켜 다음 페이지 요청
+        if (hasAjaxListStep) {
+          if (stopPagingByDuplicatePage || currentPage >= pageLimit) break outer;
+          currentPage += 1;
+          continue;
+        }
         // 페이징 스텝이 없으면 첫 페이지만 수행 후 종료
         if (!hasPagingStep) break outer;
       }
@@ -700,6 +946,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     webhook = true,
     sharedContext?: BrowserContext,
     originId = 0,
+    keywordPattern?: RegExp | null,
   ): Promise<any[]> {
     const results: any[] = [];
     for (let i = 0; i < detailUrls.length; i++) {
@@ -713,6 +960,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         webhook,
         sharedContext,
         originId,
+        keywordPattern,
       );
       if (Array.isArray(pageResults)) {
         results.push(...pageResults);

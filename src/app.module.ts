@@ -3,7 +3,6 @@ import { ConfigModule } from '@nestjs/config';
 import { LoggerModule } from 'nestjs-pino';
 import { ScraperModule } from './scraper/scraper.module';
 import { ResponseInterceptor } from './common/interceptors/response.interceptor';
-import { TranslationModule } from './translation/translation.module';
 import { IsbnModule } from './isbn/isbn.module';
 
 @Module({
@@ -19,7 +18,6 @@ import { IsbnModule } from './isbn/isbn.module';
         },
       },
     }),
-    TranslationModule,
     IsbnModule,
     ScraperModule,
   ],

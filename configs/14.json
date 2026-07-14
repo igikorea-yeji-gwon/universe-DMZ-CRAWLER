@@ -5,7 +5,22 @@
   "description": "한국등산트레킹지원센터 보도자료 DMZ 검색",
   "baseUrl": "https://komount.or.kr",
   "startUrl": [
-    "https://komount.or.kr/board/list.do?selectedId=&boardCode=B04&pageIndex=1&searchKeyword=DMZ"
+    "https://komount.or.kr/board/list.do?selectedId=&boardCode=B04&pageIndex=1&searchKeyword={keyword}"
+  ],
+  "keywords": [
+    "DMZ",
+    "dmz",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
   ],
   "scheduleTime": [
     "12:00"
@@ -57,6 +72,6 @@
     }
   ],
   "createdAt": "2026-06-01T00:00:00.000Z",
-  "updatedAt": "2026-07-05T04:00:56.009Z",
-  "lastExecutedAt": "2026-07-05T04:00:56.009Z"
+  "updatedAt": "2026-07-14T06:42:35.348Z",
+  "lastExecutedAt": "2026-07-14T06:42:35.348Z"
 }

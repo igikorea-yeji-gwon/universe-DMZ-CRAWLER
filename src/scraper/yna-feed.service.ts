@@ -7,11 +7,11 @@ import { createHash } from 'crypto';
 import moment from 'moment';
 import { parseStringPromise } from 'xml2js';
 import { S3Service } from 'src/aws/s3/s3.service';
-import { TranslationService } from 'src/translation/translation.service';
+import { TranslationClientService } from './translation-client.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 
 // 주무관 협의 키워드 — 제목/본문에 하나라도 포함되면 수집 대상
-const KEYWORDS = [
+export const KEYWORDS = [
   'DMZ',
   '디엠지',
   '비무장지대',
@@ -29,7 +29,7 @@ const KEYWORDS = [
 ];
 
 // curl 기본 UA는 연합뉴스 WAF가 차단하므로 브라우저 UA 고정
-const BROWSER_UA =
+export const BROWSER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
@@ -58,7 +58,7 @@ export class YnaFeedService implements OnModuleInit {
   constructor(
     private readonly configService: ConfigService,
     private readonly s3Service: S3Service,
-    private readonly translationService: TranslationService,
+    private readonly translationClient: TranslationClientService,
     private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
@@ -160,7 +160,7 @@ export class YnaFeedService implements OnModuleInit {
           let titleEn = '';
           let contentEn = '';
           try {
-            const translated = await this.translationService.translateFields({
+            const translated = await this.translationClient.translateFields({
               title: item.title,
               content: item.content,
             });
