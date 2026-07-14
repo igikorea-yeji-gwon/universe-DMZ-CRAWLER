@@ -5,7 +5,7 @@
   "description": "두루누비 자료실 공지사항 내용 기준 DMZ 검색",
   "baseUrl": "https://www.koreadmz.kr",
   "startUrl": [
-    "https://www.koreadmz.kr/geopark/pds/notice?searchCondition=CONTENT&searchKeyword=dmz"
+    "https://www.koreadmz.kr/geopark/pds/notice?searchCondition=CONTENT&searchKeyword={keyword}"
   ],
   "scheduleTime": [
     "09:00"
@@ -63,6 +63,21 @@
     }
   ],
   "createdAt": "2026-05-26T00:00:00.000Z",
-  "updatedAt": "2026-07-08T00:01:25.030Z",
-  "lastExecutedAt": "2026-07-08T00:01:25.030Z"
+  "updatedAt": "2026-07-14T04:59:55.794Z",
+  "lastExecutedAt": "2026-07-14T04:59:55.794Z",
+  "keywords": [
+    "DMZ",
+    "dmz",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
+  ]
 }

@@ -5,7 +5,24 @@
   "description": "외교부 보도자료 제목 기준 DMZ 검색",
   "baseUrl": "https://www.mofa.go.kr",
   "startUrl": [
-    "https://www.mofa.go.kr/www/brd/m_4080/list.do?srchFr=&srchTo=&srchTp=0&srchWord=dmz&pitem=10"
+    "https://www.mofa.go.kr/www/brd/m_4080/list.do?srchFr=&srchTo=&srchTp=0&srchWord={keyword}&pitem=10"
+  ],
+      "keywords": [
+    "DMZ",
+    "dmz",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "접경지역",
+    "접경지",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
   ],
   "scheduleTime": [
     "17:00"
@@ -61,12 +78,7 @@
             "type": "file",
             "optional": true,
             "selector": "ul.bo_file li a[href*='down.do']",
-            "attribute": "href",
-            "customTransform": {
-              "type": "regex",
-              "pattern": "(down\\.do\\?[^\"']+)",
-              "output": "/www/brd/m_4080/${1}"
-            }
+            "attribute": "href"
           }
         ]
       }
@@ -79,6 +91,6 @@
       }
     }
   ],
-  "lastExecutedAt": "2026-07-08T08:00:10.024Z",
-  "updatedAt": "2026-07-08T08:00:10.024Z"
+  "lastExecutedAt": "2026-07-13T08:00:19.170Z",
+  "updatedAt": "2026-07-13T08:00:19.170Z"
 }

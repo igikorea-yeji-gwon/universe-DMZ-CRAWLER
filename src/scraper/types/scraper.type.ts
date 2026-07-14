@@ -95,6 +95,7 @@ export interface ScrapeConfig {
   scheduleTime: string[];
   baseUrl: string;
   startUrl: string[];
+  keywords?: string[]; // startUrl의 {keyword} 자리에 치환할 검색 키워드 목록
   steps: Record<string, any>[];
   createdAt?: Date;
   updatedAt?: Date;
@@ -115,6 +116,7 @@ export interface scrapConfig {
   scheduleTime: string[];
   baseUrl: string;
   startUrl: string[];
+  keywords?: string[]; // startUrl의 {keyword} 자리에 치환할 검색 키워드 목록
   steps: Record<string, any>[];
   description: string;
   enabled: boolean;

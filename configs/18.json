@@ -2,44 +2,42 @@
   "id": 18,
   "origin_id": 16,
   "name": "경기도 DMZ: DMZ 아카이브 > 갤러리 > DMZ 검색",
-  "description": "경기도 DMZ 포털 갤러리 DMZ 검색",
+  "description": "경기도 DMZ 포털 갤러리 DMZ 검색 (JSON API 직접 호출)",
   "baseUrl": "https://dmz.gg.go.kr",
   "startUrl": [
-    "https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=5&menuId=55"
+    "https://dmz.gg.go.kr/dmz/bbs/board.do?bsIdx=5&menuId=55&searchKeyword={keyword}"
   ],
   "scheduleTime": [
     "13:00"
   ],
-  "enabled": true,
+  "enabled": false,
   "webhook": true,
   "steps": [
     {
       "id": "step-001",
-      "type": "formSubmit",
+      "type": "ajaxListApi",
       "params": {
-        "fields": [
-          {
-            "selector": "select#searchCondition",
-            "value": "REMARK"
-          },
-          {
-            "selector": "input#searchKeyword",
-            "value": "dmz"
-          }
-        ],
-        "submitSelector": "button[onclick*='searchIt']"
+        "apiUrl": "/dmz/bbs/ajax/boardList.do",
+        "baseParams": {
+          "menuId": "55",
+          "bsIdx": "5",
+          "categoryAllYn": "Y",
+          "searchCondition": "REMARK"
+        },
+        "keywordFrom": "searchKeyword",
+        "keywordParam": "searchKeyword",
+        "pageParam": "page",
+        "listPath": "resultList",
+        "totalPagePath": "paginationInfo.totalPageCount",
+        "detailUrlTemplate": "/dmz/bbs/boardView.do?bsIdx=${BS_IDX}&bIdx=${B_IDX}&menuId=55",
+        "listFields": {
+          "writer": "WRITER_NAME",
+          "writedate": "WRITE_DATE2"
+        }
       }
     },
     {
       "id": "step-002",
-      "type": "detailLinks",
-      "params": {
-        "selector": "a.thumbnail[href*='boardView.do']",
-        "attribute": "href"
-      }
-    },
-    {
-      "id": "step-003",
       "type": "scrapDetail",
       "params": {
         "targets": [
@@ -47,16 +45,6 @@
             "name": "title",
             "type": "uniqueText",
             "selector": "div.s-v-board-default div.header h2"
-          },
-          {
-            "name": "writer",
-            "type": "uniqueText",
-            "selector": "div.s-v-board-default div.header dl dd"
-          },
-          {
-            "name": "writedate-list",
-            "type": "uniqueText",
-            "selector": "a.thumbnail[href*='boardView.do'] span.info"
           },
           {
             "name": "content",
@@ -67,19 +55,33 @@
             "name": "img",
             "type": "images",
             "selector": "div.s-v-board-default div.content img"
+          },
+          {
+            "name": "file",
+            "type": "file",
+            "optional": true,
+            "attribute": "href",
+            "selector": "div.s-v-board-default dl.file a.filename[href*='download.do']"
           }
         ]
-      }
-    },
-    {
-      "id": "step-004",
-      "type": "paging",
-      "params": {
-        "selector": "ul.pagination"
       }
     }
   ],
   "createdAt": "2026-06-01T00:00:00.000Z",
-  "updatedAt": "2026-07-05T04:00:56.007Z",
-  "lastExecutedAt": "2026-07-05T04:00:56.007Z"
+  "updatedAt": "2026-07-14T04:01:44.721Z",
+  "lastExecutedAt": "2026-07-14T04:01:44.721Z",
+  "keywords": [
+    "DMZ",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
+  ]
 }

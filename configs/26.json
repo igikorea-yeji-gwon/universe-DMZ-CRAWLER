@@ -5,7 +5,24 @@
   "description": "통일연구원 연구·DB 통합검색 DMZ 결과 수집",
   "baseUrl": "https://www.kinu.or.kr",
   "startUrl": [
-    "https://www.kinu.or.kr/main/search/search_detail.do?nav_code=mai1678926598&search_type=DB&search_text=dmz&gubun=total&start_date=&end_date="
+    "https://www.kinu.or.kr/main/search/search_detail.do?nav_code=mai1678926598&search_type=DB&search_text={keyword}&gubun=total&start_date=&end_date="
+  ],
+  "keywords": [
+    "DMZ",
+    "dmz",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "접경지역",
+    "접경지",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
   ],
   "scheduleTime": [
     "18:00"
@@ -69,6 +86,6 @@
       }
     }
   ],
-  "lastExecutedAt": "2026-07-09T05:28:05.973Z",
-  "updatedAt": "2026-07-09T05:28:05.973Z"
+  "lastExecutedAt": "2026-07-14T04:33:46.795Z",
+  "updatedAt": "2026-07-14T04:33:46.795Z"
 }

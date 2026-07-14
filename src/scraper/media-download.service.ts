@@ -173,7 +173,7 @@ export class MediaDownloadService {
               }
               downloadUrl = unescape((await apiRes.text()).trim());
             }
-            const res = await page.context().request.get(downloadUrl);
+            const res = await page.context().request.get(downloadUrl, { timeout: 120_000 });
             if (!res.ok()) {
               console.warn(`⚠️ KINU 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
               continue;
@@ -189,7 +189,9 @@ export class MediaDownloadService {
             const fileTy1 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
             output.push({ originalName, s3Path: key, file_ty: fileTy1 });
           } catch (e) {
-            console.warn(`⚠️ KINU fileDown 다운로드 실패 (${(e as Error).message})`);
+            // 일시 오류 → 기사 저장 안 함 → 다음 수집 때 재시도
+            console.warn(`⚠️ KINU fileDown 다운로드 실패 (${(e as Error).message}), 기사 skip → 재수집 대상`);
+            return null;
           }
           continue;
         }
@@ -209,7 +211,8 @@ export class MediaDownloadService {
         if (fileUrl && !fileUrl.startsWith('javascript:')) {
           try {
             const downloadUrl = new URL(fileUrl, page.url()).href;
-            const res = await page.context().request.get(downloadUrl);
+            // 대용량 파일 대비 다운로드 타임아웃 연장 (기본 30초 → 120초)
+            const res = await page.context().request.get(downloadUrl, { timeout: 120_000 });
             if (!res.ok()) {
               console.warn(`⚠️ ${attribute} 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
               continue;
@@ -227,7 +230,9 @@ export class MediaDownloadService {
             const fileTy0 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
             output.push({ originalName, s3Path: key, file_ty: fileTy0 });
           } catch (e) {
-            console.warn(`⚠️ ${attribute} 다운로드 실패 (${(e as Error).message}), 다음으로 넘어갑니다`);
+            // 타임아웃/네트워크 등 일시 오류 → 기사 저장 안 함(meta.json 미생성) → 다음 수집 때 재시도
+            console.warn(`⚠️ ${attribute} 다운로드 실패 (${(e as Error).message}), 기사 skip → 재수집 대상`);
+            return null;
           }
           continue;
         }
@@ -270,7 +275,7 @@ export class MediaDownloadService {
         if (hrefVal && !hrefVal.startsWith('javascript:')) {
           try {
             const downloadUrl = new URL(hrefVal, urlBeforeClick).href;
-            const res = await page.context().request.get(downloadUrl);
+            const res = await page.context().request.get(downloadUrl, { timeout: 120_000 });
             if (!res.ok()) {
               console.warn(`⚠️ href 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
               continue;
@@ -294,7 +299,9 @@ export class MediaDownloadService {
             const fileTy2 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
             output.push({ originalName, s3Path: key, file_ty: fileTy2 });
           } catch (hrefErr) {
-            console.warn(`⚠️ href fallback 실패 (${(hrefErr as Error).message}), 다음으로 넘어갑니다`);
+            // 일시 오류 → 기사 저장 안 함 → 다음 수집 때 재시도
+            console.warn(`⚠️ href fallback 실패 (${(hrefErr as Error).message}), 기사 skip → 재수집 대상`);
+            return null;
           }
         } else {
           console.warn(`⚠️ 다운로드 실패 (${(e as Error).message}), 다음으로 넘어갑니다`);
@@ -506,11 +513,31 @@ export class MediaDownloadService {
   ): Promise<string> {
     // 1) Content-Disposition 헤더
     const disposition = res.headers()['content-disposition'] || '';
-    const cdMatch = disposition.match(/filename\*?=(?:UTF-8''|"?)([^";]+)/i);
-    if (cdMatch && cdMatch[1]) {
-      const name = decodeURIComponent(cdMatch[1]).replace(/["]/g, '').trim().replace(/[\s,+]+/g, '');
-      if (name && name.slice(-5).includes('.')) return name;
+    // RFC 5987 filename*=UTF-8''... (퍼센트 인코딩) 우선, 없으면 일반 filename=
+    const starMatch = disposition.match(/filename\*=(?:UTF-8'')?([^;]+)/i);
+    const plainMatch = disposition.match(/filename="?([^";]+)"?/i);
+    let name = '';
+    if (starMatch && starMatch[1]) {
+      // 퍼센트 인코딩된 UTF-8 → decodeURIComponent가 정확히 복원
+      name = decodeURIComponent(starMatch[1].replace(/["]/g, '').trim());
+    } else if (plainMatch && plainMatch[1]) {
+      const raw = plainMatch[1].replace(/["]/g, '').trim();
+      if (/%[0-9A-Fa-f]{2}/.test(raw)) {
+        // 퍼센트 인코딩된 UTF-8 파일명(filename="%EA%B1..") → decodeURIComponent로 복원
+        try {
+          name = decodeURIComponent(raw);
+        } catch {
+          name = raw;
+        }
+      } else {
+        // HTTP 헤더는 latin1로 디코딩됨 → 서버가 UTF-8 바이트를 그대로 실은 경우 복원
+        const fixed = Buffer.from(raw, 'latin1').toString('utf8');
+        // 복원 결과에 치환문자(U+FFFD)가 없으면 정상 UTF-8로 간주, 있으면 원본 유지
+        name = fixed.includes('�') ? raw : fixed;
+      }
     }
+    name = name.replace(/[\s,+]+/g, '');
+    if (name && name.slice(-5).includes('.')) return name;
     // 2) 링크 텍스트
     const linkText = ((await handle.textContent()) || '').trim().replace(/[\s,+]+/g, '');
     if (linkText && linkText.slice(-5).includes('.')) return linkText;

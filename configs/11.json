@@ -5,7 +5,7 @@
   "description": "숲나들e 공지사항 제목 기준 DMZ 검색",
   "baseUrl": "https://www.foresttrip.go.kr",
   "startUrl": [
-    "https://www.foresttrip.go.kr/pot/cc/nm/selectNticBbrssListView.do?hmpgId=FRTRL&nowPage=1&bbrssMsterId=BBRSSMSTER_00000001&srchType=twbbsSubjc&srwrd=DMZ&wrdtBgn=&wrdtEnd="
+    "https://www.foresttrip.go.kr/pot/cc/nm/selectNticBbrssListView.do?hmpgId=FRTRL&nowPage=1&bbrssMsterId=BBRSSMSTER_00000001&srchType=twbbsSubjc&srwrd={keyword}&wrdtBgn=&wrdtEnd="
   ],
   "scheduleTime": [
     "11:00"
@@ -65,5 +65,20 @@
   ],
   "createdAt": "2026-06-01T00:00:00.000Z",
   "updatedAt": "2026-07-06T02:01:38.893Z",
-  "lastExecutedAt": "2026-07-06T02:01:38.893Z"
+  "lastExecutedAt": "2026-07-06T02:01:38.893Z",
+  "keywords": [
+    "DMZ",
+    "dmz",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
+  ]
 }

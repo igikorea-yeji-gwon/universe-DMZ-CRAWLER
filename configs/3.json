@@ -5,7 +5,7 @@
   "description": "알림마당 > 공지게시판 > 인제공지 > DMZ 검색(제목)",
   "baseUrl": "https://www.gwsgc.kr",
   "startUrl": [
-    "https://www.gwsgc.kr/portal/community/notice/inje?searchCondition=TITLE&searchKeyword=dmz"
+    "https://www.gwsgc.kr/portal/community/notice/inje?searchCondition=TITLE&searchKeyword={keyword}"
   ],
   "scheduleTime": [
     "09:00"
@@ -68,5 +68,20 @@
   ],
   "createdAt": "2026-05-26T00:00:00.000Z",
   "updatedAt": "2026-07-08T00:01:27.271Z",
-  "lastExecutedAt": "2026-07-08T00:01:27.271Z"
+  "lastExecutedAt": "2026-07-08T00:01:27.271Z",
+  "keywords": [
+    "DMZ",
+    "dmz",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
+  ]
 }
