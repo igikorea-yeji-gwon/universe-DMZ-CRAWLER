@@ -1,6 +1,9 @@
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import moment from 'moment';
 import { S3Service } from 'src/aws/s3/s3.service';
+import { YnaFeedService } from './yna-feed.service';
+import { JsonConfigService } from './json-config.service';
 
 const IMAGE_EXTS = new Set(['jpg', 'jpeg', 'png', 'gif', 'webp', 'bmp', 'svg', 'tif', 'tiff']);
 const FILE_EXTS = new Set([
@@ -47,7 +50,12 @@ export interface ExportedArticle {
 export class ArticleExportService {
   private readonly logger = new Logger(ArticleExportService.name);
 
-  constructor(private readonly s3Service: S3Service) {}
+  constructor(
+    private readonly s3Service: S3Service,
+    private readonly configService: ConfigService,
+    private readonly ynaFeedService: YnaFeedService,
+    private readonly jsonConfigService: JsonConfigService,
+  ) {}
 
   async exportArticles(originId: number, since?: string) {
     let sinceDate: Date | undefined;
@@ -61,21 +69,72 @@ export class ArticleExportService {
       sinceDate = m.toDate();
     }
 
+    // 등록된 origin(config의 origin_id 또는 YNA_ORIGIN_ID)이 아니면 S3 조회 없이 빈 결과 반환.
+    // 스프링이 news_origin 전체를 순회 호출해도 스크래퍼 미등록 origin은 스캔 비용 없이 걸러진다.
+    if (!this.isKnownOrigin(originId)) {
+      this.logger.warn(`[articles] 등록되지 않은 origin_id=${originId} → 조회 생략, 빈 결과 반환`);
+      return {
+        originId,
+        since: since ?? null,
+        total: 0,
+        knownOrigin: false,
+        articles: [],
+      };
+    }
+
+    // yna origin이면 조회 전에 피드 수집을 한 번 실행해 이번 응답에 최신분까지 포함시킨다.
+    // 수집 실패(피드 403 등)여도 조회는 계속하고, 결과/실패 사유는 collect 필드로 노출한다.
+    const collect = await this.collectIfYna(originId);
+
     const entries = await this.s3Service.listArticleMetaEntries(originId, sinceDate);
     const articles = entries.map(({ meta, lastModified }) =>
       this.toDbReady(originId, meta, lastModified),
     );
 
     this.logger.log(
-      `[articles] origin=${originId} since=${since ?? '-'} → ${articles.length}건 반환`,
+      `[articles] origin=${originId} since=${since ?? '-'} → ${articles.length}건 반환` +
+      (collect ? ` (yna 수집 선행: ${collect.ok ? '성공' : '실패'})` : ''),
     );
 
     return {
       originId,
       since: since ?? null,
       total: articles.length,
+      ...(collect ? { collect } : {}),
       articles,
     };
+  }
+
+  /** 스크래퍼가 아는 origin인지: config들의 origin_id 또는 YNA_ORIGIN_ID */
+  private isKnownOrigin(originId: number): boolean {
+    if (originId === this.ynaOriginId()) return true;
+    return this.jsonConfigService
+      .findAll()
+      .some((config) => Number(config.origin_id) === originId);
+  }
+
+  private ynaOriginId(): number | null {
+    const id = Number(this.configService.get('YNA_ORIGIN_ID'));
+    return Number.isFinite(id) && id > 0 ? id : null;
+  }
+
+  /**
+   * originId가 YNA_ORIGIN_ID면 피드 수집을 동기 실행하고 요약을 반환.
+   * yna가 아니면 null. 크론과 겹치면 collect() 자체가 skipped를 반환한다.
+   */
+  private async collectIfYna(
+    originId: number,
+  ): Promise<{ ok: boolean; summary?: Record<string, any>; error?: string } | null> {
+    if (originId !== this.ynaOriginId()) return null;
+
+    try {
+      const summary = await this.ynaFeedService.collect();
+      return { ok: true, summary };
+    } catch (e) {
+      const error = (e as Error).message;
+      this.logger.warn(`[articles] yna 선행 수집 실패 (조회는 계속): ${error}`);
+      return { ok: false, error };
+    }
   }
 
   private toDbReady(

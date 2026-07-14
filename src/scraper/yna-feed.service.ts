@@ -11,7 +11,7 @@ import { TranslationClientService } from './translation-client.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 
 // 주무관 협의 키워드 — 제목/본문에 하나라도 포함되면 수집 대상
-const KEYWORDS = [
+export const KEYWORDS = [
   'DMZ',
   '디엠지',
   '비무장지대',
@@ -29,7 +29,7 @@ const KEYWORDS = [
 ];
 
 // curl 기본 UA는 연합뉴스 WAF가 차단하므로 브라우저 UA 고정
-const BROWSER_UA =
+export const BROWSER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 

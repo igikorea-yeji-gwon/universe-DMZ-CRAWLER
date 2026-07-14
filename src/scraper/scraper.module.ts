@@ -19,6 +19,7 @@ import { TranslationClientService } from './translation-client.service';
 import { NewsDbService } from './news-db.service';
 import { CubridService } from 'src/database/cubrid.service';
 import { YnaFeedService } from './yna-feed.service';
+import { YnaBackfillService } from './yna-backfill.service';
 import { ArticleExportService } from './article-export.service';
 
 @Module({
@@ -42,6 +43,7 @@ import { ArticleExportService } from './article-export.service';
     NewsDbService,
     CubridService,
     YnaFeedService,
+    YnaBackfillService,
     ArticleExportService,
   ],
 })

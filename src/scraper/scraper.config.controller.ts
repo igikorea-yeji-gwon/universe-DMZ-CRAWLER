@@ -3,6 +3,7 @@ import {
   Controller,
   Delete,
   Get,
+  Logger,
   Param,
   ParseIntPipe,
   Patch,
@@ -22,6 +23,7 @@ import { initScraperRequest } from './types/scraper.type';
 import { ScraperConfigService } from './scraper.config.service';
 import { NewsDbService } from './news-db.service';
 import { YnaFeedService } from './yna-feed.service';
+import { YnaBackfillService } from './yna-backfill.service';
 import { TranslationClientService } from './translation-client.service';
 import { ArticleExportService } from './article-export.service';
 import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
@@ -31,10 +33,13 @@ import { ListConfigDto } from './dto/scraperDtos';
 @Controller('scraper')
 @UseFilters(HttpExceptionFilter)
 export class ScraperConfigController {
+  private readonly logger = new Logger(ScraperConfigController.name);
+
   constructor(
     private readonly scraperConfigService: ScraperConfigService,
     private readonly newsDbService: NewsDbService,
     private readonly ynaFeedService: YnaFeedService,
+    private readonly ynaBackfillService: YnaBackfillService,
     private readonly translationClient: TranslationClientService,
     private readonly articleExportService: ArticleExportService,
   ) {}
@@ -122,7 +127,8 @@ export class ScraperConfigController {
   @Get('articles/:originId')
   @ApiOperation({
     summary:
-      'origin_id 기준 S3 meta.json을 DB 적재용(정규화) JSON으로 반환 — 스프링 뉴스 적재 배치 연동용',
+      'origin_id 기준 S3 meta.json을 DB 적재용(정규화) JSON으로 반환 — 스프링 뉴스 적재 배치 연동용. ' +
+      'yna origin(YNA_ORIGIN_ID)이면 조회 전에 피드 수집을 먼저 실행하고 결과를 collect 필드로 함께 반환',
   })
   @ApiParam({ name: 'originId', type: Number, example: 16 })
   @ApiQuery({
@@ -199,6 +205,36 @@ export class ScraperConfigController {
   }
 
   // ─── 번역 앱 연결 테스트 ────────────────────────────────────────────────────
+
+  @Get('translation/health')
+  @ApiOperation({
+    summary:
+      '번역 앱(dmz_translation) 연결 헬스체크 — Gemini 호출 없이 연결 여부만 확인 (5초 타임아웃)',
+  })
+  @ApiResponse({
+    status: 200,
+    description: '연결 상태 (다운이어도 200으로 reachable=false 반환)',
+    schema: {
+      example: {
+        ok: true,
+        translationApiUrl: 'http://localhost:3001',
+        elapsedMs: 12,
+        httpStatus: 200,
+        message: '번역 앱 정상 응답 (/health 200)',
+      },
+    },
+  })
+  async translationHealth() {
+    const startedAt = Date.now();
+    const result = await this.translationClient.healthCheck();
+    return {
+      ok: result.reachable,
+      translationApiUrl: this.translationClient.baseURL,
+      elapsedMs: Date.now() - startedAt,
+      httpStatus: result.httpStatus,
+      message: result.message,
+    };
+  }
 
   @Get('translation/test')
   @ApiOperation({
@@ -284,5 +320,90 @@ export class ScraperConfigController {
   })
   async collectYnaFeed() {
     return this.ynaFeedService.collect();
+  }
+
+  // ─── 연합뉴스 과거 XML 백필 ─────────────────────────────────────────────────
+
+  @Get('yna/backfill')
+  @ApiOperation({
+    summary:
+      'configs/yna/<월>/*.xml (연합뉴스 과거 아카이브)을 라이브 수집과 동일 스키마로 S3에 백필. ' +
+      'KEYWORDS(제목+본문) 필터 적용, guid 중복만 스킵. DB 적재는 스프링 담당',
+  })
+  @ApiQuery({
+    name: 'month',
+    required: false,
+    example: '202601',
+    description: '특정 월(YYYYMM)만 백필. 생략 시 전체 월. 대량이므로 월 단위 호출 권장',
+  })
+  @ApiQuery({
+    name: 'translate',
+    required: false,
+    example: 'true',
+    description: "영문 번역 수행 여부 (기본 true). 'false'면 원문만 저장(빠름)",
+  })
+  @ApiQuery({
+    name: 'limit',
+    required: false,
+    example: 50,
+    description: '이번 호출에서 저장할 최대 신규 건수 (테스트/청크용)',
+  })
+  @ApiQuery({
+    name: 'async',
+    required: false,
+    example: 'true',
+    description:
+      "'true'면 백그라운드로 실행하고 즉시 응답(진행은 서버 로그). 전체 백필처럼 오래 걸릴 때 사용",
+  })
+  @ApiResponse({
+    status: 200,
+    description: '백필 결과 요약',
+    schema: {
+      example: {
+        originId: 25,
+        month: '202601',
+        translate: true,
+        totalFiles: 138,
+        parsed: 138,
+        keywordMatched: 41,
+        skippedNoKeyword: 97,
+        skippedDuplicate: 0,
+        saved: 41,
+        imageUploaded: 63,
+        translated: 41,
+        parseErrors: 0,
+        errors: [],
+      },
+    },
+  })
+  async backfillYna(
+    @Query('month') month?: string,
+    @Query('translate') translate?: string,
+    @Query('limit') limit?: string,
+    @Query('async') async?: string,
+  ) {
+    const opts = {
+      month,
+      translate: translate !== 'false',
+      limit: limit ? Number(limit) : undefined,
+    };
+
+    // 백그라운드: 즉시 응답하고 서버에서 계속 실행 (HTTP 타임아웃 회피).
+    // 서비스 자체 running 가드가 중복 실행을 막는다.
+    if (async === 'true') {
+      void this.ynaBackfillService
+        .backfill(opts)
+        .catch((e) =>
+          this.logger.error(`[yna-backfill] 백그라운드 실행 실패: ${e.message}`),
+        );
+      return {
+        started: true,
+        mode: 'async',
+        ...opts,
+        message: '백그라운드로 백필 시작 — 진행 상황은 서버 로그를 확인하세요.',
+      };
+    }
+
+    return this.ynaBackfillService.backfill(opts);
   }
 }

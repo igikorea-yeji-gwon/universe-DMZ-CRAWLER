@@ -19,7 +19,7 @@ export class TranslationClientService {
   constructor(private readonly configService: ConfigService) {
     const baseURL =
       this.configService.get<string>('TRANSLATION_API_URL') ??
-      'http://localhost:3100';
+      'http://localhost:3001';
     this.baseURL = baseURL;
     // 청크 분할 번역(긴 본문)은 오래 걸릴 수 있어 기본 타임아웃을 넉넉히 둔다
     const timeout =
@@ -27,6 +27,40 @@ export class TranslationClientService {
 
     this.http = axios.create({ baseURL, timeout });
     this.logger.log(`번역 API 주소: ${baseURL} (timeout ${timeout}ms)`);
+  }
+
+  /**
+   * 번역 앱 연결 헬스체크. Gemini 호출 없이 연결 여부만 빠르게 확인한다.
+   * 번역 앱에 GET 라우트가 없어도 HTTP 응답(404 포함)이 오면 프로세스는
+   * 실행 중인 것으로 판단하고, 연결 자체가 안 되면(ECONNREFUSED 등) 다운으로 본다.
+   */
+  async healthCheck(): Promise<{
+    reachable: boolean;
+    httpStatus: number | null;
+    message: string;
+  }> {
+    try {
+      const res = await this.http.get('/health', {
+        timeout: 5_000,
+        validateStatus: () => true,
+      });
+      return {
+        reachable: true,
+        httpStatus: res.status,
+        message:
+          res.status === 200
+            ? '번역 앱 정상 응답 (/health 200)'
+            : `번역 앱 실행 중 — HTTP ${res.status} 응답 (전용 /health 라우트 없음)`,
+      };
+    } catch (error) {
+      return {
+        reachable: false,
+        httpStatus: null,
+        message: axios.isAxiosError(error)
+          ? `연결 실패 (${error.code ?? error.message}) — 번역 앱 실행 여부와 TRANSLATION_API_URL 포트를 확인하세요`
+          : `연결 실패: ${(error as Error)?.message ?? error}`,
+      };
+    }
   }
 
   /** 뉴스 기사 번역 → { title_en, writer_en, content_en } */

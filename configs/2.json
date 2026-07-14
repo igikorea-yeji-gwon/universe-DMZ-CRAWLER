@@ -10,7 +10,7 @@
   "scheduleTime": [
     "09:00"
   ],
-  "enabled": true,
+  "enabled": false,
   "webhook": true,
   "steps": [
     {
@@ -63,8 +63,8 @@
     }
   ],
   "createdAt": "2026-05-26T00:00:00.000Z",
-  "updatedAt": "2026-07-14T04:59:55.794Z",
-  "lastExecutedAt": "2026-07-14T04:59:55.794Z",
+  "updatedAt": "2026-07-14T06:18:11.823Z",
+  "lastExecutedAt": "2026-07-14T06:18:11.823Z",
   "keywords": [
     "DMZ",
     "dmz",

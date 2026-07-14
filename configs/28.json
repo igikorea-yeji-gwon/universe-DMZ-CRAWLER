@@ -5,7 +5,7 @@
   "description": "경기도 뉴스포털 보도자료 제목 기준 DMZ 검색",
   "baseUrl": "https://gnews.gg.go.kr",
   "startUrl": [
-    "https://gnews.gg.go.kr/briefing/brief_gongbo.do?BS_CODE=s017&search=8&keyword=dmz%7Cdmz&subject_Code=BO01&page=1"
+    "https://gnews.gg.go.kr/briefing/brief_gongbo.do?BS_CODE=s017&search=8&keyword={keyword}&subject_Code=BO01&page=1"
   ],
   "scheduleTime": [
     "20:00"
@@ -76,5 +76,20 @@
     }
   ],
   "lastExecutedAt": "2026-07-13T11:02:51.472Z",
-  "updatedAt": "2026-07-13T11:02:51.472Z"
+  "updatedAt": "2026-07-13T11:02:51.472Z",
+  "keywords": [
+    "DMZ",
+    "dmz",
+    "디엠지",
+    "비무장지대",
+    "민통선",
+    "민간인출입",
+    "민간인통제선",
+    "접경",
+    "군사분계선",
+    "MDL",
+    "유엔사",
+    "정전협정",
+    "군사정전위원회"
+  ]
 }
