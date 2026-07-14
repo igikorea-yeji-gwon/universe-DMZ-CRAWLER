@@ -508,7 +508,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     }
   }
 
-  private readonly MAX_PAGE = 60; // 기본 최대 순회 페이지 수
+  private readonly MAX_PAGE = 5; // 기본 최대 순회 페이지 수
   /**
    * 주 진입점: 다중 startUrl을 병렬로 처리하고, 각 URL에 대해 scrapeUrl 실행
    */
