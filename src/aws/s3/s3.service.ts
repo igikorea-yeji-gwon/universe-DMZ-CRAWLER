@@ -306,15 +306,26 @@ export class S3Service {
     const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
     const metaEntries = await this.listMetaKeysByOrigin(originId, since);
 
-    const results: { meta: Record<string, any>; lastModified: Date | null }[] = [];
-    for (const { key, lastModified } of metaEntries) {
-      try {
-        const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: key }));
-        const body = await obj.Body?.transformToString('utf-8');
-        results.push({ meta: JSON.parse(body ?? '{}'), lastModified });
-      } catch { /* meta.json 파싱 실패 시 skip */ }
-    }
-    return results;
+    // meta.json 건당 GetObject를 병렬 조회한다. 순차로 하면 수백 건에서 수십 초가 걸려
+    // 호출 측(스프링) 읽기 타임아웃에 걸린다. (869건 순차 ≈ 70초 → 병렬 ≈ 2~3초)
+    const pLimit = (await import('p-limit')).default;
+    const limit = pLimit(30);
+    const settled = await Promise.all(
+      metaEntries.map(({ key, lastModified }) =>
+        limit(async () => {
+          try {
+            const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: key }));
+            const body = await obj.Body?.transformToString('utf-8');
+            return { meta: JSON.parse(body ?? '{}'), lastModified };
+          } catch {
+            return null; // meta.json 조회/파싱 실패 시 제외
+          }
+        }),
+      ),
+    );
+    return settled.filter(
+      (r): r is { meta: Record<string, any>; lastModified: Date | null } => r !== null,
+    );
   }
 
   async listFilesByOrigin(originId: number): Promise<any[]> {

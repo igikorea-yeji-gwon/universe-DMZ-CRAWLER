@@ -11,6 +11,11 @@ const FILE_EXTS = new Set([
   'zip', '7z', 'txt', 'csv', 'rtf', 'odt',
 ]);
 
+// [임시] yna 라이브 피드가 403으로 막혀있어 선행 수집을 끈다.
+// origin 25 조회 시 외부 yna API를 부르지 않고 S3 적재분만 반환한다.
+// 피드가 정상화되면 true로 되돌릴 것.
+const YNA_PRECOLLECT_ENABLED = false;
+
 const DT_FORMAT = 'YYYY-MM-DD HH:mm:ss';
 // writedate 파싱 실패 시 쓰는 고정 sentinel. now(비결정적)를 쓰면 조회마다
 // 날짜가 달라져 스프링 쪽 중복 검사(제목+일자)가 빗나가므로, 결정적 값으로 고정한다.
@@ -125,6 +130,8 @@ export class ArticleExportService {
   private async collectIfYna(
     originId: number,
   ): Promise<{ ok: boolean; summary?: Record<string, any>; error?: string } | null> {
+    // [임시] 선행 수집 비활성화 — S3 적재분만 반환 (yna 피드 403 회피)
+    if (!YNA_PRECOLLECT_ENABLED) return null;
     if (originId !== this.ynaOriginId()) return null;
 
     try {
