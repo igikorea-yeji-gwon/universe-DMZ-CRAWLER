@@ -6,6 +6,8 @@ import {
 } from '@nestjs/common';
 import { CronJob } from 'cron';
 import { SchedulerRegistry } from '@nestjs/schedule';
+import { ConfigService } from '@nestjs/config';
+import { isSchedulingEnabled } from 'src/common/scheduling.util';
 import {
   initScraperRequest,
   PagedResult,
@@ -36,9 +38,19 @@ export class ScraperConfigService implements OnModuleInit {
     private taskTracker: TaskTrackerService,
     private openAIService: OpenAIService,
     private jsonConfigService: JsonConfigService,
+    private readonly configService: ConfigService,
   ) {}
 
   async onModuleInit() {
+    // 전역 스케줄링 OFF면 크론을 아예 등록하지 않는다 (config별 enabled와 무관).
+    // 수동 실행 API는 계속 동작한다.
+    if (!isSchedulingEnabled(this.configService)) {
+      this.logger.warn(
+        '⏸️ 전역 스케줄링 비활성화(SCHEDULING_ENABLED=false) — 정기 수집 크론을 등록하지 않습니다.',
+      );
+      return;
+    }
+
     const configs = this.jsonConfigService.findAll();
     const enabledTimes = new Set<string>();
 
