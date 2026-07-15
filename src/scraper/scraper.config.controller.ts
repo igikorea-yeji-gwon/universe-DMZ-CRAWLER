@@ -21,6 +21,7 @@ import {
 } from '@nestjs/swagger';
 import { initScraperRequest } from './types/scraper.type';
 import { ScraperConfigService } from './scraper.config.service';
+import { ScraperService } from './scraper.service';
 import { NewsDbService } from './news-db.service';
 import { YnaFeedService } from './yna-feed.service';
 import { YnaBackfillService } from './yna-backfill.service';
@@ -37,6 +38,7 @@ export class ScraperConfigController {
 
   constructor(
     private readonly scraperConfigService: ScraperConfigService,
+    private readonly scraperService: ScraperService,
     private readonly newsDbService: NewsDbService,
     private readonly ynaFeedService: YnaFeedService,
     private readonly ynaBackfillService: YnaBackfillService,
@@ -202,6 +204,35 @@ export class ScraperConfigController {
   })
   async download2(@Param('originId', ParseIntPipe) originId: number) {
     return this.newsDbService.loadArticlesToDb(originId);
+  }
+
+  // ─── 수집기 자체 헬스체크 ───────────────────────────────────────────────────
+
+  @Get('health')
+  @ApiOperation({
+    summary:
+      '수집기 헬스체크 — 프로세스 생존 + Playwright 브라우저 연결 상태 확인 (pm2/모니터링 폴링용)',
+  })
+  @ApiResponse({
+    status: 200,
+    description: '수집기 상태 (브라우저가 끊겼으면 ok:false)',
+    schema: {
+      example: {
+        ok: true,
+        browserConnected: true,
+        uptimeSec: 3600,
+        timestamp: '2026-07-15 09:05:12',
+      },
+    },
+  })
+  scraperHealth() {
+    const { browserConnected } = this.scraperService.getHealth();
+    return {
+      ok: browserConnected,
+      browserConnected,
+      uptimeSec: Math.floor(process.uptime()),
+      timestamp: new Date().toISOString(),
+    };
   }
 
   // ─── 번역 앱 연결 테스트 ────────────────────────────────────────────────────

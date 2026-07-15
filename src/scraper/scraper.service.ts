@@ -52,6 +52,16 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     await this.browser.close();
   }
 
+  /**
+   * 수집기 헬스체크용 상태 보고.
+   * 핵심 의존성인 Playwright 브라우저가 살아있는지(isConnected)를 확인한다.
+   * onModuleInit에서 브라우저 기동이 실패했거나 도중에 끊기면 수집이 전부 실패하므로,
+   * 단순 프로세스 생존이 아니라 이 상태를 헬스 신호로 쓴다.
+   */
+  getHealth(): { browserConnected: boolean } {
+    return { browserConnected: this.browser?.isConnected() ?? false };
+  }
+
   private readonly regex = /[\r\n]+/g;
   private readonly base = 'https://example.com';
 
