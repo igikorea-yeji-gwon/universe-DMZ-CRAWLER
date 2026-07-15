@@ -237,10 +237,10 @@ export class ScraperConfigController {
 
   // ─── 번역 앱 연결 테스트 ────────────────────────────────────────────────────
 
-  @Get('translation/health')
+  @Get('translation/connection')
   @ApiOperation({
     summary:
-      '번역 앱(dmz_translation) 연결 헬스체크 — Gemini 호출 없이 연결 여부만 확인 (5초 타임아웃)',
+      '번역 앱(dmz_translation) 연결체크 — 실제 번역 없이 도달 가능 여부만 확인 (5초 타임아웃)',
   })
   @ApiResponse({
     status: 200,
@@ -250,14 +250,14 @@ export class ScraperConfigController {
         ok: true,
         translationApiUrl: 'http://localhost:3001',
         elapsedMs: 12,
-        httpStatus: 200,
-        message: '번역 앱 정상 응답 (/health 200)',
+        httpStatus: 404,
+        message: '번역 앱 연결됨 (HTTP 404)',
       },
     },
   })
-  async translationHealth() {
+  async translationConnection() {
     const startedAt = Date.now();
-    const result = await this.translationClient.healthCheck();
+    const result = await this.translationClient.checkConnection();
     return {
       ok: result.reachable,
       translationApiUrl: this.translationClient.baseURL,
