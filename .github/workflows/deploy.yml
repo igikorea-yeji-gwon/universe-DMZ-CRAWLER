@@ -24,4 +24,4 @@ jobs:
             git pull origin deploy
             npm install
             npm run build
-            pm2 restart scraper
+            pm2 startOrReload ecosystem.config.js
