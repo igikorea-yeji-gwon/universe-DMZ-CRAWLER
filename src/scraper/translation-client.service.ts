@@ -30,35 +30,33 @@ export class TranslationClientService {
   }
 
   /**
-   * 번역 앱 연결 헬스체크. Gemini 호출 없이 연결 여부만 빠르게 확인한다.
-   * 번역 앱에 GET 라우트가 없어도 HTTP 응답(404 포함)이 오면 프로세스는
-   * 실행 중인 것으로 판단하고, 연결 자체가 안 되면(ECONNREFUSED 등) 다운으로 본다.
+   * 번역 앱 연결체크. 실제 번역을 유발하지 않고 프로세스 도달 가능 여부만 본다.
+   * 루트(/)로 가볍게 요청해 HTTP 응답(404 포함)이 오면 "연결됨"으로 판단하고,
+   * 연결 자체가 안 되면(ECONNREFUSED·타임아웃 등) "연결 안 됨"으로 본다.
+   * (번역 앱의 /health는 실제 Gemini 번역을 돌리므로 연결 확인 용도로는 쓰지 않는다.)
    */
-  async healthCheck(): Promise<{
+  async checkConnection(): Promise<{
     reachable: boolean;
     httpStatus: number | null;
     message: string;
   }> {
     try {
-      const res = await this.http.get('/health', {
+      const res = await this.http.get('/', {
         timeout: 5_000,
         validateStatus: () => true,
       });
       return {
         reachable: true,
         httpStatus: res.status,
-        message:
-          res.status === 200
-            ? '번역 앱 정상 응답 (/health 200)'
-            : `번역 앱 실행 중 — HTTP ${res.status} 응답 (전용 /health 라우트 없음)`,
+        message: `번역 앱 연결됨 (HTTP ${res.status})`,
       };
     } catch (error) {
       return {
         reachable: false,
         httpStatus: null,
         message: axios.isAxiosError(error)
-          ? `연결 실패 (${error.code ?? error.message}) — 번역 앱 실행 여부와 TRANSLATION_API_URL 포트를 확인하세요`
-          : `연결 실패: ${(error as Error)?.message ?? error}`,
+          ? `번역 앱 연결 안 됨 (${error.code ?? error.message}) — 실행 여부와 TRANSLATION_API_URL 포트를 확인하세요`
+          : `번역 앱 연결 안 됨: ${(error as Error)?.message ?? error}`,
       };
     }
   }
