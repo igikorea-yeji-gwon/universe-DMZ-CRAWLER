@@ -92,7 +92,12 @@ export class RissCollectorService implements OnModuleInit {
       return { skipped: true, reason: 'env not configured' };
     }
 
-    const delayMs = Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
+    // RISS는 대량 페이징 시 응답이 점점 느려지다 스로틀링되는 이력이 있어(백필 중 30s 무응답)
+    // 요청 간격을 별도 env로 조절 가능하게 한다 (미설정 시 공통값)
+    const delayMs =
+      Number(this.configService.get('RISS_API_DELAY_MS')) ||
+      Number(this.configService.get('ARCHIVE_API_DELAY_MS')) ||
+      1000;
     const pageSize = Math.min(
       opts.pageSize ?? Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ?? 100,
       100, // rowcount 최대 100
@@ -176,7 +181,8 @@ export class RissCollectorService implements OnModuleInit {
               ...(spubdate ? { spubdate } : {}),
             },
             headers: { 'User-Agent': BROWSER_UA },
-            timeout: 30000,
+            // 백필 중 응답이 30초를 넘겨 끊긴 이력 — 느린 응답은 기다리는 편이 재시도보다 싸다
+            timeout: 60000,
             responseType: 'text',
             maxRedirects: 3,
           }),
