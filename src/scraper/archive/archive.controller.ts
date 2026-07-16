@@ -118,6 +118,27 @@ export class ArchiveController {
 
   // ─── 저장 현황 리포트 (프로젝트 루트 텍스트 파일) ──────────────────────────
 
+  @Get('archive/report/upload')
+  @ApiOperation({
+    summary:
+      '(임시) 프로젝트 루트의 archive-report-{source}.txt를 S3 archive-crawler/reports/ 아래로 업로드. ' +
+      '로컬 파일이 없으면 즉석 생성 후 업로드. source 미지정 시 kci/riss/ntis 전부',
+  })
+  @ApiQuery({ name: 'source', required: false, example: 'kci', description: 'kci | riss | ntis (미지정 시 전체)' })
+  @ApiResponse({
+    status: 200,
+    schema: {
+      example: {
+        uploaded: [
+          { source: 'kci', s3Uri: 's3://dmz-portal-bucket/archive-crawler/reports/archive-report-kci.txt', total: null },
+        ],
+      },
+    },
+  })
+  async uploadReport(@Query('source') source?: string) {
+    return this.reportService.uploadReportToS3(source);
+  }
+
   @Get('archive/report')
   @ApiOperation({
     summary:

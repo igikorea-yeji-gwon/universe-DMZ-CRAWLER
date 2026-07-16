@@ -376,6 +376,20 @@ export class S3Service {
     );
   }
 
+  /** 임의 키에 텍스트 저장 — 아카이브 저장 현황 리포트 등 */
+  async putText(key: string, body: string): Promise<string> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    await this.s3.send(
+      new PutObjectCommand({
+        Bucket: bucket,
+        Key: key,
+        Body: body,
+        ContentType: 'text/plain; charset=utf-8',
+      }),
+    );
+    return `s3://${bucket}/${key}`;
+  }
+
   private async listMetaKeysByOrigin(
     originId: number,
     since?: Date,
