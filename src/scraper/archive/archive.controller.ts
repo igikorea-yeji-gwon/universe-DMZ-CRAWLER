@@ -183,7 +183,7 @@ export class ArchiveController {
     summary:
       'origin_id 기준 아카이브 meta.json을 DB 적재용(정규화) JSON으로 반환 — 스프링 archive 적재 배치 연동용',
   })
-  @ApiParam({ name: 'originId', type: Number, example: 27, description: 'RISS=26, KCI=27, NTIS=28 (env)' })
+  @ApiParam({ name: 'originId', type: Number, example: 2, description: 'RISS=1, KCI=2, NTIS=3 (env, archive_origin 테이블)' })
   @ApiQuery({
     name: 'since',
     required: false,
@@ -195,13 +195,13 @@ export class ArchiveController {
     description: '적재용 아카이브 목록',
     schema: {
       example: {
-        originId: 27,
+        originId: 2,
         source: 'kci',
         since: null,
         total: 1,
         items: [
           {
-            originId: 27,
+            originId: 2,
             source: 'kci',
             dedupKey: 'KCI:ART003027350',
             menuId: 'PAPERS',

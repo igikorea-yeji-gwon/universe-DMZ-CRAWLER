@@ -204,7 +204,7 @@ describe('NtisCollectorService HIT 매핑', () => {
 describe('ArchiveExportService toDbReady', () => {
   const configStub = {
     get: (key: string) =>
-      ({ RISS_ORIGIN_ID: '26', KCI_ORIGIN_ID: '27', NTIS_ORIGIN_ID: '28' })[key],
+      ({ RISS_ORIGIN_ID: '1', KCI_ORIGIN_ID: '2', NTIS_ORIGIN_ID: '3' })[key],
   } as any;
 
   it('meta.json을 archive 테이블 적재용 행으로 변환한다 (고정값·trslYn 포함)', () => {
@@ -221,10 +221,10 @@ describe('ArchiveExportService toDbReady', () => {
       linkUrl: 'https://example.com',
       remark: 'KCI OpenAPI 수집',
     };
-    const row = service.toDbReady(27, 'kci', meta, new Date('2026-07-16T03:00:00+09:00'));
+    const row = service.toDbReady(2, 'kci', meta, new Date('2026-07-16T03:00:00+09:00'));
 
     expect(row).toMatchObject({
-      originId: 27,
+      originId: 2,
       dedupKey: 'KCI:ART003027350',
       menuId: 'PAPERS',
       useYn: 'Y',
@@ -239,7 +239,7 @@ describe('ArchiveExportService toDbReady', () => {
 
   it('영문 필드가 없으면 trslYn=N', () => {
     const service = new ArchiveExportService({} as any, configStub) as any;
-    const row = service.toDbReady(26, 'riss', { title: 't', registerNo: 'RISS:A1' }, null);
+    const row = service.toDbReady(1, 'riss', { title: 't', registerNo: 'RISS:A1' }, null);
     expect(row.trslYn).toBe('N');
     expect(row.collectedAt).toBeNull();
   });
