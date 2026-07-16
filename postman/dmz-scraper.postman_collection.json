@@ -1,0 +1,148 @@
+{
+  "info": {
+    "name": "DMZ 수집기",
+    "description": "DMZ 뉴스 수집기(3000) 주요 엔드포인트. baseUrl 변수만 환경에 맞게 바꿔 쓰세요. 모니터링 폴더의 두 요청(수집기 상태 / 번역앱 연결)은 Gemini 호출 없이 상태만 확인합니다.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "모니터링 (헬스/연결)",
+      "item": [
+        {
+          "name": "수집기 상태 (health)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/health",
+              "host": ["{{baseUrl}}"],
+              "path": ["scraper", "health"]
+            },
+            "description": "프로세스 생존 + Playwright 브라우저 연결 상태. data.ok=true, browserConnected=true 면 정상."
+          }
+        },
+        {
+          "name": "번역앱 연결 (connection)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/translation/connection",
+              "host": ["{{baseUrl}}"],
+              "path": ["scraper", "translation", "connection"]
+            },
+            "description": "번역앱 도달 여부만 확인(실제 번역 미유발). httpStatus 404여도 응답이 오면 연결됨. ok=false면 번역앱 다운/포트 오류."
+          }
+        }
+      ]
+    },
+    {
+      "name": "번역앱 테스트",
+      "item": [
+        {
+          "name": "번역 왕복 테스트 (ko: 실제 번역)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/translation/test?mock=ko",
+              "host": ["{{baseUrl}}"],
+              "path": ["scraper", "translation", "test"],
+              "query": [{ "key": "mock", "value": "ko" }]
+            },
+            "description": "목데이터를 번역앱에 보내 실제 Gemini 번역까지 확인. mock=en 이면 번역 없이 연결만."
+          }
+        }
+      ]
+    },
+    {
+      "name": "수집 실행",
+      "item": [
+        {
+          "name": "Config 실행 (run)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/run/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["scraper", "run", "1"]
+            },
+            "description": "Config ID로 스크래퍼 즉시 실행. 경로의 1을 대상 Config ID로 바꿔 사용."
+          }
+        },
+        {
+          "name": "연합뉴스 즉시 수집 (yna/collect)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/yna/collect",
+              "host": ["{{baseUrl}}"],
+              "path": ["scraper", "yna", "collect"]
+            }
+          }
+        },
+        {
+          "name": "연합뉴스 백필 (yna/backfill)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/yna/backfill?month=202601&limit=50&translate=true",
+              "host": ["{{baseUrl}}"],
+              "path": ["scraper", "yna", "backfill"],
+              "query": [
+                { "key": "month", "value": "202601" },
+                { "key": "limit", "value": "50" },
+                { "key": "translate", "value": "true" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Config / 조회",
+      "item": [
+        {
+          "name": "Config 목록 (config/list)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/config/list?pageSize=10&pageNumber=1",
+              "host": ["{{baseUrl}}"],
+              "path": ["scraper", "config", "list"],
+              "query": [
+                { "key": "pageSize", "value": "10" },
+                { "key": "pageNumber", "value": "1" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "스프링 적재용 기사 (articles)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/articles/16?since=2026-07-13 00:00:00",
+              "host": ["{{baseUrl}}"],
+              "path": ["scraper", "articles", "16"],
+              "query": [{ "key": "since", "value": "2026-07-13 00:00:00" }]
+            },
+            "description": "origin_id 기준 S3 meta.json을 DB 적재용 정규화 JSON으로. since로 증분 폴링."
+          }
+        }
+      ]
+    }
+  ]
+}

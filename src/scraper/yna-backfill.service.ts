@@ -91,8 +91,22 @@ export class YnaBackfillService {
       // 파일명이 곧 ContentID인 경우가 많아 배치 내 중복도 해시로 거른다
       const seenInBatch = new Set<string>();
 
-      for (const file of files) {
+      // 날짜가 바뀔 때마다 진행 헤더를 찍는다 (대부분 파일은 키워드 비매칭으로
+      // 조용히 스킵되므로, 날짜 헤더가 없으면 진행 중인지 알기 어렵다)
+      let lastDay = '';
+
+      for (let i = 0; i < files.length; i++) {
+        const file = files[i];
         if (opts.limit && summary.saved >= opts.limit) break;
+
+        const day = this.dayFromFilename(file);
+        if (day && day !== lastDay) {
+          lastDay = day;
+          this.logger.log(
+            `[yna-backfill] 📅 ${day} 처리 중 — 진행 ${i + 1}/${files.length}건 ` +
+              `(지금까지 신규 ${summary.saved}, 매칭 ${summary.keywordMatched})`,
+          );
+        }
 
         let item: BackfillItem | null = null;
         try {
@@ -185,7 +199,8 @@ export class YnaBackfillService {
           await this.s3Service.saveArticleMeta(originId, articleHash, meta);
           summary.saved++;
           this.logger.log(
-            `[yna-backfill] 저장 완료 hash=${articleHash} (이미지 ${imgRows.length}건) "${item.title}"`,
+            `[yna-backfill] 저장 완료 [${i + 1}/${files.length}] ${item.regDt.slice(0, 10)} ` +
+              `hash=${articleHash} (이미지 ${imgRows.length}건) "${item.title}"`,
           );
         } catch (e) {
           summary.errors.push({
@@ -208,6 +223,12 @@ export class YnaBackfillService {
     } finally {
       this.running = false;
     }
+  }
+
+  /** 파일명(AKR<YYYYMMDD>...xml)에서 'YYYY-MM-DD' 추출. 못 찾으면 ''. */
+  private dayFromFilename(file: string): string {
+    const m = path.basename(file).match(/(\d{4})(\d{2})(\d{2})/);
+    return m ? `${m[1]}-${m[2]}-${m[3]}` : '';
   }
 
   // ─── 파일 목록 ─────────────────────────────────────────────

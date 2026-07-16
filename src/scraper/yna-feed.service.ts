@@ -9,6 +9,7 @@ import { parseStringPromise } from 'xml2js';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { TranslationClientService } from './translation-client.service';
 import { GoogleChatService } from 'src/common/webhook/google-chat.service';
+import { isSchedulingEnabled } from 'src/common/scheduling.util';
 
 // 주무관 협의 키워드 — 제목/본문에 하나라도 포함되면 수집 대상
 export const KEYWORDS = [
@@ -66,6 +67,15 @@ export class YnaFeedService implements OnModuleInit {
   // 기존 스크래퍼와 동일하게 SchedulerRegistry로 동적 등록한다.
   // (@Cron 데코레이터는 이 앱 구성에서 discovery가 안 붙어 발화하지 않음)
   onModuleInit(): void {
+    // 전역 스케줄링 OFF면 yna 정기 수집 크론도 등록하지 않는다.
+    // 수동 실행(/scraper/yna/collect)은 계속 동작한다.
+    if (!isSchedulingEnabled(this.configService)) {
+      this.logger.warn(
+        '[yna] ⏸️ 전역 스케줄링 비활성화(SCHEDULING_ENABLED=false) — 정기 수집 크론 미등록.',
+      );
+      return;
+    }
+
     if (this.schedulerRegistry.getCronJobs().has(YNA_CRON_ID)) {
       const existing = this.schedulerRegistry.getCronJob(YNA_CRON_ID);
       existing.stop();

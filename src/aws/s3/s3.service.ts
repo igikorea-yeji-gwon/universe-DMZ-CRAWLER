@@ -265,6 +265,117 @@ export class S3Service {
     return `s3://${bucket}/${key}`;
   }
 
+  // ─── 아카이브(자료마당) 수집 — archive-crawler/ 프리픽스 (뉴스와 분리) ────────
+
+  /**
+   * 아카이브 meta.json(완료 마커) 존재 여부 — RISS/KCI/NTIS 중복 수집 방지.
+   * 폴더명은 `{hash}` 또는 `{hash}_제목` 두 형태가 공존하므로(가독성 개선 전 저장분 호환)
+   * hash 접두 매칭으로 확인한다. hash가 고정 8자리라 다른 hash와 접두 충돌은 없다.
+   */
+  async archiveItemExists(originId: number, itemHash: string): Promise<boolean> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const prefix = `archive-crawler/items/${originId}/${itemHash}`;
+    const res = await this.s3.send(
+      new ListObjectsV2Command({ Bucket: bucket, Prefix: prefix, MaxKeys: 5 }),
+    );
+    return (res.Contents ?? []).some((obj) => obj.Key?.endsWith('/meta.json'));
+  }
+
+  /**
+   * 아카이브 meta.json 저장 — 수집 파이프라인 마지막에 호출되는 완료 마커.
+   * folderSuffix(정리된 제목)를 주면 `{hash}_{제목}/meta.json`으로 저장해 콘솔에서 식별 가능.
+   */
+  async saveArchiveMeta(
+    originId: number,
+    itemHash: string,
+    data: Record<string, any>,
+    folderSuffix = '',
+  ): Promise<string> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const folder = folderSuffix ? `${itemHash}_${folderSuffix}` : itemHash;
+    const key = `archive-crawler/items/${originId}/${folder}/meta.json`;
+    await this.s3.send(
+      new PutObjectCommand({
+        Bucket: bucket,
+        Key: key,
+        Body: JSON.stringify(data, null, 2),
+        ContentType: 'application/json',
+      }),
+    );
+    return `s3://${bucket}/${key}`;
+  }
+
+  /**
+   * origin 하위 아카이브 meta.json을 S3 LastModified와 함께 반환 (스프링 증분 폴링용).
+   * listArticleMetaEntries와 동일한 p-limit 병렬 조회 패턴, 프리픽스만 다르다.
+   */
+  async listArchiveMetaEntries(
+    originId: number,
+    since?: Date,
+  ): Promise<{ meta: Record<string, any>; lastModified: Date | null }[]> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const prefix = `archive-crawler/items/${originId}/`;
+
+    const metaEntries: { key: string; lastModified: Date | null }[] = [];
+    let continuationToken: string | undefined;
+    do {
+      const res = await this.s3.send(
+        new ListObjectsV2Command({ Bucket: bucket, Prefix: prefix, ContinuationToken: continuationToken }),
+      );
+      for (const obj of res.Contents ?? []) {
+        if (!obj.Key?.endsWith('meta.json')) continue;
+        if (since && obj.LastModified && obj.LastModified < since) continue;
+        metaEntries.push({ key: obj.Key, lastModified: obj.LastModified ?? null });
+      }
+      continuationToken = res.IsTruncated ? res.NextContinuationToken : undefined;
+    } while (continuationToken);
+
+    const pLimit = (await import('p-limit')).default;
+    const limit = pLimit(30);
+    const settled = await Promise.all(
+      metaEntries.map(({ key, lastModified }) =>
+        limit(async () => {
+          try {
+            const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: key }));
+            const body = await obj.Body?.transformToString('utf-8');
+            return { meta: JSON.parse(body ?? '{}'), lastModified };
+          } catch {
+            return null; // meta.json 조회/파싱 실패 시 제외
+          }
+        }),
+      ),
+    );
+    return settled.filter(
+      (r): r is { meta: Record<string, any>; lastModified: Date | null } => r !== null,
+    );
+  }
+
+  /** 임의 키의 JSON 조회 (없으면 null) — 분류기 캐시 등 소형 상태 파일용 */
+  async getJson(key: string): Promise<any | null> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    try {
+      const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: key }));
+      const body = await obj.Body?.transformToString('utf-8');
+      return body ? JSON.parse(body) : null;
+    } catch (e) {
+      if ((e as any)?.name === 'NoSuchKey') return null;
+      throw e;
+    }
+  }
+
+  /** 임의 키에 JSON 저장 — 분류기 캐시 등 소형 상태 파일용 */
+  async putJson(key: string, data: any): Promise<void> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    await this.s3.send(
+      new PutObjectCommand({
+        Bucket: bucket,
+        Key: key,
+        Body: JSON.stringify(data, null, 2),
+        ContentType: 'application/json',
+      }),
+    );
+  }
+
   private async listMetaKeysByOrigin(
     originId: number,
     since?: Date,
@@ -306,15 +417,26 @@ export class S3Service {
     const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
     const metaEntries = await this.listMetaKeysByOrigin(originId, since);
 
-    const results: { meta: Record<string, any>; lastModified: Date | null }[] = [];
-    for (const { key, lastModified } of metaEntries) {
-      try {
-        const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: key }));
-        const body = await obj.Body?.transformToString('utf-8');
-        results.push({ meta: JSON.parse(body ?? '{}'), lastModified });
-      } catch { /* meta.json 파싱 실패 시 skip */ }
-    }
-    return results;
+    // meta.json 건당 GetObject를 병렬 조회한다. 순차로 하면 수백 건에서 수십 초가 걸려
+    // 호출 측(스프링) 읽기 타임아웃에 걸린다. (869건 순차 ≈ 70초 → 병렬 ≈ 2~3초)
+    const pLimit = (await import('p-limit')).default;
+    const limit = pLimit(30);
+    const settled = await Promise.all(
+      metaEntries.map(({ key, lastModified }) =>
+        limit(async () => {
+          try {
+            const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: key }));
+            const body = await obj.Body?.transformToString('utf-8');
+            return { meta: JSON.parse(body ?? '{}'), lastModified };
+          } catch {
+            return null; // meta.json 조회/파싱 실패 시 제외
+          }
+        }),
+      ),
+    );
+    return settled.filter(
+      (r): r is { meta: Record<string, any>; lastModified: Date | null } => r !== null,
+    );
   }
 
   async listFilesByOrigin(originId: number): Promise<any[]> {
