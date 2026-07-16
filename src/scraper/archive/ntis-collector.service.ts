@@ -19,7 +19,7 @@ import {
 } from './archive.types';
 
 const CRON_ID = 'archive-ntis-collect';
-const CRON_TIME = '0 20 3 * * *'; // 매일 03:20 KST
+const CRON_TIME = '0 0 3 * * *'; // 매일 03:00 KST (KCI 01:00, RISS 06:00와 시차)
 
 /**
  * NTIS 국가R&D 연구보고서 검색 서비스(전체용) 수집기.
