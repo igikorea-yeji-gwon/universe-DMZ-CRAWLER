@@ -1,0 +1,239 @@
+import { BadGatewayException, Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
+import { SchedulerRegistry } from '@nestjs/schedule';
+import { CronJob } from 'cron';
+import axios from 'axios';
+import moment from 'moment';
+import { parseStringPromise } from 'xml2js';
+import { GoogleChatService } from 'src/common/webhook/google-chat.service';
+import { isSchedulingEnabled } from 'src/common/scheduling.util';
+import { BROWSER_UA, KEYWORDS } from '../yna-feed.service';
+import { ArchiveIngestService } from './archive-ingest.service';
+import {
+  ArchiveCollectOptions,
+  ArchiveIngestSummary,
+  ArchiveItem,
+  sleep,
+  stripTags,
+  toArray,
+} from './archive.types';
+
+const CRON_ID = 'archive-ntis-collect';
+const CRON_TIME = '0 20 3 * * *'; // 매일 03:20 KST
+
+/**
+ * NTIS 국가R&D 연구보고서 검색 서비스(전체용) 수집기.
+ * rndopen/openApi/rresearchpdf 를 키워드별 페이징(startPosition/displayCount) 조회해
+ * 공통 파이프라인으로 넘긴다. 발행기관이 대부분 정부·국책기관이라 PUBLICATIONS 비중이 높다.
+ *
+ * 주의:
+ * - NTIS는 활용신청 시 등록한 IP에서만 호출 가능 — 로컬 개발기에선
+ *   '<error>접근 허용 IP가 아닙니다.</error>' 가 정상이며, 운영(EC2)에서 동작한다.
+ * - 응답 텍스트에 검색어 하이라이트(<span class="search_word">)가 섞여 있어 반드시 제거한다.
+ */
+@Injectable()
+export class NtisCollectorService implements OnModuleInit {
+  private readonly logger = new Logger(NtisCollectorService.name);
+  private running = false;
+
+  constructor(
+    private readonly configService: ConfigService,
+    private readonly ingestService: ArchiveIngestService,
+    private readonly googleChatService: GoogleChatService,
+    private readonly schedulerRegistry: SchedulerRegistry,
+  ) {}
+
+  onModuleInit(): void {
+    if (!isSchedulingEnabled(this.configService)) {
+      this.logger.warn('[ntis] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.');
+      return;
+    }
+    if (this.schedulerRegistry.getCronJobs().has(CRON_ID)) {
+      this.schedulerRegistry.getCronJob(CRON_ID).stop();
+      this.schedulerRegistry.deleteCronJob(CRON_ID);
+    }
+    const job = new CronJob(
+      CRON_TIME,
+      async () => {
+        try {
+          await this.collect({ translate: true, dryRun: false, incremental: true });
+        } catch (e) {
+          this.logger.error(`[ntis] 정기 수집 실패: ${(e as Error).message}`);
+        }
+      },
+      null,
+      false,
+      'Asia/Seoul',
+    );
+    this.schedulerRegistry.addCronJob(CRON_ID, job);
+    job.start();
+    this.logger.log(`[ntis] 정기 수집 크론 등록 완료 (${CRON_TIME})`);
+  }
+
+  async collect(opts: ArchiveCollectOptions): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
+    if (this.running) {
+      this.logger.warn('[ntis] 이전 수집이 아직 실행 중 → 이번 회차 스킵');
+      return { skipped: true, reason: 'already running' };
+    }
+    this.running = true;
+
+    const apiUrl = this.configService.get<string>('NTIS_API_URL');
+    const apiKey = this.configService.get<string>('NTIS_API_KEY');
+    const originId = Number(this.configService.get('NTIS_ORIGIN_ID'));
+    if (!apiUrl || !apiKey || !Number.isFinite(originId) || originId <= 0) {
+      this.running = false;
+      this.logger.warn('[ntis] NTIS_API_URL / NTIS_API_KEY / NTIS_ORIGIN_ID 미설정 → 수집 생략');
+      return { skipped: true, reason: 'env not configured' };
+    }
+
+    const delayMs = Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
+    const pageSize =
+      opts.pageSize ?? Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ?? 100;
+    const keywords = opts.keyword ? [opts.keyword] : [...KEYWORDS];
+    // 증분(크론) 모드: 발행년도 작년 이상으로 좁힌다 — 겹침은 S3 완료 마커가 거름
+    const addQuery = opts.incremental
+      ? `PY=${moment().subtract(1, 'year').format('YYYY')}/MORE`
+      : undefined;
+
+    try {
+      const items: ArchiveItem[] = [];
+      for (const keyword of keywords) {
+        const fetched = await this.fetchByKeyword(
+          apiUrl, apiKey, keyword, pageSize, opts.maxPages, addQuery, delayMs,
+        );
+        items.push(...fetched);
+        await sleep(delayMs);
+      }
+      return await this.ingestService.ingest(originId, items, opts);
+    } catch (e) {
+      this.logger.error(`[ntis] 수집 실패: ${(e as Error).message}`);
+      this.googleChatService.sendAlert('NTIS 아카이브 수집 실패', {
+        에러: (e as Error).message,
+      });
+      throw e;
+    } finally {
+      this.running = false;
+    }
+  }
+
+  // ─── 조회/파싱 ─────────────────────────────────────────────────────────────
+
+  private async fetchByKeyword(
+    apiUrl: string,
+    apiKey: string,
+    keyword: string,
+    pageSize: number,
+    maxPages: number | undefined,
+    addQuery: string | undefined,
+    delayMs: number,
+  ): Promise<ArchiveItem[]> {
+    const items: ArchiveItem[] = [];
+    let startPosition = 1; // 1-base index
+    let page = 1;
+    let total = Infinity;
+
+    while (startPosition <= total && (!maxPages || page <= maxPages)) {
+      const res = await axios.get(apiUrl, {
+        params: {
+          apprvKey: apiKey,
+          collection: 'rresearchpdf',
+          query: keyword,
+          searchField: 'BI',
+          sortBy: 'DATE/DESC',
+          startPosition,
+          displayCount: pageSize,
+          returnType: 'xml',
+          ...(addQuery ? { addQuery } : {}),
+        },
+        // axios 기본 Accept(application/json)를 보내면 NTIS가 JSON으로 응답해버린다 — XML 고정
+        headers: { 'User-Agent': BROWSER_UA, Accept: 'application/xml, text/xml, */*' },
+        timeout: 30000,
+        responseType: 'text',
+      });
+
+      let parsed: any;
+      try {
+        parsed = await parseStringPromise(res.data, { explicitArray: false });
+      } catch {
+        throw new BadGatewayException(
+          `NTIS 응답 XML 파싱 실패: ${String(res.data).slice(0, 200)}`,
+        );
+      }
+
+      // IP 미등록·키 오류 등은 <error> 또는 RESULT.resMsg 로 온다
+      // BadGatewayException을 쓰면 HttpExceptionFilter가 원인 메시지를 응답에 그대로 실어준다
+      if (parsed?.error) {
+        throw new BadGatewayException(
+          `NTIS 오류 응답: ${parsed.error} (등록된 IP에서만 호출 가능 — 운영 서버에서 실행하세요)`,
+        );
+      }
+      const result = parsed?.RESULT;
+      if (!result) {
+        throw new BadGatewayException(`NTIS 응답 형식 오류: ${String(res.data).slice(0, 200)}`);
+      }
+      if (result.resMsg) throw new BadGatewayException(`NTIS 오류 응답: ${result.resMsg}`);
+
+      total = Number(result.TOTALHITS ?? 0);
+      const hits = toArray<any>(result.RESULTSET?.HIT);
+      for (const hit of hits) {
+        const item = this.toArchiveItem(hit, keyword);
+        if (item) items.push(item);
+      }
+
+      this.logger.log(
+        `[ntis] "${keyword}" startPosition=${startPosition} → ${hits.length}건 (전체 ${total}건)`,
+      );
+      startPosition += pageSize;
+      page++;
+      if (startPosition <= total) await sleep(delayMs);
+    }
+    return items;
+  }
+
+  /** NTIS HIT → 정규화 ArchiveItem. 하이라이트 태그(<span class="search_word">)는 모두 제거 */
+  private toArchiveItem(hit: any, matchedKeyword: string): ArchiveItem | null {
+    const title = stripTags(this.lang(hit?.ResultTitle, 'Korean'));
+    if (!title) return null;
+
+    // 보고서등록번호(TRKO…)가 안정 식별자 — 없으면 성과번호(TermSn) 폴백
+    const sourceId =
+      stripTags(hit?.ResearchPublicNo) || stripTags(hit?.TermSn);
+    if (!sourceId) return null;
+
+    // 발행년도: PublicationYear(YYYY) 또는 PublicationYm(YYYYMM)
+    const rawYear = stripTags(hit?.PublicationYear) || stripTags(hit?.PublicationYm);
+    const yearMatch = rawYear.match(/^\d{4}/);
+
+    const keywordKo = stripTags(this.lang(hit?.Keyword, 'Korean'))
+      .split(';')
+      .map((s) => s.trim())
+      .filter(Boolean)
+      .join(', ');
+
+    return {
+      source: 'ntis',
+      sourceId,
+      title,
+      publisher: stripTags(hit?.PublicationAgency),
+      author: stripTags(hit?.Manager) || stripTags(hit?.ManagerName), // 과제 연구책임자
+      publishYear: yearMatch ? yearMatch[0] : '',
+      category: null, // 주제분류 미제공 — 기본값은 스프링 몫
+      subCategory: keywordKo || null,
+      summary: stripTags(this.lang(hit?.Abstract, 'Korean')) || null,
+      detailUrl: stripTags(hit?.DocUrl) || null,
+      isbn: null,
+      materialType: 'report',
+      matchedKeyword,
+      titleEn: stripTags(this.lang(hit?.ResultTitle, 'English')) || null,
+      summaryEn: stripTags(this.lang(hit?.Abstract, 'English')) || null,
+      authorEn: null,
+    };
+  }
+
+  /** {Korean, English} 다국어 노드에서 특정 언어 텍스트 추출 */
+  private lang(node: any, key: 'Korean' | 'English'): string {
+    if (node === undefined || node === null) return '';
+    if (typeof node === 'string') return key === 'Korean' ? node : '';
+    return String(node?.[key] ?? '');
+  }
+}

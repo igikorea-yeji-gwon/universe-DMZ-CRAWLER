@@ -21,10 +21,19 @@ import { CubridService } from 'src/database/cubrid.service';
 import { YnaFeedService } from './yna-feed.service';
 import { YnaBackfillService } from './yna-backfill.service';
 import { ArticleExportService } from './article-export.service';
+import { IsbnModule } from 'src/isbn/isbn.module';
+import { ArchiveController } from './archive/archive.controller';
+import { ArchiveIngestService } from './archive/archive-ingest.service';
+import { ArchiveExportService } from './archive/archive-export.service';
+import { ArchiveReportService } from './archive/archive-report.service';
+import { InstitutionClassifierService } from './archive/institution-classifier.service';
+import { KciCollectorService } from './archive/kci-collector.service';
+import { RissCollectorService } from './archive/riss-collector.service';
+import { NtisCollectorService } from './archive/ntis-collector.service';
 
 @Module({
-  imports: [ScheduleModule.forRoot()],
-  controllers: [ScraperConfigController],
+  imports: [ScheduleModule.forRoot(), IsbnModule],
+  controllers: [ScraperConfigController, ArchiveController],
   providers: [
     ScraperConfigService,
     ScraperService,
@@ -45,6 +54,13 @@ import { ArticleExportService } from './article-export.service';
     YnaFeedService,
     YnaBackfillService,
     ArticleExportService,
+    ArchiveIngestService,
+    ArchiveExportService,
+    ArchiveReportService,
+    InstitutionClassifierService,
+    KciCollectorService,
+    RissCollectorService,
+    NtisCollectorService,
   ],
 })
 export class ScraperModule {}

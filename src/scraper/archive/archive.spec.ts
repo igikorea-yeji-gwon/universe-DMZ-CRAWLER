@@ -1,0 +1,276 @@
+import { describe, expect, it, vi } from 'vitest';
+import * as fs from 'fs';
+import * as path from 'path';
+import { parseStringPromise } from 'xml2js';
+import { InstitutionClassifierService } from './institution-classifier.service';
+import { KciCollectorService } from './kci-collector.service';
+import { RissCollectorService } from './riss-collector.service';
+import { NtisCollectorService } from './ntis-collector.service';
+import { ArchiveExportService } from './archive-export.service';
+import { toArray, stripTags, titleToS3Suffix } from './archive.types';
+
+// ─── 테스트 더블 ──────────────────────────────────────────────────────────────
+
+const s3Stub = {
+  getJson: vi.fn(async () => null),
+  putJson: vi.fn(async () => undefined),
+} as any;
+
+const geminiStub = (reply: string) =>
+  ({ askQuestion: vi.fn(async () => reply) }) as any;
+
+function makeClassifier(geminiReply = '{"verdict":"GOV","confidence":0.9}') {
+  return new InstitutionClassifierService(s3Stub, geminiStub(geminiReply));
+}
+
+// 컬렉터의 XML→ArchiveItem 매핑(private)만 검증 — 생성자 의존성은 사용하지 않으므로 스텁
+function makeCollector<T>(ctor: new (...args: any[]) => T): T {
+  return new ctor({} as any, {} as any, {} as any, {} as any);
+}
+
+const fixture = (name: string) =>
+  fs.readFileSync(path.join(__dirname, '../../../configs/samples', name), 'utf-8');
+
+// ─── 기관 분류기 ──────────────────────────────────────────────────────────────
+
+describe('InstitutionClassifierService', () => {
+  it.each([
+    // [발행기관, 기대 verdict, 기대 경로]
+    ['통일연구원', 'GOV', 'dict'],
+    ['한국환경연구원', 'GOV', 'dict'],
+    ['경기연구원', 'GOV', 'dict'],
+    ['국립생태원', 'GOV', 'dict'],
+    ['(재)강원연구원', 'GOV', 'dict'], // 법인격 접두어 제거 후 사전 매치
+    ['국립수목원', 'GOV', 'dict'],
+    ['강원도청', 'GOV', 'pattern'],
+    ['파주시', 'GOV', 'pattern'],
+    ['외교부', 'GOV', 'pattern'], // 사전에 없는 부처 — 패턴 매치
+    ['병무청', 'GOV', 'pattern'],
+    ['한국수목보호진흥원', 'GOV', 'pattern'], // 한국○○진흥원
+    ['대한건축학회', 'PRIVATE', 'pattern'],
+    ['한국조경학회', 'PRIVATE', 'pattern'],
+    ['서울대학교 환경대학원', 'PRIVATE', 'pattern'],
+    ['대진대학교 DMZ연구원', 'PRIVATE', 'dict'], // 대학 부설 — PRIVATE 사전(DMZ연구원) 우선
+    ['통일평화연구원', 'PRIVATE', 'dict'], // 서울대 부설 — PRIVATE 사전
+    ['경인문화사', 'PRIVATE', 'pattern'],
+    ['대한불교조계종 총무원', 'PRIVATE', 'pattern'],
+    ['한국DMZ평화생명동산', 'PRIVATE', 'pattern'],
+    ['공공정책연구소', 'PRIVATE', 'pattern'], // ○○연구소 = 대학부설/민간 기본
+    ['법학연구소', 'PRIVATE', 'pattern'],
+    ['극지연구소', 'GOV', 'dict'], // 정부 소속 연구소는 사전이 먼저 매치
+  ])('%s → %s (%s)', async (publisher, verdict, by) => {
+    const classifier = makeClassifier();
+    const result = await classifier.classify(publisher as string);
+    expect(result.verdict).toBe(verdict);
+    expect(result.by).toBe(by);
+  });
+
+  it('사전·패턴 미매칭 기관은 LLM 폴백으로 판정한다', async () => {
+    const classifier = makeClassifier('{"verdict":"GOV","confidence":0.85}');
+    const result = await classifier.classify('이상한이름기관');
+    expect(result).toEqual({ verdict: 'GOV', by: 'llm' });
+  });
+
+  it('LLM 저신뢰(<0.6) 판정은 PRIVATE 기본값으로 처리한다', async () => {
+    const classifier = makeClassifier('{"verdict":"GOV","confidence":0.3}');
+    const result = await classifier.classify('알수없는연구모임');
+    expect(result).toEqual({ verdict: 'PRIVATE', by: 'llm-lowconf' });
+  });
+
+  it('같은 기관은 캐시로 재판정 없이 반환한다', async () => {
+    const gemini = geminiStub('{"verdict":"GOV","confidence":0.9}');
+    const classifier = new InstitutionClassifierService(s3Stub, gemini);
+    await classifier.classify('처음보는기관센터');
+    const second = await classifier.classify('처음보는기관센터');
+    expect(second.by).toBe('cache');
+    expect(gemini.askQuestion).toHaveBeenCalledTimes(1);
+  });
+
+  it('빈 발행기관은 PRIVATE(default)', async () => {
+    const classifier = makeClassifier();
+    expect(await classifier.classify('')).toEqual({ verdict: 'PRIVATE', by: 'default' });
+  });
+});
+
+// ─── KCI 매핑 (실 응답 샘플 픽스처) ──────────────────────────────────────────
+
+describe('KciCollectorService XML 매핑', () => {
+  it('kci-sample.xml 레코드를 ArchiveItem으로 정규화한다', async () => {
+    const collector = makeCollector(KciCollectorService) as any;
+    const parsed = await parseStringPromise(fixture('kci-sample.xml'), {
+      explicitArray: false,
+    });
+    const records = toArray<any>(parsed.MetaData.outputData.record);
+    expect(records.length).toBeGreaterThan(0);
+
+    const item = collector.toArchiveItem(records[0], 'DMZ');
+    expect(item).toMatchObject({
+      source: 'kci',
+      sourceId: 'ART003027350',
+      title: 'DMZ(Demilitarized Zone) 접경지역의 문화서비스 평가',
+      publisher: '한국조경학회',
+      publishYear: '2023',
+      category: '조경학',
+      subCategory: '한국조경학회지 51(6)',
+      materialType: 'article',
+      matchedKeyword: 'DMZ',
+    });
+    // API 제공 영문 필드
+    expect(item.titleEn).toBe('Cultural Services Assessment in DMZ(Demilitarized Zone) Border Areas');
+    expect(item.authorEn).toContain('Ko, Ha-jung');
+    // 저자 소속 괄호 제거
+    expect(item.author).toBe('고하정, 권혁수, 김정인');
+    expect(item.summary).toContain('본 연구는 접경지역 문화서비스 평가');
+    expect(item.detailUrl).toContain('artiId=ART003027350');
+  });
+});
+
+// ─── RISS 매핑 (실 응답 샘플 픽스처) ─────────────────────────────────────────
+
+describe('RissCollectorService XML 매핑', () => {
+  it('riss-sample.xml metadata를 ArchiveItem으로 정규화한다', async () => {
+    const collector = makeCollector(RissCollectorService) as any;
+    const parsed = await parseStringPromise(fixture('riss-sample.xml'), {
+      explicitArray: false,
+    });
+    expect(parsed.record.head.Error).toBe('0');
+    const metadataList = toArray<any>(parsed.record.metadata);
+    expect(metadataList.length).toBe(2);
+
+    const item = collector.toArchiveItem(metadataList[1], 'article', '접경');
+    expect(item).toMatchObject({
+      source: 'riss',
+      sourceId: 'A109157244', // url의 link?id= 파라미터
+      title: 'DMZ 접경지역의 식물 Ⅴ (Flora of DMZ Ⅴ)',
+      publisher: '국립수목원',
+      publishYear: '2020',
+      summary: null, // RISS는 초록 원문 미제공
+      materialType: 'article',
+    });
+    // 저자 | 구분 → ', ' join
+    expect(item.author).toContain('길희영, 정재상');
+    // vol=0 → 권호 라벨 생략
+    expect(item.subCategory).toBe('DMZ접경지역의 식물');
+  });
+});
+
+// ─── NTIS 매핑 (매뉴얼 예시 기반 + 하이라이트 제거) ──────────────────────────
+
+describe('NtisCollectorService HIT 매핑', () => {
+  it('하이라이트 태그를 제거하고 다국어 필드를 정규화한다', () => {
+    const collector = makeCollector(NtisCollectorService) as any;
+    const hit = {
+      TermSn: 'REP-2011-0115016243',
+      PublicationYm: '201112',
+      ResearchPublicNo: 'TRKO201300016082',
+      PublicationAgency: '<span class="search_word">DMZ</span>평화연구원',
+      ResultTitle: {
+        Korean: '<span class="search_word">DMZ</span> 일원 생태조사 보고서',
+        English: 'DMZ Ecological Survey Report',
+      },
+      Abstract: { Korean: '본 보고서는 <span class="search_word">DMZ</span> 일원…', English: '' },
+      Keyword: { Korean: 'DMZ;접경지역;', English: 'DMZ;Border;' },
+      Contents: '',
+      DocUrl: 'https://nrms.kisti.re.kr/sc/pop.do?rpt_ctrl_no=RT1',
+      Manager: '홍길동',
+    };
+
+    const item = collector.toArchiveItem(hit, 'DMZ');
+    expect(item).toMatchObject({
+      source: 'ntis',
+      sourceId: 'TRKO201300016082',
+      title: 'DMZ 일원 생태조사 보고서',
+      publisher: 'DMZ평화연구원',
+      author: '홍길동',
+      publishYear: '2011',
+      subCategory: 'DMZ, 접경지역',
+      materialType: 'report',
+      titleEn: 'DMZ Ecological Survey Report',
+      summaryEn: null, // 빈 영문 초록은 null
+    });
+    expect(item.summary).not.toContain('<span');
+  });
+
+  it('HIT가 단일 객체여도 toArray로 배열 정규화된다', () => {
+    const single = { a: 1 };
+    expect(toArray(single)).toEqual([single]);
+    expect(toArray([single, single])).toHaveLength(2);
+    expect(toArray(undefined)).toEqual([]);
+  });
+});
+
+// ─── Export DB-ready 변환 ─────────────────────────────────────────────────────
+
+describe('ArchiveExportService toDbReady', () => {
+  const configStub = {
+    get: (key: string) =>
+      ({ RISS_ORIGIN_ID: '26', KCI_ORIGIN_ID: '27', NTIS_ORIGIN_ID: '28' })[key],
+  } as any;
+
+  it('meta.json을 archive 테이블 적재용 행으로 변환한다 (고정값·trslYn 포함)', () => {
+    const service = new ArchiveExportService({} as any, configStub) as any;
+    const meta = {
+      source: 'kci',
+      menuId: 'PAPERS',
+      title: '제목',
+      titleEn: 'Title',
+      publisher: '한국조경학회',
+      publishYear: '2023',
+      author: '고하정',
+      registerNo: 'KCI:ART003027350',
+      linkUrl: 'https://example.com',
+      remark: 'KCI OpenAPI 수집',
+    };
+    const row = service.toDbReady(27, 'kci', meta, new Date('2026-07-16T03:00:00+09:00'));
+
+    expect(row).toMatchObject({
+      originId: 27,
+      dedupKey: 'KCI:ART003027350',
+      menuId: 'PAPERS',
+      useYn: 'Y',
+      rgtrId: 'admin',
+      hasFile: 'X',
+      trslYn: 'Y',
+      callNo: null,
+      filePath: null,
+    });
+    expect(row.collectedAt).toMatch(/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/);
+  });
+
+  it('영문 필드가 없으면 trslYn=N', () => {
+    const service = new ArchiveExportService({} as any, configStub) as any;
+    const row = service.toDbReady(26, 'riss', { title: 't', registerNo: 'RISS:A1' }, null);
+    expect(row.trslYn).toBe('N');
+    expect(row.collectedAt).toBeNull();
+  });
+
+  it('미등록 origin은 knownOrigin:false로 빈 결과 반환', async () => {
+    const service = new ArchiveExportService({} as any, configStub);
+    const res = await service.exportArchives(99);
+    expect(res).toMatchObject({ originId: 99, total: 0, knownOrigin: false, items: [] });
+  });
+});
+
+// ─── 공통 유틸 ────────────────────────────────────────────────────────────────
+
+describe('stripTags', () => {
+  it('하이라이트 span과 중첩 태그를 제거하고 공백을 정리한다', () => {
+    expect(stripTags('<span class="search_word">나노</span>융합산업  연구조합')).toBe(
+      '나노융합산업 연구조합',
+    );
+    expect(stripTags(null)).toBe('');
+    expect(stripTags(201112)).toBe('201112');
+  });
+});
+
+describe('titleToS3Suffix', () => {
+  it('S3 키 금지문자·공백을 _로 치환하고 길이를 제한한다', () => {
+    expect(titleToS3Suffix('DMZ 접경지역의 문화서비스 평가')).toBe('DMZ_접경지역의_문화서비스_평가');
+    expect(titleToS3Suffix('한반도 정전체제 하 "DMZ"의 평화적/국제법적 이용: 검토')).toBe(
+      '한반도_정전체제_하_DMZ_의_평화적_국제법적_이용_검토',
+    );
+    // 40자 초과는 잘리고 끝의 _는 제거
+    expect(titleToS3Suffix('가'.repeat(60)).length).toBeLessThanOrEqual(40);
+    expect(titleToS3Suffix('')).toBe('');
+  });
+});

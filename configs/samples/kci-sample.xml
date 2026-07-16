@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData>
+  <inputData>
+    <key>29674082</key>
+    <apiCode>articleSearch</apiCode>
+    <title><![CDATA[DMZ]]></title>
+    <page>1</page>
+    <displayCount>10</displayCount>
+  </inputData>
+  <outputData>
+    <result>
+      <total>336</total>
+    </result>
+    <record>
+      <journalInfo>
+        <journal-name>한국조경학회지</journal-name>
+        <publisher-name>한국조경학회</publisher-name>
+        <pub-year>2023</pub-year>
+        <pub-mon>12</pub-mon>
+        <volume>51</volume>
+        <issue>6</issue>
+      </journalInfo>
+      <articleInfo article-id="ART003027350">
+        <article-categories>조경학</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ(Demilitarized Zone) 접경지역의 문화서비스 평가]]></article-title>
+          <article-title lang="foreign"><![CDATA[Cultural Services Assessment in DMZ(Demilitarized Zone) Border Areas]]></article-title>
+          <article-title lang="english"><![CDATA[Cultural Services Assessment in DMZ(Demilitarized Zone) Border Areas]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Ko, Ha-jung">고하정(경희대학교)</author>
+          <author english="Kwon, Hyuk-Soo">권혁수(국립생태원)</author>
+          <author english="Kim, Jung-In">김정인(국립생태원)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[본 연구는 접경지역 문화서비스 평가를 통해 지표와 방법론의 적절성을 고찰하고, 국내 핵심 생태자산인 접경지역의 생태계서비스 기반 관리를 위한 기초자료로 활용하고자 한다. 이에 본 연구에서는 선행연구에서 제시한 평가지표와 방법을 바탕으로 7개 시군을 평가 및 비교하였다. 문화서비스 평가 결과, 여가․관광은 파주시, 경관미는 인제군, 교육은 양구군, 유산은 인제군이 우수한 것으로 나타났다. 이에 본 연구를 통해 문화서비스의 종합적인 평가를 위한 향후 과제를 다음과 같이 제안하고자 한다. 첫째, 국가 및 광역 단위의 생태계서비스 평가를 위해서는 문화서비스 평가 및 모니터링을 위한 지표 체계 구축이 필요하다. 둘째, 문화서비스 평가 지표 체계 구축시 평가대상지역 스케일에 따른 지표 간의 상․하위 개념 단위나 일관성에 대한 검토가 선행되어야 한다. 셋째, 생태계 유형에 따라 문화서비스 평가를 위한 구체적인 DB 구축 및 활용 검토가 이루어져야 한다. 마지막으로 국내의 문화서비스 연구가 현저히 부족한 상황에서 비물질적이고 정성적인 인식을 포함한 문화서비스 평가를 위해서는 기초 연구가 지속되어야 한다. 향후 광역단위의 문화서비스 평가를 위해서는 생태계 유형별로 추가적인 기초 연구 결과 축적이 필요하며, 적절한 평가지표와 방법에 대한 새로운 접근 방법의 후속 연구가 필요하다.]]></abstract>
+          <abstract lang="english"><![CDATA[This study examines the appropriateness of indicators and methodologies through the evaluation of cultural services in border areas and uses them as basic data for the ecosystem service-based management of border areas, which are key domestic ecological assets. Accordingly, in this study, seven border cities and counties were evaluated and compared based on the evaluation indicators and methods presented by the National Institute of Ecology. As a result of the cultural service evaluation, it was found that Paju City was superior in leisure and tourism, Inje-gun was best in scenic beauty and heritage, and Yanggu-gun was strongest in education, and Inje-gun in heritage. Accordingly, through this study, future tasks for comprehensive cultural service evaluation were presented as follows. First, in order to evaluate ecosystem services at the national and regional levels, it is necessary to establish an indicator system for cultural service evaluation and monitoring. Second, when building a cultural service evaluation index system, it is necessary to review upper and lower conceptual units and the consistency between indicators according to the scale of the evaluation region. Third, a specific review of DB utilization for cultural service evaluation should be conducted depending on the type of ecosystem. Lastly, given the significant lack of domestic cultural service research, additional basic research must be conducted to evaluate cultural services including non-material and qualitative perceptions. In order to evaluate cultural services in the future, additional basic research is needed for each ecosystem type, and a process of finding appropriate evaluation indicators and methods through research is necessary.]]></abstract>
+        </abstract-group>
+        <fpage>46</fpage>
+        <lpage>60</lpage>
+        <doi><![CDATA[http://dx.doi.org/10.9715/KILA.2023.51.6.046]]></doi>
+        <uci />
+        <citation-count kci="0" wos="0">0</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003027350]]></url>
+        <verified>Y</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>통일과 평화</journal-name>
+        <publisher-name>통일평화연구원</publisher-name>
+        <pub-year>2023</pub-year>
+        <pub-mon>06</pub-mon>
+        <volume>15</volume>
+        <issue>1</issue>
+      </journalInfo>
+      <articleInfo article-id="ART002980393">
+        <article-categories>북한사회및통일연구</article-categories>
+        <article-regularity>N</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ 평화지대화를 위한 시도와 DMZ 평화지도]]></article-title>
+          <article-title lang="foreign"><![CDATA[DMZ peace map]]></article-title>
+          <article-title lang="english"><![CDATA[DMZ peace map]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Daeil KIM">김대일(리소건축사사무소)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original" />
+        </abstract-group>
+        <fpage>333</fpage>
+        <lpage>348</lpage>
+        <doi><![CDATA[http://dx.doi.org/10.35369/jpus.15.1.202306.333]]></doi>
+        <uci />
+        <citation-count kci="0" wos="0">0</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002980393]]></url>
+        <verified>Y</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>사학연구</journal-name>
+        <publisher-name>한국사학회</publisher-name>
+        <pub-year>2022</pub-year>
+        <pub-mon>03</pub-mon>
+        <volume />
+        <issue>145</issue>
+      </journalInfo>
+      <articleInfo article-id="ART002830198">
+        <article-categories>역사학</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ 디지털 콘텐츠와 公衆의 專有 –DMZ 평화지도 기획과 구현을 중심으로–]]></article-title>
+          <article-title lang="foreign"><![CDATA[DMZ Digital Humanities and Public Appropriation-Focusing on the case of DMZ Peace Map-]]></article-title>
+          <article-title lang="english"><![CDATA[DMZ Digital Humanities and Public Appropriation-Focusing on the case of DMZ Peace Map-]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Hahn Monica">한모니까(서울대학교)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[이글은 문화콘텐츠 사례로서 DMZ 평화지도 기획과 구현을 분석적으로 다룬다. DMZ 평화지도 제작 과정에서 고민하고 발생했던 경험을 문화콘텐츠의 이론적 방법론적 실천적 측면에서 서술한다. 이는 DMZ에 관한 연구의 심층적 다각화, 디지털 매체를 활용한 문화콘텐츠 제작, 공공역사의 대안적 방향성 모색 등에 기여할 것이다.
+DMZ 평화지도는 Web GIS라는 디지털 매체를 통해 구현한 문화콘텐츠이다. 현재에 대한 문제의식과 1차 자료의 확장적 재해석, 다학제간 융합 연구를 바탕으로 한 사실의 창조적 재현이다. DMZ 평화지도는 사실이 가지는 다양한 역설과 가능성을 보여준다. 사실을 바탕으로 한 디지털 콘텐츠가 사실의 균열을 일으키며, 과거로서만이 아니라 미래로서 역사를 재인식하게 하고, 사실들의 종합과 분류가 복합적 사고를 가능하게 한다. 이를 통해 지워지고 폐쇄적인 DMZ가 公衆의 것으로 전유된다.]]></abstract>
+          <abstract lang="english"><![CDATA[This article analyzes the experience of DMZ Peace Map making as an example of cultural contents. Existing cultural contents research has dealt with concepts and methodologies, or criticized cases. However, this article deals with both the planning and implementation of DMZ Peace Map. Analytical descriptions of the historical and realistic backgrounds, ideas and concepts, methods, contents and meanings, and usage plans surrounding the subject matter are described. This is meaningful not only for the study of the DMZ, but also for suggesting the direction and alternatives of cultural contents and public history using digital media.
+DMZ Peace Map is a cultural content implemented through a digital medium called Web GIS. It is a creative representation of facts based on a problem-conscious awareness of the present, an expansive reinterpretation of primary data, and multidisciplinary convergence research. The DMZ Peace Map shows the various paradoxes and possibilities of facts. Digital content based on facts creates a rift in facts, makes history re-perceived not only as the past but also as the future, and the synthesis and classification of facts enables complex thinking. Through this, the DMZ, which was erased and closed, is appropriated for the public and popular.]]></abstract>
+        </abstract-group>
+        <fpage>369</fpage>
+        <lpage>414</lpage>
+        <doi />
+        <uci />
+        <citation-count kci="7" wos="0">7</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002830198]]></url>
+        <verified>Y</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>한국CDE학회 논문집</journal-name>
+        <publisher-name>한국CDE학회</publisher-name>
+        <pub-year>2022</pub-year>
+        <pub-mon>09</pub-mon>
+        <volume>27</volume>
+        <issue>3</issue>
+      </journalInfo>
+      <articleInfo article-id="ART002872611">
+        <article-categories>기계공학</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ 메타버스 구축 사례 소개]]></article-title>
+          <article-title lang="foreign"><![CDATA[Introduction of DMZ Metaverse Application Case]]></article-title>
+          <article-title lang="english"><![CDATA[Introduction of DMZ Metaverse Application Case]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="SangSu Choi">최상수((주)아이지아이 코리아)</author>
+          <author english="Jungyub Woo">우정엽((주)아이지아이 코리아)</author>
+          <author english="Kajoong Yoon">윤가중((주)아이지아이 코리아)</author>
+          <author english="Miae Kim">김미애((주)아이지아이 코리아)</author>
+          <author english="Inho Song">송인호((주)아이지아이 코리아)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[Metaverse is a technology that allows users to experience a sense of presence and immersion in a space that is difficult to visit. Vicarious pleasure can bring up the user’s interest. Korea is one of the few divided countries in the world, and there is a special area called the Korean Demilitarized Zone (DMZ). Due to the high military tension in this area, public activities are strictly prohibited. The Ministry of Unification established the DMZ metaverse as a part of various policies for peace in the DMZ. For sustainable public service, it should be basically developed as a web based metaverse using the e-Government Framework. In this study, the DMZ Goseong metaverse using a web based metaverse platform is introduced. The DMZ metaverse functions and future research directions are discussed based on the metaverse feature 5C (Canon, Creator, Currency, Continuity, Connectivity).]]></abstract>
+          <abstract lang="english"><![CDATA[Metaverse is a technology that allows users to experience a sense of presence and immersion in a space that is difficult to visit. Vicarious pleasure can bring up the user’s interest. Korea is one of the few divided countries in the world, and there is a special area called the Korean Demilitarized Zone (DMZ). Due to the high military tension in this area, public activities are strictly prohibited. The Ministry of Unification established the DMZ metaverse as a part of various policies for peace in the DMZ. For sustainable public service, it should be basically developed as a web based metaverse using the e-Government Framework. In this study, the DMZ Goseong metaverse using a web based metaverse platform is introduced. The DMZ metaverse functions and future research directions are discussed based on the metaverse feature 5C (Canon, Creator, Currency, Continuity, Connectivity).]]></abstract>
+        </abstract-group>
+        <fpage>310</fpage>
+        <lpage>320</lpage>
+        <doi><![CDATA[http://dx.doi.org/10.7315/CDE.2022.310]]></doi>
+        <uci />
+        <citation-count kci="7" wos="0">7</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002872611]]></url>
+        <verified>Y</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>신학과 사회</journal-name>
+        <publisher-name>21세기기독교사회문화아카데미</publisher-name>
+        <pub-year>2025</pub-year>
+        <pub-mon>08</pub-mon>
+        <volume>39</volume>
+        <issue>3</issue>
+      </journalInfo>
+      <articleInfo article-id="ART003235537">
+        <article-categories>기타인문학</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[분단체제의 시각에서 본 DMZ의 문제와 평화 체제를 향한 ‘DMZ’ 가능성 모색]]></article-title>
+          <article-title lang="foreign"><![CDATA[The DMZ Problems from the Perspective of the Division System and Exploring the Possibilities of the ‘DMZ’ for a Peace System]]></article-title>
+          <article-title lang="english"><![CDATA[The DMZ Problems from the Perspective of the Division System and Exploring the Possibilities of the ‘DMZ’ for a Peace System]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Taekwan-Choi">최태관(감리교신학대학교)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[본 연구는 백낙청의 분단체제의 시각에서 한국전쟁의 결과인 비무장지대를 역사적이고 정치적으로 살펴보고 DMZ에 대한 인식변화를 통해 한반도의 긴장을 완화하고 평화 정착의 길을 모색하는 데에 그 목적이 있다. 이를 통해 본 논문은 비무장지대의 유효성과 가능성을 살핌으로써 남북 분단을 극복하고 새로운 평화 체제를 형성하기 위한 가능성을 모색한다. 첫째, 본 논문은 백낙청의 분단체제론의 의미를 해명하고 이 분단체제에서 벗어나지 못한 ‘무장 지대’로 왜곡되어온 DMZ의 현실을 보여준다. 왜냐하면, 북한과 남한이 서로에 대한 적대적 관계를 인식하지 못하고 끊임없이 기득권 중심의 관계에서 분단 문제를 바라보았기 때문이다. 결과적으로, 본 논문은 오늘날 실질적으로 DMZ의 문제를 바라보는 데에 있어서 백낙청의 분단체제론이 지닌 유의미성을 제시한다. 왜냐하면, 백낙청은 냉전체제가 아닌 남북한이 함께 속하고 있는 체제의 불완전성과 그 안에 속한 지배계층에 의해 주도되고 유지되는 남북의 적대적 관계와 그 사이에서 추구해야 하는 북한과 남한 변혁의 길을 구체적으로 제시하기 때문이다. 둘째, 본 논문은 백낙청의 분단체제론에 대한 손호철과 김용해 그리고 박영균의 비판적 인식을 살핀다. 한편으로, 본 논문은 백낙청의 분단체제론과의 비판적 논쟁을 통해서 북한과 남한을 분단체제가 아니라 DMZ로 인해 이미 분단된 구조하에서 볼 것을 주장하는 손호철의 현실주의적 입장과 분단체제를 ‘결손 국가’라는 이미지를 통해 북한과 남한의 역동적 관계를 재조명해 보려는 박영균의 심리적 이해를 조명한다. 이를 토대로, 본 글은 더는 한 국가 체제하에서 이해할 수 없는 북한과 남한의 현실적 관계를 보여준다. 셋째, 본 논문은 최근 한반도를 둘러싸고 있는‘두 국가론’과 관련하여 분단이 가지고 있는 실존적이고 역사적인 의미를 살핀다. 한편으로, 본 글은 두 국가체제에서 북한과 UN의 주도하에 이루어진 DMZ에서 분단의 고착화와 체제경쟁에서 가시화된 국가주의와 DMZ의 재무장화를 비판한다. 다른 한편, 본 글은 실질적인 두 국가화로 인해 극복되지 않은 분단체제와 미완의 평화 체제의 과제가 있었음을 밝힌다. 넷째, 본 글은 분단체제에서 가시화된 허울뿐인 평화협정을 추구하는 과정에서 배제된 DMZ 중심의 통일 논의로의 전환의 의미를 살피려고 한다. 결론적으로, 본 논문은 분단의 기억과 그에 따른 적대적 관계에서 비롯된 분단의 비극을 극복하고 평화 체제를 형성하는 과정에서 국제협력과 생태계 보전과 같은 실천적 가능성이 있음을 밝힌다. 이를 통해 본 글은 DMZ의 유효성과 화해와 협력의 가능성을 드러내려고 한다.]]></abstract>
+          <abstract lang="english"><![CDATA[This study deals with the religious and theological understanding of the DMZ, which has often been recognized as a result of the division system of the Korean Peninsula. Through this, this paper examines the validity and possibility of the DMZ and seeks the possibility of overcoming the division system and forming a new peace system. First, this paper examines Son Ho-cheol and Park Young-gyun’s critical perception of Baek Nak-cheong’s division system theory. On the one hand, through a critical debate with Baek Nak-cheong’s division system theory, this paper sheds light on Son Ho-cheol’s realistic position that argues that North and South Korea should be viewed not as a division system but as a structure already divided by the DMZ, and Park Young-gyun’s psychological understanding that attempts to reexamine the dynamic relationship between North and South Korea under the image of the division system as a ‘defective state.’ Based on this, this paper shows the realistic relationship between North and South Korea that can no longer be understood under a single state system. Second, Baek Nak-cheong’s division theory shows that North and South Korea do not recognize their fundamental relationship and constantly view the division issue from the perspective of vested interests, and within that, the DMZ has been distorted into an ‘armed zone’ that cannot escape from this division system. As a result, this paper presents the significance of Baek Nak-cheong’s division theory in looking at the DMZ issue in practice today. This is because Baek Nak-cheong specifically presents the path to transformation between North and South Korea that must be pursued in the midst of the imperfection of the system that North and South Korea belong to together, not the Cold War system, and the hostile relationship between the two Koreas that is led and maintained by the ruling class within it. Third, this paper examines the current and historical significance of division in relation to the ‘two-state theory’ that has recently surrounded the Korean Peninsula. In the two-state system, the solidification of division and the nationalism that was visualized in the competition of systems in the DMZ led by North Korea and the UN, and the paradoxical meaning of armament that followed, and further, the task of the division system that was not overcome and the unfinished peace system due to the actual two-state system were revealed. Fourth, this article will examine the transition to the DMZ-centered unification discussion that was excluded in the process of pursuing the illusory peace agreement that was visualized in the division system. In the memory of the division and the meaning of the demilitarized zone that followed, it will be revealed that there are practical possibilities such as international cooperation and ecosystem conservation in the process of overcoming the tragedy of division filled with hostility and conflict and forming a peace system. Through this, this article will attempt to reveal the effectiveness of the DMZ and the possibility of reconciliation and cooperation.]]></abstract>
+        </abstract-group>
+        <fpage>67</fpage>
+        <lpage>108</lpage>
+        <doi><![CDATA[http://dx.doi.org/10.22748/thesoc.2025.39.3.003]]></doi>
+        <uci />
+        <citation-count kci="0" wos="0">0</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003235537]]></url>
+        <verified>N</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>한국미술경영학회 논문집</journal-name>
+        <publisher-name>한국미술경영학회</publisher-name>
+        <pub-year>2025</pub-year>
+        <pub-mon>08</pub-mon>
+        <volume />
+        <issue>8</issue>
+      </journalInfo>
+      <articleInfo article-id="ART003242780">
+        <article-categories>문화예술경영</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ 공간의 다층화와 예술적 개입:《리얼 디엠지 프로젝트》를 중심으로]]></article-title>
+          <article-title lang="foreign"><![CDATA[The Multilayered of the DMZ Space and Artistic Interventions: Focusing on the Real DMZ Project]]></article-title>
+          <article-title lang="english"><![CDATA[The Multilayered of the DMZ Space and Artistic Interventions: Focusing on the Real DMZ Project]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Yoon Ran">윤란(홍익대학교)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[본 논문은 한국의 DMZ(비무장지대) 공간이 지닌 의미가 2010년대 이후 한국 동시대 미술에서 어떠한 방식으로 생산되고 표현되었는지를 살펴본다. 이를 위해 시대별로 DMZ 공간이 지닌 의미를 파악하고, 2012년부터 약 10년간 DMZ를 집중적으로 탐구한 《리얼 디엠지 프로젝트 Real DMZ Project》에 주목한다. 한국 현대 미술에서 DMZ 공간은 반공 이데올로기와 그에 대한 저항, 평화와 교류의 주제로 다뤄졌다. 이와 더불어
+21세기 들어서는 접경지역, 디지털 미디어를 통한 DMZ 공간의 재현과 체험이 새로운 작품 주제로 나타났다. 특히 2010년대 이후 DMZ 공간은 이전에 분단을 둘러싼 복합적인 논제의 일부로 다뤄졌던 것과는 달리, 독립적인 전시 주제로서 빈번히 다뤄졌다. 그러나 그간의 연구에서는 DMZ에 관한 작품을 전쟁 미술이나 분단 미술의 일부분으로 위치시키거나, 문화예술 프로젝트의 사례 안에서 분석하는 것에 그쳤다. 이와 달리 본 논문은 DMZ 공간 자체에 초점을 두고 이곳에서 발생한 동시대 미술의 다층성에 주목한다. 결과적으로 DMZ는 예술을 통해 이데올로기의 공간이자 삶의 공간이며 이와 더불어 상상의 공간이자 자연의 공간임을 드러내고 있다. 《리얼 디엠지 프로젝트》는 이러한 공간성을 잘 드러내는 전시로, DMZ가 생동하는 곳이자 잠재력을 지닌 공간임을 보여준다.]]></abstract>
+          <abstract lang="english"><![CDATA[This study examines the meanings of Korea’s Demilitarized Zone(DMZ) spaces in their production and expression in Korean contemporary art since 2010. In order to achieve this, it first delineates the historical shifts in the significance of the DMZ, and subsequently examines the Real DMZ Project, a long-term initiative that has engaged in an intensive exploration of the DMZ for approximately a decade
+beginning in 2012. In Korean modern art, DMZ spaces have been treated with such topics as anti-communist ideology, resistance to ideology, peace, and exchanges. Entering the 21st century, people have shown more interest in the border areas of the DMZ, which have seen new creative topics such as reproduction and experinece of the DMZ spaces via digital media. Since 2010, in particular, DMZ spaces have been frequently treated as an independent exhibition topic unlike in the past when they were treated as part of the complex subject surrounding the division in tow Koreas. Previous studies, however, remained at the level of presenting work about the DMZ as part of war art or division art and analyzing them within the cases of culture and art projects. In contrast, this study directs its focus to the DMZ as a spatial entity in its own right, highlighting the multilayered character of contemporary art practices that have emerged in and around this site. As a result, the DMZ is revealed through artistic practices as a space of ideology and lived experience, while simultaneously emerging as a space of imagination and of nature. The Real DMZ Project serves as an exhibition that effectively articulates this spatiality, demonstrating the DMZ as both a living site and a imbued with potentiality.]]></abstract>
+        </abstract-group>
+        <fpage>87</fpage>
+        <lpage>102</lpage>
+        <doi><![CDATA[http://dx.doi.org/10.23088/kama.2025..08.005]]></doi>
+        <uci />
+        <citation-count kci="0" wos="0">0</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003242780]]></url>
+        <verified>N</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>선사와 고대</journal-name>
+        <publisher-name>한국고대학회</publisher-name>
+        <pub-year>2022</pub-year>
+        <pub-mon>04</pub-mon>
+        <volume />
+        <issue>68</issue>
+      </journalInfo>
+      <articleInfo article-id="ART002837405">
+        <article-categories>역사학</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ 내 유적 탐색과 신발견]]></article-title>
+          <article-title lang="foreign"><![CDATA[Exploration and discovery of remains in the DMZ]]></article-title>
+          <article-title lang="english"><![CDATA[Exploration and discovery of remains in the DMZ]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Heo Ui-hang">허의행(수원대학교)</author>
+          <author english="sim jae yoaun">심재연(한림대학교 한림고고학연구소)</author>
+          <author english="Yang, Jeong Seok">양정석(수원대학교)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[DMZ 내 유적은 최근 실태조사와 지역 내 연구 등을 통해 그 존재가 점차 알려지고 있다. 하지만 여전한 접근의 현실적 제약은 유적의 존재를 파악하는데 한계가 있다. 설혹유적의 존재가 확인되었다 하더라도 기존 자료의 검토 수준에서 크게 벗어나지 못하고있다. 따라서 이러한 문제점을 보완하고자 고지형분석 방법의 기반인 항공사진 판독을통해 DMZ 내 유적을 확인하였다.
+DMZ 내 유적의 탐색과 확인은 5개의 권역으로 구분하여 살펴보았다. 각 권역은 지역내 대표 유적의 분포를 통해 선ㆍ역사시대 주요한 유적의 존재 가능성을 접근할 수 있었다. 이렇게 확인된 유적은 대동여지도 등의 과거 지도 및 지형도 등을 바탕으로 GIS 분석을 통해 그 위치를 지정하였고, 항공사진 판독과 지형의 3차원 제작을 통해 그 형태적특징과 흔적을 더욱 명확히 하였다.
+이러한 과정을 통해 확인된 DMZ 내 유적은 크게 관방과 고분유적 그리고 사지와 기타 건축물 유적 등으로 구분된다. 관방유적은 도성과 성곽, 봉수지 등을 확인하였고 서해안에서 동해안 지역에 이르기까지 다양한 형태와 입지에 존재하는 것을 볼 수 있었다.
+고분은 적석총과 전골총 등의 다소 규모가 큰 형태 등을 확인할 수 있었는데, 일부의 고분은 크기와 형태 그리고 위치 등을 다시금 수정할 수 있었다. 기타 사지와 정자 등이 유존할 가능성이 높은 지역을 확인하였다. 이 유적들은 철원과 고성지역에서 다수의 평탄대지 지형과 함께 확인되며, 문헌과 일제강점기 고적조사 자료 등에서 보이는 석탑 등의석축물 흔적 등과 같이 볼 수 있었다.
+이러한 분석과 확인 과정 등을 거쳐 DMZ 내 유적을 파악하였는데, 새롭게 확인되거나 위치가 다시 특정된 유적은 총 5개 권역 22개소에 해당한다. 추후 확인된 유적의 분포와 현황에 대한 면밀한 검토와 후속 연구를 통해 DMZ 내 각 유적의 성격과 시기에 대한 구체적 논의가 진행될 필요가 있다]]></abstract>
+          <abstract lang="english"><![CDATA[The existence of remains in the DMZ is gradually becoming known through recent fact-finding surveys and local research. However, the approach employed has practical limitations in confirming the existence of remains. Even if the existence of remains has been confirmed, it does not deviatesignificantly from thelevel of review of existing materials. Therefore, to compensate for these problems, remains in the DMZ were identified through an analysis of aerial photos, which is the basis of the paleotopographic analysis method.
+The search and confirmation of remains within the DMZ was examined by dividing it into five metropolitan areas. Each metropolitan area was able to approach the possibility of the existence of major remains in the prehistoric and historical eras through the distribution of representative remains within the area. The location of the identified remains was designated through GIS analysis based on past maps and topographic maps such as Daedongyeojido, and the morphological features and traces were further clarified through reading of the aerial photos and production of three-dimensional topography.
+The remains in the DMZ identified through this process were largely classified into fortresses, ancient tomb relics, and saji and other architectural remains. Fortress remains wereconfirmed to be the capital city, fortress wall, and beongsuji and exist in various shapes and locations, from the west coast to the east coast. Regarding tombs, rather large-scale shapes such as Jeokseok-chong and Jeok-gol-chong were confirmed, and the size, shape, and location of some tombs could be re-designated. As for the other confirmed remains, it was possible to examine possible sites of relics such as saji and pavilions. These relics were identified along with a large number of flat topography in Cheorwon and Goseong areas, along with traces of stone structures such as stone pagodas found in literature and ancient materials.
+Through this analysis and confirmation process, the remains in the DMZ were confirmed, and the newly identified or relocated remains corresponded to a total of 22 sites in 5 regions. It is necessary to conduct a detailed discussion on the characteristics of individual ruins in the DMZ through a detailed review and follow-up research on the distribution and current status of the identified remains]]></abstract>
+        </abstract-group>
+        <fpage>183</fpage>
+        <lpage>216</lpage>
+        <doi><![CDATA[http://dx.doi.org/10.23024/pah.2022..68.183]]></doi>
+        <uci />
+        <citation-count kci="3" wos="0">3</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002837405]]></url>
+        <verified>Y</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>부동산법학</journal-name>
+        <publisher-name>한국부동산법학회</publisher-name>
+        <pub-year>2025</pub-year>
+        <pub-mon>12</pub-mon>
+        <volume>29</volume>
+        <issue>4</issue>
+      </journalInfo>
+      <articleInfo article-id="ART003296090">
+        <article-categories>법학</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ 및 민간인출입통제선 지역의 토지 거래]]></article-title>
+          <article-title lang="foreign"><![CDATA[Land transactions in the DMZ(Demilitarized Zone) and the Civilian Control Line (CCL) areas]]></article-title>
+          <article-title lang="english"><![CDATA[Land transactions in the DMZ(Demilitarized Zone) and the Civilian Control Line (CCL) areas]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Kim Sung Wook">김성욱(제주대학교)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[이 논문의 제목은 “DMZ(비무장지대) 및 민간인출입통제선(민통선) 지역의 토지 거래”라고 정하였다.
+현재의 시점에서 어떠한 문제가 장래게 발생할 것인지를 정확하게 예측하는 것은 사실상 가능하지 않지만, 사회질서를 규율하는 제도의 경우에는 불합리한 결과를 방지하기 위하여 그 위험성을 최소화할 수 있는 방법을 모색할 필요가 있다. 이 논문에서는 특히 DMZ(비무장지대)와 민간인출입통제선에 있는 토지를매매하는 과정에서 어떠한 민사법적 문제가 발생할 수 있는지를 중심으로 검토하고 있다. 비무장지대와민간인출입통제선은 한국전쟁을 통하여 발생한 지역이라는 특수성으로 인하여 다른 지역의 토지매매와다르게 매매목적물의 위치, 현상 등을 확인할 수 없는 경우가 있고, 또한 부동산등기부를 통하여 소유권자를 확정하는 것도 어려운 지역이 있다. 그러므로 이 논문에서는 DMZ(비무장지대) 및 민간인출입통제선(민통선) 지역의 토지를 대상으로 매매계약을 체결할 경우에 발생될 수 있는 쟁점에 대하여 검토하였다.]]></abstract>
+          <abstract lang="english"><![CDATA[The title of this paper was set as “Land transactions in the DMZ(Demilitarized Zone) and the Civilian Control Line (CCL) areas”. It is not possible to accurately predict what problems will occur in the future at this point. However, if it is a system that regulates social order, a way to minimize the risk should be sought to prevent unreasonable consequences. The paper examines the civil law issues that may arise in the process of buying and selling land located in the DMZ (Demilitarized Zone) and the Civilian Control Line. These areas emerged as a result of the Korean War. Due to their unique nature, it may not be possible to verify the location and condition of the property, unlike in other regions.
+Additionally, it is difficult to confirm the ownership through the real estate registry in these areas. This paper reviews the issues that may arise when trading land in the DMZ and Civilian Control Line areas.]]></abstract>
+        </abstract-group>
+        <fpage>291</fpage>
+        <lpage>311</lpage>
+        <doi />
+        <uci />
+        <citation-count kci="0" wos="0">0</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296090]]></url>
+        <verified>N</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>한국CDE학회 논문집</journal-name>
+        <publisher-name>한국CDE학회</publisher-name>
+        <pub-year>2023</pub-year>
+        <pub-mon>09</pub-mon>
+        <volume>28</volume>
+        <issue>3</issue>
+      </journalInfo>
+      <articleInfo article-id="ART002993132">
+        <article-categories>기계공학</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ 사라진 마을 메타버스 구축 사례 소개]]></article-title>
+          <article-title lang="foreign"><![CDATA[Introduction of DMZ Lost Town Metaverse Application Case]]></article-title>
+          <article-title lang="english"><![CDATA[Introduction of DMZ Lost Town Metaverse Application Case]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Kyungjin Yoon">윤경진((주)아이지아이코리아)</author>
+          <author english="Jungyub Woo">우정엽((주)아이지아이 코리아)</author>
+          <author english="Inho Song">송인호((주)아이지아이 코리아)</author>
+          <author english="SangSu Choi">최상수((주)아이지아이 코리아)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[There were about 400 peaceful villages within the DMZ, but they disappeared due to war and division, and now only lush forests remain. Metaverse provides an environment, which users can interact, and an intuitive experience to users by merging the virtual world with the real world. The metaverse introduced in this paper tells the story of the villages that disappeared to the people and provides the experience of villages and missions that existed in the past. In this paper, the space composition and mission of the lost villages in the metaverse are explained and application examples are introduced. Through this study, it is expected that the public interest in the DMZ would increase, and the DMZ would be recognized as a more familiar space for the public.]]></abstract>
+          <abstract lang="english"><![CDATA[There were about 400 peaceful villages within the DMZ, but they disappeared due to war and division, and now only lush forests remain. Metaverse provides an environment, which users can interact, and an intuitive experience to users by merging the virtual world with the real world. The metaverse introduced in this paper tells the story of the villages that disappeared to the people and provides the experience of villages and missions that existed in the past. In this paper, the space composition and mission of the lost villages in the metaverse are explained and application examples are introduced. Through this study, it is expected that the public interest in the DMZ would increase, and the DMZ would be recognized as a more familiar space for the public.]]></abstract>
+        </abstract-group>
+        <fpage>314</fpage>
+        <lpage>325</lpage>
+        <doi><![CDATA[http://dx.doi.org/10.7315/CDE.2023.314]]></doi>
+        <uci />
+        <citation-count kci="1" wos="0">1</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002993132]]></url>
+        <verified>Y</verified>
+      </articleInfo>
+    </record>
+    <record>
+      <journalInfo>
+        <journal-name>한국군사학논총</journal-name>
+        <publisher-name>미래군사학회</publisher-name>
+        <pub-year>2023</pub-year>
+        <pub-mon>03</pub-mon>
+        <volume>12</volume>
+        <issue>1</issue>
+      </journalInfo>
+      <articleInfo article-id="ART002941408">
+        <article-categories>군사학</article-categories>
+        <article-regularity>Y</article-regularity>
+        <title-group>
+          <article-title lang="original"><![CDATA[DMZ세계평화공원 조성방안에 대한 연구]]></article-title>
+          <article-title lang="foreign"><![CDATA[A Study on the Construction of DMZ World Peace Park]]></article-title>
+          <article-title lang="english"><![CDATA[A Study on the Construction of DMZ World Peace Park]]></article-title>
+        </title-group>
+        <author-group>
+          <author english="Lee, Se-Young">이세영(건양대학교)</author>
+        </author-group>
+        <abstract-group>
+          <abstract lang="original"><![CDATA[한반도는 전 세계에서 유일한 분단국으로 남한과 북한이 분단된 상태에서 끊임없는 갈등과 대립상태를 보여 오고 있다. 이는 단순히 남한과 북한만의 문제가 아니라 동북아와 세계 안보에 지대한 영향을 끼치고 있다. 그리고 2022년 4월 24일에 시작된 러시아와 우크라이나 전쟁을 지켜보면서 분단 상태를 제대로 관리하지 못할 경우에 언제라도 한반도에서도 전쟁과 같은 위험한 상황에 처할 수 교훈을 얻게 되었다.
+이러한 점을 고려하여 한반도의 안보불안 상태를 해소하고 항구적인 평화구축을 위한 방안이 강구될 필요가 있다. 이러한 방안의 하나로 DMZ일대에 세계평화공원을 조성하는 방안을 고려해 볼 수 있다. 이 방안은 박근혜 정부 당시 한반도평화프로세스 구현차원에서 북한의 비협조로 진행되지 못한 사례가 있다.
+박근혜 정부는 DMZ내에 공원을 조성하는 방안을 제안하였다. 하지만 이 방안은 현실적으로 북한의 협조가 없으면 실현되기 어려운 문제를 안고 있었다. 따라서 이 논문에서는 DMZ내와 DMZ일대의 남쪽지역에 평화공원을 조성하기 위한 방안을 동시에 고려하여 제시하는 논문이다.
+공원을 조성하기 위해서는 정부의 의지도 중요하지만 무엇보다도 국민들의 인식이 중요한 점을 고려하여 공원조성에 대한 국민들의 인식조사 결과를 분석하고 이를 토대로 공원조성 방안을 제시하고자 한다. 본 논문이 향후 DMZ일대에 세계적인 평화공원조성을 통한 한반도와 세계평화 구축에 도움이 되기를 기대한다.]]></abstract>
+          <abstract lang="english"><![CDATA[The Korean Peninsula is the only divided country in the world, and has been in constant conflict and confrontation with South Korea and North Korea divided. This is not just a matter of South Korea and North Korea, but has a profound impact on Northeast Asia and global security. Watching the Russia-Ukraine War, which began on April 24, 2022, I learned a lesson that if the division was not properly managed, I could be in a dangerous situation such as a war on the Korean Peninsula at any time.
+Considering these points, it is necessary to devise measures to resolve the security instability on the Korean Peninsula and establish a permanent peace. As one of these measures, it is possible to consider creating a world peace park in the DMZ area. There is a case in which this plan could not be carried out due to North Korea's non-cooperation in implementing the peace process on the Korean Peninsula during the Park Geun Hye government.
+The Park Geun Hye government proposed creating a park in the DMZ. However, the plan had a problem that could not be realized without North Korea's cooperation. Therefore, this paper is a paper that simultaneously considers and presents a plan to create a peace park in the DMZ and the southern area of the DMZ.
+In order to create a park, the will of the government is important, but above all, considering that the public's perception is important, I would like to analyze the results of the public's perception survey on park construction and present a plan to create a park based on this. I hope that this paper will help build peace on the Korean Peninsula and world through the creation of a global peace park around the DMZ in the future]]></abstract>
+        </abstract-group>
+        <fpage>105</fpage>
+        <lpage>132</lpage>
+        <doi />
+        <uci />
+        <citation-count kci="1" wos="0">1</citation-count>
+        <url><![CDATA[https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002941408]]></url>
+        <verified>Y</verified>
+      </articleInfo>
+    </record>
+  </outputData>
+</MetaData>

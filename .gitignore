@@ -35,3 +35,9 @@ Thumbs.db
 *.swp
 
 **.xml
+
+# 아카이브 수집 저장 현황 리포트 (수집 완료 시 자동 생성)
+archive-report-*.txt
+
+# 테스트 픽스처(실응답 샘플)는 예외로 커밋
+!configs/samples/*.xml
