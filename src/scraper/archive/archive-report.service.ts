@@ -34,6 +34,39 @@ export class ArchiveReportService {
     private readonly configService: ConfigService,
   ) {}
 
+  /**
+   * (임시) 프로젝트 루트의 리포트 파일을 S3 archive-crawler/reports/ 아래로 업로드.
+   * 로컬 파일이 없으면 그 자리에서 생성 후 업로드한다. source 미지정 시 3개 소스 전부 시도.
+   */
+  async uploadReportToS3(
+    source?: string,
+  ): Promise<{ uploaded: { source: string; s3Uri: string; total: number | null }[] }> {
+    const sources = source ? [source] : ['kci', 'riss', 'ntis'];
+    const uploaded: { source: string; s3Uri: string; total: number | null }[] = [];
+
+    for (const src of sources) {
+      const normalized = String(src).toLowerCase();
+      const filePath = path.join(process.cwd(), `archive-report-${normalized}.txt`);
+
+      let content: string;
+      let total: number | null = null;
+      try {
+        content = await fs.readFile(filePath, 'utf-8');
+      } catch {
+        // 로컬 리포트가 없으면 S3 저장분으로 즉석 생성 (source/env 검증 포함)
+        const generated = await this.writeReportBySource(normalized);
+        total = generated.total;
+        content = await fs.readFile(generated.filePath, 'utf-8');
+      }
+
+      const key = `archive-crawler/reports/archive-report-${normalized}.txt`;
+      const s3Uri = await this.s3Service.putText(key, content);
+      this.logger.log(`[archive:${normalized}] 리포트 S3 업로드: ${s3Uri}`);
+      uploaded.push({ source: normalized, s3Uri, total });
+    }
+    return { uploaded };
+  }
+
   /** 수동 재생성용 — source(kci/riss/ntis) → env의 ORIGIN_ID를 찾아 리포트 생성 */
   async writeReportBySource(source: string): Promise<{ filePath: string; total: number }> {
     const normalized = String(source ?? '').toLowerCase();

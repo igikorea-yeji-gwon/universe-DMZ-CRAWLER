@@ -162,6 +162,32 @@ export function sleep(ms: number): Promise<void> {
 }
 
 /**
+ * 일시적 오류(타임아웃·stream aborted·일시 5xx) 대비 재시도.
+ * attempts회 모두 실패하면 마지막 오류를 그대로 throw. 재시도 간격은 baseDelayMs × 시도횟수.
+ */
+export async function withRetry<T>(
+  fn: () => Promise<T>,
+  onRetry: (attempt: number, error: Error, delayMs: number) => void,
+  attempts = 3,
+  baseDelayMs = 2000,
+): Promise<T> {
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      return await fn();
+    } catch (e) {
+      lastError = e;
+      if (attempt < attempts) {
+        const delayMs = baseDelayMs * attempt;
+        onRetry(attempt, e as Error, delayMs);
+        await sleep(delayMs);
+      }
+    }
+  }
+  throw lastError;
+}
+
+/**
  * S3 폴더명에 붙일 제목 접미어 — `{hash}_{제목}` 형태로 저장해 콘솔에서 바로 식별 가능하게.
  * S3 키에 문제되는 문자(/ 등)와 공백을 '_'로 치환하고 길이를 제한한다.
  */
