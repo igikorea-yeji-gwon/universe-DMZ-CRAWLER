@@ -17,6 +17,7 @@ import {
   ArchiveMaterialType,
   sleep,
   toArray,
+  withRetry,
 } from './archive.types';
 
 const CRON_ID = 'archive-riss-collect';
@@ -102,14 +103,33 @@ export class RissCollectorService implements OnModuleInit {
 
     try {
       const items: ArchiveItem[] = [];
+      // 키워드 단위 실패 격리 — 한 요청이 재시도까지 소진해도 run 전체를 죽이지 않고
+      // 나머지 키워드를 계속 수집한다. 실패분은 다음 실행 때 S3 중복마커 덕에 이어서 수집됨.
+      const failedFetches: string[] = [];
       for (const { type, materialType } of RISS_TYPES) {
         for (const keyword of keywords) {
-          const fetched = await this.fetchByKeyword(
-            apiUrl, apiKey, type, materialType, keyword, pageSize, opts.maxPages, spubdate, delayMs,
-          );
-          items.push(...fetched);
+          try {
+            const fetched = await this.fetchByKeyword(
+              apiUrl, apiKey, type, materialType, keyword, pageSize, opts.maxPages, spubdate, delayMs,
+            );
+            items.push(...fetched);
+          } catch (e) {
+            failedFetches.push(`type=${type} "${keyword}": ${(e as Error).message}`);
+            this.logger.error(
+              `[riss] type=${type} "${keyword}" 조회 실패(재시도 소진) → 다음 키워드 계속: ${(e as Error).message}`,
+            );
+          }
           await sleep(delayMs);
         }
+      }
+      if (failedFetches.length) {
+        this.logger.warn(
+          `[riss] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행` +
+          ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
+        );
+        this.googleChatService.sendAlert('RISS 수집 일부 실패 (부분 저장은 진행)', {
+          실패: failedFetches.slice(0, 10).join('\n'),
+        });
       }
       return await this.ingestService.ingest(originId, items, opts);
     } catch (e) {
@@ -142,21 +162,31 @@ export class RissCollectorService implements OnModuleInit {
     let total = Infinity;
 
     while (rsnum <= total && (!maxPages || page <= maxPages)) {
-      const res = await axios.get(apiUrl, {
-        params: {
-          key: apiKey,
-          version: '1.0',
-          type,
-          keyword,
-          rsnum,
-          rowcount: pageSize,
-          ...(spubdate ? { spubdate } : {}),
-        },
-        headers: { 'User-Agent': BROWSER_UA },
-        timeout: 30000,
-        responseType: 'text',
-        maxRedirects: 3,
-      });
+      // 타임아웃(stream aborted)·일시 오류는 재시도 — 스로틀링 회복 시간을 주기 위해 5s/10s 백오프
+      const res = await withRetry(
+        () =>
+          axios.get(apiUrl, {
+            params: {
+              key: apiKey,
+              version: '1.0',
+              type,
+              keyword,
+              rsnum,
+              rowcount: pageSize,
+              ...(spubdate ? { spubdate } : {}),
+            },
+            headers: { 'User-Agent': BROWSER_UA },
+            timeout: 30000,
+            responseType: 'text',
+            maxRedirects: 3,
+          }),
+        (attempt, error, delay) =>
+          this.logger.warn(
+            `[riss] type=${type} "${keyword}" rsnum=${rsnum} 요청 실패(${attempt}회차) → ${delay}ms 후 재시도: ${error.message}`,
+          ),
+        3,
+        5000,
+      );
 
       const parsed = await parseStringPromise(res.data, { explicitArray: false });
       const head = parsed?.record?.head;

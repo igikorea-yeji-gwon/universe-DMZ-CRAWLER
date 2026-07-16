@@ -7,7 +7,7 @@ import { KciCollectorService } from './kci-collector.service';
 import { RissCollectorService } from './riss-collector.service';
 import { NtisCollectorService } from './ntis-collector.service';
 import { ArchiveExportService } from './archive-export.service';
-import { toArray, stripTags, titleToS3Suffix } from './archive.types';
+import { toArray, stripTags, titleToS3Suffix, withRetry } from './archive.types';
 
 // ─── 테스트 더블 ──────────────────────────────────────────────────────────────
 
@@ -272,5 +272,33 @@ describe('titleToS3Suffix', () => {
     // 40자 초과는 잘리고 끝의 _는 제거
     expect(titleToS3Suffix('가'.repeat(60)).length).toBeLessThanOrEqual(40);
     expect(titleToS3Suffix('')).toBe('');
+  });
+});
+
+describe('withRetry', () => {
+  it('실패하다 성공하면 그 값을 반환하고, 재시도 횟수만큼 onRetry가 호출된다', async () => {
+    let calls = 0;
+    const onRetry = vi.fn();
+    const result = await withRetry(
+      async () => {
+        calls++;
+        if (calls < 3) throw new Error('stream has been aborted');
+        return 'ok';
+      },
+      onRetry,
+      3,
+      1, // 테스트에선 백오프 1ms
+    );
+    expect(result).toBe('ok');
+    expect(calls).toBe(3);
+    expect(onRetry).toHaveBeenCalledTimes(2);
+  });
+
+  it('모든 시도가 실패하면 마지막 오류를 throw한다', async () => {
+    const onRetry = vi.fn();
+    await expect(
+      withRetry(async () => { throw new Error('timeout'); }, onRetry, 3, 1),
+    ).rejects.toThrow('timeout');
+    expect(onRetry).toHaveBeenCalledTimes(2); // 마지막 시도 후에는 재시도 안 함
   });
 });

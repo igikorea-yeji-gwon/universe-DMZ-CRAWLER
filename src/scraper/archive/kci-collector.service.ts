@@ -16,6 +16,7 @@ import {
   sleep,
   stripTags,
   toArray,
+  withRetry,
 } from './archive.types';
 
 const CRON_ID = 'archive-kci-collect';
@@ -99,15 +100,34 @@ export class KciCollectorService implements OnModuleInit {
 
     try {
       const items: ArchiveItem[] = [];
+      // 키워드 단위 실패 격리 — 한 요청이 재시도까지 소진해도 run 전체를 죽이지 않고
+      // 나머지 키워드를 계속 수집한다. 실패분은 다음 실행 때 S3 중복마커 덕에 이어서 수집됨.
+      const failedFetches: string[] = [];
       for (const keyword of keywords) {
         // 제목 검색 + 키워드(주제어) 검색 두 방향 — 중복은 ingest에서 sourceId로 병합
         for (const field of ['title', 'keyword'] as const) {
-          const fetched = await this.fetchByField(
-            apiUrl, apiKey, keyword, field, pageSize, opts.maxPages, regDateFrom, delayMs,
-          );
-          items.push(...fetched);
+          try {
+            const fetched = await this.fetchByField(
+              apiUrl, apiKey, keyword, field, pageSize, opts.maxPages, regDateFrom, delayMs,
+            );
+            items.push(...fetched);
+          } catch (e) {
+            failedFetches.push(`${field}="${keyword}": ${(e as Error).message}`);
+            this.logger.error(
+              `[kci] ${field}="${keyword}" 조회 실패(재시도 소진) → 다음 키워드 계속: ${(e as Error).message}`,
+            );
+          }
           await sleep(delayMs);
         }
+      }
+      if (failedFetches.length) {
+        this.logger.warn(
+          `[kci] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행` +
+          ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
+        );
+        this.googleChatService.sendAlert('KCI 수집 일부 실패 (부분 저장은 진행)', {
+          실패: failedFetches.slice(0, 10).join('\n'),
+        });
       }
       return await this.ingestService.ingest(originId, items, opts);
     } catch (e) {
@@ -138,18 +158,28 @@ export class KciCollectorService implements OnModuleInit {
     let total = Infinity;
 
     while ((page - 1) * pageSize < total && (!maxPages || page <= maxPages)) {
-      const res = await axios.get(apiUrl, {
-        params: {
-          apiCode: 'articleSearch',
-          key: apiKey,
-          [field]: keyword,
-          page,
-          displayCount: pageSize,
-          ...(regDateFrom ? { regDateFrom } : {}),
-        },
-        timeout: 30000,
-        responseType: 'text',
-      });
+      // 타임아웃·일시 오류는 재시도 — 스로틀링 회복 시간을 주기 위해 5s/10s 백오프
+      const res = await withRetry(
+        () =>
+          axios.get(apiUrl, {
+            params: {
+              apiCode: 'articleSearch',
+              key: apiKey,
+              [field]: keyword,
+              page,
+              displayCount: pageSize,
+              ...(regDateFrom ? { regDateFrom } : {}),
+            },
+            timeout: 30000,
+            responseType: 'text',
+          }),
+        (attempt, error, delay) =>
+          this.logger.warn(
+            `[kci] ${field}="${keyword}" page=${page} 요청 실패(${attempt}회차) → ${delay}ms 후 재시도: ${error.message}`,
+          ),
+        3,
+        5000,
+      );
 
       const parsed = await parseStringPromise(res.data, { explicitArray: false });
       const output = parsed?.MetaData?.outputData;

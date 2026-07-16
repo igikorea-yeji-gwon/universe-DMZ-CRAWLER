@@ -16,6 +16,7 @@ import {
   sleep,
   stripTags,
   toArray,
+  withRetry,
 } from './archive.types';
 
 const CRON_ID = 'archive-ntis-collect';
@@ -97,12 +98,35 @@ export class NtisCollectorService implements OnModuleInit {
 
     try {
       const items: ArchiveItem[] = [];
+      // 키워드 단위 실패 격리 — 단, IP 미등록 오류는 모든 키워드가 똑같이 실패하므로 즉시 중단
+      const failedFetches: string[] = [];
       for (const keyword of keywords) {
-        const fetched = await this.fetchByKeyword(
-          apiUrl, apiKey, keyword, pageSize, opts.maxPages, addQuery, delayMs,
-        );
-        items.push(...fetched);
+        try {
+          const fetched = await this.fetchByKeyword(
+            apiUrl, apiKey, keyword, pageSize, opts.maxPages, addQuery, delayMs,
+          );
+          items.push(...fetched);
+        } catch (e) {
+          const message = (e as Error).message;
+          failedFetches.push(`"${keyword}": ${message}`);
+          if (message.includes('IP')) {
+            this.logger.error(`[ntis] IP 미등록 오류 — 나머지 키워드 수집 중단: ${message}`);
+            break;
+          }
+          this.logger.error(
+            `[ntis] "${keyword}" 조회 실패(재시도 소진) → 다음 키워드 계속: ${message}`,
+          );
+        }
         await sleep(delayMs);
+      }
+      if (failedFetches.length) {
+        this.logger.warn(
+          `[ntis] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행` +
+          ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
+        );
+        this.googleChatService.sendAlert('NTIS 수집 일부 실패 (부분 저장은 진행)', {
+          실패: failedFetches.slice(0, 10).join('\n'),
+        });
       }
       return await this.ingestService.ingest(originId, items, opts);
     } catch (e) {
@@ -133,23 +157,33 @@ export class NtisCollectorService implements OnModuleInit {
     let total = Infinity;
 
     while (startPosition <= total && (!maxPages || page <= maxPages)) {
-      const res = await axios.get(apiUrl, {
-        params: {
-          apprvKey: apiKey,
-          collection: 'rresearchpdf',
-          query: keyword,
-          searchField: 'BI',
-          sortBy: 'DATE/DESC',
-          startPosition,
-          displayCount: pageSize,
-          returnType: 'xml',
-          ...(addQuery ? { addQuery } : {}),
-        },
-        // axios 기본 Accept(application/json)를 보내면 NTIS가 JSON으로 응답해버린다 — XML 고정
-        headers: { 'User-Agent': BROWSER_UA, Accept: 'application/xml, text/xml, */*' },
-        timeout: 30000,
-        responseType: 'text',
-      });
+      // 타임아웃·일시 오류는 재시도 (IP 미등록 등 API 오류 응답은 파싱 단계라 재시도 안 탐)
+      const res = await withRetry(
+        () =>
+          axios.get(apiUrl, {
+            params: {
+              apprvKey: apiKey,
+              collection: 'rresearchpdf',
+              query: keyword,
+              searchField: 'BI',
+              sortBy: 'DATE/DESC',
+              startPosition,
+              displayCount: pageSize,
+              returnType: 'xml',
+              ...(addQuery ? { addQuery } : {}),
+            },
+            // axios 기본 Accept(application/json)를 보내면 NTIS가 JSON으로 응답해버린다 — XML 고정
+            headers: { 'User-Agent': BROWSER_UA, Accept: 'application/xml, text/xml, */*' },
+            timeout: 30000,
+            responseType: 'text',
+          }),
+        (attempt, error, delay) =>
+          this.logger.warn(
+            `[ntis] "${keyword}" startPosition=${startPosition} 요청 실패(${attempt}회차) → ${delay}ms 후 재시도: ${error.message}`,
+          ),
+        3,
+        5000,
+      );
 
       let parsed: any;
       try {
