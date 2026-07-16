@@ -20,7 +20,7 @@ import {
 } from './archive.types';
 
 const CRON_ID = 'archive-riss-collect';
-const CRON_TIME = '0 40 3 * * *'; // 매일 03:40 KST (KCI 03:00, NTIS 03:20와 시차)
+const CRON_TIME = '0 0 6 * * *'; // 매일 06:00 KST (KCI 01:00, NTIS 03:00와 시차)
 
 /** 수집 대상 자료유형: A 국내학술논문 / T 학위논문 / U 단행본 (F 연구보고서는 NTIS와 중복 커서 제외) */
 const RISS_TYPES: { type: string; materialType: ArchiveMaterialType }[] = [

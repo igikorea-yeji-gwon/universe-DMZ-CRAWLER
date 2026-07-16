@@ -19,7 +19,7 @@ import {
 } from './archive.types';
 
 const CRON_ID = 'archive-kci-collect';
-const CRON_TIME = '0 0 3 * * *'; // 매일 03:00 KST
+const CRON_TIME = '0 0 1 * * *'; // 매일 01:00 KST (NTIS 03:00, RISS 06:00와 시차)
 // KCI displayCount는 10/20/50/100만 유효 — 그 외 값은 서버가 10으로 폴백한다
 const ALLOWED_PAGE_SIZES = [10, 20, 50, 100];
 // 크론 증분 수집 시 등록일 검색 범위 (일 단위 롤링 윈도우, S3 중복마커가 겹침을 걸러줌)
