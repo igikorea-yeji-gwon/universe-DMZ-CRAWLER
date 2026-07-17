@@ -57,7 +57,10 @@ export class NtisCollectorService implements OnModuleInit {
       CRON_TIME,
       async () => {
         try {
-          await this.collect({ translate: true, dryRun: false, incremental: true });
+          // 크론은 증분(날짜필터) + 페이지 상한으로 가볍게 — 놓친 분량은 다음 회차/수동 백필이 커버
+          const maxPages =
+            Number(this.configService.get('ARCHIVE_CRON_MAX_PAGES')) || 1;
+          await this.collect({ translate: true, dryRun: false, incremental: true, maxPages });
         } catch (e) {
           this.logger.error(`[ntis] 정기 수집 실패: ${(e as Error).message}`);
         }
