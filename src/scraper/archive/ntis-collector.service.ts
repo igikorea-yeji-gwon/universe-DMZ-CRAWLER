@@ -100,6 +100,11 @@ export class NtisCollectorService implements OnModuleInit {
       ? `PY=${moment().subtract(1, 'year').format('YYYY')}/MORE`
       : undefined;
 
+    this.logger.log(
+      `[ntis] 수집 시작 — keyword=${opts.keyword ?? '전체(14개)'} maxPages=${opts.maxPages ?? '무제한'} ` +
+      `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
+    );
+
     try {
       const items: ArchiveItem[] = [];
       // 키워드 단위 실패 격리 — 단, IP 미등록 오류는 모든 키워드가 똑같이 실패하므로 즉시 중단

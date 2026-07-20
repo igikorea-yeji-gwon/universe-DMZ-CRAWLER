@@ -101,6 +101,11 @@ export class KciCollectorService implements OnModuleInit {
       ? moment().subtract(INCREMENTAL_WINDOW_DAYS, 'days').format('YYYYMMDD')
       : undefined;
 
+    this.logger.log(
+      `[kci] 수집 시작 — keyword=${opts.keyword ?? '전체(14개)'} maxPages=${opts.maxPages ?? '무제한'} ` +
+      `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
+    );
+
     try {
       const items: ArchiveItem[] = [];
       // 키워드 단위 실패 격리 — 한 요청이 재시도까지 소진해도 run 전체를 죽이지 않고

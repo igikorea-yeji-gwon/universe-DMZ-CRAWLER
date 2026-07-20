@@ -121,6 +121,11 @@ export class RissCollectorService implements OnModuleInit {
     // 증분(크론) 모드: RISS는 등록일 필터가 없어 발행년도(올해)로 좁힌다 — 겹침은 S3 마커가 거름
     const spubdate = opts.incremental ? moment().format('YYYY') : undefined;
 
+    this.logger.log(
+      `[riss] 수집 시작 — keyword=${opts.keyword ?? '전체(14개)'} maxPages=${opts.maxPages ?? '무제한'} ` +
+      `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
+    );
+
     try {
       const items: ArchiveItem[] = [];
       // 키워드 단위 실패 격리 — 한 요청이 재시도까지 소진해도 run 전체를 죽이지 않고
