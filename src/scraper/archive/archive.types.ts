@@ -169,6 +169,17 @@ export function toArray<T>(value: T | T[] | undefined | null): T[] {
   return Array.isArray(value) ? value : [value];
 }
 
+/**
+ * XML 본문의 이스케이프 안 된 & 를 &amp; 로 치환 (유효한 엔티티는 유지).
+ * NTIS가 '국가R&D' 같은 원문을 이스케이프 없이 반환해 엄격한 파서가 깨지는 것 대응.
+ */
+export function sanitizeXmlAmp(xml: string): string {
+  return String(xml ?? '').replace(
+    /&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)/g,
+    '&amp;',
+  );
+}
+
 /** NTIS 검색어 하이라이트(<span class="search_word">…</span>) 등 태그 제거 + 공백 정리 */
 export function stripTags(value: unknown): string {
   return String(value ?? '')

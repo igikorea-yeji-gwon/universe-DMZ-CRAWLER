@@ -151,7 +151,14 @@ export class RissCollectorService implements OnModuleInit {
           실패: failedFetches.slice(0, 10).join('\n'),
         });
       }
-      return await this.ingestService.ingest(originId, items, opts);
+      const summary = await this.ingestService.ingest(originId, items, opts, 'riss');
+      // 키워드 조회 실패도 HTTP 응답에서 보이게 — 로그 없이 "0건 성공"으로 오해하지 않도록
+      if (failedFetches.length) {
+        summary.errors.unshift(
+          ...failedFetches.map((message) => ({ sourceId: '(keyword-fetch)', message })),
+        );
+      }
+      return summary;
     } catch (e) {
       this.logger.error(`[riss] 수집 실패: ${(e as Error).message}`);
       this.googleChatService.sendAlert('RISS 아카이브 수집 실패', {

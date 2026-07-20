@@ -7,7 +7,7 @@ import { KciCollectorService } from './kci-collector.service';
 import { RissCollectorService } from './riss-collector.service';
 import { NtisCollectorService } from './ntis-collector.service';
 import { ArchiveExportService } from './archive-export.service';
-import { toArray, stripTags, titleToS3Suffix, withRetry } from './archive.types';
+import { toArray, stripTags, titleToS3Suffix, withRetry, sanitizeXmlAmp } from './archive.types';
 
 // ─── 테스트 더블 ──────────────────────────────────────────────────────────────
 
@@ -300,5 +300,22 @@ describe('withRetry', () => {
       withRetry(async () => { throw new Error('timeout'); }, onRetry, 3, 1),
     ).rejects.toThrow('timeout');
     expect(onRetry).toHaveBeenCalledTimes(2); // 마지막 시도 후에는 재시도 안 함
+  });
+});
+
+describe('sanitizeXmlAmp', () => {
+  it('이스케이프 안 된 &만 &amp;로 바꾸고 유효한 엔티티는 유지한다', async () => {
+    expect(sanitizeXmlAmp('<T>국가R&D 보고서 & 계획</T>')).toBe(
+      '<T>국가R&amp;D 보고서 &amp; 계획</T>',
+    );
+    expect(sanitizeXmlAmp('<T>A &amp; B &lt;C&gt; &#38; &#x26;</T>')).toBe(
+      '<T>A &amp; B &lt;C&gt; &#38; &#x26;</T>',
+    );
+    // 치환 후엔 실제로 파싱 가능해야 한다 (NTIS 실패 케이스 재현)
+    const parsed = await parseStringPromise(
+      sanitizeXmlAmp('<RESULT><HIT><ResultTitle><Korean>국가R&D와 DMZ</Korean></ResultTitle></HIT></RESULT>'),
+      { explicitArray: false },
+    );
+    expect(parsed.RESULT.HIT.ResultTitle.Korean).toBe('국가R&D와 DMZ');
   });
 });

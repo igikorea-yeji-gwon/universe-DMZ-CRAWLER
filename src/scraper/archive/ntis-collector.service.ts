@@ -14,6 +14,7 @@ import {
   ArchiveIngestSummary,
   ArchiveItem,
   sleep,
+  sanitizeXmlAmp,
   stripTags,
   toArray,
   withRetry,
@@ -131,7 +132,14 @@ export class NtisCollectorService implements OnModuleInit {
           실패: failedFetches.slice(0, 10).join('\n'),
         });
       }
-      return await this.ingestService.ingest(originId, items, opts);
+      const summary = await this.ingestService.ingest(originId, items, opts, 'ntis');
+      // 키워드 조회 실패도 HTTP 응답에서 보이게 — 로그 없이 "0건 성공"으로 오해하지 않도록
+      if (failedFetches.length) {
+        summary.errors.unshift(
+          ...failedFetches.map((message) => ({ sourceId: '(keyword-fetch)', message })),
+        );
+      }
+      return summary;
     } catch (e) {
       this.logger.error(`[ntis] 수집 실패: ${(e as Error).message}`);
       this.googleChatService.sendAlert('NTIS 아카이브 수집 실패', {
@@ -188,12 +196,15 @@ export class NtisCollectorService implements OnModuleInit {
         5000,
       );
 
+      // NTIS 본문에는 '국가R&D'처럼 이스케이프 안 된 & 가 섞여 와 엄격한 XML 파서가 깨진다
+      const xml = sanitizeXmlAmp(res.data);
+
       let parsed: any;
       try {
-        parsed = await parseStringPromise(res.data, { explicitArray: false });
-      } catch {
+        parsed = await parseStringPromise(xml, { explicitArray: false });
+      } catch (e) {
         throw new BadGatewayException(
-          `NTIS 응답 XML 파싱 실패: ${String(res.data).slice(0, 200)}`,
+          `NTIS 응답 XML 파싱 실패 (${(e as Error).message.split('\n')[0]}): ${xml.slice(0, 200)}`,
         );
       }
 

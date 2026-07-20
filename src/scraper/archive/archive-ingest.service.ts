@@ -48,8 +48,10 @@ export class ArchiveIngestService {
     originId: number,
     items: ArchiveItem[],
     opts: ArchiveCollectOptions,
+    sourceHint?: ArchiveItem['source'],
   ): Promise<ArchiveIngestSummary> {
-    const source = items[0]?.source ?? 'kci';
+    // 수집 0건이어도 응답 source가 올바르게 나가도록 컬렉터가 준 힌트를 우선한다
+    const source = items[0]?.source ?? sourceHint ?? 'kci';
     const summary: ArchiveIngestSummary = {
       originId,
       source,
