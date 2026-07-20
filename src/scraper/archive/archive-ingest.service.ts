@@ -1,5 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { createHash } from 'crypto';
+import { promises as fs } from 'fs';
+import * as path from 'path';
 import moment from 'moment';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { IsbnService } from 'src/isbn/isbn.service';
@@ -12,6 +14,7 @@ import {
   ArchiveItem,
   ArchiveMenuId,
   ArchiveMeta,
+  decideArchiveMenu,
   titleToS3Suffix,
 } from './archive.types';
 
@@ -183,8 +186,136 @@ export class ArchiveIngestService {
   }
 
   private decideMenuId(item: ArchiveItem, verdict: 'GOV' | 'PRIVATE'): ArchiveMenuId {
-    if (item.materialType === 'book') return 'BOOKS';
-    return verdict === 'GOV' ? 'PUBLICATIONS' : 'PAPERS';
+    return decideArchiveMenu(item.materialType, verdict);
+  }
+
+  /**
+   * (유지보수) 이미 S3에 저장된 RISS meta.json을 현재 분류기/규칙으로 재계산해
+   * ① 바뀐 meta.json을 S3에 덮어쓰고 ② CUBRID UPDATE SQL을 프로젝트 루트에 생성한다.
+   * - category: 자료유형(register_no 접두 A/T/U) 라벨로 통일 (기존 '접경지역'/null 교체)
+   * - menu_id: decideArchiveMenu 규칙으로 재분류 (GOV→발간자료, PRIVATE면 book→단행본·그외 논문)
+   * dryRun=true면 S3는 안 건드리고 집계 + SQL만 생성한다.
+   */
+  async reclassifyRiss(dryRun = true): Promise<{
+    originId: number;
+    total: number;
+    menuChanged: number;
+    catChanged: number;
+    s3Updated: number;
+    sqlPath: string;
+    menuMoves: Record<string, number>;
+  }> {
+    const RISS_CAT: Record<string, { label: string; en: string; type: ArchiveItem['materialType'] }> = {
+      A: { label: '국내학술논문', en: 'Domestic Academic Article', type: 'article' },
+      T: { label: '학위논문', en: 'Dissertation', type: 'thesis' },
+      U: { label: '단행본', en: 'Book', type: 'book' },
+    };
+
+    const originId = Number(process.env.RISS_ORIGIN_ID);
+    const entries = await this.s3Service.listArchiveMetaEntries(originId);
+    this.logger.log(`[reclassify:riss] S3 meta ${entries.length}건 로드 — 재분류 시작 (dryRun=${dryRun})`);
+
+    // register_no별 최종 UPDATE 값 계산
+    const rows: { registerNo: string; menuId: ArchiveMenuId; label: string; en: string }[] = [];
+    const menuMoves: Record<string, number> = {}; // "BOOKS→PUBLICATIONS" 형태 집계
+    let menuChanged = 0;
+    let catChanged = 0;
+    let s3Updated = 0;
+
+    const pLimit = (await import('p-limit')).default;
+    const limit = pLimit(20);
+
+    await Promise.all(
+      entries.map((entry) =>
+        limit(async () => {
+          const meta = entry.meta as ArchiveMeta;
+          const prefix = meta.registerNo?.split(':')[1]?.[0]?.toUpperCase(); // A/T/U
+          const cat = RISS_CAT[prefix ?? ''];
+          if (!cat) return; // RISS:A/T/U 아닌 예외는 건너뜀
+
+          const verdict = await this.classifier.classify(meta.publisher);
+          const newMenu = decideArchiveMenu(cat.type, verdict.verdict);
+
+          const menuDiff = newMenu !== meta.menuId;
+          const catDiff = meta.category !== cat.label;
+          if (menuDiff) {
+            menuChanged++;
+            const k = `${meta.menuId}→${newMenu}`;
+            menuMoves[k] = (menuMoves[k] ?? 0) + 1;
+          }
+          if (catDiff) catChanged++;
+
+          rows.push({ registerNo: meta.registerNo, menuId: newMenu, label: cat.label, en: cat.en });
+
+          if (!dryRun && (menuDiff || catDiff)) {
+            const updated: ArchiveMeta = {
+              ...meta,
+              menuId: newMenu,
+              category: cat.label,
+              categoryEn: cat.en,
+              classification: verdict,
+            };
+            await this.s3Service.overwriteArchiveMeta(entry.key, updated);
+            s3Updated++;
+          }
+        }),
+      ),
+    );
+
+    const sqlPath = path.join(process.cwd(), 'archive-reclassify-riss.sql');
+    await fs.writeFile(sqlPath, this.buildReclassifySql(rows), 'utf-8');
+    this.logger.log(
+      `[reclassify:riss] 완료 — 총 ${rows.length} / menu변경 ${menuChanged} / cat변경 ${catChanged} ` +
+      `/ S3덮어쓰기 ${s3Updated} / SQL ${sqlPath}`,
+    );
+
+    return { originId, total: rows.length, menuChanged, catChanged, s3Updated, sqlPath, menuMoves };
+  }
+
+  /**
+   * category/category_en는 전체를 접두어 CASE 한 방으로, menu_id는 목표 메뉴별 IN-list로 묶어 SQL 생성.
+   * (register_no가 유니크 키라 WHERE로 정확히 특정됨. mdfcn_dt는 SYSDATETIME)
+   */
+  private buildReclassifySql(
+    rows: { registerNo: string; menuId: ArchiveMenuId; label: string; en: string }[],
+  ): string {
+    const q = (s: string) => `'${s.replace(/'/g, "''")}'`;
+    const lines: string[] = [];
+
+    lines.push('-- RISS 자료마당 재분류 (자동 생성) — CUBRID');
+    lines.push('-- 1) category/category_en 를 자료유형 라벨로 (register_no 접두 A/T/U 기준), mdfcn_dt=현재시각');
+    lines.push('UPDATE archive');
+    lines.push("SET category = CASE");
+    lines.push("      WHEN register_no LIKE 'RISS:A%' THEN '국내학술논문'");
+    lines.push("      WHEN register_no LIKE 'RISS:T%' THEN '학위논문'");
+    lines.push("      WHEN register_no LIKE 'RISS:U%' THEN '단행본'");
+    lines.push('      ELSE category');
+    lines.push('    END,');
+    lines.push('    category_en = CASE');
+    lines.push("      WHEN register_no LIKE 'RISS:A%' THEN 'Domestic Academic Article'");
+    lines.push("      WHEN register_no LIKE 'RISS:T%' THEN 'Dissertation'");
+    lines.push("      WHEN register_no LIKE 'RISS:U%' THEN 'Book'");
+    lines.push('      ELSE category_en');
+    lines.push('    END,');
+    lines.push('    mdfcn_dt = SYSDATETIME');
+    lines.push("WHERE remark = 'RISS OpenAPI 수집';");
+    lines.push('');
+    lines.push('-- 2) menu_id 재분류 — 목표 메뉴별로 대상 register_no를 IN-list로 UPDATE');
+
+    for (const target of ['PUBLICATIONS', 'PAPERS', 'BOOKS'] as ArchiveMenuId[]) {
+      const ids = rows.filter((r) => r.menuId === target).map((r) => r.registerNo);
+      if (ids.length === 0) continue;
+      lines.push('');
+      lines.push(`-- → ${target}: ${ids.length}건`);
+      // IN-list는 900개 단위로 쪼개 (CUBRID IN 절 상한 대비)
+      for (let i = 0; i < ids.length; i += 900) {
+        const chunk = ids.slice(i, i + 900).map(q).join(', ');
+        lines.push(`UPDATE archive SET menu_id = '${target}', mdfcn_dt = SYSDATETIME`);
+        lines.push(`WHERE remark = 'RISS OpenAPI 수집' AND register_no IN (${chunk});`);
+      }
+    }
+    lines.push('');
+    return lines.join('\n');
   }
 
   private mergeBySourceId(

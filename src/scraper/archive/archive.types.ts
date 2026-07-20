@@ -141,6 +141,26 @@ export interface ExportedArchiveItem {
   collectedAt: string | null;
 }
 
+// ─── 분류 규칙 ────────────────────────────────────────────────────────────────
+
+/**
+ * 발행기관 판정(GOV/PRIVATE) + 자료유형 → menu_id 결정 (DMZ 포털 자료마당 분류규칙).
+ *
+ *                        | 논문류(article/thesis/report) | 단행본(book)
+ *   GOV(정부·지자체·국책연)  |          발간자료             |    발간자료
+ *   PRIVATE(학회·대학·민간) |            논문               |    단행본
+ *
+ * 즉 발행기관이 GOV면 자료유형 무관하게 발간자료, PRIVATE면 단행본은 단행본·나머지는 논문.
+ * (북한자료센터 소장목록은 무조건 단행본이지만 RISS/KCI/NTIS 수집분에는 없음 — 수동 적재분 규칙)
+ */
+export function decideArchiveMenu(
+  materialType: ArchiveMaterialType,
+  verdict: 'GOV' | 'PRIVATE',
+): ArchiveMenuId {
+  if (verdict === 'GOV') return 'PUBLICATIONS';
+  return materialType === 'book' ? 'BOOKS' : 'PAPERS';
+}
+
 // ─── 공통 유틸 ────────────────────────────────────────────────────────────────
 
 /** xml2js(explicitArray:false)가 1건이면 객체로 주는 것을 배열로 정규화 */

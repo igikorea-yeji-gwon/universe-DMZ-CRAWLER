@@ -14,6 +14,7 @@ import { RissCollectorService } from './riss-collector.service';
 import { NtisCollectorService } from './ntis-collector.service';
 import { ArchiveExportService } from './archive-export.service';
 import { ArchiveReportService } from './archive-report.service';
+import { ArchiveIngestService } from './archive-ingest.service';
 import { InstitutionClassifierService } from './institution-classifier.service';
 import { ArchiveCollectOptions } from './archive.types';
 
@@ -36,6 +37,7 @@ export class ArchiveController {
     private readonly archiveExportService: ArchiveExportService,
     private readonly reportService: ArchiveReportService,
     private readonly classifier: InstitutionClassifierService,
+    private readonly ingestService: ArchiveIngestService,
   ) {}
 
   // ─── 수동 수집 (백필 겸용) ─────────────────────────────────────────────────
@@ -152,6 +154,34 @@ export class ArchiveController {
   })
   async writeReport(@Query('source') source: string) {
     return this.reportService.writeReportBySource(source);
+  }
+
+  @Get('archive/reclassify/riss')
+  @ApiOperation({
+    summary:
+      '(유지보수) 이미 S3에 저장된 RISS meta.json을 현재 분류기/규칙으로 재계산 — ' +
+      'category=자료유형 통일 + menu_id 재분류(GOV→발간자료 등). ' +
+      'apply=true면 S3 meta.json 덮어쓰기, 기본(false)은 집계+SQL만 생성. ' +
+      'CUBRID UPDATE SQL은 프로젝트 루트 archive-reclassify-riss.sql에 항상 생성',
+  })
+  @ApiQuery({ name: 'apply', required: false, example: 'false', description: 'true면 S3 덮어쓰기 실행 (기본 false=미리보기)' })
+  @ApiResponse({
+    status: 200,
+    schema: {
+      example: {
+        originId: 1,
+        total: 9857,
+        menuChanged: 900,
+        catChanged: 9857,
+        s3Updated: 0,
+        sqlPath: '/home/ubuntu/dmz_scraper/archive-reclassify-riss.sql',
+        menuMoves: { 'BOOKS→PUBLICATIONS': 850 },
+      },
+    },
+  })
+  async reclassifyRiss(@Query('apply') apply?: string) {
+    const dryRun = String(apply) !== 'true';
+    return this.ingestService.reclassifyRiss(dryRun);
   }
 
   // ─── 기관 분류기 단독 테스트 ───────────────────────────────────────────────

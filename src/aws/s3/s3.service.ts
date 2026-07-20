@@ -312,7 +312,7 @@ export class S3Service {
   async listArchiveMetaEntries(
     originId: number,
     since?: Date,
-  ): Promise<{ meta: Record<string, any>; lastModified: Date | null }[]> {
+  ): Promise<{ key: string; meta: Record<string, any>; lastModified: Date | null }[]> {
     const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
     const prefix = `archive-crawler/items/${originId}/`;
 
@@ -338,7 +338,7 @@ export class S3Service {
           try {
             const obj = await this.s3.send(new GetObjectCommand({ Bucket: bucket, Key: key }));
             const body = await obj.Body?.transformToString('utf-8');
-            return { meta: JSON.parse(body ?? '{}'), lastModified };
+            return { key, meta: JSON.parse(body ?? '{}'), lastModified };
           } catch {
             return null; // meta.json 조회/파싱 실패 시 제외
           }
@@ -346,7 +346,20 @@ export class S3Service {
       ),
     );
     return settled.filter(
-      (r): r is { meta: Record<string, any>; lastModified: Date | null } => r !== null,
+      (r): r is { key: string; meta: Record<string, any>; lastModified: Date | null } => r !== null,
+    );
+  }
+
+  /** 기존 meta.json을 같은 키에 덮어쓰기 (재분류 등 유지보수용 — 폴더/해시 그대로) */
+  async overwriteArchiveMeta(key: string, meta: Record<string, any>): Promise<void> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    await this.s3.send(
+      new PutObjectCommand({
+        Bucket: bucket,
+        Key: key,
+        Body: JSON.stringify(meta, null, 2),
+        ContentType: 'application/json',
+      }),
     );
   }
 

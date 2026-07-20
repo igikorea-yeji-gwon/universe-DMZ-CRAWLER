@@ -31,6 +31,18 @@ const RISS_TYPES: { type: string; materialType: ArchiveMaterialType }[] = [
 ];
 
 /**
+ * RISS 자료유형 → archive.category 라벨.
+ * RISS는 주제분류를 안 주므로 category에 '자료유형'을 넣어 기존 단행본 게시판 분류값(단행본/논문 등)과 맞춘다.
+ * (KCI처럼 주제분류가 있으면 그걸 쓰지만, RISS는 이 라벨이 곧 분류)
+ */
+const RISS_CATEGORY_LABEL: Record<ArchiveMaterialType, string> = {
+  article: '국내학술논문',
+  thesis: '학위논문',
+  book: '단행본',
+  report: '연구보고서', // RISS 수집엔 없으나 타입 완전성 위해
+};
+
+/**
  * RISS(학술연구정보서비스) 수집기.
  * www.riss.kr/openApi 를 자료유형(A/T/U)×키워드로 페이징 조회(rsnum/rowcount)해
  * 공통 파이프라인으로 넘긴다. 단행본(U)은 menu_id=BOOKS 고정, ISBN이 있으면 표지 조회.
@@ -265,7 +277,7 @@ export class RissCollectorService implements OnModuleInit {
       publisher: String(metadata?.['riss.publisher'] ?? '').trim(),
       author,
       publishYear: yearMatch ? yearMatch[0] : '',
-      category: null, // RISS는 주제분류 미제공 — 적재 시 기본값('접경지역')은 스프링 몫
+      category: RISS_CATEGORY_LABEL[materialType] ?? null, // 주제분류 대신 자료유형 라벨을 분류로 사용
       subCategory,
       summary: null, // 초록 원문 미제공 (riss.abstract는 Y/N 플래그)
       detailUrl: url,
