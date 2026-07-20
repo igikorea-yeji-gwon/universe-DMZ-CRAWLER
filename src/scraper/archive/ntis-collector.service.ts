@@ -254,7 +254,7 @@ export class NtisCollectorService implements OnModuleInit {
       publisher: stripTags(hit?.PublicationAgency),
       author: stripTags(hit?.Manager) || stripTags(hit?.ManagerName), // 과제 연구책임자
       publishYear: yearMatch ? yearMatch[0] : '',
-      category: null, // 주제분류 미제공 — 기본값은 스프링 몫
+      category: '연구보고서', // RISS와 동일 규칙 — category=자료유형 라벨
       subCategory: keywordKo || null,
       summary: stripTags(this.lang(hit?.Abstract, 'Korean')) || null,
       detailUrl: stripTags(hit?.DocUrl) || null,
