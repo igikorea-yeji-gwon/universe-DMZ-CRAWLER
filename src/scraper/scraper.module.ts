@@ -27,6 +27,8 @@ import { ArchiveIngestService } from './archive/archive-ingest.service';
 import { ArchiveExportService } from './archive/archive-export.service';
 import { ArchiveReportService } from './archive/archive-report.service';
 import { InstitutionClassifierService } from './archive/institution-classifier.service';
+import { ThemeClassifierService } from './archive/theme-classifier.service';
+import { RelevanceFilterService } from './archive/relevance-filter.service';
 import { KciCollectorService } from './archive/kci-collector.service';
 import { RissCollectorService } from './archive/riss-collector.service';
 import { NtisCollectorService } from './archive/ntis-collector.service';
@@ -58,6 +60,8 @@ import { NtisCollectorService } from './archive/ntis-collector.service';
     ArchiveExportService,
     ArchiveReportService,
     InstitutionClassifierService,
+    ThemeClassifierService,
+    RelevanceFilterService,
     KciCollectorService,
     RissCollectorService,
     NtisCollectorService,

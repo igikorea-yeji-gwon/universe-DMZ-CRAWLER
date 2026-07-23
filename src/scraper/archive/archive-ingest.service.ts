@@ -8,10 +8,13 @@ import { IsbnService } from 'src/isbn/isbn.service';
 import { TranslationClientService } from '../translation-client.service';
 import { ArchiveReportService } from './archive-report.service';
 import { InstitutionClassifierService } from './institution-classifier.service';
+import { RelevanceFilterService } from './relevance-filter.service';
+import { ThemeClassifierService } from './theme-classifier.service';
 import {
   ArchiveCollectOptions,
   ArchiveIngestSummary,
   ArchiveItem,
+  ArchiveMaterialType,
   ArchiveMenuId,
   ArchiveMeta,
   decideArchiveMenu,
@@ -42,6 +45,8 @@ export class ArchiveIngestService {
     private readonly translationClient: TranslationClientService,
     private readonly isbnService: IsbnService,
     private readonly reportService: ArchiveReportService,
+    private readonly relevanceFilter: RelevanceFilterService,
+    private readonly themeClassifier: ThemeClassifierService,
   ) {}
 
   async ingest(
@@ -58,6 +63,7 @@ export class ArchiveIngestService {
       fetched: items.length,
       deduped: 0,
       skippedExisting: 0,
+      droppedIrrelevant: 0,
       classified: { PUBLICATIONS: 0, PAPERS: 0, BOOKS: 0 },
       translated: 0,
       coverFetched: 0,
@@ -88,6 +94,17 @@ export class ArchiveIngestService {
             summary.skippedExisting++;
             continue;
           }
+        }
+
+        // DMZ 무관(키워드 오매칭·해외 접경 등) 필터 — 규칙 우선 + LLM 폴백.
+        // 무관이면 저장하지 않는다. S3 존재확인 직후 = 이미 저장된 건엔 판정 LLM을 태우지 않음.
+        const relevance = await this.relevanceFilter.isRelevant(item);
+        if (!relevance.relevant) {
+          summary.droppedIrrelevant++;
+          this.logger.log(
+            `[archive:${item.source}] DMZ 무관 → 저장 제외 (${relevance.by}${relevance.reason ? `: ${relevance.reason}` : ''}) "${item.title}"`,
+          );
+          continue;
         }
 
         // menu_id 결정: 단행본은 BOOKS 고정, 그 외 발행기관 분류로 발간자료/논문 분기
@@ -165,10 +182,11 @@ export class ArchiveIngestService {
 
     // LLM 판정 캐시 영속화 (실패해도 무시)
     await this.classifier.flushCache();
+    await this.relevanceFilter.flushCache();
 
     this.logger.log(
       `[archive:${source}] ingest 종료: fetched=${summary.fetched} deduped=${summary.deduped} ` +
-      `신규저장=${summary.saved} 중복=${summary.skippedExisting} ` +
+      `신규저장=${summary.saved} 중복=${summary.skippedExisting} DMZ무관제외=${summary.droppedIrrelevant} ` +
       `(발간자료 ${summary.classified.PUBLICATIONS} / 논문 ${summary.classified.PAPERS} / 단행본 ${summary.classified.BOOKS}) ` +
       `번역=${summary.translated} 오류=${summary.errors.length}${opts.dryRun ? ' [dryRun]' : ''}`,
     );
@@ -315,6 +333,126 @@ export class ArchiveIngestService {
         lines.push(`UPDATE archive SET menu_id = '${target}', mdfcn_dt = SYSDATETIME`);
         lines.push(`WHERE remark = 'RISS OpenAPI 수집' AND register_no IN (${chunk});`);
       }
+    }
+    lines.push('');
+    return lines.join('\n');
+  }
+
+  /**
+   * (유지보수) CUBRID에 적재된 RISS 부분집합(docs/ARCHIVE_RISS.csv: archive_id,title,register_no)만
+   * 현재 기준으로 재분류한다.
+   *  - category  = 주제분류 18종 (ThemeClassifier, 제목 기반 LLM)
+   *  - menu_id   = 발행처분류(GOV/PRIVATE) + 자료유형 규칙
+   *  - category_en = NULL (앞서 잘못 넣은 자료유형 영문 제거)
+   * apply=false면 S3/SQL 안 만들고 분류 결과 샘플만, limit로 앞 N건만 처리(샘플 확인용).
+   * S3 meta 덮어쓰기 + register_no 기준 CUBRID UPDATE SQL(archive-reclassify-riss.sql) 생성.
+   */
+  async reclassifyRissFromCsv(opts: { limit?: number; apply?: boolean }): Promise<{
+    csvRegisterNos: number;
+    notFoundInS3: number;
+    processed: number;
+    s3Updated: number;
+    apply: boolean;
+    themeDist: Record<string, number>;
+    menuMoves: Record<string, number>;
+    sample: {
+      registerNo: string; title: string; publisher: string;
+      oldMenu: string; newMenu: string; oldCategory: string | null; theme: string;
+    }[];
+  }> {
+    const csvPath = path.join(process.cwd(), 'docs/ARCHIVE_RISS.csv');
+    const raw = await fs.readFile(csvPath, 'utf-8');
+    // 제목에 콤마/따옴표가 있어도 안전하게, register_no만 정규식으로 추출
+    const rns = [...new Set(raw.match(/RISS:[ATU][A-Za-z0-9]+/g) ?? [])];
+
+    const originId = Number(process.env.RISS_ORIGIN_ID);
+    const entries = await this.s3Service.listArchiveMetaEntries(originId);
+    const byRn = new Map<string, { key: string; meta: ArchiveMeta }>();
+    for (const e of entries) {
+      byRn.set((e.meta as ArchiveMeta).registerNo, { key: e.key, meta: e.meta as ArchiveMeta });
+    }
+
+    let targets = rns.map((rn) => byRn.get(rn)).filter(Boolean) as { key: string; meta: ArchiveMeta }[];
+    const notFoundInS3 = rns.length - targets.length;
+    if (opts.limit && opts.limit > 0) targets = targets.slice(0, opts.limit);
+
+    this.logger.log(
+      `[reclassify-csv] CSV register_no ${rns.length} / S3매칭 ${rns.length - notFoundInS3} / 처리대상 ${targets.length} (apply=${!!opts.apply})`,
+    );
+
+    // 1) 주제분류 (LLM 배치) — 제목 기준
+    const themes = await this.themeClassifier.classifyTitles(targets.map((t) => t.meta.title));
+
+    // 2) 발행처분류 → menu_id 재계산 + (apply) S3 덮어쓰기
+    const sqlRows: { registerNo: string; menuId: ArchiveMenuId; theme: string }[] = [];
+    const sample: any[] = [];
+    const themeDist: Record<string, number> = {};
+    const menuMoves: Record<string, number> = {};
+    let s3Updated = 0;
+
+    const pLimit = (await import('p-limit')).default;
+    const limit = pLimit(20);
+    await Promise.all(
+      targets.map((t, i) =>
+        limit(async () => {
+          const meta = t.meta;
+          const prefix = meta.registerNo.split(':')[1]?.[0]?.toUpperCase();
+          const materialType: ArchiveMaterialType =
+            prefix === 'U' ? 'book' : prefix === 'T' ? 'thesis' : 'article';
+          const verdict = await this.classifier.classify(meta.publisher);
+          const newMenu = decideArchiveMenu(materialType, verdict.verdict);
+          const theme = themes[i] ?? '접경지역';
+
+          themeDist[theme] = (themeDist[theme] ?? 0) + 1;
+          if (newMenu !== meta.menuId) {
+            const k = `${meta.menuId}→${newMenu}`;
+            menuMoves[k] = (menuMoves[k] ?? 0) + 1;
+          }
+          sqlRows.push({ registerNo: meta.registerNo, menuId: newMenu, theme });
+          if (sample.length < 60) {
+            sample.push({
+              registerNo: meta.registerNo, title: meta.title, publisher: meta.publisher,
+              oldMenu: meta.menuId, newMenu, oldCategory: meta.category, theme,
+            });
+          }
+
+          if (opts.apply) {
+            const updated: ArchiveMeta = {
+              ...meta, menuId: newMenu, category: theme, categoryEn: null, classification: verdict,
+            };
+            await this.s3Service.overwriteArchiveMeta(t.key, updated);
+            s3Updated++;
+          }
+        }),
+      ),
+    );
+
+    if (opts.apply) {
+      const sqlPath = path.join(process.cwd(), 'archive-reclassify-riss.sql');
+      await fs.writeFile(sqlPath, this.buildCsvReclassifySql(sqlRows), 'utf-8');
+      this.logger.log(`[reclassify-csv] S3 ${s3Updated}건 덮어쓰기 + SQL ${sqlPath} (${sqlRows.length}행)`);
+    }
+
+    return {
+      csvRegisterNos: rns.length, notFoundInS3, processed: targets.length,
+      s3Updated, apply: !!opts.apply, themeDist, menuMoves, sample,
+    };
+  }
+
+  /** register_no 기준 per-row UPDATE (category=주제, category_en=NULL, menu_id, mdfcn_dt). CUBRID */
+  private buildCsvReclassifySql(
+    rows: { registerNo: string; menuId: ArchiveMenuId; theme: string }[],
+  ): string {
+    const q = (s: string) => `'${s.replace(/'/g, "''")}'`;
+    const lines: string[] = [
+      '-- RISS 재분류 (CUBRID 적재분 = docs/ARCHIVE_RISS.csv) — register_no 기준',
+      '-- category=주제분류(18종), menu_id=발행처분류(공공/민간)+자료유형 규칙, category_en=NULL(자료유형 영문 제거)',
+    ];
+    for (const r of rows) {
+      lines.push(
+        `UPDATE archive SET menu_id=${q(r.menuId)}, category=${q(r.theme)}, category_en=NULL, ` +
+        `mdfcn_dt=SYSDATETIME WHERE register_no=${q(r.registerNo)};`,
+      );
     }
     lines.push('');
     return lines.join('\n');

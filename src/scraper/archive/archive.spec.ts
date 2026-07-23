@@ -3,6 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { parseStringPromise } from 'xml2js';
 import { InstitutionClassifierService } from './institution-classifier.service';
+import { RelevanceFilterService } from './relevance-filter.service';
 import { KciCollectorService } from './kci-collector.service';
 import { RissCollectorService } from './riss-collector.service';
 import { NtisCollectorService } from './ntis-collector.service';
@@ -317,5 +318,43 @@ describe('sanitizeXmlAmp', () => {
       { explicitArray: false },
     );
     expect(parsed.RESULT.HIT.ResultTitle.Korean).toBe('국가R&D와 DMZ');
+  });
+});
+
+describe('RelevanceFilterService (규칙 판정)', () => {
+  const svc = new RelevanceFilterService({} as any, {} as any);
+  const item = (title: string, extra: any = {}) =>
+    ({ title, publisher: '', author: '', matchedKeyword: 'DMZ', source: 'riss', ...extra } as any);
+
+  it('명백한 노이즈는 규칙으로 DROP (LLM 없이)', async () => {
+    const cases: [string, string][] = [
+      ['Science DMZ 네트워크 아키텍처 성능 분석', 'Science DMZ'],
+      ['Minimum Description Length 기반 모델 선택', 'MDL'],
+      ['북·중 접경지역 교역 연구', '북중 접경'],
+      ['압록강 유역 생태 조사', '압록강'],
+      ['간도 협약의 국제법적 검토', '간도'],
+      ['고려시대 국경 방어체계 연구', '고려시대'],
+      ['동서독 접경지역 통합 사례', '동서독'],
+      ['미얀마 정전협정과 소수민족', '미얀마'],
+      ['Contact Zone으로서의 문학 공간', 'Contact Zone'],
+    ];
+    for (const [title, label] of cases) {
+      const v = await svc.isRelevant(item(title));
+      expect(v.relevant, `${label}: "${title}"`).toBe(false);
+      expect(v.by).toBe('rule-drop');
+    }
+  });
+
+  it('한반도 DMZ 핵심어가 제목에 있으면 규칙으로 KEEP', async () => {
+    for (const title of [
+      'DMZ 비무장지대의 생태 가치',
+      '군사분계선 일대 산림 조사',
+      '파주 접경지역 관광 활성화 방안',
+      '정전협정 체제와 유엔사의 역할',
+    ]) {
+      const v = await svc.isRelevant(item(title));
+      expect(v.relevant, title).toBe(true);
+      expect(v.by).toBe('rule-keep');
+    }
   });
 });

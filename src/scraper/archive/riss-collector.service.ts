@@ -30,17 +30,6 @@ const RISS_TYPES: { type: string; materialType: ArchiveMaterialType }[] = [
   { type: 'U', materialType: 'book' },
 ];
 
-/**
- * RISS 자료유형 → archive.category 라벨.
- * RISS는 주제분류를 안 주므로 category에 '자료유형'을 넣어 기존 단행본 게시판 분류값(단행본/논문 등)과 맞춘다.
- * (KCI처럼 주제분류가 있으면 그걸 쓰지만, RISS는 이 라벨이 곧 분류)
- */
-const RISS_CATEGORY_LABEL: Record<ArchiveMaterialType, string> = {
-  article: '국내학술논문',
-  thesis: '학위논문',
-  book: '단행본',
-  report: '연구보고서', // RISS 수집엔 없으나 타입 완전성 위해
-};
 
 /**
  * RISS(학술연구정보서비스) 수집기.
@@ -289,7 +278,9 @@ export class RissCollectorService implements OnModuleInit {
       publisher: String(metadata?.['riss.publisher'] ?? '').trim(),
       author,
       publishYear: yearMatch ? yearMatch[0] : '',
-      category: RISS_CATEGORY_LABEL[materialType] ?? null, // 주제분류 대신 자료유형 라벨을 분류로 사용
+      // category(주제분류)는 초록이 없어 규칙으로 못 정한다 → 수집 후 ThemeClassifier(LLM)로 별도 태깅.
+      // 여기선 미설정(null)로 두고, 재분류 파이프라인이 18종 주제를 채운다.
+      category: null,
       subCategory,
       summary: null, // 초록 원문 미제공 (riss.abstract는 Y/N 플래그)
       detailUrl: url,

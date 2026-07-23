@@ -95,6 +95,7 @@ export interface ArchiveIngestSummary {
   fetched: number;
   deduped: number; // 키워드 간 중복 제거 후 아이템 수
   skippedExisting: number; // S3 완료 마커 존재로 스킵
+  droppedIrrelevant: number; // DMZ 무관 판정으로 저장 제외
   classified: Record<ArchiveMenuId, number>;
   translated: number;
   coverFetched: number;

@@ -184,6 +184,21 @@ export class ArchiveController {
     return this.ingestService.reclassifyRiss(dryRun);
   }
 
+  @Get('archive/reclassify/riss-csv')
+  @ApiOperation({
+    summary:
+      '(유지보수) CUBRID 적재분(docs/ARCHIVE_RISS.csv)만 재분류 — category=주제분류 18종(LLM), ' +
+      'menu_id=발행처분류+자료유형 규칙. limit로 앞 N건만(샘플), apply=true면 S3 덮어쓰기+SQL 생성',
+  })
+  @ApiQuery({ name: 'limit', required: false, example: '50', description: '앞 N건만 처리(샘플 확인용). 미지정 시 전건' })
+  @ApiQuery({ name: 'apply', required: false, example: 'false', description: 'true면 S3 덮어쓰기+SQL 생성 (기본 false=미리보기)' })
+  async reclassifyRissCsv(@Query('limit') limit?: string, @Query('apply') apply?: string) {
+    return this.ingestService.reclassifyRissFromCsv({
+      limit: limit ? Number(limit) : undefined,
+      apply: String(apply) === 'true',
+    });
+  }
+
   // ─── 기관 분류기 단독 테스트 ───────────────────────────────────────────────
 
   @Get('archive/classify')
