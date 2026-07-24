@@ -17,6 +17,11 @@ const FILE_EXTS = new Set([
 // 피드가 정상화되면 true로 되돌릴 것.
 const YNA_PRECOLLECT_ENABLED = false;
 
+// [임시] 스프링 전체 재적재 기간 동안 since 증분 필터를 끈다.
+// false면 since 파라미터가 와도 무시하고 전체를 반환한다 (응답에 sinceIgnored: true 표시).
+// 스프링 중복 규칙(origin+title+일자)이 이중 적재를 막으므로 안전. 재적재 끝나면 true로 되돌릴 것.
+const SINCE_FILTER_ENABLED = false;
+
 const DT_FORMAT = 'YYYY-MM-DD HH:mm:ss';
 // writedate 파싱 실패 시 쓰는 고정 sentinel. now(비결정적)를 쓰면 조회마다
 // 날짜가 달라져 스프링 쪽 중복 검사(제목+일자)가 빗나가므로, 결정적 값으로 고정한다.
@@ -80,6 +85,14 @@ export class ArticleExportService {
       sinceDate = m.toDate();
     }
 
+    // [임시] since 필터 비활성화 — 전체 반환 (파라미터 검증은 위에서 그대로 수행)
+    if (!SINCE_FILTER_ENABLED && sinceDate) {
+      this.logger.warn(
+        `[articles] origin=${originId} since=${since} 무시 — 전체 반환 (SINCE_FILTER_ENABLED=false)`,
+      );
+      sinceDate = undefined;
+    }
+
     // 등록된 origin(config의 origin_id 또는 YNA_ORIGIN_ID)이 아니면 S3 조회 없이 빈 결과 반환.
     // 스프링이 news_origin 전체를 순회 호출해도 스크래퍼 미등록 origin은 스캔 비용 없이 걸러진다.
     if (!this.isKnownOrigin(originId)) {
@@ -110,6 +123,7 @@ export class ArticleExportService {
     return {
       originId,
       since: since ?? null,
+      ...(since && !SINCE_FILTER_ENABLED ? { sinceIgnored: true } : {}),
       total: articles.length,
       ...(collect ? { collect } : {}),
       articles,
