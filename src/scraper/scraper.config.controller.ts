@@ -1,16 +1,21 @@
 import {
+  BadRequestException,
   Body,
   Controller,
   Delete,
   Get,
   Logger,
+  NotFoundException,
   Param,
   ParseIntPipe,
   Patch,
   Post,
   Query,
+  Res,
   UseFilters,
 } from '@nestjs/common';
+import { Response } from 'express';
+import { lookup } from 'mime-types';
 import {
   ApiBody,
   ApiOperation,
@@ -27,6 +32,7 @@ import { YnaFeedService } from './yna-feed.service';
 import { YnaBackfillService } from './yna-backfill.service';
 import { TranslationClientService } from './translation-client.service';
 import { ArticleExportService } from './article-export.service';
+import { S3Service } from 'src/aws/s3/s3.service';
 import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
 import { ListConfigDto } from './dto/scraperDtos';
 
@@ -44,6 +50,7 @@ export class ScraperConfigController {
     private readonly ynaBackfillService: YnaBackfillService,
     private readonly translationClient: TranslationClientService,
     private readonly articleExportService: ArticleExportService,
+    private readonly s3Service: S3Service,
   ) {}
 
   // ─── Config CRUD ────────────────────────────────────────────────────────────
@@ -124,6 +131,68 @@ export class ScraperConfigController {
     return this.scraperConfigService.getFilesByOrigin(originId);
   }
 
+  // ─── 스프링 연동: 미디어(이미지/파일) 프록시 다운로드 ──────────────────────
+  // 내부망(스프링)은 화이트리스트 정책상 이 EC2로만 통신 가능하고 S3에 직접 못
+  // 나간다. 이 엔드포인트가 S3 → 내부망 스트리밍 관문 역할을 한다.
+  // (ES는 S3를 직접 바라보므로 S3 저장 구조는 그대로 유지)
+
+  @Get('media')
+  @ApiOperation({
+    summary:
+      '수집 미디어(이미지/파일) 프록시 다운로드 — 내부망 스프링용 S3 스트리밍 관문. ' +
+      'articles API가 내려주는 files[].downloadUrl이 이 엔드포인트를 가리킨다',
+  })
+  @ApiQuery({
+    name: 'path',
+    required: true,
+    example: '/news-crawler/file/16/2026-07-12/img/xxx.jpg',
+    description: 'articles API의 files[].filePath 값 그대로 (news-crawler/ 하위만 허용)',
+  })
+  @ApiResponse({
+    status: 200,
+    description:
+      '바이너리 스트림. Content-Type/Content-Length/ETag/Content-Disposition 헤더 포함',
+  })
+  async downloadMedia(@Query('path') path: string, @Res() res: Response) {
+    const key = String(path ?? '').trim().replace(/^\/+/, '');
+    // 경로 화이트리스트: 수집 산출물 프리픽스 밖(다른 S3 객체) 접근 차단
+    if (!key.startsWith('news-crawler/') || key.split('/').includes('..')) {
+      throw new BadRequestException(`허용되지 않는 path입니다: ${path}`);
+    }
+
+    let obj: Awaited<ReturnType<S3Service['getObjectForProxy']>>;
+    try {
+      obj = await this.s3Service.getObjectForProxy(key);
+    } catch (e) {
+      const name = (e as any)?.name ?? '';
+      if (name === 'NoSuchKey' || name === 'NotFound') {
+        throw new NotFoundException(`S3에 없는 파일입니다: /${key}`);
+      }
+      throw e;
+    }
+
+    const fileName = key.split('/').pop() ?? 'download';
+    // 업로드 시 ContentType이 비었거나 octet-stream이면 확장자로 보정
+    const contentType =
+      obj.contentType && obj.contentType !== 'application/octet-stream'
+        ? obj.contentType
+        : lookup(fileName) || 'application/octet-stream';
+
+    res.setHeader('Content-Type', contentType);
+    if (obj.contentLength != null) res.setHeader('Content-Length', String(obj.contentLength));
+    if (obj.etag) res.setHeader('ETag', obj.etag);
+    res.setHeader(
+      'Content-Disposition',
+      `attachment; filename*=UTF-8''${encodeURIComponent(fileName)}`,
+    );
+
+    obj.body.on('error', (err) => {
+      this.logger.error(`[media] S3 스트리밍 실패: /${key} — ${err.message}`);
+      res.destroy(err);
+    });
+    obj.body.pipe(res);
+  }
+
   // ─── 스프링 연동: S3 meta.json → DB 적재용 정규화 JSON ─────────────────────
 
   @Get('articles/:originId')
@@ -167,6 +236,10 @@ export class ScraperConfigController {
                 fileUrl: 'https://example.com/img/xxx.jpg',
                 fileTy: 'image',
                 sortOrder: 0,
+                fileName: 'xxx.jpg',
+                mimeType: 'image/jpeg',
+                downloadUrl:
+                  '/scraper/media?path=%2Fnews-crawler%2Ffile%2F16%2F2026-07-12%2Fimg%2Fxxx.jpg',
               },
             ],
             skippedFiles: 0,

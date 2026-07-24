@@ -1,5 +1,6 @@
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
+import { lookup } from 'mime-types';
 import moment from 'moment';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { YnaFeedService } from './yna-feed.service';
@@ -27,6 +28,11 @@ export interface ExportedFile {
   fileUrl: string | null; // 원 사이트의 파일 URL
   fileTy: 'image' | 'file';
   sortOrder: number;
+  fileName: string; // 원본 파일명 (meta의 originalName, 없으면 S3 키의 basename)
+  mimeType: string; // 확장자 기반 추정 MIME 타입
+  // 내부망(스프링)은 S3에 직접 못 나가므로, 이 수집서버를 관문으로 쓰는
+  // 프록시 다운로드 경로. 폴링과 같은 호스트에 이 상대경로만 붙여 GET 하면 된다.
+  downloadUrl: string;
 }
 
 export interface ExportedArticle {
@@ -189,11 +195,18 @@ export class ArticleExportService {
           skipped++;
           continue;
         }
+        const filePath = this.toDbFilePath(item.s3Path);
+        const fileName =
+          String(item.originalName ?? '').trim() ||
+          (filePath.split('?')[0].split('/').pop() ?? 'download');
         files.push({
-          filePath: this.toDbFilePath(item.s3Path),
+          filePath,
           fileUrl: item.url ?? null,
           fileTy,
           sortOrder: sortOrder++,
+          fileName,
+          mimeType: lookup(filePath.split('?')[0]) || 'application/octet-stream',
+          downloadUrl: `/scraper/media?path=${encodeURIComponent(filePath)}`,
         });
       }
     };

@@ -39,6 +39,31 @@ export class S3Service {
     });
   }
 
+  /**
+   * DB file_path(/news-crawler/...) 형식의 키로 객체를 열어 스트림+응답헤더용 메타를 반환.
+   * 내부망(스프링)은 S3로 직접 못 나가므로 이 서버가 다운로드 관문 역할을 한다.
+   * 키가 없으면 AWS SDK의 NoSuchKey 에러가 그대로 던져진다 (호출부에서 404 매핑).
+   */
+  async getObjectForProxy(key: string): Promise<{
+    body: Readable;
+    contentType?: string;
+    contentLength?: number;
+    etag?: string;
+  }> {
+    const obj = await this.s3.send(
+      new GetObjectCommand({
+        Bucket: this.configService.get<string>('AWS_BUCKET_NAME'),
+        Key: key,
+      }),
+    );
+    return {
+      body: obj.Body as Readable,
+      contentType: obj.ContentType,
+      contentLength: obj.ContentLength,
+      etag: obj.ETag,
+    };
+  }
+
   async getObjectStream(s3Uri: string): Promise<Readable> {
     const parts = s3Uri.replace('s3://', '').split('/');
     if (parts.length < 2) {
