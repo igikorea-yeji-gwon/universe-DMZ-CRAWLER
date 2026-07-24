@@ -941,7 +941,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
       return results;
     } finally {
       await page.close().catch(() => {});
-      await context.close();
+      // 브라우저가 먼저 죽은 경우(배포 reload 등) close가 던지는 예외가
+      // 원래 수집 에러를 덮어쓰지 않도록 무시한다
+      await context.close().catch(() => {});
     }
   }
 
