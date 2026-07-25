@@ -29,8 +29,8 @@ interface BackfillItem {
  * configs/yna/<월>/*.xml (연합뉴스 YNewsML 아카이브)을 읽어 기존 피드 수집과
  * 동일한 meta.json 스키마로 S3에 백필한다. DB 적재는 스프링이 담당(GET /scraper/articles/:originId).
  *
- * 라이브 피드(YnaFeedService)와 동일하게 KEYWORDS(제목+본문) 필터를 적용하고,
- * 소스만 RSS가 아니라 로컬 XML 파일이라는 점이 다르다. guid 기준 중복은 스킵.
+ * 라이브 피드(YnaFeedService)와 달리 KEYWORDS 필터를 적용하지 않는다 —
+ * feed_468 아카이브는 공급처에서 이미 필터링된 기사만 담겨 온다. guid 기준 중복은 스킵.
  */
 @Injectable()
 export class YnaBackfillService {
@@ -125,12 +125,10 @@ export class YnaBackfillService {
         }
         summary.parsed++;
 
-        // 라이브 피드와 동일하게 키워드 필터 적용 (제목+부제+본문에 하나라도 포함)
-        if (item.matchedKeywords.length === 0) {
-          summary.skippedNoKeyword++;
-          continue;
-        }
-        summary.keywordMatched++;
+        // feed_468 아카이브는 공급처에서 이미 키워드 필터링된 기사만 담겨 오므로
+        // 백필에서는 필터하지 않고 전부 저장한다 (라이브 피드와 다른 점).
+        // matchedKeywords는 참고용으로만 meta에 기록 — 매칭 0건이어도 저장.
+        if (item.matchedKeywords.length > 0) summary.keywordMatched++;
 
         const articleHash = createHash('md5')
           .update(item.guid || item.link)
