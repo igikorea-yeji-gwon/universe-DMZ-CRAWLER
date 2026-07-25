@@ -20,7 +20,7 @@ const YNA_PRECOLLECT_ENABLED = false;
 // [임시] 스프링 전체 재적재 기간 동안 since 증분 필터를 끈다.
 // false면 since 파라미터가 와도 무시하고 전체를 반환한다 (응답에 sinceIgnored: true 표시).
 // 스프링 중복 규칙(origin+title+일자)이 이중 적재를 막으므로 안전. 재적재 끝나면 true로 되돌릴 것.
-const SINCE_FILTER_ENABLED = true;
+const SINCE_FILTER_ENABLED = false;
 
 const DT_FORMAT = 'YYYY-MM-DD HH:mm:ss';
 // writedate 파싱 실패 시 쓰는 고정 sentinel. now(비결정적)를 쓰면 조회마다
