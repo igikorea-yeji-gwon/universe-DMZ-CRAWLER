@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260211185400080</ContentID>
+      <SendDate>20260211</SendDate>
+      <SendTime>204113</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1002003" name="북러관계"/>
+         <ClassCode code="1102002" name="UN"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260211185400080]]></Href>
+      <Writer><![CDATA[최인영]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러 외무 "추가 대북제재 저지할 것…비핵화 요구 부적절"]]></Title>
+      <Body><![CDATA[러 외무 "추가 대북제재 저지할 것…비핵화 요구 부적절"
+
+
+    (모스크바=연합뉴스) 최인영 특파원 = 세르게이 라브로프 러시아 외무장관은 유엔 안전보장이사회가 북한에 대한 새로운 제재를 승인하는 것을 저지할 것이라고 11일(현지시간) 밝혔다.
+    타스, 리아노보스티 통신에 따르면 라브로프 장관은 이날 러시아 하원(국가두마) 대정부 질의에서 "더는 유엔 안보리에서 북한에 대한 어떠한 제재 결의안도 통과하지 않도록 할 것"이라고 말했다.
+    그는 유엔 안보리 상임이사국인 러시아와 중국이 함께 추가 대북 제재 승인을 저지할 것이라면서도 "우리가 제재를 해제하는 결의안을 도입하고 채택되도록 할 수 있다고 예상하는 것은 비현실적"이라고 덧붙였다.
+    라브로프 장관은 또 한국과 미국, 일본의 군사 협력을 강화하는 상황에서 북한의 비핵화를 논하는 것은 부적절하다고 주장했다.
+    그는 "미국과 한국이 핵 요소를 포함한 군사 협력을 적극 강화하는 환경에서, 그리고 일본이 이 협력에 참여하려고 하는 환경에서 비핵화를 논하는 것은, 이런 상황에서 비핵화 요구가 적절하다고 하는 것은 북한 친구들에게 무례한 일"이라고 말했다.
+    라브로프 장관은 북한이 러시아 접경지 쿠르스크를 점령한 우크라이나군을 몰아내는 데 북한 파병군이 지원한 것에 다시 한번 깊은 감사를 표한다고 밝혔다.
+    그러면서 2024년 6월 러시아와 북한이 체결한 포괄적 전략적 동반자 관계 조약(북러조약)이 유라시아 안보 구조 구축에 중요하게 기여하고 있다고 평가했다.
+    abbie@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[세르게이 라브로프 러시아 외무장관]]></Title>
+         <Caption><![CDATA[[타스 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20260210037901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2026/02/10/PTA20260210037901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

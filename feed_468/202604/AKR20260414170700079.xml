@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260414170700079</ContentID>
+      <SendDate>20260414</SendDate>
+      <SendTime>222425</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107011" name="이란"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260414170700079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이란 정부 "인접국과 국경무역으로 美해상봉쇄 위협 무력화"]]></Title>
+      <Body><![CDATA[이란 정부 "인접국과 국경무역으로 美해상봉쇄 위협 무력화"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 이란 정부가 미국의 해상봉쇄 위협을 무력화하기 위해 인접국과 국경 무역 활성화를 지시했다고 국영 IRIB 방송이 14일(현지시간) 보도했다.
+    에스칸다르 모메니 이란 내무장관은 이날 미국의 잠재적인 해상봉쇄 위협에 따른 경제적 충격을 상쇄하기 위해 접경 지역 주지사들에게 국경 무역을 대폭 활성화할 것을 지시했다.
+    이란 정부포털에 게시된 문건에 따르면 모메니 장관은 "해상봉쇄 위협이 국민의 삶에 미치는 영향을 무력화하기 위해 접경 지역 주지사들은 기초 생필품 수입과 제품 수출을 포함한 국경 무역을 더욱 강화하고 발전시켜야 한다"고 강조했다.
+    모메니 장관은 이를 위해 "국가 및 지역의 모든 가용 자원을 동원해야 한다"며 "국경 지역 주민 협동조합 등 공공 단체들과 긴밀한 협력을 통해 물류가 원활히 흐를 수 있도록 조치하라"고 주문했다.
+    이란은 이라크, 튀르키예, 아르메니아, 아제르바이잔, 투르크메니스탄, 아프가니스탄, 파키스탄 등 7개국과 국경을 맞대고 있다. 또 북부 카스피해를 통해 러시아와 카자흐스탄과 교역도 활발하다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이란과 이라크 사이의 샤람자 국경]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260414170700079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/14/AKR20260414170700079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

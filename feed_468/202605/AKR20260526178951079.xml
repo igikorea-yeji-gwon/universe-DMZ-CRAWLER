@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260526178951079</ContentID>
+      <SendDate>20260527</SendDate>
+      <SendTime>082816</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260526178951079]]></Href>
+      <Writer><![CDATA[곽민서]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘, 중동 담판 와중에 레바논 지상전…민간인 희생 속출(종합)]]></Title>
+      <SubTitle><![CDATA[이스라엘군, 레바논 내 '옐로라인' 넘어 공격…어린이 포함 30여명 숨져]]></SubTitle>
+      <Body><![CDATA[이스라엘, 중동 담판 와중에 레바논 지상전…민간인 희생 속출(종합)
+이스라엘군, 레바논 내 '옐로라인' 넘어 공격…어린이 포함 30여명 숨져
+
+
+
+    (카이로·서울=연합뉴스) 김상훈 특파원 곽민서 기자 = 이스라엘이 미국과 이란의 종전 협상이 급물살을 타는 와중에도 레바논을 겨냥한 맹폭을 멈추지 않았다.
+    26일(현지시간) AFP통신에 따르면 레바논 보건부는 이날 남부 지역을 겨냥한 이스라엘의 공습으로 31명이 사망하고 40명이 다쳤다고 밝혔다.
+    사망자 가운데 최소 4명의 어린이가 포함된 것으로 알려졌다.
+    이스라엘의 공습이 공공병원 인근을 강타해 상당한 피해를 줬다고 레바논 국영 뉴스통신 NNA는 보도했다.
+    레바논 동부에서도 이스라엘군의 공습으로 2명의 소녀를 포함해 11명이 사망했다고 보건부가 밝혔다.
+    동부 리타니강에 있는 레바논 최대 규모의 댐인 카라운 댐에도 여러 차례 공습이 가해졌다.
+    이스라엘군은 이날 레바논 남부 나바티에시(市)를 포함해 최소 50개의 남부·동부 지역 마을에 대피 경보를 발령하고 대규모 공습을 단행했다.
+    이스라엘 히브리어 매체들은 익명의 안보 소식통을 인용, 이스라엘군이 최근 '옐로라인' 너머로 지상 작전을 확대했다고 전했다.
+    옐로라인은 이스라엘군이 레바논 내 친이란 무장 정파인 헤즈볼라에 의한 안보 위협을 줄이겠다며 지난달 중순 남부 접경지역에 설정한 구역으로, 레바논 영토 내부로 10㎞ 깊이까지 뻗어 있다.
+    이 과정에서 이스라엘군과 헤즈볼라가 직접 교전하는 상황도 벌어졌다.
+    헤즈볼라는 이날 성명에서 남부 자우타르 알-샤르키야 지역을 향해 이동하던 이스라엘군을 현장에서 격퇴했다고 밝혔다.
+    앞서 베냐민 네타냐후 이스라엘 총리는 전날 이스라엘군에 "(가속) 페달을 더욱 세게 밟으라"라며 헤즈볼라를 겨냥한 공세를 강화하라고 지시했다.
+    미국과 이란이 종전 합의를 위한 협상을 이어가는 가운데에도 이스라엘은 공세의 고삐를 더욱 조이며 충돌을 일으키는 모습이다.
+    이스라엘군은 도널드 트럼프 미국 대통령의 중재로 휴전이 시작된 지난달 17일 이후에도 헤즈볼라가 레바논 남부에 주둔 중인 병력을 위협한다는 이유로 공격을 멈추지 않았다.
+    더욱이 최근에는 이스라엘 공군 전투기들이 레바논 남부 전역에 대한 대대적인 공습까지 재개하면서 사상자가 속출하고 있다.
+
+
+    mskwak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 남부 마을에서 작전 중인 이스라엘군 병사]]></Title>
+         <Caption><![CDATA[[이스라엘군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260526178951079_05_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/26/AKR20260526178951079_05_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군의 레바논 남부 공습 재개]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260526237801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/05/26/PAF20260526237801009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

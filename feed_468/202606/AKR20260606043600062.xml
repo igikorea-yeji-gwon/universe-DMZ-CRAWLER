@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260606043600062</ContentID>
+      <SendDate>20260606</SendDate>
+      <SendTime>173655</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>4</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0503006" name="대학교육"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260606043600062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원대 평화학과, 철원 한탄강서 자연과 평화의 의미 탐구]]></Title>
+      <SubTitle><![CDATA[연구교수·외국인 유학생 등 35명 생태평화 현장연구 참여]]></SubTitle>
+      <Body><![CDATA[강원대 평화학과, 철원 한탄강서 자연과 평화의 의미 탐구
+연구교수·외국인 유학생 등 35명 생태평화 현장연구 참여
+
+    (춘천=연합뉴스) 이재현 기자 = 강원대학교 평화학과는 6일 강원 철원 한탄강 일대에서 '생태평화 현장연구'를 실시했다.
+
+    연구교수, 대학원생, 외국인 유학생 등 35명이 참가한 이번 프로그램은 한탄강의 지질·생태적 가치와 접경지역의 역사적 의미를 탐구하고 자연과 인간, 지역과 세계가 공존하는 평화의 의미를 배우기 위해 마련됐다.
+    이번 현장 연구에는 평화학과가 운영하는 '한글로 잇는 평화' 프로그램에 참여 중인 외국인 유학생들도 함께했다.
+    유학생들은 한국어 수업을 통해 익힌 언어와 문화를 바탕으로 강원도의 자연환경과 접경지역의 역사, 평화의 의미를 직접 경험했다.
+    참가자들은 한탄강의 독특한 지질 경관과 접경지역의 역사적 의미를 체험한 데 이어 노동당사에서 분단의 흔적을 돌아보며 평화의 가치를 되새기는 시간도 가졌다.
+
+    김희정 평화학과 학과장은 "강원도의 산과 강, 접경지역은 평화학을 현장에서 배우고 실천할 수 있는 소중한 교육 자원"이라며 "이번 생태 평화 현장 연구는 강원형 평화교육의 가능성을 확인한 뜻깊은 시간이었다"고 말했다.
+    강원대 평화학과는 도내 생태환경과 접경지역 특성을 활용한 '생태평화' 교육을 확대하고 있다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 한탄강서 자연과 평화의 의미 탐구]]></Title>
+         <Caption><![CDATA[[강원대 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260606043600062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/06/AKR20260606043600062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 한탄강서 자연과 평화의 의미 탐구]]></Title>
+         <Caption><![CDATA[[강원대 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260606043600062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/06/AKR20260606043600062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260417037100062</ContentID>
+      <SendDate>20260417</SendDate>
+      <SendTime>092815</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7104002" name="미국"/>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0401002" name="산업전시"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260417037100062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원관광재단, 미국 크루즈 박람회서 속초항 기항 유치 성과]]></Title>
+      <SubTitle><![CDATA[아자마라 크루즈 2028년 기항 확정…기항지 관광상품 고도화 추진]]></SubTitle>
+      <Body><![CDATA[강원관광재단, 미국 크루즈 박람회서 속초항 기항 유치 성과
+아자마라 크루즈 2028년 기항 확정…기항지 관광상품 고도화 추진
+
+
+    (춘천=연합뉴스) 류호준 기자 = 강원관광재단이 세계 최대 규모 크루즈 산업 박람회에서 속초항 기항 유치 성과를 거뒀다.
+    강원관광재단은 지난 13∼16일 미국 마이애미에서 열린 '씨트레이드 크루즈 글로벌 2026'(Seatrade Cruise Global 2026)에 참가해 속초항을 중심으로 한 크루즈 기항지 유치 마케팅을 펼쳤다고 17일 밝혔다.
+    이번 박람회는 120여 개국에서 크루즈 선사와 항만, 관광 기관 관계자 1만5천여 명이 참여하는 세계 최대 규모의 크루즈 산업 행사로, 업계 동향 공유와 비즈니스 상담이 이뤄진다.
+    재단은 주요 글로벌 선사를 대상으로 1대1 상담을 진행한 결과 아자마라 크루즈의 2028년 속초항 기항을 확정하고, 홀랜드 아메리카 라인과는 2029년까지 기항 일정을 유지하기로 협의했다.
+    또 윈드스타 크루즈 측은 설악산국립공원과 DMZ, 실향민 문화 등 지역 관광자원이 탐험형 크루즈와 부합한다며 향후 속초항 기항을 긍정적으로 검토하고 있다고 전했다.
+    재단은 한국관광공사 한국홍보관에 참가해 속초항의 기항지 경쟁력과 강원 관광자원을 집중적으로 홍보했다.
+    특히 설악산국립공원을 비롯해 설악향기로 트레킹, 지역 맥주 양조장 체험, 아바이마을 문화 체험 등 체류형 관광 콘텐츠를 소개하며 차별화를 강조했다.
+    이와 함께 항만 시설과 선석 규모, 수용 가능 선박 등 기항 여건과 환대 프로그램, 지원 제도를 안내해 선사 관계자들의 관심을 끌었다.
+    재단은 앞으로 글로벌 선사 대상 답사 여행 유치, 관광상품 고도화, 일본 사카이미나토항 등 인근 항만과의 협력 확대 등을 통해 속초항을 동북아 크루즈 거점으로 육성할 계획이다.
+    최성현 재단 대표이사는 "이번 박람회를 통해 속초항의 글로벌 인지도를 높이고 주요 선사와 협력 기반을 강화했다"며 "차별화된 콘텐츠와 전략적 마케팅으로 강원 크루즈 관광 경쟁력을 지속 확대하겠다"고 말했다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[Seatrade Cruise Global 2026 참가한 강원관광재단]]></Title>
+         <Caption><![CDATA[[강원관광재단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260417037100062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/17/AKR20260417037100062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[Seatrade Cruise Global 2026 참가한 강원관광재단]]></Title>
+         <Caption><![CDATA[[강원관광재단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260417037100062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/17/AKR20260417037100062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

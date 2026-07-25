@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260305094900030</ContentID>
+      <SendDate>20260305</SendDate>
+      <SendTime>120637</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Region>
+         <RegionCode code="7107001" name="중동"/>
+      </Region>
+      <Class>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0108001" name="외교일반"/>
+         <ClassCode code="0606008" name="안전관리"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260305094900030]]></Href>
+      <Writer><![CDATA[안용수]]></Writer>
+      <Desk code="030"><![CDATA[소비자경제부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[소비자원, 중동 상황 악화에 여행·항공·숙박 '피해주의보']]></Title>
+      <SubTitle><![CDATA["여행경보 3단계 미만 위약금 주의"]]></SubTitle>
+      <Body><![CDATA[소비자원, 중동 상황 악화에 여행·항공·숙박 '피해주의보'
+"여행경보 3단계 미만 위약금 주의"
+   
+    (서울=연합뉴스) 안용수 기자 = 한국소비자원과 공정거래위원회는 5일 최근 무력 충돌로 중동 지역 상황이 급격히 악화함에 따라 여행, 항공, 숙박 상품에 대한 소비자 피해주의보를 발령했다.
+
+
+    현행 소비자분쟁해결기준은 외교부의 여행경보가 '3단계(출국권고)' 이상인 지역일 경우에만 패키지여행 상품 계약금 환급과 위약금 면제가 가능하도록 했다.
+    만약 여행경보가 3단계 미만이거나 단순한 불안감으로 소비자가 먼저 계약을 해제할 경우 위약금을 부담해야 할 수 있다.
+    중동 지역 여행경보 현황은 4일 기준 ▲ 4단계(여행금지): 이스라엘 북부 레바논 접경지역·가자지구 ▲ 3단계(출국권고): 이란·사우디아라비아(예멘 국경 인근) ▲ 특별여행주의보: 사우디아라비아(3단계 지역 제외)·아랍에미리트·카타르·오만·바레인·요르단·쿠웨이트 등이다.
+    소비자가 개별적으로 예약하는 항공권이나 숙박 상품은 패키지여행과 달리 계약을 해제할 경우 사업자의 자체 약관이 우선이기 때문에 취소하면 수수료를 물어야 할 가능성이 크다고 소비자원은 지적했다.
+    또 3단계 미만의 여행경보일 경우 소비자의 단순 우려로 간주해 손해가 발생할 수 있다.
+    분쟁 해결이 어려운 경우 '1372 소비자상담센터'를 통해 문의할 수 있다.
+    aayyss@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[한국소비자원]]></Title>
+         <Caption><![CDATA[[연합뉴스TV 제공]]]></Caption>
+         <FileName>AKR20260305094900030_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/05/AKR20260305094900030_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

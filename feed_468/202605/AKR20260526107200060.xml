@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260526107200060</ContentID>
+      <SendDate>20260526</SendDate>
+      <SendTime>143220</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0402003" name="임업"/>
+         <ClassCode code="0505007" name="식물"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260526107200060]]></Href>
+      <Writer><![CDATA[김도윤]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국립수목원, 식물분류학회와 DMZ 생물 다양성 탐사]]></Title>
+      <Body><![CDATA[국립수목원, 식물분류학회와 DMZ 생물 다양성 탐사
+
+    (포천=연합뉴스) 김도윤 기자 = 산림청 국립수목원은 한국식물분류학회와 함께 비무장지대(DMZ) 일대 자생하는 식물 다양성을 발굴하는 탐사 프로그램 '디엠지 네이처 챌린지'(DMZ Nature Challenge)를 운영한다고 26일 밝혔다.
+    이 프로그램은 학회 회원과 관련 분야 대학 연구자·학생 등이 참여한 가운데 현장 관찰과 기록을 통해 DMZ 일대 식물 다양성 정보를 축적하는 방식으로 운영된다.
+
+    올해는 29∼30일 강원 양구지역에서 식물을 대상으로 우선 진행된다.
+    국립수목원은 향후 다양한 생물 분류군으로 탐사 대상을 확대하는 방안을 검토하기로 했다.
+    최경 국립수목원 산림생물다양성연구과장은 "이번 프로그램은 접근이 제한되거나 충분한 탐사 이뤄지지 않은 생물 다양성 사각지대를 보완하고자 기획됐다"며 "DMZ 생물 다양성 보전과 활용 전략 수립에 도움이 될 것"이라고 말했다.
+    kyoon@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260526107200060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/26/AKR20260526107200060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

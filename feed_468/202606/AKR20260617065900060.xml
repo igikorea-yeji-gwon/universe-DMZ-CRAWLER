@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260617065900060</ContentID>
+      <SendDate>20260617</SendDate>
+      <SendTime>104848</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+         <RegionCode code="7005022" name="연천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0501001" name="사회일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260617065900060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기북부 접경지 주민 군사 규제 완화에 일제히 '환영']]></Title>
+      <SubTitle><![CDATA["민통선 출입 영농 획기적 개선…평화와 경제 공존도시로 도약"]]></SubTitle>
+      <Body><![CDATA[경기북부 접경지 주민 군사 규제 완화에 일제히 '환영'
+"민통선 출입 영농 획기적 개선…평화와 경제 공존도시로 도약"
+    
+    (연천·파주=연합뉴스) 우영식 노승혁 기자 = 17일 국방부가 민간인출입통제선(이하 민통선) 북상과 군사분계선(MDL) 이남 제한보호구역 최소화 등 군사 규제 완화 대책을 발표하자 연천군과 파주시 등 경기북부 접경지 지자체와 주민들은 일제히 환영했다.
+
+    국방부는 내년부터 단계적으로 통제보호구역인 민통선을 북상해 제한보호구역으로 완화하고, 군사분계선 이남 제한보호구역을 최적화해 지역 개발이 가능하게 하겠다는 내용의 국방 분야 규제 완화 대책을 발표했다.
+    통제보호구역인 민통선은 군사분계선 인접 지역에서 군사 작전상 민간인의 출입을 통제하기 위한 기준선으로, 일반 시민은 군부대의 허가를 받아야 거주하거나 농사를 지을 수 있다.
+    이에 연천과 파주 등 경기북부 접경지 주민들은 정부의 군사 규제 완화를 환영하는 분위기다.
+    경기북부 주민들은 민통선 내 자유로운 영농 활동이 가능해지고 개발을 기대할 수 있는 데다 관광객 유치 등에 큰 도움이 될 것으로 기대했다.
+    김덕현 연천군수는 "연천은 민통선 출입 영농이 많은 평야 지대로 통제선이 4km 북상하는 등 규제가 완화되면 민통선 출입 영농이 획기적으로 개선돼 지역 농민들의 불편이 크게 줄어들 것"이라며 "연천군민 입장에서 적극적으로 환영한다"고 밝혔다.
+    김석인 연천군 미래전략담당관도 "그동안 지역주민들은 출입 절차상 불편과 재산권 행사를 못 해 불만이 많았다"며 "민통선 부분이 해제가 되면 그만큼 규제 완화나 군 협의 문제가 원활해져 주민의 불편 해소와 지역 개발을 하는데 충분한 이점을 발휘할 수 있을 것으로 본다"고 말했다.
+    임진강 북쪽 민통선 내에서 영농활동이 많은 파주시 주민들도 국방부의 발표를 반겼다.
+    파주시 관계자는 "민통선 북상은 북파주의 발전과 변화를 이끌 기회이자 파주의 새로운 도약을 의미한다"며 "해제 공간을 활용해 평화와 경제가 공존하는 첨단 자족도시로의 도약한다는 것이 파주의 미래 비전이자 발전 전략"이라고 환영했다.
+    박경호 파주 통일촌커뮤니티 센터장은 "민통선 지역은 그동안 생활 인프라도 없이 희생하고, 소외됐던 지역"이라며 "앞으로 주민 의견을 충분히 듣고, 지역 주민들에게 필요한 문화시설이나 경제시설들이 조성됐으면 좋겠다"고 말했다.
+
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[민통선 영농]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>AKR20260617065900060_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/17/AKR20260617065900060_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[민통선 주민과 '접경의 목소리, 평화를 말하다' 토론회]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 박수윤 기자 = 김남중 통일부 차관이 지난해 11월 10일 경기도 파주 캠프 그리브스에서 열린 '접경의 목소리, 평화를 말하다' 토론회에서 주민들과 기념촬영을 하고 있다. 2025.11.10 clap@yna.co.kr]]></Caption>
+         <FileName>PYH2025111007280050401_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/11/10/PYH2025111007280050401_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

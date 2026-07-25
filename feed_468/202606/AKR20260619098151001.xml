@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260619098151001</ContentID>
+      <SendDate>20260619</SendDate>
+      <SendTime>161751</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0102002" name="대통령"/>
+         <ClassCode code="0703007" name="교황"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260619098151001]]></Href>
+      <Writer><![CDATA[고동욱]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[李대통령 "교황에 北·DMZ 방문 요청…'적극고려·추진' 답변"(종합)]]></Title>
+      <SubTitle><![CDATA["교황, 삼성 휴대전화·현대차 쓴다더라…한반도 평화에 관심 높아"
+'한국 내 현직 추기경 임명' 교계 요청 전달…교황 "각별히 고려"]]></SubTitle>
+      <Body><![CDATA[李대통령 "교황에 北·DMZ 방문 요청…'적극고려·추진' 답변"(종합)
+"교황, 삼성 휴대전화·현대차 쓴다더라…한반도 평화에 관심 높아"
+'한국 내 현직 추기경 임명' 교계 요청 전달…교황 "각별히 고려"
+
+
+
+    (서울=연합뉴스) 고동욱 설승은 기자 = 이재명 대통령은 19일 레오 14세 교황에게 방북을 요청했다고 밝혔다.
+    이 대통령은 이날 청와대에서 가진 유럽·주요 7개국(G7) 순방 성과 브리핑에서 "교황께 내년 서울에서 개최되는 세계 청년대회를 계기로 방한을 요청했고, 방한 계기에 비무장지대(DMZ) 방문을 포함해 가급적이면 북한 방문도 추진해주시도록 요청했다"고 말했다.
+    이어 "교황께서도 '적극적으로 고려하고 추진해보겠다'는 말씀을 하셨다"고 전했다.
+    그러면서 "교황께서 즉위하시기 전에 한국을 다섯 차례 방문하셨다더라"며 "DMZ도 방문하셨던 것 같고, 한반도 평화 문제에 대한 관심도 매우 높다"고 소개했다.
+
+
+
+    앞서 이 대통령은 유럽 순방 중이던 지난 15일 교황청을 방문해 레오 14세 교황을 면담했다.
+    이 대통령은 당시 면담에서 국내 교구에 현직 추기경을 임명해 달라는 한국 천주교계의 염원도 전달했다고 밝혔다.
+    이에 교황도 아직 자신이 임명한 추기경이 없다며 "만약 새로 추기경을 임명하게 된다면 한국의 사정을 각별히 고려하겠다"고 답했다고 한다.
+    이 대통령은 "한국은 유일하게 선교사의 파견 선교를 통하지 않고 스스로 천주교를 받아들였다"며 "그래서 로마 교황청의 입장에서도 매우 중요하게 여기고 각별한 관심을 가지고 있다고 한다"고 전하기도 했다.
+    아울러 레오 14세 교황에 대해서도 "제게 검은 시계를 보여주면서 '이게 뭔지 아느냐. 삼성 시계다. 휴대전화도 갤럭시를 쓴다. 자동차도 현대차를 탄다'고 말씀하시더라"며 한국에 각별한 관심을 가진 것으로 보인다고 소개했다.
+    sncwook@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이재명 대통령과 레오 14세 교황]]></Title>
+         <Caption><![CDATA[(바티칸=연합뉴스) 한상균 기자 = 이재명 대통령과 레오 14세 교황이 15일(현지시간) 교황청 사도궁에서 단독 면담에 앞서 기념 촬영을 하고 있다. 2026.6.15 [바티칸 미디어 제공. 재판매 및 DB 금지] xyz@yna.co.kr]]></Caption>
+         <FileName>PYH2026061517690001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/15/PYH2026061517690001300_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이재명 대통령, G7·유럽순방 결과 브리핑]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 김도훈 기자 = 이재명 대통령이 19일 청와대 춘추관에서 G7참석·유럽순방 결과 브리핑을 하고 있다. 2026.6.19 superdoo82@yna.co.kr]]></Caption>
+         <FileName>PYH2026061916210001301_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/19/PYH2026061916210001301_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

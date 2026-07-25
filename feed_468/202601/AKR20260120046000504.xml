@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260120046000504</ContentID>
+      <SendDate>20260120</SendDate>
+      <SendTime>110002</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0109012" name="군사훈련"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260120046000504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[진보 성향 정치·종교·시민사회 "한미연합훈련 중단해야"]]></Title>
+      <Body><![CDATA[진보 성향 정치·종교·시민사회 "한미연합훈련 중단해야"
+   
+
+    (서울=연합뉴스) 하채림 기자 = 진보 성향의 정치권, 종교계, 시민사회가 모여 남북 군사분계선(MDL) 일대 완충지대 복구와 한미연합훈련 중단을 촉구했다.
+    '적대종식 평화협력 촉구 국회, 종교, 시민사회 시국회의'(이하 시국회의)는 20일 중구 프레스센터에서 발표한 시국선언문을 통해 "접경지역 적대행위와 한미연합군사연습 중단으로 관계개선과 평화의 길을 열자"고 호소했다. 
+    시국회의는 9·19 군사합의의 선제적 복원 취지를 살려 공중·해상·육상 완충지대를 재설정하고 완충지대 내 사격훈련과 무인기 비행 등 군사분계선 침범 행위를 통제, 중지해야 한다고 주장했다. 
+    아울러 제재와 군사압박 중심의 대북정책을 내려놓고 체제 존중과 관계 정상화 원칙 아래 정책 전환에 나서라고 주문했다. 
+    선언문에는 더불어민주당 이인영 등 국회의원 13명과 민족화해협력범국민협의회, 한국진보연대 등 개인 218명과 단체 357곳이 연명했다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[펄럭이는 태극기와 인공기]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 임병식 기자 = 북한이 한국 무인기 침투를 주장하고 있는 가운데 11일 경기도 파주시 접경지역에서 바라본 서부전선 비무장지대(DMZ)에서 남측 대성동 마을 태극기와 북측 기정동 마을 인공기가 펄럭이고 있다. 2026.1.11 andphotodo@yna.co.kr]]></Caption>
+         <FileName>PYH2026011104510006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/11/PYH2026011104510006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

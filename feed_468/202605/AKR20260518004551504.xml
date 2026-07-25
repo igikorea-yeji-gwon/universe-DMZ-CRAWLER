@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260518004551504</ContentID>
+      <SendDate>20260518</SendDate>
+      <SendTime>065026</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1008001" name="북한일반"/>
+         <ClassCode code="1001001" name="북한정치"/>
+         <ClassCode code="0109012" name="군사훈련"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260518004551504]]></Href>
+      <Writer><![CDATA[전명훈]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[北김정은, 전군 지휘관들 소집…"남부국경 최전선부대 강화"]]></Title>
+      <SubTitle><![CDATA[軍 편제·군사기술적 갱신 위한 기구도 출범 예정]]></SubTitle>
+      <Body><![CDATA[北김정은, 전군 지휘관들 소집…"남부국경 최전선부대 강화"
+軍 편제·군사기술적 갱신 위한 기구도 출범 예정  
+
+
+
+    (서울=연합뉴스) 전명훈 기자 = 김정은 북한 국무위원장이 군 지휘관들을 소집해 군사분계선 일대 무장력 강화를 지시했다. 
+    조선중앙통신은 18일 김 위원장이 전날 전군의 사단·여단 지휘관을 노동당 중앙청사로 소집해 일련의 '중요 군사문제'에 대해 담화했다고 보도했다.
+    김 위원장은 이 자리에서 "'남부 국경'을 지키고 있는 제1선 부대들을 강화하고 국경선을 난공불락의 요새로 만들데 대한 당의 영토방위정책"을 언급했다고 통신은 전했다.
+    북한의 남부 국경, 즉 남한과 맞닿은 군사분계선 일대 최전방 부대 강화 방침을 밝힌 것이다. 
+    김 위원장은 앞으로 "전쟁을 보다 철저히 억제"하기 위해 군사 조직구조 개편을 '중요한 결정'으로 내리겠다는 계획도 밝혔다. 
+    또한 제1선 부대를 비롯한 중요 부대들을 군사기술적으로 강화하기 위한 구상도 전했다고 통신은 보도했다.
+
+    김 위원장은 "군대를 군사 편제적으로, 군사 기술적으로 갱신하기 위한 기구적 대책을 세우게 된다"고 공개하고 이를 위한 지휘관들의 책임과 역할을 강조했다고 통신은 덧붙였다.
+    김 위원장은 "우리 군대의 군사기술장비들이 급속한 속도로 현대화되는데 맞게 모든 공간에서의 작전개념을 새롭게 정의하고 부대들의 전투훈련에 적용하기 위한 계획사업들도 적극 다그쳐야 한다"고 강조했다.
+    이어 "싸움준비 완성을 위한 훈련은 군대의 본업"이라며 "현대전의 변화되는 양상과 우리 군대의 발전추이에 맞게 훈련체계를 정비하며 실용적 훈련을 강화"해야 한다고 지휘관들에게 지시했다.
+
+    그러면서 "우리는 강력한 군대를 건설하고 있다"며 "이미 천명한 바와 같이 앞으로의 5개년 계획기간의 과제들이 수행되면 우리 군대의 전략적행동의 준비태세는 현재와 대비할 수 없게 갱신되게 되며 전쟁억제의 측면에서 커다란 변화를 맞이하게 된다"고 강조했다.
+    김 위원장들은 이날 지휘관들과 기념사진을 촬영했다. 리영길 인민군 총참모장, 박정천 국방성 고문 등이 김 위원장을 수행했다.
+    id@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은 전군 사·여단장 회의…"남부국경 최전선부대 강화"]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 북한 조선중앙통신은 "경애하는 김정은 동지께서 5월 17일 전군의 사,려단 지휘관들의 회합을 소집하시고 그들을 만나시였다"고 18일 보도했다. 2026.5.18 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026051800470004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/18/PYH2026051800470004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은 전군 사·여단장 회의…"남부국경 최전선부대 강화"]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 북한 조선중앙통신은 "경애하는 김정은 동지께서 5월 17일 전군의 사,려단 지휘관들의 회합을 소집하시고 그들을 만나시였다"고 18일 보도했다. 2026.5.18 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026051800490004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/18/PYH2026051800490004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은 전군 사·여단장 회의…"남부국경 최전선부대 강화"]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 북한 조선중앙통신은 "경애하는 김정은 동지께서 5월 17일 전군의 사,려단 지휘관들의 회합을 소집하시고 그들을 만나시였다"고 18일 보도했다. 2026.5.18 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026051800530004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/18/PYH2026051800530004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

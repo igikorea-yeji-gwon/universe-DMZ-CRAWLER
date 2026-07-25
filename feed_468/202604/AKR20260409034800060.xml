@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260409034800060</ContentID>
+      <SendDate>20260409</SendDate>
+      <SendTime>091831</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="1007004" name="대북지원"/>
+         <ClassCode code="1004001" name="북한사회"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260409034800060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주시, 남북 교류 협력기금 사업 6월부터 진행]]></Title>
+      <Body><![CDATA[파주시, 남북 교류 협력기금 사업 6월부터 진행 
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시는 최근 남북 교류 협력기금 사업 공모를 해 민간 보조사업자를 선정했으며, 관련 사업은 오는 6월부터 본격 추진할 예정이라고 9일 밝혔다. 
+
+    시는 올해 사업 범위를 기존의 단순 교류 및 인도적 지원 중심에서 시민이 직접 참여하는 문화·환경 협력 중심으로 확대하고, 기후 위기와 문화적 공감대를 중점 추진할 예정이다. 
+    공모사업은 남북 관계 개선과 평화 공감대 확산을 목표로 남북 문화교류 지원사업, 남북 교류 학술연구 사업, 남북 기후 협력 포럼 개최 등 3개 분야로 세분화해 추진된다.
+    오는 9월 개최 예정인 '남북 기후 협력 포럼'은 한반도 전체를 하나의 기후공동체로 인식하고 기후 위기의 심각성을 반영해 남북이 기후 위기 대응 방안을 공동으로 모색하는 자리로 마련할 예정이다. 
+    아울러 시는 북한이탈주민의 안정적인 지역사회 정착과 자립 기반 마련을 위해 초기 정착비 및 각종 교육비 등을 지원하고 있다.
+    북한이탈주민 국가건강검진 시 추가 검진비 지원을 신설해 북한이탈주민의 의료복지 혜택을 강화했으며, 위기가구에 법률상담, 심리치료비 지원 등 맞춤형 복지를 지속해 추진할 예정이다.
+    파주시 관계자는 "남북 교류 협력기금을 통해 접경지 파주에 평화의 마중물을 붓고, 북한이탈주민 지원을 통해 지역사회 통합을 이뤄 평화·통일에 한 걸음 더 다가가겠다"고 말했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주시청]]></Title>
+         <Caption><![CDATA[[파주시 제공. 재판매 및 DB 금지]]]]></Caption>
+         <FileName>PCM20250117000081990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/01/17/81/PCM20250117000081990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

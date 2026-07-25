@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260204070600062</ContentID>
+      <SendDate>20260204</SendDate>
+      <SendTime>105120</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7103007" name="독일"/>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0108001" name="외교일반"/>
+         <ClassCode code="0701004" name="축제"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260204070600062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성군·주한독일대사관, '피스 테크노 페스타' 공동 기획]]></Title>
+      <SubTitle><![CDATA[올 하반기 시범사업 추진…국제 평화문화 교류 단계적 확대]]></SubTitle>
+      <Body><![CDATA[강원 고성군·주한독일대사관, '피스 테크노 페스타' 공동 기획
+올 하반기 시범사업 추진…국제 평화문화 교류 단계적 확대
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = 강원 고성군은 주한독일대사관과 함께 통일 독일의 상징적 문화자산인 '테크노(Techno)'를 활용한 국제 평화문화 축제(가칭 '피스 테크노 페스타')를 공동 기획한다고 4일 밝혔다. 
+    고성군은 1950년 6.25전쟁 이후 남과 북으로 분단된 접경지역으로, 분단의 역사 속에서 평화의 가치를 모색해 온 지역이다.
+    이번 협력은 분단과 통일이라는 공통의 역사적 경험을 지닌 군과 독일이 문화를 매개로 평화의 메시지를 공유하기 위해 추진됐다.
+    독일의 테크노 문화는 베를린 장벽 붕괴 이후 통일 독일 사회에서 자발적으로 형성된 문화로, 분단의 상처를 넘어 자유와 연대, 공존의 가치를 상징하는 세계적 평화문화 자산으로 평가받고 있다.
+    군은 이러한 테크노의 역사적·상징적 의미를 접경지역에서 재조명함으로써 한반도 평화 담론을 국제사회로 확장한다는 계획이다.
+    이번 행사는 독일 테크노 아티스트 초청 공연을 비롯해 분단과 통일, 문화의 역할을 주제로 한 아티스트 토크와 토론, 독일 통일 이후 베를린 문화 신(scene)을 조명하는 콘텐츠 프로그램, 평화와 지속가능성을 주제로 한 시민 참여형 문화행사 등으로 구성될 예정이다.
+    올 하반기 중 이번 행사를 화진포 일원에서 시범사업으로 추진한 뒤, 국제 평화문화 교류 프로그램을 단계적으로 확대해 나갈 방침이다.
+    군 관계자는 "분단의 상징인 접경지역 고성에서 음악을 통해 평화를 이야기하는 새로운 시도"라며 "주한독일대사관과의 협력을 계기로 고성군을 글로벌 평화문화 교류의 거점으로 발전시켜 나가겠다"고 말했다.
+    주한독일대사관 측은 "테크노는 독일 통일 이후 사회·문화적 변화를 상징하는 중요한 자산"이라며 "고성군과의 협력은 독일의 통일 경험을 문화적 평화 메시지로 공유하는 의미 있는 프로젝트가 될 것"이라고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원 고성군 화진포]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2023010109130006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2023/01/01/PYH2023010109130006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

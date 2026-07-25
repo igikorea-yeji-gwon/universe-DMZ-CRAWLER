@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260601001651087</ContentID>
+      <SendDate>20260601</SendDate>
+      <SendTime>113910</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102010" name="미얀마"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260601001651087]]></Href>
+      <Writer><![CDATA[손현규]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[미얀마 반군 지역서 광산 발파용 폭약 터져…"최소 55명 사망"(종합)]]></Title>
+      <SubTitle><![CDATA[어린이들도 사망…반군 "보관하던 젤리그나이트 우발적으로 폭발"]]></SubTitle>
+      <Body><![CDATA[미얀마 반군 지역서 광산 발파용 폭약 터져…"최소 55명 사망"(종합) 
+어린이들도 사망…반군 "보관하던 젤리그나이트 우발적으로 폭발"     
+
+
+    
+    (멕시코시티·자카르타=연합뉴스) 송광호 손현규 특파원 = 미얀마의 소수민족 반군이 장악한 지역에서 보관 중이던 광산 발파 작업용 폭약이 폭발해 50명 넘게 숨졌다.
+    1일(현지시간) 로이터·AP 통신 등에 따르면 전날 낮 12시 30분께 미얀마 북부 샨주 남캄 타운십(행정구역)의 카웅탓 마을에 있는 한 건물에서 폭발이 발생했다.
+    이 사고로 어린이를 포함해 최소 55명이 숨지고 수십명이 다쳤다고 로이터와 영국 BBC 방송 등이 보도했다.
+    한 구조대원은 AP에 어린이 6명을 포함해 시신 46구가 수습됐다며 부상자 74명이 병원으로 이송됐다고 말했다.
+    또 폭발 충격으로 인근 주택 100여채가 파손되고 큰 불도 났다고 AP통신은 보도했다.
+    카웅탓 마을은 현재 미얀마 소수민족 반군인 타앙민족해방군(TNLA)이 장악한 지역으로 중국 국경에서 남쪽으로 불과 3㎞가량 떨어진 접경 지역이다.
+    TNLA는 성명을 통해 "광산과 채석장 작업용으로 보관하던 젤리그나이트가 우발적으로 터졌다"고 밝혔다.
+    젤리그나이트는 광산 발파용으로 널리 쓰이지만, 보관 상태가 좋지 않거나 시간이 지나면 상태가 불안정해져 작은 충격에도 폭발하는 위험 물질이다.
+    현재 미얀마 정부군과 휴전 중인 TNLA는 정확한 인명 피해 수는 밝히지 않았다.
+    TNLA는 텔레그램 게시물을 통해 "이번 폭발 사고로 목숨을 잃거나 다친 피해자 유가족에게 깊은 애도를 표한다"고 밝혔다. 
+    그러면서 사고 원인을 조사하고 있다며 책임자는 누구든지 엄중히 처벌하겠다고 덧붙였다.
+    TNLA는 나머지 희생자 시신을 수습하기 위해 사고 현장에서 계속 수색 작업을 하고 있다.      
+    미얀마 군부는 아웅산 수치 국가 고문의 민주주의민족동맹(NLD)이 압승을 거둔 2020년 총선을 부정선거라고 주장하며 이듬해 2월 쿠데타를 일으켰다.
+    TNLA는 2023년 미얀마민족민주주의동맹군(MNDAA)·아라칸군(AA) 등 다른 소수민족 반군과 함께 '형제동맹'을 결성한 뒤 군사정권을 상대로 합동 공세에 나섰다.
+    미얀마 군부는 올해 초 야당을 사실상 배제한 총선에서 압승했고, 군사정권 수장 출신인 민 아웅 흘라잉 전 최고사령관이 올해 4월 대통령으로 선출됐다.
+
+
+    son@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[폭발 사고 난 미얀마 반군 장악지역]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260601001651087_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/01/AKR20260601001651087_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[폭발 사고 난 미얀마 반군 장악지역]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260601001651087_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/01/AKR20260601001651087_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260624093100071</ContentID>
+      <SendDate>20260624</SendDate>
+      <SendTime>121852</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001303" name="취재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260624093100071]]></Href>
+      <Writer><![CDATA[백나리]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[트럼프 측근 "美정부, 한국과 원자력 협력에 매우 우호적"]]></Title>
+      <SubTitle><![CDATA['김정은과 찍은 사진' 트럼프 SNS엔 "북한으로 관심 돌릴 준비 시사"]]></SubTitle>
+      <Body><![CDATA[트럼프 측근 "美정부, 한국과 원자력 협력에 매우 우호적"
+'김정은과 찍은 사진' 트럼프 SNS엔 "북한으로 관심 돌릴 준비 시사"
+
+
+    (워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 1기 행정부에서 백악관 국가안보보좌관 비서실장을 지낸 프레드 플라이츠 미국우선주의정책연구소(AFPI) 부소장은 트럼프 행정부가 한국과의 원자력 협력에 매우 우호적이라고 전했다.
+    플라이츠 부소장은 23일(현지시간) 워싱턴DC에서 신간 출간을 기념하는 행사에서 취재진과 만나 이같이 말했다.
+    플라이츠 부소장은 "(작년 한미 간 정상회담 공동설명자료 안보 분야 이행이) 무역 문제와 관련한 이견으로 지연된 것 같지만 (이달초 한미 협의를 통해) 진정한 진전이 있었다고 본다"고 했다.
+    이어 한미 협의에 관련된 인사들을 만났다면서 "(협의에서) 합의 도달을 위한 일정표가 마련됐으며 연말까지 최종 합의를 하는 것이 그들의 희망"이라고 전했다. 
+    그러면서 한국이 선진적인 기술을 보유하고 있는데도 미국의 제한으로 핵연료봉을 만들 수 없는 것은 말이 안된다고 강조했다. 
+    플라이츠 부소장은 트럼프 대통령이 최근 김정은 북한 국무위원장의 사진을 소셜미디어에 올린 것을 거론하면서 "(트럼프 대통령이) 지금 북한으로 (관심을) 돌릴 준비가 됐다는 것을 시사한다고 본다"고 평했다.
+    그는 북한이 미국과의 대화를 원하지 않는 상태지만 북미 간 접촉 및 협상에 진전이 이뤄질 가능성이 있는 것으로 본다고 덧붙였다.
+    플라이츠 부소장은 트럼프 대통령과 김 위원장의 2018년 첫 정상회담이 비무장지대(DMZ)의 판문점에서 열리지 않고 싱가포르에서 열린 것은 문재인 전 대통령을 배제하기 위함이었다는 주장도 했다.
+    그는 문 전 대통령이 김 위원장과 타협하려는 의지가 강했다면서 트럼프 대통령이 싱가포르에서 김 위원장을 일대일로 만나 설득할 수 있었다고 부연했다.
+    nari@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[프레드 플라이츠 AFPI 부소장]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진 재판매 및 DB금지]]]></Caption>
+         <FileName>PYH2026061514750001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/15/PYH2026061514750001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

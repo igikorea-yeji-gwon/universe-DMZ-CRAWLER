@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260410065100083</ContentID>
+      <SendDate>20260410</SendDate>
+      <SendTime>104805</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102025" name="중국"/>
+         <RegionCode code="7102009" name="몽골"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260410065100083]]></Href>
+      <Writer><![CDATA[김현정]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[中, 자유무역지대에 네이멍구 추가…'북방 개방' 교두보 육성]]></Title>
+      <Body><![CDATA[中, 자유무역지대에 네이멍구 추가…'북방 개방' 교두보 육성
+
+
+    (베이징=연합뉴스) 김현정 특파원 = 중국이 북부 접경지역인 네이멍구자치구를 자유무역시험구(FTZ)로 새로 지정하고, 이 지역을 북방 개방의 교두보로 삼겠다고 밝혔다.
+    10일 중국 관영 신화통신에 따르면 중국 국무원은 전날 '중국 네이멍구 자유무역시험구 종합 계획'을 발표하고, 네이멍구 자유무역시험구를 대외개방과 질적 성장의 새 거점으로 육성하겠다고 설명했다.
+    중국 정부가 각지에 지정한 자유무역시험구는 규제 완화와 제도 혁신을 시험해 대외개방과 산업 발전 모델을 확산하기 위해 조성하는 국가 실험 플랫폼이다.
+    2013년 상하이 자유무역시험구를 시작으로 베이징·톈진·광둥·푸젠·랴오닝 등이 포함됐고, 이번 네이멍구 지정에 따라 23곳으로 늘어났다. 
+    신설되는 네이멍구 자유무역시험구는 119.74㎢ 면적으로, 후허하오터(76.28㎢)·만저우리(25.11㎢), 얼롄하오터(18.35㎢) 등 3개 구역으로 구성된다.
+    중국은 안으로는 8개 성과 연결되고, 밖으로는 러시아·몽골과 접해 유라시아로 통한다는 네이멍구의 입지를 활용해 이곳을 북향(向北) 개방의 중요 교두보로 키운다는 구상이다.
+    특히 이를 통해 네이멍구가 일대일로(一帶一路:중국-중앙아시아-유럽을 연결하는 육상·해상 실크로드)와 중·몽·러 경제회랑 건설의 핵심 플랫폼이 될 것이라고 국무원은 설명했다.
+    정부는 네이멍구 자유무역시험구를 통해 정보교류센터, 교통물류센터, 요소·자원 배치센터, 중점 분야 과학기술 혁신센터, 산업협력센터를 조성하고, 접경 내륙 개발·개방 전략 거점이자 전국의 고품질 발전을 뒷받침하는 시범지역으로 만들겠다는 목표를 제시했다.
+    산업 측면에서는 신형 전력 시스템 구축과 친환경 전력 인증 국제협력, 풍력·태양광 설비 회수·재활용 기준 정비, 구리·칼륨비료·형석 등 수입 자원 비축기지와 비철금속·액화석유가스 가공기지 건설을 추진한다. 
+    hjkim07@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중국 네이멍구를 찾은 시진핑 중국 국가주석]]></Title>
+         <Caption><![CDATA[[신화 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PXI20230607003701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/xi/2023/06/07/PXI20230607003701009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

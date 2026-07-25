@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260428048700504</ContentID>
+      <SendDate>20260428</SendDate>
+      <SendTime>110018</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109010" name="보훈복지"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260428048700504]]></Href>
+      <Writer><![CDATA[김효정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[6·25전쟁 호국영웅 故김판성 하사 유해 신원 확인]]></Title>
+      <Body><![CDATA[6·25전쟁 호국영웅 故김판성 하사 유해 신원 확인
+
+
+    (서울=연합뉴스) 김효정 기자 = 국방부 유해발굴감식단(이하 국유단)은 6·25전쟁 당시 중동부 전선 격전지인 '백석산 전투'에서 전사한 고(故) 김판성 하사(현 계급 상병)의 유해를 발굴해 신원을 확인했다고 28일 밝혔다.
+    1929년생인 고인은 6·25전쟁이 한창이던 1951년 5월 제주도 제1훈련소로 입대한 뒤 국군 제8사단 10연대에 배치됐다. 
+    휴전회담 우위 선점과 군사분계선 확정 시 유리한 지형 확보를 위해 강원도 양구군 북방의 전략적 요충지 백석산 일대에서 벌어졌던 '백석산 전투'에서 목숨을 잃었다. 당시 매·화장 보고서에는 전투의 치열함을 보여주듯 "적 포탄에 우족(右足) 절단 전사"라는 사인이 기록됐다.
+    고인의 유해는 2024년 10월 양구군 방산면 송현리 일대에서 발굴됐고, 유전자 시료 분석을 거쳐 올해 1월 신원이 확인됐다.
+    국유단 유가족 찾기 탐문관은 고인의 형이자 역시 6·25전쟁 참전용사인 고 김판석 옹의 거주지를 찾아 유가족 유전자 시료를 채취하고 비교 분석을 진행했다. 김판석 옹은 동생을 기다리다 2021년 작고했다.
+    국유단은 이날 김판석 옹의 장남이자 고인의 조카인 김창선 씨의 경기도 부천 자택에서 '호국의 영웅 귀환 행사'를 열고 신원확인 통지서와 유품 등을 전달했다.
+    2000년 유해발굴사업이 시작되고 현재까지 신원이 확인된 국군 전사자는 고인을 포함해 총 273명이다.
+    kimhyoj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[6·25전쟁 당시 '백석산 전투'에서 전사한 고(故) 김판성 하사의 신원확인 통지서와 유품 등을 국방부가 전달하는 모습 [국방부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260428048700504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/28/AKR20260428048700504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

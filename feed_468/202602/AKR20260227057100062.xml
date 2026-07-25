@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260227057100062</ContentID>
+      <SendDate>20260227</SendDate>
+      <SendTime>101723</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260227057100062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, 통일부 '접경지역 평화안전 연석회의' 참석]]></Title>
+      <Body><![CDATA[양구군, 통일부 '접경지역 평화안전 연석회의' 참석
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군은 최근 서울 종로구 통일부 남북회담본부에서 열린 '접경지역 평화안전 연석회의'에 참석해 접경지역 주민 안전망 구축 방안을 논의했다고 27일 밝혔다.
+    정동영 통일부 장관이 주재한 이번 회의는 최근 현안으로 떠오른 무인기 침범과 대북 전단 살포 문제에 대해 정부와 접경지역 지방자치단체가 공동 대응 방안을 찾고, 관련 조례 제정 등 실효성 있는 안전 관리 체계를 구축하고자 마련됐다.
+    이날 회의에는 서흥원 양구군수를 비롯한 접경지역 시장·군수협의회 소속 단체장 및 부단체장과 함께 통일부 장관, 국방부 차관, 행정안전부 재난안전관리본부장 등 정부 주요 관계자들이 참석했다.
+    회의에서는 정부·지자체 합동 접경지역 평화·안전망 구축 방안, 무인기 및 대북 전단 살포 관련 공동 종합대책 마련, 한반도 평화 공존 공감대 확산 사업 계획 공유 등이 중점적으로 논의됐다.
+    서흥원 군수는 "접경지역 주민들의 불안을 해소하고 일상을 안정적으로 영위할 수 있도록 지자체 차원의 역할을 강화하겠다"며 "현장의 의견이 정부 정책에 충분히 반영돼 실효성 있는 안전 대책이 마련될 수 있도록 적극 협력하겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[접경지역 평화안전 연석회의 개최]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2026022611980001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/26/PYH2026022611980001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

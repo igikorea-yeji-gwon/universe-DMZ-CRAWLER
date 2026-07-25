@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260326137000062</ContentID>
+      <SendDate>20260326</SendDate>
+      <SendTime>150812</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260326137000062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[평화지역서 열리는 농특산물 직거래장터…철원DMZ마켓 개장]]></Title>
+      <Body><![CDATA[평화지역서 열리는 농특산물 직거래장터…철원DMZ마켓 개장
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 평화지역(접경지역)의 농특산물 직거래장터인 철원DMZ마켓이 내달 4일 철원군 한탄강 은하수교 주차장에서 개장한다.
+    철원지역 주말장터로 자리매김한 철원DMZ마켓은 봄나물을 시작으로 한여름 토마토와 파프리카 등 제철 채소를 선보이고 풍성한 가을에는 대표 농산물인 철원오대쌀과 아삭한 사과 등 신선한 농산물을 판매한다.
+    막걸리, 수제 요거트 등 지역 특산품과 농산물을 활용한 다양한 먹거리, 지역 공예가들의 다양한 작품도 만날 수 있다.
+    내달 4일에는 개장을 기념해 방문객에게 선착순으로 화분을 나눠주는 행사를 진행한다.
+    최순범 농업유통과장은 26일 "철원DMZ마켓이 지역 농특산물의 우수성을 알리고, 주민과 관광객이 함께 어울리는 소통의 장이 되길 기대한다"며 "신선한 농산물과 다양한 지역 상품이 어우러진 활기찬 장터가 되도록 운영에 힘쓰겠다"고 말했다.
+    철원DMZ마켓은 오는 11월 29일까지 주말마다 운영될 예정이며, 혹서기인 7월 25일부터 8월 10일까지는 휴장할 계획이다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원DMZ마켓 개장]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260326137000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/26/AKR20260326137000062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

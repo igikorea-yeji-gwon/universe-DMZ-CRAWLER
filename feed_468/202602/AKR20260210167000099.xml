@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260210167000099</ContentID>
+      <SendDate>20260210</SendDate>
+      <SendTime>182454</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7106047" name="콩고민공"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1102002" name="UN"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260210167000099]]></Href>
+      <Writer><![CDATA[나확진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[민주콩고 동부서 IS연계 무장단체 공격 20명 사망]]></Title>
+      <SubTitle><![CDATA[유엔 평화활동국 사무차장, 민주콩고 동부 방문]]></SubTitle>
+      <Body><![CDATA[민주콩고 동부서 IS연계 무장단체 공격 20명 사망
+유엔 평화활동국 사무차장, 민주콩고 동부 방문
+
+
+    (요하네스버그=연합뉴스) 나확진 특파원 = 콩고민주공화국(민주콩고) 동부의 한 마을에서 이슬람국가(IS)와 연계된 무장단체의 공격으로 주민 등 최소 20명이 사망했다고 현지 당국이 9일(현지시간) 밝혔다.
+    AP통신에 따르면 현지 군사 행정관 알랭 키웨와 미텔라 대령은 IS와 연계된 무장단체 민주군사동맹(ADF)이 지난 7일 북키부주 루베로 지역의 맘빔비-이시고 마을을 공격했다고 전했다.
+    현지 시민단체는 총기와 칼로 무장한 괴한들이 민간인을 공격했다며 사망자 외에도 많은 주민이 실종돼 사망자 수가 늘어날 수 있다고 우려했다.
+    ADF는 1990년대 초 우간다에서 조직된 이후 중앙정부의 통제가 약한 서쪽 접경국 민주콩고의 동부로 거점을 옮겨 활동하는 무장단체다. 2019년부터는 IS의 분파를 자처하며 민주콩고 동부에서 민간인 살해와 납치·강간을 일삼아 유엔 등에서 인권 침해의 주범으로 지목됐다.
+    ADF는 올해 들어서만 북키부주 베니와 루베로 지역에서 최소 62명의 민간인을 살해한 것으로 이 지역 시민단체는 파악하고 있다.
+    ADF는 지난해 9월에도 루베로 지역의 은토요 마을에서 장례식장을 습격해 주민 70명 이상을 살해했고, 8월에도 베니, 루베로 지역의 여러 마을을 공격해 최소 52명의 민간인을 살해한 것으로 알려졌다.
+    코발트와 구리, 콜탄 등 전략 광물이 풍부한 민주콩고 동부지역은 ADF 외에도 투치족 반군 M23 등 100여개 무장세력이 난립하면서 30년 넘게 분쟁에 시달려왔다.
+    ADF의 이번 공격은 장-피에르 라크루아 유엔 평화활동국(DPO) 사무차장의 민주콩고 방문 하루 전 벌어졌다.
+    유엔 평화유지 활동을 총괄하는 라크루아 사무차장은 지난 8일 사흘 일정으로 민주콩고를 공식 방문했다고 르완다 매체 타리파는 전했다.
+    라크루아 사무차장은 ADF의 공격을 받은 베니 지역을 비롯해 민주콩고 동부지역도 돌아보고 있다.
+    민주콩고에는 유엔 평화유지군으로 민주콩고안정화임무단(MONUSCO)이 파견돼 동부에서 치안 유지와 민간인 보호, 인도적 지원 등의 임무를 수행하고 있다.
+   rao@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[민주콩고 동부 베니 인근 지역을 순찰하는 콩고 군인과 유엔군 [AP=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260210018801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/02/10/PAP20260210018801009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

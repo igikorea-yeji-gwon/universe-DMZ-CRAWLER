@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260629108100062</ContentID>
+      <SendDate>20260629</SendDate>
+      <SendTime>145527</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004018" name="화천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260629108100062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[화천 새 구호 '탄탄한 소득·든든한 복지·도약하는 화천' 확정]]></Title>
+      <Body><![CDATA[화천 새 구호 '탄탄한 소득·든든한 복지·도약하는 화천' 확정
+
+
+    (화천=연합뉴스) 이상학 기자 = 강원 화천군이 민선 9기 군정 비전을 담은 새 군정 구호를 '탄탄한 소득, 든든한 복지, 도약하는 화천'으로 확정했다.
+    화천군은 군정 구호 공모 결과 이 작품을 최우수작으로 선정했다고 29일 밝혔다.
+    새 군정 구호는 7월 1일 취임하는 김세훈 화천군수 당선인의 핵심 공약과 군정 방향을 담아냈다는 평가를 받았다.
+    '탄탄한 소득'에는 전 군민 기본소득과 재생에너지 발전 수익을 군민에게 배분하는 이른바 '햇빛연금', 햇빛소득마을 조성 등 소득 기반 확충 정책이 담겼다.
+    '든든한 복지'는 노령 농가 영농대행 지원 확대를 비롯해 버스 공영제 도입, 출산지원 확대, 어르신 일자리 확충, 공립 노치원(주간보호센터) 건립, 군민 간병보험 도입, 장애인 일자리 확대 등 복지 공약을 반영했다.
+    '도약하는 화천'은 스마트팜 단지 조성과 농산물 완판 시스템 구축, AI 기반 화천산천어축제 고도화, 4계절 관광, DMZ 평화관광 거점 육성, AI·디지털 교육 확대, 화천댐 물 주권 확보, 산림 순환 리사이클 사업 등 미래 성장 구축에 초점을 맞췄다.
+
+    화천군 관계자는 "민선 9기 출범과 함께 공약 이행을 위한 전략 수립과 사업 추진을 속도감 있게 진행할 계획"이라고 말했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김세훈 화천군수 당선인이 인수위에서 발언을 하고 있다.]]></Title>
+         <Caption><![CDATA[[화천군 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260629108100062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/29/AKR20260629108100062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[화천군]]></Title>
+         <Caption><![CDATA[[화천군 제공]]]></Caption>
+         <FileName>PCM20240812000004990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/08/12/04/PCM20240812000004990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

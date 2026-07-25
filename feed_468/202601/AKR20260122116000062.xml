@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260122116000062</ContentID>
+      <SendDate>20260122</SendDate>
+      <SendTime>152628</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="1209001" name="동계체육"/>
+         <ClassCode code="1209002" name="스케이트"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260122116000062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 동송읍 빙상경기장서 백곰배 스피드스케이팅 대회 개최]]></Title>
+      <SubTitle><![CDATA[군부대 유휴부지 빙상장 활용…지역 소멸 극복 모색]]></SubTitle>
+      <Body><![CDATA[철원군, 동송읍 빙상경기장서 백곰배 스피드스케이팅 대회 개최
+군부대 유휴부지 빙상장 활용…지역 소멸 극복 모색
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 오는 24∼25일 동송읍 오지리 야외 빙상경기장에서 제58회 백곰배 전국초등학교 스피드스케이팅대회를 개최한다.
+    대한빙상경기연맹이 주최하고 철원빙상경기연맹이 주관하는 이번 대회에는 선수 250명이 참가해 남녀 400ｍ, 800ｍ, 1천ｍ, 1천500ｍ, 2천ｍ 등 종목에서 기량을 겨룬다.
+    철원군은 대회가 열리는 야외 자연 빙상장이 군부대 유휴 시설을 활용해 조성·운영하는 공간으로, '안보의 땅'이 '생활체육과 꿈의 무대'로 확장되는 상징성을 지닌 것으로 평가했다. 
+    특히 지역소멸 위기를 겪는 철원에서 겨울철 스포츠대회는 숙박·식음료·교통 등 지역 소비를 이끌며 '철원에서도 아이들이 전국 무대에서 달릴 수 있다'는 지역의 자긍심을 키우는 계기가 되는 것으로 분석했다.
+    국제스피드스케이트장 유치를 희망하고 있는 철원군은 백곰기 대회가 펼쳐질 군부대 유휴부지에 조성된 빙상장 부지를 활용할 계획이다.
+    각종 규제로 개발과 확장이 쉽지 않은 접경지역에서 이번 대회는 가능성을 보여주는 실증 무대로의 역할을 한다.
+    이현종 군수는 22일 "백곰기는 동계 스포츠 저변을 넓히는 동시에 지역을 알리는 소중한 창구"라며 "안전한 대회 운영과 원활한 경기 진행을 통해 철원의 겨울이 전국의 기억에 남도록 준비하겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군 야외 스케이트장]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260122116000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/22/AKR20260122116000062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

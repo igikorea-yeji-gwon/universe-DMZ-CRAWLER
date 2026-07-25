@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260306135900371</ContentID>
+      <SendDate>20260306</SendDate>
+      <SendTime>161213</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="10"/>
+      <Region>
+         <RegionCode code="7107001" name="중동"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101007" name="난민망명"/>
+         <ClassCode code="1102002" name="UN"/>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+         <ClassCode code="1101006" name="분쟁"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260306135900371]]></Href>
+      <Writer><![CDATA[성도현]]></Writer>
+      <Desk code="371"><![CDATA[동포.다문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[유엔난민기구 "중동 사태로 강제실향민 33만명"…국제사회 호소]]></Title>
+      <Body><![CDATA[유엔난민기구 "중동 사태로 강제실향민 33만명"…국제사회 호소
+
+
+    (서울=연합뉴스) 성도현 기자 = 유엔난민기구(UNHCR)는 최근 이란 등 중동 전역에서 격화하는 교전으로 인해 발생한 강제실향민이 33만명을 넘어섰다고 분석했다.
+    UNHCR 한국대표부(대표 김새려)는 6일 보도자료를 내고 "이번 사태로 발생한 강제실향민이 총 33만명을 넘어섰다"며 "이들 대부분은 자국 내에서 피난 생활을 이어가고 있다"고 밝혔다.
+    아프가니스탄 출신 강제실향민 165만명을 장기간 보호해온 이란에서는 공격 발생 첫 이틀 동안 테헤란에서만 약 10만명이 피난한 것으로 추산한다.
+    다만 "현재까지 대규모 국경 이동 사례는 보고되지 않았다"고 설명했다.
+    레바논은 8만 4천명 이상의 강제실향민이 전국 400여개 공동 대피소에 머물고 있다. 
+    교전 시작 이후 시리아인과 레바논 주민 등 3만명 이상이 안전을 찾아 시리아 국경을 넘었다고 분석했다.
+
+    매튜 솔트마쉬 UNHCR 글로벌 대변인은 "폭력 사태가 심화함에 따라 즉각적인 대화와 긴장 완화를 긴급히 촉구한다"며 "UNHCR은 이미 현장에서 강제실향민 지원을 시작했으며, 상황 변화에 따라 지원 규모를 확대할 준비를 마쳤다"고 말했다.
+    미국·이스라엘과 이란 간 충돌 이외에 아프가니스탄과 파키스탄의 갈등 상황으로 인해 강제실향민도 발생하고 있다.
+    UNHCR은 양국 접경지에서 발생한 군사 충돌로 아프가니스탄에서 11만 5천명, 파키스탄에서 3천명의 강제실향민이 발생했다고 본다.
+    UNHCR은 "생명의 위협을 느껴 이동하거나 국경을 넘어야 하는 모든 민간인에게 '안전한 통로'가 반드시 보장돼야 한다"며 국제사회의 적극적인 관심을 요청했다.
+    UNHCR 한국대표부도 중동 지역 강제실향민을 돕기 위한 긴급구호 모금을 시작했다. 모금은 UNHCR 홈페이지 및 네이버 해피빈 모금함에서 참여할 수 있다. 
+    raphael@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중동 사태 우려로 레바논서 시리아로 이동하려는 피난 행렬]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 이스라엘의 폭격과 대피 명령 이후 피난한 사람들이 레바논 마스나 국경 검문소에서 사람들이 시리아로 넘어가기 위해 모여 있다. [유엔난민기구 한국대표부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306135900371_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306135900371_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중동 사태 우려로 피난 준비 중인 이들]]></Title>
+         <Caption><![CDATA[[유엔난민기구 한국대표부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306135900371_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306135900371_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260420130700062</ContentID>
+      <SendDate>20260420</SendDate>
+      <SendTime>162857</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0701004" name="축제"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260420130700062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 제6회 대한민국 축제 엑스포 콘텐츠 부문 최우수상]]></Title>
+      <Body><![CDATA[철원군, 제6회 대한민국 축제 엑스포 콘텐츠 부문 최우수상
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 지난 주말 수원 컨벤션센터에서 열린 제6회 대한민국 대표 축제 엑스포에서 '대한민국 베스트 축제 어워드' 콘텐츠 부문 최우수상을 받았다고 20일 밝혔다.
+    군은 이번 박람회에서 특색있는 홍보부스를 운영하며 청정 비무장지대(DMZ) 자연환경을 배경으로 한 지역 고유 축제 콘텐츠를 선보였다.
+    특히 한탄강 화산암반수에서 자란 '화강 다슬기'를 테마로 한 체험형 여름 축제인 철원 화강 다슬기 축제와 한탄강 물윗길 트래킹 등 철원만의 스토리텔링이 담긴 축제 홍보물과 영상을 선보이며 눈길을 끌었다.
+    아울러 철원군 상징 캐릭터 '철궁이'를 활용한 철원군 홍보와 퀴즈 이벤트로 현장 참가자를 모으며 지역 관광을 홍보했다.
+    철원군 관계자는 "이번 수상은 화강 다슬기 축제, 물윗길 트래킹 등 철원만의 차별화된 축제 콘텐츠가 전국적으로 인정받은 결과"라며 "앞으로도 지역 색깔이 담긴 축제를 더욱 발전시켜 철원 관광 활성화에 이바지하겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[제19회 철원 화강 다슬기축제]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2025073109800006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/07/31/PYH2025073109800006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260103002051108</ContentID>
+      <SendDate>20260103</SendDate>
+      <SendTime>131248</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107007" name="예멘"/>
+         <RegionCode code="7107004" name="사우디"/>
+         <RegionCode code="7107006" name="아랍에미"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260103002051108]]></Href>
+      <Writer><![CDATA[신재우]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[예멘 분리주의세력 사실상 독립 선언…사우디는 또 직접 타격(종합)]]></Title>
+      <SubTitle><![CDATA[남부과도위, 독립 헌법 발표하며 "2년 후 국민투표"…긴장 격화
+사우디, 접경지 탈환 공세…UAE는 일단 예멘서 군 철수 완료]]></SubTitle>
+      <Body><![CDATA[예멘 분리주의세력 사실상 독립 선언…사우디는 또 직접 타격(종합)
+남부과도위, 독립 헌법 발표하며 "2년 후 국민투표"…긴장 격화
+사우디, 접경지 탈환 공세…UAE는 일단 예멘서 군 철수 완료
+
+
+    (이스탄불·서울=연합뉴스) 김동호 특파원 신재우 기자 = 아랍에미리트(UAE)의 지원을 받는 예멘 분리주의 세력 남부과도위원회(STC)가 독립을 골자로 한 헌법을 선포하면서 예멘 내 세력 갈등이 한층 격화하고 있다.
+    사우디아라비아 주도 연합군은 STC를 상대로 또다시 대규모 공세를 단행, 사우디와 분리세력 양측의 전면적 충돌 가능성도 커지고 있다. 
+    AP통신 등에 따르면, STC는 2일(현지시간) 자체 헌법을 발표하며 사실상 분리 독립을 선언했다. 
+    30개 조항으로 구성된 이 헌법은 1967∼1990년에 존재했던 남예멘 지배 영토에 '남아라비아국'을 창설한다는 내용을 담고 있다.
+    STC는 향후 2년간 과도기를 거친 뒤 국민투표를 통해 남부 주민의 자결권을 행사하겠다고 밝혔으며, 다른 세력들이 이를 거부하거나 군사 행동에 나설 경우 "모든 선택지가 열려 있다"고 경고했다. 
+    이같은 조치는 사우디와 UAE가 주도해온 예멘 내 연합 전선을 뒤흔드는 행보로 평가된다. AP통신은 독립을 목표로 한 STC의 행보 중 가장 노골적 조치라고 평가했다.  
+     사우디와 UAE는 그동안 이란의 지원을 받는 후티 반군에 맞서 국제적으로 승인된 예멘 정부를 복원한다는 공동 목표 아래 협력해왔으나, 남부 독립을 추구하는 STC를 둘러싼 입장 차이로 갈등을 빚어왔다.
+
+    사우디 주도 연합군은 이날 STC가 지난달 장악한 하드라마우트주(州)를 탈환하기 위한 공세에 나섰다. 
+    STC는 사우디의 대규모 공습으로 인해 전투원 20명이 사망했다고 밝혔다. 
+    사우디군에 가까운 한 관계자는 "STC가 하드라마우트와 마라에서 철수할 때까지 공습이 멈추지 않을 것"이라고 경고했다.
+    사우디에 인접한 이들 두 지역은 한동안 사우디가 지지하는 예멘 정부군이 통치해왔지만, 지난달 STC가 장악했다.
+    사우디는 STC에 점령지 철수를 요구했으나 받아들여지지 않자 지난달 26일 STC 거점을 직접 공습했고, 나흘 뒤인 30일에도 예멘 무칼라 항구에 하역된 UAE 물자를 타격하며 긴장이 고조됐다.
+    UAE는 두 차례에 걸친 사우디의 공습 직후 예멘에서 군을 철수하겠다고 발표했으며, 3일 새벽 철수가 완료됐다고 발표했다. 
+    한편 예멘 정부의 실질적 의사결정 권한을 가진 대통령지도위원회의 라샤드 알알리미 위원장은 남부 문제 해결을 위한 회의 개최를 사우디에 공식 요청했다.
+    후티 반군이 운영하는 사바 통신에 따르면, 알알리미 위원장은 "UAE의 지원을 받는 STC를 포함해 남부의 모든 정치·사회 세력이 차별 없이 참여하는 대화의 장이 마련되길 바란다"고 말했다.
+    사우디 외무부도 이날 성명을 내고 예멘 남부 지역의 모든 분리주의 세력에 사태 해결을 위한 대화를 촉구했다고 AFP통신이 전했다. 사우디 수도 리야드에 만나 공정한 해결책을 모색하자는 취지다. 
+    withwit@yna.co.kr
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[사우디 측, 예멘 분리주의 세력 STC가 장악한 기지 공습]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260102119201009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/01/02/PAF20260102119201009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[STC 지지집회]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260102123701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/01/02/PAP20260102123701009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

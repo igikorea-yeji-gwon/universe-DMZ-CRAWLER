@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260226129500061</ContentID>
+      <SendDate>20260226</SendDate>
+      <SendTime>142825</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0706001" name="문학"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260226129500061]]></Href>
+      <Writer><![CDATA[김솔]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['2026 DMZ 세계문학 페스타' 내달 27~29일 파주서 개최]]></Title>
+      <Body><![CDATA['2026 DMZ 세계문학 페스타' 내달 27~29일 파주서 개최
+
+    (수원=연합뉴스) 김솔 기자 = 경기도, 경기문화재단, 한국작가회의는 다음 달 27~29일 '2026 DMZ 세계문학 페스타'를 공동 개최한다고 26일 밝혔다.
+
+    경기 파주시 파주출판단지와 DMZ 캠프 그리브스에서 개최되는 이번 행사는 평화와 공존을 위한 문학의 역할을 조명하는 취지에서 기획됐다.
+    김동연 경기도지사와 도종환 작가, 프리야 바실 작가 등 3명이 공동 조직위원장을 맡아 행사를 총괄 운영한다.
+    행사에는 노벨문학상 수상자인 스베틀라나 알렉시예비치를 비롯한 해외 및 국내 초청작가들과 조직위원회 관계자 등 약 150명이 참석할 예정이다.
+    이 외 참석이 예정된 해외 초청 작가는 프리야 바실, 호시노 도모유키, 아흘람 브샤라트, 마리아 로사 로호, 제인 정 트렌카, 이스마엘 베아, 사르지 라케스타, 주킬레 자마 등 모두 9명이다.
+    행사는 기조강연, 국제 작가 대담, 평화 북페어, 대회 선언문 채택 등 다양한 프로그램으로 이뤄진다.
+    특히 세계 유명 작가들이 분단, 평화, 민주주의, 디아스포라, 마이너리티 등 여러 주제에 대한 의견을 나누며 깊이 있는 담론을 펼칠 예정이다.
+    또 국내외 작가들이 공동 작업을 통해 '생명·평화·공존'을 위한 대회 선언문을 작성·번역·공유하며 연대의 의지를 다지는 시간을 갖는다.
+    재단 관계자는 "이번 행사가 국제 문학연대의 방향성을 제시하는 자리가 될 수 있기를 기대한다"고 말했다.
+    sol@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[행사 포스터]]></Title>
+         <Caption><![CDATA[[경기문화재단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260226129500061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/26/AKR20260226129500061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

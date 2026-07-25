@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260202157000060</ContentID>
+      <SendDate>20260202</SendDate>
+      <SendTime>174911</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005003" name="고양"/>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0506003" name="철도교통"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260202157000060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[고양시 철도사업 탄력…정부, 예비타당성 조사 문턱 낮춰]]></Title>
+      <Body><![CDATA[고양시 철도사업 탄력…정부, 예비타당성 조사 문턱 낮춰
+
+    (의정부=연합뉴스) 우영식 기자 = 인천지하철 2호선 고양 연장, 가좌식사선 등 고양지역 철도사업이 속도를 낼 전망이다.
+
+    경기도는 기획예산처 훈령 '예비타당성조사 운용지침' 제42조가 개정돼 고양시 철도사업이 예비타당성 조사에서 '비수도권 유형'으로 분류됐다고 2일 밝혔다.
+    고양시와 같이 접경지역 등 특별 배려가 필요한 지역이면서 '과밀억제권역'에 해당하더라도 철도처럼 '인구집중유발시설'에 해당하지 않는 사업을 추진할 경우에는 예비타당성 조사에서 '비수도권 유형'으로 분류해 평가한다는 내용이다.
+    도의 규제 개선 건의를 정부가 수용한 것이다.
+    이에 따라 인천2호선 고양연장, 가좌식사선, 대곡고양시청식사선 등 고양시가 포함된 주요 철도망 사업이 탄력을 받을 전망이다.
+    기존 지침은 특별배려가 필요한 수도권 지역(접경지역, 도서지역 등 특수상황지역 등)이라 하더라도 고양시와 같이 '과밀억제권역'에 해당하면 무조건 수도권 유형으로 분류해 경제성 위주의 엄격한 잣대를 적용했다. 
+    그러나 개편된 운용지침은 과밀억제권역이더라도 예비타당성 조사 대상 사업 특성에 따라 철도와 같이 인구 집중 유발 시설이 아닌 사업은 비수도권 유형으로 분류하도록 했다. 
+    이번 개정의 핵심은 수도권 내에서도 접경·규제 등 복합 여건을 가진 지역은 사업 특성에 따라 '비수도권 유형'으로 분류할 수 있는 근거가 신설됐다는 점이다.
+    사업 유형이 비수도권으로 분류되면 기존 '경제성(B/C)·정책성' 중심의 평가방식에서 '지역균형발전 분석' 요소가 추가된다. 
+    현재 예타가 진행 중인 '인천2호선 고양연장(인천 서구 독정역~걸포북변~킨텍스~중산지구, 총사업비 2조830억 원)'은 종합평가(AHP)에서 좋은 평가를 받을 수 있을 전망이다. 
+    또 '제2차 경기도 도시철도망 구축계획'에 포함된 가좌식사선, 대곡고양시청식사선 등 고양시 내부 철도망 사업들은 향후 예타 추진 시 지역 특수성을 제대로 인정받을 수 있는 길이 열렸다.
+    추대운 경기도 철도항만물류국장은 "접경지역이라는 특수성에도 불구하고 수도권 기준에 묶여 구조적 불이익을 받아왔던 고양시의 철도사업 환경이 개선됐다"며 "지난해부터 정부에 계속해서 건의해 온 노력이 결실을 본 만큼, 도는 출퇴근 하루 1시간의 여유를 시민들에게 돌려줄 수 있도록 최선을 다하겠다"고 말했다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도청사]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260202157000060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/02/AKR20260202157000060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

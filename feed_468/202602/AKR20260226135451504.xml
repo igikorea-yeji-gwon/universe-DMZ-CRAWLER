@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260226135451504</ContentID>
+      <SendDate>20260226</SendDate>
+      <SendTime>150316</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="0109004" name="해군"/>
+         <ClassCode code="0109012" name="군사훈련"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260226135451504]]></Href>
+      <Writer><![CDATA[이정현]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[해병대 서북도서 해상사격훈련…K9 자주포 190여발 실사격]]></Title>
+      <SubTitle><![CDATA[김정은 '완전 붕괴' 위협 발언 전해진 뒤 이뤄져…해병대 "통상적인 방어적 성격"]]></SubTitle>
+      <Body><![CDATA[해병대 서북도서 해상사격훈련…K9 자주포 190여발 실사격
+김정은 '완전 붕괴' 위협 발언 전해진 뒤 이뤄져…해병대 "통상적인 방어적 성격"
+
+
+    (서울=연합뉴스) 이정현 기자 = 해병대가 26일 서해 북방한계선(NLL) 이남 우리 해역에서 해상사격훈련을 실시했다고 서북도서방위사령부가 밝혔다.
+    사령부 예하 6여단과 연평부대가 진행한 해상사격훈련에는 K9 자주포가 참가해 190여 발을 실사격한 것으로 알려졌다.
+    6여단은 백령도, 연평부대는 연평도에 배치된 서해 최북단 해병부대다.
+    K9 자주포를 동원한 서북도서 해상사격훈련은 지난해 12월 16일 이후 약 2개월만이며, 올해 들어서는 첫 번째다.
+    매년 3∼4차례 실시되던 서북도서 해상사격훈련은 2018년 남북이 체결한 '9·19 남북군사합의'로 중단됐다가 2024년 6월 윤석열 정부가 대남 쓰레기 풍선 살포 등 북한의 도발에 대응해 9·19 군사합의 전면 효력정지를 결정하면서 재개됐다.
+    지난해에는 총 4회 실시된 바 있다.
+    해병대 관계자는 "통상적인 방어적 성격의 훈련"이라고 강조했다.
+    이번 훈련은 김정은 북한 국무위원장의 한국의 접경지 훈련에 대한 경고성 발언이 전해진 이후에 이뤄졌다.
+    이날 조선중앙통신 보도에 따르면 김 위원장은 지난 20∼21일 진행된 9차 당대회 총화 보고에서 "핵보유국의 문전에서 실행되는 한국의 부잡스러운 행동이 우리의 안전 환경을 다쳐놓는 행위로 인정되는 경우 우리는 임의의 행동을 개시할 수 있다"며 한국의 완전붕괴 가능성까지 거론했다.
+    lisa@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[해병대, 해상사격훈련]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 25일 서북도서방위사령부 해상사격훈련에서 해병대 6여단 K-9자주포가 사격을 실시하고 있다. 2025.6.25 [해병대사령부 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2025062515770001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/06/25/PYH2025062515770001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

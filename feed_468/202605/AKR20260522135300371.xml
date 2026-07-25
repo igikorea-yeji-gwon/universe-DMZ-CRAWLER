@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260522135300371</ContentID>
+      <SendDate>20260522</SendDate>
+      <SendTime>171638</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="10"/>
+      <Class>
+         <ClassCode code="1008002" name="동포"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0501003" name="인권"/>
+         <ClassCode code="0504001" name="복지일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260522135300371]]></Href>
+      <Writer><![CDATA[강성철]]></Writer>
+      <Desk code="371"><![CDATA[동포.다문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[동포의 창] "입양동포는 한민족공동체 중요 구성원"…지속 지원 요청]]></Title>
+      <SubTitle><![CDATA[세계한인입양동포대회 참가한 95명 입양동포 동포청에 정책제안
+김경협 청장, 파주·DMZ 동행…"든든한 버팀목 되도록 충실 반영"]]></SubTitle>
+      <Body><![CDATA[[동포의 창] "입양동포는 한민족공동체 중요 구성원"…지속 지원 요청
+세계한인입양동포대회 참가한 95명 입양동포 동포청에 정책제안
+김경협 청장, 파주·DMZ 동행…"든든한 버팀목 되도록 충실 반영"
+
+
+    (서울=연합뉴스) 강성철 기자 = 해외 한인 입양동포 단체 리더들은 22일 서울 롯데호텔월드에서 재외동포청(청장 김경협) 주최로 열린 '2026 세계한인입양동포대회' 폐회식에서 '입양동포 정책제안서'를 재외동포청에 전달했다.
+    입양동포와 그 자녀를 한국 역사와 글로벌 한인공동체의 중요한 구성원으로 보고, 입양동포 단체를 지속 가능한 공동체 기반으로서 지원할 필요가 있다는 내용이 핵심이다.
+    세부 제안사항은 ▲ 거주국 내 입양동포 단체 지원과 심리지원 확대 ▲ 재외공관의 입양동포 지원역량 강화 ▲ 가족찾기·국적 회복·입양기록 접근 등을 위한 다국어 정보포털 구축 ▲ 한국 내 단일 연락 창구와 통합 지원체계 마련 ▲ 입양동포 경험에 대한 사회적 인식 개선 ▲ 입양동포 자녀·후손 지원체계 마련 등이다.
+    이 제안은 입양동포단체 리더들이 초안을 만든 뒤 12개국 95명의 참가자 전체 의견을 수렴해 마련했다. 
+    재외동포청은 정책 제안서 전달을 끝으로 대회 5일간의 일정을 성공적으로 마무리했다고 밝혔다.
+    앞서 21일에는 김경협 청장이 참가자들과 함께 경기도 파주를 방문해 엄마품동산과 비무장지대(DMZ) 일대를 둘러봤다.
+    참가자들은 입양동포를 기리는 상징 공간인 엄마품동산에서 해외입양의 역사와 입양동포들이 걸어온 시간을 돌아보고, 모국과의 유대 의미를 되새겼다.
+
+    이어 DMZ와 도라전망대 등 접경지역을 찾아 한반도 분단의 현실을 가까이에서 마주하며, 평화와 통일이 갖는 의미를 함께 생각했다.
+    폐회식에서는 대회 주요 성과를 돌아보고, 참가자들이 모국에서 나눈 경험과 연대의 의미를 되새기는 시간이 마련됐다.
+    김민철 재외동포청 차장은 폐회사에서 "이번 공동 정책제안서는 입양동포 사회가 직접 제시한 소중한 목소리"라며 "재외동포청은 이를 관계기관과 공유하고, 향후 지원정책과 사업에 충실하게 반영될 수 있도록 지속 검토하고 소통할 것"이라고 밝혔다.
+     wakaru@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[동포청에 정책 제안서 전달한 한인 입양인들]]></Title>
+         <Caption><![CDATA[세계한인입양동포대회에 참석한 입양단체 리더들은 22일 동포청에 '입양동포 정책제안서'를 전달했다. [동포청 제공]]]></Caption>
+         <FileName>AKR20260522135300371_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/22/AKR20260522135300371_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주 DMZ 평화동산 방문한 해외 한인 입양인들]]></Title>
+         <Caption><![CDATA[[동포청 제공]]]></Caption>
+         <FileName>AKR20260522135300371_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/22/AKR20260522135300371_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260709179300004</ContentID>
+      <SendDate>20260709</SendDate>
+      <SendTime>173905</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0510003" name="법원"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260709179300004]]></Href>
+      <Writer><![CDATA[김빛나]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['北에 무인기' 대학원생 보석 기각…법원 "증거인멸·도주 우려"]]></Title>
+      <Body><![CDATA['北에 무인기' 대학원생 보석 기각…법원 "증거인멸·도주 우려"
+
+
+
+    (서울=연합뉴스) 김빛나 기자 = 무인기를 제작해 허가 없이 북한에 날려 보낸 혐의로 기소된 대학원생이 불구속 상태로 재판받게 해달라고 법원에 요청했으나 받아들여지지 않았다. 
+    9일 법조계에 따르면 서울중앙지법 형사합의38-3부(최영각 장성진 정수영 부장판사)는 이날 일반이적 등 혐의를 받는 대학원생 오씨가 낸 보석(보증금 등 조건을 붙인 석방) 청구를 기각했다. 
+    오씨는 지난 2일 보석을 청구했고, 재판부는 지난 8일 비공개로 보석심문을 진행했다.
+    재판부는 오씨에게 증거인멸과 도주 우려가 있다고 판단했다.
+    오씨는 지난해 9월부터 올해 1월까지 4차례에 걸쳐 우리 군의 방공망 감시를 피해 민간 무인기를 군사분계선(MDL) 너머로 보내고 북한 개성 일대를 비행시키며 영상을 촬영하게 한 혐의로 지난 3월 구속기소됐다. 
+    범행에 가담한 혐의를 받는 장씨·김씨는 불구속 상태로 재판에 넘겨졌다.
+    이들이 날린 무인기 중 2기는 복귀하지 못하고 북한에 추락했다.
+    북한은 추락한 기체와 SD카드를 수거해 자료를 분석한 후 무인기의 비행 이력 및 영상정보 등을 토대로 비난 성명을 발표하기도 했다.
+    nana@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북에 무인기 날린 대학원생 영장실질심사]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 박동주 기자 = 북한에 무인기를 보내 남북 긴장을 조성한 혐의를 받는 30대 대학원생 오모씨가 26일 구속 전 피의자 심문(영장실질심사)을 받기 위해 서울 서초구 서울중앙지법으로 들어서고 있다. 2026.2.26 pdj6635@yna.co.kr]]></Caption>
+         <FileName>PYH2026022608130001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/26/PYH2026022608130001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

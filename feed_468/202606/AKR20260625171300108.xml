@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260625171300108</ContentID>
+      <SendDate>20260625</SendDate>
+      <SendTime>224727</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260625171300108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러 외무부 "韓, 北에 대한 압박 포기하고 실질적 행동해야"]]></Title>
+      <Body><![CDATA[러 외무부 "韓, 北에 대한 압박 포기하고 실질적 행동해야"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 러시아 외무부는 한국이 북한에 대한 압박과 제재를 멈춰야 한다고 25일(현지시간) 주장했다.
+    러시아 외무부는 안드레이 루덴코 러시아 외무차관이 이날 이석배 주러시아대사를 만난 뒤 이같은 내용의 성명을 발표했다. 
+    러시아 외무부는 성명에서 "조선민주주의인민공화국(DPRK) 접경지 인근에서 계속되는 한국과 미국의 대결적 군사 활동이 한반도와 역내 전체의 긴장을 고조시키고 있다는 우려를 한국 측에 전달했다"고 밝혔다. 
+    또 평양에 대한 압박과 제재 정책을 포기하고, 평화에 대한 의지를 말로만 그칠 것이 아니라 실질적인 행동으로 보여달라고 한국 측에 촉구했다고 했다. 
+    러시아 외무부는 "러시아는 한국 지도부가 모스크바와의 관계 정상화를 원한다는 입장을 거듭 표명했음에도 불구하고, 유럽연합(EU) 등 서방의 대러 공격에 공개적으로 동조하는 점에 유감을 표했다"고 덧붙였다.
+    루덴코 차관은 지난 3월 타스 통신 인터뷰에서 '작년 6월 이재명 대통령이 취임한 후 모스크바와 서울의 관계에 변화가 있느냐'는 질문에 "우리나라에 대한 한국 현 행정부의 수사가 전임 행정부들의 것과는 상당히 다르다"고 평가했다.
+    그러면서도 "선의의 표명은 구체적이고 실질적인 조치가 뒷받침될 때 비로소 가치가 있다"며 "상당한 잠재력이 있는 무역·경제 관계 정상화와 관련해 한국 정부는 어떤 움직임도 보이지 않는다"고 주장했다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[안드레이 루덴코 러시아 외무차관]]></Title>
+         <Caption><![CDATA[[타스 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20260201036401009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2026/02/01/PTA20260201036401009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

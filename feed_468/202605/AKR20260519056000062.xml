@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260519056000062</ContentID>
+      <SendDate>20260519</SendDate>
+      <SendTime>100423</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0402004" name="축산업"/>
+         <ClassCode code="0507006" name="보건"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260519056000062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, 중동 거쳐 중국 확산 'SAT1형 구제역' 백신 접종]]></Title>
+      <SubTitle><![CDATA[철원 등 5개 접경지역 소·염소 7만두 대상으로 6월 30일까지]]></SubTitle>
+      <Body><![CDATA[강원도, 중동 거쳐 중국 확산 'SAT1형 구제역' 백신 접종
+철원 등 5개 접경지역 소·염소 7만두 대상으로 6월 30일까지
+
+    (춘천=연합뉴스) 이재현 기자 = 강원특별자치도는 중국 등에서 확산 중인 'SAT1형'(South Africa Territory 1) 구제역의 국내 유입을 차단하기 위해 선제적 백신 접종을 추진한다고 19일 밝혔다.
+
+    구제역 SAT1형은 아프리카를 중심으로 발생하던 혈청형으로, 발생지역이 중동을 거쳐 올해 3월에는 중국 신장 웨이우얼(위구르)자치구와 간쑤성 등 2개 지역에 발생이 확인됐다.
+    기존 구제역 백신은 그동안 국내에서 주로 발생한 O·A형만 방어할 수 있어서 SAT1형이 국내 유입될 경우 심각한 피해가 예상된다고 도는 덧붙였다.
+    이에 따라 도는 지난 18일부터 오는 6월 30일까지 철원·화천·양구·인제·고성 등 5개 접경지역의 소·염소 7만두를 대상으로 백신접종을 진행한다.
+    기존 백신의 일제 접종과 달리 첫 접종인 만큼 항체 형성률을 높이고자 4주 간격으로 2회 접종한다.
+    2015년 이후 구제역이 발생하지 않는 청정지역을 유지 중인 도는 선제 대응과 현장 중심 방역을 통해 '구제역 없는 청정 강원'을 이어 나갈 방침이다.
+    박형철 도 농정국장은 "선제적인 백신접종과 체계적인 항체 형성률 관리로 구제역 발생 위험을 사전에 차단하겠다"며 "축산농가는 백신 접종, 차단 방역, 구제역 발생국 여행 자제 등을 협조해 달라"고 당부했다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[구제역 시료 채취]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20240604000020990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/06/04/20/PCM20240604000020990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

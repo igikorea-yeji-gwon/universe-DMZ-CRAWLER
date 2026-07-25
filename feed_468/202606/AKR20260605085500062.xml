@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260605085500062</ContentID>
+      <SendDate>20260605</SendDate>
+      <SendTime>140801</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260605085500062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, DMZ 평화의 길 걷기 행사 12일 개최…1천여명 참석]]></Title>
+      <SubTitle><![CDATA[두타연·박수근미술관 등 연계 관광 활성화 기대]]></SubTitle>
+      <Body><![CDATA[양구군, DMZ 평화의 길 걷기 행사 12일 개최…1천여명 참석
+두타연·박수근미술관 등 연계 관광 활성화 기대
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군은 문화체육관광부와 한국관광공사가 주최하는 'DMZ 평화의 길' 걷기 행사가 오는 12일 방산면 일원에 위치한 DMZ 평화의 길 26코스에서 열린다고 5일 밝혔다.
+    코리아둘레길 활성화와 걷기 여행 문화 확산을 위해 마련된 이번 행 전국 각지에서 참가자 1천여명이 양구를 방문할 예정이다.
+    참가자들은 해당 구간을 걸으며 민간인통제선 내 대표 생태관광지인 두타연의 아름다운 자연경관을 감상하게 된다.
+    두타연은 오랜 기간 사람의 출입이 제한되면서 원시 자연환경이 잘 보존된 곳으로, 맑은 계곡과 울창한 숲이 어우러진 양구의 대표 관광명소다.
+    이번 행사는 단순한 걷기를 넘어 분단의 역사와 평화의 의미를 되새기는 체험형 프로그램으로 운영된다.
+    참가자들은 DMZ 접경지역이 간직한 생태·역사·문화적 가치를 직접 체험하며 양구만의 차별화된 관광 매력을 경험할 수 있다.
+
+    행사에는 기부와 러닝 문화 확산 활동으로 잘 알려진 가수 겸 방송인 션이 함께해 참가자들과 소통하며 행사의 의미를 더할 예정이다.
+    또한 참가자 전원에게는 완보 메달과 기념품이 제공되며, 사전 신청자를 대상으로 양구백자박물관과 박수근미술관 등 지역 문화관광자원을 둘러볼 수 있는 연계 프로그램도 운영된다.
+    군은 이번 행사를 통해 DMZ 평화의 길과 두타연을 비롯한 지역 관광자원의 인지도를 높이고, 참가자들의 지역 방문과 소비를 유도해 관광 활성화 및 지역경제에 긍정적인 효과를 가져올 것으로 기대했다.
+    박현정 관광문화과장은 "DMZ 평화의 길 걷기 행사를 통해 더 많은 국민들이 양구의 아름다운 자연과 역사·문화자원을 경험하는 계기가 되길 바란다"며 "앞으로도 DMZ와 연계한 특색 있는 관광 콘텐츠를 지속해서 발굴해 나가겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구 DMZ 평화의 길 걷기 행사 포스터]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260605085500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/05/AKR20260605085500062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구 두타연]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240801000054062_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/08/01/54/PCM20240801000054062_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

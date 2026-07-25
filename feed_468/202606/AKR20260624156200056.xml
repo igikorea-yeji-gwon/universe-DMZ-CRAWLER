@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260624156200056</ContentID>
+      <SendDate>20260624</SendDate>
+      <SendTime>181145</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7010001" name="제주도"/>
+      </Region>
+      <Class>
+         <ClassCode code="0505002" name="기후변화"/>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0403003" name="재생에너"/>
+         <ClassCode code="0403001" name="자원일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260624156200056]]></Href>
+      <Writer><![CDATA[전지혜]]></Writer>
+      <Desk code="056"><![CDATA[제주취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["에너지 안보와 탄소중립 함께" 제주포럼서 국제 협력방안 논의]]></Title>
+      <SubTitle><![CDATA[제주도·IEA 특별세션…제주의 탄소중립·에너지대전환 경험 소개]]></SubTitle>
+      <Body><![CDATA["에너지 안보와 탄소중립 함께" 제주포럼서 국제 협력방안 논의
+제주도·IEA 특별세션…제주의 탄소중립·에너지대전환 경험 소개
+
+
+    (제주=연합뉴스) 전지혜 기자 = 기후 위기와 지정학적 갈등이 심화하는 가운데 에너지 안보와 탄소중립을 함께 실현하기 위한 글로벌 협력 방안이 제주포럼에서 논의됐다.
+    제주도는 24일 제주돌문화공원 설문대할망전시관에서 국제에너지기구(IEA)와 공동으로 제21회 평화와 번영을 위한 제주포럼 '에너지안보 및 지속가능한 에너지 전환을 위한 글로벌 전략' 특별세션을 열었다.
+    좌장을 맡은 오영훈 제주지사는 "제주는 대한민국에서 최초로 그린수소 생산과 상용화에 성공한 지역"이라며 "탄소중립과 에너지 대전환을 선도하는 도시로서 비전을 제시하고 실행해왔다"고 강조했다.
+    오 지사는 제주가 2035 탄소중립과 에너지 대전환을 추진하면서 재생에너지 확대, 전기차 보급, 분산형 에너지 시스템 구축, 전력망 안정성 확보를 함께 추진해왔다고 소개했다.
+    특히 그린수소가 분산에너지의 유연성 자원으로 평가받고 있다고 소개하며 "제주가 축적한 현장 경험을 바탕으로 에너지 안보와 지속가능한 에너지 전환을 함께 실현할 협력 방향을 모색하겠다"고 강조했다.
+    오일영 기후에너지환경부 기후에너지정책실장은 기조연설에 나서 "오늘날 에너지 안보는 안정적인 청정전력 공급과 전력 시스템의 회복력을 확보하는 방향으로 확장되고 있다"며 '전기화'가 빠르게 확산하는 시대에 에너지 안보 개념을 다시 정의해야 한다고 밝혔다.
+    오 실장은 2030년 재생에너지 100기가와트(GW) 보급을 비롯한 재생에너지 확대와 원전 활용, 전력망 혁신을 한국의 대응 방향으로 제시했다. 초고압직류송전(HVDC), 에너지저장장치(ESS) 등을 활용한 전력 기반시설 확충의 중요성도 설명했다.
+    이어 이런 흐름을 녹색대전환 국가 전략으로 발전시키고, 2028년 G20 의장국 수임을 계기로 에너지 안보와 지속 가능한 전환을 잇는 국제 논의를 이끌어 가겠다고 강조했다.
+    이어진 패널 토론에서는 자금 격차 해소와 탄소가격제 도입 등 청정에너지 전환을 위한 실행 과제가 폭넓게 다뤄졌다. 패널로는 말레 포파나 글로벌녹색성장기구(GGGI) 사무차장, 수에른 탄 IEA 지역협력센터장, 정내권 반기문재단 이사(전 유엔사무총장 기후변화 수석자문관), 모하마드 알-하세미 카타르 중동인사이트연구소 소장이 참여했다.
+
+    atoz@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[제주포럼 '에너지안보 및 지속가능한 에너지 전환을 위한 글로벌 전략' 세션]]></Title>
+         <Caption><![CDATA[[제주도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260624156200056_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/24/AKR20260624156200056_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[제주포럼 '에너지안보 및 지속가능한 에너지 전환을 위한 글로벌 전략' 세션]]></Title>
+         <Caption><![CDATA[[제주도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260624156200056_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/24/AKR20260624156200056_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

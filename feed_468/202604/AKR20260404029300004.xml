@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260404029300004</ContentID>
+      <SendDate>20260405</SendDate>
+      <SendTime>090002</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0510004" name="경찰"/>
+         <ClassCode code="0605011" name="테러암살"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260404029300004]]></Href>
+      <Writer><![CDATA[이동환]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[AI 신종테러 대응책은?…경찰청·美에너지부 인천서 심포지엄]]></Title>
+      <SubTitle><![CDATA[미국·호주·캐나다 등 특수작전 전문가 150여명 참석]]></SubTitle>
+      <Body><![CDATA[AI 신종테러 대응책은?…경찰청·美에너지부 인천서 심포지엄
+미국·호주·캐나다 등 특수작전 전문가 150여명 참석
+
+
+    (서울=연합뉴스) 이동환 기자 = 경찰청과 미국 에너지부 국가핵안보청(NNSA)은 오는 6일부터 5일간 인천에서 '한미 공동 대테러 국제 심포지엄'을 개최한다.
+    5일 경찰에 따르면 이번 심포지엄은 경찰청이 매년 개최해온 '대테러 국제 학술 토론회'와 국가핵안보청이 동아시아·동남아시아 지역을 대상으로 운영해온 '다자간 고위급 지도자 특수작전부대 심포지엄(SLS)'을 처음으로 통합해 열리는 행사다.
+    6일에는 인천 인스파이어 리조트에서 개막식과 국제 학술 토론회가 열린다.
+    개막식에는 유재성 경찰청장 직무대행, 반기문 전 유엔사무총장, 제임스 헬러 주한미국대사대리 등 국내외 주요 인사와 미국·호주·캐나다·필리핀 등 20여개국 군 특수작전 전문가 150여명이 참석한다.
+    토론회에서는 인공지능(AI) 기술을 악용한 신종 테러 위협에 대한 국제 사회의 공동 대응 방안이 주로 논의될 전망이다.
+    7∼10일에는 미 에너지부 주관으로 시나리오 기반 정책토의 및 전문 훈련 프로그램이 비공개로 진행된다.
+    ▲ 방사성·핵물질 밀수 위협 ▲ 핵 안보 탐지 체계 ▲ 범정부 협력 및 상호 운용성 ▲ 시나리오 기반 정책 토론 등 실제 상황을 가정한 심층 훈련이 에너지부·연방수사국(FBI) 관계자 등과 함께 실시된다.
+    경찰청과 미 에너지부는 2023년 협력 동의서 체결을 시작으로 19억원 상당의 방사능 탐지장비(휴대형 66종·차량형 3대 등)를 도입하는 등 협력을 이어왔다.
+    유재성 직무대행은 "테러 위협은 어느 한 나라의 문제가 아니며, 어느 한 기관이 홀로 대응할 수 있는 문제도 아니다"라며 대테러 협력 네트워크를 강조했다.
+    dhlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경찰청]]></Title>
+         <Caption><![CDATA[[연합뉴스TV 제공]]]></Caption>
+         <FileName>PCM20190513000286990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2019/05/13/86/PCM20190513000286990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

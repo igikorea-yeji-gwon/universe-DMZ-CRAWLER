@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260115173900108</ContentID>
+      <SendDate>20260115</SendDate>
+      <SendTime>194737</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107017" name="튀르키예"/>
+         <RegionCode code="7107011" name="이란"/>
+         <RegionCode code="7107005" name="시리아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260115173900108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[튀르키예 "이란 사태 예의주시…美 무력사용 피해야"]]></Title>
+      <Body><![CDATA[튀르키예 "이란 사태 예의주시…美 무력사용 피해야"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 하칸 피단 튀르키예 외무장관은 이란에서 벌어진 반정부 시위 사태를 계기로 미국이 군사개입할 가능성에 부정적인 입장을 분명히 했다.
+    15일(현지시간) 피단 장관은 이스탄불에서 기자간담회를 열고 "이란은 우리가 국경을 맞댄 이웃이자 친구"라며 "이란이 주요 국제 행위자들과 문제를 해결하고, 역내로 확산 가능한 불안정 시나리오 피하는 것이 우리에게 이롭다"고 밝혔다.
+    이어 "최우선 과제는 무력 사용으로 이어질 어떤 상황도 피하는 것"이라며 "지난 몇 달간 불행한 일들을 목격했는데 '12일 전쟁' 때 이스라엘과 미국이 (이란을) 제한적으로 공격했던 일이 다시 발생하는 것은 용납될 수 없다"고 말했다.
+    피단 장관은 "문제가 대화를 통해 해결되기를 바란다"며 "외교적 노력을 계속할 것이며 미국과 이란이 중재자를 통하거나 직접 대화를 통해 이를 풀어가기를 바란다"고 강조했다.
+    접경지인 시리아 알레포에서 정부군과 현지 무장단체 시리아민주군(SDF) 사이 충돌이 계속되는 것에 대해서는 "작년 3월 합의가 조속히 이행되길 바란다"며 SDF가 임시정부에 약속한대로 정부군에 흡수돼야 한다는 뜻을 밝혔다.
+    그는 SDF가 튀르키예에서 테러단체로 지정된 분리주의 조직 쿠르드민병대(YPG)에 연계됐다며 "이것이 SDF의 가장 큰 문제"라고 지적하기도 했다.
+    피단 장관은 전날 도널드 트럼프 미국 대통령의 중동특사 스티브 윗코프가 가자지구 평화구상 2단계 돌입을 선언한 것에 대해서는 "비록 더디지만 과정이 순조롭다"면서도 "이스라엘의 네타냐후 정부가 계획 이행에 적극적이지 않다"고 비난했다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[15일(현지시간) 기자간담회 중인 하칸 피단 튀르키예 외무장관]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260115221601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/01/15/PAF20260115221601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

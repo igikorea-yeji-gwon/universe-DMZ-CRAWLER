@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260429084300062</ContentID>
+      <SendDate>20260429</SendDate>
+      <SendTime>112053</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004018" name="화천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0505006" name="동물"/>
+         <ClassCode code="0702003" name="천연기념"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260429084300062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, 5월 지질·생태명소 '화천 양의대 하천습지' 선정]]></Title>
+      <SubTitle><![CDATA['DMZ 평화의 길 테마노선'과 연계 생태·평화 체험의 거점]]></SubTitle>
+      <Body><![CDATA[강원도, 5월 지질·생태명소 '화천 양의대 하천습지' 선정
+'DMZ 평화의 길 테마노선'과 연계 생태·평화 체험의 거점
+
+    (춘천=연합뉴스) 이재현 기자 = 강원도는 5월의 지질·생태명소로 화천군 '양의대 하천습지'를 선정했다고 29일 밝혔다.
+
+    북한강 상류에 자연적으로 형성된 길이 약 12㎞ 규모의 하천 습지다.
+    북한 임남댐과 평화의 댐 건설에 따른 수량 변화의 영향을 받아 지금과 같은 모습으로 발달한 지질·지형이다.
+    이 지역은 6·25 전쟁 휴전 이후 민간인 출입이 제한된 민통선 내에 위치해 자연 훼손이 거의 이뤄지지 않아 하천·습지·산림이 어우러진 원형에 가까운 생태계를 유지하고 있다.
+    수달, 산양, 사향노루 등 멸종위기 야생동물을 비롯한 다양한 생물이 서식하는 생물다양성의 핵심지역으로 평가된다.
+    2014년에는 강원평화지역 국가지질공원 지질명소와 2019년에는 강원생태평화 유네스코 생물권보전지역에 포함됐다.
+
+    습지 일대는 DMZ 접경지역의 특성을 살린 생태·평화 체험 공간으로 활용되고 있다.
+    민통선 내에 위치해 일반인의 자유로운 출입이 제한되지만, 4월부터 본격 운영 중인 'DMZ 평화의 길 테마노선'(백암산 비목 코스) 프로그램을 통해 탐방할 수 있다.
+    프로그램 참가자에게는 백암산 케이블카, 생태관찰학습원(양의대 하천습지), 평화의 댐을 연계한 탐방은 물론 자연 생태와 분단의 역사, 평화의 의미를 되새기는 기회도 제공한다.
+
+    도 관계자는 "화천 양의대 하천습지는 DMZ 인근의 청정 자연환경과 생태적 가치를 동시에 갖춘 소중한 자원"이라며 "5월의 싱그러운 자연 속에서 생태와 평화가 어우러진 특별한 여행을 경험하시길 바란다"고 말했다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양의대 하천습지]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260429084300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/29/AKR20260429084300062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[백암산 케이블카]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260429084300062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/29/AKR20260429084300062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[평화의댐]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260429084300062_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/29/AKR20260429084300062_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

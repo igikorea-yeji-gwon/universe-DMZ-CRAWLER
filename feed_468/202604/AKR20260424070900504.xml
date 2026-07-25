@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260424070900504</ContentID>
+      <SendDate>20260424</SendDate>
+      <SendTime>111056</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Region>
+         <RegionCode code="7108014" name="호주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501016" name="한국전쟁"/>
+         <ClassCode code="0109010" name="보훈복지"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260424070900504]]></Href>
+      <Writer><![CDATA[전명훈]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한국-호주, 가평서 호주군 6·25 전사자 유해 공동발굴]]></Title>
+      <SubTitle><![CDATA[영연방 참전 가평전투 75주년 계기…머피 상병 유해 발굴에 주력]]></SubTitle>
+      <Body><![CDATA[한국-호주, 가평서 호주군 6·25 전사자 유해 공동발굴
+영연방 참전 가평전투 75주년 계기…머피 상병 유해 발굴에 주력
+
+
+
+    (서울=연합뉴스) 전명훈 기자 = 국방부 유해발굴감식단(이하 국유단)은 호주 육군 미수습 전쟁사상자 지원국(UWC-A), 호주 왕립연대 제3대대와 함께 경기 가평군 북면 목동리 일대에서 실종 호주군 유해를 찾기 위한 6·25 전사자 유해 공동발굴을 진행한다고 24일 밝혔다.
+    영연방 가평전투 참전 75주년을 맞아 진행되는 이번 공동 발굴에는 국유단 전문인력 10명, UWC-A의 조사·감식관 등 4명, 과거 가평전투에 참전했던 호주 왕립연대 제3대대 소속 장병 6명 등이 참여한다. 
+    가평읍 소재 66사단의 장병 80여명도 발굴을 지원한다.
+    발굴팀이 찾는 인물은 1951년 4월 23∼25일 가평전투 중 실종된 호주 왕립연대 제3대대 소속 윌리엄 K. 머피 상병이다. 
+    6·25전쟁에서 미수습된 호주군 전사자는 총 42명(육군 22명, 해군 2명, 공군 18명)인데 그중 41명이 북한 지역이나 비무장지대(DMZ) 등에 남겨져 있어 머피 상병은 국내에서 유해를 수습할 수 있는 유일한 실종자다.
+    국유단과 호주 UWC-A는 실제 제3대대와 중공군이 격전을 벌인 지역과 관련해 2019년 한 주민이 "1960년경 산에서 목격한 유해의 군복 단추에 '오스트레일리아'라고 적혀 있었다"고 증언했다는 점에서 발굴 성공 가능성을 높게 평가하고 있다.
+    국유단은 "그간의 조사 결과를 총동원해 머피 상병의 유해를 수습하고 유엔기념공원에 안장하는 것을 목표로 최선을 다할 방침"이라고 밝혔다.
+    id@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpeg">
+         <Title><![CDATA[6·25전사자 유해발굴]]></Title>
+         <Caption><![CDATA[[연합뉴스TV 제공]]]></Caption>
+         <FileName>C0A8CA3D00000163FBF9A5A70008A59C_P2.jpeg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2018/06/14/01/C0A8CA3D00000163FBF9A5A70008A59C_P2.jpeg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

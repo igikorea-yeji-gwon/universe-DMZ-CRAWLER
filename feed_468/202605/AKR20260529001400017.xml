@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260529001400017</ContentID>
+      <SendDate>20260529</SendDate>
+      <SendTime>073359</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Category code="08"/>
+      <Class>
+         <ClassCode code="0901009" name="게임"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260529001400017]]></Href>
+      <Writer><![CDATA[김주환]]></Writer>
+      <Desk code="017"><![CDATA[테크부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한반도 배경으로 돌아온 '콜 오브 듀티' 신작 공개]]></Title>
+      <SubTitle><![CDATA[서울 시내 교전·상륙작전 장면 등 등장
+액티비전 "10월 23일 PC·콘솔 출시"]]></SubTitle>
+      <Body><![CDATA[한반도 배경으로 돌아온 '콜 오브 듀티' 신작 공개
+서울 시내 교전·상륙작전 장면 등 등장
+액티비전 "10월 23일 PC·콘솔 출시"
+
+
+    (서울=연합뉴스) 김주환 기자 = 전 세계에서 5억 장이 넘게 팔린 인기 1인칭 슈팅 게임(FPS) '콜 오브 듀티' 시리즈의 차기작이 남북한 간 전면전을 배경으로 돌아온다.
+    액티비전은 28일(이하 현지시간) '콜 오브 듀티: 모던 워페어 4' 트레일러를 공개하고 게임을 오는 10월 23일 출시한다고 밝혔다.
+    공개된 트레일러는 한국군과 미군 병사들이 서울 시내를 순찰하다가 갑작스러운 정전과 함께 적의 기습이 시작되는 장면으로 시작된다.
+
+    이어 숭례문을 모티브로 한 서울 시내에서 장갑차와 전차를 타고 교전하는 모습, 국군 해병대로 추정되는 부대가 공기부양정을 타고 해안에 상륙하는 모습, 프랑스 파리에서 펼쳐지는 추격전, 시리즈의 메인 등장인물인 프라이스 대위와 고스트가 대립하는 모습도 묘사됐다.
+    구체적인 스토리 내용은 공개되지 않았으나, 한반도에서 벌어진 남북한 간 전쟁을 주 무대로 여러 세력이 대립하는 이야기로 추정된다.
+    타이틀 로고에는 '콜 오브 듀티 모던 워페어'라는 글자와 함께 아라비아 숫자 '4' 대신 한글로 '사'라는 글자가 적혔다.
+    액티비전에 따르면 '모던 워페어 4'는 오는 10월 23일 PC·콘솔 플랫폼으로 발매될 예정이다.
+    2022년 작 '콜 오브 듀티: 모던 워페어 II'에 등장했다가 이후 작품에서 빠진 게임 모드 'DMZ'도 이번 작품에 다시 돌아온다. 제작진은 오는 6월 7일 'DMZ' 모드 미리보기 영상을 공개할 예정이라고 밝혔다.
+
+    콜 오브 듀티 시리즈에 한국이 플레이 가능한 스테이지 배경으로 나오는 것은 2014년 출시된 '어드밴스드 워페어' 이후 12년 만이다.
+    '콜 오브 듀티'는 마이크로소프트(MS) 산하 액티비전이 유통하는 인기 1인칭 슈팅게임(FPS) 시리즈로, 2024년 기준 전 세계에서 5억 장 이상이 판매됐다.
+    jujuk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4]]></Title>
+         <Caption><![CDATA[[트레일러 캡처]]]></Caption>
+         <FileName>AKR20260529001400017_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529001400017_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4]]></Title>
+         <Caption><![CDATA[[트레일러 캡처]]]></Caption>
+         <FileName>AKR20260529001400017_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529001400017_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4]]></Title>
+         <Caption><![CDATA[[트레일러 캡처]]]></Caption>
+         <FileName>AKR20260529001400017_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529001400017_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260223054100062</ContentID>
+      <SendDate>20260223</SendDate>
+      <SendTime>102441</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0505001" name="환경일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260223054100062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한기호 의원 "철원 마현천 지뢰, 올해 안에 제거 마치겠다"]]></Title>
+      <Body><![CDATA[한기호 의원 "철원 마현천 지뢰, 올해 안에 제거 마치겠다"
+
+
+    (철원=연합뉴스) 양지웅 기자 = 국민의힘 한기호 의원은 유실 지뢰 문제로 수십 년간 방치돼 온 철원군 마현천 일대 제거 작업을 연말까지 마무리할 방침이라고 23일 밝혔다.
+    지금까지 마현리 일대는 집중호우와 산사태로 인해 하천 상류와 비무장지대(DMZ)에서 유실된 지뢰들이 유입되면서 하천 준설·정비가 필요함에도 사업 추진이 번번이 가로막혀 왔다. 
+    이 때문에 주민들은 매년 수해 위험에 노출되는 등 불안한 생활을 이어와야 했다.
+    한 의원은 국방부와 합동참모본부, 군청 등 관계기관과 여러 차례 면담을 진행하고, 국회 차원의 질의를 통해 군 당국의 협조를 지속해서 요청해 왔다.
+    그 결과 합참과 국방부는 관할부대의 상황을 고려해 최대한 빨리 지뢰 제거 작업을 진행하기로 했다.
+    마현천 상류 일대와 인접 DMZ 구간에는 과거 매설되었거나 유실된 지뢰가 다수 잔존해 있는 것으로 파악돼 하천 준설·정비를 추진하기 위해서는 선제적인 지뢰 제거가 필수적인 상황이었다.
+    따라서 지뢰 제거 작업 후 하천 정비까지 마치면 마현천 일대는 반복되던 침수와 산사태 위험에서 벗어나 보다 안전한 생활환경으로 전환될 것으로 기대된다.
+    이러한 변화는 올해 완료가 예상되는 마현리 13민통초소 이전과 맞물려, 주민 통행 불편을 줄이고 민군 간 갈등을 완화하는 전환점이 될 전망이다.
+    한 의원은 "지뢰로 인해 주민 안전과 생활환경 개선이 수십 년간 가로막혀 있었던 만큼 이번 조치는 매우 의미 있는 진전"이라며 "안보에 지장을 주지 않는 범위에서 군과 긴밀히 협력하겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[유실 지뢰 탐지 작업]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2020092321180006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2020/09/23/PYH2020092321180006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

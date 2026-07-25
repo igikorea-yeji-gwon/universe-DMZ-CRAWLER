@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260427036000060</ContentID>
+      <SendDate>20260427</SendDate>
+      <SendTime>093315</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260427036000060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주임진각평화곤돌라, 5월 가정의 달 '어린이 무료 탑승' `]]></Title>
+      <Body><![CDATA[파주임진각평화곤돌라, 5월 가정의 달 '어린이 무료 탑승' `
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 '파주임진각평화곤돌라'는 5월 가정의 달을 맞아 가족 단위 방문객을 위한 다양한 프로그램을 운영한다고 27일 밝혔다.
+
+    5월 1∼5일 영유아부터 초등학생(2014년생 이하)까지 '일반 캐빈'과 '크리스털 캐빈' 구분 없이 무료로 탑승할 수 있다. 
+    어린이날을 맞아 어린이들이 민간인출입통제구역(DMZ)을 보다 쉽고 친근하게 경험할 수 있도록 마련됐다.
+    '디엠지(DMZ) 스테이션' 지하 1층 '디엠지 스페이스'에서는 이 기간 '카네이션 편지지 만들기' 체험 행사가 운영된다. 
+    카네이션 도안을 색칠하고 직접 만든 편지지에 내용을 작성해 가족 간 감사의 마음을 전할 수 있도록 준비했다.
+    디엠지 스테이션 내 '탱크 포토존'에서는 5월 3∼5일 '피에로 풍선 제작' 행사가 진행된다. 
+    현장에서 다양한 형태의 풍선을 제작·제공해 어린이날 분위기를 더할 예정이다.
+    이백현 파주디엠지곤돌라 대표는 "가정의 달을 맞아 온 가족이 함께 방문해 특별한 추억을 남길 수 있도록 이번 행사를 준비했다"며 "파주임진각평화곤돌라에서 가족과 함께 평화의 가치를 체험하는 의미 있는 시간이 되길 바란다"고 말했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주임진각평화곤돌라, 가정의 달 '어린이 무료 탑승' `]]></Title>
+         <Caption><![CDATA[[파주시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260427036000060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/27/AKR20260427036000060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

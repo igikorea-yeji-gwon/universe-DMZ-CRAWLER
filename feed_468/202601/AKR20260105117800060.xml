@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260105117800060</ContentID>
+      <SendDate>20260106</SendDate>
+      <SendTime>060209</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0802012" name="놀이공원"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260105117800060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주환경운동연합 "'임진강 국가 정원' 추진 철회해야"]]></Title>
+      <SubTitle><![CDATA["인공시설 중심 개발은 생태계 파괴 지름길, 습지보호지역 지정"]]></SubTitle>
+      <Body><![CDATA[파주환경운동연합 "'임진강 국가 정원' 추진 철회해야" 
+"인공시설 중심 개발은 생태계 파괴 지름길, 습지보호지역 지정"
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시가 분단과 규제의 상징이었던 비무장지대(DMZ) 임진강 권역에 자연·문화·관광을 결합한 국가 정원 조성을 추진하자 환경단체가 개발 계획의 즉각 철회와 '임진강 습지보호지역 지정'을 강력히 촉구하고 나섰다.
+
+
+    파주환경운동연합은 6일 "임진강 하구와 임진나루 일대는 두루미, 저어새 등 멸종위기종의 핵심 서식처이자 DMZ 생태 축의 심장부"라며 "이곳에 광장, 보행 데크, 야간 조명시설을 설치하는 것은 생태 보전이 아닌 서식지 파편화와 생태 학살에 불과하다"고 주장했다.
+    이어 "정원이라는 미명 아래 진행되는 인공화 사업을 즉각 중단하라"며 "정원은 나중에도 만들 수 있지만, 훼손된 습지는 결코 되돌릴 수 없다"고 강조했다. 
+    특히 "수조 원의 유지관리비가 드는 인공 정원보다 자연 습지의 탄소 흡수 및 생태적 가치가 경제적으로도 훨씬 우월하다"며 "지금 필요한 것은 활용을 위한 국가 정원이 아니라, 법적으로 임진강을 지켜내는 '습지보호 지역 지정'"이라고 피력했다. 
+    파주환경운동연합은 임진강 국가 정원 조성 계획 전면 중단, 환경부·경기도와 협력해 '임진강 습지보호지역' 지정 즉시 추진, 시민과 전문가가 참여하는 공동 관리 체계 즉각 구축 등을 요구했다.
+    그러면서 "임진강이 '관리되는 자연'이 아닌 '온전히 지켜지는 자연'으로 남을 수 있도록 시민사회와 함께 끝까지 행동할 것"이라고 덧붙였다. 
+
+
+
+    파주시는 지난해 말 시청 대회의실에서 '임진강 국가 정원 타당성 검토 및 기본구상 용역' 완료 보고회를 열고 최종 구상안을 공유했다. 
+    '임진강 국가 정원'은 파주 임진각에서 연천 고랑포구에 이르는 임진강 권역을 대상으로 한다. 
+    비무장지대에 깃든 생태, 안보, 역사, 문화 자원을 하나의 공간·경험 체계로 묶어 수도권 문화·생태휴양 거점으로 도약하는 방향이 담겼다.
+    보고회에서는 지역 균형 발전, 관광 활성화, 접경 지역 상생을 목표로 한 국가 정원 조성의 청사진과 단계별 추진 방안도 발표됐다. 
+    자연 생태 보전과 지역 관광이 충돌하지 않도록 조정하는 실행 전략도 검토됐다.
+    시는 향후 임진강 국가 정원 조성을 위한 중앙부처 협의 등 단계별 절차를 체계적으로 추진해 나갈 방침이다. 
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['임진강 국가 정원 타당성 검토 및 기본구상 용역' 완료 보고회]]></Title>
+         <Caption><![CDATA[[파주시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260105117800060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/05/AKR20260105117800060_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주환경운동연합 로고]]></Title>
+         <Caption><![CDATA[[파주환경운동연합 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260105117800060_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/05/AKR20260105117800060_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

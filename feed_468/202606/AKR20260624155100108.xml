@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260624155100108</ContentID>
+      <SendDate>20260624</SendDate>
+      <SendTime>172120</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7103036" name="우크"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260624155100108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우크라 드론에 시달리는 러…크림반도 등 대규모 정전]]></Title>
+      <SubTitle><![CDATA[당국 "휴대전화 배터리 아껴 써달라" 당부까지]]></SubTitle>
+      <Body><![CDATA[우크라 드론에 시달리는 러…크림반도 등 대규모 정전
+당국 "휴대전화 배터리 아껴 써달라" 당부까지   
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 우크라이나군이 무인기(드론)를 동원한 강도 높은 공습을 이어가는 가운데 러시아가 점령 중인 지역에 대규모 정전이 발생했다.
+    24일(현지시간) 타스 통신에 따르면 이날 새벽 크림반도의 항구 도시 세바스토폴의 에너지 기반 시설이 타격받으면서 일시적으로 전력 공급이 끊겼다. 또 주거용 건물 여러 채가 파손되고 2명이 다쳤다.
+    러시아가 임명한 미하일 라즈보자예프 시장은 일부 유치원이 전기 공급 문제로 인해 운영되지 않는다고 밝혔다. 라즈보자예프 시장은 주민들에게 "휴대전화 배터리를 아껴 써달라"며 전력망 과부하를 피하기 위해 주의해야 한다고 당부했다.
+    러시아는 세바스토폴과 주변 지역을 2014년 강제 병합한 이후 10년 넘도록 실효 지배하고 있다.
+    이날 러시아가 임명한 블라디미르 살도 헤르손 주지사에 따르면 헤르손 전 지역에 걸쳐서도 전력 공급이 끊겼다가 수시간 만에 복구됐다.
+    러시아는 개전 초기인 2022년 우크라이나 동부의 헤르손 일대를 점령한 뒤 자국으로 병합했으나 우크라이나군이 영토 탈환을 위한 반격을 멈추지 않으면서 치열한 교전이 이어지고 있다.
+    러시아 국방부는 지난 밤사이 벨고로드, 브랸스크, 보로네시, 쿠르스크, 스몰렌스크, 모스크바, 크림반도 등지와 흑해 상공에서 우크라이나가 쏜 드론 323기를 격추했다고 밝혔다.
+    최근 우크라이나가 러시아 에너지 인프라에 공습을 집중하면서 러시아 당국은 크림반도와 접경지 등지의 석유 공급에 차질을 겪고 있다.
+    dk@yna.co.kr
+[https://youtu.be/iG1QJ5rINaU]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[지난 10일(현지시간) 세바스토폴의 한 건물이 우크라이나 공습에 당한 모습.]]></Title>
+         <Caption><![CDATA[[미하일 라즈보자예프 세바스토폴 시장 텔레그램. AP=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260612176001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/06/12/PAP20260612176001009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

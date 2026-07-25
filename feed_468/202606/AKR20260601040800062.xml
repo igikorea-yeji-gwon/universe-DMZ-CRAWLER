@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260601040800062</ContentID>
+      <SendDate>20260601</SendDate>
+      <SendTime>094730</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0802012" name="놀이공원"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260601040800062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[속초시, 청초호유원지 북측 광장 새 단장…2029년 준공 목표]]></Title>
+      <SubTitle><![CDATA[타워형 어린이 놀이시설·시니어 놀이터 등 세대별 공간 확충]]></SubTitle>
+      <Body><![CDATA[속초시, 청초호유원지 북측 광장 새 단장…2029년 준공 목표
+타워형 어린이 놀이시설·시니어 놀이터 등 세대별 공간 확충
+
+
+    (속초=연합뉴스) 류호준 기자 = 강원 속초시는 청초호유원지 북측 광장과 노후 시설물을 정비해 시민과 관광객을 위한 체류형 힐링 공간으로 조성한다고 1일 밝혔다.
+    청초호유원지는 1999년 강원 국제관광엑스포 개최를 위해 공유수면을 매립해 조성된 도심형 관광지다.
+    설악산과 청초호, 동해를 한눈에 조망할 수 있는 속초의 대표 관광명소이자 시민 휴식 공간이다.
+    그러나 북측 일원은 남측에 비해 활용도가 낮고 시설 노후화가 지속된 데다 매립지 특성에 따른 지반 침하로 배수 불량과 상습 침수 문제가 반복되면서 정비 필요성이 제기돼 왔다.
+    이에 시는 행정안전부의 '2026년 접경지역 특수상황 지역개발 신규사업' 공모에 선정돼 국비 42억원을 확보했으며, 시비 10억원을 포함한 총사업비 52억원을 투입해 '청초호유원지 북측 광장 및 시설물 정비사업'을 추진한다.
+    올해 물놀이터 확장과 시니어 놀이터, 휴게 쉼터 조성에 나서는 한편 오는 2029년 준공을 목표로 사업을 진행할 계획이다.
+    주요 사업은 북측 광장과 노후 시설물 전면 재정비를 비롯해 어린이교통안전체험관과 영어도서관, 어린이 물놀이터와 연계한 타워형 어린이 놀이시설 조성이다.
+    또 어르신들을 위한 시니어 놀이터를 설치해 세대별 체험·놀이 공간을 확대하고, 주제 정원과 숲속 쉼터, 잔디마당, 힐링 언덕, 숲 놀이터 등을 조성해 휴식과 여가를 동시에 즐길 수 있는 공간으로 꾸밀 예정이다.
+    시는 해당 공간을 향후 각종 모임과 축제, 문화행사 등이 가능한 열린 광장으로 활용해 청초호유원지 북측 활성화와 관광객 체류시간 증가를 유도할 방침이다.
+    시 관계자는 "이번 사업을 통해 청초호유원지 북측 일원의 노후 환경과 침수 문제를 개선하고 시민과 관광객 모두가 머물며 즐길 수 있는 체류형 관광 휴식 공간으로 재탄생시킬 계획"이라며 "청초호유원지가 속초를 대표하는 명품 공간으로 자리매김할 수 있도록 최선을 다하겠다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초 청초호유원지 북측 광장]]></Title>
+         <Caption><![CDATA[[속초시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260601040800062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/01/AKR20260601040800062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

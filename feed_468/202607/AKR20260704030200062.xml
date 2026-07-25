@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260704030200062</ContentID>
+      <SendDate>20260704</SendDate>
+      <SendTime>151953</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0606005" name="화재"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0606014" name="소방"/>
+         <ClassCode code="0402003" name="임업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260704030200062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성 비무장지대서 산불…헬기 1대 투입 진화 중]]></Title>
+      <Body><![CDATA[강원 고성 비무장지대서 산불…헬기 1대 투입 진화 중
+
+    (강원 고성=연합뉴스) 이재현 기자 = 4일 오후 1시 9분께 강원 고성군 수동면 외면리 인근 비무장지대(DMZ)에서 산불이 났다.
+
+    산림과 소방 당국은 헬기 1대를 투입해 진화 작업을 하고 있다.
+    불이 난 곳은 군사분계선(MDL)에서는 남측 1.7㎞ 지점, 남방한계선에서는 북측 0.3㎞ 지점이어서 인력을 투입한 진화가 불가능하다.
+    이에 산불 확산 상황에 대비해 인력 18명과 장비 6대가 남방한계선 인근에서 대기 중이다.
+    당국은 불을 완전히 끄는 대로 화재 원인과 피해 규모 등을 조사할 방침이다.
+
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[고성 비무장지대 산불]]></Title>
+         <Caption><![CDATA[[강원도산불방지대책본부 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260704030200062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/07/04/AKR20260704030200062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[산불진화헬기 DMZ내 투입 (PG)]]></Title>
+         <Caption><![CDATA[[정연주 제작] 사진합성·일러스트]]></Caption>
+         <FileName>PCM20181126000197990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2018/11/26/97/PCM20181126000197990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

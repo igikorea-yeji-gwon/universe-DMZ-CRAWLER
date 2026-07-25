@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260125048700030</ContentID>
+      <SendDate>20260125</SendDate>
+      <SendTime>200812</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="0201001" name="경제일반"/>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0402004" name="축산업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260125048700030]]></Href>
+      <Writer><![CDATA[한주홍]]></Writer>
+      <Desk code="030"><![CDATA[소비자경제부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[올해 세 차례 아프리카돼지열병 발생…중수본 "방역관리 강화"]]></Title>
+      <Body><![CDATA[올해 세 차례 아프리카돼지열병 발생…중수본 "방역관리 강화"
+
+
+    (서울=연합뉴스) 한주홍 기자 = 아프리카돼지열병(ASF) 중앙사고수습본부는 전날 경기 포천시 소재 돼지농장에서 ASF가 확진돼 25일 김종구 농림축산식품부 차관 주재로 중수본 회의를 열고 방역 대책을 점검했다고 밝혔다.
+    올해 들어 강원 강릉시와 경기 안성시에 이어 포천시에서 ASF가 추가로 발생하면서 발생 건수는 세 차례로 늘었다.
+    이에 중수본은 전국 일제 집중 소독을 통해 돼지농장 내·외부와 농장 종사자 숙소, 물품 등을 소독하고 참여 인증을 추진하기로 했다.
+    또 위험도가 높은 경기·강원 접경 지역 돼지농장에 대한 점검과 소독 자원을 확대하고, 국방부 협조 등을 통해 방역 활동을 강화할 예정이다.
+    아울러 인천·경기 등 발생 권역과 발생 농장 반경 10㎞ 내에 있는 방역대, 역학 관련 농장에 대한 전화 예찰을 매일 실시하고, 농장 종사자가 방역 관리에 미흡할 경우 페널티를 부여할 계획이다.
+    김 차관은 "전국 지방정부와 농가는 농장 차단 방역과 주요 도로 소독 등을 강화해달라"며 "가용 자원을 총동원해 소독·점검·검사 등 추가 발생 차단을 위해 총력을 다해달라"고 당부했다.
+    juhong@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강릉 양돈농가서 아프리카돼지열병 발생]]></Title>
+         <Caption><![CDATA[(강릉=연합뉴스) 양지웅 기자 = 17일 아프리카돼지열병(ASF) 발생이 확인된 강원 강릉시 한 양돈농가에서 방역 관계자들이 출입을 통제하고 있다. 2026.1.17 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026011701090006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/17/PYH2026011701090006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

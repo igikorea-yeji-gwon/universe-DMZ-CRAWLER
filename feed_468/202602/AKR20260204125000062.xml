@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260204125000062</ContentID>
+      <SendDate>20260204</SendDate>
+      <SendTime>154942</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001200" name="단신"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260204125000062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[철원소식] 갈말읍 동막리, 접경지역 정주환경 개선 사업 선정]]></Title>
+      <Body><![CDATA[[철원소식] 갈말읍 동막리, 접경지역 정주환경 개선 사업 선정
+
+
+    (철원=연합뉴스) ▲ 갈말읍 동막리, 접경지역 정주환경 개선 사업 선정 = 강원 철원군은 강원도가 추진한 '2026년 접경지역 정주환경 개선 공모사업'에 최종 선정돼 도비 3억원을 확보했다고 4일 밝혔다.
+    이를 통해 동막리 민북마을 생활권 연결도로 개선 사업을 추진, 침수 피해 등으로 이주가 예정된 마을과 기존마을 간 생활권 단절 문제를 해소하고자 소하천 구간 연결 교량 설치와 안전한 보행 도로 조성 등을 추진할 계획이다.
+    군은 이번 공모 선정으로 확보한 도비를 바탕으로 관계기관 협의와 실시설계 등 후속 절차를 신속히 진행해 사업을 단계적으로 추진할 계획이다.
+
+    ▲ 철원문학관 6일 개관…특별전시 마련 = 강원 철원군은 6일 지역 문학과 문화예술의 거점이 될 '철원문학관'을 개관한다.
+    철원읍 사요리 366-1에 자리한 문학관은 총면적 445.8㎡, 지상 1층 규모로 상설·기획전시관, 교육실, 수장고, 사무실 등을 갖췄다.
+    현재 고서 122점 등 자료를 기반으로 지역 문학 유산의 체계적 보존과 전시·연구 환경을 마련할 계획이다.
+    군은 문화생활 공간으로서 문학 교육, 특별강연 등 프로그램을 운영해 군민의 문학 접근성과 이해를 높이고, 지역 특색을 살린 관광명소로 철원의 역사적 의의와 정체성을 문학과 연결해 문화관광 경쟁력을 강화할 계획이다.
+    올해는 철원군이 직영하며 시범운영 후 효율적인 운영방안을 검토할 예정이다.
+    아울러 개관과 함께 전시 '강원의 역사전, 철원의 어제와 오늘'이 이달 27일까지 이어진다.
+(끝)]]></Body>
+      <AppendData mimetype="image/jpeg">
+         <Title><![CDATA[강원 철원군청]]></Title>
+         <Caption><![CDATA[[연합뉴스TV 제공]]]></Caption>
+         <FileName>C0A8CA3D0000015460B309B00002BEAC_P2.jpeg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2016/04/29/02/C0A8CA3D0000015460B309B00002BEAC_P2.jpeg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군청]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240530000005990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/05/30/05/PCM20240530000005990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

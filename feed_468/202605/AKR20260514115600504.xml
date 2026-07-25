@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260514115600504</ContentID>
+      <SendDate>20260514</SendDate>
+      <SendTime>143201</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="0701003" name="전시공연"/>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001038" name="게시판"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260514115600504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[게시판] 통일부, DMZ 피스트레인 뮤직페스티벌과 협업]]></Title>
+      <Body><![CDATA[[게시판] 통일부, DMZ 피스트레인 뮤직페스티벌과 협업
+
+    ▲ 통일부는 비무장지대(DMZ)의 평화적 이용에 대한 공감대 확산을 위해 'DMZ 피스트레인 뮤직 페스티벌 2026'과 협업한다고 14일 밝혔다. DMZ 피스트레인 뮤직 페스티벌은 음악을 통해 정치·경제·이념을 초월하고 자유와 평화를 경험하자는 취지로 2018년 처음 열린 음악 페스티벌이다. 통일부는 이번 행사의 대표 프로그램인 '스페셜 스테이지'를 후원하고 체험형 DMZ 홍보부스를 운영한다. 티켓은 공식 예매처(ticket.melon.com)에서 구매할 수 있으며, 스페셜 스테이지는 사전 예약자만 관람 가능하다. 스페셜 스테이지 사전 예약은 18일 12시부터 공식누리집(dmzpeacetrain.com) 내 링크를 통해 할 수 있다. (서울=연합뉴스)
+
+    
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['DMZ 피스트레인 뮤직 페스티벌 2026' 포스터]]></Title>
+         <Caption><![CDATA[[통일부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260514115600504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/14/AKR20260514115600504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

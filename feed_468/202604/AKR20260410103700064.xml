@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260410103700064</ContentID>
+      <SendDate>20260412</SendDate>
+      <SendTime>080033</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Category code="04"/>
+      <Category code="07"/>
+      <Category code="11"/>
+      <Region>
+         <RegionCode code="7012003" name="단양"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0702006" name="민속풍습"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260410103700064]]></Href>
+      <Writer><![CDATA[김형우]]></Writer>
+      <Desk code="064"><![CDATA[충북취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["충북 단양사투리 고수들 나오세요" 내달 23일 경연대회]]></Title>
+      <Body><![CDATA["충북 단양사투리 고수들 나오세요" 내달 23일 경연대회
+
+    (단양=연합뉴스) 김형우 기자 = 충북 단양군은 다음 달 23일 단양읍 수변특설무대에서 '제3회 단양사투리 경연대회'를 개최한다고 12일 밝혔다. 
+    
+
+    
+    만담과 콩트, 랩, 노래, 연극 등 다양한 방식으로 누구나 참여할 수 있다. 
+    희망자는 내달 1일까지 단양말보존회를 방문하거나 이메일(dysatuli@naver.com)로 신청하면 된다. 
+    예선은 내달 7일 오후 2시 단양문화예술회관에서 열린다. 
+    예선을 통과한 10개 팀은 본선 무대에 올라 1팀당 5분 이내의 공연을 펼친다.
+    단양말보존회는 사투리의 억양과 빈도, 자연스러운 연기력, 관중 호응도 등을 평가해 대상 등 10팀에 30만∼200만원의 상금을 지급한다.
+    군 관계자는 "단양사투리는 지역의 역사와 삶이 녹아 있는 소중한 문화유산"이라며 "이번 경연대회에서 특별한 추억을 남기길 바란다"고 말했다.
+    단양사투리는 충북과 강원, 경북의 접경지역이라는 지리적 특성 속에서 자연스럽게 형성된 지역 고유 언어로, 단양의 정체성과 공동체 문화를 상징한다. 
+    vodcast@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[지난해 열렸던 사투리 경연대회]]></Title>
+         <Caption><![CDATA[[단양군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260410103700064_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/10/AKR20260410103700064_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260226091600061</ContentID>
+      <SendDate>20260226</SendDate>
+      <SendTime>112157</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0712001" name="영화"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0901014" name="로봇AI"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260226091600061]]></Href>
+      <Writer><![CDATA[최찬흥]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기관광공사 '국제AI영상 공모전'에 1천680편 출품…98편 선정]]></Title>
+      <Body><![CDATA[경기관광공사 '국제AI영상 공모전'에 1천680편 출품…98편 선정
+
+    (수원=연합뉴스) 최찬흥 기자 = 경기관광공사는 '경기관광 국제 AI 영상 공모전'을 열어 대상작 등 모두 98편의 수상작을 선정했다고 26일 밝혔다.
+
+    공모전은 'AI디어로 경기도를 알리다(AI-deas to Promote Gyeonggi)'를 슬로건으로 지난해 12월 23일부터 올해 1월 26일까지 진행돼 국내외에서 1천680편(국내 1천216편, 해외 464편)이 출품됐다.
+    대상작은 경기도의 관광 자원을 과거와 현재의 만남으로 재해석한 '지나간 시간이 오늘의 일상이 되는 곳, 경기도'가 차지하며 상금 1천000만 원을 받게 됐다.
+    이밖에 ▲ 국내 경기관광 ▲ 해외 경기관광 ▲ 경기도 DMZ ▲ 경기도 MICE 등 4개 분야별 최우수작(500만원), 우수작(300만원) 등에 모두 7천만원의 상금을 지급한다.
+    수상작들은 '경기 관광 유튜브' 채널에서 상시 시청할 수 있다.
+    조원용 경기관광공사 사장은 "이번 공모전은 AI가 관광 마케팅의 한계를 허무는 강력한 도구가 될 수 있음을 확인시켜 준 계기가 됐다"며 "선정된 혁신적인 영상들을 적극 활용해 국내외 관광객들에게 경기도만의 독특한 매력을 적극적으로 홍보하겠다"고 말했다.
+    chan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기관광공사 AI영상 공모전 대상작 '지나간 시간이 오늘의 일상이 되는 곳, 경기']]></Title>
+         <Caption><![CDATA[[경기관광공사 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260226091600061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/26/AKR20260226091600061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

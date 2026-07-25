@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260122147051109</ContentID>
+      <SendDate>20260123</SendDate>
+      <SendTime>034201</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103025" name="스위스"/>
+         <RegionCode code="7104002" name="미국"/>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260122147051109]]></Href>
+      <Writer><![CDATA[민경락]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[美 '안전보장' 이끌어낸 우크라…3자회의로 종전 드라이브(종합)]]></Title>
+      <SubTitle><![CDATA[영토 논의는 교착…젤렌스키 "유럽, 러 제재 소극적" 거세게 비판]]></SubTitle>
+      <Body><![CDATA[美 '안전보장' 이끌어낸 우크라…3자회의로 종전 드라이브(종합)
+영토 논의는 교착…젤렌스키 "유럽, 러 제재 소극적" 거세게 비판
+
+
+    (로마=연합뉴스) 민경락 특파원 = 미국과 러시아·우크라이나가 한자리에 모여 종전안을 논의하기로 하면서 종전 논의가 속도를 낼 수 있을지 관심이다.
+    다만 영토 문제를 두고 러시아와 우크라이나 간 입장차는 여전한 것으로 알려져 최종 합의까지는 적지 않은 시간이 필요할 것으로 보인다.
+
+    ◇ 기대감 비친 젤렌스키…"3자 회의는 이번이 처음"
+    22일(현지시간) AFP·로이터 통신 등 외신에 따르면 이날 스위스 다보스에서 열린 도널드 트럼프 미국 대통령과 볼로디미르 젤렌스키 우크라이나 대통령 간 회담에서 주목할 만한 발표 중 하나는 러시아를 포함한 3자 회의 개최다.
+    젤렌스키 대통령은 "23일부터 이틀간 아랍에미리트(UAE)에서 미국·러시아·우크라이나 당국자들이 만나 종전안 논의를 이어갈 것"이라고 밝혔다.
+    그는 이번 회의가 "첫 번째 3자 회담"이라며 회의 개최 자체를 긍정적인 신호라고 평가했다.
+
+    3자 회담은 트럼프 대통령이 작년부터 '가까운 시일 내' 열릴 것이라며 공을 들여온 '과제'였지만 교전이 치열해지면서 차일피일 미뤄져 왔다.
+    이날 미국의 안전 보장안이 합의된 것도 우크라이나로서는 큰 성과다. 젤렌스키 대통령은 트럼프 대통령과 전후 미국의 안전보장이 어떤 모습일지에 대해 합의했다고 밝혔다.
+    애초 미국은 러시아의 반발을 우려해 안전 보장보다는 전후 경제 재건에 초점을 맞춘 종전안을 우선 논의하길 원한 것으로 알려졌다.
+    3자회담이 열리면 영토 문제 등 교착이 계속된 논의가 속도를 낼 가능성이 있다. 하지만 양측 모두 양보가 쉽지 않은 민감한 쟁점이어서 한동안 난항은 불가피해 보인다.
+    러시아와 우크라이나는 동부 도네츠크주의 소유권을 두고 접점 없는 대치를 계속하고 있다. 러시아는 도네츠크 전체를 포기하라고 요구하지만 우크라이나는 현재 전선을 동결하고 비무장지대를 만들자고 맞서고 있다.
+    마르크 뤼터 북대서양조약기구(NATO·나토) 사무총장은 "평화 회담이 곧 마무리되기를 희망하지만 아마도 4월이나 5월은 돼야 가능할 것"이라고 예상했다.
+
+
+    ◇ 그린란드에 시선 쏠린 유럽…젤렌스키 "쪼개진 만화경" 질타
+    젤렌스키 대통령은 이날 트럼프 대통령과 회동을 마친 뒤 전례 없는 어조로 유럽연합(EU)을 강하게 질타해 눈길을 끌었다.
+    젤렌스키 대통령은 러시아의 그림자 선단·석유에 대한 유럽의 제재가 너무 소극적이라며 유럽을 힘이 약한 중·소국가로 구성된 '분절된 만화경'에 빗댔다.
+    그는 "유럽은 미국 대통령을 설득해 변화를 끌어내려고 애를 쓰지만 이 과정에서 길을 잃은 것 같다"며 "트럼프 대통령은 유럽을 사랑한다고 말하지만 이런 유럽에는 귀를 기울이지 않을 것"이라고 꼬집었다.
+    젤렌스키 대통령은 최근 미국의 그린란드 병합 시도 논란으로 유럽 동맹국 사이에서 종전안 논의가 힘을 잃어가자 전쟁은 '대체 가능한 이슈'가 아니라며 우려를 표명해왔다.
+    그는 이날도 "대부분 정상이 그린란드 문제와 관련해 미국이 잠잠해지는 것만을 기다리고 있다"며 EU의 모호한 대응을 거세게 비판했다.
+    AFP 통신은 이날 젤렌스키의 연설을 두고 "주요 정치·재정적 후원자인 EU에 보였던 통상적인 온화한 수사에서 뚜렷하게 벗어났다"고 평가했다.
+    rock@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[젤렌스키·트럼프·푸틴 대통령]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재배포 및 DB 금지]]]></Caption>
+         <FileName>PAF20260120306601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/01/20/PAF20260120306601009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[다보스포럼 참석한 젤렌스키 대통령]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재배포 및 DB 금지]]]></Caption>
+         <FileName>PAF20260123025801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/01/23/PAF20260123025801009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[다보스서 만난 젤렌스키·트럼프 대통령]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재배포 및 DB 금지]]]></Caption>
+         <FileName>PAF20260123039501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/01/23/PAF20260123039501009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

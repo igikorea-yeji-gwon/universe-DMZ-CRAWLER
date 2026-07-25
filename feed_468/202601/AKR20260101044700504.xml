@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260101044700504</ContentID>
+      <SendDate>20260101</SendDate>
+      <SendTime>172901</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1001001" name="북한정치"/>
+         <ClassCode code="1008003" name="북한인물"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260101044700504]]></Href>
+      <Writer><![CDATA[이은정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[김정은에 '볼 뽀뽀'로 존재감 부각한 주애…김여정 자녀도 노출]]></Title>
+      <SubTitle><![CDATA[아이들 안아주며 지도자 이미지 연출…'퍼스트 레이디' 리설주는 앵글 밖으로]]></SubTitle>
+      <Body><![CDATA[김정은에 '볼 뽀뽀'로 존재감 부각한 주애…김여정 자녀도 노출
+아이들 안아주며 지도자 이미지 연출…'퍼스트 레이디' 리설주는 앵글 밖으로
+
+
+    (서울=연합뉴스) 이은정 기자 = 평양에서 열린 신년 경축 공연장에서 김정은 북한 국무위원장의 딸 주애가 거침없는 스킨십으로 친밀한 부녀지간의 모습을 연출하며 존재감을 부각했다. 
+    1일 조선중앙TV가 방영한 신년 경축 행사 영상에는 김 위원장의 딸 주애가 한국전쟁 정전협정 체결일을 의미하는 '7·27 1953' 번호판이 달린 김정은 전용 리무진 '아우루스'에서 가장 먼저 내리는 모습이 포착됐다. 지난해와 달리 올해는 리설주 여사도 함께했다. 
+    김 위원장과 똑같은 디자인의 가죽 코트를 입은 주애는 축하 공연을 관람하며 아버지의 손을 잡거나 귓속말을 나누며 부녀 사이의 애정을 과시했다. 
+    행사 중간 카운트다운과 함께 새해가 밝은 순간 주애는 자리에서 일어나 김 위원장 얼굴에 한쪽 손을 갖다대며 '볼 뽀뽀'를 하기도 했다. 김 위원장은 함박웃음을 지었다. 
+
+    김정은과 리설주 사이 가운데 자리에 착석한 주애의 존재감은 상대적으로 부각됐다. 반면, 리 여사는 보도된 사진과 영상 끄트머리에 겨우 나오거나 프레임 밖으로 벗어나는 경우가 많았다. 
+    주애는 김 위원장 부부와 마찬가지로 공연장에 나타난 아이들을 안아주고 볼을 맞대며 인민을 돌보는 지도자로서의 모습을 연출했다. 아이들에게서 받아든 꽃다발은 수행원에게 건넸다. 
+    공연장에 도착했을 때 주애를 맞이한 어린 아이와 중년 여성 모두 90도 허리를 굽혀 그에게 인사했다.  
+    다만, 주애가 김 위원장과 러시아 파병군의 가족들을 만났을 때는 이들이 한꺼번에 김 위원장에게 몰려가 안기자 어색하게 뒤로 밀려나는 모습을 보이기도 했다. 
+
+    주요 간부들이 아이들과 손을 잡고 행사장에 입장하는 장면에서는 김정은의 여동생 김여정 노동당 부부장 자녀로 추정되는 남녀 아동도 식별됐다. 
+    1년 전에도 같은 행사장에서 김 부부장의 손을 잡고 나타났던 아이들과 동일한 인물로 추정된다. 
+    2015년 4월 국가정보원은 국회 정보위 보고에서 김여정이 그해 5월 출산할 것으로 추정했으며, 2018년 2월에는 정부 소식통이 당시 남한을 방문한 김여정이 임신한 것이 맞는다고 말해 둘째 임신설이 나왔다.
+    지난해 국정원은 공개된 영상을 바탕으로 "사실일 가능성을 열어두고 정밀 분석 중"이라고 밝혔지만, 그의 결혼·임신·출산설은 아직 공식 확인된 적은 없다. 
+    김 위원장의 의전을 담당하는 현송월 노동당 부부장도 딸로 추정되는 아이와 손을 잡고 행사장으로 향했다. 조춘룡·조용원 등 당 비서들은 부부 동반 형태로 행사에 참석한 것으로 보인다. 
+    ask@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김여정, 남녀 아이와 신년경축공연 참석]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 북한 조선중앙TV가 1일 방영한 신년경축공연 영상에서 김정은 북한 국무위원장의 여동생 김여정 노동당 부부장이 남자 아이의 손을 잡고 여자 아이와 함께 5월1일경기장 행사장으로 들어가고 있다. 이 아이들은 지난해 신년경축공연에서도 김여정과 함께 모습을 드러낸 바 있다. [조선중앙TV 화면] 2026.1.1 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026010109220004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/01/PYH2026010109220004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[딸 주애에게 귓속말하는 김정은]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 1일 평양 5월1일경기장에서 열린 2026년 신년경축공연에 참석한 김정은 북한 국무위원장이 딸 주애에게 귓속말을 하고 있다. [조선중앙TV 화면] 2026.1.1 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026010110070004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/01/PYH2026010110070004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[새해 맞아 김정은 볼에 입 맞추는 주애]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 전날 밤부터 평양 5월1일경기장에서 열린 2026년 신년경축공연에서 새해 카운트다운이 끝나자 김정은 북한 국무위원장의 딸 주애가 김 위원장 볼에 입을 맞추고 있다. [조선중앙TV 화면] 2026.1.1 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026010110400004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/01/PYH2026010110400004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

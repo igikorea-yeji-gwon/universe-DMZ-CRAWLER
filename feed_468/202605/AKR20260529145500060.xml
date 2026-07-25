@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260529145500060</ContentID>
+      <SendDate>20260529</SendDate>
+      <SendTime>171557</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005030" name="포천"/>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0402003" name="임업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260529145500060]]></Href>
+      <Writer><![CDATA[김도윤]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[북한식물전시원, 양구에 개원…내달 28일까지 특별 개방]]></Title>
+      <Body><![CDATA[북한식물전시원, 양구에 개원…내달 28일까지 특별 개방
+
+    (포천=연합뉴스) 김도윤 기자 = 산림청 국립수목원은 국립 DMZ 자생식물원에 '북한식물전시원'을 조성하고 다음 달 28일까지 특별 개방한다고 29일 밝혔다.
+
+    이 전시원은 국내 최북단 식물원인 DMZ 자생식물원 개원 10주년을 맞아 4천㎡ 규모로 조성됐다.
+    이곳에서 10년간 수집된 백두산떡쑥, 하늘매발톱, 장백패랭이꽃, 너도개미자리 등 한반도 북부와 고산지대에서 자생하는 북한 식물 89종을 감상할 수 있다.
+    북한과 직접 맞닿은 접경지역 10개 시·군의 대표 식물도 만날 수 있다.
+    임영석 국립수목원장은 "DMZ 자생식물원 개원 10주년과 함께 새롭게 공개된 북한식물전시원이 한반도 식물 다양성과 북한·북방계 식물 보전의 중요성을 공유하는 공간이 되길 바란다"고 말했다.
+    국립 DMZ 자생식물원은 2016년 민간인출입통제선(민통선) 이북인 강원 양구군 해안면 '펀치볼'(Punch Bowl)에 문 열었다.
+    한반도의 동서 생태 축을 연결하는 이곳에서 비무장지대(DMZ) 산림생태계 보전과 북방계 식물자원 다양성 확보 등을 위한 연구와 전시, 교육 등을 수행한다.
+    kyoon@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한식물전시원, 양구 DMZ자생식물원서 문 열어]]></Title>
+         <Caption><![CDATA[(양구=연합뉴스) 양지웅 기자 = 29일 강원 양구군 DMZ자생식물원에서 열린 북한식물전시원 개원식에서 임영석 국립수목원장과 김영동 한국식물분류학회장, 박상돈 통일부 평화경제기획관, 정영미 양구군수 권한대행 등 참석자들이 기념 촬영하고 있다.
+    산림청 국립수목원은 DMZ자생식물원 10주년을 기념해 4천여㎡의 북한식물전시원을 마련, 백두산떡쑥과 황산차 등 북한 자생식물 89종을 선보였다. 2026.5.29 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026052917280006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/29/PYH2026052917280006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

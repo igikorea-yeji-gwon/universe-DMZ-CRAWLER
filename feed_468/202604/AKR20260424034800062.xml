@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260424034800062</ContentID>
+      <SendDate>20260424</SendDate>
+      <SendTime>090709</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004007" name="양구"/>
+         <RegionCode code="7004005" name="삼척"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0701004" name="축제"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260424034800062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 5월 추천 여행지에 삼척 장미축제·양구 곰취축제 선정]]></Title>
+      <SubTitle><![CDATA[푸른 바다 배경 장미의 향연·청정 곰취의 풍미 느끼며 봄나들이]]></SubTitle>
+      <Body><![CDATA[강원 5월 추천 여행지에 삼척 장미축제·양구 곰취축제 선정
+푸른 바다 배경 장미의 향연·청정 곰취의 풍미 느끼며 봄나들이
+
+    (춘천=연합뉴스) 이재현 기자 = 강원특별자치도와 강원관광재단은 '2026 강원 방문의 해' 5월 추천 여행지로 삼척시와 양구군을 선정했다고 24일 밝혔다.
+
+    도와 재단은 푸른 바다를 배경으로 한 장미의 향연 '삼척 장미축제'와 청정 민통선 인근에서 자란 곰취의 풍미를 느낄 수 있는 '양구 곰취축제'를 집중적으로 홍보한다.
+    삼척 추천 여행지인 장미축제는 5월 19일부터 25일까지 오십천 장미공원 일원에서 펼쳐진다.
+    218종, 13만 그루의 장미가 빚어낸 붉은 빛의 향연은 보는 이의 감성을 자극한다.
+
+    축제 기간 야간 라이트업과 다채로운 공연이 이어져 로맨틱한 봄날의 밤을 선사한다.
+    양구 곰취축제는 오는 2일부터 5일까지 서천 레포츠공원 일원에서 개최된다.
+    곰취 판매뿐만 아니라 과자집 만들기, 친환경 나무 놀이터 등 가족 단위 방문객을 위한 프로그램이 풍성하게 마련됐다.
+    5월 추천 여행지를 기념해 양구군은 5월 한 달간 양구군립박수근미술관 무료입장 이벤트를 한다.
+    또 양구시티투어 이용객은 요일별 유료 관광시설을 무료로 관람할 수 있다.
+    두타연과 양구백자박물관은 금요일, 을지전망대는 일요일 각각 무료다.
+
+    강원 방문의 해를 맞아 여행객의 발걸음을 가볍게 할 이벤트도 풍성하다.
+    숙박비 6만원 이상 인증 시 3만원을, 일반 소비 5만원 이상 인증 시 1만원을 강원상품권으로 돌려주는 '혜택받GO 강원여행'과 주요 관광지 인증 시 경품 혜택을 누릴 수 있는 '강원관광 빙고 챌린지' 이벤트를 진행 중이다.
+    최성현 재단 대표이사는 "가정의 달을 맞아 풍성한 축제와 실속 있는 할인 혜택을 준비했다"며 "삼척의 화려한 장미 향기와 양구의 건강한 곰취 풍미를 함께 즐기며 강원에서 완벽한 봄 여행을 경험해 보시길 바란다"고 말했다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[박수근 미술관]]></Title>
+         <Caption><![CDATA[[양구군 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260424034800062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/24/AKR20260424034800062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[삼척 해상 스카이워크]]></Title>
+         <Caption><![CDATA[[삼척시 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260424034800062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/24/AKR20260424034800062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[5월 추천 여행지 안내 포스터]]></Title>
+         <Caption><![CDATA[[강원관광재단 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260424034800062_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/24/AKR20260424034800062_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

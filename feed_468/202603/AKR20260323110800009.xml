@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260323110800009</ContentID>
+      <SendDate>20260323</SendDate>
+      <SendTime>150426</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102022" name="인도"/>
+         <RegionCode code="7102003" name="네팔"/>
+         <RegionCode code="7102025" name="중국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0201004" name="대외경제"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260323110800009]]></Href>
+      <Writer><![CDATA[유창엽]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[인도·중국, '네팔 영유권 주장' 접경지 무역 6년여만에 재개]]></Title>
+      <SubTitle><![CDATA[2019년 코로나19 대유행에 무역 중단…네팔 측 반발 예상]]></SubTitle>
+      <Body><![CDATA[인도·중국, '네팔 영유권 주장' 접경지 무역 6년여만에 재개
+2019년 코로나19 대유행에 무역 중단…네팔 측 반발 예상
+
+
+    (서울=연합뉴스) 유창엽 기자 = 인도와 중국이 네팔이 영유권을 주장하는 접경지역에서의 무역을 6년여 만에 재개하기로 해 네팔 측 반발이 예상된다.
+    23일 네팔 매체 카트만두포스트 등에 따르면 인도는 북부 우타라칸드주 리풀레크 고개에서 중국과 하는 접경무역을 재개하기 위한 준비작업에 최근 들어갔다.
+    이는 인도와 중국이 지난해 8월 합의한 데 따른 것이다.
+    환전시설 등 인도와 중국 측 준비가 마무리되면 오는 6월 무역이 재개된다.
+    보통 6월부터 4개월간 이뤄지는 접경 무역을 통해 중국 티베트 상인들은 소금과 붕사, 동물 관련 상품, 허브 등을 팔고,  인도 상인들은 염소, 양, 곡물, 향신료 등을 거래한다.
+    리풀레크 고개는 영국 식민 지배 시절부터 무역과 순례를 위한 중요 경로로 이용됐으며, 인도와 중국은 1991년 양국의 공식 무역 통로로 인정했다.
+    하지만 코로나19 대유행 때문에 2019년 무역을 중단했다가 이번에 6년여 만에 재개하는 것이다.
+    문제는 인도가 현재 실효지배 중인 리풀레크 고개에 대해 네팔이 줄곧 영유권을 주장한다는 것이다.
+    네팔은 자국과 영국 간 2년 전쟁을 종결한 1816년 평화조약을 들어 영유권을 주장하지만, 인도는 이를 일축한다.
+    지난해 8월 인도와 중국의 접경무역 재개 합의 소식에 당시 네팔 정부는 강하게 반발했지만, 인도 정부는 네팔 측 주장이 역사적 사실에 따른 근거가 없다고 맞받았다.
+    이전에도 접경 무역을 두고 네팔 측은 인도와 중국에 반발했다.
+
+    이에 네팔 일각에선 인도와 중국이 네팔에 아무런 통보 없이 접경무역을 재개하려는 데 대해 당장 강력히 항의해야 한다는 주장이 나온다고 카트만두 포스트는 전했다.
+    수실 코이랄라 총리(2014년 2월∼2015년 10월 재임)의 외교정책 고문 등을 지낸 디네시 바타라이는 "리풀레크 고개는 네팔 지도에 반영된 영토"라며 정부는 즉각 인도와 중국에 문제를 제기해야 한다고 촉구했다.
+    바타라이는 이어 작년 8월 K.P. 샤르마 올리 당시 네팔 총리가 중국 톈진에서 열린 상하이협력기구(SCO) 정상회의 때 시진핑 중국 국가주석에게 이 문제를 제기했다고 덧붙였다.
+    이 문제는 이달 중 들어설 네팔 신임정부의 외교적 시험대가 될 전망이라는 분석도 나온다.
+    네팔에선 지난해 9월 대규모 반정부 시위로 올리 당시 총리가 물러나고 혼란 수습을 위해 대법원장 출신인 수실라 카르키를 수장으로 하는 임시정부가 들어섰다.
+    이어 지난 5일 실시된 총선에서 중도성향 국민독립당(RSP)이 압승했다. 이 당을 이끄는 유명 래퍼 출신 발렌드라 샤(36·일명 발렌) 전 카트만두 시장은 오는 27일 총리에 취임한다.
+    yct9423@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[리풀레크 고개]]></Title>
+         <Caption><![CDATA[[인도 매체 바스카르잉글리시 캡처. 재판매 및 DB 금지]]></Caption>
+         <FileName>AKR20260323110800009_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/23/AKR20260323110800009_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[네팔 영유권 주장 지역]]></Title>
+         <Caption><![CDATA[[바스카르잉글리시 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260323110800009_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/23/AKR20260323110800009_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

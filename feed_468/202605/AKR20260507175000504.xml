@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260507175000504</ContentID>
+      <SendDate>20260507</SendDate>
+      <SendTime>192935</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="0103006" name="입법"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260507175000504]]></Href>
+      <Writer><![CDATA[이은정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['대북무인기 처벌법' 국회통과…"긴장고조 행위 근절돼야"]]></Title>
+      <SubTitle><![CDATA[통일부, 재발방지 추가입법도 추진]]></SubTitle>
+      <Body><![CDATA['대북무인기 처벌법' 국회통과…"긴장고조 행위 근절돼야"
+통일부, 재발방지 추가입법도 추진
+
+
+    (서울=연합뉴스) 이은정 기자 = 통일부는 비행금지구역에서 미승인 무인기 비행에 처벌을 강화하는 항공안전법 개정안이 국회를 통과한 데 대해 "이번 개정을 계기로 한반도 상공에서 인위적으로 긴장을 고조시키는 행위는 근절돼야 할 것"이라고 밝혔다. 
+    통일부는 7일 입장문을 통해 "접경지역에서 무인기를 북한으로 무단 침투시키는 행위를 처벌할 수 있는 보다 강력한 법적 근거가 마련됐다"며 이같이 밝혔다.
+    통일부는 "개정법은 무인기뿐만 아니라 모든 초경량비행장치에도 적용돼 향후 다른 수단을 활용한 유사 사례도 예방할 수 있을 것으로 기대된다"고 설명했다. 
+   국회는 이날 본회의를 열어 정부의 승인 없이 비행금지구역에서 무인기 등 모든 초경량비행장치를 비행하는 행위에 징역형까지 부과할 수 있도록 하는 항공안전법 개정안을 의결했다. 
+    이번 법 개정은 민간 무인기 대북 침투 사건의 재발 방지대책으로 추진된 것이다. 
+     통일부는 이어 "정부는 접경지역 주민들이 일상의 평화를 누릴 수 있도록 지속 노력하는 한편 한반도에서 남북 간 평화공존을 위해 남북관계발전법 개정 등 여타 재발 방지 조치도 차질 없이 추진해나갈 것"이라고 강조했다. 
+     통일부 당국자는 남북관계발전법 개정 방향에 관해 "관계 기관 간 협조체계 구축 등 접경지역의 긴장을 고조시킬 우려가 있는 행위를 효과적으로 예방하는 대책을 반영하는 내용을 검토 중"이라고 연합뉴스에 말했다. 
+    ask@yna.co.kr
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[적막한 북녘]]></Title>
+         <Caption><![CDATA[(인천=연합뉴스) 임순석 기자 = 11일 인천 강화군 강화평화전망대에서 바라본 북한 황해북도 개풍군 일대가 적막하다. 북한 김여정 노동당 부부장은 이날 조선중앙통신 담화를 통해 한국발 무인기가 북한 영공을 침범했다며 책임을 경고했다. 2026.1.11 soonseok02@yna.co.kr]]></Caption>
+         <FileName>PYH2026011105600006500_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/11/PYH2026011105600006500_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

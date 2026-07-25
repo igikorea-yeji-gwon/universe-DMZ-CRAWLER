@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260310178900108</ContentID>
+      <SendDate>20260310</SendDate>
+      <SendTime>174335</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107017" name="튀르키예"/>
+         <RegionCode code="7107011" name="이란"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0109008" name="주한미군"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260310178900108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[튀르키예, 이란 위협에 패트리엇 추가 배치]]></Title>
+      <Body><![CDATA[튀르키예, 이란 위협에 패트리엇 추가 배치
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 미국·이스라엘과 이란의 전쟁 속에 인접국 튀르키예에 미국산 패트리엇 방공체계가 추가로 배치됐다.
+    10일(현지시간) 튀르키예 국방부는 성명에서 "역내 상황을 고려해 국경과 영공을 지키기 위해 필요한 조치를 하고 있으며, 북대서양조약기구(NATO·나토) 및 동맹들과 협의 중"이라고 밝혔다.
+    그러면서 "우리가 시행한 국내적 조치 외에도, 나토가 공중·미사일 방어를 강화했다"며 "그 일환으로 패트리엇 시스템이 말라티아에 배치돼 영공 보호를 지원하기 위한 작전 준비태세를 갖추고 있다"고 전했다.
+    이는 지난 4일과 9일 두 차례에 걸쳐 이란에서 튀르키예로 날아온 탄도미사일을 나토 방공망이 요격하는 등 이란 사태의 불똥이 접경국인 튀르키예로 튀고 있는 데 따른 대응으로 보인다.
+    패트리엇 포대가 추가로 배치됐다는 튀르키예 동남부 말라티아는 최근 이란 미사일이 격추되는 과정에서 일부 잔해가 떨어진 튀르키예 하타이, 가지안테프 등 남부 지역과 가깝다.
+    인근 도시 아다나에는 미군 전술핵무기가 보관된 것으로 알려진 인지를르크 공군기지도 위치해 있다. 전날 주튀르키예 미국대사관은 아다나 주재 총영사관의 비필수 인력을 대피시킨다고 밝히기도 했다.
+    튀르키예 국방부의 발표를 두고 로이터 통신은 "미국이 현재 한국에 있던 패트리엇 체계 등 군사자산의 재배치 방안을 검토하고 있다는 보도가 나온 가운데 이뤄진 것"이라고 지적했다.
+    전날 미국 일간 워싱턴포스트(WP)는 미국 전쟁부가 한국에 배치된 사드(THAAD·고고도미사일방어체계) 중 일부를 중동 지역으로 이동시키고 있다고 미국 관리들을 인용해 보도했다.
+    WP는 미군이 이란의 드론 및 탄도 미사일 공격에 대한 방어 태세를 강화하기 위해 인도태평양 지역 및 기타 지역에 배치된 패트리엇 요격 미사일 비축분도 차출하고 있다고도 언급했다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[튀르키예 남부의 패트리엇 방공미사일 포대]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20140427111101034_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2014/04/27/PEP20140427111101034_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

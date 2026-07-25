@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260413048500062</ContentID>
+      <SendDate>20260413</SendDate>
+      <SendTime>095519</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0506002" name="도로교통"/>
+         <ClassCode code="0506001" name="교통일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260413048500062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[속초시, 공영·공유주차장 확충 박차…도심 주차난 '숨통']]></Title>
+      <SubTitle><![CDATA[상권 밀집 지역 중심 주차 공간 마련…규모별 단계적 확충]]></SubTitle>
+      <Body><![CDATA[속초시, 공영·공유주차장 확충 박차…도심 주차난 '숨통'
+상권 밀집 지역 중심 주차 공간 마련…규모별 단계적 확충
+
+
+    (속초=연합뉴스) 류호준 기자 = 강원 속초시가 공영·공유주차장 확충과 대규모 주차장 조성 사업을 통해 도심 주차난 해소에 속도를 낸다.
+    시는 최근 도문동과 청학동, 영랑동 일대에 소규모 공유·임시주차장을 잇달아 조성·개방한 데 이어, 먹거리단지 일대에는 200면 규모 주차장 건립을 추진하는 등 주차 인프라 확충을 본격 추진한다고 13일 밝혔다.
+    도문동 문화공간 돌담 일원에는 18면 규모 공유주차장이 조성됐으며, 청학동 교동 어촌계 성황당 일원에는 4면 규모 임시주차장이 마련됐다.
+    또 영랑동 등대 전망대 인근 시유지를 활용해 25면 규모 임시주차장도 조성됐다.
+    중·대형 사업도 속도를 내고 있다.
+    하수처리시설 유휴부지에는 2억원을 투입해 140면 규모 임시주차장을 조성 중으로, 오는 6월 준공 후 7월 피서철에 맞춰 개방할 계획이다.
+    해당 부지는 속초 해수욕장 남문과 인접해 여름철마다 극심한 주차난이 반복돼 온 지역이다.
+    이와 함께 동해대로 메가박스∼르노삼성 구간 382ｍ에 40면 규모 노상주차장을 조성하는 사업도 추진 중으로, 오는 6월 완공을 목표로 하고 있다.
+    특히 시는 오랜 기간 주차난이 이어져 온 먹거리단지 일대에 대한 근본적인 개선에도 나선다.
+    지난 10일 열린 도시·건축공동위원회에서는 청초 택지지구 내 어린이공원 부지를 주차장으로 전환하는 지구단위계획 변경안이 원안 가결됐다.
+    이에 따라 해당 부지에는 2층 3단, 약 200면 규모의 자주식 주차장이 조성될 예정이다.
+    그동안 먹거리단지는 이용객 대비 주차 공간이 부족해 불법 주차와 교통 혼잡, 보행 안전 문제가 제기돼 왔다.
+    주민 설문조사에서도 97.1%가 주차 불편을 호소했으며, 공원 부지의 주차장 활용 방안에는 응답자 전원이 찬성했다.
+    이번 사업은 시가 접경지역으로 지정되면서 행정안전부 지원사업을 통한 국비 확보가 가능해져 추진 동력을 확보했다.
+    시는 향후 지구단위계획 변경 고시 등 후속 절차를 거쳐 실시설계에 착수하고, 주민 의견을 반영해 사업을 단계적으로 추진할 방침이다.
+    앞서 시는 지난해 교동·조양동 일대에 55면 규모 공유주차장을 조성했으며, 2024년에는 고속버스터미널 뒤편에 60면 규모 주차장을 마련하는 등 주차 인프라 확충을 지속해왔다.
+    또 기존 주차장의 운영 방식 개선과 안내 체계 정비, 시설 환경 개선 등 관리 효율화에도 힘쓰고 있다.
+    이병선 시장은 "주차 문제는 시민 불편과 직결되는 대표적인 생활 현안"이라며 "접경지역 지정에 따른 정책적 혜택을 적극 활용해 시민과 관광객 모두 체감할 수 있는 주차 환경을 조성하겠다"고 말했다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초 도문동 공유 주차장]]></Title>
+         <Caption><![CDATA[[속초시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260413048500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/13/AKR20260413048500062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초 청학동 임시 주차장]]></Title>
+         <Caption><![CDATA[[속초시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260413048500062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/13/AKR20260413048500062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

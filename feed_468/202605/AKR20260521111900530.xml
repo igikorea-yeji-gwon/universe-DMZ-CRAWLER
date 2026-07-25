@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260521111900530</ContentID>
+      <SendDate>20260521</SendDate>
+      <SendTime>150002</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0606008" name="안전관리"/>
+         <ClassCode code="0607002" name="풍수해"/>
+         <ClassCode code="0801002" name="날씨"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260521111900530]]></Href>
+      <Writer><![CDATA[차민지]]></Writer>
+      <Desk code="530"><![CDATA[정책사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[동정] 김광용 재난안전본부장, 군남댐 집중호우 대비상황 점검]]></Title>
+      <Body><![CDATA[[동정] 김광용 재난안전본부장, 군남댐 집중호우 대비상황 점검
+
+
+    ▲ 김광용 행정안전부 재난안전관리본부장은 21일 경기도 연천군 군남댐과 서울 은평구 빗물받이 정비 현장을 방문해 여름철 집중호우 대비 상황을 점검했다고 행안부가 밝혔다. 김 본부장은 군남댐을 방문해 접경지역 홍수 대응 체계와 시설물 관리 현황을 점검했다. 은평구 응암동에서는 빗물받이 정비와 반지하주택 물막이판 설치 현황을 점검했다. (서울=연합뉴스)
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김광용 재난안전관리본부장, 집중호우 대비 군남홍수조절댐 현장점검]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 김광용 행정안전부 재난안전관리본부장이 21일 경기 연천군 군남홍수조절댐을 방문, 홍수대응 현황 및 안전관리 실태 점검을 하고 있다. 2026.5.21 [행정안전부 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2026052121390001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/21/PYH2026052121390001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260223109200060</ContentID>
+      <SendDate>20260223</SendDate>
+      <SendTime>150643</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005022" name="연천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0501011" name="인구통계"/>
+         <ClassCode code="0501002" name="사회문제"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260223109200060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[연천군 "수도권 인구감소지역도 기회발전특구 신청 길 열어야"]]></Title>
+      <Body><![CDATA[연천군 "수도권 인구감소지역도 기회발전특구 신청 길 열어야"
+
+    (연천=연합뉴스) 노승혁 기자 = 경기 연천군이 수도권 내 인구감소지역과 접경지역에 대한 기회발전특구 운영 지침을 마련해야 한다고 정부에 강력히 촉구했다.
+
+    연천군은 23일 오전 국회 소통관에서 기자회견을 열고 수도권에 속한 인구감소지역도 기회 발전 특구를 신청할 수 있도록 구체적인 운영 지침을 마련해 줄 것을 정부에 요구했다.
+    현행 법령상 지정은 가능하지만, 세부 신청 기준과 절차가 마련되지 않아 사실상 신청조차 못 하고 있다는 것이다.
+    이번 요구는 2023년 7월 시행된 지방자치 분권 및 지역 균형발전에 관한 특별법에 근거한다. 
+    해당 법은 수도권 내 인구감소지역 역시 기회발전특구 지정 대상에 포함하고 있으나, 2년이 넘도록 관련 세부 지침이 마련되지 않아 제도 취지가 현장에서 작동하지 못하고 있다는 게 군의 설명이다.
+    연천군에 따르면 정부는 그동안 '지방 우대' 원칙에 따라 수도권보다 비수도권을, 비수도권보다 인구감소지역을 우대하는 균형발전 정책을 추진해 왔다.
+    실제로 비수도권에는 현재까지 55개 기회발전특구가 지정돼 약 33조 원 규모의 투자가 진행 중이다. 
+    특히 이달 5일 고시된 5차 추가 지정에서는 부산·울산 지역이 이미 특구로 지정됐음에도 다시 포함됐다.
+    반면 수도권이라는 이유로 인구감소지역인 연천군은 정책 적용에서 사실상 배제돼 형평성 논란이 제기되고 있다.
+    군은 연천 BIX 산업단지를 그린바이오와 첨단산업의 핵심 거점으로 육성하고, 기업 유치와 인프라 확충을 본격화할 계획이지만, 특구 지침 부재로 행정 절차에 착수조차 못 하는 상황이라고 밝혔다.
+    군 관계자는 "연천은 국가 안보를 위해 수십 년간 군사시설보호구역 등 중첩 규제를 감내해 온 특별희생 지역"이라며 "기회발전특구는 청년들이 고향을 떠나지 않고 일자리를 찾을 수 있는 지방소멸 대응의 핵심 전략인 만큼 국정 방침에 맞게 수도권 인구감소지역과 접경지역에 대한 특구 운영 지침을 조속히 마련해야 한다"고 강조했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[연천군수 "수도권 인구감소지역도 기회발전특구 신청 길 열어야"]]></Title>
+         <Caption><![CDATA[(연천=연합뉴스) 경기 연천군은 23일 오전 국회 소통관에서 대국민 기자회견을 열고 수도권에 속한 인구감소지역도 기회 발전 특구를 신청할 수 있도록 구체적인 운영 지침을 마련해 줄 것을 정부에 요구했다. 2026.2.23
+[연천군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260223109200060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/23/AKR20260223109200060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

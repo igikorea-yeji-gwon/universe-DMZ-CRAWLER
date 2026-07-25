@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260531039300083</ContentID>
+      <SendDate>20260531</SendDate>
+      <SendTime>160426</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102025" name="중국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0109012" name="군사훈련"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260531039300083]]></Href>
+      <Writer><![CDATA[김현정]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[중국·몽골, 네이멍구서 합동군사훈련…"불법 무장세력 대응"]]></Title>
+      <Body><![CDATA[중국·몽골, 네이멍구서 합동군사훈련…"불법 무장세력 대응"
+
+
+    (베이징=연합뉴스) 김현정 특파원 = 중국과 몽골이 중국 북부 네이멍구자치구에서 합동 군사훈련을 시작했다고 중국공산당 기관지 인민일보 계열의 영자신문 글로벌타임스가 31일 보도했다.
+    보도에 따르면 양국 군은 전날 네이멍구에서 '초원의 동반자 2026'(Steppe Partner 2026)으로 명명된 합동훈련 개막식을 열고 훈련에 돌입했다.
+    이번 훈련은 불법 무장세력에 대한 타격에 중점을 두고, 양국 간 우호와 상호 신뢰를 높이고 실질적 협력을 강화하면서 지역 평화와 안정을 수호하기 위한 공동 대응 능력을 높이는 데 목적이 있다고 중국 측은 설명했다.
+    훈련 기간 양국 군은 공동 지휘체계를 구축하고 가상 전투 환경에서 합동 지휘 및 연합 타격 작전 훈련을 실시할 예정이다.
+    전날 이뤄진 개막식에는 중국과 몽골 군 장병 600여명이 참석했다.
+    이번 훈련은 2024년 5월에 이어 중국과 몽골 군이 진행한 '초원의 동반자' 연합시리즈의 두 번째 훈련이다.
+    전문가들은 이를 통해 양국군의 군사 교류가 일회성 행사를 넘어 정례화·상호 방문 형식으로 확대되고 있음을 알 수 있다면서, 중국이 자국과 러시아 사이에 위치한 몽골과의 안보 협력을 제도화하려는 의미가 있다는 해석을 내놓고 있다.
+    몽골 입장에서도 중국은 최대 교역 상대이자 광물·에너지 수출의 핵심 시장인 만큼, 경제적 의존도가 높은 중국과 안보 채널을 안정적으로 관리할 필요가 있다.
+    다만 몽골은 전통적으로 중국·러시아와의 관계를 유지하면서도 미국·일본·유럽 등 이른바 '제3의 이웃'과 협력하는 균형 외교를 펴온 만큼, 접경 안보와 대테러 협력 차원의 실용적 군사협력을 이번 훈련의 목적으로 하고 있다는 평가가 나온다.
+    hjkim07@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중국 몽골 합동군사훈련]]></Title>
+         <Caption><![CDATA[[신화=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PXI20260531019701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/xi/2026/05/31/PXI20260531019701009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

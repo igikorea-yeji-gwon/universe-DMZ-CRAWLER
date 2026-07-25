@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260215035700080</ContentID>
+      <SendDate>20260215</SendDate>
+      <SendTime>214810</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7103036" name="우크"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260215035700080]]></Href>
+      <Writer><![CDATA[최인영]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러, 3차 종전협상 앞 "혹독한 겨울에도 12개 마을 장악"]]></Title>
+      <SubTitle><![CDATA[러군 총참모장, 전방 부대 방문해 전선 우위 과시]]></SubTitle>
+      <Body><![CDATA[러, 3차 종전협상 앞 "혹독한 겨울에도 12개 마을 장악"
+러군 총참모장, 전방 부대 방문해 전선 우위 과시
+
+
+    (모스크바=연합뉴스) 최인영 특파원 = 러시아는 미국이 중재하는 우크라이나와의 협상을 수일 앞두고 2월 들어 12개 마을을 장악했다며 전선 우위를 과시했다.
+    15일(현지시간) 러시아 국방부의 텔레그램 성명에 따르면 발레리 게라시모프 러시아군 총참모장이 우크라이나 전선에서 싸우는 군부대를 방문해 "혹독한 겨울 환경에서도 2월 들어 2주 동안 12개 마을을 해방했다"고 말했다.
+    이어 "200㎢ 이상의 영토가 우리 통제를 받게 됐다"고 덧붙였다.
+    게라시모프 총참모장은 러시아군이 모든 방향에서 진격하고 있다고 밝혔다. 특히 우크라이나 동부 도네츠크의 요충지 슬로우얀스크 방향으로 이동하고 있다면서 아직 우크라이나가 통제하는 이 도시의 약 15㎞ 거리까지 다가왔다고 설명했다. 
+    그는 우크라이나 북동부의 국경지대인 수미와 하르키우 내에 '보안구역'을 계속 확장하고 있다고 덧붙였다. 러시아는 자국 접경지 쿠르스크를 우크라이나군에 점령당했다가 탈환한 뒤 완충 지대를 조성한다며 수미 등 접경지 공세를 강화하고 있다. 
+    이날 게라시모프 총참모장의 행보는 러시아가 오는 17∼18일 스위스 제네바에서 열리는 미국, 러시아, 우크라이나의 세 번째 3자 협상을 앞두고 이뤄졌다. 
+    2022년 2월 24일 시작한 러시아의 우크라이나 '특별군사작전'은 곧 만 4년이 되지만 아직 영토 문제를 포함한 종전의 핵심 쟁점은 해결되지 않고 있다.  
+    러시아는 우크라이나가 돈바스(도네츠크와 루한스크) 전체에서 철수해야 한다고 요구하지만 우크라이나는 이를 수용할 수 없다고 맞서고 있다. 러시아는 대화로 이 문제가 해결되지 않으면 무력으로 목표를 달성하겠다고 경고하고 있다.
+    abbie@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[발레리 게라시모프 러시아군 총참모장]]></Title>
+         <Caption><![CDATA[[AFP/러시아 국방부 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260215338701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/02/15/PAF20260215338701009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

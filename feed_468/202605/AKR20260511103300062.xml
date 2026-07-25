@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260511103300062</ContentID>
+      <SendDate>20260511</SendDate>
+      <SendTime>141332</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260511103300062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 유네스코 세계지질공원 활용 외국인 방한 여행 추진]]></Title>
+      <Body><![CDATA[철원군, 유네스코 세계지질공원 활용 외국인 방한 여행 추진
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 외국인 관광객 유치를 확대하기 위해 비무장지대(DMZ)와 지역 관광자원을 연계한 인바운드(방한) 관광상품 실증 시범운영에 나섰다고 11일 밝혔다.
+    최근 외국인들의 철원 DMZ 관광에 대한 관심이 높아지는 가운데, 군은 철원만의 특색 있는 관광 콘텐츠를 발굴해 국내를 넘어 해외 관광객까지 끌어들이는 경쟁력 있는 상품을 개발할 방침이다.
+    이번 시범운영은 외국인 인바운드 여행사 전용 상품의 가능성을 검증하고, 실제 운영 과정에서 개선점을 확인하기 위한 실증사업이다.
+    특히 제2땅굴, 철원평화전망대, 철원역사문화공원, 노동당사, DMZ 생태평화공원 등 지역 대표 관광지를 중심으로, 체류형 관광 요소를 더해 관광 만족도를 높이는 데 중점을 뒀다.
+    그동안 외국인 관광객 유치에 한계로 지적되었던 숙박은 올 상반기에 매입한 한탄강 유네스코 세계지질공원 거점센터(모닝캄빌리지)를 활용해 해결할 계획이다.
+    철원을 방문한 외국인 관광객은 재작년 5만8천746명에서 작년에는 7만409명으로 1만1천663명(19.9%) 늘었다.
+    군은 다양한 관광상품을 기획해 인바운드 여행객을 유치, 올해는 10만명을 목표로 강원창조혁신센터와 협업해 스타트업 지원사업을 시작한다.
+    군은 이번 사업을 통해 외국인 관광객의 다양한 수요에 대응하고, DMZ·역사·자연을 아우르는 철원형 관광모델을 구축할 예정이다.
+    이현종 철원군수는 "앞으로도 국내는 물론 해외 관광객 유치에도 적극 힘써 철원 관광의 외연을 넓혀가겠다"며 "철원군에 장학금을 기부한 네덜란드 폰티스 대학생들에게 특히 감사하다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[네덜란드 폰티스 대학생들, 철원군 DMZ 생태평화공원 관광]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260511103300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/11/AKR20260511103300062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

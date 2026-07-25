@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260219010300504</ContentID>
+      <SendDate>20260219</SendDate>
+      <SendTime>065057</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1008001" name="북한일반"/>
+         <ClassCode code="1007006" name="남북갈등"/>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260219010300504]]></Href>
+      <Writer><![CDATA[장용훈]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[김여정 "정동영 재발방지 의지 높이 평가…남부국경 경계 강화"]]></Title>
+      <SubTitle><![CDATA[비행금지구역 등 9·19군사합의 선제적 복원 추진 발표에 하루만에 반응
+"적국과의 국경선은 마땅히 견고해야"…적대감 표출은 여전]]></SubTitle>
+      <Body><![CDATA[김여정 "정동영 재발방지 의지 높이 평가…남부국경 경계 강화"
+비행금지구역 등 9·19군사합의 선제적 복원 추진 발표에 하루만에 반응
+"적국과의 국경선은 마땅히 견고해야"…적대감 표출은 여전
+
+
+
+    (서울=연합뉴스) 장용훈 기자= 북한 김여정 노동당 부부장은 대북 무인기 침투사건에 대한 정동영 통일부 장관의 유감 및 재발방지 의지 표명을 평가하면서도 군사분계선 지역에 대한 경계 강화 조치를 취한다고 밝혔다.
+    김 부부장은 19일 조선중앙통신을 통해 발표한 담화에서 "나는 정동영 한국 통일부 장관이 18일 우리 국가의 영공을 침범한 한국측의 무인기 도발행위에 대해 공식 인정하고 다시 한번 유감과 함께 재발방지 의지를 표명한데 대하여 높이 평가한다"고 말했다.
+    정동영 통일부 장관은 전날 브리핑을 갖고 무인기 사건의 재발방지책으로 비행금지구역 설정 등을 포함하여 기존 9·19 남북군사합의 일부 복원을 선제적으로 검토·추진키로 했다고 밝혔다.
+
+    김 부부장은 "재삼 강조하지만 그 주체가 누구이든, 어떤 수단으로든 조선민주주의인민공화국의 주권에 대한 침해행위가 재발할 때에는 끔찍한 사태에 직면하게 될 것"이라며 "이것은 위협이 아니라 분명한 경고"라고 강조했다.
+    그러면서 "엄중한 주권침해도발의 재발을 확실히 방지할 수 있는 담보 조치를 강구하는 것은 전적으로 한국 자체의 보존을 위한 것"이라고 주장했다.
+    김 부부장은 "우리 군사지도부는 한국과 잇닿아있는 공화국 남부국경 전반에 대한 경계강화 조치를 취하게 될 것"이라며 "적국과의 국경선은 마땅히 견고해야 한다"고 덧붙였다.
+    북한은 김정은 국무위원장의 남북관계에 대한 적대적 두국가 주장 이후 군사분계선 인근에 새 방벽, 울타리, 대전차 장애물 등을 설치하는 작업을 지속적으로 진행하고 있다.
+    한편 김여정 부부장은 지난 13일에도 정동영 장관의 무인기 침투에 대한 유감표명에 대해 "비교적 상식적인 행동"이라고 평가하면서 재발방지대책 마련을 촉구하는 담화를 발표했다.
+    jyh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김여정 북한 노동당 부부장]]></Title>
+         <Caption><![CDATA[[조선중앙통신 홈페이지 캡처. 국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution]]]></Caption>
+         <FileName>PCM20250820000009990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/08/20/09/PCM20250820000009990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[정동영 장관, 정동영 "9·19군사합의 비행금지구역 복원 선제적 추진"]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 김인철 기자 = 정동영 통일부 장관이 18일 서울 종로구 정부서울청사 브리핑룸에서 대북 무인기사건 재발방지대책을 발표하고 있다. 2026.2.18 yatoya@yna.co.kr]]></Caption>
+         <FileName>PYH2026021806690001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/18/PYH2026021806690001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

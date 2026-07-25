@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260408148200704</ContentID>
+      <SendDate>20260408</SendDate>
+      <SendTime>165031</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001081" name="연합영상"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260408148200704]]></Href>
+      <Writer><![CDATA[류재갑]]></Writer>
+      <Desk code="704"><![CDATA[영상미디어부]]></Desk>
+      <DeliCode>L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[영상] 이스라엘, 휴전 동의했지만…"레바논 헤즈볼라는 제외"]]></Title>
+      <Body><![CDATA[[영상] 이스라엘, 휴전 동의했지만…"레바논 헤즈볼라는 제외"
+
+[https://youtu.be/hQLLuK7qYvc]
+
+   (서울=연합뉴스) 베냐민 네타냐후 이스라엘 총리가 레바논 내 친이란 무장 정파 헤즈볼라 상대 전투는 미국과 이란의 합의에 포함되지 않는다고 밝혔습니다.
+    로이터통신은 8일(현지시간) 이스라엘 매체들을 인용해 네타냐후 총리가 이란 공격을 2주간 중단하기로 한 도널드 트럼프 미국 대통령의 휴전 결정을 존중하지만, 레바논은 예외라고 밝혔다고 보도했습니다.
+    이스라엘군은 미국과 이란이 전쟁 39일째인 7일 자로 2주간의 휴전에 사실상 합의하기 직전까지 헤즈볼라를 겨냥해 레바논 남부에 정예 부대를 추가 투입하며 공세를 강화했습니다.
+    이스라엘군은 7일 "지난주 공수·특공 부대로 구성된 98사단이 레바논 남부 추가 목표물에 대한 표적 작전을 시작했다"고 밝혔습니다.
+    이스라엘군은 이와 함께 레바논 내륙의 '대전차 방어선'을 따라 병력 배치를 완료했다고 밝혔다. 이 지역은 헤즈볼라가 이스라엘 접경 마을을 향해 대전차 유도 미사일을 발사해 온 주요 거점입니다.
+    이스라엘은 국경에서 약 30㎞ 떨어진 리타니 강까지 완충지대를 구축하고 이 지역을 통제한다는 방침입니다.
+    미국과 이란은 2주간의 휴전에 사실상 합의했습니다. 백악관의 한 관계자는 "휴전은 호르무즈 해협 개방 시점부터 발효되며 이스라엘도 휴전에 동의하고 공격을 중단할 예정"이라고 밝혔습니다. 
+    미국과 이란 간 협상을 중재해 온 셰바즈 샤리프 파키스탄 총리는 "미국과 이란이 합의한 2주간의 휴전은 레바논을 포함한 모든 지역에 적용된다"고 밝혔습니다.
+    하지만 이스라엘은 대이란 군사 행동을 통해 달성하려는 목표와 타격 대상이 아직 많이 남아있다는 입장인 것으로 전해진 가운데 휴전 발표에도 이스라엘군이 이란에 대한 공습을 계속하고 있다는 보도도 나왔습니다. 
+    일간 타임스오브이스라엘은 이날 "휴전안에 레바논이 포함됐지만 아직 이스라엘이 헤즈볼라에 대한 작전을 중단했다는 징후는 없다"고 전했는데요. 영상으로 보시죠.
+
+    제작: 류재갑·신태희
+    영상: 로이터·X @idfonline·사이트 CNN·Times Of Israel
+    jacoblyu@yna.co.kr
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260408148200704_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/08/AKR20260408148200704_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

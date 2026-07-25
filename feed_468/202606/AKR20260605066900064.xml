@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260605066900064</ContentID>
+      <SendDate>20260605</SendDate>
+      <SendTime>114701</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7012002" name="괴산"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701004" name="축제"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260605066900064]]></Href>
+      <Writer><![CDATA[박재천]]></Writer>
+      <Desk code="064"><![CDATA[충북취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[괴산빨간맛페스티벌 27만명 방문…"직접경제효과 82억9천만원"]]></Title>
+      <Body><![CDATA[괴산빨간맛페스티벌 27만명 방문…"직접경제효과 82억9천만원"
+
+    (괴산=연합뉴스) 박재천 기자 = 충북 괴산군은 지난 5월 22∼24일 개최한 괴산빨간맛페스티벌에 27만여명이 찾았고, 이로 인한 직접경제효과는 82억9천100만원으로 추정됐다고 5일 밝혔다.
+
+
+    
+    군이 대한지방정책연구원에 의뢰, 방문객 중 1천143명을 대상으로 설문조사를 벌인 결과다.
+    먼저 지난해보다 방문객은 3만5천명, 직접경제효과는 35억1천900만원 늘었다.
+    방문객 1인당 평균 3만610원을 지출했고, 이 가운데 식음료비 지출액은 7천387원으로 조사됐다.
+    방문객 거주지는 충북·청주권이 44.8%로 가장 많았고, 수도권도 22.3%에 달했다. 이어 괴산군민 8.7%, 충남·대전권 8.6%로 집계됐다. 
+    가족 단위 방문객이 전체의 77%를 차지했고, 연령별로는 40대가 31.2%, 30대가 19.7%로 다수였다. 
+    괴산빨간맛페스티벌은 고추와 김장 김치, 양귀비와 장미 등 봄꽃에서 연상되는 '빨간색'을 정체성으로 삼은 축제다.
+    김춘수 괴산축제위원장은 "빨간맛페스티벌은 젊은 감성과 지역 특색을 결합한 보고, 먹고, 즐기는 전국적인 봄 축제로 한 단계 도약했다"고 평가했다.
+    jcpark@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[올해 축제 장소 중 한 곳인 동진천변 일대]]></Title>
+         <Caption><![CDATA[[괴산군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260605066900064_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/05/AKR20260605066900064_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

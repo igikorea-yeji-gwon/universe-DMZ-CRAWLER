@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260602141300030</ContentID>
+      <SendDate>20260602</SendDate>
+      <SendTime>170148</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Class>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0802005" name="등산"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0701002" name="문화시설"/>
+         <ClassCode code="0401001" name="산업일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260602141300030]]></Href>
+      <Writer><![CDATA[이상서]]></Writer>
+      <Desk code="030"><![CDATA[소비자경제부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[관광공사, 12일 'DMZ 평화의 길 걷기' 행사 개최…1천명 모집]]></Title>
+      <SubTitle><![CDATA[가수 션 동행해 90분간 두타연 등 걷기 여행…참가비 무료]]></SubTitle>
+      <Body><![CDATA[관광공사, 12일 'DMZ 평화의 길 걷기' 행사 개최…1천명 모집
+가수 션 동행해 90분간 두타연 등 걷기 여행…참가비 무료
+
+
+    (서울=연합뉴스) 이상서 기자 = 문화체육관광부와 한국관광공사는 오는 12일 강원 양구군 DMZ 평화의 길 26코스에서 'DMZ 평화의 길 걷기' 행사를 개최한다고 2일 밝혔다.
+    행사는 DMZ 지역의 가치를 알리고 걷기 여행 문화를 확산하기 위해 마련됐다.
+    행사 구간인 DMZ 평화의 길 26코스에 위치한 '두타연'은 맑은 계곡과 원시 자연경관을 간직한 곳으로, '금강산 가는 길'로도 알려진 장소다.
+    참가자 1천명은 90분간 함께 걸은 뒤 기념 메달을 받는다. 가수 션도 동행해 응원과 격려를 보낸다.
+    신청은 두루누비 사이트와 인스타그램에서 할 수 있으며, 참가비는 무료다.
+    관광공사 관계자는 "코리아둘레길의 가치를 함께 느껴볼 수 있는 뜻깊은 자리인 만큼 많은 참가를 기다린다"고 전했다.
+
+    shlamazel@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ 평화의 길 걷기]]></Title>
+         <Caption><![CDATA[[한국관광공사 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260602141300030_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/02/AKR20260602141300030_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ 평화의 길 걷기 구간]]></Title>
+         <Caption><![CDATA[[한국관광공사 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260602141300030_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/02/AKR20260602141300030_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

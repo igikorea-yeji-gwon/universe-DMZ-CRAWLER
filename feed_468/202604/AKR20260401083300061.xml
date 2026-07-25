@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260401083300061</ContentID>
+      <SendDate>20260401</SendDate>
+      <SendTime>110211</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260401083300061]]></Href>
+      <Writer><![CDATA[최찬흥]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한준호, '경기북부 메가시티' 공약…기능 중심 공동거버넌스]]></Title>
+      <Body><![CDATA[한준호, '경기북부 메가시티' 공약…기능 중심 공동거버넌스  
+
+     (수원=연합뉴스) 최찬흥 기자 = 더불어민주당 경기도지사 경선 후보인 한준호(고양을) 의원은 1일 반환 미군기지인 의정부 캠프 레드클라우드 앞에서 4차 비전선포 기자회견을 열어 '경기북부 메가시티' 출범을 공약했다.
+
+    한 후보는 "경기북부 메가시티는 고양·파주·의정부·양주·동두천·연천·포천·가평·남양주·구리 등 10개 시군이 하나의 목소리를 내는 특별지방자치단체"라며 "시군 통합이나 행정 개편이 아닌 기능 중심의 공동거버넌스"라고 밝혔다.
+    지방자치법은 '2개 이상의 지방자치단체가 공동으로 특정한 목적을 위하여 광역적으로 사무를 처리할 필요가 있을 때에는 특별지방자치단체를 설치할 수 있다'고 규정하고 있다.
+    한 후보는 또 "의정부 경기북부청사에 도지사 직속 특별규제개혁위원회를 설치하고, 균형발전특별회계 내 '경기북부 특별계정' 신설을 국회에 요구해 경기북부만의 재원을 확보하겠다"며 "국가를 위한 희생이 반드시 보상으로 이어지게 하겠다"고 했다. 
+    한 후보는 파주~고양~의정부~남양주 급행 순환철도 건설, 접경지역 평화햇빛발전소 조성, 반환공여지 청년·산업 거점 조성 등도 약속했다.
+    chan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[토론회 참석한 한준호 후보]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 더불어민주당 한준호 경기도지사 경선후보가 지난달 30일 상암동 MBC 신사옥에서 열린 '더불어민주당 경기도지사 후보자 합동토론회'에서 발언을 하고 있다. 2026.3.30 [국회사진기자단] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2026033019910001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/03/30/PYH2026033019910001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260508155300005</ContentID>
+      <SendDate>20260509</SendDate>
+      <SendTime>083500</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0705001" name="출판일반"/>
+         <ClassCode code="0705002" name="도서신간"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260508155300005]]></Href>
+      <Writer><![CDATA[강종훈]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[신간] AI가 설명하는 AI 활용법…'제미나이의 AI 인문학']]></Title>
+      <SubTitle><![CDATA['만주와 한반도를 잇다'·'아인슈페너 향을 따라 걷다']]></SubTitle>
+      <Body><![CDATA[[신간] AI가 설명하는 AI 활용법…'제미나이의 AI 인문학'
+'만주와 한반도를 잇다'·'아인슈페너 향을 따라 걷다'
+
+
+    (서울=연합뉴스) 강종훈 기자 = ▲ 제미나이의 AI 인문학 = 제미나이 지음. 기획·감수 김계동.
+    구글의 인공지능(AI) 모델 제미나이가 인간이 어떻게 AI를 활용하고 AI와 공존해야 하는지 직접 설명한다.
+    책은 인간과 AI의 공동작업 방식으로 집필됐다. 정치학자인 김계동 건국대 초빙교수가 전체 기획과 감수를 맡아 AI가 작성한 글을 다듬고 오류도 바로잡았다. 
+    AI 작동 원리, 답변 작성 과정과 오류 원인, AI와 대화하는 기술, 세대별 활용 전략 등 폭넓은 주제를 다룬다.
+    책은 AI가 단순한 검색기가 아니라 복합적 지능 체계이므로 작동 원리를 이해하고 최적의 답변을 끌어내는 지시어 작성법을 익히는 것이 중요하다고 설명한다.
+    또 AI가 스스로 학습한 데이터를 바탕으로 답변을 생성하는 과정에서 오류가 발생할 수 있기 때문에 이를 파악하고 검증하는 인간의 비판적 안목이 필요하다고 말한다.
+    AI는 인간이 더 높은 차원의 고민과 윤리적 결정에 전념하도록 하는 조력자여야 한다고도 강조한다. 
+    책에서 제미나이는 "AI는 인간을 대체하거나 지배하기 위해 태어난 존재가 아니다"라며 "나는 인간의 지능을 무한히 확장해 주는 가장 유능한 파트너로서 존재하고자 한다"고 말한다.
+    명인문화사. 340쪽.
+
+
+    ▲ 만주와 한반도를 잇다 = 강주원 지음.
+    20년 넘게 만주와 한반도 접경 지역을 누빈 인류학자가 두만강과 압록강을 넘나든 역사적 인물들의 흔적을 기록했다. 
+    오늘날 두만강과 압록강은 물리적 접근이 어려운 '분단의 상징'이지만, 저자는 그곳이 수많은 사람과 물자가 교차하던 공존의 공간이었음을 상기시킨다.
+    이를 통해 '늘 춥고 삭막한 땅', '항일 투쟁의 무대'로만 기억되는 만주와 두만강, 압록강에 대한 고정관념을 허문다. 
+    안중근, 이회영, 백석, 윤동주 등 익숙한 인물들이 언제 어떤 마음으로 그 강을 건넜는지 궤적을 쫓으며 남북 교류, 한반도 평화와 공존의 문제까지 생각을 확장한다.
+    정한책방. 264쪽.
+
+
+    ▲ 아인슈페너 향을 따라 걷다 = 류학용 지음.
+    한국 기업의 헝가리 법인 주재원과 프랑스 기업 한국법인 임원으로 약 20년간 근무한 저자가 유럽 문화와 역사를 녹여낸 여행 에세이.
+    프랑스 파리에서 시작해 노르망디, 낭트, 보르도 등을 거쳐 오스트리아 잘츠부르크, 빈에서 마무리되는 14박 16일간의 여정에 자연스럽게 인문 지식을 담았다.
+    프랑스의 '톨레랑스' 정신은 오늘날 유럽인들에게 어떤 의미인지, 영국과 프랑스의 백년전쟁은 유럽 사회에 어떤 영향을 끼쳤는지 등을 가족 간의 대화 형식으로 풀었다.
+    미다스북스. 320쪽.
+    double@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260508155300005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/08/AKR20260508155300005_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260508155300005_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/08/AKR20260508155300005_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260508155300005_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/08/AKR20260508155300005_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

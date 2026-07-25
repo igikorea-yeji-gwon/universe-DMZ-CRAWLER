@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260107148400108</ContentID>
+      <SendDate>20260107</SendDate>
+      <SendTime>191521</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107007" name="예멘"/>
+         <RegionCode code="7107004" name="사우디"/>
+         <RegionCode code="7107006" name="아랍에미"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260107148400108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[예멘 분리주의 세력 지도자 행방 묘연…反후티 연합서도 퇴출]]></Title>
+      <Body><![CDATA[예멘 분리주의 세력 지도자 행방 묘연…反후티 연합서도 퇴출
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 사우디아라비아와 충돌한 예멘 분리주의 세력 남부과도위원회(STC)의 아이다루스 알주바이디 위원장이 행방불명됐다.
+    사우디의 지원을 받는 예멘 정부도 알주바이디 위원장을 퇴출하면서 STC가 사면초가의 위기를 맞고 있다.
+    7일(현지시간) 아랍권 알자지라 방송에 따르면 예멘 정부 통치기구인 대통령지도위원회(PLC)는 알주바이디 위원장을 PLC 부의장직에서 해임한다고 밝혔다.
+    PLC는 알주바이디 위원장이 반역 혐의로 기소됐다고 설명했다.
+    알주바이디 위원장은 이날 사우디 수도 리야드에서 PLC의 라샤드 알알리미 의장과 회담할 예정이었지만, 리야드에 있는 STC 대표단과 연락이 두절된 상태다.
+    STC는 알주바이디 위원장이 STC의 거점인 예멘 남부 항구도시 아덴에 머물며 군사 작전을 계속 지휘하고 있다는 입장을 냈지만, 실제 행방은 확인되지 않는다고 로이터 통신이 보도했다.
+    예멘 PLC의 고문 타베트 알아마디는 알자지라 인터뷰에서 "알주바이디가 영영 떠났을 가능성이 크다"며 병력 지휘권도 무크타르 알누비, 모아멘 알사카프 등 젊은 인사에게 이양한 것으로 보인다고 말했다.
+    사우디가 주도하는 연합군은 이날 새벽부터 예멘 남부의 달레 일대를 10여차례 공습하며 STC를 몰아세웠다.
+    STC를 후원해온 아랍에미리트(UAE)마저 최근 사우디의 경고성 공습 직후 예멘에서 병력을 전면 철수하는 등 STC를 향한 압박 수위가 높아지고 있다.
+    예멘 PLC는 이란이 지원하는 후티 반군에 맞서 여러 정치단체가 모인 통치 조직으로, 국제사회도 예멘 내전 국면에서 PLC를 정통성있는 정부로 인정한다. PLC를 떠받치는 사우디 연합군에는 UAE도 명목상 포함돼 있다.
+    그러나 지난 수년간 STC는 옛 남예멘 부활을 외치며 독자적인 행보를 강화했으며, 지난달에는 사우디 접경지인 하드라마우트, 마라 등 일대까지 장악했다.
+    사우디는 STC의 점령지 철수와 UAE 철군을 요구하며 지난달 26일과 30일 예멘을 직접 공습했다. 이에 UAE는 병력을 물리며 발을 뺐지만 STC는 이달 2일 '남아라비아국'을 건국한다는 헌법을 발표하며 긴장이 고조됐다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[예멘 정부군]]></Title>
+         <Caption><![CDATA[[로이터 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260107263301009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/01/07/PRU20260107263301009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

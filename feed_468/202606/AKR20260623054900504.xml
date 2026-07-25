@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260623054900504</ContentID>
+      <SendDate>20260623</SendDate>
+      <SendTime>100554</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="1001005" name="북한군사"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260623054900504]]></Href>
+      <Writer><![CDATA[김효정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[전직 유엔사 관계자 "北 경계선 강화 활동, 정전협정 위반 아냐"]]></Title>
+      <SubTitle><![CDATA["군사적 균형 저해하지 않아"…한국 정부는 "명백한 위반" 유엔사와 온도차]]></SubTitle>
+      <Body><![CDATA[전직 유엔사 관계자 "北 경계선 강화 활동, 정전협정 위반 아냐"
+"군사적 균형 저해하지 않아"…한국 정부는 "명백한 위반" 유엔사와 온도차
+   
+
+    (서울=연합뉴스) 김효정 기자 = 북한의 군사분계선(MDL) 국경선화 작업을 정전협정 위반으로 볼 것인지를 두고 한국 국방부와 유엔군사령부가 이견을 보이는 가운데 전직 유엔사 관계자가 정전협정 위반이 아니라는 견해를 밝혔다.
+    마이클 보잭 전 유엔사 군사정전위원회 부비서장은 지난 22일 자신의 사회관계망서비스(SNS)에 글을 올려 "군정위 근무 기간 북한군의 경계선 강화 활동이 적대적 성격을 띤다는 증거를 보지는 못했다"며 이같이 말했다.
+    그는 북한군의 경계선 강화 활동이 "상부에서는 정치적 마찰을 일으키지만, 현장에서는 실질적 안정성을 강화하는 것"이라며 장기적으로는 무단 월경 위험을 감소시키는 효과가 있다고 짚었다.
+    또 정전협정의 실질적 해석 관점에서 봤을 때 북한군의 활동은 건설 및 유지보수로 간주된다며 "한국군도 남측에서 지뢰 및 울타리 설치, 장애물 설치 등 같은 활동을 한다"고 말했다.
+    그는 "중요한 고려 사항 중 하나는 비무장지대(DMZ) 내 군사적 균형(military equilibrium)"이라며 "북한군이 그 균형을 저해할 수 있는 장비나 역량을 배치한다면 이야기가 달라질 수 있지만 그런 상황은 아니다"라고 했다.
+    보잭 전 부비서장은 2019년 8월부터 지난해 11월까지 약 6년간 군정위 부비서장으로 재직했으며 현재는 민간 싱크탱크에서 활동 중이다.
+    2024년 4월부터 북한이 MDL 이북에서 진행해 온 불모지화, 전술도로 구축, 철조망 및 지뢰 설치 등 MDL의 국경선화 및 요새화 작업이 정전협정 위반이 아니라는 유엔사의 판단 근거를 설명한 것이다.
+    반면 우리 국방부와 합동참모본부는 북한의 국경선화 작업, 특히 MDL에 80∼90m가량 바짝 붙여 철책을 세우는 행위 등을 DMZ를 완충지대로 설정한다는 정전협정 조항에 대한 '명백한 위반'이라고 보고 있다.
+    DMZ 관할권 등을 둘러싼 한국 정부와 유엔사의 의견 대립이 북한의 국경선화 작업 문제로도 번지는 것 아니냐는 관측도 나온다.
+    정부는 최근 별도로 유엔사 측에 북측 행위에 대한 문제제기를 전달했으며, 유엔사 측도 자신들의 입장을 설명하는 등 의견교환이 있었던 것으로 전해졌다.
+    kimhyoj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[적막한 비무장지대]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 임병식 기자 = 국방부가 유엔군사령부와 비무장지대(DMZ) 관리 현실화를 협의 중인 가운데 9일 경기도 파주시 접경지역에서 바라본 DMZ 일대가 적막하다. 2026.2.9 andphotodo@yna.co.kr]]></Caption>
+         <FileName>PYH2026020912140006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/09/PYH2026020912140006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

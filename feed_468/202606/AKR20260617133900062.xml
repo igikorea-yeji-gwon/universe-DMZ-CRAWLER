@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260617133900062</ContentID>
+      <SendDate>20260617</SendDate>
+      <SendTime>161211</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0201018" name="투자협력"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260617133900062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['새 도정 비전 구체화' 민선 9기 강원도지사직 인수위 본격 활동]]></Title>
+      <SubTitle><![CDATA[접경지역 평화경제특구 조성 추진 등 핵심 현안 중점 논의]]></SubTitle>
+      <Body><![CDATA['새 도정 비전 구체화' 민선 9기 강원도지사직 인수위 본격 활동
+접경지역 평화경제특구 조성 추진 등 핵심 현안 중점 논의
+
+    (춘천=연합뉴스) 이재현 기자 = 민선 9기 강원특별자치도지사직 인수위원회가 새 도정의 비전과 정책 방향을 구체화하기 위한 분과별 업무보고에 본격 착수했다.
+
+    인수위 기획전략분과(분과위원장 송영훈)는 17일 도청 제2별관 중회의실에서 기획조정실과 특별자치국의 첫 업무보고를 개최했다.
+    이날 기획조정실 업무보고에서는 민선 9기 도정의 밑그림을 구체화하는 데 주력했다.
+    이를 위해 2027년 국비 확보 방안과 접경지역 평화경제특구 조성 추진 등 핵심 현안을 중점적으로 논의했다. 
+    아울러 정책 우선순위와 실효성 있는 실행 방안을 마련하기 위한 협의를 진행했다.
+    이어진 특별자치국 업무보고에서는 강원특별법 3차 개정에 따른 후속 조치와 향후 4차 개정 추진을 위한 다각적인 방안이 다뤄졌다.
+    특별자치국은 도민들이 체감할 수 있는 실행 가능한 정책 대안을 마련하는 데 역량을 집중하겠다는 뜻을 밝혔다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[인수위 기획전략분과, 업무보고]]></Title>
+         <Caption><![CDATA[[인수위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260617133900062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/17/AKR20260617133900062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

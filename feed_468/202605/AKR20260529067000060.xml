@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260529067000060</ContentID>
+      <SendDate>20260529</SendDate>
+      <SendTime>104639</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109010" name="보훈복지"/>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260529067000060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주임진각평화곤돌라, 6월 호국보훈의 달 맞아 특별 할인]]></Title>
+      <Body><![CDATA[파주임진각평화곤돌라, 6월 호국보훈의 달 맞아 특별 할인
+    
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주 임진각의 대표 관광 콘텐츠인 '파주임진각평화곤돌라'(이하 '곤돌라')는 6월 호국보훈의 달을 맞아 한 달간 특별 할인 행사를 진행한다고 29일 밝혔다.
+
+    이번 행사는 호국 보훈의 가치를 되새기고 국가를 위해 헌신한 유공자와 국민의 안전을 지키는 제복 근무자들에게 감사의 마음을 전하기 위해 기획됐다.
+    국가유공자 본인은 무료로 곤돌라에 탑승할 수 있으며, 동반 3인까지 50% 할인 혜택이 제공된다. 
+    또 군인, 경찰, 소방관 등 제복 근무자 역시 본인과 동반 3인까지 50% 할인된 가격으로 곤돌라에 탑승할 수 있다.
+    할인 혜택은 현장 매표소에서 국가유공자증, 공무원증 등 신분을 확인할 수 있는 증빙 서류를 제시하면 된다. 
+    이백현 파주임진각평화곤돌라 대표는 "국가와 국민을 위해 헌신하는 분들과 그 가족들에게 뜻깊은 시간이 되길 바란다"고 말했다.
+    파주임진각평화곤돌라는 국내 최초로 비무장지대(DMZ) 일대를 하늘길로 연결해 조망할 수 있는 관광 시설이다. 
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주 '임진각 평화 곤돌라']]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2020091512640006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2020/09/15/PYH2020091512640006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260313134000062</ContentID>
+      <SendDate>20260313</SendDate>
+      <SendTime>162136</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004008" name="양양"/>
+      </Region>
+      <Class>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0105001" name="선거일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260313134000062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양양 방문한 우상호 강원지사 예비후보 "국제 관광지로 탈바꿈"]]></Title>
+      <SubTitle><![CDATA[서퍼비치서 간담회…2박 3일간의 영동권 현장 정책 투어 마무리]]></SubTitle>
+      <Body><![CDATA[양양 방문한 우상호 강원지사 예비후보 "국제 관광지로 탈바꿈"
+서퍼비치서 간담회…2박 3일간의 영동권 현장 정책 투어 마무리
+
+
+    (양양=연합뉴스) 류호준 기자 = 우상호 더불어민주당 강원특별자치도지사 예비후보가 13일 양양 서피비치를 찾아 지역 청년들과 강원도 문화관광의 미래를 논의했다.
+    우 예비후보는 이날 양양 워케이션센터 '웨이브웍스'에서 열린 간담회를 통해 청년 창업가들의 애로사항을 듣고, 양양 문화관광이 지닌 글로벌 경쟁력을 확인했다.
+    이 자리에서 우 후보는 "문화관광산업은 강원도의 미래 먹거리 핵심축 중 하나"라며 "양양은 지역과 관광 테마, 청년이라는 삼박자가 가장 잘 어우러진 모델로, 청년들이 제안한 현장의 목소리를 정책에 녹여 공약으로 담아내겠다"고 말했다.
+    간담회에는 박준규 서피비치 대표 등이 참석했다.
+    이들은 "양양은 과거 인구 유입의 성공 경험이 있는 가능성이 큰 도시"라며 "로컬 문화산업 활성화를 통해 소멸 위기 지역에 희망을 불어넣고, 꿈을 펼칠 수 있는 환경 조성이 절실하다"고 건의했다.
+    이에 우 후보는 "강원도를 국제적인 관광지로 탈바꿈시키겠다는 큰 설계를 가지고 있다"며 "양양과 같은 테마 마을을 매력적인 거점으로 삼아 더 많은 관광객이 즐길 수 있는 환경을 만들고 현장에서 문화를 창출하는 청년들의 든든한 지원군이 되겠다"고 답했다.
+    간담회를 마친 우 후보는 조화벽 애국지사 헌정식 참석을 끝으로 2박 3일간의 첫 영동권 현장 정책 투어를 마무리했다.
+    지난 11일 동해시에서 시작한 우상호 후보의 '영동권 2박 3일 현장 정책 투어'는 전날 강릉과 속초를 거쳐 이날 양양 등 영동 북부 지역을 방문하는 것으로 끝났다.
+    이후에는 남부권과 접경지역 등에서 현장 정책 투어를 이어갈 예정이다.
+    우 후보는 "이번 투어를 통해 영동권의 무한한 잠재력을 재확인했다"며 "전 세계로 뻗어 나가는 강원의 미래를 위해 모든 역량을 쏟겠다"고 다짐했다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양양 찾은 우상호 강원지사 예비후보]]></Title>
+         <Caption><![CDATA[[우상호 예비 후보 측 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260313134000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313134000062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양양 찾은 우상호 강원지사 예비후보]]></Title>
+         <Caption><![CDATA[[우상호 예비 후보 측 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260313134000062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313134000062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

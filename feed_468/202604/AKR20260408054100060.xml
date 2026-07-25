@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260408054100060</ContentID>
+      <SendDate>20260408</SendDate>
+      <SendTime>095405</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0503001" name="교육일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260408054100060]]></Href>
+      <Writer><![CDATA[김도윤]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기 미래통일교육센터, 숙박형 프로그램 운영]]></Title>
+      <Body><![CDATA[경기 미래통일교육센터, 숙박형 프로그램 운영
+
+    (의정부=연합뉴스) 김도윤 기자 = 경기도교육청은 올해 개관 2년 차를 맞은 미래통일교육센터의 체험·연수·연구 기능을 강화한다고 8일 밝혔다.
+    이를 위해 학생 교육 프로그램에 숙박형을 추가했다.
+    개관 첫해 1일형 프로그램만 운영해 현장 참여와 체험 중심 활동을 진행했다.
+    숙박형 프로그램은 심화 교육·체험, 협력 활동 중심으로 5월과 10월 각 3회 운영될 예정이다.
+    희망하는 학교의 신청을 받아 회당 약 80명이 참여하며 학생들은 캠프 그리브스 유스호스텔에서 숙박한다.
+
+    교장과 교감을 대상으로 한 숙박형 프로그램도 이달 말과 9월 말 운영된다.
+    이와 함께 센터는 올해 교직원 프로그램으로 교과와 범교과 교육과정에서 따라 통일교육 수업 설계 연수를 제공할 계획이다.
+    미래통일교육센터는 지난해 2월 파주시 적성면 옛 평화통일 체험학습장에 지상 2층, 전체면적 4천500㎡ 규모로 개관했다.
+    이곳에서 갈등과 분쟁이 잦은 지구촌 상황, 한반도 분단과 현재의 갈등, 통일의 필요성과 편익 등을 체험할 수 있다.
+    6·25 전쟁 당시 치열했던 비무장지대(DMZ)를 비롯한 한반도의 과거, 현재, 미래 경관도 실감 영상으로 만날 수 있다.
+    kyoon@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도교육청 미래통일교육센터]]></Title>
+         <Caption><![CDATA[[경기도교육청 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260408054100060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/08/AKR20260408054100060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

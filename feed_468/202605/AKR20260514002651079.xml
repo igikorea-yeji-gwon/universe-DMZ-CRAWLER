@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260514002651079</ContentID>
+      <SendDate>20260514</SendDate>
+      <SendTime>031609</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107006" name="아랍에미"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260514002651079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[네타냐후, UAE 극비리에 방문…"양국 관계 역사적 돌파구"(종합)]]></Title>
+      <SubTitle><![CDATA["양국 정상, 3월26일 오만 접경 도시 알아인서 수시간 회담"
+"모사드 국장도 군사작전 조율 위해 최소 2차례 UAE 방문"]]></SubTitle>
+      <Body><![CDATA[네타냐후, UAE 극비리에 방문…"양국 관계 역사적 돌파구"(종합)
+"양국 정상, 3월26일 오만 접경 도시 알아인서 수시간 회담"
+"모사드 국장도 군사작전 조율 위해 최소 2차례 UAE 방문"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 베냐민 네타냐후 이스라엘 총리가 이란과 전쟁 중 아랍권 국가인 아랍에미리트(UAE)를 비밀리에 방문했다고 이스라엘 총리실이 14일(현지시간) 밝혔다.
+    총리실은 성명을 통해 "네타냐후 총리가 '사자의 포효(Lion's Roar)' 작전 기간 중 UAE를 비밀리에 방문해 셰이크 무함마드 빈 자예드 알나하얀 UAE 대통령과 회담했다"고 전했다.
+    총리실은 이어 "이번 방문은 이스라엘과 아랍에미리트 양국 관계에 있어 역사적인 돌파구를 마련한 계기가 됐다"고 평가했다.
+    회담 내용을 잘 아는 한 소식통은 로이터 통신에 네타냐후 총리와 셰이크 모하메드 빈 자예드 대통령이 지난 3월 26일 오만 접경지의 오아시스 도시인 알아인에서 만났으며, 회담은 수 시간 동안 지속되었다고 전했다.
+    이 소식통은 다비드 바르니아 모사드 국장이 이란과의 전쟁 기간 중 군사 작전을 조율하기 위해 최소 두 차례 아랍에미리트를 방문했다고 밝혔다.
+    UAE는 지난 2020년 바레인과 함께 이른바 '아브라함 협정'을 계기로 이스라엘을 국가로 인정하고 외교관계를 수립했다.
+    이후 양국은 협력 분야를 전방위적으로 확대해왔다. 양국의 밀착 행보는 안보 분야에서 두드러졌다. 
+    이스라엘은 전쟁 발발 후 이란의 집중포화를 받던 UAE에 저고도 방공망인 아이언돔 포대와 이를 운용할 병력을 파견했다. 이스라엘이 자랑하는 아이언돔 방공망이 해외에 배치된 것은 UAE가 처음이다.
+    UAE는 이스라엘과의 관계를 역내 영향력 확대를 위한 지렛대이자 미국과 소통을 강화하는 통로로 여기고 있다는 평가가 나온다.
+    더욱이 네타냐후 총리가 비밀리에 전격적으로 UAE를 방문한 것은 이란이라는 공공의 적을 상대로 양국의 안보 동맹이 더욱 공고해졌음을 시사한다.
+    네타냐후 총리의 UAE 비밀 방문은 이번이 처음은 아니다. 
+    네타냐후 총리는 수교 전인 2018년에도 비밀리에 UAE를 방문해 모하메드 대통령과 회담한 바 있다. 
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[베냐민 네타냐후 이스라엘 총리]]></Title>
+         <Caption><![CDATA[[이스라엘 총리실 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260514002651079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/14/AKR20260514002651079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

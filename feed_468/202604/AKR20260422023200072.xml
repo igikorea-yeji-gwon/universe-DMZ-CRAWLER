@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260422023200072</ContentID>
+      <SendDate>20260422</SendDate>
+      <SendTime>075840</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1102002" name="UN"/>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="1102009" name="IAEA"/>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001303" name="취재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260422023200072]]></Href>
+      <Writer><![CDATA[이지헌]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[유엔총장 후보 출마 IAEA 수장 "한반도-유엔 협력기회 올 것"]]></Title>
+      <SubTitle><![CDATA[라파엘 그로시 사무총장 "한반도서 점진적 노력 이뤄지고 있어"]]></SubTitle>
+      <Body><![CDATA[유엔총장 후보 출마 IAEA 수장 "한반도-유엔 협력기회 올 것"
+라파엘 그로시 사무총장 "한반도서 점진적 노력 이뤄지고 있어"
+
+
+
+    (뉴욕=연합뉴스) 이지헌 특파원 = 차기 유엔 사무총장 인선에 출마한 라파엘 그로시(65) 국제원자력기구(IAEA) 사무총장은 21일(현지시간) 한반도 평화를 위해 유엔이 함께 협력할 기회가 올 것이라 생각한다고 밝혔다.
+    그로시 사무총장은 이날 미국 뉴욕 유엔본부에서 차기 사무총장 인선을 앞두고 유엔 회원국 대표들이 참석한 '상호 대화'(interactive dialogue) 자리에서 한반도 문제 관련 유엔 사무총장의 역할에 관한 차지훈 주유엔 대사의 질의에 "그곳(한반도)에서 점진적인 노력이 이뤄지고 있다는 점을 알고 있으며, 유엔과 한반도가 힘을 모아 함께 협력할 기회가 반드시 올 것이라고 여기게 됐다"라고 말했다.
+    그는 "나는 바로 며칠 전에도 서울에 있었고, 비무장지대(DMZ)를 다시금 방문했다"며 "그곳은 당연하게도 한반도 비핵화 문제와 관련한 IAEA의 업무와도 연관돼 있다"라고 말했다.
+    이어 "우리는 세계 각지의 위기를 해결해야 할 필요성을 매우 깊이 인식하고 있다"며 "한반도는 그 명확한 사례 중 하나"라고 강조했다.
+     그로시 사무총장은 "그곳(비무장지대)에서 유엔 깃발이 자랑스럽게 펄럭이는 것을 보며 한국이 걸어온 역사를 다시금 상기하게 됐다"며 "이는 우리 앞에 놓여 있는 일들에 영감을 주는 것 중 하나라고 생각한다"라고 말했다.
+    내년 1월 1일 임기가 시작되는 차기 유엔총장 인선을 두고 그로시 사무총장을 비롯해 미첼 바첼레트 칠레 전 대통령, 레베카 그린스판 코스타리카 전 부통령, 마키 살 세네갈 전 대통령 등 4명이 출사표를 던지고 경합 중이다.
+    사무총장으로 임명되기 위해서는 안전보장이사회(안보리) 15개 이사국 중 9개국 이상의 찬성을 얻어야 하며, 특히 미국, 러시아, 영국, 중국, 프랑스 등 5개 상임이사국 중 어느 곳도 거부권을 행사하지 않아야 한다. 
+    pan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[라파엘 그로시 차기 유엔 사무총장 후보]]></Title>
+         <Caption><![CDATA[(뉴욕=연합뉴스) 이지헌 특파원 = 차기 유엔 사무총장 인선에 출마한 라파엘 그로시(65) 국제원자력기구(IAEA) 사무총장이 21일(현지시간) 미국 뉴욕 유엔본부에서 기자들과 만나 질문에 답변하고 있다. 2026.4.21 photo@yna.co.kr]]></Caption>
+         <FileName>AKR20260422023200072_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/22/AKR20260422023200072_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

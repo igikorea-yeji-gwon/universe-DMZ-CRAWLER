@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260310049400053</ContentID>
+      <SendDate>20260310</SendDate>
+      <SendTime>150002</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003003" name="대구"/>
+         <RegionCode code="7007001" name="경북"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260310049400053]]></Href>
+      <Writer><![CDATA[이승형]]></Writer>
+      <Desk code="053"><![CDATA[대구경북취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[대구에서 안동 이전 10년 맞은 경북도청…"더 큰 미래 꿈꾼다"]]></Title>
+      <SubTitle><![CDATA[이철우 "경북 북부권 균형발전 거점"…"TK 통합되면 더 발전"]]></SubTitle>
+      <Body><![CDATA[대구에서 안동 이전 10년 맞은 경북도청…"더 큰 미래 꿈꾼다"
+이철우 "경북 북부권 균형발전 거점"…"TK 통합되면 더 발전"
+
+
+    (안동=연합뉴스) 이승형 기자 = 경북도는 10일 도청 새마을광장에서 도청 이전 10주년 기념행사를 열었다.
+    대구에 있던 경북도청은 지역 발전의 축을 다시 세워 균형발전을 이루고 한반도 허리 경제권의 교두보를 확보한다는 취지에서 2016년 3월 안동·예천 접경지역의 현 청사로 옮겼다.
+    도는 경북의 새로운 역사를 되새기고 미래를 다짐하는 의미에서 10년 전 신청사 개청식이 열린 장소와 시간에 맞춰 기념식을 마련했다.
+    행사는 1천여명이 참석한 가운데 균형발전과 미래 성장 상징이라는 청사 이전의 의미를 되새기고 새로운 도약과 발전을 기원하는 의미를 담아 간소하게 진행됐다.
+    참석 인사들은 '함께한 10년의 동행, 더 큰 100년의 미래'라는 슬로건을 내걸고 기념식수 등을 했다.
+    이철우 경북도지사는 기념사에서 "이제 이곳은 도청과 도의회, 공공기관들이 자리 잡고 경북의 미래를 설계하는 심장이 돼 명실상부한 행정중심도시로 당당히 자리매김했다"며 "도청 신도시는 경북 북부권의 희망이자 균형발전의 상징적 거점이 됐다"고 말했다.
+    그러면서 "대한민국의 낡은 구조가 바뀌지 않으면 지방의 미래는 없고 그 해법이 대구·경북 통합이다"며 "통합이 이뤄지면 도청 신도시는 절대 소외되지 않고 더 큰 발전의 기회와 함께 행정중심복합도시라는 새로운 미래를 맞이하게 될 것"이라고 설명했다.
+    이어 "특별행정기관과 산하 공공기관 이전, 대학 연합캠퍼스 조성, 통합특별시의 글로벌 미래 특구 등으로 대구·경북의 행정과 산업 발전을 동시에 이끄는 종합 수도로 성장시켜 나가겠다"고 강조했다.
+    haru@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경북도청 이전 10년 기념행사]]></Title>
+         <Caption><![CDATA[(안동=연합뉴스) 10일 경북도청 새마을광장에서 도청 이전 10주년 기념행사가 열리고 있다. 2026.3.10 [경북도 제공. 재판매 및 DB 금지] haru@yna.co.kr]]></Caption>
+         <FileName>PYH2026031016990005300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/03/10/PYH2026031016990005300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

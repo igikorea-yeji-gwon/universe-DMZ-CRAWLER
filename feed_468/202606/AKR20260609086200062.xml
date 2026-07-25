@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260609086200062</ContentID>
+      <SendDate>20260609</SendDate>
+      <SendTime>141810</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0802005" name="등산"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260609086200062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원관광재단, DMZ 평화의 길 여행 운영…'자연 속에서 휴식']]></Title>
+      <SubTitle><![CDATA[지역의 역사·문화·생태를 직접 경험하는 체험형 관광]]></SubTitle>
+      <Body><![CDATA[강원관광재단, DMZ 평화의 길 여행 운영…'자연 속에서 휴식'
+지역의 역사·문화·생태를 직접 경험하는 체험형 관광
+
+
+    (춘천=연합뉴스) 류호준 기자 = 강원관광재단은 민간 여행사와 협력해 강원특별자치도 '비무장지대(DMZ) 평화의 길' 여행상품을 운용한다고 9일 밝혔다.
+    최근 자연 속에서 휴식과 체험을 함께 즐기는 여행 수요가 늘면서 단순 관광지 방문에서 벗어나 지역의 역사·문화·생태를 직접 경험하는 체험형 관광이 주목받는다.
+    특히 걷기 여행을 통해 자연경관을 감상하고 지역 고유의 이야기를 느끼는 방식이 새로운 관광 흐름으로 자리 잡고 있다.
+    이에 재단은 여행사 노랑풍선과 함께 접경지역만의 생태환경과 분단·평화의 역사, 지역 문화를 함께 경험할 수 있도록 이번 상품을 기획했다.
+    지역별 주요 구간은 ▲ 철원 백마고지(전적지∼백마고지 전망대∼공작새 능선 전망대~C동문) ▲ 화천 백암산 비목구간(주차장∼백암산 케이블카~생태관찰학습원~평화의 댐) ▲ 양구 두타연 피의 능선 구간(금강산 가는 길 안내소∼두타연∼금강산 가는 길 통문∼삼대교 통문) ▲ 인제 대곡리초소∼1052고지 구간 ▲ 고성 통일전망대 구간(고성통일전망대∼해안전망대∼통전 터널∼남방한계선) 등이다.
+    DMZ 접경지역 특유의 생태환경과 분단의 역사적 의미를 함께 느낄 수 있다.
+    또 여행 목적에 따라 관광지를 유형별로 선택할 수 있도록 구성했다.
+    가벼운 산책과 자연 치유를 원하는 이를 위한 숲길·경관 중심 구간은 물론, 안보·문화 자원, 경관 감상에 적합한 대표 관광지 등을 연계해 여행 만족도를 높였다.
+    최성현 재단 대표이사는 "비무장지대 접경지역은 청정 자연과 분단의 역사, 평화의 의미를 함께 경험할 수 있는 특별한 관광자원을 보유하고 있다"며 "평화의 길과 지역 대표 관광지를 연계한 차별화된 여행 콘텐츠를 통해 접경지역 관광 활성화에 기여하겠다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원관광재단, DMZ 평화의 길]]></Title>
+         <Caption><![CDATA[[강원관광재단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260609086200062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/09/AKR20260609086200062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

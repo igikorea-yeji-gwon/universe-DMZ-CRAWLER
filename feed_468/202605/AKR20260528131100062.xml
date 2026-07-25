@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260528131100062</ContentID>
+      <SendDate>20260528</SendDate>
+      <SendTime>151344</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004013" name="철원"/>
+         <RegionCode code="7004018" name="화천"/>
+         <RegionCode code="7004014" name="춘천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260528131100062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[고향 찾은 우상호 "제 어머니가 철원 보건직 공무원 출신"]]></Title>
+      <SubTitle><![CDATA[화천 5대 핵심 공약 제시…교수·연구자 245명 공개 지지 선언]]></SubTitle>
+      <Body><![CDATA[고향 찾은 우상호 "제 어머니가 철원 보건직 공무원 출신"
+화천 5대 핵심 공약 제시…교수·연구자 245명 공개 지지 선언
+
+    (춘천=연합뉴스) 이재현 기자 = 6·3 지선이 엿새 앞으로 다가온 28일 더불어민주당 우상호 강원도지사 후보는 고향인 철원과 화천 등 접경지역을 찾아가 지지를 호소했다.
+
+    사전투표를 하루 앞둔 이날 오전 철원군청 앞에서 가진 유세에는 한금석 철원군수 후보, 허영 국회의원을 비롯해 민주당 소속 도의원·군의원 후보들이 함께했다.
+    우 후보는 연설에서 "저희 어머니가 철원군청 소속 동송면사무소(현 동송읍사무소)서 오랫동안 보건직 공무원으로 근무하셨다"며 각별한 인연을 소개했다.
+    이어 "큰형도 공직자로 일했던 공무원 가족이라 공직자 여러분의 애환을 잘 안다"며 "도지사가 되면 공정한 인사와 공평한 조직 운영을 통해 공직사회가 활력 있게 일할 수 있는 분위기를 만들겠다"고 약속했다.
+    그러면서 "오는 29일부터 시작되는 사전투표에서 여러분의 한표가 철원의 미래를 바꾼다"며 "기호 1번 집권여당 후보들에게 힘을 모아 달라"고 호소했다.
+    우 후보는 "그동안 지지부진했던 구리∼포천 고속도로 철원 연장을 반드시 추진하겠다"며 "중앙당 공약과 대통령 공약에도 포함된 만큼 집권여당의 힘으로 책임 있게 실현하겠다"고 강조했다.
+    허영 의원은 "하반기 상임위원회 국토교통위원회를 1순위로 지원한 만큼 구리∼포천 고속도로 철원 연장과 교통망 확충을 반드시 챙기겠다"고 말했다.
+
+    철원에 이어 화천으로 이동한 우 후보는 화천시장 앞에서 김세훈 화천군수 후보와 함께 합동 유세를 이어갔다. 이 자리에는 배우 우현씨도 가세해 지원 유세에 나섰다.
+    강원 북부를 잇는 교통망 확충과 군사보호구역 대폭 해제 등 화천 발전을 위한 5대 핵심 공약을 제시한 우 후보는 "화천에 꼭 필요한 일, 이재명 대통령과 함께 실현할 수 있는 약속부터 하나씩 책임 있게 추진하겠다"고 다짐했다.
+    강원지역 교수 및 연구자 10여명은 이날 오전 강원도청 브리핑룸에서 우 후보에 대한 공식 지지를 선언했다. 
+    '위기의 강원을 구할 적임자로 우 후보를 지지한다'는 내용의 선언문에는 245명의 교수·연구자들이 서명으로 동참했다.
+    우 후보는 이날 오후 춘천 YMCA 앞마당에서 육동한 춘천시장과 함께 '29∼30일 사전투표'를 독려하는 캠페인을 펼치며 막판 총력전에 돌입했다.
+
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 유세]]></Title>
+         <Caption><![CDATA[[우상호 후보 선대위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260528131100062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/28/AKR20260528131100062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[우상호 후보 지지 선언하는 강원지역 교수·연구자]]></Title>
+         <Caption><![CDATA[[우상호 후보 선대위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260528131100062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/28/AKR20260528131100062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[사전 투표 독려하는 우상호·육동한 후보]]></Title>
+         <Caption><![CDATA[[우상호 후보 선대위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260528131100062_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/28/AKR20260528131100062_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

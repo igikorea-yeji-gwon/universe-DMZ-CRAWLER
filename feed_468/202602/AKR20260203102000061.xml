@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260203102000061</ContentID>
+      <SendDate>20260203</SendDate>
+      <SendTime>140706</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260203102000061]]></Href>
+      <Writer><![CDATA[최찬흥]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[권칠승, 경기지사 출마 선언…"기본이 든든한 경기도 완성"]]></Title>
+      <SubTitle><![CDATA[양기대·김병주 이어 민주당서 3번째 출사표]]></SubTitle>
+      <Body><![CDATA[권칠승, 경기지사 출마 선언…"기본이 든든한 경기도 완성"
+양기대·김병주 이어 민주당서 3번째 출사표
+
+    (수원=연합뉴스) 최찬흥 기자 = 더불어민주당 권칠승(화성병) 의원은 3일 경기도의회 브리핑룸에서 기자회견을 열어 6·3 지방선거 경기도지사 출마를 공식 선언했다.
+
+    권 의원은 "평범한 경기인으로 출발해 입법과 행정, 중앙과 지방을 두루 경험한 준비된 사람으로서 경기인의 일상을 책임지겠다"며 "기본이 든든한 경기도, 덜 피곤한 경기도를 완성하겠다"고 밝혔다.
+    8~9대 경기도의원을 지낸 그는 김대중 대통령 후보 선거기획단 실무 당직자, 노무현 대통령 당시 청와대 행정관, 문재인 정부 중소벤처기업부 장관, 이재명 대통령의 당 대표 시절 수석대변인까지 4명의 대통령과 함께 민주당 30여년의 길을 걸어왔다고 강조했다.     
+    권 의원은 최소환승 교통체계 구축, 소상공인 분쟁조정위원회 설치, 과감한 DMZ(비무장지대) 개방, 경기도형 규제자유특구 도입', SMR(소형모듈원자로) 실증단지 유치 등을 공약했다. 
+    권 의원의 경기지사 출마 선언은 양기대 전 의원, 김병주 의원에 이어 민주당 내 세 번째다.
+    김동연 현 지사의 재선 도전도 확실시되는 가운데 국회 법제사법위원장인 추미애 의원과 한준호·염태영 의원도 출마를 검토 중이다.
+    chan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도지사 출마 선언하는 권칠승 의원]]></Title>
+         <Caption><![CDATA[[촬영 최찬흥]]]></Caption>
+         <FileName>AKR20260203102000061_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/03/AKR20260203102000061_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

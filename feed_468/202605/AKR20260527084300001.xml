@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260527084300001</ContentID>
+      <SendDate>20260527</SendDate>
+      <SendTime>120048</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0103001" name="국회일반"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001211" name="경기선거"/>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260527084300001]]></Href>
+      <Writer><![CDATA[조다운]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[송언석, 경기·강원 찾아 한표 호소…연일 '중도 공략' 광폭행보]]></Title>
+      <SubTitle><![CDATA["중도층에 거부감 적다"…내일도 충북 등 돌면서 선거 지원]]></SubTitle>
+      <Body><![CDATA[송언석, 경기·강원 찾아 한표 호소…연일 '중도 공략' 광폭행보
+"중도층에 거부감 적다"…내일도 충북 등 돌면서 선거 지원
+
+
+    
+    (서울=연합뉴스) 조다운 기자 = 국민의힘 송언석 공동선거대책위원장은 6·3 지방선거를 일주일 앞둔 27일 '격전지'로 꼽히는 경기 하남과 강원 영동 지역을 찾아 후보들을 지원했다.
+    강경 발언으로 대여 공세의 선봉에 선 장동혁 상임선대위원장이 지지층 표심 공략에 집중하는 가운데 송 위원장은 중도층 표심이 중요한 수도권·비영남권 후보 지원에 전력을 쏟으며 광폭 행보를 이어가고 있는 것이다.
+    송 위원장은 이날 오전 이용 하남갑 국회의원 보궐선거 후보·이헌재 하남시장 후보 등 출마자들과 함께 경기 하남 신장시장을 방문해 지원 유세에 나섰다.
+    빨간색 선거운동복 차림으로 시장에 들어선 송 위원장은 식당, 미용실 등 점포를 일일이 돌며 "저는 원내대표를 하다 보니 국회에서 싸울 한 사람이 절실하다", "우리 이 후보를 꼭 좀 부탁한다. 저는 이용이 필요하다"고 시민들의 지지를 호소했다.
+    한 어르신이 "(여당과) 싸움 좀 잘하라"고 역정을 내자, 송 위원장은 허리를 굽혀 "여기 있는 이용이 싸움을 제일 잘한다"며 투표를 부탁하기도 했다.
+    송 위원장은 이후 접경지역인 강원 고성군 간성읍으로 이동, 김진태 강원도지사 후보와 순회 유세를 펼친다.
+    이어 양양군으로 이동해 김진태 후보·김호열 양양군수 후보와 합동 유세를 한 뒤 속초로 이동해 김 후보·이병선 속초시장 후보 지원 유세에 나설 예정이다.
+    그는 28일에는 충북과 강원 영서 지역을 돌며 후보자 지원을 이어갈 예정이다.
+    송 위원장 측 관계자는 "접전 양상을 보이는 비영남권 지역에서 송 위원장에 대한 러브콜이 많이 오는 상황"이라며 "장 위원장에 비해 전국적 인지도는 낮을지라도, 중도층의 거부감이 적은 중앙 정치인이라는 요인이 후보들에게 크게 작용하는 것 같다"고 말했다.
+    allluck@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중앙선대위 입장하는 장동혁·송언석]]></Title>
+         <Caption><![CDATA[국민의힘 장동혁 상임선거대책위원장과 송언석 공동선거대책위원장이 5월 22일 서울 여의도 중앙당사에서 열린 중앙선거대책위원회의에 입장하고 있다. [연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2026052203430001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/22/PYH2026052203430001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

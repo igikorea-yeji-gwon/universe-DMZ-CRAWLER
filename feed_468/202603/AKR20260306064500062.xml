@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260306064500062</ContentID>
+      <SendDate>20260306</SendDate>
+      <SendTime>102207</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260306064500062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 2026 DMZ 평화의 길 횡단노선 걷기 프로그램 본격 운영]]></Title>
+      <Body><![CDATA[철원군, 2026 DMZ 평화의 길 횡단노선 걷기 프로그램 본격 운영
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 6일부터 '2026년 DMZ 평화의 길 횡단노선 걷기 프로그램'을 본격적으로 운영한다.
+    이번 프로그램은 DMZ 평화의 길 횡단노선으로 지역 경제 활성화를 도모하기 위해 기획됐다.
+    올해부터는 탐방객 체류 시간을 늘리고 인근 숙박 시설 이용을 유도하고자 기존 목·토·일요일 운영 방식을 주말 연계성이 높은 금·토·일요일로 조정 운영한다.
+    연말까지 10개월간 운영하며, 철원지역 15∼19코스, 77.1㎞ 구간을 대상으로 한다.
+    참가 신청은 네이버 카페 'DMZ 평화의 길 철원코스'를 통해 온라인으로 예약할 수 있다.
+    참가자에게는 안전하고 유익한 탐방을 위한 해설사 안내와 셔틀버스 서비스를 제공하며, 완보 시 소정의 기념품도 증정할 예정이다.
+    아울러 8월 다슬기 축제, 9∼10월 고석정 꽃밭 운영 기간에 맞춘 특화 프로그램을 별도로 기획해 철원을 찾는 관광객들에게 더욱 풍성한 볼거리를 제공할 계획이다.
+    이현종 군수는 "DMZ 평화의 길 걷기를 통해 철원의 아름다운 자연과 안보 가치를 직접 체험하길 바란다"며 "앞으로도 체류형 관광 모델을 지속해서 발굴해 지역에 활력을 불어넣겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ 평화의 길 철원 구간]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306064500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306064500062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

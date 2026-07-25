@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260331073600065</ContentID>
+      <SendDate>20260331</SendDate>
+      <SendTime>103129</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260331073600065]]></Href>
+      <Writer><![CDATA[김상연]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['강화도 민통선' 대면 검문 사라진다…CCTV 관찰로 전환]]></Title>
+      <Body><![CDATA['강화도 민통선' 대면 검문 사라진다…CCTV 관찰로 전환
+
+
+    
+    (인천=연합뉴스) 김상연 기자 = 1953년부터 73년간 유지된 '민간인출입통제선 이북지역'(이하 민북지역)의 대면 검문 체계가 비대면 방식으로 개편된다.
+    인천시 강화군은 31일 해병대 제2사단과 민북지역 출입 통제 체계를 개선하기 위한 업무협약을 맺었다.
+    두 기관은 민북지역 검문소에서 이뤄지던 대면 검문을 단계적으로 없애고 폐쇄회로(CC)TV 기반의 비대면 관찰 체계로 전환하는 방안에 합의했다.
+    이번 협약에 따라 현재 강화도에 있는 연미정, 철산리, 교산리, 교동대교 등 검문소 4곳을 중심으로 CCTV 30∼40대가 설치될 예정이다. 
+    앞으로 대면 검문은 순차적으로 폐지되며 비대면 관찰 체계로 전환된다. 다만 일몰 이후에는 지금처럼 대면 검문 방식이 유지된다.
+    강화군은 올해 추경을 통해 총사업비 7억원을 군비로 확보한 상태다.
+    강화군은 CCTV 도입으로 대면 검문이 사라지면 이동 편의성이 크게 향상되고 군 당국의 경계 작전 효율성도 강화될 것으로 기대했다.
+    그동안 민북지역으로 이동하려면 검문소에 직접 신분증을 제시하고 출입 기록을 수기로 작성하거나 QR코드로 임시출입증을 발급받아야 했다.
+    이에 따라 주민들은 출퇴근과 생업 등 일상 전반에 제약을 받았고, 외지 방문객도 접근성이 제한돼 관광·지역경제 활성화에 걸림돌이 됐다.
+    강화군은 다음 달부터 본격적인 CCTV 설치 공사에 착수해 상반기 안으로 사업을 완료할 계획이다.
+    박용철 강화군수는 "지속적인 건의와 협의를 통해 민북지역 출입 체계가 개선될 예정"이라며 "오랜 기간 이어진 불편을 해소하는 계기가 될 것"이라고 말했다. 
+    goodluck@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강화도 민통선 검문소]]></Title>
+         <Caption><![CDATA[[강화군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260331073600065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/31/AKR20260331073600065_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

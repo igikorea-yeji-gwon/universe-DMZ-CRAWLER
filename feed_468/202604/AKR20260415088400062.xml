@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260415088400062</ContentID>
+      <SendDate>20260415</SendDate>
+      <SendTime>113407</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0105001" name="선거일반"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260415088400062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이병선 속초시장 3선 도전…"민생 회복지원금 20만원 지급" 공약]]></Title>
+      <SubTitle><![CDATA[슬로건 '깨끗한 시정, 중단 없는 발전, 선택'…접경지역 재정 성과 활용]]></SubTitle>
+      <Body><![CDATA[이병선 속초시장 3선 도전…"민생 회복지원금 20만원 지급" 공약
+슬로건 '깨끗한 시정, 중단 없는 발전, 선택'…접경지역 재정 성과 활용
+
+
+    (속초=연합뉴스) 류호준 기자 = 국민의힘 이병선 강원 속초시장이 제9회 동시지방선거에서 3선 도전을 공식화했다.
+    이병선 시장은 15일 시청 상황실에서 기자회견을 열고 "깨끗한 시정, 중단 없는 발전, 선택! 이병선을 슬로건으로 민선 9기 속초시장 선거 출마를 공식 선언한다"며 "9기 시정의 첫 번째 방점을 민생 안정에 두고 접경 지역 지정의 재정 성과를 민생 위기 해결의 밑거름으로 활용하겠다"고 밝혔다.
+    핵심 공약으로는 ▲ 시민 1인당 속초시 민생 회복지원금 20만원 지급 ▲ 1년 365일 상시 운영하는 자영업자 평생 지원센터 신설 ▲ 50·60 세대를 위한 '신중년 지원사업' 추진 ▲ 접경지 특수상황 지역 개발사업을 활용한 먹거리단지 공영 주차장 신설 ▲ 어린이 실내 놀이터 및 어린이 전용 공원 조성을 통한 속초 키즈존 완성 ▲ 건강 도시 속초를 테마로 하는 권역별 생활체육 인프라 확충을 내세웠다.
+    민선 8기 주요 성과로는 ▲ 접경지역 지정 ▲ 외옹치 바다 향기로 개통 ▲ 영랑호 관광단지 조성을 통한 북부권 활성화 ▲ 동서 고속철 착공과 투자 선도지구 지정 ▲ 콤팩트시티 도전 비전 확립 ▲ 대한민국 문화도시 지정 ▲ 하수처리장 현대화 계획 승인 등을 꼽았다.
+    이 시장은 "행정의 생명은 법치와 정직"이라며 "위법성 논란으로 시정을 비롯한 시민 사회 전체가 흔들렸던 불안한 과거로 다시 돌아갈 수는 없다"고 강조했다.
+    이어 "민선 8기 시민 여러분과 함께 만들어 낸 성과들을 발판 삼겠다"며 "민선 9기는 깨끗한 시정, 중단없는 속초 발전을 완성하겠다"고 덧붙였다.
+    이 시장은 이날 오후 속초시선거관리위원회에 예비후보 등록을 한다.
+    이어 현충탑 참배와 자영업자·소상공인 단체정책간담회를 시작으로 본격적인 선거 운동을 시작한다.
+    예비후보 등록으로 이 시장의 직무가 일시 정지됨에 따라 시정은 배상요 부시장이 시장 권한 대행을 맡아 이끌 예정이다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[출마 선언하는 이병선 강원 속초시장]]></Title>
+         <Caption><![CDATA[[촬영 류호준]]]></Caption>
+         <FileName>AKR20260415088400062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/15/AKR20260415088400062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[출마 선언하는 이병선 강원 속초시장]]></Title>
+         <Caption><![CDATA[[촬영 류호준]]]></Caption>
+         <FileName>AKR20260415088400062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/15/AKR20260415088400062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260417143900079</ContentID>
+      <SendDate>20260417</SendDate>
+      <SendTime>181950</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260417143900079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[헤즈볼라, "이스라엘 휴전 위반 시 즉각 대응" 경고]]></Title>
+      <SubTitle><![CDATA[불안한 휴전 속 피란했던 레바논 남부 주민 대거 복귀]]></SubTitle>
+      <Body><![CDATA[헤즈볼라, "이스라엘 휴전 위반 시 즉각 대응" 경고
+불안한 휴전 속 피란했던 레바논 남부 주민 대거 복귀
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 레바논·이스라엘의 휴전 첫날인 17일(현지시간) 레바논 무장정파 헤즈볼라는 이스라엘이 휴전을 위반하면 언제든지 전투에 복귀할 준비가 됐다고 경고했다.
+    헤즈볼라는 성명을 통해 "우리는 적의 기만행위를 경계하며 방아쇠에서 손가락을 떼지 않을 것"이라고 말했다.
+    현지시간으로 간밤에 발효된 10일간의 단기 휴전은 도널드 트럼프 미국 대통령 주도로 성사됐다.
+    이스라엘은 트럼프 대통령의 압박에 휴전을 수용했지만 헤즈볼라의 근거지인 레바논 남부에 투입한 지상군 병력을 휴전 기간에도 철수하지 않는다는 방침이어서 언제든 무력 충돌 가능성은 남아 있다.
+    실제로 레바논 국영 통신사(NNA)는 레바논 남부 키암시에서 이스라엘군이 휴전을 위반하고 발포했다고 보도했다.
+    이처럼 불안한 휴전 속에서도 이스라엘의 공격을 피해 피란길에 올랐던 레바논 남부 접경지대 주민들이 주거지로 속속 복귀하고 있다고 현지 언론이 전했다.
+    헤즈볼라 연계 매체 알마야딘은 레바논군이 휴전이 시작된 후 이스라엘의 공격으로 파괴됐던 알카스미예 교량을 수리해 재개통했고 복구된 교량 외에도 주민이 통행할 수 있는 새로운 우회 경로로 확보했다고 전했다.
+
+    이후 레바논 남부로 향하는 주요 도로에는 고향 집으로 돌아가려는 피란민이 한꺼번에 몰리면서 극심한 차량 정체가 빚어지고 있다.
+    알마야딘은 "수많은 주민이 휴전 소식과 함께 남부 접경지로 이동하기 시작했다"면서 "도로가 파괴된 상태지만 귀환 행렬은 끊이지 않고 있다"고 상황을 전했다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[휴전 발효 첫날 이스라엘군의 폭격으로 무너진 다리를 뒤로하고 고향으로 돌아가는 레바논 남부 주민들[로이터 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260417143900079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/17/AKR20260417143900079_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[휴전 발효후 고향으로 돌아가는 피란민들이 몰리면서 레바논 남부 티레 인근 도로가 극심한 정체를 빚고 있다. [로이터 연합뉴스 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260417143900079_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/17/AKR20260417143900079_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

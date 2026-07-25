@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260324089100065</ContentID>
+      <SendDate>20260324</SendDate>
+      <SendTime>112628</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001200" name="단신"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260324089100065]]></Href>
+      <Writer><![CDATA[홍현기]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[인천소식] 인천경찰청, 북한 접경지 교동도서 안보태세 점검]]></Title>
+      <Body><![CDATA[[인천소식] 인천경찰청, 북한 접경지 교동도서 안보태세 점검
+
+
+
+    (인천=연합뉴스) 인천경찰청은 24일 북한 접경지역인 강화 교동도에서 안보 태세를 점검했다고 밝혔다.
+    교동도는 황해도 연백군과 2.6㎞ 떨어진 섬으로 민간인 출입 통제 구역이긴 하지만 군 검문소를 거쳐 누구나 자유롭게 오갈 수 있다.
+    서해의 관문이자 한강이 끝나는 한강하구 중립수역에 자리 잡고 있다 보니 과거 귀순 사례가 잇따르기도 했다.
+    한창훈 인천경찰청장은 이날 교동도 내 안보 현황과 관련한 업무보고를 받고 강화군청, 군부대 등 관계 기관과 협조체계 구축 상황을 확인했다.
+    한 청장은 "북한 접경지역인 교동도의 안보 상황을 엄중하게 대비하고 주민들이 안전하게 생활할 수 있게 해달라"고 당부했다.
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[교동도 안보태세 점검]]></Title>
+         <Caption><![CDATA[[인천경찰청 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260324089100065_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/24/AKR20260324089100065_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

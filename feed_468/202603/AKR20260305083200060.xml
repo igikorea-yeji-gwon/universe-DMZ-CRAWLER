@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260305083200060</ContentID>
+      <SendDate>20260305</SendDate>
+      <SendTime>111108</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>4</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005030" name="포천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701006" name="역사"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260305083200060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[포천시, '포천시사 편찬 기념 학술 토론회' 20일 개최]]></Title>
+      <Body><![CDATA[포천시, '포천시사 편찬 기념 학술 토론회' 20일 개최
+
+    (포천=연합뉴스) 노승혁 기자 = 경기 포천시는 오는 20일 시청 대회의실에서 '포천시사 편찬 기념 학술 토론회'를 개최한다고 5일 밝혔다.
+
+    이번 토론회는 '포천시사' 편찬 과정에서 축적된 학술적 성과를 공유하고, 지역의 역사적 가치와 정체성을 재조명하기 위해 마련됐다. 
+    행사는 1부 주제 발표와 2부 강평 및 토론으로 나눠 진행된다.
+    주제 발표는 포천의 위치와 위상, '포천다움'의 내포를 시작으로 ▲ 삼국의 각축전과 포천 지역의 향배(고대사) ▲ '이성계 일가 도피 사건'에 담긴 포천의 특징(고려시대사) ▲ 조선시대 포천과 영평의 도로 관계 기록 분석과 재현(조선시대사) ▲ 포천 지역 국채보상운동 참여와 사회적 의미(개항 이후) ▲ 포천 지역 3·1운동의 전개와 지역적 특성(일제강점기) ▲ 접경지역의 탄생, 마을을 가로지른 38선(현대사) 등으로 구성된다.
+    1997년 발행된 '포천군지' 이후 29년 만에 새롭게 편찬되는 '포천시사'는 총 3차에 걸쳐 18권으로 발간될 예정이다.
+    포천시 관계자는 "포천의 과거와 현재를 잇는 이번 학술 토론회에 많은 시민이 참여해 우리 고장의 역사적 의미를 함께 나누는 시간이 되길 바란다"고 말했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[포천시청사]]></Title>
+         <Caption><![CDATA[[포천시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20241213000031060_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/12/13/31/PCM20241213000031060_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260428150400062</ContentID>
+      <SendDate>20260428</SendDate>
+      <SendTime>163601</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0107002" name="지방의회"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260428150400062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['전·현직 시장에 시의원까지 가세'…속초시장 선거 경쟁 본격화]]></Title>
+      <SubTitle><![CDATA[시장 후보들 잇따라 선거 사무소 개소…TV 토론회 통해 공방도]]></SubTitle>
+      <Body><![CDATA['전·현직 시장에 시의원까지 가세'…속초시장 선거 경쟁 본격화
+시장 후보들 잇따라 선거 사무소 개소…TV 토론회 통해 공방도
+
+
+    (속초=연합뉴스) 류호준 기자 = 전·현직 시장과 시의원이 출사표를 던진 강원 속초시장 6·3 지방선거 경쟁이 본격화됐다.
+    더불어민주당 김철수 속초시장 예비후보는 28일 속초시 교동에서 선거 사무소 개소식을 개최했다.
+    이날 개소식에는 우상호 강원지사 예비후보와 김도균 민주당 도당위원장 등이 참석해 개소를 축하했다.
+    김철수 예비후보는 물 자립 도시 선포와 엑스포 잔디 광장 조성 등을 민선 7기 재임 시절 주요 성과로 소개하며, 민선 8기 시정에 대해 날 선 비판도 했다.
+    김 예비후보는 "저 김철수가 이제 속초 미래 50년의 초석을 다지겠다"며 "행정의 연속성을 통해 속초의 성장을 멈추지 않게 하겠다"고 말했다.
+    이어 "시장 재임 4년 동안 그랬듯이 시장실 문턱을 낮추고 반대 의견에도 귀를 기울이는 통합의 시장이 되겠다"며 "시민 여러분들의 목소리를 행정의 나침판으로 삼아 속초에 사는 것이 자부심이 되는 시대를 만들겠다"고 덧붙였다.
+   그러면서 "지난 4년 동안 시정은 등한시하고 전임자의 흔적 지우기와 정적 지우기에만 혈안이 되어 속초는 과거에 매몰되어 미래로 나아갈 황금 같은 시간을 허비했다"며 "아마추어 행정으로 멈춰버린 속초의 엔진을 베테랑 저 김철수가 가동하겠다"고 강조했다.
+    민선 8기 시장을 지낸 국민의힘 이병선 예비후보도 지난 25일 교동에서 선거 사무소 개소식을 가졌다.
+    이 예비후보 개소식에는 이양수 국회의원과 김시성 도의장 등이 참석해 선거 승리를 다짐했다.
+    이병선 예비후보는 재임 시절 주요 성과로 동서 고속철 예산 확보, 영랑호 관광단지 개발 추진, 접경지역 지정 등을 내세우며, 민선 7기 시정을 겨냥한 발언도 이어갔다.
+    이 예비후보는 "단 1표가 부족하다는 절박한 심정으로 뛰고 있다"며 "지방선거는 지역 일꾼을 뽑는 선거로 속초 발전을 위해 힘을 모아달라"고 말했다.
+    이어 "민선 7기 사업들이 재판과 갈등으로 이어지고 있다"며 "속초의 성공 시대를 이어가기 위해서는 중단 없는 시정이 필요하다"고 덧붙였다.
+    그러면서 "오로지 민생, 깨끗한 시정 중단없는 발전을 슬로건으로 앞세운다"며 "민선 9기에는 오로지 민생을 위해 올인하겠다"고 다짐했다.
+
+    무소속 염하나 예비후보도 다음 달 10일 오후 2시 선거 사무소 개소식을 열 예정이다.
+    염 예비후보는 이날 속초관광수산시장에서 열린 지역 소상공인 및 로컬푸드 구매 활성화를 위한 캠페인에 참석해 지지를 호소했다.
+    현 속초시의원인 염 예비후보는 주요 공약 이행 성과와 시정 견제 역할 등을 강조하며 선거 운동에 나서고 있다.
+    염 예비후보는 전날 자신의 사회관계망서비스를 통해 "무너지고 있는 일상에서 몇몇 이익이 아니라 속초 시민 모두가 살만하다, 행복하다 체감할 수 있는 도시를 만들고 싶어 이 자리에 섰다"고 밝혔다.
+    이어 "속초의 변화는 혼자 만들 수 없다"며 "시민 여러분과 함께 그 변화를 시작하고 싶다"고 강조했다.
+    이들은 지난 24일 강원영동MBC가 생중계한 속초시장 후보 토론회에서 공방도 벌였다.
+    동서 고속화 철도·동해북부선 개통에 따른 역세권 개발 구상 계획과 시민 정주 여건 개선 방안 등에 대한 의견을 제시했으며, 주요 공약 발표도 이어졌다.
+    특히 주도권 토론에서는 이병선 예비후보와 김철수 예비후보가 이 후보의 민생지원금 지급 공약과 김 후보의 2019년 4월 산불 당시 행적 등을 두고 충돌했다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[출마 선언하는 염하나 속초시의원]]></Title>
+         <Caption><![CDATA[[촬영 류호준]]]></Caption>
+         <FileName>AKR20260428150400062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/28/AKR20260428150400062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초시장 후보 토론회]]></Title>
+         <Caption><![CDATA[[강원영동MBC 유튜브 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260428150400062_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/28/AKR20260428150400062_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김철수(왼쪽)·이병선 예비후보 선거 사무소 개소식]]></Title>
+         <Caption><![CDATA[[촬영 류호준]]]></Caption>
+         <FileName>AKR20260428150400062_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/28/AKR20260428150400062_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

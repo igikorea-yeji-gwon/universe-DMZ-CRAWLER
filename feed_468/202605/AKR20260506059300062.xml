@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260506059300062</ContentID>
+      <SendDate>20260506</SendDate>
+      <SendTime>101056</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0202003" name="중소기업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260506059300062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, 중소기업 화재보험·물류비 지원…이달 29일까지 신청]]></Title>
+      <Body><![CDATA[양구군, 중소기업 화재보험·물류비 지원…이달 29일까지 신청
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군은 지역 중소기업의 안정적인 경영 기반 마련과 경쟁력 강화를 위해 화재보험료 지원사업과 물류비 지원사업을 함께 추진한다고 6일 밝혔다.
+    이는 기업의 화재 위험 대비와 물류비 부담 완화를 동시에 지원하는 정책으로, 제조업 기반 중소기업의 지속 가능한 성장 환경 조성을 목표로 한다.
+    중소기업 공장 화재보험료 지원은 화재에 취약한 제조기업의 안전 확보를 위한 사업이다.
+    지원 대상은 양구군에 공장등록증을 보유한 제조생산 중소기업 25곳이며, 화재 보장 보험 가입 기업에 대해 연간 보험료의 80% 범위 내 최대 100만원까지 지원한다.
+    다만 월별 납부 기업은 연간 보험료 완납 후 11월 말까지 증빙서류를 제출해야 한다.
+    중소기업 물류비 지원은 기업의 유통·운송 비용 부담을 줄이기 위한 사업으로, 양구에서 생산된 제품을 관외로 운송하는 데 드는 비용과 원자재 구매에 쓰이는 물류비용을 지원한다.
+    지원 대상은 양구에 공장등록을 마치고 공고일 이전 해당 사업을 1년 이상 이어온 중소기업이며, 작년 재무제표 기준 운반비의 50% 이내, 최대 4천만원까지 지원한다.
+    두 사업 모두 신청 기간은 오는 11∼29일이며, 참여를 원하는 기업은 관련 서류를 준비해 양구군 경제체육과 기업지원팀 또는 DMZ경제순환센터를 방문하면 된다.
+    군은 접수 서류를 바탕으로 실무 심사와 기업유치위원회 심의를 거쳐 최종 지원 대상을 선정할 계획이다.
+    이미숙 경제체육과장은 "이번 지원사업은 기업의 안전 확보와 경영 부담 완화를 동시에 지원하는 정책"이라며 "앞으로도 기업 친화적 환경 조성을 위해 실효성 있는 지원을 이어 나가겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구군청]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20230504000002990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2023/05/04/02/PCM20230504000002990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

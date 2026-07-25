@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260514088751061</ContentID>
+      <SendDate>20260514</SendDate>
+      <SendTime>145515</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0405002" name="우주항공"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001211" name="경기선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260514088751061]]></Href>
+      <Writer><![CDATA[최찬흥]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[추미애 "경기북부에 '항공·우주·MRO 첨단산단' 조성"(종합)]]></Title>
+      <SubTitle><![CDATA[한국항공대·반환공여지 등 활용…'평화지대 광역행정협의회'도 공약]]></SubTitle>
+      <Body><![CDATA[추미애 "경기북부에 '항공·우주·MRO 첨단산단' 조성"(종합) 
+한국항공대·반환공여지 등 활용…'평화지대 광역행정협의회'도 공약
+
+    (수원=연합뉴스) 최찬흥 기자 = 더불어민주당 추미애 경기도지사 후보는 14일 고양 한국항공대학교 항공우주센터를 찾아 "경기북부지역에 항공·우주·MRO(유지·보수·운영) 분야 첨단산업단지를 조성하겠다"고 밝혔다.
+
+    추 후보는 첨단산단에 미래항공 교통과 행성 기지 건설을 위한 실증 테스트베드를 구축해 연구개발과 실증 실험에 전력할 수 있는 환경을 만들겠다고 약속했다.
+    실증 테스트베드는 산·학·연·관·군 협력체계를 기반으로 연구개발과 실증시험이 가능한 환경을 조성하는 사업이다. 
+    그는 또 장비의 유지와 보수, 정비와 수리까지 모두 가능한 MRO 첨단산업 클러스터를 조성하고 드론·로봇/피지컬AI 산단도 마련하겠다고 공약했다.
+    추 후보는 "경기 북부지역에는 한국항공대학교와 한국건설기술연구원 등의 기관들이 자리하고 있고, 22개 미군 반환 공여지 등 새로운 미래를 현실로 바꿔낼 수 있는 충분한 공간이 존재한다"며 "항공·우주·MRO 첨단산단을 중심으로 새로운 초격차를 달성하는 당당한 경기를 만들겠다"고 말했다.
+    추 후보는 이어 파주 오두산통일전망대를 방문해 '경기북부 대전환' 공약도 발표했다.
+    '경기북부 평화경제특구 조성', '평화지대 광역행정협의회 설치', 'DMZ 생태·평화관광지구 조성' 등이 주요 내용이다.
+    평화지대 광역행정협의회는 경기도와 강원특별자치도, 인천광역시가 함께 접경지역 공동 발전전략을 논의하고 추진하는 협력체계다. 
+    지난달 국회에서 추 후보와 박찬대 인천광역시장 후보, 우상호 강원특별자치도지사 후보가 휴전선 인근 접경지역을 '평화지대'로 명명하고 공동 발전을 약속한 데 따른 후속 구상이다.
+    chan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[항공-우주산업 육성 공약 발표하는 추미애 후보]]></Title>
+         <Caption><![CDATA[(고양=연합뉴스) 김성민 기자 = 더불어민주당 추미애 경기도지사 후보가 14일 고양시 덕양구 한국항공대학교에서 열린 '항공-우주 MRO분야 첨단산업 육성 공약 발표'에서 발언하고 있다. 2026.5.14 ksm7976@yna.co.kr]]></Caption>
+         <FileName>PYH2026051410090001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/14/PYH2026051410090001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260306091200005</ContentID>
+      <SendDate>20260306</SendDate>
+      <SendTime>124410</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0706001" name="문학"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001038" name="게시판"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260306091200005]]></Href>
+      <Writer><![CDATA[김기훈]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[게시판] DMZ세계문학페스타 조직위, 13일 광운대서 심포지엄]]></Title>
+      <Body><![CDATA[[게시판] DMZ세계문학페스타 조직위, 13일 광운대서 심포지엄
+
+
+    ▲ DMZ세계문학페스타 2026 조직위원회는 이달 13일 오후 1시 30분 광운대에서 '세계문학, 반제/반파시즘 문학운동과 새로운 국제연대'를 주제로 기획 심포지엄을 연다고 6일 밝혔다. 심포지엄은 이달 27∼29일 파주출판단지와 DMZ 캠프 그리브스에서 열리는 'DMZ 세계문학페스타 2026'의 사전 행사로 마련됐다. 소설가 김남일과 문학평론가 고명철·김영희·이명원이 발제에 나선다. (서울=연합뉴스)
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ세계문학페스타 2026 기획심포지엄]]></Title>
+         <Caption><![CDATA[[DMZ세계문학페스타 조직위원회 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306091200005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306091200005_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

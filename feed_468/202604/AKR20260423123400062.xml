@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260423123400062</ContentID>
+      <SendDate>20260423</SendDate>
+      <SendTime>144645</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0106006" name="개혁규제"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260423123400062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, 국무조정실에 군사 규제 완화·군 유휴지 매각 건의]]></Title>
+      <Body><![CDATA[양구군, 국무조정실에 군사 규제 완화·군 유휴지 매각 건의
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군은 23일 강원특별법 특례 현장점검을 위해 지역을 방문한 국무조정실 특별자치시도 지원단에 안대리 비행장 일원의 군사 규제 완화와 군 유휴지의 조속한 매각을 건의했다.
+    이날 현장 방문에는 이성도 국무조정실 특별자치시도지원단 부단장과 관계 공무원들이 참석했다.
+    군은 접경지역의 특수성을 고려한 군사 규제 개선의 시급성과 정부 차원의 적극적인 지원 필요성을 설명했다.
+    특히 군은 안대리 비행안전구역이 '헬기전용작전기지'로 운용되고 있지만, '지원항공작전기지' 수준의 강한 규제가 적용돼 토지 이용과 지역개발에 큰 제약이 발생하고 있다는 점을 강조했다.
+    군사 규제가 완화될 경우, 규제 면적이 약 22㎢에서 1.05㎢로 대폭 감소해 지역개발 여건이 크게 개선될 것으로 기대했다.
+    아울러 지역 내 군 유휴지 매각이 국유재산 매각 절차 지연 등으로 장기간 표류하면서 지역 핵심 사업 추진에 차질이 빚어지고 있는 상황을 전달하고, 해당 부지 조속한 매각과 원활한 활용을 위한 제도적 뒷받침을 요청했다.
+    이득구 미래전략팀장은 "접경지역 주민들은 오랜 세월 국가 안보를 위해 희생을 감내해왔다"며 "지역 발전의 발판이 될 핵심 현안 해결을 위해 앞으로도 중앙부처, 관계기관과 긴밀히 협력해 나가겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구군, 국무조정실에 군사 규제 완화 건의]]></Title>
+         <Caption><![CDATA[(양구=연합뉴스) 23일 강원 양구군청을 방문한 국무조정실 특별자치시도지원단이 군청 관계자를 만나 안대리 비행장 일원의 군사 규제 완화와 군 유휴지의 조속한 매각 등 지역 현안을 건의받고 있다. 2026.4.23 [양구군 제공. 재판매 및 DB 금지] yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026042311230006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/23/PYH2026042311230006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

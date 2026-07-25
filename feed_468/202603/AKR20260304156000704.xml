@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260304156000704</ContentID>
+      <SendDate>20260304</SendDate>
+      <SendTime>170724</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001081" name="연합영상"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260304156000704]]></Href>
+      <Writer><![CDATA[진혜숙]]></Writer>
+      <Desk code="704"><![CDATA[영상미디어부]]></Desk>
+      <DeliCode>L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[영상] 쿠르드족 무장세력도 전쟁 뛰어드나…"트럼프, 무기지원 검토"]]></Title>
+      <Body><![CDATA[[영상] 쿠르드족 무장세력도 전쟁 뛰어드나…"트럼프, 무기지원 검토"
+
+[https://youtu.be/EUkYKM3C5h8]
+
+    (서울=연합뉴스) 도널드 트럼프 미국 대통령이 이란 체제 전복을 위해 쿠르드족 무장세력 지원 방안을 검토 중이라고 월스트리트저널 등이 3일(현지시간) 보도했습니다.
+    매체에 따르면 트럼프 대통령은 대이란 공습 이후인 지난 1일 쿠르드족 지도자들과 접촉해 대화를 나눴습니다.
+    아울러 이란 정권이 약해진 현 상황에서 이득을 취하려는 지방정부 지도자들과도 접촉을 지속하고 있습니다.
+    캐롤라인 레빗 백악관 대변인은 WSJ에 "트럼프 대통령은 지역의 파트너들과 대화를 나눴다" 라고만 밝힌 것으로 전해졌습니다. 
+    이와 관련해 이란 쿠르드족 고위 관리는 CNN에 "이란 쿠르드족 반군 세력이 앞으로 며칠 내로 서부 이란에서 지상 작전에 참여할 것으로 예상된다"고 전했습니다. 
+    다만, 트럼프 대통령은 실제로 이들 무장세력에 무기 및 군사훈련 지원을 할지와 관련해서는 아직 최종 결정을 내리지 않은 것으로 알려졌습니다.
+    미국 온라인매체 악시오스에 따르면 쿠르드족은 이란-이라크 접경지에 수천 명의 병력을 보유하고 있습니다. 
+    '죽음을 두려워하지 않는 자들'이라는 뜻을 가진 쿠르드 전사 '페슈메르가'는 수십 년간 전투 경험을 쌓아왔으며 이라크 내전과 시리아에서의 ISIS(미군의 이슬람국가 호칭) 격퇴전에도 참여했습니다. 
+    쿠르드 무장세력과의 접촉은 하메네이 이란 최고 지도자가 미국·이스라엘의 공습에 사망한 후 미국이 이란의 정권 교체를 염두에 두고 있는 가운데 나왔습니다.
+    이란 시민들을 향해 봉기를 독려하는 것을 넘어 쿠르드족을 포함한 무장 세력이 현 이란 체제 전복에 역할을 할 수 있는지를 검토한 것으로 풀이됩니다.
+    트럼프 대통령은 앞서 하메네이의 사망을 발표하면서 "이란 국민이 그들의 나라를 되찾을 수 있는 단 한 번의 위대한 기회"라고 언급해 작전의 최종 목적이 기존 이란 체제의 종식에 있음을 명확히 한 바 있습니다. 
+
+제작: 진혜숙·신태희
+영상: 로이터·AFP·X@WhiteHouse·@Kurdistan 
+    jean@yna.co.kr
+
+
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260304156000704_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/04/AKR20260304156000704_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

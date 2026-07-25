@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260420138000062</ContentID>
+      <SendDate>20260420</SendDate>
+      <SendTime>171202</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260420138000062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 접경지역 영농철 유실 지뢰 위험 커져…농민 주의 필요]]></Title>
+      <SubTitle><![CDATA[철원 정연리 농지서 대인지뢰 발견…"발견 시 즉시 신고해야"]]></SubTitle>
+      <Body><![CDATA[강원 접경지역 영농철 유실 지뢰 위험 커져…농민 주의 필요
+철원 정연리 농지서 대인지뢰 발견…"발견 시 즉시 신고해야"
+
+
+    (철원=연합뉴스) 양지웅 기자 = 봄철 영농활동이 본격화함에 따라 강원 접경지역 농가에 유실 지뢰 위험도 커져 농민들의 주의가 필요하다.
+    20일 철원군 갈말읍 정연리에서 영농활동을 하던 A씨는 흙 속에 파묻힌 대인지뢰를 발견했다.
+    이 지역 일대는 6년 전 한탄강 제방 붕괴로 큰 수해가 나면서 유실 지뢰가 다수 발견된 곳이다.
+    작년까지도 군부대가 지뢰 탐지, 제거 작전을 이어갔었다.
+    다만 이날 지뢰가 발견된 곳은 아직 지뢰 탐지 작업이 이뤄지지 않은 것으로 알려졌다.
+    관할 부대는 해당 지뢰를 무사히 제거했고, 주민의 의견을 수렴해 지뢰 탐지·제거작업을 이어갈 계획이다.
+    부대 관계자는 "농사에 다소 불편함이 있더라도 지뢰 경고 울타리를 넘어가는 영농 활동은 자제해달라"며 "지뢰를 발견하면 건드리지 말고 즉시 인근 군부대로 신고해달라"고 당부했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 접경지역 농지에서 발견된 대인지뢰]]></Title>
+         <Caption><![CDATA[[독자 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260420138000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/20/AKR20260420138000062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260202139100060</ContentID>
+      <SendDate>20260202</SendDate>
+      <SendTime>162652</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005003" name="고양"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0105001" name="선거일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260202139100060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이재준 전 고양시장, 재출마 선언…"100년 미래도시 건설"]]></Title>
+      <Body><![CDATA[이재준 전 고양시장, 재출마 선언…"100년 미래도시 건설" 
+
+    (고양=연합뉴스) 노승혁 기자 = 더불어민주당 소속 이재준 전 고양시장이 오는 6월 지방선거에서 고양시장에 출마한다고 2일 선언했다.
+
+    이 전 시장은 이날 보도자료를 통해 "지난 2022년 지방선거의 패배를 무거운 책임감으로 느낀다"며 "2022년의 선거 패배는 단순히 저의 패배를 넘어, 그 결과로 맞이한 지난 4년은 고양특례시와 108만 시민의 삶에 10년 이상의 퇴행을 가져왔다"고 말했다.
+    이어 "불통과 무능, 행정의 난맥상이 시민의 삶에 '빨간 경고등'으로, 위태롭게 했다"고 주장했다.
+    그는 "지난 시간 경기도 주식회사 대표이사로 일궈낸 성과와 배움으로, 비판만 하는 것이 아닌, 실력과 책임으로 증명하는 고양특례시의 20년 비전을 제시하고자 한다"면서 "고양특례시장 이재준의 발목을 잡던 책임론을 실력으로 정면 돌파하겠다"고 강조했다.
+    또한 "고양특례시는 경기 서부권을 넘어 대한민국 주요 거점 경제지구가 될 것"이라며 "고양시의 지역내총생산(GRDP) 제조업 비중 3%를 두 배로 끌어 올리고, 파주와 고양의 접경지에 제조업이 가능한 '평화경제특구'를 유치해 두 도시가 윈윈하는 전략을 수립하겠다"고 설명했다. 
+    그러면서 지난하고 무미건조했던 도시 정책을 획기적으로 바꾸겠다고 약속했다.
+    그는 "팔리지 않는 자족 용지는 악성 부채이다. 일산테크노밸리의 분양가를 1천만 원 이하로 과감히 낮춰 조기 완판을 달성하고, 경제자유구역은 킨텍스 남단에 집중해 1단계부터 확실히 완성하겠다"며 "취임 후 3개월 이내에 적폐 행정을 면도날처럼 도려내고, '1기 신도시 재개발'을 넘어, 100년을 바라보는 미래도시를 건설하겠다"고 말했다. 
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이재준 전 고양시장]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2022050616210006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2022/05/06/PYH2022050616210006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

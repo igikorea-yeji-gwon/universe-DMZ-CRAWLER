@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260305168800099</ContentID>
+      <SendDate>20260305</SendDate>
+      <SendTime>181856</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7106047" name="콩고민공"/>
+         <RegionCode code="7106013" name="르완다"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260305168800099]]></Href>
+      <Writer><![CDATA[나확진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[민주콩고 "반군지역 광산 붕괴로 최소 200명 사망"]]></Title>
+      <Body><![CDATA[민주콩고 "반군지역 광산 붕괴로 최소 200명 사망" 
+
+
+    (요하네스버그=연합뉴스) 나확진 특파원 = 콩고민주공화국(민주콩고) 동부의 반군 장악 지역에서 광산이 붕괴해 최소한 200명이 사망했다고 민주콩고 정부가 밝혔다.
+    5일(현지시간) AP, AFP 통신에 따르면 민주콩고 광업부는 르완다 접경지대에 있는 동부 루바야 콜탄 광산 지역에서 탄광이 무너졌고 사망자 중엔 어린이 70명이 포함됐다고 밝혔다.
+    이 지역은 르완다의 지원을 받는 것으로 알려진 반군 M23이 장악하고 있다.
+    M23 측은 이에 대해 사망자는 5명이며 광산 붕괴가 아니라 폭격 탓에 숨졌다고 주장했다. 
+    하지만 현장에서도 200명 이상 숨졌다는 증언이 나온다고 AP는 전했다.
+    당시 현장에 있던 광부 이브라힘 탈루세케는 사고 지역에서 200명 이상 시신을 수습하는 것을 도왔다고 AP에 말했다. 그는 아직 구조를 기다리는 인원이 있을 수 있다고 우려했다.
+    콜탄은 스마트폰과 컴퓨터, 항공기 엔진 등에 사용되는 탄탈룸을 포함한 광석으로, 민주콩고는 2023년 기준 세계 콜탄 생산의 40%를 차지한다.
+    콜탄에서 추출되는 탄탈룸도 세계 공급량의 15%를 루바야 광산이 차지하는 것으로 파악된다. 
+    M23 반군은 2024년 5월 루바야 지역을 점령하고 콜탄 거래와 운송 등에 세금을 매겨 한달에 80만 달러(11억7천만원) 이상 거두는 것으로 유엔은 파악했다.
+    이후 이 지역의 통신이 원활하지 않고 구호단체의 접근도 차단된 가운데 사고가 자주 벌어지고 있다.
+    지난 1월 말에도 폭우에 따른 산사태로 루바야 광산에서 200명 이상 사망했다.
+    콜탄뿐 아니라 금과 코발트, 구리, 리튬 등 전략 광물이 풍부한 민주콩고 동부 지역은 M23을 비롯한 100여개 무장단체의 준동으로 30년간 정세 불안이 이어지고 있다.
+    지난해 도널드 트럼프 미국 대통령의 중재로 M23을 지원한 것으로 알려진 르완다와 민주콩고 간 평화협정이 체결됐지만 이후에도 반군의 공세가 이어지고 있다.
+    rao@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콩고민주공화국 루바야 콜탄 광산]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260305173201009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/03/05/PAP20260305173201009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

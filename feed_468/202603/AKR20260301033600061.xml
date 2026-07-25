@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260301033600061</ContentID>
+      <SendDate>20260301</SendDate>
+      <SendTime>122226</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0701006" name="역사"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260301033600061]]></Href>
+      <Writer><![CDATA[최찬흥]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[김동연 "독립의 역사 온전히 세우고 평화를 성장의 동력 삼을것"]]></Title>
+      <SubTitle><![CDATA[삼일절 기념사…9월 임진각에 '안중근평화센터' 개소·유묵 전시]]></SubTitle>
+      <Body><![CDATA[김동연 "독립의 역사 온전히 세우고 평화를 성장의 동력 삼을것"
+삼일절 기념사…9월 임진각에 '안중근평화센터' 개소·유묵 전시
+    
+    (수원=연합뉴스) 최찬흥 기자 = 김동연 경기도지사는 1일 "독립의 역사를 온전히 세우고 평화를 성장의 동력으로 삼겠다"고 밝혔다.
+
+    김 지사는 이날 경기아트센터에서 열린 경기도 주최 제107주년 3·1절 기념식에서 "역사는 발견하고, 기억하고, 의미를 되새길 때 미래를 만드는 힘이 된다"며 이같이 말했다.
+    그는 1천94명의 경기도 출신 항일 독립운동가 발굴과 648명의 국가보훈부 포상 신청을 언급한 뒤 "경기도는 단 한 분의 독립운동가도 후손이 없다는 이유로, 기록이 부족하다는 이유로 역사의 뒤안길에 남겨두지 않겠다"고 강조했다.
+    특히 오는 9월 문을 여는 파주 임진각평화누리 '안중근평화센터'에 안중근 의사의 유묵 '장탄일성 선조일본(長歎一聲 先弔日本)'을 전시해 안 의사의 삶과 독립 정신을 기리겠다고 했다.
+    '큰 소리로 길게 탄식하며 일본의 멸망을 미리 조문한다'는 뜻의 유묵은 안 의사가 여순감옥을 관장하던 일본제국 관동도독부 고위 관료에게 건넸으며, 지난해 8월 경기도가 관료의 후손과 협상을 거쳐 반환에 성공했다.
+    김 지사는 이어 "최대 접경지를 품은 경기도에서 평화는 민생이자 성장과 도약의 토대"라며 "접경지역 규제의 사슬을 끊어내고, 평화경제특구와 기회발전특구를 조성하겠다. 평화가 곧 경제이며 번영이라는 사실을 경기도가 앞장서 증명하겠다"고 말했다.
+    기념식에는 김 지사와 광복회원, 보훈단체장 등 800여명이 참석했으며 신숙 지사와 김연방 지사의 후손 등이 기미독립선언서에 앞선 최초의 독립선언서인 '대한(무오)독립선언서'를 낭독한다. 
+    신 지사는 독립선언서의 교정과 인쇄, 전파에 헌신한 독립운동가였고 김 지사는 화성 독립만세운동 중 일본 헌병의 총탄에 순국했다.
+    기념식에 앞서 수원현충탑에서 경기아트센터 광장까지 3.1km 구간을 달리는 '3·1절 평화런'을 진행해 독립유공자 후손 등이 독립의 정신을 미래로 잇는 화합의 메시지를 전했다.
+    chan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[3·1절 기념사 하는 김동연 지사]]></Title>
+         <Caption><![CDATA[[경기도 생중계 화면 캡처]]]></Caption>
+         <FileName>AKR20260301033600061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/01/AKR20260301033600061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

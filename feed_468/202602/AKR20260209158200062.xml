@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260209158200062</ContentID>
+      <SendDate>20260209</SendDate>
+      <SendTime>180325</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0103006" name="입법"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260209158200062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[송기헌·허영·우상호, 강원특별법 3차 개정안 2월 처리 요청]]></Title>
+      <SubTitle><![CDATA[한병도 민주당 원내대표·윤건영 행안위 간사 "적극 지원하겠다"]]></SubTitle>
+      <Body><![CDATA[송기헌·허영·우상호, 강원특별법 3차 개정안 2월 처리 요청
+한병도 민주당 원내대표·윤건영 행안위 간사 "적극 지원하겠다"
+
+    (춘천=연합뉴스) 이재현 기자 = 광역행정통합 특별법이 급물살을 타면서 '3특 소회'의 우려가 커지자 강원지역 여당 국회의원들도 강원특별법 3차 개정안의 조속한 국회 통과를 촉구하고 나섰다.
+
+    송기헌(원주을)·허영(춘천·철원·화천·양구갑) 의원과 도지사 선거 출마가 유력시되는 우상호 전 청와대 정무수석은 9일 오전 민주당 한병도 원내대표와 국회 행정안전위원회 민주당 간사위원인 윤건영 의원을 면담한 자리에서 제3차 개정안의 조속한 통과를 요청했다.
+    송 의원은 "강원특별법은 5극 3특 균형발전 전략의 중요한 축이며, 최근 광역행정통합 특별법은 빠르게 논의되는데 기존 특별법이 후순위로 밀리는 상황은 도민들께 원망을 살 수밖에 없다"며 "통합 논의가 큰 흐름인 만큼 강원이 소외되거나 홀대받는 일이 없도록 꼭 챙겨달라"고 강조했다.
+    허 의원도 "접경지역·평화지대라는 강원의 특수성을 살린 특례는 기존 통합특별법과 다르게 다뤄져야 한다"며 "이번 회기 안에 논의가 반드시 진전돼야 한다"고 촉구했다.
+    함께 자리한 우 전 수석 역시 "대통령이 말한 '지방균형발전'은 통합지역만 키우겠다는 것이 아니라 5극과 3특이 함께 가는 구조"라며 "강원이 역차별되는 것 아니냐는 우려가 있는 만큼 준비된 개정안을 동시에 심사하는 것이 가장 바람직하다"고 목소리를 높였다.
+
+    이날 면담 자리에서 윤건영 의원은 강원특별법 제3차 개정안의 법안 처리와 관련한 지금까지의 경과 사항을 한 원내대표에게 보고했고, 강원도민의 우려에 대해 공감을 표했다.
+    이어 한 대표는 국민의힘과 협의를 통해 오는 3월 중 처리를 지시했다.
+    그러자 송 의원과 허 의원, 우 전 수석은 이달 중 초광역권 행정통합법과 함께 행안위와 본회의에서 처리해 달라고 거듭 요청했다.
+    한 원내대표와 윤 의원은 이달 중 처리 요청에 대해 적극 지원하겠다는 의사를 밝혔다.
+    한 원내대표는 "최근 통합 관련 논의로 인해 3특이 소외되는 것 아니냐는 우려가 커지고 있는데 오히려 이번 정부는 5극뿐 아니라 3특도 동등하게 챙기겠다는 분명한 입장"이라고 밝혔다.
+    이어 "이번 주부터 원내지도부가 직접 입법상황판을 운영하며 주요 국정과제 법안을 책임 있게 챙길 것"이라며 "강원특별법도 이른 시일 내 처리되도록 최선을 다하겠다"고 답했다.
+    윤 의원 역시 "그동안 여러 사정으로 논의가 지연됐지만 이제는 더 미룰 수 없다"며 "행안위 간사로서 강원·제주·전북 특별법이 함께 가도록 책임 있게 챙기겠다"고 의지를 밝혔다.
+
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원지역 국회의원과 우 전 수석 면담하는 한병도 원내대표]]></Title>
+         <Caption><![CDATA[[송기헌·허영 의원실 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260209158200062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/09/AKR20260209158200062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원특별법의 조속한 초리 요청하는 여당 의원과 우 전 수석]]></Title>
+         <Caption><![CDATA[[송기헌·허영 의원실 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260209158200062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/09/AKR20260209158200062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원특별법 3차 개정안 통과 촉구를 위한 국회 상경 도민 결의대회]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 황광모 기자 = 9일 서울 여의도 국회 본청 앞에서 열린 강원특별법 '3차 개정안' 통과 촉구를 위한 국회 상경 도민 결의대회에서 참석자들이 구호를 외치고 있다. 2026.2.9 hkmpooh@yna.co.kr]]></Caption>
+         <FileName>PYH2026020913910001301_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/09/PYH2026020913910001301_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260107045800062</ContentID>
+      <SendDate>20260107</SendDate>
+      <SendTime>100037</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260107045800062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, 올해 단체관광객 유치 여행사·학교 인센티브 지원]]></Title>
+      <SubTitle><![CDATA[일정별 관광지·숙박 등 조건 충족하면 1명당 최대 3만원 지급]]></SubTitle>
+      <Body><![CDATA[양구군, 올해 단체관광객 유치 여행사·학교 인센티브 지원
+일정별 관광지·숙박 등 조건 충족하면 1명당 최대 3만원 지급
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군은 단체 관광객 유치를 통해 지역관광 활성화를 도모하고자 여행사와 수학여행 학교를 대상으로 인센티브를 지원한다고 7일 밝혔다.
+    지원 대상은 관광진흥법에 따른 여행업체와 초중등교육법에 따라 수학여행을 실시하는 학교다.
+    인센티브 지원은 여행업체 또는 수학여행 학교가 관광객 유치 사전 계획서와 관광 일정표를 사전에 제출해 협의한 뒤 양구군의 관광지와 음식점 이용 조건 등을 충족하면 인센티브를 지원하는 방식으로 이뤄진다.
+    당일 관광의 경우 관광지 2곳 이상(유료 1곳 포함), 음식점 1곳 이상, 상점 1곳 이상을 이용해야 하며, 지원 조건을 충족하면 단체관광객은 1명당 1만원, 수학여행단은 1명당 5천원이 지원된다.
+    숙박 관광일 경우에는 일정에 따라 관광지 3∼4곳 이상, 음식점 2∼4곳 이상, 상점 2∼3곳 이상을 이용해야 하며, 이를 충족한 단체는 1박의 경우 1명당 2만원, 2박 이상은 1명당 3만원을 지원되고, 수학여행단은 1박 1명당 1만 원, 2박 이상은 1만5천원이 지급한다.
+
+    인센티브 지원 대상 관광지는 양구수목원, 박수근미술관, 백자박물관 등 유료 관광지 8곳과 한반도섬, DMZ펀치볼둘레길, 봉화산 등 무료 관광지 8곳 등 총 16곳이다.
+    특히 농촌체험마을과 공예 공방 등에서 운영하는 체험 프로그램도 지원 대상에 포함해 관광객 체류와 지역 소비를 함께 유도할 계획이다.
+    인센티브를 지원받고자 하는 여행업체 또는 수학여행 학교는 여행 3일 전까지 방문, 등기우편, 이메일 등의 방법으로 관광 계획서를 제출하고, 관광 종료일로부터 20일 이내 지원신청서를 제출하면 된다.
+    군은 접수된 서류를 심사해 접수일로부터 20일 이내 여행사 또는 학교 계좌로 지원금을 지급할 예정이다.
+    박현정 관광문화과장은 "단체 관광을 중심으로 양구의 주요 관광자원과 체험 프로그램을 연계해 지역 관광의 선순환 구조를 만드는 데 중점을 두고 있다"며 "지속적인 단체 관광 유치를 통해 양구 관광의 저변을 넓혀 나가겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구군청]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20230504000002990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2023/05/04/02/PCM20230504000002990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구군립 박수근미술관]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240919000155062_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/09/19/55/PCM20240919000155062_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

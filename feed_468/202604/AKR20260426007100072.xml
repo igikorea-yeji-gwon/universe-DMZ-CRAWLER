@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260426007100072</ContentID>
+      <SendDate>20260426</SendDate>
+      <SendTime>070158</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107011" name="이란"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260426007100072]]></Href>
+      <Writer><![CDATA[김연숙]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한 병에 3천원 차익…식용유 사러 국경 넘는 이란인들]]></Title>
+      <SubTitle><![CDATA["담배보다 식용유가 돈 된다"…튀르키예 접경지서 '생계형 거래'
+IMF 전망 이란 물가상승률 69%…1980년 이후 최고치]]></SubTitle>
+      <Body><![CDATA[한 병에 3천원 차익…식용유 사러 국경 넘는 이란인들
+"담배보다 식용유가 돈 된다"…튀르키예 접경지서 '생계형 거래'
+IMF 전망 이란 물가상승률 69%…1980년 이후 최고치
+
+
+    (뉴욕=연합뉴스) 김연숙 특파원 = 이란의 서부 국경 지대인 튀르키예 카피코이 검문소. 이곳은 요즘 커다란 식용유 통을 든 이란인들로 북새통을 이룬다. 
+    이전엔 담배나 소형 전자제품이 주요 거래 품목이었지만, 최근엔 올리브유, 해바라기유, 옥수수유 등 식용유가 이를 대신하고 있다. 
+    25일(현지시간) 미국 일간 뉴욕타임스(NYT)에 따르면 미·이스라엘과 이란 간의 전쟁과 살인적인 인플레이션으로 생필품난에 허덕이는 이란 국민들이 직접 국경을 넘어 식용유 조달에 나서고 있다. 
+    국경을 오가던 이란 상인들에게 전쟁과 경제 위기는 뜻밖의 호재가 됐다. 
+    국내 생필품 가격이 폭등하면서 국경에서 식용유를 사다 국내에서 팔면 더 많은 이윤을 남길 수 있어서다. 
+    튀르키예 접경지에서 5리터(L) 들이 식용유 한 병 가격은 약 10달러(약 1만5천원). 이를 이란으로 가져가 팔면 2달러(약 3천원)가량의 차익을 남길 수 있다. 
+    월 108달러(약 16만원) 수준인 이란 내 최저임금을 고려하면, 식용유 몇 병을 팔아 얻는 수익도 적지 않은 돈이다.  
+    튀르키예 국경에서 NYT 기자와 만난 이란인 마리암씨는 식용유 네 병을 사서 고향에서 팔 계획이라며, 담배보다 식용유 수익이 더 높다고 말했다. 
+
+    이 같은 현상은 이란의 경제난을 단적으로 보여준다.
+    이란 경제는 국제 제재와 최근 미·이스라엘과의 전쟁으로 이중고를 겪고 있다.
+    특히 정부가 제재에 따른 재정난을 이유로 지난 1월 필수품 수입 보조금을 폐지하면서 식용유 가격이 급등하고 공급 부족 현상이 심화했다. 
+    국제통화기금(IMF)이 전망한 올해 이란의 물가상승률은 68.9%에 이른다. 1980년 이후 최고 수준이다.
+    급격한 물가 상승과 화폐 가치 하락으로 서민들의 어려움은 가중되고 있다. 
+    테헤란의 한 시민은 NYT에 예전엔 500만리알로 닭 5∼6마리를 샀지만, 최근엔 2천200만 리알을 주고도 3마리밖에 사지 못했다고 토로했다.
+    nomad@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[지난 4일(현지시간) 카피코이 검문소를 통해 이란에서 튀르키예로 넘어오는 여행객들]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260404181701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/04/04/PAP20260404181701009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[25일(현지시간) 이란 테헤란의 타지리시 바자르]]></Title>
+         <Caption><![CDATA[[EPA=연합뉴스]]]></Caption>
+         <FileName>PEP20260425153801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/04/25/PEP20260425153801009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

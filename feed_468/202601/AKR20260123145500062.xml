@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260123145500062</ContentID>
+      <SendDate>20260125</SendDate>
+      <SendTime>081501</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004013" name="철원"/>
+         <RegionCode code="7004010" name="원주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260123145500062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['2026 강원 방문의 해' 2월 추천 여행지…철원·원주 선정]]></Title>
+      <SubTitle><![CDATA[눈부신 은하수 아래 한탄강 물윗길…천년 고찰서 마주하는 겨울 힐링]]></SubTitle>
+      <Body><![CDATA['2026 강원 방문의 해' 2월 추천 여행지…철원·원주 선정
+눈부신 은하수 아래 한탄강 물윗길…천년 고찰서 마주하는 겨울 힐링
+
+    (춘천=연합뉴스) 이재현 기자 = 강원특별자치도와 강원관광재단은 2026 강원 방문의 해 2월 추천 여행지로 철원군과 원주시를 선정했다고 25일 밝혔다.
+
+    이에 따라 도와 재단은 2월에는 유네스코 세계지질공원의 비경을 담은 철원의 한탄강 물윗길'과 설경 속 사찰의 아름다움을 간직한 원주의 '치악산 ＆구룡사'를 집중적으로 홍보한다.
+    한탄강 물윗길은 유네스코 세계지질공원으로 등재된 한탄강의 주상절리를 물 위에서 감상할 수 있는 총 8.5㎞ 구간의 특별한 트레킹 코스다.
+    매년 10월부터 이듬해 3월까지만 운영되는 이 길은 눈 내린 강 위를 직접 건너며 겨울 한탄강의 진수를 만끽할 수 있는 절호의 기회를 선사한다.
+    '별들로 이뤄진 길'이라는 뜻의 180ｍ 길이의 현수교인 '철원한탄강 은하수교'와 3·1운동 만세 운동 및 정전협정의 역사적 의미를 담은 횃불 모양의 상징물인 횃불 전망대도 수려한 풍광을 만끽할 수 있는 감상 포인트다.
+
+    원주의 추천 여행지인 '치악산 ＆구룡사'는 산자락 아래 눈꽃으로 물든 사찰의 아침을 즐길 수 있는 겨울 힐링 코스다.
+    치악산 비로봉을 중심으로 한 설산의 능선과 신라 시대 창건된 천년 고찰 구룡사가 어우러져 마음까지 따뜻해지는 휴식을 제공한다.
+    이뿐만 아니라 세계적인 건축가 안도 다다오가 설계한 산속 미술관인 '뮤지엄산'과 조선시대 관찰사 관청이던 '강원감영'은 원주에 가면 꼭 들러야 하는 여행지로 손꼽힌다. 감자로 만든 쫄깃한 '관찰사 옹심이'는 추운 겨울 몸을 녹여주는 따뜻한 국물 요리로 원주 여행의 즐거움을 더한다.
+
+    철원군과 원주시는 2월 추천 여행지 방문객을 위한 다양한 할인 혜택을 준비 중이다.
+    철원군은 평일만 '한탄강 물윗길'을 포함해 '주상절리길', '횃불 전망대', 'DMZ 생태 평화공원' 이용료를 50% 할인해 혜택을 제공할 예정이다.
+    원주시는 오는 2월 1일부터 28일까지 순환형 시티투어 이용료를 20% 할인(성인 1일권 기준 4천원)하며, 시티투어 탑승객을 대상으로 '뮤지엄산'과 '빙하미술관' 20% 할인 혜택을 제공한다.
+    강원관광재단 인스타그램(@gwto_official)을 통해서도 2월 추천 여행지와 강원 관광의 다채로운 매력을 만나볼 수 있다.
+    최성현 재단 대표이사는 "겨울의 정취가 깊어져 가는 2월, 물 위를 걷는 철원의 특별한 경험과 원주의 고즈넉한 사찰 힐링을 통해 강원만의 아름다운 겨울을 만끽하고 소중한 추억을 만드시길 바란다"고 말했다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2026 강원 방문의 해 2월 추천 여행지]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260123145500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/23/AKR20260123145500062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[원주 치악산 구룡사]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260123145500062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/23/AKR20260123145500062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 한탄강 얼음 트레킹 축제]]></Title>
+         <Caption><![CDATA[[촬영 양지웅]]]></Caption>
+         <FileName>PYH2026011702510006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/17/PYH2026011702510006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

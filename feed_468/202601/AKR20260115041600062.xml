@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260115041600062</ContentID>
+      <SendDate>20260115</SendDate>
+      <SendTime>094440</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0409007" name="소상공"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260115041600062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성군, 접경지역 시설현대화 추진…지역경제 기반 마련]]></Title>
+      <SubTitle><![CDATA[5개 업소 선정, 업소당 최대 1천600만원 지원…19∼30일 신청]]></SubTitle>
+      <Body><![CDATA[강원 고성군, 접경지역 시설현대화 추진…지역경제 기반 마련
+5개 업소 선정, 업소당 최대 1천600만원 지원…19∼30일 신청
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = 강원 고성군은 소상공인 노후 영업장 개선 및 접경지역 이용객 편의 개선을 위해 '2026년 접경지역 시설현대화 사업'을 추진한다고 15일 밝혔다.
+    지원 대상은 공고일 기준 고성군에 주민등록이 되어 있고, 동일 장소에서 1년 이상 해당 사업을 계속해서 영위하고 있는 사업자이다.
+    숙박업, 음식점, 각종 서비스업 등을 운영하는 소상공인이 이에 해당하며, 사치·유흥업소 등 유해업소는 지원 대상에서 제외한다.
+    총 5개 업소를 선정해 업소당 최대 1천600만원까지 지원한다.
+    군에서 총사업비의 80%를 지원하며, 나머지 사업비 20%와 부가가치세 10%는 사업자 부담이다.
+    해당 사업은 1회 지원이 원칙이나 ▲ 기지원사업장의 사업주가 변경된 경우 ▲ 보조 지원 총액이 1천600만원 이내인 경우 ▲ 이전 지원 기간으로부터 7년이 지난 경우 중복지원이 가능하다.
+    지원을 희망하는 소상공인은 오는 19∼30일 지원신청서 등 서류를 갖춰 군청 경제체육과 지역경제팀에 방문·접수하면 된다.
+    자세한 사항은 군청 홈페이지 고시·공고란을 참고하거나 경제체육과 지역경제팀(☎033-680-3378)으로 문의하면 된다.
+    군은 2018년부터 접경지역 시설현대화 사업을 추진해 소상공인의 영업장 총 922개소의 시설 개선을 완료해 소상공인의 경영 안정과 자립 기반 강화를 돕고 있다.
+    군 관계자는 "이번 사업이 경기 침체로 어려움을 겪는 소상공인에게 활력을 불어넣는 계기가 되길 바란다"며"상권 활성화를 통해 지속 가능한 지역경제 기반을 마련하겠다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원 고성군청]]></Title>
+         <Caption><![CDATA[[강원 고성군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240223000092990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/02/23/92/PCM20240223000092990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

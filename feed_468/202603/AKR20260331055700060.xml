@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260331055700060</ContentID>
+      <SendDate>20260331</SendDate>
+      <SendTime>095026</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0402003" name="임업"/>
+         <ClassCode code="0505007" name="식물"/>
+         <ClassCode code="0202002" name="대기업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260331055700060]]></Href>
+      <Writer><![CDATA[김도윤]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국립수목원, 민간 기업과 DMZ·접경지 생태복원 협력]]></Title>
+      <Body><![CDATA[국립수목원, 민간 기업과 DMZ·접경지 생태복원 협력
+
+    (포천=연합뉴스) 김도윤 기자 = 산림청 국립수목원은 비무장지대(DMZ)와 접경지역 생태복원을 위해 민간 기업과 협력하기로 했다고 31일 밝혔다.
+    이를 위해 국립수목원은 지난 30일 원내 대강당에서 대중소기업농어업협력재단, 효성그룹 등과 이런 내용의 업무 협약을 체결했다.
+    협약에 따라 세 기관은 DMZ 불모지와 산림 훼손지 생태계 복원, 소재 식물 생산·공급 기반 마련과 복원용 종자 확보, 탄소중립 실천과 기후 변화 대응 정보 공유 등에 협력할 예정이다.
+
+    이번 협약은 각 기관이 보유한 자원과 기술, 네트워크를 연계해 지속 가능한 생태복원 모델을 구축하는 의미가 있다고 국립수목원은 설명했다.
+    또 자생식물 재배·공급에 지역 농가의 참여를 확대해 소득 창출과 연계하고 접경지역 경제 활성화, 지역소멸 대응 등에 도움이 될 것으로 기대한다.
+    국립수목원은 분원인 국립 DMZ 자생식물원을 중심으로 산림생물 다양성과 북방계 식물에 대한 연구를 수행하고 있다.
+    임영석 국립수목원장은 "올해 DMZ 자생식물원 개원 10주년을 맞아 그동안 축적한 연구 성과를 바탕으로 민관 협력을 확대할 것"이라고 말했다.
+    kyoon@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국립수목원, DMZ 일대 생태복원 협력 업무 협약]]></Title>
+         <Caption><![CDATA[(포천=연합뉴스) 산림청 국립수목원은 지난 30일 원내 대강당에서 대중소기업농어업협력재단, 효성그룹 등과 DMZ·접경지 일대 생태복원에 협력하는 내용의 업무 협약을 체결했다. 2026.3.31 [국립수목원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260331055700060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/31/AKR20260331055700060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

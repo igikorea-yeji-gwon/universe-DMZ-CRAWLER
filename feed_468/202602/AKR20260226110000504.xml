@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260226110000504</ContentID>
+      <SendDate>20260226</SendDate>
+      <SendTime>140447</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="1001001" name="북한정치"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260226110000504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[정동영 "김정은 밝힌 발전권 향유하려면 평화공존 필요"]]></Title>
+      <SubTitle><![CDATA["北입장 안타까워"…접경지역 평화안전 연석회의 참석]]></SubTitle>
+      <Body><![CDATA[정동영 "김정은 밝힌 발전권 향유하려면 평화공존 필요"
+"北입장 안타까워"…접경지역 평화안전 연석회의 참석
+
+
+    (서울=연합뉴스) 하채림 기자 = 정동영 장관은 26일 김정은 북한 국무위원장이 밝힌 "발전권과 안전권을 남과 북이 모두 향유하며 각자 발전해나가기 위해 적대와 대결이 아닌 평화공존을 위한 새로운 정세가 필요하다"고 말했다.
+    정 장관은 이날 종로구 남북회담본부에서 열린 '접경지역 평화안전 연석회의' 모두발언에서 "이재명 정부는 북쪽의 입장 발표에 일희일비하지 않고 한반도 평화공존정책을 흔들림 없이 밀고 나갈 것"이라면서 이렇게 밝혔다.
+    김정은 위원장은 지난 24일 보도된 9차 당대회 결론에서 "(북한의) 발전권과 안전권을 믿음직하게 수호"하겠다고 밝힌 바 있다.
+    그는 북한이 적대적 대남 노선을 거듭 확인한 데 대해 안타까움을 피력하며 "북한이 밝힌 '적대적인 두 국가' 기조는 남과 북 모두에 전혀 도움이 되지 않는다"고 지적했다.
+    이어 "접경지역 주민들이 걱정하시리라 생각하는데, 너무 걱정하실 필요가 없다"고 말했다.
+    그는 북한 체제 존중, 흡수통일과 일체의 적대행위 불추구 등 이재명 대통령이 작년 광복절에 밝힌 대북 3대 원칙을 확고히 견지할 것이라며, "서로 싸울 필요가 없는 평화공존이 남북 주민들에게 가장 필요하고 유일한 길"이라고 거듭 강조했다. 
+
+    이날 접경지역 평화안전 연석회의는 정 장관이 이달 18일 대북 무인기 침투 재발방지대책을 발표한 지 8일만에 열렸다. 
+    회의에는 통일부 장·차관을 비롯해 국방부 차관, 행정안전부 재난안전관리본부장, 국가안보실 통일비서관 등 정부 당국자들과 함께 접경지역시장군수협의회(회장 함명준 고성군수) 소속 10개 자치단체 단체장·부단체장이 참석했다. 
+    접경지역시장군수협의회는 이날 발표한 '무인기 대북 침투 재발 방지 및 진상조사 철저 촉구 결의문'에서 현실적인 재발 방지대책, 주민 피해에 상응한 특별 지원, 접경지역을 항구적이며 비가역적인 평화지대로 만들기 위한 근본 대책을 마련하라고 정부에 촉구했다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[발언하는 정동영 통일부 장관]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 한종찬 기자 = 정동영 통일부 장관이 26일 서울 종로구 남북회담본부에서 열린 접경지역 평화안전 연석회의에서 발언하고 있다. 2026.2.26 saba@yna.co.kr]]></Caption>
+         <FileName>PYH2026022611860001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/26/PYH2026022611860001300_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[접경지역 평화안전 연석회의 개최]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 한종찬 기자 = 정동영 통일부 장관(왼쪽)이 26일 서울 종로구 남북회담본부에서 열린 접경지역 평화안전 연석회의에서 접경지역 시장군수 협의회에게 결의문을 전달받고 있다. 2026.2.26 saba@yna.co.kr]]></Caption>
+         <FileName>PYH2026022611980001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/26/PYH2026022611980001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

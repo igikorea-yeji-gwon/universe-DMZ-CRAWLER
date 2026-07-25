@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260604009700065</ContentID>
+      <SendDate>20260604</SendDate>
+      <SendTime>013046</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105001" name="선거일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001212" name="인천선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260604009700065]]></Href>
+      <Writer><![CDATA[홍현기]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[6·3 지선] 北접경지 인천 옹진·강화서 민주·국힘 '1승 1패']]></Title>
+      <SubTitle><![CDATA[강화군 국힘 박용철·옹진군 민주 장정민 당선…'재선' 고지 올라]]></SubTitle>
+      <Body><![CDATA[[6·3 지선] 北접경지 인천 옹진·강화서 민주·국힘 '1승 1패'
+강화군 국힘 박용철·옹진군 민주 장정민 당선…'재선' 고지 올라
+
+
+
+    (인천=연합뉴스) 홍현기 기자 = 6·3 인천 기초자치단체장 선거에서 북한 접경지로 꼽히는 강화군과 옹진군에서 국민의힘과 더불어민주당 1승 1패를 거뒀다.
+    4일 중앙선거관리위원회에 따르면 이날 오전 1시 현재(99.96% 개표) 강화군에서는 현직 군수인 국민의힘 박용철 후보가 2만3천511표(55.44%)를 얻어 민주당 한연희 후보(1만8천896표·44.55%)를 따돌리고 당선됐다. 
+    박 후보는 2024년 10월 군수 보궐선거에 이은 한 후보와의 '리턴매치'에서도 승리하면서 재선 고지에 올랐다.
+    2018년부터 민주당 강화군수 후보로 4차례(보궐선거 포함) 도전한 한 후보는 이번에 설욕을 노렸으나 또다시 패배의 아쉬움을 삼켜야 했다.
+    백령도와 연평도 등 최북단 서해5도를 낀 옹진군에서는 전직 군수인 민주당 장정민 후보가 현직 군수인 국민의힘 문경복 후보를 누르고 당선됐다. 
+    오전 1시 현재(99.98% 개표) 장 후보는 6천331표(51.15%)를 얻어 문 후보(48.84%)에 앞섰다.
+    이에 따라 장 후보는 4년 전 옹진군수 선거에서 문 후보에 패배한 설움을 설욕할 수 있게 됐다.
+    강화군과 옹진군은 접경지역이라는 특성 때문에 수도권에서 보수 지지세가 강한 지역으로 꼽히지만, 그동안의 선거 결과를 보면 조금씩 변화의 분위기가 감지되고 있다.
+    강화군에서 민주당 후보의 득표율은 2018년 26.61%, 2022년 35.35%, 2024년 42.12%에 이어 이번에는 44% 이상으로 높아졌다.
+    강화군 접경지역에서는 1년 가까이 이어진 북한의 대남방송이 이재명 대통령 취임 직후인 지난해 6월 중단되자 주민들의 표심 변화가 관찰되기도 했다.
+    옹진군은 민주당 장정민 전 군수가 4년간의 공백을 딛고 재선에 성공하면서 더는 보수 강세 지역으로 불리기 어렵다는 평가까지 나온다.
+    옹진군에서는 민선 1∼3기와 조건호 군수와 4∼6기 조윤길 군수가 각각 3선을 했으나, 이후에는 연임 사례가 나오지 않으면서 유권자들이 보다 엄격하게 군정을 평가하고 있다는 분석도 나오고 있다.
+    hong@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[박용철 강화군수 당선인(사진 왼쪽)과 장정민 옹진군수 당선인(오른쪽)]]></Title>
+         <Caption><![CDATA[[중앙선거관리위원회 홈페이지 갈무리. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260604009700065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/04/AKR20260604009700065_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

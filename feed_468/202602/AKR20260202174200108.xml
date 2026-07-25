@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260202174200108</ContentID>
+      <SendDate>20260202</SendDate>
+      <SendTime>222023</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1102002" name="UN"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260202174200108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[유엔군 "이스라엘이 레바논에 정체불명 화학물질 투하"]]></Title>
+      <Body><![CDATA[유엔군 "이스라엘이 레바논에 정체불명 화학물질 투하"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 레바논 주둔 유엔 평화유지군(UNIFIL)은 이스라엘군이 레바논 남부에 정체불명의 화학물질을 투하했다고 2일(현지시간) 밝혔다.
+    UNIFIL에 따르면 전날 이스라엘군은 레바논과 이스라엘의 경계선 '블루라인' 인근에 무독성 화학물질을 투하하는 작전을 펼 것이라고 통보했다.
+    이 통보 탓에 UNIFIL은 10여건의 작전을 취소한 뒤 약 9시간 대기해야 했으며 이후 레바논군과 협력해 독성 검사를 위한 시료를 채취했다.
+    UNIFIL은 이스라엘군의 화학물질 투하를 두고 "용납할 수 없는 활동으로, (유엔 안전보장이사회) 1701호 결의도 위반하는 것"이라며 "평화유지군 병력과 인근 주민의 건강을 위험에 빠뜨렸다"고 비난했다.
+    UNIFIL은 "알 수 없는 화학물질이 농경지에 미칠 영향과 주민들의 생계에 미칠 영향도 우려된다"며 "이스라엘군은 이같은 활동을 모두 중단하라"고 촉구했다.
+    이스라엘군은 아직 이와 관련해 공식적인 입장을 내놓지 않았다.
+    1701호 결의는 2006년 이스라엘과 레바논 남부의 친이란 무장정파 헤즈볼라가 휴전하는 것을 위해 채택된 것으로, 레바논 남부의 접경지에 레바논군과 UNIFIL만 주둔할 수 있도록 규정했다.
+    이스라엘은 2023년 10월 발발한 가자지구 전쟁 국면에서 헤즈볼라와 충돌하다가 2024년 11월 미국과 프랑스의 중재로 휴전했지만, 하지만 이후로도 헤즈볼라의 휴전 합의 위반을 이유로 레바논에서 공습 등 산발적인 군사행동을 계속하고 있다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 주둔 유엔군]]></Title>
+         <Caption><![CDATA[[UNIFIL 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260202174200108_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/02/AKR20260202174200108_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

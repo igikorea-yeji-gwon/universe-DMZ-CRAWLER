@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260327143800005</ContentID>
+      <SendDate>20260327</SendDate>
+      <SendTime>173618</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0704001" name="언론일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260327143800005]]></Href>
+      <Writer><![CDATA[임미나]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[위기의 시대 저널리즘 역할은…세계기자대회 30일 개막]]></Title>
+      <Body><![CDATA[위기의 시대 저널리즘 역할은…세계기자대회 30일 개막
+    
+
+    (서울=연합뉴스) 임미나 기자 = 인공지능(AI) 확산과 함께 민주주의가 위협받는 시대에 언론의 역할을 모색하는 자리가 마련된다.
+    한국기자협회는 이달 29일부터 다음 달 3일까지 '2026 세계기자대회'를 개최한다고 27일 밝혔다.
+    '민주주의와 저널리즘; 위기의 시대, 언론의 역할'을 주제로 열리는 올해 행사에는 전 세계 30개국에서 50명의 기자가 참가한다. 
+    이번 행사는 급변하는 생성형 AI 환경에서 언론의 미래와 윤리 문제를 국제적 차원에서 공유하고 대비하는 행사로 마련됐다고 기자협회는 설명했다.
+    이달 30일 프레스센터에서 열리는 개막식은 박종현 회장의 환영사와 우원식 국회의장, 이규연 청와대 홍보수석의 축사 순으로 진행된다. 
+    '뉴스룸의 AI 활용 사례와 미래'를 주제로 한 콘퍼런스에서는 연합뉴스 김태균 기자의 사회로 서울경제신문 우승호 부국장, 불가리아 노바TV의 마틴 조르지에프, 중국 신화통신의 정카이쥔, 폴란드 '뉴스위크 폴스카'의 레나타 에바 김 기자가 참여하는 토론이 이뤄진다.
+    아울러 참가자들은 경기도 파주 비무장지대(DMZ) 내 캠프그리브스와 오두산 전망대를 찾아 한반도 분단 현실을 확인하고, 지방자치단체 명소를 방문해 한국 전통문화 등을 체험할 예정이다.
+    mina@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['2026 세계기자대회' 로고]]></Title>
+         <Caption><![CDATA[[한국기자협회 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260327143800005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/27/AKR20260327143800005_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260318044200060</ContentID>
+      <SendDate>20260318</SendDate>
+      <SendTime>093336</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0701004" name="축제"/>
+         <ClassCode code="0701001" name="문화일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260318044200060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, 9∼11월 'DMZ OPEN 페스티벌' 개최]]></Title>
+      <Body><![CDATA[경기도, 9∼11월 'DMZ OPEN 페스티벌' 개최
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도는 9∼11월 파주 등 비무장지대(DMZ) 일원에서 'DMZ OPEN 페스티벌'을 개최한다고 18일 밝혔다.
+
+    이 행사는 '선을 열어 삶을 잇다'(Open the Line, Connect the Life)를 슬로건으로, DMZ의 선(Line)을 열어 일상과 세계를 잇는 평화의 흐름을 만들고자 기획한 종합 축제다.
+    9월에는 페스티벌의 시작을 알리는 DMZ OPEN 전시가 개최돼 DMZ의 생태·평화·역사적 의미를 담은 다양한 작품을 통해 DMZ의 가치를 새롭게 조명한다. 
+    10월부터는 DMZ OPEN 국제음악제, DMZ OPEN 에코피스포럼, DMZ OPEN 평화걷기 등이 진행된다.
+    11월 초에는 DMZ OPEN 평화마라톤을 마지막으로 축제가 마무리된다.
+    국제음악제는 저명한 클래식 아티스트들이 참여해 한층 깊어진 평화와 화합의 메시지를 음악으로 전달하며 통일부와 공동 개최하는 에코피스포럼은 다양한 주체가 소통하는 참여형 논의의 장을 마련하고 평화공존이라는 DMZ 가치를 넘어 공동번영을 논의한다.
+    평화걷기와 평화마라톤은 DMZ의 자연과 역사적 의미를 직접 체험하며 평화의 가치를 되새길 수 있는 참여형 프로그램으로 운영된다.
+    DMZ OPEN 페스티벌은 경기도에서 직접 추진하는 방식으로 진행된다. 구체적인 축제 일정과 프로그램은 공식 누리집(https://www.gg.go.kr/dmzopen)을 통해 순차적으로 공개한다.
+    박현석 경기도 평화협력국장은 "DMZ OPEN 페스티벌은 DMZ를 생태·평화·역사적 가치를 지닌 세계적 문화 공간으로 확장해 나가는 데 중요한 역할을 하고 있다"며 "DMZ의 상징과 가치를 국내·외에 널리 알리고 미래세대가 DMZ의 의미를 공감하도록 노력하겠다"고 말했다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[지난해 열린 DMZ OPEN 평화마라톤]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260318044200060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/18/AKR20260318044200060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260425000700087</ContentID>
+      <SendDate>20260425</SendDate>
+      <SendTime>001733</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7105017" name="아이티"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001303" name="취재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260425000700087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[유엔, '갱들의 천국' 아이티에 연말까지 군경 5천500명 투입]]></Title>
+      <SubTitle><![CDATA[안보리 이사국에서 2억달러 실탄지원…대선은 올해 말 치러질 듯]]></SubTitle>
+      <Body><![CDATA[유엔, '갱들의 천국' 아이티에 연말까지 군경 5천500명 투입
+안보리 이사국에서 2억달러 실탄지원…대선은 올해 말 치러질 듯 
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = 갱들의 난립으로 치안 불안에 시달리고 있는 아이티에 올해 연말까지 유엔이 지원하는 다국적군과 경찰 5천500명이 투입된다. 
+    카를로스 루이스 마시외 유엔 사무총장 아이티 특별대표는 23일(현지시간) 뉴욕에서 기자들과 만나 차드를 비롯한 다양한 국가의 군대와 경찰이 향후 수 개월간 아이티에 단계적으로 배치될 것이며 "가을에서 연말 사이"에는 5천500명 전원이 현장에 투입될 것이라고 말했다.
+    이를 위해 유엔은 안전보장이사회 이사국 13개국으로부터 파병 비용 2억달러(약 3천억원) 이상을 확보한다는 방침이다. 이 가운데 5천900만달러는 이미 집행됐다고 AP통신은 전했다. 
+    이날 아이티 유엔사무소(BINUH)가 발표한 보고서에 따르면 작년 12월부터 올해 2월 사이 아이티 전역에서 2천400명이 사망했다. 이 가운데 1천300명 이상이 갱단 용의자이며 민간인도 최소 158명이 사망한 것으로 확인됐다.
+    작년 한 해 동안에는 아이티 전역에서 9천명 이상이 살해됐다. 인구 10만명당 살인율은 76명으로 세계에서 가장 높은 수준이다. 현재까지 갱단 폭력으로 145만명이 고향을 떴는데, 이중 절반 이상이 아동이다. 
+    '비브 앙삼'을 비롯한 갱단들은 2021년 7월 조브넬 모이즈 대통령 암살 이후 급속히 세력을 키워왔다. 이들은 수도의 70% 이상을 장악했으며 약탈, 납치, 성폭행 등의 범죄 활동을 일삼으며 지방까지 세력을 확대하고 있다.
+    아이티는 대통령 암살 이후 현재까지 대통령 부재 상태다. 올해 8월 진행키로 했던 대선과 총선은 다시 연기됐다. 아이티는 갱단 출몰과 정치적 혼란으로 지난 10년간 선거가 치러지지 못했다.
+    마시외 특별대표는 올해 말 대선을 실시하고, 1차 투표에서 당선자가 확정되지 않을 경우 내년 초 결선 투표를 치른다는 것이 현 정부의 계획이라고 전했다. 
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[아이티]]></Title>
+         <Caption><![CDATA[[EPA=연합뉴스]]]></Caption>
+         <FileName>AKR20260425000700087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/25/AKR20260425000700087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

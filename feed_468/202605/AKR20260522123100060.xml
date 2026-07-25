@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260522123100060</ContentID>
+      <SendDate>20260524</SendDate>
+      <SendTime>090005</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0402003" name="임업"/>
+         <ClassCode code="0505007" name="식물"/>
+         <ClassCode code="0701003" name="전시공연"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260522123100060]]></Href>
+      <Writer><![CDATA[김도윤]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국립수목원, 민통선에 '북한식물전시원' 조성]]></Title>
+      <SubTitle><![CDATA[양구 DMZ 자생식물원 내 4천㎡ 규모…89종 전시]]></SubTitle>
+      <Body><![CDATA[국립수목원, 민통선에 '북한식물전시원' 조성
+양구 DMZ 자생식물원 내 4천㎡ 규모…89종 전시
+
+
+    (포천=연합뉴스) 김도윤 기자 = 산림청 국립수목원은 국내 최북단 식물원인 'DMZ 자생식물원' 개원 10주년을 맞아 '북한식물전시원'을 조성했다고 24일 밝혔다.
+    전시원은 DMZ 자생식물원 안에 4천㎡ 규모로 조성됐다.
+    이곳에서 10년간 수집된 백두산떡쑥, 황산차 등 북한 자생식물 89종을 감상할 수 있다.
+    국립수목원 관계자는 "'분단의 시간을 넘어, 식물로 이어지는 평화의 길'을 주제로 이 전시원을 조성했다"며 "주변에서 보기 힘든 북녘의 식물을 만날 수 있다"고 말했다.
+    북한식물전시원 개원식은 29일 열린다.
+
+    DMZ 자생식물원은 2016년 민간인출입통제선(민통선) 이북인 강원 양구군 해안면 '펀치볼'(Punch Bowl)에 문 열었다.
+    18㏊ 규모로 국제연구센터, 전시원, 보존원 등을 갖췄다.
+    한반도의 동서 생태 축을 연결하는 이곳에서 비무장지대(DMZ) 산림생태계 보전과 북방계 식물자원 다양성 확보 등을 위한 연구와 전시, 교육 등을 수행한다.
+    펀치볼은 6·25 전쟁 당시 한국 해병대 1연대와 미 해병대 1사단이 북한군 1사단과 치열하게 싸운 격전지다.
+    해발 400∼500ｍ 고지대에 자리한 국내 대표적인 침식분지로 경관이 화채(Punch) 그릇을 닮아 이름 붙여졌다.
+    펀치볼은 해발 1천ｍ가 넘는 산으로 둘러싸여 같은 위도상에서 자랄 수 없는 북방계 식물이 자생한다.
+
+    kyoon@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[백두산떡쑥]]></Title>
+         <Caption><![CDATA[[국립수목원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260522123100060_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/22/AKR20260522123100060_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구 '펀치볼' 전경]]></Title>
+         <Caption><![CDATA[[강원도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260522123100060_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/22/AKR20260522123100060_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[황산차]]></Title>
+         <Caption><![CDATA[[국가생물종지식정보시스템 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260522123100060_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/22/AKR20260522123100060_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

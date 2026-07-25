@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260128000300051</ContentID>
+      <SendDate>20260128</SendDate>
+      <SendTime>075025</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003005" name="부산"/>
+         <RegionCode code="7006001" name="경남"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501002" name="사회문제"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260128000300051]]></Href>
+      <Writer><![CDATA[김선호]]></Writer>
+      <Desk code="051"><![CDATA[부산취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[박형준·박완수, 임기 단축 전제 행정통합 결단할까]]></Title>
+      <SubTitle><![CDATA[오늘 공동입장문 발표…조기 통합선거 여부 따라 정치력 기로]]></SubTitle>
+      <Body><![CDATA[박형준·박완수, 임기 단축 전제 행정통합 결단할까
+오늘 공동입장문 발표…조기 통합선거 여부 따라 정치력 기로
+
+
+    (부산=연합뉴스) 김선호 기자 = 부산·경남 시도지사가 28일 행정통합 공동 입장문을 발표하는 가운데 6월 지방선거 이후 조기 통합단체장 선거가 이뤄질지 주목된다.
+    박형준 부산시장과 박완수 경남도지사는 이날 오전 10시 30분 부산·경남 접경지역인 부산신항 내 동원글로벌터미널 홍보관에서 부산·경남 행정통합 공동 입장문을 발표한다.
+    이날 관전 포인트는 양 시도지사가 2030년 지방선거 이전 통합단체장 선출에 합의했는지에 쏠린다.
+    부산·경남 모두 행정통합 전 주민투표가 필요하며 충분한 논의 없는 성급한 통합에 반대하는 입장이다. 시간적으로도 현행법이 규정한 주민투표 마지노선 4월 1일 이전 주민투표를 하기가 쉽지 않은 상태다.
+    이 때문에 양 시도지사가 이번 6월 지방선거를 건너뛰고 4년 뒤 2030년 총선에서야 통합단체장을 뽑을 수 있다는 관측이 대세였다.
+    하지만 광주·전남, 대전·충남에 이어 대구·경북까지 6월 지방선거를 행정통합 시한으로 정하면서 수도권 초집중화에 대항한다는 부산·경남 행정통합 이슈는 밀린 지 오래다.
+    행정통합이 늦을수록 정부가 제시한 4년간 최대 20조원 인센티브를 못 받거나 2차 공공기관 이전 유치전에서도 불리한 입장에 놓일 수 있다는 우려가 나오면서 지역 정치권 등에선 타시도처럼 6월 지방선거에서 '선 통합 후 조정'을 해야 한다는 주장까지 제기되는 상황이다.
+    박 시장과 박 지사가 2030년이 아닌 조기 선거를 선언한다면 타지역의 속도전에 밀린 행정통합 주도권을 만회하고 6월 지방선거 동력으로 활용하는 것은 물론 행정통합 논의에도 속도가 붙을 것이라는 전망이 나온다.
+    반면 조기 행정통합을 발표하지 않는다면 역풍이 불 가능성을 배제하기 힘들다. 4년 임기를 다 채우고 통합선거를 하겠다는 의미여서 행정통합 진정성도 의심받을 수 있다.
+    27일 부산 시민단체는 부산·경남이 2027년 단독선거나 2028년 총선에서 통합단체장 선출을 검토해야 한다고 주장하기도 했다.
+    박재욱 신라대 행정학과 교수는 "행정통합은 신중하게 접근하는 것이 맞지만 정부가 던진 인센티브로 인해 '속도'도 무시하긴 어렵게 됐다"며 "특별법에 임기 단축과 통합단체장 선출시기를 명시화하면 조기 행정통합이 불가능한 일은 아니다"라고 말했다.
+    wink@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2024년 11월 박형준 박완수, 부산·경남 행정통합안 공개]]></Title>
+         <Caption><![CDATA[[부산시 제공. 재판매 및 DB 금지] ccho@yna.co.kr]]></Caption>
+         <FileName>PYH2024110813090005100_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2024/11/08/PYH2024110813090005100_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

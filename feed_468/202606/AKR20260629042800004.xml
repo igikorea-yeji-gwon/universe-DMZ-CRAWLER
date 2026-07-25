@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260629042800004</ContentID>
+      <SendDate>20260629</SendDate>
+      <SendTime>111501</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0401001" name="산업일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260629042800004]]></Href>
+      <Writer><![CDATA[김동규]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["서울을 매력적인 관광도시로"…내달 1∼2일 서울국제관광포럼]]></Title>
+      <Body><![CDATA["서울을 매력적인 관광도시로"…내달 1∼2일 서울국제관광포럼
+
+
+    
+    (서울=연합뉴스) 김동규 기자 = 서울시는 다음 달 1∼2일 서울 중구 웨스틴조선 서울에서 한국관광학회와 공동으로 '2026 서울국제관광포럼'을 연다고 29일 밝혔다.
+    '지속가능한 글로벌 관광도시 서울'을 주제로 열리는 이번 포럼은 국내·외 관광 분야 전문가와 업계, 공공기관 및 학계 관계자 등 900여명이 참석한다. 
+    이들은 서울 관광산업의 질적 성장과 미래 경쟁력 강화 방안을 논의할 예정이다.
+    이번 행사는 1972년 창립한 한국관광학회의 제100회 국제학술대회와 연계해 열린다.
+    막달레나 세풀베다 카르모나 유엔사회개발연구소(UNRISD) 소장이 개회식 기조연설을 맡아 관광산업의 양적 성장 뒤에 가려진 지역사회와의 상생을 짚어보고, 지속가능한 관광도시를 위한 도시정부의 역할을 제시할 예정이다.
+    이번 포럼에서는 고부가가치 관광, 지속가능 관광, 서울 의료관광, 스마트 관광 등 4대 정책 과제에 대한 논의가 집중적으로 이뤄진다.
+    개회식에서는 서울 관광 산업 발전 유공자에 대한 시상도 이뤄진다.
+    기관 부문에서는 서울특별시관광협회, 한국MICE협회, 순천향대학교 부속 서울병원이 수상하며 개인 부문에서는 허준 동덕여대 교수가 상을 받는다. 
+    김명주 서울시 관광체육국장은 "이번 포럼에서 도출된 글로벌 석학들 제언과 해외 우수사례를 향후 서울시 관광정책 수립에 적극 반영해 서울이 지속가능한 글로벌 관광도시로 도약하도록 지원하겠다"고 말했다.
+    dkkim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2026 서울국제관광포럼 포스터 이미지]]></Title>
+         <Caption><![CDATA[[서울시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260629042800004_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/29/AKR20260629042800004_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

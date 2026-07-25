@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260122079851001</ContentID>
+      <SendDate>20260122</SendDate>
+      <SendTime>125209</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Region>
+         <RegionCode code="7102027" name="캄보디아"/>
+      </Region>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0102001" name="청와일반"/>
+         <ClassCode code="0605008" name="사기"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260122079851001]]></Href>
+      <Writer><![CDATA[이동환]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[캄보디아 한국인 스캠 조직원 73명 강제송환…"역대 최대 규모"(종합)]]></Title>
+      <SubTitle><![CDATA[한국인 869명에게서 486억 편취 혐의…120억 가로챈 '부부 사기단'도
+靑 "은닉 재산 추적해 범죄수익 환수…완전 소탕 때까지 엄정 대응"]]></SubTitle>
+      <Body><![CDATA[캄보디아 한국인 스캠 조직원 73명 강제송환…"역대 최대 규모"(종합)
+한국인 869명에게서 486억 편취 혐의…120억 가로챈 '부부 사기단'도
+靑 "은닉 재산 추적해 범죄수익 환수…완전 소탕 때까지 엄정 대응"
+
+
+   
+    (서울=연합뉴스) 고동욱 황윤기 이동환 기자 = 캄보디아에서 스캠(scam·사기), 인질강도 등 범행을 저지른 한국인 범죄 조직원들이 22일 대규모 송환된다.
+    초국가 범죄 대응을 위해 구성된 범정부 태스크포스(TF)는 한국민 869명에게 약 486억원을 편취한 혐의를 받는 한국 국적 피의자 73명을 국내로 송환한다고 강유정 청와대 대변인이 브리핑에서 밝혔다.
+    이들의 송환을 위해 이날 오후 8시 45분 인천공항에서 전용기가 출발한다. 비행기는 현지에서 피의자들을 태운 뒤 23일 오전 9시 10분 귀환할 예정이다.
+    피의자들은 모두 체포영장이 발부된 상태로, 국내에 도착하는 대로 수사기관으로 보내져 조사받게 된다.
+    국적법상 국적기 내부는 대한민국 영토여서 탑승 즉시 체포영장이 집행된다. 통상 수갑을 채운 피의자 1명당 호송관 2명이 양옆에 앉는다.
+    강 대변인은 "이번 범죄 피의자의 국내 송환은 역대 최대 규모"라며 "캄보디아 현지에 파견된 코리아 전담반, 국정원, 현지 경찰 등 수사팀이 장기간 추적한 끝에 거둔 성과"라고 설명했다.
+
+    73명 중 70명은 로맨스 스캠이나 투자 리딩방 운영 등 스캠 범죄 혐의를, 3명은 인질강도와 도박 등 혐의를 받는다.
+    가상 인물로 위장하는 딥페이크 기술을 활용해 104명에게 약 120억원을 편취한 로맨스 스캠 부부 사기단도 포함됐다. 이들은 성형수술로 얼굴을 바꾸는 등의 도피전략을 써오다 검거됐으나 지난해 10월 송환 때는 제외됐다.
+    투자 전문가를 사칭해 사회 초년생과 은퇴자들에게서 약 194억원을 편취한 사범 등도 이번 명단에 포함됐다. 또 미성년자를 대상으로 성범죄를 저지른 뒤 캄보디아로 도주해 사기에 가담한 도피 사범, 스캠 단지에 감금된 피해자를 인질 삼아 국내에 있는 가족을 협박하고 금품을 갈취한 조직원 등이 송환된다.
+    지역별로는 시아누크빌 51명, 태국과 접경 지대인 포이펫 15명, 베트남 접경지대인 몬돌끼리 26명 등이 적발됐다. 확인된 스캠 단지만 7곳이다.
+    이들 단지에서는 감금·고문을 당하던 20대 남성들이 구출되기도 했다.
+
+
+    강 대변인은 "정부는 우리 국민에게 막대한 피해를 준 중대 범죄자들을 해외에 방치하면 범죄자 도피를 사실상 묵인한다는 잘못된 신호를 줄 수 있고, 재범 우려도 있다고 판단해 송환 절차를 신속히 진행해 왔다"고 밝혔다.
+    이어 "피의자들의 은닉 재산을 끝까지 추적해 범죄수익 환수도 본격적으로 추진할 방침"이라며 "앞으로도 정부는 우리 국민을 대상으로 한 해외 거점 스캠 범죄를 완전히 소탕할 때까지 TF를 중심으로 엄정 대응해 나가겠다"고 덧붙였다.
+    sncwook@yna.co.kr
+[https://youtu.be/OpT9wWtAbHM]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[송환 스캠조직별 국민 피해유발 실태]]></Title>
+         <Caption><![CDATA[[청와대 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260122079851001_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/22/AKR20260122079851001_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강유정 대변인, 캄보디아 스캠 조직 피의자 송환 관련 브리핑]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 김도훈 기자 = 강유정 대변인이 22일 청와대 춘추관에서 캄보디아 스캠 조직 피의자 송환 관련 브리핑을 하고 있다. 2026.1.22 superdoo82@yna.co.kr]]></Caption>
+         <FileName>PYH2026012207340001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/22/PYH2026012207340001300_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[청와대, '캄보디아 스캠조직 강제송환']]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 청와대는 캄보디아 스캠조직 한국 국적 피의자 73명을 22일 강제송환한다고 밝혔다. 사진은 검거 모습. 2026.1.22 [초국가범죄특별대응TF 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2026012207360001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/22/PYH2026012207360001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260529065700005</ContentID>
+      <SendDate>20260529</SendDate>
+      <SendTime>105232</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0712001" name="영화"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260529065700005]]></Href>
+      <Writer><![CDATA[정래원]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[나홍진 '호프' 200여개국 선판매…한국영화 최고가 기록]]></Title>
+      <Body><![CDATA[나홍진 '호프' 200여개국 선판매…한국영화 최고가 기록
+
+
+    (서울=연합뉴스) 정래원 기자 = 나홍진 감독의 신작 '호프'가 200여개 국에 선판매되며 순제작비의 절반가량을 조기 회수했다.
+    투자배급사 플러스엠 엔터테인먼트는 '호프'가 해외 선판매로 한국영화 사상 최고가 기록을 경신하며 200여개 국가 및 권역에 배급을 확정했다고 29일 밝혔다. 다만 구체적인 선판매 금액이나 순제작비 등은 공개하지 않았다.
+    지난 23일 폐막한 제79회 칸국제영화제 경쟁부문에 초청된 '호프'는 영화제 기간 열린 필름마켓에서 한국 영화 해외 판매와 관련해 파트너십이 있는 모든 국가 및 권역과 계약을 체결한 것으로 전해졌다.
+    북미를 포함한 영미권 파트너로는 일찌감치 네온이 확정됐고, 스페인·이탈리아·독일·스위스 등의 배급은 무비가, 프랑스와 남아공 일대는 포커스 피쳐스와 UPI 프랑스가 담당한다. 소니 픽쳐스 글로벌 월드와이드 애퀴지션스는 중동과 이스라엘, 아이슬란드 등의 배급을 맡는다.
+    플러스엠 엔터테인먼트 측은 "개봉 후 국내 흥행 부가 판권 사업까지 더해지면 기대 이상의 수익 창출이 가능할 것으로 예상된다"고 말했다.
+    '호프'는 비무장지대에 위치한 마을 '호포항'에 정체불명의 외계 생명체가 찾아오며 벌어지는 일을 그린 작품이다. 황정민, 조인성, 정호연이 주연을 맡았고 할리우드 배우 마이클 패스벤더와 알리시아 비칸데르, 테일러 러셀이 외계인 캐릭터를 소화했다.
+    국내에서는 올여름 개봉하고, 이후 9월 북미에 이어 순차적으로 전 세계 관객과 만날 예정이다.
+    one@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[영화 '호프' 포스터]]></Title>
+         <Caption><![CDATA[[플러스엠 엔터테인먼트 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260529065700005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529065700005_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

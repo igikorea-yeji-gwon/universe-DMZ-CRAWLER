@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260520169800062</ContentID>
+      <SendDate>20260520</SendDate>
+      <SendTime>175241</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004014" name="춘천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0107003" name="지방정가"/>
+         <ClassCode code="0105001" name="선거일반"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0104020" name="민주당"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260520169800062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우상호·김진태, 강원 표심 공략 돌입…유세 전략 본격화]]></Title>
+      <SubTitle><![CDATA[우 후보 '13일의 대항해'…김 후보 '그물망 유세']]></SubTitle>
+      <Body><![CDATA[우상호·김진태, 강원 표심 공략 돌입…유세 전략 본격화
+우 후보 '13일의 대항해'…김 후보 '그물망 유세'
+
+    (춘천=연합뉴스) 이상학 기자 = 6·3 지방선거 공식 선거운동이 21일 시작되는 가운데 강원특별자치도지사 선거에 나선 여야 후보들이 본격적인 표심 공략에 돌입한다.
+
+    더불어민주당 우상호 후보는 이날 오전 춘천에서 출정식을 열고 '강원이 특별해지는 13일의 대항해'를 내세워 강원 전역 순회 유세에 나선다.
+    우 후보는 춘천을 시작으로 강릉과 원주 등 도내 주요 지역을 돌며 청년·일자리·산업 중심의 강원 대전환 비전을 강조할 계획이다.
+    그는 "집권여당 후보로서 강원특별자치도의 권한과 기회를 제대로 살려 미래산업과 경제를 성장시키겠다"며 "청년이 떠나지 않고 기업이 찾아오는 강원을 만들겠다"고 밝혔다.
+    출정식에는 최문순 전 강원지사와 허영 국회의원, 육동한 춘천시장 후보 등도 참석해 지방선거 승리를 위한 결의를 다질 예정이다.
+    국민의힘 김진태 후보는 이날 춘천에서 출근 인사를 시작으로 강원 전역을 도는 '그물망 유세'에 돌입한다.
+    김 후보는 부처님오신날 연휴 기간 원주와 강릉, 접경지역 등을 순회하며 민선 8기 도정 성과와 재선 필요성을 집중 부각할 방침이다.
+
+    그는 "강원도민의 하루 시작과 끝을 함께하며 삶을 책임지는 도지사가 되겠다"며 "춘천과 원주, 강릉은 물론 접경지역까지 찾아 현장 목소리를 듣겠다"고 말했다.
+    김 후보는 원주에서 반도체·미래산업 비전을 설명하고 강릉과 동해안 지역에서는 관광·지역경제 활성화 전략을 강조할 계획이다.
+    지역 정가에서는 이번 강원지사 선거가 정권 지원론과 민선 8기 도정 연속성, 미래산업 육성 전략 등을 놓고 치열한 경쟁 구도로 전개될 것으로 보고 있다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[우상호·김진태, 강원지사 후보 등록]]></Title>
+         <Caption><![CDATA[[촬영 양지웅]]]></Caption>
+         <FileName>PCM20260515000001990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2026/05/15/01/PCM20260515000001990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[손잡은 우상호·김진태 강원도지사 후보]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2026051116980006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/11/PYH2026051116980006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

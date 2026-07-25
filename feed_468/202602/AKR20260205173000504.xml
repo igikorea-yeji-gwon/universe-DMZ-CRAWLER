@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260205173000504</ContentID>
+      <SendDate>20260205</SendDate>
+      <SendTime>180543</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="1007006" name="남북갈등"/>
+         <ClassCode code="1001005" name="북한군사"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260205173000504]]></Href>
+      <Writer><![CDATA[김철선]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[합참의장 "해빙기 후 北 도발 늘 것…MDL 침범시 단호히 대응"]]></Title>
+      <SubTitle><![CDATA[육군 지상작전사령부 방문해 군사대비태세 점검]]></SubTitle>
+      <Body><![CDATA[합참의장 "해빙기 후 北 도발 늘 것…MDL 침범시 단호히 대응"
+육군 지상작전사령부 방문해 군사대비태세 점검
+    
+
+    (서울=연합뉴스) 김철선 기자 = 진영승 합참의장은 5일 최전방 전선을 관할하는 육군 지상작전사령부를 방문해 군사대비태세를 점검하고, 주요 지휘관들과 북한군의 군사분계선(MDL) 근접 활동에 대한 대응 방안을 논의했다고 합참이 밝혔다.
+    진 의장은 전술토의에서 "북한의 '적대적 두 국가론'에 따라 해빙기 후 적의 MDL 근접 활동이 재개되고, MDL 침범 등 도발 가능성이 커질 것"이라고 평가했다.
+    그러면서 "접적지역에서 확고한 군사대비태세를 갖추고, 적이 MDL을 침범하거나 도발한다면 원칙과 기준에 따라 단호하게 대응하라"고 강조했다.
+    북한은 2023년 말 남북을 적대적 두 국가 관계로 선언한 이후 비무장지대(DMZ) 내 MDL 이북 지역에 지뢰를 매설하고 철책선을 설치하는 등 작업을 진행해왔다.
+    지난해 작업에 투입된 북한군이 MDL 이남으로 침범하는 경우도 10여차례 발생했다. 다만 겨울철에 접어들면서 북한군의 DMZ 작업은 현재 일시 중단된 상태다.
+    진 의장은 "우리 군이 전작권 전환 이후 전구 작전수행능력에 더욱 집중할 수 있도록 병력 중심의 경계작전에서 탈피하고, 유·무인 복합체계와 인공지능 기반 첨단 감시장비를 활용한 미래 경계작전 체계로 조속히 전환해야 한다"고 강조했다.
+    kcs@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[진영승 합참 의장, 지상작전사령부 군사대비태세 현장지도]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 진영승 합동참모본부 의장이 5일 지상작전사령부를 방문해 전술토의에서 작전지도를 하고 있다. 2026.2.5 [합동참모본부 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2026020519290001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/05/PYH2026020519290001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

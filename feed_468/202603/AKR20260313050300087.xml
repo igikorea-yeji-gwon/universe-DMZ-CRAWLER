@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260313050300087</ContentID>
+      <SendDate>20260313</SendDate>
+      <SendTime>094534</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260313050300087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[첫 해외 나들이 무산…베네수 임시대통령, 콜롬비아행 취소]]></Title>
+      <SubTitle><![CDATA[트럼프-페트로 대화 후 취소돼…베네수엘라 "불가항력적 사유"]]></SubTitle>
+      <Body><![CDATA[첫 해외 나들이 무산…베네수 임시대통령, 콜롬비아행 취소
+트럼프-페트로 대화 후 취소돼…베네수엘라 "불가항력적 사유"
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = 이웃 국가인 콜롬비아를 방문할 예정이던 델시 로드리게스 베네수엘라 임시대통령의 첫 해외방문이 돌연 취소됐다고 로이터, AFP통신 등이 12일(현지시간) 보도했다.
+    로드리게스 임시대통령과 구스타보 페트로 콜롬비아 대통령은 13일 베네수엘라와 국경을 접한 콜롬비아 노르테데산탄데르주(州) 쿠쿠타에서 정상회담을 진행할 예정이었다. 
+    취소 사유는 명확하게 밝혀지지 않았으나 양국 정부가 두 정상의 회담 일정을 재조정하기 위해 노력하고 있다고 콜롬비아 대통령실 관계자가 전했다.
+    로이터통신은 방문 취소 시점이 미묘하다는 점도 함께 보도했다. 도널드 트럼프 미국 대통령과 페트로 대통령의 전화 통화 직후 순방이 취소됐다는 것이다. 
+    트럼프 대통령은 페트로 대통령과의 회담에서 콜롬비아-베네수엘라 정상회담의 성공을 기원하는 덕담을 건넨 것으로 알려졌다. 
+    또한 로드리게스-페트로 회담에서 핵심 의제가 될 것으로 예상됐던 콜롬비아-베네수엘라 접경 지역 경제 문제도 논의한 것으로 전해졌다.
+    베네수엘라 정부는 로드리게스 임시대통령의 해외 '데뷔전'이 무산된 것과 관련해 "불가항력적"(Force Majeure) 사유가 있었다고 밝혔을 뿐 구체적인 내용은 설명하지 않았다.
+    일각에서는 석유 투자 등 회담 의제가 미국 측과 조율이 덜 됐거나 안전 문제 등 다양한 이유가 제기되고 있다. AFP통신은 대통령 경호 문제가 제기됐을 가능성을 언급하기도 했다.
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[델시 로드리게스 베네수엘레 임시대통령(좌)과 구스타보 페트로 콜롬비아 대통령]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260313050300087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313050300087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

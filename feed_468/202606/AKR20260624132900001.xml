@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260624132900001</ContentID>
+      <SendDate>20260624</SendDate>
+      <SendTime>162419</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Region>
+         <RegionCode code="7002001" name="서울"/>
+      </Region>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0605009" name="마약"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260624132900001]]></Href>
+      <Writer><![CDATA[황윤기]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[정부, 인터폴 마약대응센터 국내 유치 추진…"국제 공조 필요"]]></Title>
+      <SubTitle><![CDATA[범정부 대책 회의서 논의…경찰, 연말 총회서 의향서 작성 추진]]></SubTitle>
+      <Body><![CDATA[정부, 인터폴 마약대응센터 국내 유치 추진…"국제 공조 필요"
+범정부 대책 회의서 논의…경찰, 연말 총회서 의향서 작성 추진
+
+
+
+
+    (서울=연합뉴스) 황윤기 기자 = 정부가 초국가적으로 벌어지는 마약류 범죄에 대응하기 위해 국제형사경찰기구(ICPO·인터폴) 마약 대응센터의 국내 유치를 추진하기로 했다.
+    국무조정실은 24일 윤창렬 국무조정실장 주재로 열린 제2차 마약류 대책협의회에서 이 같은 내용이 논의됐다고 밝혔다.
+    국무조정실은 "전 세계 마약의 70%를 생산하는 '골든 트라이앵글' 지역(태국·미얀마·라오스 접경지)을 전략적으로 차단·대응하기 위해 아시아 지역 차원의 국제공조 컨트롤 타워 필요성이 제기되고 있다"며 "경찰청이 올해 12월 인터폴 홍콩 총회에서 인터폴 사무총장과 '마약 대응센터 한국 설치' 의향서 작성을 추진할 것"이라고 설명했다.
+    정부는 2029년 서울에서 열리는 인터폴 총회에 즈음해 한국 센터를 개소하겠다는 목표를 정했다.
+    윤 실장은 "국제 마약 공급망에 효과적으로 대응하는 데 큰 도움이 될 것으로 기대된다"며 "관계부처가 힘을 모아달라"고 당부했다.
+    이날 회의에선 지난 3∼5월 실시한 범정부 합동 마약류 특별단속 성과도 공유됐다. 특별단속 결과 마약류 사범 5천337명을 검거해 895명을 구속했으며 마약류 759㎏을 압수했다.
+    의료용 마약류 오남용 단속을 위해 식품의약품안전처가 의료기관 148곳을 현장 점검해 31곳을 적발했으며, 경찰은 의료용 마약류 사범 344명을 검거했다.
+    아울러 국경단계 마약류 반입 시도 358건을 차단했으며 온라인 마약사범 2천158명을 검거했다. 클럽 등을 대상으로 점검에 나서 외국인 마약 유통 조직원 및 지명수배자 등을 적발하기도 했다.
+    정부는 청소년 마약 예방을 위해 '멋없는 거 하지 마'라는 문구를 내세워 캠페인을 벌일 예정이다.
+    water@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[제2차 마약류대책협의회]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 안정원 기자 = 윤창렬 국무조정실장이 24일 오후 서울 종로구 정부서울청사에서 열린 제2차 마약류대책협의회에서 발언하고 있다. 2026.6.24 jeong@yna.co.kr]]></Caption>
+         <FileName>PYH2026062414920001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/24/PYH2026062414920001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

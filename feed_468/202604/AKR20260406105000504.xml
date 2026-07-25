@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260406105000504</ContentID>
+      <SendDate>20260406</SendDate>
+      <SendTime>153438</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="0102002" name="대통령"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260406105000504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[정동영, '무인기 방지책' 국무회의 보고하며 9·19 복원 미언급]]></Title>
+      <SubTitle><![CDATA[2월엔 무인기 대책으로 "9·19군사합의 일부 복원 선제적 추진" 밝혀]]></SubTitle>
+      <Body><![CDATA[정동영, '무인기 방지책' 국무회의 보고하며 9·19 복원 미언급
+2월엔 무인기 대책으로 "9·19군사합의 일부 복원 선제적 추진" 밝혀
+    
+
+    (서울=연합뉴스) 하채림 기자 = 정동영 통일부 장관이 6일 국무회의에서 무인기 재발방지 대책을 보고했지만, 지난 2월 주요 방안으로 언급했던 9·19 군사합의 복원은 거론하지 않아 배경이 주목된다.
+    정 장관이 이날 보고한 무인기 대책에는 무인기 무단 비행시 처벌 강화와 접경지역 안전망 구축 등이 포함됐다. 하지만 9·19군사합의 복원은 언급하지 않았다.
+    정 장관은 지난 2월 민간 무인기 사건 관련 정부 입장을 발표하며 "비행금지구역 설정 등을 포함하여 기존 9·19 남북군사합의 일부 복원을 선제적으로 검토·추진할 것"이라고 밝힌 바 있는데, 이번엔 빠진 것이다.
+    통일부 당국자는 이와 관련, "9·19 군사합의 복원 시기는 중동 전쟁 등 정세를 고려하면서 미군과도 협의해야 할 사안"이라고 연합뉴스에 배경을 설명했다.
+    9·19군사합의 선제적 복원 방침을 포기한 것은 아니며, 국제 정세 등 상황을 보며 추진 시기를 잡겠다는 의미로 보인다.
+    한편 무인기 재발방지 대책과 함께 보고된 접경지대 평화안전 증진 방안에는 각종 경제활동에 제약받는 접경지역 10개 군 단위 주민을 대상으로 하는 '안보기본소득' 신설과 평화경제특구 기반시설에 남북협력기금 지원 근거 마련을 요청하는 내용이 담겼다. 
+    박홍근 기획예산처 장관은 정 장관의 협력 요청에 "안보기본소득과 남북협력기금 용처 확대는 통일부와 지속적인 논의가 더 필요한 사안"이라며, 기존 제도 활용방안을 함께 고려하겠다는 입장을 보였다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[보고하는 정동영 통일부 장관]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 김도훈 기자 = 정동영 통일부 장관이 6일 청와대에서 열린 국무회의 겸 비상경제점검회의에서 이재명 대통령에게 무인기 재발 방지 및 접경지역 평화안정 증진 관련 부처보고를 하고 있다. 2026.4.6 [청와대통신사진기자단] superdoo82@yna.co.kr]]></Caption>
+         <FileName>PYH2026040607860001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/06/PYH2026040607860001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

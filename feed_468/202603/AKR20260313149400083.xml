@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260313149400083</ContentID>
+      <SendDate>20260313</SendDate>
+      <SendTime>174324</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102025" name="중국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1002002" name="북중관계"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001099" name="르포"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260313149400083]]></Href>
+      <Writer><![CDATA[정성조]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[르포] 北中여객열차 재개…살아나는 교류에 접경지 단둥엔 기대감]]></Title>
+      <SubTitle><![CDATA[화물열차·트럭 왕래 일상화…'북한 물건 취급' 개인 상점 활발
+압록강변 식당 새단장 중…'연내 개통 목표' 신압록강대교는 아직 조용]]></SubTitle>
+      <Body><![CDATA[[르포] 北中여객열차 재개…살아나는 교류에 접경지 단둥엔 기대감
+화물열차·트럭 왕래 일상화…'북한 물건 취급' 개인 상점 활발
+압록강변 식당 새단장 중…'연내 개통 목표' 신압록강대교는 아직 조용
+
+
+    (단둥=연합뉴스) 정성조 특파원 = 북한과 중국이 6년 만에 여객열차 운행을 재개하는 등 양국 교류에 속도가 붙는 가운데 중국 단둥은 차분함 속에 접경지 활성화 기대감을 키워가고 있다.
+    압록강을 사이에 두고 북한 신의주와 마주 보는 중국 랴오닝성 단둥은 북중 교류의 부침에 직접적인 영향을 받는 도시다.
+    북한이 2020년 1월 코로나19 대유행 영향으로 국경을 봉쇄하고 인적 왕래와 철도·도로를 이용한 교역을 전면 중단하면서 단둥도 타격을 입었다.
+    지난해 기준 단둥의 연간 GDP 성장률은 1.3%로 전국 평균(5.0%)과 랴오닝성 평균(3.7%)을 크게 밑돌기도 했다.
+
+    하지만 지난해부터 북중 관계가 호전 조짐을 보이면서 단둥에도 활기가 돌고 있다고 주민들은 설명했다.
+    단둥에서 30년 넘게 살았다는 백종범 단둥한국인회장은 "요즘 신의주와 단둥을 오가는 트럭이 하루 120대 정도 된다"며 "분위기가 많이 살아났다"고 말했다.
+    북한은 물자난 관측 속에 2022년 9월 1월 압록강철교를 통한 신의주-단둥 화물열차 운행을 재개했는데, 이제는 열차뿐만 아니라 컨테이너를 실은 대형 트럭들이 줄지어 압록강철교를 오가고 있다. 2023년 중반까지만 해도 등장 자체가 뉴스거리였던 버스 이동은 이제 일상적인 일이 됐다.
+
+    북중 무역이 활성화되면서 단둥에서 북한 물건을 찾아보기는 더 쉬운 일이 됐다.
+    단둥 시내에서 압록강 상류로 차를 타고 30분가량 이동하자 북한 상품을 '집에서' 파는 마을이 나왔다.
+    고구려 유적 '박작성' 인근에 있는 이 마을 사람들은 압록강철교로 중국에 들어온 북한 상품을 집 앞 마당에 늘어놓거나 집 안에 진열해두고 있었다. 북한 화장품과 술, 담배부터 장신구, 한복 등 취급 품목은 다양했다.  
+    가게 주인은 "북한 물건 품질이 좋다"며 중국산에 비해 두세 배 비싼 값을 불렀다.
+    기자와 대화를 나눈 현지 주민은 "북한에서 물건이 넘어오면 떼어다 판매하는 형태인데, 당국이 상인들에게 무역일을 알려준다"며 "정식 루트가 아니라 밀수로 오는 물건도 있는 것으로 안다"고 귀띔했다.
+
+    이런 가운데 12일 평양과 단둥을 매일 오가는 여객열차(평양-베이징은 주 4회)까지 다시 가동되면서 '북중 관문'인 단둥의 활기 회복에도 속도가 붙을 것이라는 기대감이 감지됐다.
+    '조선(북한) 여행 전문'을 내건 단둥 시내 한 여행사에는 13일 오전부터 여행 상품 문의가 있었다. 
+    여행사 관계자는 "여객열차가 다니기 시작했지만 당장 북한에 갈 수 있는 것은 아니고, 2∼3개월 정도 뒤에 단체관광이 재개될 것 같다"고 설명했다.
+    압록강변에서는 여행객 맞이 준비 모습이 자주 눈에 띄었다.
+    한 호텔 겸 식당 건물은 간판과 외벽을 새단장했다. 북한 특유의 필체로 "중조(중북) 친선 만세", "금강산도 식후경" 같은 문구를 형형색색으로 써놓기도 했다.
+    압록강과 신의주를 바라보는 '명당'에 있는 한 강변 맥줏집은 한창 공사 중이었다. 간판에는 북한에서 직수입한 '대하맥주'를 판매한다는 문구가 들어갔다.
+
+    다만 2014년 완공된 신압록강대교는 여전히 정식 개통을 기다리고 있었다. 
+    중국은 노후한 압록강철교를 대체하기 위해 단둥 랑터우와 신의주 남부를 잇는 3㎞ 길이의 왕복 4차로 규모 다리 본체를 만들었지만, 북한이 개통을 미뤄온 것으로 알려졌다.
+    단둥 시내와 10㎞가량 떨어진 신압록강대교 주변에는 북중 물류 활성화를 위해 대형 해관(세관) 건물과 기업들이 입주할 수 있는 사무 구역, 아파트 등 주거 지역이 설치됐다. 도로와 보도블록이 깨지는 등 기반 시설이 전반적으로 낡은 단둥 시내와 달리 넓고 깨끗한 '신도시'이지만 행인을 찾아보기 힘들 정도로 활기는 없었다.
+
+    단둥시 정부는 올해 업무보고에서 '신압록강대교 항만 개통'을 목표로 설정한 상태다.
+    신압록강대교와 주변 물류 단지를 바라보던 단둥 토박이 택시기사는 "중국이 큰돈을 들여서 다 만들어놓고 13년이 됐는데 아직도 개통하지 못하고 있다"며 분통을 터뜨렸다.
+    xing@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[새롭게 단장한 압록강변 호텔]]></Title>
+         <Caption><![CDATA[(단둥=연합뉴스) 정성조 특파원 = 12일 오전 중국 랴오닝성 단둥시의 한 호텔에 한국어·중국어로 호객 문구가 붙은 모습. 2026.3.13 xing@yna.co.kr]]></Caption>
+         <FileName>AKR20260313149400083_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313149400083_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[개통 기다리는 신압록강대교]]></Title>
+         <Caption><![CDATA[(단둥=연합뉴스) 정성조 특파원 = 13일 오후 중국 랴오닝성 단둥시에서 바라본 신압록강대교의 모습. 2026.3.13 xing@yna.co.kr]]></Caption>
+         <FileName>AKR20260313149400083_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313149400083_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중국 단둥에서 바라본 북한 신의주]]></Title>
+         <Caption><![CDATA[(단둥=연합뉴스) 정성조 특파원 = 13일 오전 중국 랴오닝성 단둥시에서 압록강 너머로 보이는 북한 신의주의 모습. 2026.3.13 xing@yna.co.kr]]></Caption>
+         <FileName>AKR20260313149400083_08_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313149400083_08_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한 물건 취급하는 중국 단둥의 개인상점]]></Title>
+         <Caption><![CDATA[(단둥=연합뉴스) 정성조 특파원 = 13일 오전 중국 랴오닝성 단둥시에 있는 북한 상품 전문 개인 상점에서 물건을 고르는 중국인의 모습. 2026.3.13 xing@yna.co.kr]]></Caption>
+         <FileName>AKR20260313149400083_10_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313149400083_10_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[공사 중인 압록강변 북한맥줏집]]></Title>
+         <Caption><![CDATA[(단둥=연합뉴스) 정성조 특파원 = 12일 오전 중국 랴오닝성 단둥시 압록강변의 한 북한 맥주 전문 맥줏집이 손님 맞이 공사 중인 모습. 2026.3.13 xing@yna.co.kr]]></Caption>
+         <FileName>AKR20260313149400083_11_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313149400083_11_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[6년 만에 압록강 건너는 북중 여객열차]]></Title>
+         <Caption><![CDATA[(단둥=연합뉴스) 정성조 특파원 = 12일 오후 압록강을 건너 중국 랴오닝성 단둥에 도착한 북한 여객열차. 객차 한 가운데 '평양-베이징'이라는 행선지 표시가 돼 있다. 2026.3.13 xing@yna.co.kr]]></Caption>
+         <FileName>PYH2026031222040008301_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/03/12/PYH2026031222040008301_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

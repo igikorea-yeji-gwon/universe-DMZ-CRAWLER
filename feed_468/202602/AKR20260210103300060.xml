@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260210103300060</ContentID>
+      <SendDate>20260210</SendDate>
+      <SendTime>135258</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260210103300060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, 8개 시군 대상 '평화경제특구' 후보지 공모]]></Title>
+      <Body><![CDATA[경기도, 8개 시군 대상 '평화경제특구' 후보지 공모 
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도는 다음 달 10일까지 고양, 파주, 김포, 양주, 포천, 동두천, 가평, 연천 등 8개 시군을 대상으로 평화경제특구 후보지를 공개 모집한다고 10일 밝혔다.
+
+    평화경제특구는 남북 접경지역을 중심으로 평화·안보 가치와 산업·경제 기능을 결합한 국가 전략사업이다.
+    평화경제특구에 지정되면 지방세, 부담금 감면 및 자금 지원 등 혜택이 주어지는 산업단지나 관광특구를 조성할 수 있다.
+    앞서 통일부는 지난해 12월 26일 평화경제특구 기본계획을 발표하고 올해 말 시범사업 실시, 내년 말 추가 지정 등을 통해 모두 4개 안팎의 평화경제특구를 지정하겠다고 밝혔다. 
+    도는 통일부의 기본계획에 맞춰 도 차원의 사전 준비 단계로 후보지 선정을 진행한다는 방침이다. 
+    시군 공모를 통해 후보지를 접수한 뒤 후보지 선정위원회 평가를 거쳐 4개소의 후보지를 선별하는 방식으로 선정 절차를 진행한다.
+    접수된 제안에 대해서는 1차 서면·사전심의 및 시·군 발표와 질의응답을 포함한 2단계 발표·종합평가를 한다.
+    후보지 선정 결과는 다음 달 말에 확정된다. 
+    도는 이번 공모가 특구를 지정하는 최종 단계가 아니라, 향후 개발계획 수립을 위한 후보지 선정 단계라고 강조했다.
+    도는 후보지 선정 결과를 토대로 '경기도 평화경제특구 개발계획 수립 연구용역'에 착수하고, 통일부와의 협의를 거쳐 2026년 시범지구 지정 절차를 단계적으로 추진할 예정이다.
+    다만 후보지 선정 과정과 평가 내용은 공정성 확보를 위해 비공개로 운영하며, 최종 특구 지정 여부는 통일부 심의·의결을 통해 확정한다.
+    전철 경기도 평화기반조성과장은 "이번 후보지 선정은 평화경제특구 조성을 위한 첫 공식 절차로, 도내 시군의 다양한 구상과 계획을 공정하게 검토하는 과정"이라며 "특정 지역을 미리 정해두기보다는 실현 가능성과 발전 잠재력을 중심으로 객관적인 평가를 진행할 것"이라고 말했다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도청사]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260210103300060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/10/AKR20260210103300060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260425020500087</ContentID>
+      <SendDate>20260425</SendDate>
+      <SendTime>084940</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001303" name="취재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260425020500087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[베네수-콜롬비아 "국경 마피아 소탕"…에너지 협력도 확대]]></Title>
+      <SubTitle><![CDATA[베네수엘라서 마두로 축출 후 첫 정상회담 열려]]></SubTitle>
+      <Body><![CDATA[베네수-콜롬비아 "국경 마피아 소탕"…에너지 협력도 확대 
+베네수엘라서 마두로 축출 후 첫 정상회담 열려 
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = 델시 로드리게스 베네수엘라 임시대통령이 24일(현지시간) 구스타보 페트로 콜롬비아 대통령과 정상회담을 갖고, 양국 접경지대에 존재하는 마약 카르텔 소탕을 위해 군사적으로 공조하기로 했다.
+    아울러 교역 확대와 함께 고질적인 정전에 시달리는 베네수엘라 서부 지역에 전력 공급을 위해 전력망 및 가스관 연결 등 에너지 분야에서도 협력하기로 했다.
+    로드리게스 임시대통령은 이날 베네수엘라 카라카스 대통령궁에서 페트로 대통령과 만나 이같은 내용에 합의했다고 로이터통신과 AFP통신이 보도했다. 
+    페트로 대통령은 지난 1월 니콜라스 마두로 대통령이 축출된 이후 베네수엘라를 방문하는 첫 해외 정상이다. 
+    로드리게스 임시대통령은 양국이 국경 지역에서 발생하는 범죄와 싸우기 위해 "매우 진지하고 포괄적인 접근 방식"을 취하고 있으며, 마약 및 연료 밀수 등을 근절하기 위해 즉각적으로 "정보 공유 및 정보 개발 메커니즘"을 구축할 것이라고 밝혔다. 
+    페트로 대통령은 이번 군사 공조와 관련해 "코카인, 불법 금 채굴, 인신매매, 희귀 광물 밀거래 등 다양한 불법 사업에 종사하는 마피아들로부터 국경 지역을 해방하는 데 목적이 있다"고 말했다.
+    그러면서 양국 국경은 범죄자 집단들이 아니라 두 국가의 시민들에 속해야만 한다고 강조했다. 
+    양국 접경지역은 연간 10억 달러(약 1조5천억원) 이상의 교역이 이뤄지는 중심지이지만, 마약 밀매와 무장단체의 불법 활동이 기승을 부리는 곳이기도 하다. 특히 인권 단체들은 과거 베네수엘라 군부가 이들 무장 단체를 묵인해 왔다는 의혹을 제기해 왔다.
+    당초 두 정상은 지난달 양국 접경 지역인 콜롬비아 쿠쿠타에서 만날 예정이었으나, 베네수엘라 측이 보안 문제를 이유로 막판 취소했다. 
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[페트로 콜롬비아 대통령(좌)과 로드리게스 베네수엘라 임시대통령]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스]]]></Caption>
+         <FileName>AKR20260425020500087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/25/AKR20260425020500087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

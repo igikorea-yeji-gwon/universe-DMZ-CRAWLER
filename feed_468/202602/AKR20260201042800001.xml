@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260201042800001</ContentID>
+      <SendDate>20260202</SendDate>
+      <SendTime>070001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0103001" name="국회일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260201042800001]]></Href>
+      <Writer><![CDATA[조다운]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[오늘의 국회일정](2일·월)]]></Title>
+      <Body><![CDATA[[오늘의 국회일정](2일·월)
+
+    ▲ 국회의장
+    국회의장 주재 기관장 업무보고(09:00 국회접견실)
+    임시회 개회식(14:00 본회의장)
+    ▲ 의원실 세미나
+    신장식 의원실 등, 사회권 인권침해 대응을 위한 국가인권위원회법 개정방향(10:00 의원회관 제6간담회의실)
+    윤종오 의원실 등, AI산업 전력수급, 신규 핵발전소가 대안인가?(10:30 의원회관 제1간담회의실)
+    고민정 의원실 등, 초광역 행정체제 전환 속 교육분권·자치의 방향과 대안: 한국교육행정학회 2026년 제1회 교육정책포럼(14:00 의원회관 제3간담회의실)
+    ▲ 소통관 기자회견
+    염태영 의원, [공공시설 임대 관리 부당 행정 서울시 및 강남구청 규탄 기자회견](09:20)
+    신미연 대변인, [유엔사 입법 주권 침해 규탄 기자회견](09:40)
+    유상범 의원, [국민의힘 김재원 최고위원, 경상북도지사 출마선언 기자회견](10:20)
+    전현희 의원, [서울시장 출마선언 기자회견](10:40)
+    안호영 의원, [현안 관련 기자회견](11:00)
+    윤종오 의원, [부울경 균형발전전략과 행정통합에 대한 진보당 기자회견](11:20)
+    신미연 대변인, [울산시 공공 일자리 관련 기자회견](11:40)
+    박정현 의원, [더불어민주당 충청지역발전특위, 지역 현안 관련 기자회견](13:20)
+    (서울=연합뉴스)
+(끝)]]></Body>
+   </NewsContent>
+</YNewsML>

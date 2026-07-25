@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260518073000073</ContentID>
+      <SendDate>20260518</SendDate>
+      <SendTime>112953</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1001005" name="북한군사"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260518073000073]]></Href>
+      <Writer><![CDATA[조성미]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[日매체 "북한군, 군사분계선 인근서 전술도로 확장"]]></Title>
+      <Body><![CDATA[日매체 "북한군, 군사분계선 인근서 전술도로 확장"
+    
+
+    (도쿄=연합뉴스) 조성미 특파원 = 북한이 개성 인근의 군사분계선(MDL) 근처에서 도로 공사를 진행하며 전술도로 연장을 시도하고 있는 것으로 보인다고 일본 언론이 18일 보도했다.
+    마이니치신문은 지난 16일 오전 경기도 김포시 전망대에서 관찰한 내용을 바탕으로 군사분계선 이북 지역에서 북한 병사들이 비포장도로에 같은 간격으로 기둥을 세우거나 암반을 제거하는 것으로 추정되는 폭파 작업을 진행하고 있다고 전했다.
+    마이니치가 촬영한 사진을 분석한 정성학 한반도안보전략연구원 위성분석센터장은 이 신문에 북한군이 전술도로 조성 공사를 하는 것으로 보인다고 밝혔다.
+    마이니치는 군사분계선 일대에서 북한군이 전술도로 확장 등에 나서는 것은 군사분계선을 사실상의 국경으로 가시화함으로써 남북통일 목표를 포기하고 한국을 '주적'으로 삼을 방침을 명확히 하려는 목적으로 보인다고 해설했다.
+    그러면서 비무장지대(DMZ) 내 전술도로 공사가 휴전 협정 위반 가능성이 있다고 지적했다.
+    국방부에 따르면 남북은 1953년 7월 27일 정전협정 체결 이후 같은 해 8월 군사정전위원회 감독 아래 군사분계선을 따라 표지판 1천200여개를 설치했지만, 1973년 이후로 대부분 유실되거나 부식됐다. 
+    이후 북한군은 2024년부터 비무장지대(DMZ) 내 MDL 이북 근접 지역에서 불모지 및 전술도로 구축, 철책선 및 지뢰 장애 설치 등 국경선화 작업을 지속적으로 하고 있다. 
+    csm@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA["북, MDL일대 4곳서 각 2.5㎞ 길이 대전차 방벽 건설"]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 국회 국방위원회 소속 유용원(국민의힘) 의원은 합동참모본부로부터 받은 설명과 유럽의 위성업체로부터 입수한 위성사진에 따르면 북한이 4개 군사분계선(MDL) 일대에서 각 지역에 약 2.5km 길이의 대전차 방벽을 건설한 것으로 확인됐다고 14일 밝혔다. 유럽 위성업체 '아이스아이' 위성으로 촬영된 사진. 2025.10.14 [유용원 의원실 제공. 재판매 및 DB 금지. 기사와 직접적 관련 없음] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2025101403300050400_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/10/14/PYH2025101403300050400_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

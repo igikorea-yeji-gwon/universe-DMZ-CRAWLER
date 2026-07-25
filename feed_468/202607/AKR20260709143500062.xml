@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260709143500062</ContentID>
+      <SendDate>20260709</SendDate>
+      <SendTime>151313</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0504003" name="장애복지"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260709143500062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 장애인·어르신 지원사업 추진…스포츠 복지 확대]]></Title>
+      <Body><![CDATA[철원군, 장애인·어르신 지원사업 추진…스포츠 복지 확대
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 장애인과 어르신의 스포츠 참여 기회를 확대하고, 지역 생활체육 기반을 강화하기 위해 관련 사업을 적극 추진한다고 9일 밝혔다.
+    먼저 장애인 체육활동 참여 확대와 이용권 수요 대응을 위해 '장애인 스포츠 강좌 이용권' 추가 예산을 편성한다.
+    이를 통해 더 많은 장애인이 체육활동에 참여할 수 있는 환경을 조성, 신체활동 증진과 건강한 여가 생활을 지원할 계획이다.
+    또 문화체육관광부가 추진하는 '어르신 스포츠프로그램 지원사업' 공모에 신규 선정됨에 따라 하반기부터 지역 어르신들을 대상으로 한 맞춤형 스포츠 프로그램을 운영할 예정이다.
+    아울러 문화체육관광부 공모사업 3년 차에 접어든 '지역특화 스포츠 기반 조성사업'을 통해 이달 중 철원컵 전국 풋볼페스티벌, 9월 중 철원DMZ국제평화마라톤 대회와 철원컵 전국유도대회를 준비하고 있다.
+    김동일 군수는 "민선 9기 주요 방침인 지역경제 활성화와 일자리 창출에 이바지하는 핵심 사업으로 스포츠마케팅을 적극 추진해 전국 단위 대회 유치를 확대하고, 이를 통해 지역경제에 활력을 불어넣어 '잘 사는 철원' 구현에 힘쓰겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군, 장애인·어르신 지원사업 추진]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260709143500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/07/09/AKR20260709143500062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

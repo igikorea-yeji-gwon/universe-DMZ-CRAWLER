@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260617163800108</ContentID>
+      <SendDate>20260617</SendDate>
+      <SendTime>194212</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103020" name="벨라루스"/>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260617163800108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러 "우크라, 벨라루스 어린이 축구팀 버스 공격…1명 사망"]]></Title>
+      <Body><![CDATA[러 "우크라, 벨라루스 어린이 축구팀 버스 공격…1명 사망"
+
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 우크라이나군이 벨라루스의 어린이 축구팀이 탄 버스를 공격했다고 러시아 당국이 17일(현지시간) 주장했다.
+    우크라이나 접경지인 러시아 브랸스크의 예고르 코발추크 주지사대행에 따르면 이날 휴가를 위해 러시아 남부 겔렌지크로 향하던 벨라루스 고멜 지역의 청소년 체육학교 소속 축구단 버스를 우크라이나군 무인항공기(드론)이 공격했다고 한다.
+    러시아 관영 리아노보스티 통신은 버스 탑승자가 학생 축구선수 28명을 포함해 총 44명이었으며, 이 가운데 동승자 여성 1명이 사망했다고 보도했다. 또 7명이 다쳤으며, 이 가운데 어린이 2명이 중태로 전해졌다.
+    러시아연방수사위원회가 이 사건 진상 조사에 착수했다고 이 매체는 덧붙였다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[러시아의 앰뷸런스]]></Title>
+         <Caption><![CDATA[※ 기사 내용과 직접 관련 없음. [타스=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20260518001001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2026/05/18/PTA20260518001001009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

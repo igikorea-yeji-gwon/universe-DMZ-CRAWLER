@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260312055300060</ContentID>
+      <SendDate>20260312</SendDate>
+      <SendTime>095613</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0501011" name="인구통계"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260312055300060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, 산업부·지방시대위에 접경지역 기회발전특구 지정 건의]]></Title>
+      <Body><![CDATA[경기도, 산업부·지방시대위에 접경지역 기회발전특구 지정 건의
+
+    (의정부=연합뉴스) 노승혁 기자 = 경기도는 김대순 행정2부지사가 지난 11일 산업통상부와 지방시대위원회를 방문해 경기북부 접경지역의 기회발전특구 지정 필요성을 설명하고, 수도권 지침 마련을 요청했다고 12일 밝혔다.
+
+    정부가 추진 중인 지역 균형발전의 핵심 정책 중 하나인 기회발전특구로 지정되면 취득세, 재산세, 소득세, 법인세, 양도소득세 등 각종 세금 감면 혜택이 부여된다. 
+    이와 함께 기업 등에 대한 규제 여부 신속 확인, 실증 특례, 임시 허가 등 혁신적인 규제 특례가 적용된다. 
+    수도권에서 기회발전특구 지정이 가능한 곳은 인구감소지역 또는 '접경지역 지원 특별법'에 따른 접경지역으로 지방시대위원회가 정한다. 
+    경기도에서는 김포시·고양시·파주시·양주시·포천시·동두천시·연천군·가평군이 가능하다.
+    문제는 현행 지방분권균형발전법이 수도권 지역이어도 인구감소 지역이나 접경지역 가운데 지방시대위원회가 정하는 지역은 특구 지정을 신청할 수 있도록 하고 있지만, 구체적 기준이 마련되지 않아 신청조차 할 수 없는 상황이다.
+    김 부지사는 "연천·포천 등 경기북부 접경지역은 수도권정비계획법, 군사시설보호구역, 개발제한구역 등 중첩 규제와 열악한 기반 시설로 인해 장기간 저개발 상태에 놓인 곳인데도 수도권이라는 이유로 신청 기회조차 갖지 못하고 있다"면서 "국가안보를 이유로 70년 이상 희생을 감내해 온 지역이라는 특수성을 고려할 때, 경기북부 접경지역이 기회발전특구로 지정될 수 있도록 적극 검토해 달라"고 강조했다. 
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도, 산통부·지방시대위에 접경지역 기회발전특구 지정 건의]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260312055300060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/12/AKR20260312055300060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

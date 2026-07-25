@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260622105500062</ContentID>
+      <SendDate>20260622</SendDate>
+      <SendTime>150154</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260622105500062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[민선 9기 우상호 도정 구호 '강원을 특별하게, 도민을 행복하게']]></Title>
+      <SubTitle><![CDATA['청정·청년·평화' 3대 도정 방침 제시…도민 행복시대 실현]]></SubTitle>
+      <Body><![CDATA[민선 9기 우상호 도정 구호 '강원을 특별하게, 도민을 행복하게' 
+'청정·청년·평화' 3대 도정 방침 제시…도민 행복시대 실현
+
+
+    (춘천=연합뉴스) 이재현 기자 = 민선 9기 우상호 강원도정의 비전과 철학을 담은 도정 구호와 도정 3대 방침이 확정됐다.
+    도정 구호는 '강원을 특별하게, 도민을 행복하게'이고, 도정 방침은 '청정 강원, 청년 강원, 평화 강원'이다.
+    강원특별자치도지사직 인수위원회는 22일 오후 인수위 사무실이 마련된 별관 4층 대회의실에서 기자회견을 열고 우상호 당선인의 도정 철학을 담아 도정 구호와 도정 방침을 이같이 정했다고 발표했다.
+    도정 구호는 강원만이 지닌 자연·산업·평화의 자산을 새로운 성장동력으로 전환해 대한민국을 대표하는 강원특별자치도 시대를 열겠다는 의미를 담았다고 강조했다.
+
+    그 특별한 성과를 일자리·소득·정주개선으로 연결해 도민 한 분 한 분의 삶이 나아지는 도민 행복 시대를 실현하겠다는 의지가 담겼다.
+    '특별'의 파랑은 동해의 푸른 물결, 백두대간의 맑은 하늘을 담아 강원도가 가진 무한한 가능성과 특별자치도로서 나아갈 굳건한 미래 비전을 상징한다.
+    '행복'의 초록은 DMZ가 지켜낸 생명, 설악이 길러낸 강원의 풍요로운 자연과 생명력을 바탕으로 도민의 행복과 지속 가능한 미래를 상징한다.
+    이와 함께 우상호 도정의 비전은 3대 도정 방침 청정 강원, 청년 강원, 평화 강원으로 구현해 나간다고 덧붙였다.
+
+    청정 강원은 청정자연이 성장동력이 되는 강원, 청년 강원은 청년이 꿈을 펼치는 강원, 평화 강원은 평화가 경제가 되는 강원이라는 의미를 담았다.
+    이번에 확정된 도정 구호와 도정 방침은 임기가 시작되는 오는 7월 1일에 도와 시군 및 산하기관에 동시 게시될 예정이다.
+    우 당선인은 "선거 과정부터 도민의 다양한 목소리를 듣고 일관되게 강조했던 내용들을 구호로 정리했고, 도정의 큰 지향점은 도정 방침에 반영했다"며 "다양한 의견 수렴과 고민을 해주신 인수위원장과 인수위원, 자문위원께 감사드린다"고 말했다.
+    김헌영 위원장(전 강원대 총장)과 여준성 부위원장(민주당 원주갑 지역위원장)을 비롯해 5개 분과 인수위원과 자문위원 등 67명으로 구성된 인수위원회는 지난 12일 현판식을 갖고 우상호 도정의 목표와 공약 이행 전략 등을 점검하고 있다.
+    민선 9기 우상호 강원지사 취임식은 오는 7월 1일 오후 2시 강원대 백령아트센터에서 열린다.
+
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[도정 구호·도정 방침 확정 브리핑하는 우상호 당선인]]></Title>
+         <Caption><![CDATA[[촬영 이재현]]]></Caption>
+         <FileName>AKR20260622105500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/22/AKR20260622105500062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[민선 9기 강원도정 구호]]></Title>
+         <Caption><![CDATA[[인수위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260622105500062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/22/AKR20260622105500062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[도정 구호·도정 방침 확정 브리핑하는 우상호 당선인]]></Title>
+         <Caption><![CDATA[[촬영 이재현]]]></Caption>
+         <FileName>AKR20260622105500062_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/22/AKR20260622105500062_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[민선 9기 강원도정 3대 방침]]></Title>
+         <Caption><![CDATA[[인수위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260622105500062_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/22/AKR20260622105500062_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

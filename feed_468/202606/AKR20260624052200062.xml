@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260624052200062</ContentID>
+      <SendDate>20260624</SendDate>
+      <SendTime>100413</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701003" name="전시공연"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0701002" name="문화시설"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0506003" name="철도교통"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260624052200062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['내금강행 열차 출발합니다'…강원 고성 DMZ 박물관 기획전 개최]]></Title>
+      <SubTitle><![CDATA[한반도 첫 전기철도 금강산전기철도 조명…9월 27일까지 열려]]></SubTitle>
+      <Body><![CDATA['내금강행 열차 출발합니다'…강원 고성 DMZ 박물관 기획전 개최
+한반도 첫 전기철도 금강산전기철도 조명…9월 27일까지 열려
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = 강원특별자치도 DMZ 박물관은 오는 25일부터 9월 27일까지 박물관 2층 기획전시실에서 특별기획전을 개최한다고 24일 밝혔다.
+    '내금강행 열차, 출발합니다 : 백 년 전, 전기철도가 바꾼 금강산 여행'을 주제로 한 이번 전시는 한때 철길을 따라 수많은 여행객이 찾았던 금강산과 그 길을 열었던 금강산전기철도의 역사와 기억을 조명하기 위해 마련됐다.
+    금강산전기철도는 1924년 철원역을 출발해 1931년 내금강역까지 총연장 116.6㎞ 전 구간이 연결된 한반도 최초의 전기철도이자 대표적인 사설철도다.
+    당초 강원지역 지하자원 수송과 중대리 발전소 전력 활용을 목적으로 건설됐지만, 이후 금강산 관광의 기반 시설로 자리 잡으며 수많은 여행객을 금강산으로 실어 나르는 관광철도로 발전했다.
+    전시는 총 3부로 구성된다.
+    1부 '철길이 열리다'에서는 금강산전기철도의 개설 배경과 노선을 소개하고, 2부 '기차를 타고 만난 금강산'에서는 철도 개통 이후 금강산이 대중적인 관광지로 변화해 가는 모습을 조명한다.
+    3부 '금강산전기철도의 추억'에서는 사진과 엽서, 기념품 등 생활사 자료를 통해 금강산과 철도에 얽힌 사람들의 기억과 이야기를 되짚는다.
+    1940년대 전쟁 체제가 강화되면서 철원과 김화를 지나 내금강으로 향하던 철길은 창도역 이후 구간이 철거되며 운행이 점차 중단됐다.
+    비록 철길은 사라졌지만, 금강산을 향했던 사람들의 기억은 사진과 엽서, 기념품 속에 남아 오늘까지 전해지고 있다.
+    김상희 박물관장은 "이번 전시는 그 길을 오갔던 사람들의 추억과 일상을 복원하는 데 중점을 뒀다"며 "마음속 그리움으로 남은 금강산을 새롭게 느껴보는 시간이 되길 바란다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원 DMZ 박물관 특별기획전]]></Title>
+         <Caption><![CDATA[[강원특별자치도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260624052200062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/24/AKR20260624052200062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

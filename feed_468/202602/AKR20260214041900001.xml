@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260214041900001</ContentID>
+      <SendDate>20260214</SendDate>
+      <SendTime>182927</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0106002" name="총리내각"/>
+         <ClassCode code="0402004" name="축산업"/>
+         <ClassCode code="0507006" name="보건"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260214041900001]]></Href>
+      <Writer><![CDATA[설승은]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[고침] 정치(金총리, 나주 아프리카돼지열병 발생에 "차질…)]]></Title>
+      <Body><![CDATA[[고침] 정치(金총리, 나주 아프리카돼지열병 발생에 "차질…)
+
+金총리, 창녕 아프리카돼지열병 발생에 "차질없는 방역" 지시
+"설 연휴 이동 증가에 방역상황 엄중…추가발생 차단 총력"
+
+
+    
+    (서울=연합뉴스) 설승은 기자 = 김민석 국무총리는 14일 경남 창녕군 소재 양돈 농장에서 아프리카돼지열병(ASF)이 발생한 것과 관련, 철저한 방역을 실시하라고 긴급 지시를 내렸다.
+    총리실은 이날 김 총리가 ASF 발생 상황을 보고받고 농림축산식품부에 "발생 농장 등에 대한 출입 통제, 가축 처분, 집중 소독 등 긴급행동지침(SOP)에 따른 방역 조치를 차질 없이 추진하라"고 지시했다고 밝혔다. 
+    김 총리는 기후에너지환경부를 향해서는 "발생 농장 일대의 울타리 점검 및 야생 멧돼지 폐사체 수색 및 포획 활동에 만전을 기하라"고 주문했다.
+    또 국방부에는 "민통선(민간인출입통제선) 출입이 많은 접경 지역의 군부대 차량, 장비 등에 대해 자체 소독을 실시하고 민통선 이북 지역 주요 도로 소독, 멧돼지 포획·수색 활동에 협조하라"고 당부했다.
+    그는 고용노동부에는 축산업 종사 외국인 근로자에 대해 불법 축산물 농장 내 반입 금지 등 필요한 사항을 교육하라고 지시했다. 
+    아울러 양돈 농가엔 "양돈 농장 종사자 간 모임·행사 금지 및 불법 수입 축산물을 비롯한 오염 우려 물품 반입 금지 등 행정명령을 철저히 준수하라"고 요청했다.
+    김 총리는 "ASF가 전국 각지에서 발생하고 있고 설 연휴 기간 사람과 차량 이동이 크게 증가할 것으로 예상되는 만큼 방역 상황을 엄중히 인식하고 추가 발생 차단에 총력을 다해달라"고 강조했다.
+    ses@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[대정부질문 답변하는 김민석 총리]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 배재만 기자 = 김민석 국무총리가 9일 국회 본회의장에서 열린 정치·외교·통일·안보 분야 대정부질문에서 국민의힘 주호영 의원의 질문에 답하고 있다. 2026.2.9 scoop@yna.co.kr]]></Caption>
+         <FileName>PYH2026020915170001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/09/PYH2026020915170001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260105125600060</ContentID>
+      <SendDate>20260105</SendDate>
+      <SendTime>164701</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005022" name="연천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0606005" name="화재"/>
+         <ClassCode code="0402003" name="임업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260105125600060]]></Href>
+      <Writer><![CDATA[최재훈]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[연천 접경지 야산에서 불…헬기 투입 진화중]]></Title>
+      <Body><![CDATA[연천 접경지 야산에서 불…헬기 투입 진화중
+
+    (연천=연합뉴스) 최재훈 기자 = 5일 오후 2시 42분께 경기 연천군 중면 야산에서 산불이 났다.
+
+
+    산림 당국은 산불 진화 헬기 6대, 진화 차량 16대, 진화인력 46명을 긴급 투입하여 불을 끄고 있다.
+    현재까지 인명, 시설 피해는 없는 것으로 전해졌다.
+    당국은 진화 종료 즉시 산불조사감식반을 투입해 원인과 피해 면적 등을 조사할 예정이다.
+    jhch793@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[연천군 중면 야산 산불]]></Title>
+         <Caption><![CDATA[[산림 당국 제공, 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260105125600060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/05/AKR20260105125600060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

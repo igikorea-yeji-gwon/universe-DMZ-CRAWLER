@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260324013800087</ContentID>
+      <SendDate>20260324</SendDate>
+      <SendTime>065339</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7105025" name="콜롬비아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260324013800087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[콜롬비아서 군수송기 추락…8명 사망 80여명 부상(종합2보)]]></Title>
+      <SubTitle><![CDATA[125명 탑승…부상자 중 14명은 중태, 사망자 더 늘어날 듯 
+볼리비아서도 2월 동종 기종 추락으로 50명 사상]]></SubTitle>
+      <Body><![CDATA[콜롬비아서 군수송기 추락…8명 사망 80여명 부상(종합2보)
+125명 탑승…부상자 중 14명은 중태, 사망자 더 늘어날 듯 
+볼리비아서도 2월 동종 기종 추락으로 50명 사상
+
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = 23일 오전 9시50분(현지시간)께 남미 콜롬비아에서 군 수송기가 추락해 8명이 사망하고, 83명이 다쳤다. 사고 당시 수송기에는 125명이 타고 있어 사상자는 더 늘어날 것으로 보인다.
+    사고는 페루 접경지인 아마존 남부 깊숙한 곳의 푸에르토 레기사모에서 수송기가 군 병력을 이송하기 위해 이륙하던 도중 발생했다. 
+    페드로 산체스 콜롬비아 국방부 장관은 "정확한 희생자 수와 추락 원인은 아직 파악되지 않았다"라고 말했다.
+    사고 당시 수송기에는 군인 112명, 경찰 2명, 승무원 11명이 타고 있었다. 이 가운데 현재까지 8명이 숨지고 83명이 부상했다. 이중 14명은 위중한 상태인 것으로 알려졌다고 현지 일간 엘티엠포가 보도했다.
+    공군은 사고가 나자 부상자들을 수도 보고타의 병원 등으로 이송하기 위해 74개의 침상이 갖춰진 항공기 2대를 현지로 급파했다. 구조대는 아직 파악되지 않은 나머지 인원에 대한 수색 및 구조 작업도 계속 진행 중이다.
+    현지 매체가 공개한 영상에는 추락 현장에서 검은 연기가 치솟는 가운데 지역 주민들이 오토바이 등을 이용해 군인들을 태워 긴급 이송하는 모습이 담겼다.
+
+    군이 정확한 사고 원인을 조사 중인 가운데 카를로스 페르난도 실바 공군 사령관은 "기체에 문제가 생겨 공항에서 2㎞ 떨어진 지점에 추락한 것으로 파악된다"고 설명했다. 
+    사고가 난 수송기는 록히드마틴사의 허큘리스 C-130으로, 최대 120명까지 탑승이 가능한 것으로 알려졌다. 
+    1950년대 출시된 노후 기종으로, 콜롬비아는 1960년대 말 이를 도입했다. 오래된 탓에 관련 사고도 잇따르고 있다. 앞서 지난 2월 말에도 볼리비아 공군 소속 허큘리스 C-130 한 대가 인구 밀집 지역인 엘 알토시에 추락해 20명이 숨지고, 30명이 다쳤다.
+    구스타보 페트로 콜롬비아 대통령은 소셜미디어 엑스(X·옛 트위터)를 통해 "결코 일어나지 말았어야 할 이 끔찍한 사고에서 사망자가 없기를 바란다"라고 밝혔다.
+    아울러 군 현대화를 가로막는 관료적 장애물도 강도 높게 비판하면서 "우리 젊은이들의 생명이 달린 문제인 만큼 (군 현대화) 지체는 더 이상 용납하지 않겠다"고 강조했다. 
+    buff27@yna.co.kr
+[https://youtu.be/nsZ3ag_L7SU]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜롬비아서 추락한 군수송기]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스]]]></Caption>
+         <FileName>PAF20260324040501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/03/24/PAF20260324040501009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜롬비아 군수송기 추락]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스]]]></Caption>
+         <FileName>PAP20260324047501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/03/24/PAP20260324047501009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

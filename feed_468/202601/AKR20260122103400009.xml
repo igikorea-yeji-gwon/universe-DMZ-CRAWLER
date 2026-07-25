@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260122103400009</ContentID>
+      <SendDate>20260122</SendDate>
+      <SendTime>143707</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102029" name="타지키스"/>
+         <RegionCode code="7102021" name="우즈베크"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0201004" name="대외경제"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260122103400009]]></Href>
+      <Writer><![CDATA[유창엽]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우즈베키스탄 "타지크 세관 '추가요금' 철폐 안 하면 보복"]]></Title>
+      <SubTitle><![CDATA["추가요금에 우즈베크산 제품 가격 타지크 시장서 15% 상승"]]></SubTitle>
+      <Body><![CDATA[우즈베키스탄 "타지크 세관 '추가요금' 철폐 안 하면 보복"
+"추가요금에 우즈베크산 제품 가격 타지크 시장서 15% 상승"
+
+
+    
+    (서울=연합뉴스) 유창엽 기자 = 우즈베키스탄은 인접국 타지키스탄 세관이 자국 수출품인 건축자재 등에 관세 외 추가 요금을 부과한다며 이 관행을 철폐하지 않으면 보복하겠다고 경고했다.
+    22일 우즈베크 매체인 다리오 등에 따르면 잠시드 호드자예프 우즈베크 부총리는 최근 수도 타슈켄트에서 기업인과 대사, 정부 관계자들이 참가한 한 모임에서 이같이 밝혔다.
+    호드자예프 부총리는 이 자리에서 자국 수출업체들이 타지크 세관이 요구하는 모든 서류와 함께 관세를 내고도 추가 요금을 내고 있다고 지적했다.
+    그는 "그 결과 타지크 시장에서 우즈베크 제품 가격이 약 15% 높아져 경쟁력이 그만큼 약해진다"고 덧붙였다.
+    그러면서 타지크 세관이 무역 장벽인 이 관행을 없애지 않으면 우즈베키스탄은 유사한 조치로 대응하겠다고 강조했다.
+    모임에 참석한 독일의 글로벌 건축자재 업체 크나우프 관계자도 이에 호응했다.
+    이 관계자는 이런 무역 장벽이 타지키스탄뿐만 아니라 투르크메니스탄과 캅카스 지역 일부에서도 있다면서 타지키스탄의 관행으로 통관 비용이 15% 늘어난다고 말했다.
+    이 같은 증액분은 최종 가격에 고스란히 반영된다고 지적했다.
+    모임에 참석한 기업인들은 타지키스탄행 수출품과 관련한 물류 및 통관 비용은 예전의 2천달러(약 290만원)에서 1만2천달러(약 1천800만원)로 급등한 상태라고 전했다.
+    타지크 당국은 수차례에 걸친 외국 수출업계의 문제 제기에도 해결책을 내지 않는 것으로 알려졌다.
+    우즈베키스탄과 타지키스탄 간 무역은 타지키스탄 측 통관 과정의 문제에도 불구하고 꾸준한 증가세를 보인다.
+    양국간 무역 금액은 2024년 한해 동안 7억달러(약 1조300억원)에 달해 전년 대비 약 3배로 늘어났다. 
+    지난해 1월부터 11월까지 무역 금액은 전년 동기에 비해 17.7% 증가한 7억3천790만달러(약 1조850억원)를 기록했다.
+    우즈베키스탄은 자유무역지대 조성을 위해 타지키스탄 접경 지역에 무역, 물류, 의료 중심지를 건설할 계획도 갖고 있다.
+    yct9423@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[타지키스탄 수도 두샨베(기사와 직접적 관련 없음)]]></Title>
+         <Caption><![CDATA[[신화 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260122103400009_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/22/AKR20260122103400009_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

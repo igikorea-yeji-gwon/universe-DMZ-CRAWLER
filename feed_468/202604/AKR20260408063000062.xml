@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260408063000062</ContentID>
+      <SendDate>20260408</SendDate>
+      <SendTime>102620</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0410002" name="육상운수"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001200" name="단신"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260408063000062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[속초소식] 속초중 이전 연계 도시계획도로 내년까지 신설]]></Title>
+      <Body><![CDATA[[속초소식] 속초중 이전 연계 도시계획도로 내년까지 신설
+
+
+    (속초=연합뉴스) ▲ 속초중 이전 연계 도시계획도로 내년까지 신설 = 강원 속초시는 속초중학교 이전에 맞춰 학교 진입로와 접한 도시계획도로 개설을 추진한다고 8일 밝혔다.
+    이번 사업은 등하교 시간대 교통량 증가에 대응하고, 안전시설을 확충하기 위해 추진한다.
+    아울러 별도의 회차로를 신설해 인근 마을 주민들의 불편도 최소화한다.
+    시는 특수상황 지역개발 접경 신규사업으로 총사업비 12억원을 투입, 2028년 속초중학교 개교에 차질이 없도록 내년 말까지 사업을 마무리할 예정이다.
+    이병선 시장은 "북부권에 집중된 중학교 분포로 남부권 학생들의 통학 불편이 이어져 왔다"며 "학생들의 교육환경과 통학환경 개선에 기여하겠다"고 말했다.
+
+    ▲ 속초∼고성 버스 무료 카드 호환…어르신·청소년 이용 편의 개선 = 속초시는 고성군을 오가는 버스에서 어르신·청소년 버스 무료 이용 카드 호환 서비스를 시작한다고 8일 밝혔다.
+    속초와 고성을 오가는 1번, 1-1번 노선은 각 지자체에서 인가한 버스가 아닌 경우 버스 무료 이용 카드가 인식되지 않았다.
+    이에 속초시와 고성군은 1번과 1-1번 노선을 운행하는 17대 버스에서 카드가 원활하게 인식될 수 있도록 단말기 펌웨어를 개선했다. 
+    이번 조치로 이날부터 해당 노선 모든 버스에서 양 지자체가 발급한 무료 교통카드를 사용할 수 있다.
+    이용 대상은 속초시의 경우 70세 이상 어르신과 13세부터 18세까지 청소년이며, 고성군은 65세 이상 어르신이다.
+    시 관계자는 "이번 상호 호환으로 두 지역 주민 모두 경계 구분 없이 대중교통을 편리하게 이용할 수 있게 됐다"며 "앞으로도 지자체 간 협력을 강화해 주민 실생활에 밀접한 편의를 높이겠다"고 말했다.
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초중 이전 연계 도시계획도로]]></Title>
+         <Caption><![CDATA[[속초시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260408063000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/08/AKR20260408063000062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초시 어르신 교통 카드]]></Title>
+         <Caption><![CDATA[[속초시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260408063000062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/08/AKR20260408063000062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

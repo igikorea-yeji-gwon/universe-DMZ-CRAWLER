@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260418032951065</ContentID>
+      <SendDate>20260418</SendDate>
+      <SendTime>131943</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107002" name="지방의회"/>
+         <ClassCode code="0103006" name="입법"/>
+         <ClassCode code="0501011" name="인구통계"/>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001212" name="인천선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260418032951065]]></Href>
+      <Writer><![CDATA[신민재]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[인천시의원 정수 40→45명…지역구 3명·비례 2명 증원(종합)]]></Title>
+      <Body><![CDATA[인천시의원 정수 40→45명…지역구 3명·비례 2명 증원(종합)
+
+
+
+    (인천=연합뉴스) 신민재 기자 = 올해 6·3 지방선거부터 적용되는 인천시의원 정수가 현행 40명에서 45명으로 늘어난다.
+    18일 국회 정치개혁특별위원회에 위원으로 참여 중인 국민의힘 배준영 의원(인천 중구·강화군·옹진군)에 따르면 이날 국회 본회의에서 이런 내용을 포함한 공직선거법 개정안이 통과됐다.
+    정개특위는 전날 전체회의를 열어 오는 7월로 예정된 인천 행정체제 개편과 인구 증가세를 반영한 조정안을 마련했다.
+    인천의 지역구 시의원 정수는 36명에서 39명으로, 비례대표는 4명에서 6명으로 각각 증원됐다.
+    신설된 시의원 선거구는 연수구 제6선거구, 검단구 제3선거구, 영종구 제2선거구 등 3곳이다. 
+    연수구는 기존 선거구의 인구 기준 초과에 따라 분구됐으며, 검단구와 영종구는 자치구 신설과 인구 증가를 반영해 신규 선거구가 설정됐다.
+    인구 감소로 폐지 가능성이 제기됐던 옹진군 시의원 의석은 도서·접경 지역이라는 특수성과 지역 대표성을 고려해 현행대로 유지됐다.
+    인천 국회의원 중 유일하게 정개특위에 참여한 배 의원은 "이번 선거구 조정은 단순한 의석 수 문제가 아니라 인천시민의 권익과 지역 대표성을 지키는 문제였다"며 "인천 정수 확대와 옹진군 의석 유지의 필요성을 끝까지 설명하고 반영하는 데 최선을 다했다"고 말했다.
+    smj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[인천시의회]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20240428000001990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/04/28/01/PCM20240428000001990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260626088700001</ContentID>
+      <SendDate>20260626</SendDate>
+      <SendTime>142420</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260626088700001]]></Href>
+      <Writer><![CDATA[김연정]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[한반도 심포지엄] 장동혁 "대한민국 위기 극복에 정치 제역할 해야"]]></Title>
+      <SubTitle><![CDATA["선의에 기대는 굴종적 안보정책, 위기 심화시켜"]]></SubTitle>
+      <Body><![CDATA[[한반도 심포지엄] 장동혁 "대한민국 위기 극복에 정치 제역할 해야"
+"선의에 기대는 굴종적 안보정책, 위기 심화시켜"
+
+
+    (서울=연합뉴스) 김연정 조다운 기자 = 국민의힘 장동혁 대표는 26일 "위기를 위기로 느끼지 못하는 것이 진짜 위기라는 말이 있다. 대한민국이 이 위기를 극복하려면 결국 정치가 제대로 역할을 해야 할 것"이라고 말했다.
+    장 대표는 이날 국가기간뉴스통신사 연합뉴스가 서울 롯데호텔에서 통일부·국가안보전략연구원·연합뉴스 동북아센터와 공동으로 개최한 '2026 한반도 심포지엄' 축사에서 "이제라도 정부와 여당이 국정 운영의 방향을 완전히 전환해야 한다"면서 이같이 밝혔다.
+    그는 또 "상대의 선의에 기대는 굴종적 안보 정책, 국민 삶을 외면하는 이념적 경제 정책으로는 위기를 더욱 심화시킬 뿐"이라고 말했다.
+    이어 "지금 북한은 적대적 두 국가론과 핵무장을 앞세워 우리 안보를 심각하게 위협하고 있다"며 "그런데 우리는 민통선을 축소하고 방첩사를 해체하고 군사시설 경계까지 아웃소싱하겠다고 한다. 게다가 안보의 축인 한미 동맹도 급격히 와해되고 있다"고 지적했다.
+    그러면서 "미국이 대북 정보 공유를 끊은 지 3개월이 됐는데도 우리 정부는 해결하려는 노력조차 하지 않는다"며 "싸우지 않는 평화가 싸움을 아예 포기하는 평화는 아닐 것"이라고 덧붙였다.
+    yjkim84@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[축사하는 국민의힘 장동혁 대표]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 서대연 기자 = 국민의힘 장동혁 대표가 26일 서울 중구 롯데호텔에서 열린 2026 한반도 심포지엄에서 축사를 하고 있다. 2026.6.26 dwise@yna.co.kr]]></Caption>
+         <FileName>PYH2026062611380001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/26/PYH2026062611380001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

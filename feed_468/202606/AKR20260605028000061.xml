@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260605028000061</ContentID>
+      <SendDate>20260605</SendDate>
+      <SendTime>085834</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0204001" name="부동일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260605028000061]]></Href>
+      <Writer><![CDATA[최찬흥]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['2040년 파주 도시기본계획' 승인…목표인구 76만명]]></Title>
+      <SubTitle><![CDATA[평화경제특구, 파주LCD단지~개성공단 연계 남북교류 벨트로 육성]]></SubTitle>
+      <Body><![CDATA['2040년 파주 도시기본계획' 승인…목표인구 76만명
+평화경제특구, 파주LCD단지~개성공단 연계 남북교류 벨트로 육성 
+
+    (수원=연합뉴스) 최찬흥 기자 = 경기도는 파주시가 신청한 '2040년 파주 도시기본계획'을 승인했다고 5일 밝혔다.
+
+    파주시는수도권광역급행철도(GTX)-A 개통 등 각종 개발사업에 따른 유입 인구와 통계청 추계 등을 고려해 현재 54만명에서 22만명 늘어난 76만명을 2040년 목표 인구로 잡았다.
+    다만 평화경제특구, 경제자유구역 등은 최종 선정 조건을 부여해 과도하게 인구가 산정되지 않도록 했다.
+    토지이용계획의 경우 전체 행정구역 673.96㎢ 가운데 38.105㎢를 시가회예정용지로 정해 효율적으로 활용함으로써 무분별한 개발을 방지하고 주민 삶의 질을 높이도록 했다. 기존 개발지 50.769㎢는 시가화용지로, 나머지 585.086㎢는 보전용지로 확정했다.
+    도시 공간구조는 신규 개발사업과 광역교통망 확충에 따른 도시거점 변화와 지역 간 균형발전을 고려해 1도심, 2부도심, 7지역중심 체계로 설정했다. 
+    생활권은 운정·교하, 금촌·조리, 문산 등 3개 권역으로 구분했으며 문산생활권의 경우 임진강 생태자원과 DMZ 등 지역의 성장잠재력을 활용해 통일시대에 대응하는 문화·생태 휴양거점으로 육성하도록 했다.
+    특히 평화경제특구는 파주 LCD산업단지와 개성공단을 연계하는 남북교류 벨트로써 남·북 간 경제와 교류협력의 토대를 마련하도록 했다.
+    교통계획은 인구밀도가 높고 기반 시설이 집중된 운정·교하생활권은 격자순환체계의 도로망을, 금촌·조리생활권과 문산생활권은 연계성과 접근성을 높일 수 있도록 격자형 도로망을 구축하도록 했다.
+    김희성 경기도 도시정책과장은 "2040 도시기본계획으로 파주시가 안보 희생과 규제 가두리에서 벗어나고, 평화경제특구 사업 등을 통한 주거환경 개선 및 양질의 일자리 창출 등 종합적인 삶의 질 향상이 기대된다"고 말했다.
+    chan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2040년 파주 도시기본계획]]></Title>
+         <Caption><![CDATA[[경기도제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260605028000061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/05/AKR20260605028000061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260101002300108</ContentID>
+      <SendDate>20260101</SendDate>
+      <SendTime>020148</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7103036" name="우크"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260101002300108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러, 푸틴 관저 공격설 드론 영상 공개…우크라 "우습다"]]></Title>
+      <Body><![CDATA[러, 푸틴 관저 공격설 드론 영상 공개…우크라 "우습다"
+
+
+    (런던·이스탄불=연합뉴스) 김지연 김동호 특파원 = 러시아가 우크라이나의 '푸틴 관저 공격' 주장을 뒷받침한다는 무인기(드론) 영상과 지도를 공개했다고 로이터, dpa통신이 31일(현지시간) 보도했다.
+    이날 러시아 국방부가 공개한 영상을 보면 제복을 입은 한 러시아 군인이 숲에 격추된 우크라이나산 차클룬 드론의 잔해를 보여주는 모습이 담겼다.
+    이 드론에는 6㎏가량의 폭발물이 실렸지만 터지지는 않았다고 한다.
+    또 다른 영상에서는 블라디미르 푸틴 러시아 대통령의 관저가 있는 노브고로드 지역의 주민 이고르 볼샤코프가 "방공 미사일이 발사되는 소리를 들었다"고 말했다.
+    알렉산드르 로마넨코프 러시아군 방공미사일군사령관은 이같은 자료를 두고 "우크라이나 정권의 테러는 여러 단계에 걸쳐 치밀하게 계획되고 실행된 표적 공습"이라고 주장했다.
+    로마넨코프 사령관은 지난 28일 밤부터 29일 새벽까지 푸틴 대통령 관저를 노렸다는 드론의 위치와 시간대별 비행경로를 상세히 설명하기도 했다.
+
+    발견된 잔해를 비롯한 우크라이나 드론들이 우크라이나의 체르니히우와 수미 등 접경지에서 발사돼 노브고로드의 푸틴 대통령 관저로 향했다는 설명이다.
+    앞서 세르게이 라브로프 러시아 외무장관은 모스크바에서 북서쪽으로 400㎞ 떨어진 노브고로드의 목표 지역을 겨냥해 우크라이나가 드론 91기를 발사했다고 주장한 바 있다.
+    그동안 러시아가 종전을 회피하기 위해 거짓 주장을 펼치면서 아무런 증거도 제시하지 못했다고 지적해온 우크라이나는 이번에도 영상이 러시아측 주장을 뒷받침하지 못한다는 반응을 보였다.
+    헤오르히 티키 우크라이나 외무부 대변인은 로이터에 이 영상이 "우습다"면서 "(우크라이나는) 이같은 공격이 없었다는 데 절대적으로 확신한다"고 밝혔다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[러시아, '푸틴 관저 겨냥 드론' 영상 공개]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260101002901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/01/01/PAP20260101002901009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[러시아, '푸틴 관저 겨냥 드론' 관련 지도 공개]]></Title>
+         <Caption><![CDATA[[타스 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20251231018501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2025/12/31/PTA20251231018501009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

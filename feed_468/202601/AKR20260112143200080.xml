@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260112143200080</ContentID>
+      <SendDate>20260112</SendDate>
+      <SendTime>192724</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1002003" name="북러관계"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260112143200080]]></Href>
+      <Writer><![CDATA[최인영]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러 연해주 "두만강 다리 완공되면 러→북 관광객 증가할 것"]]></Title>
+      <Body><![CDATA[러 연해주 "두만강 다리 완공되면 러→북 관광객 증가할 것"
+
+
+    (모스크바=연합뉴스) 최인영 특파원 = 북한과 맞닿은 러시아 극동 연해주는 두만강 다리가 완공되면 북한을 여행하는 러시아 관광객이 증가할 것이라고 12일(현지시간) 예상했다.
+    타스 통신에 따르면 연해주 관광부는 "다리가 개통되면 러시아에서 북한으로 유입되는 관광객이 증가하고 러·북간 무역량이 확대될 것으로 예상된다"고 밝혔다.
+    연해주 관광부는 이론적으로 버스를 한 번 타면 환승할 필요 없이 이동할 수 있다며 "중국 국경 지역으로 여행하는 것과 유사한 형태가 될 것"이라면서도 아직 추측 단계라고 덧붙였다.
+    나탈리아 나보이첸코 연해주 관광장관은 연해주를 찾은 북한 방문객에 대해서는 "주로 비즈니스 회의, 무역 교류, 스포츠·문화 행사 참가자"라며 "이들에게 연해주 주도인 블라디보스토크의 관광 잠재력을 소개했다"고 말했다.
+    이어 "북한 단체 관광객을 맞이하는 계획을 포기하지는 않았지만 이는 여러 부처가 함께 진행해야 하는 길고 힘든 작업일 것"이라고 강조했다.
+    러시아와 북한 간 교통 연결 확대로 북한을 방문하는 러시아인 관광객은 증가하겠지만 순수 여행 목적으로 러시아를 방문하는 북한 주민의 수를 늘리는 방안은 쉽지 않을 것으로 예상된다. 
+    러시아와 북한 접경지를 잇는 두만강 다리는 약 1㎞ 길이로 건설 중이다. 지난해 4월 착공했으며 올해 6월 19일 완공될 예정이다. 
+    러시아는 이 다리 인근에 하루 최대 300대의 차량과 2천850명의 인원을 통과시킬 수 있는 10차로 규모 하산 자동차 검문소를 설치할 계획이다. 
+    abbie@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북러 잇는 두만강 자동차 다리 착공식]]></Title>
+         <Caption><![CDATA[[국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2025050100560004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/05/01/PYH2025050100560004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

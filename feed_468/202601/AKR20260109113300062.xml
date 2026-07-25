@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260109113300062</ContentID>
+      <SendDate>20260109</SendDate>
+      <SendTime>161342</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0201018" name="투자협력"/>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260109113300062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성군, 평화경제특구 최초 지정 추진…행정지원 TF 출범]]></Title>
+      <SubTitle><![CDATA[통일부 기본계획 고시 이후 유치 전략 속도…접경지역 발전 기대]]></SubTitle>
+      <Body><![CDATA[강원 고성군, 평화경제특구 최초 지정 추진…행정지원 TF 출범
+통일부 기본계획 고시 이후 유치 전략 속도…접경지역 발전 기대
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = 강원 고성군이 평화경제특구 최초 지정을 위해 전담 조직을 꾸렸다.
+    9일 군에 따르면 이날 '고성 평화경제특구 행정지원 추진단(TF)'을 설치하고 평화경제특구 지정을 위한 행정 역량을 집중하기로 했다.
+    군은 남북 경제협력을 확대하고 접경지역을 평화공존의 생활공간이자 상생형 성장 플랫폼으로 전환하기 위해 평화경제특구 지정을 추진한다.
+    이를 위해 평화경제특구 조성 방안 연구용역을 완료했으며, 현재는 평화경제특구 지정 전략 수립 용역을 추진 중이다.
+    향후 분기별로 용역 관련 회의를 개최하고, 특구 지정에 대한 공감대 확산과 분위기 조성을 위한 다양한 행사도 병행할 예정이다.
+    평화경제특구는 2023년 '평화 경제 특별구역의 지정 및 운영에 관한 법률' 제정·시행으로 법적 기반이 마련된 제도로, 세제 혜택과 기반 시설 지원 등 각종 인센티브를 통해 기업 투자 유치를 촉진할 수 있다.
+    이에 통일부는 평화경제특구 4곳 내외를 지정하는 내용을 담은 '제1차 평화경제특구 기본계획'을 지난달 고시했다.
+    군 관계자는 "행정지원 추진단 출범을 시작으로 체계적인 전략 수립과 중앙정부와의 긴밀한 협력을 통해 특구 지정이 반드시 실현될 수 있도록 모든 행정력을 집중하겠다"며 "고성군이 한반도 평화와 번영을 동시에 이끄는 실질적인 평화 경제 모델로 자리매김하도록 최선을 다하겠다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원 고성군 평화경제특구 행정지원 추진단(TF)]]></Title>
+         <Caption><![CDATA[[강원 고성군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260109113300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/09/AKR20260109113300062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

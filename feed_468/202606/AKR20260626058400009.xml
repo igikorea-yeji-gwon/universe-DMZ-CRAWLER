@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260626058400009</ContentID>
+      <SendDate>20260626</SendDate>
+      <SendTime>110523</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1008001" name="북한일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260626058400009]]></Href>
+      <Writer><![CDATA[오수진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[北, 하반기 열병식 하나…"미림비행장에 병력수송트럭 수십대"]]></Title>
+      <SubTitle><![CDATA[美매체 위성사진 분석…선전물 설치·무기 보관소 공사 등 포착 
+"추세·일정 보면 전승절·정권수립기념일·당창건일 개최 가능성"]]></SubTitle>
+      <Body><![CDATA[北, 하반기 열병식 하나…"미림비행장에 병력수송트럭 수십대"
+美매체 위성사진 분석…선전물 설치·무기 보관소 공사 등 포착 
+"추세·일정 보면 전승절·정권수립기념일·당창건일 개최 가능성"
+
+
+    (서울=연합뉴스) 오수진 기자 = 북한 평양 미림비행장에 대규모 병력 수송 트럭이 등장해 하반기 열병식을 준비하는 것 아니냐는 관측이 나온다고 미국의 북한전문매체 NK뉴스가 25일(현지시간) 보도했다. 
+    민간위성서비스 플래닛랩스가 촬영한 사진을 보면 지난 22일∼23일 미림비행장 주차장에 병력 수송 트럭으로 보이는 수십 대의 차량이 도착했다. 
+    기지 내 김일성 광장을 본뜬 조형물 주변으로 자재들이 옮겨진 모습도 포착됐는데 이는 열병식 훈련 기간 주요 행사 중 하나인 선전물 설치 작업과 관련된 것으로 보인다.
+    NK뉴스는 지난 2일부터 미림 비행장 내 무기·발사체 보관장소 지붕 공사도 진행되고 있다고 전했다. 
+    또 기지 내 북동쪽 잔디밭에는 굴착 흔적 발견됐다. 이곳은 지난 2022년 4월 북한이 열병식을 진행하기에 앞서 발사체를 가리는 임시 장소가 설치된 곳이라고 설명했다.
+    최근 북한은 대규모 군사 열병식의 경우 개최일 약 14∼16주전 준비 작업에 돌입했다. 소형 무기 체계 공개가 주를 이루거나 준군사적 성격이 강한 열병식은 훈련 기간이 2∼5주로 짧다. 
+    NK뉴스는 "이러한 추세와 북한의 주요 공휴일 일정을 종합해 볼 때 북한이 '전승절'로 칭하는 정전협정체결일(7월 27일), 정권 수립 기념일(9월 9일), 노동당 창건일(10월 10일)이 가능한 날짜"라고 열병식 개최일을 전망했다. 
+    북한은 사회주의 국가들이 중시하는 정주년(5·10년 단위로 꺾어지는 해)에 맞춰 큰 행사를 여는 경우가 많아 올해 하반기 대규모 열병식이 열릴지는 불확실하다. 올해 전승절은 73주년이고 정권 수립 기념일과 당 창건일은 각각 78주년, 81주년이다.
+    다만 NK뉴스는 지난 2021년에도 북한이 정권 수립 기념일 73주년에 맞춰 한국의 예비군격인 노농적위군과 경찰에 해당하는 사회안전군의 열병식을 진행한 바 있다고 설명했다. 
+    아울러 지난 2월에 열린 9차 당대회 기념 열병식은 무기 체계 공개 없이 병력 위주로 진행돼 이목을 끈 바 있다.
+    kiki@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한이 지난 2월 김일성광장서 개최한 당대회 기념 열병식]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 평양 김일성광장에서 노동당 제9차대회 기념 열병식이 열린 모습.[조선중앙TV 화면] 2026.2.26 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026022622510004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/26/PYH2026022622510004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

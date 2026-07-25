@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260626126800009</ContentID>
+      <SendDate>20260626</SendDate>
+      <SendTime>160025</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="0301004" name="마켓"/>
+         <ClassCode code="0201004" name="대외경제"/>
+         <ClassCode code="0901001" name="IT"/>
+         <ClassCode code="0403004" name="석유가스"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260626126800009]]></Href>
+      <Writer><![CDATA[김태균]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["걸프 원유 수출, 전쟁 전 75% 수준 회복"]]></Title>
+      <SubTitle><![CDATA[블룸버그 "불안정하면서도 주목할 만한 반등"]]></SubTitle>
+      <Body><![CDATA["걸프 원유 수출, 전쟁 전 75% 수준 회복"
+블룸버그 "불안정하면서도 주목할 만한 반등"
+
+
+    (서울=연합뉴스) 김태균 기자 = 이란 전쟁 종전이 합의되면서 현재 걸프 산유국의 원유 수출량이 전쟁 이전의 최소 75% 수준까지 회복됐다는 분석이 나왔다.
+    블룸버그 통신은 26일 "전쟁으로 호르무즈 해협이 봉쇄되면서 수십 년 만의 최악의 물류 차질이 일어났다는 사실을 고려할 때 이는 불안정하면서도 주목할 만한 반등으로 해석된다"며 이처럼 보도했다.
+    블룸버그에 따르면 22∼24일 걸프 지역에서 반출된 원유는 하루 평균 1천300만배럴에 달한다. 이 중 상당수는 이란을 비롯해 각국에 묶여 있던 적체 물량이 소화된 결과로 추정된다. 
+    다만 현재 원유 물동량이 6월 전반기 평균치를 약 40% 웃돌고 있지만, 우려 요인은 여전히 적잖다고 블룸버그는 지적했다.
+    지금의 회복세가 지속되고 예전 같은 규모로 유조선들이 페르시아만에 진입할 수 있을지를 두고 아직 많은 시장 참여자가 의구심을 드러내고 있다는 것이다.
+    미국과 이란이 종전 합의안의 세부 내용을 명확히 조율하는 것에는 수 주일이 걸릴 전망이며, 호르무즈 해협이 완전히 재개방될 때까지는 크고 작은 갈등이 불가피하다.
+    이란은 25일에도 호르무즈 통과를 시도하는 화물선을 공격해 통항 회복세에 찬물을 끼얹기도 했다. 
+    블룸버그는 이런 불확실성에도 불구하고 이번 회복세는 페르시아만의 원유 운송 시스템이 나름의 탄탄한 회복탄력성을 갖췄다는 근거로 읽힌다고 평했다. 
+    국제해사기구(IMO)의 선박 대피 계획이 호르무즈 해협의 추가 개방을 계속 견인하고 있고, 핵심 산유국인 사우디아라비아와 아랍에미리트(UAE)가 파이프라인과 항만 등 해협을 우회하는 원유 수출 인프라를 잘 운용하고 있다는 것이다.
+    
+
+    지금 걸프 지역의 원유 흐름은 크게 세 가지로 나뉜다.
+    우선 호르무즈 해협을 다시 통과하는 이란과 비(非)이란산 원유가 있고, 다른 한편에는 사우디와 UAE의 우회 수출량을 통한 물량이 존재한다. 파키스탄 접경 지역인 이란 차바하르 항 인근 해상에 발이 묶였던 이란산 화물의 운송 증가도 물동량에큰 영향을 미치는 것으로 풀이된다.
+    블룸버그는 사우디와 UAE가 각각 홍해 얀부항과 호르무즈 해협 외곽의 푸자이라항을 통해 전쟁 중에도 원유 우회 수출을 계속한 것도 수출량 회복에 큰 도움이 됐다고 분석했다.
+    두 국가가 지난 3∼5월에도 원유 출하량을 전쟁 이전의 50∼60%대 수준까지 유지했던 것이 이후 수출량 증가의 디딤돌이 됐다는 것이다.
+    블룸버그는 "향후 최대 관건은 유조선들이 호르무즈 해협으로 다시 돌아올지 여부"라면서 "유조선 유입이 본격화해야 수출이 전쟁 이전 수준으로 완전히 정상화할 수 있는데, 아직은 그런 징후가 없다"고 덧붙였다.
+    tae@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[호르무즈 해협을 지나는 화물선]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스 자료사진.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260626126800009_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/26/AKR20260626126800009_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중동 지역의 유조선 [자료 사진]]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260625571001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/06/25/PRU20260625571001009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

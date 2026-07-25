@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260514094300004</ContentID>
+      <SendDate>20260514</SendDate>
+      <SendTime>130009</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0510003" name="법원"/>
+         <ClassCode code="0510005" name="판결"/>
+         <ClassCode code="1008001" name="북한일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260514094300004]]></Href>
+      <Writer><![CDATA[김빛나]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[탈북 국군포로 생존자들 북한 상대 손배소 '또 승소']]></Title>
+      <SubTitle><![CDATA[1인당 2천100만원 청구액 전부 인용…3번째 국내 법원 판결]]></SubTitle>
+      <Body><![CDATA[탈북 국군포로 생존자들 북한 상대 손배소 '또 승소'
+1인당 2천100만원 청구액 전부 인용…3번째 국내 법원 판결
+
+
+
+    (서울=연합뉴스) 김빛나 기자 = 한국전쟁 때 포로로 끌려갔다가 탈북한 국군포로 생존자들에게 북한과 김정은 북한 국무위원장이 손해를 배상하라는 법원 판단이 또다시 나왔다. 
+    서울중앙지법 민사46단독 박형민 판사는 14일 고광면(95)씨 등 국군포로 생존자 5명이 북한과 김 위원장을 상대로 낸 손해배상 청구 소송을 원고 승소로 판결했다. 
+    이들은 1인당 2천100만원씩 총 1억500만원을 청구했으며, 법원은 청구액 전부를 인용했다. 
+    법원은 2020년 7월 고(故) 한재복 씨 등 2명이 북한과 김 위원장을 상대로 제기한 소송에서 배상 책임을 인정한 첫 판결 이후 같은 취지의 판결을 잇달아 내리고 있다.
+    2023년에는 고 김성태, 유영복(96)씨 등 3명이 북한을 상대로 한 손배소에서 승소한 바 있다.
+    이번 소송의 원고인 고씨를 비롯해 김종수(95), 이선우(96), 이대봉(95), 최기호(98)씨는 1953년 7월 정전협정 후에도 남한으로 송환되지 못하고 내무성 건설대에 배속돼 탄광에서 강제 노역에 시달렸다며 신체적·정신적 피해에 대한 위자료를 북한 측에 청구했다.
+    국군포로가족회에 따르면 고씨의 경우 1953년 5월 수색 임무를 수행하던 중 중공군에 붙잡혀 북한으로 인계됐다. 약 두 달 뒤 정전협정이 체결됐지만, 고씨는 대한민국으로 송환되지 못한 채 포로수용소와 탄광에서 강제 노역을 해야 했다. 이후 북한에서 지내다 2001년 11월 두만강을 건너 탈북, 귀환했다. 
+    다만 고씨 등이 실제 북한으로부터 배상금을 받아내기는 어려울 것으로 보인다.
+    재판부는 북한 정권과 김 위원장에게 소송이 제기된 사실을 알릴 방법이 없어 소장을 공시송달하는 방식 등으로 재판을 진행했다. 
+    공시송달은 소송 서류를 전달할 수 없을 때 법원이 게시판이나 관보 등에 송달할 내용을 게재한 뒤 내용이 전달된 것으로 간주하는 절차다.
+    현재 국내에 생존한 탈북 국군포로는 이번 소송의 원고 5명과 유영복씨 등 6명이다.
+    nana@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2024년 6월 '국군포로전시실' 개막식에 참석한 국군포로 유공자들.]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>AKR20260514094300004_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/14/AKR20260514094300004_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

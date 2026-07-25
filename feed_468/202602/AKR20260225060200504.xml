@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260225060200504</ContentID>
+      <SendDate>20260225</SendDate>
+      <SendTime>140008</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109012" name="군사훈련"/>
+         <ClassCode code="0109008" name="주한미군"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260225060200504]]></Href>
+      <Writer><![CDATA[김호준]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한미 연합 FS연습 9∼19일 실시…"전작권 전환 준비"]]></Title>
+      <SubTitle><![CDATA[FS기간 야외기동훈련 작년 대비 축소…'북미대화 여건 조성' 취지 분석]]></SubTitle>
+      <Body><![CDATA[한미 연합 FS연습 9∼19일 실시…"전작권 전환 준비"
+FS기간 야외기동훈련 작년 대비 축소…'북미대화 여건 조성' 취지 분석
+    
+
+
+    (서울=연합뉴스) 김호준 김철선 기자 = 한미는 한반도 유사시에 대비한 전구(戰區)급 한미연합훈련인 '자유의 방패'(프리덤실드·FS) 연습을 내달 9∼19일 실시한다.
+    합동참모본부는 이날 보도자료를 통해 "FS 연습은 한미가 연례적으로 실시하는 방어적 성격의 연습"이라며 이같이 밝혔다.
+    합참은 이번 FS 연습의 의미에 대해 "최근 전훈 분석 결과와 도전적 전장환경 등 현실적인 상황을 연습 시나리오에 반영함으로써 '연합·합동 전영역 작전'을 포함한 한미동맹의 연합방위태세를 강화하고 한미가 합의한 '조건에 기초한 전작권 전환' 준비를 지속적으로 추진하는 계기가 될 것"이라고 설명했다.
+    한미 군 당국은 매년 3월에 FS 연습, 8월에는 '을지 자유의 방패'(UFS·을지프리덤실드) 연습이라는 명칭의 지휘소훈련(CPX)을 실시한다. 한반도 전면전을 가정한 FS 및 UFS 연습은 전작권 전환 조건의 충족 여부를 평가 및 검증하는 계기도 된다.
+    한미는 FS 연습 기간 지휘소훈련 시나리오와 연계된 야외기동훈련(FTX)도 실시한다. 올해 FS 연습 기간 야외기동훈련은 작년 대비 축소된 것으로 전해졌다.
+    이는 도널드 트럼프 미국 대통령의 3월 말∼4월 초 방중을 앞두고 북미 대화 재개 여건 조성을 위해 훈련을 조정해야 한다는 정동영 통일부 장관 등 정부 일각의 의견이 반영된 결과로 보인다.
+    이번 FS 연습에는 예년과 마찬가지로 유엔군사령부 회원국들도 참가하며, 중립국감독위원회는 연습 기간 정전협정 준수 여부를 확인한다.
+    한미연합훈련에 대해 '북침 연습'이라며 예민한 반응을 보여온 북한은 이번 FS 연습에 대해서도 반발할 것으로 예상된다. 
+    hojun@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['자유의 방패' 연습]]></Title>
+         <Caption><![CDATA[(평택=연합뉴스) 권준우 기자 = 오는 20일까지 진행되는 정례적 한미연합훈련 '자유의 방패'(FS:Freedom Shield) 첫 날인 10일 경기도 평택시 캠프 험프리스에서 RC-12X 가드레일 정찰기가 이륙하고 있다. 2025.3.10 stop@yna.co.kr]]></Caption>
+         <FileName>PYH2025031011650006100_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/03/10/PYH2025031011650006100_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

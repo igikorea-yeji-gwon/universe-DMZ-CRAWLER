@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260226103800001</ContentID>
+      <SendDate>20260226</SendDate>
+      <SendTime>122521</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0104020" name="민주당"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260226103800001]]></Href>
+      <Writer><![CDATA[서혜림]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[與 한반도평화전략委 출범…정청래 "평화가 주식이고 주가지수"]]></Title>
+      <SubTitle><![CDATA["평화목적 한해 유엔군사령관 승인 없이 출입 DMZ법 고민·추진"]]></SubTitle>
+      <Body><![CDATA[與 한반도평화전략委 출범…정청래 "평화가 주식이고 주가지수"
+"평화목적 한해 유엔군사령관 승인 없이 출입 DMZ법 고민·추진"
+    
+
+
+    (서울=연합뉴스) 서혜림 기자 = 더불어민주당 정청래 대표는 26일 국회에서 열린 당 한반도평화 신(新)전략위원회 출범식에서 "평화가 주식이고, 평화가 주가지수"라고 말했다.
+    정 대표는 코스피 지수 6,000포인트 돌파 등 성과를 언급, "한반도 리스크가 계속 불거지면 주식시장에도 굉장히 큰 영향을 미치지 않겠느냐"며 이같이 짚었다.
+    그는 "이재명 대통령과 정부가 내세우는 게 국익 중심 실용외교"라며 "그것이 대한민국 국가브랜드를 높이고 국운 상승에 좋은 시너지 효과를 낸다"고 평가했다.
+    이어 "민주당은 그런 관점에서 하나의 목소리만 들리도록 하는 게 아니라 다양하고 균형 잡힌 외교의 목소리를 낼 수 있는 관점에서 이 대통령의 성공적인 외교 활동을 위해 뒷받침하겠다"고 강조했다.
+    연례 한미 연합훈련과 관련해선 "한반도의 전쟁 억제와 한반도 평화의 균형을 지킬 수 있는 수준에서 한미 간 잘 조율했으면 좋겠다"고 말했다.
+    또 "생태조사, 문화유산 발굴, 평화 관광 등 비군사적·평화적 목적에 한해 유엔군사령관(주한미군사령관 겸임)의 승인 없이 우리가 자주적으로 비무장지대(DMZ)에 출입할 수 있도록 DMZ법(DMZ의 평화적 이용에 관한 법률안)도 함께 고민하고 추진해야 하지 않을까 싶다"고 언급했다.
+    아울러 "9·19 군사합의 복원도 매우 중요하다"며 "이를 위해서도 위원회에서 많은 노력을 하리라 생각한다"고 덧붙였다.
+    이날 공식 출범한 위원회에는 고문·공동위원장·집행위원장 등을 포함해 50여명의 전직 관료, 학자 등이 참여한다.
+    이재정·정세현 전 통일부 장관과 문정인 전 대통령 통일외교안보특별보좌관이 고문을 맡았다.
+    hrseo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[민주당 한반도평화신전략위원회 출범식에서 발언하는 정청래 대표]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 신현우 기자 = 더불어민주당 정청래 대표가 26일 국회의원회관에서 열린 민주당 한반도평화신전략위원회 출범식에 참석해 발언하고 있다. 왼쪽부터 공동위원장을 맡은 이용선 의원, 정 대표, 고문을 맡은 정세현 전 통일부 장관. 2026.2.26 nowwego@yna.co.kr]]></Caption>
+         <FileName>PYH2026022611790001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/26/PYH2026022611790001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260327141300504</ContentID>
+      <SendDate>20260327</SendDate>
+      <SendTime>170526</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260327141300504]]></Href>
+      <Writer><![CDATA[이정현]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[합참 "북한, MDL 이북서 국경선화 작업 재개"]]></Title>
+      <Body><![CDATA[합참 "북한, MDL 이북서 국경선화 작업 재개"
+
+
+    (서울=연합뉴스) 이정현 기자 = 합동참모본부는 "지난해 12월 중단됐던 군사분계선(MDL) 이북 근접지역에서 작업이 이달 초 재개됐다"고 27일 밝혔다.
+    북한은 2023년 말 남북을 '적대적 두 국가' 관계로 선언한 이후 비무장지대(DMZ) 내 MDL 이북 지역에 지뢰를 매설하고 철책선을 설치하는 등 국경선화 작업을 진행중인데, 동절기 중단했던 작업을 재개한 것이다.
+    합참은 "우리 군은 확고한 대비태세를 유지한 가운데 안정적으로 군사상황을 관리하고 있다"고 덧붙였다.
+    우리 군은 작업에 동원된 북한군이 MDL을 침범하면 경고방송 및 경고사격으로 대응하고 있다.
+    lisa@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[합참, 최근 북한군 동향 공개]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>AKR20260327141300504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/27/AKR20260327141300504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

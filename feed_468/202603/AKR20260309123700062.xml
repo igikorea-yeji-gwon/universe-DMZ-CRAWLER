@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260309123700062</ContentID>
+      <SendDate>20260309</SendDate>
+      <SendTime>151748</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004014" name="춘천"/>
+      </Region>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="0201018" name="투자협력"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260309123700062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[춘천시, 평화경제특구 지정 도전…내륙 평화협력 거점 구상]]></Title>
+      <Body><![CDATA[춘천시, 평화경제특구 지정 도전…내륙 평화협력 거점 구상
+
+    (춘천=연합뉴스) 이상학 기자 = 강원 춘천시가 한반도 평화협력 거점 도시 조성을 목표로 정부의 '평화경제특구' 지정에 도전한다.
+
+    춘천시는 9일 시청 회의실에서 '춘천 평화경제특구 조성계획 수립 연구용역' 착수보고회를 열고 특구 지정 전략과 추진 방향을 공유했다.
+    평화경제특구는 접경지역을 중심으로 남북 경제협력 기반을 조성하고 지역 발전을 도모하기 위해 정부가 추진하는 국가 전략사업이다. 
+    통일부는 지난해 12월 '제1차 평화경제특구 기본계획(2026∼2035)'을 확정하고 2026∼2027년 사이 전국에서 4곳 안팎의 특구를 단계적으로 지정할 계획이다.
+    시는 2024년부터 평화경제특구 기본 구상을 마련해 온 가운데 이번 연구용역을 통해 개발 구상을 구체화하고 정부 기본계획과 정합성을 확보해 특구 지정 신청 전략을 마련할 방침이다.
+
+    시는 교육·행정·문화관광 기능을 결합한 '평화도시형 복합 특구'를 핵심 모델로 제시했다. 
+    수도권과 강원권을 연결하는 교통 접근성과 대학·연구기관 등 교육 인프라, 문화·관광 자원을 기반으로 내륙형 평화협력 거점 도시 역할을 수행하겠다는 것이다. 
+    특히 대학과 연구기관을 중심으로 통일·남북협력 전문 인력 양성 기반을 구축하고, 평화를 주제로 한 문화예술 프로그램과 관광 콘텐츠 개발을 확대할 방침이다. 
+    마임축제와 인형극제 등 기존 문화자산을 활용한 평화 콘텐츠 개발도 검토 대상이다.
+    이와 함께 남북 체육교류 기반 조성을 위한 축구전용경기장 건립과 국제 친선경기 유치, 의암호 명소화 사업과 연계한 평화 관광코스 개발 등 체류형 관광 전략도 함께 추진한다.
+
+    춘천시는 상반기 중 강원도에 평화경제특구 조성계획을 제출할 예정이다. 
+    육동한 춘천시장은 "평화경제특구 제도의 취지를 실현할 수 있는 정책적·행정적 기반 도시로 역할이 중요하다"며 "특구 지정 절차를 차질 없이 추진해 평화협력 거점도시로 도약하겠다"고 말했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpeg">
+         <Title><![CDATA[춘천시]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>C0A8CA3D00000164488DAC3E0003771C_P2.jpeg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2018/06/29/02/C0A8CA3D00000164488DAC3E0003771C_P2.jpeg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[춘천시청]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20191024000355990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2019/10/24/55/PCM20191024000355990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[육동한 춘천시장]]></Title>
+         <Caption><![CDATA[[춘천시 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240502000096062_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/05/02/96/PCM20240502000096062_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

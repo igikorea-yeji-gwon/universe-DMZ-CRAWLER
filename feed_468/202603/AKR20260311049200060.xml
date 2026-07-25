@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260311049200060</ContentID>
+      <SendDate>20260311</SendDate>
+      <SendTime>093437</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0502003" name="기부봉사"/>
+         <ClassCode code="0109003" name="육군"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260311049200060]]></Href>
+      <Writer><![CDATA[임병식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[30년째 나눔의 가치 이어 온 접경지 육군 부사관]]></Title>
+      <Body><![CDATA[30년째 나눔의 가치 이어 온 접경지 육군 부사관
+
+    (파주=연합뉴스) 임병식 기자 = 서부전선 접경지의 육군 부사관이 30년째 기부와 봉사활동으로 나눔의 가치를 실천해 귀감이 되고 있다. 
+
+    11일 경기 파주시 육군 2기갑여단에 따르면 예하 적오대대에서 근무 중인 임용택(53) 원사는 지난 1996년부터 국제구호개발 비정부기구(NGO) 월드비전을 통해 국내 및 해외 아동 후원을 하고 있다. 
+    그가 30년 동안 기부한 금액은 현재까지 약 2천400만원에 달한다. 
+    임 원사는 "후원 아동이 성장하는 모습을 보며 의무감과 책임감으로 버텨왔다"고 말했다.
+    이 밖에도 그는 틈틈이 가정 형편이 어려운 고등학생에게 장학금을 기부하고 부대 인근 독거노인들에게 쌀을 기부하는 등 봉사활동을 이어 왔다.
+    경제적으로 풍족하지 못해 지금보다 더 많은 기부와 봉사활동을 하지 못해 아쉽다는 임 원사는 "기부와 봉사활동을 할 때마다 오히려 상대방을 통해 감사하는 마음을 더 배워온다"며 "오늘의 작은 나눔이 내일의 희망이 될 수 있도록 앞으로도 선행을 멈추지 않겠다"고 각오를 다졌다. 
+    andphotodo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[30년째 나눔의 가치 실천한 육군 부사관]]></Title>
+         <Caption><![CDATA[육군 2기갑여단 적오대대 임용택 원사. [육군 2기갑여단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260311049200060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/11/AKR20260311049200060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

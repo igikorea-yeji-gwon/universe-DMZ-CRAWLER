@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260326002800087</ContentID>
+      <SendDate>20260326</SendDate>
+      <SendTime>013828</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7105024" name="코스타리"/>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501009" name="이민출입"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260326002800087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[코스타리카, 美서 추방된 이민자 수용키로…매주 25명씩]]></Title>
+      <SubTitle><![CDATA[일각에선 인권보단 '정치적 거래' 비판 목소리]]></SubTitle>
+      <Body><![CDATA[코스타리카, 美서 추방된 이민자 수용키로…매주 25명씩
+일각에선 인권보단 '정치적 거래' 비판 목소리
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = 코스타리카가 미국에서 추방된 타국적 이민자들을 매주 최대 25명씩 수용하기로 미국 정부와 합의했다고 뉴욕타임스(NYT)와 로이터통신 등이 24일(현지시간) 보도했다.
+    코스타리카 대통령실은 성명을 통해 이번 합의에 따라 미국 정부는 필요한 재정 지원을 제공하고, 유엔 산하 국제이주기구(IOM)가 추방자들의 숙식비를 부담할 예정이라고 밝혔다.
+    로드리고 차베스 코스타리카 대통령은 이번 합의가 "자발적이고 비구속적(nonbinding)"이라며 특정 국적을 선택하거나 수용 여부를 직접 결정할 권한은 코스타리카 정부에 있다고 강조했다.
+    일각에서는 이번 합의가 코스타리카를 단순히 이민자 수용국이 아닌, 미국 내 타국적 이민자들을 처리하는 '외주 수용소'로 전락시킬 수 있다는 우려도 제기한다.
+    NYT 보도에 따르면 지난해 코스타리카는 미국에서 추방된 200명을 수용했는데, 이들 중 110명은 본국으로 돌아갔고 34명은 현지에서 망명을 신청했다. 나머지 56명 중 상당수는 당국이 행방조차 파악하지 못해 이미 타국으로 떠났을 가능성이 큰 것으로 NYT는 분석했다.
+    특히 과거 수용된 이들이 파나마 접경지의 비좁은 막사에 살며 부실한 의료 서비스 등 열악한 환경에 노출됐던 사실이 알려지면서 비판의 목소리도 높다.
+    인권 변호사 마르시아 아길루스 소토는 "이번 합의는 실익 없는 '정치적 거래'에 불과하다"며 "국가 명성과 시민, 그리고 이주민 모두에게 도움이 되지 않는 양보"라고 비판했다.
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[타국적 추방 이민자들]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스]]]></Caption>
+         <FileName>AKR20260326002800087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/26/AKR20260326002800087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

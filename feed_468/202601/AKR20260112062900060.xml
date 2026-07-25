@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260112062900060</ContentID>
+      <SendDate>20260112</SendDate>
+      <SendTime>111148</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0106006" name="개혁규제"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0109003" name="육군"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260112062900060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주시, 육군 25사단과 군사시설보호구역 1.5㎢ 규제 완화]]></Title>
+      <Body><![CDATA[파주시, 육군 25사단과 군사시설보호구역 1.5㎢ 규제 완화
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시는 축구장 215개 규모인 1.5㎢에 대한 군사시설보호구역의 건축 높이 규제가 완화됐다고 12일 밝혔다.
+
+    이번에 규제가 완화된 지역은 ▲ 파평면 장파리 파주콘텐츠월드 일반산업단지 일대(1㎢/20m 위임) ▲ 법원읍 웅담리 333번지 일대(0.15㎢/7m 위임) ▲ 법원읍 웅담리 110번지 일대(0.35㎢/7m 위임)다.
+    파주시는 지난 9일 육군 제25보병사단과 군사시설보호구역 규제 완화 행정위탁을 체결했다.
+    이에 따라 해당 지역에서는 지정된 높이 이하로 건축할 경우 군부대와의 별도 협의 없이 파주시 자체 허가만으로 건축할 수 있어, 인허가 기간 단축과 토지개발 비용 절감 효과가 기대된다.
+    행정위탁은 군사시설 보호구역 내 건축물 신·증축 등의 인허가 권한을 지자체에 위임하는 제도로, 이번 합의를 통해 파주시 내 전체 행정위탁 면적은 총 68.70㎢로 확대됐다.
+    파주시 관계자는 "앞으로도 육군 제1군단 및 예하 사단들과 긴밀히 협의해 접경 지역의 오랜 규제를 해소하고 도시 발전을 앞당기겠다"고 말했다.
+    한편, 행정위탁 지역의 세부 지번은 파주시 누리집 공고·홍보 새소식란에서 확인할 수 있다. 
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[군사시설보호구역 표지]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>AKR20260112062900060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/12/AKR20260112062900060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

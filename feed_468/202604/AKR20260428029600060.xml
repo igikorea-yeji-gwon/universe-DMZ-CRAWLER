@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260428029600060</ContentID>
+      <SendDate>20260428</SendDate>
+      <SendTime>085025</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0402004" name="축산업"/>
+         <ClassCode code="0507007" name="질병"/>
+         <ClassCode code="0505006" name="동물"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260428029600060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도북부동물위생시험소 'ASF 정밀 진단기관' 지정]]></Title>
+      <Body><![CDATA[경기도북부동물위생시험소 'ASF 정밀 진단기관' 지정
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도 북부동물위생시험소는 농림축산검역본부로부터 'ASF 정밀 진단기관' 지정을 받았다고 28일 밝혔다.
+
+    이에 따라 경기 북부지역의 아프리카돼지열병(ASF) 대응 체계가 강화됐다.
+    도는 시험소가 직접 확진 판정을 내리게 됨에 따라, 신고 접수부터 확진까지 소요되는 시간이 대폭 단축돼 즉각적인 이동 제한과 가축 처분 등 '방역 골든타임'을 확보할 수 있게 됐다고 평가했다. 
+    기존에는 경기 북부 양돈농가에서 ASF 의심축이 발생하면 시료를 외부 정밀 진단기관에 맡겨야 해 초동 방역에 어려움이 있었다. 
+    경기 북부 접경 지역은 지난 2019년 파주 첫 발생 이후 ASF의 지속적인 위협을 받아온 지역이다.
+    시험소는 다음 달 19일 정밀 진단기관 지정을 기념하는 현판 행사를 열고 ASF 정밀 진단 업무를 시작할 예정이다.
+    또 ASF 정밀 진단기관에 이어 올해 안으로 고병원성 조류인플루엔자(AI) 정밀 진단기관 지정도 마무리한다는 방침이다. 
+    최옥봉 경기도북부동물위생시험소장은 "이번 ASF 자체 확진 체계 구축은 경기 북부의 방역 역량이 국가적 수준으로 격상됐음을 의미한다"며 "앞으로 어떤 재난형 질병에도 신속하고 정확하게 대응하는 원스톱(One-stop) 진단 서비스를 제공해 축산농가의 피해를 최소화하겠다"고 말했다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[ASF 정밀 진단 시설]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260428029600060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/28/AKR20260428029600060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

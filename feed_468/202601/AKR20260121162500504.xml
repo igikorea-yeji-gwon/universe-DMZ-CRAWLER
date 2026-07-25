@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260121162500504</ContentID>
+      <SendDate>20260121</SendDate>
+      <SendTime>184514</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260121162500504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[정동영 "대북 신뢰회복 조처로 DMZ 평화의길 재개방"]]></Title>
+      <SubTitle><![CDATA['우선개방 추진' 고성구간 방문…유엔사, 개방에 사실상 반대]]></SubTitle>
+      <Body><![CDATA[정동영 "대북 신뢰회복 조처로 DMZ 평화의길 재개방"
+'우선개방 추진' 고성구간 방문…유엔사, 개방에 사실상 반대
+
+
+    (서울=연합뉴스) 하채림 이정현 김철선 기자 = 정동영 통일부 장관이 21일 강원도 고성의 'DMZ(비무장지대) 평화의 길'을 찾아 막혀있는 구간의 재개방 추진 의지를 거듭 밝혔다.
+    정 장관은 이날 일반에 막혀있는 'DMZ 평화의 길' 고성A코스 구간을 22사단장과 함께 걸으며 "이 길은 한반도 평화와 공존으로 다가가는 진정한 평화의 길"이라며 "이재명 정부의 선제적 신뢰회복 조치 차원에서 DMZ 내부 구간을 다시 열어서 평화의 길이 원래의 모습을 되찾을 수 있도록 노력할 것"이라고 말했다.
+    DMZ 평화의 길 코스는 2019년 4월 개방됐으나 전체 11개 코스 중 3개 코스(파주, 철원, 고성)의 DMZ 내부 구간이 2024년 4월 안보 상황을 이유로 일반에 개방이 중단됐다.
+    정 장관은 지난달 이재명 대통령에게 운영이 중단된 DMZ 평화의 길 3개 구간의 재개방을 올해 추진하겠다고 보고했다.
+    통일부는 그 중에서도 고성A구간이 재개방에 가장 현실적이라고 판단하고 군·유엔군사령부와 집중적으로 협의할 계획이다.
+    그러나 DMZ를 관리하는 유엔사는 이날 사실상 반대 입장을 밝혀 협의에 난항이 예상된다.
+    유엔사는 배포 자료를 통해 "DMZ 내부에 위치한 3개의 도보 구간은 보안상 이유로 출입이 제한되며 유엔군사령부의 관할에 속한다"면서 "지금의 DMZ 출입 정책과 절차에는 변동이 없다"고 밝혔다.
+    이어 "DMZ에 대한 모든 출입은 안전, 보안, 그리고 정전협정 준수 여부를 최우선으로 고려해 사안별로 면밀히 검토되고 있다"고 덧붙였다.
+    한편 이날 정 장관은 동해선 남북출입사무소도 찾아 운영 현황을 점검했다.
+    정 장관은 "동해선 출입사무소가 다시 '평화의 관문'이 될 수 있도록 작은 신뢰부터 쌓아 나가겠다"고 말했다.
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[정동영 장관 "대북 신뢰회복조처로 DMZ 평화의길 재개방"]]></Title>
+         <Caption><![CDATA[[통일부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260121162500504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/21/AKR20260121162500504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

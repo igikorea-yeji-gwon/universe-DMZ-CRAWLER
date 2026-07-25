@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260405007500504</ContentID>
+      <SendDate>20260405</SendDate>
+      <SendTime>084836</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="1001005" name="북한군사"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260405007500504]]></Href>
+      <Writer><![CDATA[김철선]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[군 헬기, 지난달 산불 진화 중 실수로 DMZ 진입]]></Title>
+      <SubTitle><![CDATA[軍·유엔사, MDL 월선 가능성도 조사…북한군은 특별한 반응 없어]]></SubTitle>
+      <Body><![CDATA[군 헬기, 지난달 산불 진화 중 실수로 DMZ 진입
+軍·유엔사, MDL 월선 가능성도 조사…북한군은 특별한 반응 없어
+
+
+    (서울=연합뉴스) 김철선 기자 = 우리 군 헬기가 접경지역 산불 진화 작업에 투입됐다가 실수로 비무장지대(DMZ) 내부까지 진입한 일이 있었던 것으로 뒤늦게 알려졌다.
+    5일 합참에 따르면 군은 지난달 23일 경기 연천 최전방 지역에서 발생한 산불 진화를 위해 육군 소속 수리온 헬기 1대를 투입했다.
+    이 헬기는 당초 DMZ 내부로 진입할 계획은 없었지만, 산불 진화 작업 중 DMZ 안까지 진입한 것으로 나타났다.
+    군사분계선(MDL) 기준 남쪽 2㎞까지인 DMZ 남측구역 출입은 정전협정에 따라 관할권이 있는 유엔사의 승인을 받아야 하지만 당시 별도 승인을 받진 않았던 것으로 알려졌다.
+    특히 이 헬기는 산불 진화 작업 중 MDL 인근까지 근접 비행한 것으로 알려졌는데, 군 당국은 유엔사와 함께 MDL 월선 여부도 조사 중이다.
+    다만, 북한군은 당시 특별한 반응을 보이지 않았던 것으로 전해졌다.
+    수리온은 군 병력과 장비 수송 임무를 주로 맡는 국산 기동헬기로, 산불 진화 작업에 투입됐을 당시에는 특별한 무장은 하지 않았던 것으로 알려졌다.
+    합참 관계자는 "산불진화를 위해 투입된 육군 헬기 1대가 DMZ 내에서 비행한 사실이 있다"며 "관련 사안을 조사하고 있으며, 작전 사안과 연계된 부분이 있어 세부내용 공개는 제한된다"고 말했다.
+    kcs@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[수리온 헬기 (CG)]]></Title>
+         <Caption><![CDATA[[연합뉴스TV 제공]]]></Caption>
+         <FileName>PCM20220907000122990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2022/09/07/22/PCM20220907000122990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

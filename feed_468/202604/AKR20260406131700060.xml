@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260406131700060</ContentID>
+      <SendDate>20260406</SendDate>
+      <SendTime>162305</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0501001" name="사회일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260406131700060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주 '민통선 모바일 출입 시스템' 이용객, 4년 만에 18배 증가]]></Title>
+      <Body><![CDATA[파주 '민통선 모바일 출입 시스템' 이용객, 4년 만에 18배 증가
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시 민북지역 역점사업인 '민통선 모바일 출입 시스템'이 도입 4년 만에 연간 출입 건수가 12만 건을 돌파한 것으로 집계됐다.
+
+    6일 파주시에 따르면 '민통선 모바일 출입 시스템'은 민간인 통제구역 출입 절차를 스마트폰 앱 기반의 정보 무늬(QR코드) 인증으로 전환하는 것으로, 2022년부터 전면 시행됐다.
+    시행 첫해인 2022년 6천673건이던 연간 출입자 수(중복 출입 포함)는 2023년 2만8천891건, 2024년 8만7천843건, 지난해 12만1천423건으로 해마다 급증해, 시스템 도입 이전 대비 18배 증가했다.
+    월평균 출입 건수 또한 2022년 556건에서 지난해 1만119건으로 급격히 증가해 '월 출입 1만건 시대'를 열었다.
+    현장에서 시스템을 운용하는 군 관계자는 "모바일 QR코드 출입 시스템 도입으로 통일대교에서 신분 및 차량 확인 속도가 빨라졌다"며 "앞으로도 시민들께 모바일 시스템 사용을 적극 안내해 국방 안보를 공고히 하고, 민통선 출입 체계 첨단화에 앞장서겠다"고 했다.
+    해당 시스템은 보안성을 극대화한 '움직이는 QR코드' 인증 솔루션을 탑재했다. 
+    또 위치정보 시스템(GPS) 기술을 활용해 비상시 구조신호 전송, 군 설정 위험지역 접근 시 알림, 민통선 내 재난·안전 상황 실시간 전송 등 영농인 안전사고 예방을 위한 핵심 기능을 수행하고 있다.
+    파주시 관계자는 "접경지역이라는 특성상 많은 불편을 감내하고 있는 시민들을 위해 생활 밀착형 행정 혁신에 힘쓰고 있다"며 "앞으로도 군과 두터운 신뢰를 바탕으로 출입 시스템의 안정적 운영에 최선을 다하겠다"고 강조했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주시 '민통선 모바일 출입 시스템']]></Title>
+         <Caption><![CDATA[[파주시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260406131700060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/06/AKR20260406131700060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

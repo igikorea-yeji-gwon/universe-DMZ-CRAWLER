@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260529099600062</ContentID>
+      <SendDate>20260529</SendDate>
+      <SendTime>141638</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260529099600062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[사전투표] 강원교육감 후보들, 일찌감치 투표장 찾아 권리 행사 독려]]></Title>
+      <Body><![CDATA[[사전투표] 강원교육감 후보들, 일찌감치 투표장 찾아 권리 행사 독려
+
+    (춘천=연합뉴스) 양지웅 기자 = 제9회 전국동시지방선거 사전투표가 시작된 29일 강원교육감 후보들은 일찌감치 투표장을 방문해 소중한 표를 행사했다.
+
+    강삼영 후보는 이날 오전 8시 30분께 춘천시 퇴계동 행정복지센터에서 배우자 양호숙 씨와 함께 사전투표를 마쳤다. 
+    강 후보는 "마지막까지 최선을 다해 뛰겠다"며 "강원교육의 미래를 위해 교육감 선거에 꼭 참여해달라"고 당부했다.
+    그는 홍천과 원주를 돌며 오후 늦게까지 유세를 이어갈 예정이다.
+
+    최광익 후보는 이날 10시께 삼척시 정라동 행정복지센터를 방문해 투표했다.
+    최 후보는 "투표는 권리가 아니라, 미래를 지키는 책임"이라며 "이를 포기하는 순간, 우리의 교육과 아이들의 미래를 결정할 권리 또한 스스로 내려놓게 되는 것"이라며 투표를 독려했다.
+    그는 오후에 동해와 강릉, 원주를 찾아 이름 알리기에 나설 계획이다.
+
+    박현숙 후보는 오전 9시께 화천군 사내면 복지회관을 찾아 표를 행사했다.
+    박 후보는 "접경지역 교육격차 해소와 국가에 헌신하는 군인 자녀에 대한 책임교육을 실현하고자 접경지역인 화천 사내면에서 투표했다"며 "접경지 아이들의 미래가 곧 강원교육의 미래라는 신념으로 소외 없는 책임 교육을 실천하겠다"고 말했다.
+    신경호 후보는 사전투표 대신 내달 3일 본투표에 참여할 계획이다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강삼영 후보 사전투표]]></Title>
+         <Caption><![CDATA[[강삼영 후보 캠프 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260529099600062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529099600062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[박현숙 후보 사전투표]]></Title>
+         <Caption><![CDATA[[박현숙 후보 캠프 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260529099600062_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529099600062_04_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[최광익 후보 사전투표]]></Title>
+         <Caption><![CDATA[[최광익 후보 캠프 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260529099600062_05_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529099600062_05_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

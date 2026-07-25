@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260709147900005</ContentID>
+      <SendDate>20260709</SendDate>
+      <SendTime>152807</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0712001" name="영화"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260709147900005]]></Href>
+      <Writer><![CDATA[박원희]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[봉준호·이창동·장재현, 14~16일 나홍진과 '호프' 대담]]></Title>
+      <SubTitle><![CDATA[이동진 평론가 GV도 열려]]></SubTitle>
+      <Body><![CDATA[봉준호·이창동·장재현, 14~16일 나홍진과 '호프' 대담
+이동진 평론가 GV도 열려
+
+
+    (서울=연합뉴스) 박원희 기자 = 나홍진 감독의 영화 '호프'를 두고 한국을 대표하는 감독들이 관객과의 대화(GV)에 나선다.
+    배급사 플러스엠 엔터테인먼트는 오는 14∼16일 봉준호·이창동·장재현 감독이 참여하는 '호프' GV를 개최한다고 9일 밝혔다.
+    오는 14일 서울 롯데시네마 월드타워에서 이창동 감독을 시작으로 15일 서울 메가박스 코엑스에서 봉준호 감독, 16일 메가박스 코엑스에서 장재현 감독이 각각 영화 상영 뒤 나홍진 감독과 '호프'에 관해 얘기를 나눈다.
+    한국을 대표하는 창작자들의 '호프'에 관한 시각을 관객과 공유하는 자리가 될 것으로 기대된다.
+    15일에는 이동진 평론가의 진행으로 나홍진 감독과 '호프' 출연진인 황정민·조인성·정호연이 함께 영화에 관해 이야기한다.
+    '호프'는 비무장지대에 있는 가상의 마을 호포항에 알 수 없는 존재가 찾아오면서 벌어지는 이야기를 그린 SF 액션 영화다. 나 감독이 '곡성'(2016) 이후 10년 만에 선보이는 신작으로 15일 개봉한다.
+    encounter24@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['호프' GV]]></Title>
+         <Caption><![CDATA[[플러스엠 엔터테인먼트 제공. 재판매 및 DB금지]]]></Caption>
+         <FileName>AKR20260709147900005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/07/09/AKR20260709147900005_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260423182300079</ContentID>
+      <SendDate>20260423</SendDate>
+      <SendTime>205707</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260423182300079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘군, 휴전 중에도 레바논 남부 마을 '체계적 파괴']]></Title>
+      <Body><![CDATA[이스라엘군, 휴전 중에도 레바논 남부 마을 '체계적 파괴'
+
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 레바논 남부의 완만한 언덕에 있는 작은 마을 베이트 리프는 언제 이곳에 마을이 있었던가 싶을 만큼 폐허가 됐다.
+    한때 수천 명이 거주하던 이곳의 집들은 이스라엘군의 막무가내 철거 작업으로 인해 콘크리트 더미로 변했다.
+    인근 마을 주민 하산 스웨이단은 23일(현지시간) AP 통신에 "이스라엘군이 마을 광장까지 서서히 부수며 들어오더니, 이제 보이는 것처럼 집이 한 채도 남지 않았다"며 한숨을 내쉬었다.
+    지난 18일 도널드 트럼프 미국 대통령의 강압에 이스라엘이 레바논 내 휴전을 받아들이면서 포성은 뜸해졌지만, 이스라엘군은 이후에도 국경 인근 마을과 도시의 주거 지역을 완전하게 부수는 작업을 계속하고 있다.
+    이스라엘군은 이 마을의 건물들이 이란의 지원을 받는 무장단체 헤즈볼라의 거점으로 사용되었다고 주장한다.
+    레바논 남부의 마을들이 대부분 베이트 리프처럼 파괴되면서, 레바논 당국과 주민들은 휴전이 유지되더라도 사람들이 돌아갈 곳이 없을 것이라고 우려한다.
+    유엔 레바논 평화유지군(UNIFIL)과 레바논 관계자들은 보안 문제로 정밀 조사를 진행하지 못하고 있으나, 목격자들은 여러 마을에서 주거 지역 전체가 체계적으로 파괴되고 있다고 증언한다.
+    스웨이단은 "이스라엘군은 불도저와 굴착기, 탱크를 몰고와 마을을 부순다"며 "우리는 매일 언덕에서 마을이 어떻게 부서지는지를 보곤 했는데, 이젠 더 이상 서 있는 집이 없다"고 했다.
+    UNIFIL의 틸라크 포카렐 대변인은 "휴전 이후에도 여러 지역에서 이스라엘군의 마을 파괴를 목격했다"고 상황을 전했다.
+    이는 이스라엘군이 하마스 시설 제거를 명분으로 팔레스타인 가자지구의 라파 등지에서 벌였던 방식과 유사해 보인다.
+
+    이스라엘 카츠 이스라엘 국방장관은 지난달 레바논 남부에 지상군을 투입하면서 국경 인근의 위협을 완전히 제거하기 위해 레바논 접경 마을의 모든 주택을 파괴할 것이라고 공언한 바 있다.
+    또 그는 가자지구의 라파, 베이트 하눈 등을 벤치마킹 사례로 제시하면서, 작전이 종료되면 이스라엘군이 레바논 영토 내에 보안 구역을 설정하고, 이 지역에 통제권을 행사할 것이라고 강조했다.
+    그러면서 이스라엘 북부 지역 주민의 안전이 확실히 보장될 때까지 60만 명 이상의 레바논 남부 주민은 리타니 강 이남으로 복귀하지 못하도록 차단하겠다는 뜻도 밝혔다.
+    실제로 이스라엘군은 국경 인근 마을을 파괴한 뒤 국경에서 레바논 쪽으로 수 ㎞ 연장된 '전방 방어선' 지도를 발행하고, 이 구역 내 수십 개 마을 주민들에게 당분간 돌아오지 말라고 경고하고 있다.
+    레바논 국영 통신사(NNA)는 "이스라엘군의 불도저가 헤즈볼라와 전투가 벌어졌던 카임의 마을과 도로, 기반 시설을 부수고 있었다"며 "도시의 흔적을 완전히 지우려는 것 같다"고 보도했다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군이 레바논 남부 주민들에게 귀가 금지 메시지에 표시된 보안구역]]></Title>
+         <Caption><![CDATA[[이스라엘군 아랍어 대변인 X 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260423182300079_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/23/AKR20260423182300079_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군의 폭격과 마을 파괴로 폐허가 된 레바논 남부 국경 인근 마을]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260416050901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/04/16/PAP20260416050901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

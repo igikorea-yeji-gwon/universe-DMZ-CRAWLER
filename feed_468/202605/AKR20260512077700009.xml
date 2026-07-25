@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260512077700009</ContentID>
+      <SendDate>20260512</SendDate>
+      <SendTime>113030</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260512077700009]]></Href>
+      <Writer><![CDATA[김승욱]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["중재국 파키스탄, 이란 군용기 자국 공군기지 주둔 허용"]]></Title>
+      <SubTitle><![CDATA[CBS 뉴스 "이란, 지난달 휴전 직후 군용기 파키스탄으로 이동시켜"
+중국과 밀접한 파키스탄…중국 우방인 이란 배려한 듯]]></SubTitle>
+      <Body><![CDATA["중재국 파키스탄, 이란 군용기 자국 공군기지 주둔 허용"
+CBS 뉴스 "이란, 지난달 휴전 직후 군용기 파키스탄으로 이동시켜"
+중국과 밀접한 파키스탄…중국 우방인 이란 배려한 듯 
+
+
+    
+    (서울=연합뉴스) 김승욱 기자 = 미국과 이란 간 전쟁에서 중재자 역할을 해온 파키스탄이 이란 군용기의 자국 공군기지 주둔을 허용했다고 CBS 뉴스가 11일(현지시간) 보도했다.
+    CBS는 미국 당국자들을 인용해 이란이 지난달 7일 휴전이 이뤄진 직후 미국의 공습으로부터 군사 자산을 보호하기 위해 일부 군용기를 파키스탄 누르칸 공군기지로 이동시켰다고 밝혔다.
+    이 중에는 록히드 C-130 허큘리스를 개조한 이란 공군의 RC-130 정찰·정보수집기도 포함된 것으로 전해졌다.
+    CBS는 이란 군용기의 자국 주둔을 허용한 파키스탄의 행보는 미국과 이란 사이 중재자를 자처하면서도 최대 무기 공급국이자 경제 파트너인 중국의 영향력 아래에서 전략적 균형을 맞추려는 의도라고 해석했다.
+    파키스탄이 미국에는 자국을 '안정적인 중재자'로 홍보하면서도 중국의 우방인 이란을 배려했다는 것이다. 
+    다만 파키스탄 고위 당국자는 CBS에 "누르칸 기지는 도시 한복판에 있어 대규모 항공기 편대를 숨길 수 없다"며 관련 보도 내용을 부인했다.
+    이란은 민간 항공기 일부를 아프가니스탄으로 이동시키기도 했다고 CBS는 전했다.
+    아프간 항공당국 관계자는 "(미국과 이란 간) 전쟁 발발 직전 마한에어(이란 항공사) 소속 민간기가 카불(아프간 수도)에 착륙했다"며 "이후 파키스탄과 아프간 탈레반 정권 간 교전이 발생하자 안전을 위해 해당 항공기를 이란 접경지인 헤라트 공항으로 이동시켰다"고 말했다.
+    탈레반 대변인은 이 같은 사실을 부인했다고 CBS는 전했다.
+    미국과 이란 사이 종전 협상은 파키스탄의 적극적인 중재에도 잇따라 결렬된 상태다.
+    이번 주 베이징에서 열리는 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석의 정상회담에서 이란 전쟁 문제는 핵심 의제 중 하나로 다뤄질 전망이다.
+    이런 가운데 호르무즈 해협에서는 산발적인 충돌이 잇따르는 등 휴전은 불안한 양상을 보이고 있다.
+    ksw08@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이란 공군 전투기 (기사 내용과 직접적인 관계없음)]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스 자료사진]]]></Caption>
+         <FileName>PEP20211021140601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2021/10/21/PEP20211021140601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

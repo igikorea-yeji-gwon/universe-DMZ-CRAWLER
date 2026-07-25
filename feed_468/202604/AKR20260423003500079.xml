@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260423003500079</ContentID>
+      <SendDate>20260423</SendDate>
+      <SendTime>025233</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107005" name="시리아"/>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260423003500079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[선 넘는 유대인 정착촌 활동가들…시리아·레바논 국경 침범(종합)]]></Title>
+      <SubTitle><![CDATA[이스라엘군 "민간인·군 장병 안전 위험에 빠뜨리는 범죄 행위"]]></SubTitle>
+      <Body><![CDATA[선 넘는 유대인 정착촌 활동가들…시리아·레바논 국경 침범(종합)
+이스라엘군 "민간인·군 장병 안전 위험에 빠뜨리는 범죄 행위"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 주로 팔레스타인 요르단강 서안에서 활동해온 이스라엘 유대인 정착촌 활동가들이 시리아와 레바논 국경을 무단으로 넘는 사건이 발생했다.
+    22일(현지시간) 일간 타임스오브이스라엘 등 현지 언론에 따르면 이날 유대인 정착촌 활동가 40여명이 국경을 무단으로 넘어 시리아에 들어갔다가 강제 퇴거당했다.
+    스스로를 '바산의 선구자들'이라 부르는 이들은 국경 인근에 있는 하데르 외곽의 한 건물을 점거하고 바리케이드를 쳤다.
+    바산은 유대교의 성서인 토라(모세오경)와 시편 등에 등장하는 요르단강 동쪽의 고원 지대로, 유대 민족에게 승리의 땅이자 풍요롭고 비옥한 땅으로 묘사되어 있다.
+    이들은 이스라엘 정부가 시리아 영토 내 정착촌 건설을 공식 승인할 때까지 물러나지 않겠다고 주장했다.
+    그러나 이들은 이스라엘군에 의해 연행돼 이스라엘로 돌아왔다. 소셜미디어에는 시리아로 들어간 이들이 한 건물 옥상에서 이스라엘 국기를 들고 노래하는 장면이 담긴 영상이 돌고 있다.
+    이스라엘군은 "약 40명의 활동가가 시리아 국경에서 약 500m가량 진입했던 것으로 파악됐다"며 "이들을 접경 지역으로 연행해 경찰에 신병을 인도했다"고 했다.
+    이날 오후에는 10여명의 유대인 정착촌 활동가가 북부 레바논 접경지역에 집결했고, 이 가운데 3명이 국경 울타리를 넘어 레바논 영토 내로 진입했다가 돌아왔다.
+    현장 인근에 있던 이스라엘군은 국경을 넘은 용의자들을 체포해 경찰에 인도했다고 밝혔다.
+    이스라엘군은 "이번 사건은 민간인과 군 장병의 안전을 위험에 빠뜨리는 심각한 사안이자 형사상 범죄 행위"라고 경고했다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[시리아 국경을 무단 침범한 유대인 정착촌 활동가들]]></Title>
+         <Caption><![CDATA[[소셜미디어 엑스 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260423003500079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/23/AKR20260423003500079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

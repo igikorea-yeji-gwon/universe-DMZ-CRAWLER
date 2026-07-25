@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260220114400104</ContentID>
+      <SendDate>20260220</SendDate>
+      <SendTime>155246</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102022" name="인도"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260220114400104]]></Href>
+      <Writer><![CDATA[손현규]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[유엔사무총장 "AI 관련 과도한 기대도 불필요한 공포도 줄여야"]]></Title>
+      <SubTitle><![CDATA[구테흐스 'AI 정상회의'서 발언…"중대 결정 인간의 감독 필요"]]></SubTitle>
+      <Body><![CDATA[유엔사무총장 "AI 관련 과도한 기대도 불필요한 공포도 줄여야"
+구테흐스 'AI 정상회의'서 발언…"중대 결정 인간의 감독 필요"
+
+
+    
+    (자카르타=연합뉴스) 손현규 특파원 = 안토니우 구테흐스 유엔 사무총장은 20일(현지시간) 인공지능(AI)을 둘러싼 다양한 논의에서 과도한 기대와 불필요한 공포를 줄여야 한다고 강조했다. 
+    AFP 통신 등에 따르면 구테흐스 사무총장은 이날 인도 수도 뉴델리에서 열린 '제4차 AI 임팩트 정상회의' 부대 행사에서 "과학이 주도하는 거버넌스는 진전을 가로막는 제동이 아니다"라며 "(오히려) 더 안전하고 공정하며 널리 공유되도록 할 수 있다"고 말했다.
+    그러면서 "메시지는 간단하다"며 "과대포장도 공포도 줄여야 하고 사실과 증거를 더 많이 제시해야 한다"고 강조했다.
+    그는 AI와 관련한 거버넌스 체계를 마련하기 위해 'AI 독립 국제 과학 패널' 위원 40명 후보를 확정했다고 전했다. 김주호 한국과학기술원(KAIST) 전산학부 교수도 40명에 포함됐다. 
+    이 자문기구는 '기후변화에 관한 정부 간 협의체'(IPCC)와 같은 역할을 AI 분야에서 하기 위해 지난해 꾸려졌다. 
+    AI 기술이 일자리 감소, 허위 정보 확산, 온라인 학대 등 다양한 우려를 낳는 상황에서 각국 정부가 AI 정책을 논의하는 데 도움을 주는 역할을 하게 된다. 
+    IPCC는 세계 각지의 과학자들이 집단지성으로 기후변화의 실태와 향후 위험성을 연구해 객관적 근거를 수집하는 기구다.
+    구테흐스 사무총장은 "AI 혁신은 빛의 속도로 진행되고 있다"며 "우리는 이를 완전히 이해하는 집단적 능력은 물론, 통제하는 능력조차 따라잡지 못하고 있다"고 진단했다.
+    이어 "우리는 미지의 영역으로 돌진하고 있다"며 "모든 중대한 결정을 할 때 인간의 감독이 필요하다"며 "명확한 책임 소재가 요구된다"고 덧붙였다.
+    올해로 4회째인 AI 정상회의는 인공지능 기술의 지속 가능한 미래와 안전한 사용을 논의하는 위한 글로벌 회의다. 2023년 영국 런던, 2024년 서울에 이어 지난해에는 프랑스 파리에서 개최됐다.
+    지난 16일 역대 최대 규모로 개막한 올해 회의는 AI가 사회에 미치는 영향을 핵심 의제로 다뤘다. 개발도상국에서는 처음으로 열렸으며 이날 폐막한다. 행사 참가국 등은 AI 처리 방안에 관한 공동 입장을 발표할 예정이다.
+    이번 행사에는 에마뉘엘 마크롱 프랑스 대통령과 루이스 이나시우 룰라 다시우바 브라질 대통령 등 10여 개국 정상을 비롯해 GPT 개발사인 오픈AI의 샘 올트먼 최고경영자(CEO), 순다르 피차이 알파벳 CEO, 다리오 아모데이 앤트로픽 CEO 등 세계적 기업인들도 참석했다.
+    son@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[AI 정상회의서 연설하는 구테흐스  유엔사무총장]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260220114400104_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/20/AKR20260220114400104_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

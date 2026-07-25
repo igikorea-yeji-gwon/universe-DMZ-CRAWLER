@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260107138500504</ContentID>
+      <SendDate>20260107</SendDate>
+      <SendTime>180809</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260107138500504]]></Href>
+      <Writer><![CDATA[이정현]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[안규백 "훈련은 생명줄…한미연합훈련 아직은 원칙대로"]]></Title>
+      <SubTitle><![CDATA[조정여부는 "북미회담 성사되면 판단"…"핵잠 2030년대 중후반 실전배치 예측"]]></SubTitle>
+      <Body><![CDATA[안규백 "훈련은 생명줄…한미연합훈련 아직은 원칙대로"
+조정여부는 "북미회담 성사되면 판단"…"핵잠 2030년대 중후반 실전배치 예측"
+
+
+    (서울=연합뉴스) 이정현 기자 = 안규백 국방부 장관은 북미대화 분위기 마련을 위해 일각에서 일정을 조정해야 한다고 주장하는 한미연합훈련 '자유의 방패'(프리덤실드·FS)에 대해 7일 "아직까진 원칙대로 한다"고 밝혔다.
+    안 장관은 이날 연합뉴스TV '뉴스워치'에 출연, 관련 질문에 "군인은 훈련이 생명줄"이라며 이같이 답했다.
+    다만 그는 "북미회담이 4월에 성사가 되면 그때 가서 여러 상황과 정세를 놓고 (조정여부를) 판단해 볼 일"이라고 덧붙였다. 
+    도널드 트럼프 미국 대통령의 4월 방중을 계기로 북미대화가 재개될 수 있다는 관측을 염두에 둔 발언으로 해석된다.
+    안 장관은 한국형 핵추진잠수함 실전배치 시기에 대해서는 "우리 계획안대로 된다면 빠르면 2030년도 중후반 정도 되지 않을까 예측한다"고 말했다.
+    그러면서 "10개 부처가 협의체를 구성했고 이달 중 미국 측에서 방한해 워킹그룹 회담을 한다"고 소개했다.
+    앞서 국방부는 대통령 업무보고에서 핵추진잠수함 연료 확보를 위한 협상을 미국과 2년 내로 완료하겠다는 목표를 밝힌 바 있다.
+    안 장관은 최근 북한군의 군사분계선(MDL) 침범이 늘어난 문제에 대해서는 "1953년 설치된 최초 표지판 1천292개 중 현재 약 242개가 식별되는 상태"라며 "일차적으로 유엔사와 대한민국이 먼저 MDL 일치화를 시켜놓고 북한에 회담을 제안해서 상호 이런 문제로 오인과 도발이 없도록 계획을 세우고 있다"고 설명했다.
+    lisa@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[답변하는 안규백 장관]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 이동해 기자 = 안규백 국방부 장관이 7일 국회에서 열린 법제사법위원회 전체회의에서 의원 질의에 답변하고 있다. 2026.1.7 eastsea@yna.co.kr]]></Caption>
+         <FileName>PYH2026010719060001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/07/PYH2026010719060001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

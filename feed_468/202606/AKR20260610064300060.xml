@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260610064300060</ContentID>
+      <SendDate>20260610</SendDate>
+      <SendTime>101721</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0109003" name="육군"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260610064300060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주시, '축구장 71개 규모' 군사 보호구역 행정위탁 추가 확정]]></Title>
+      <Body><![CDATA[파주시, '축구장 71개 규모' 군사 보호구역 행정위탁 추가 확정
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시는 육군 제1보병사단과 51만1천229㎡(축구장 71개 규모)에 달하는 군사시설 보호구역 행정위탁에 관한 합의각서를 체결했다고 10일 밝혔다.
+
+    행정위탁은 군사시설 보호구역 내 건축물 신·증축 등의 인허가 권한을 지자체에 위임하는 제도로, 이번 합의를 통해 파주시 내 전체 행정위탁 면적은 69.21㎢로 늘어났다.
+    이번에 확정된 구역은 파주 센트럴밸리 일반산업단지(파주 희망 프로젝트 1단계) 구역으로, 각 위치에 따라 35m·40m·45m의 높이로 위임받았다. 
+    이에 따라 해당 구역에서는 향후 설정된 고도(35m∼45m) 이하 범위에서 군부대와 별도 협의 없이 파주시 자체 허가만으로 건축이 가능하다.
+    파주시 관계자는 "앞으로도 군부대와 긴밀한 협력 관계를 유지해 접경지역이 가진 오랜 규제를 해소하고 시민 불편을 최소화할 수 있도록 최선을 다하겠다"고 말했다.
+    행정위탁 지역의 세부 주소는 파주시청 누리집 공고·홍보-새소식 게시판에서 확인할 수 있다.
+    각 필지에 적용되는 군사시설 보호구역 현황은 토지이음(http://luris.molit.go.kr) 누리집을 통해서도 간편하게 확인할 수 있다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주시청]]></Title>
+         <Caption><![CDATA[[파주시 제공. 재판매 및 DB 금지]]]]></Caption>
+         <FileName>PCM20250117000081990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/01/17/81/PCM20250117000081990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

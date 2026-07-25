@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260424133300104</ContentID>
+      <SendDate>20260424</SendDate>
+      <SendTime>162920</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102032" name="파키스탄"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260424133300104]]></Href>
+      <Writer><![CDATA[손현규]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파키스탄군, 아프간 접경 지역서 무장단체 22명 사살]]></Title>
+      <SubTitle><![CDATA[보안군 "테러리스트들이 무차별 발포"…어린이도 숨져]]></SubTitle>
+      <Body><![CDATA[파키스탄군, 아프간 접경 지역서 무장단체 22명 사살
+보안군 "테러리스트들이 무차별 발포"…어린이도 숨져 
+
+
+    
+    (이슬라마바드=연합뉴스) 손현규 특파원 = 아프가니스탄 국경과 가까운 파키스탄 북서부에서 보안군과 무장단체 사이에 교전이 벌어져 조직원 22명이 사살되고 어린이 1명이 숨졌다.
+    24일(현지시간) AFP 통신과 중국 관영 신화통신 등에 따르면 파키스탄 군 당국은 최근 북서부 카이베르 파크툰크와주에서 발생한 충돌로 보안군이 무장단체 조직원 22명을 사살했다고 밝혔다.
+    파키스탄 육군은 성명에서 "무장단체가 출몰했다는 신고를 받고 보안군과 법 집행기관이 합동 군사작전을 했다"며 치열한 교전이 발생해 10살 어린이 1명도 사망했다고 덧붙였다.
+    이어 "이 테러리스트들이 해당 지역에서 많은 테러 활동에 연루돼 있었다"고 주장했다.
+    셰바즈 샤리프 파키스탄 총리도 "테러리스트들의 무차별 발포로 10살 어린이가 순교했다"며 "애도를 표한다"고 말했다.
+    파키스탄에서는 최근 몇 년 동안 아프간 국경과 가까운 카이베르 파크툰크와주 등지에서 무장단체의 공격이 급증했고, 대부분은 분리주의 단체인 파키스탄탈레반(TTP)이 벌인 것으로 알려졌다.
+    수니파 이슬람 무장단체가 모여 결성한 극단주의 조직인 TTP는 파키스탄 정부 전복과 이슬람 율법인 '샤리아'에 따른 국가 건설을 목표로 한다.
+    이들은 아프간 탈레반과는 다르지만, 비슷한 이념을 공유하며 오랫동안 협력 관계를 유지하는 것으로 전해졌다.
+    또 아프간에 주요 은신처를 둔 채 파키스탄에 오가며 각종 테러 활동을 하는 것으로 알려졌다. 
+    이에 파키스탄은 아프간 탈레반 정권이 국경 인근에서 무장단체의 활동을 묵인하고 있다고 계속 비판했고, 아프간은 이를 부인하면서 지난해 10월과 올해 2∼3월에는 무력 충돌까지 했다. 
+    이후 양국은 이달 초 중국 중재로 신장위구르자치구 우루무치에서 비공식 회담을 열었고, 사태를 악화시키는 행위를 하지 않는 데 동의했지만 휴전 협정을 체결하지는 않았다.
+    son@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파키스탄 경찰]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260424133300104_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/24/AKR20260424133300104_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

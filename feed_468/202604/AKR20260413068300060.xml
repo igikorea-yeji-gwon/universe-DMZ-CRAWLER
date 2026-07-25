@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260413068300060</ContentID>
+      <SendDate>20260413</SendDate>
+      <SendTime>105146</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005022" name="연천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260413068300060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[연천군 'DMZ 평화의 길 테마노선' 17일부터 운영]]></Title>
+      <Body><![CDATA[연천군 'DMZ 평화의 길 테마노선' 17일부터 운영
+
+    (연천=연합뉴스) 우영식 기자 = 경기 연천군은 오는 17일부터 장남면 고랑포리 일대의 'DMZ 평화의 길 테마노선' 코스를 개방한다고 13일 밝혔다.
+
+    DMZ 평화의 길 테마노선은 경기도, 인천광역시, 강원특별자치도 접경지역에 조성돼 방문객이 평화에 대한 인식 제고 및 안보 체험을 할 수 있도록 추진되고 있다.
+    연천군의 테마노선은 민간인 통제구역 내 1.21 무장 공비 침투로부터 1.8km의 철책 구간을 걸으며 비룡전망대를 관람하고 버스를 이용해 연천 호로고루 사적을 방문하는 코스로 전문 관광 해설사가 동행해 분단의 역사, 지역의 이야기 등을 들려준다.
+    운영 기간은 오는 17일부터 10월 31일까지 금·토·일 주 3회, 하루 2회(오전·오후) 운영한다. 혹서기인 7∼8월은 운영하지 않는다.
+    한국관광공사 두루누비 홈페이지(www.durynubi.kr)를 통해 신청하면 된다.
+    대중교통을 이용하는 방문객은 연천역에서 출발하는 투어 버스를 이용할 수 있으며 자차를 이용하는 방문객은 고랑포구역사공원 인근 안내소에서 투어 버스에 탑승하면 된다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[비룡전망대]]></Title>
+         <Caption><![CDATA[[연천군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260413068300060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/13/AKR20260413068300060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260408164300062</ContentID>
+      <SendDate>20260408</SendDate>
+      <SendTime>175858</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="1007001" name="남북교류"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260408164300062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우상호 강원지사 후보 "금강산 이어 강원도 번영의 새길 열겠다"]]></Title>
+      <SubTitle><![CDATA["남북이 마음 모아 금강산 재개방하면 세계에 위로·희망 메시지"]]></SubTitle>
+      <Body><![CDATA[우상호 강원지사 후보 "금강산 이어 강원도 번영의 새길 열겠다"
+"남북이 마음 모아 금강산 재개방하면 세계에 위로·희망 메시지"
+
+    (강원 고성=연합뉴스) 이재현 기자 = 더불어민주당 우상호 강원도지사 예비후보는 8일 "끊어진 강원도의 산, 금강산을 이어 강원도 번영의 새길을 열겠다"고 밝혔다.
+
+    우 후보는 이날 강원 고성군 현내면 DMZ 박물관 대강당에서 열린 '금강산관광 재개 발원 남북의 평화와 화합을 위한 기원법회'에 참석해 이같이 말했다.
+    이어 "법회가 남과 북의 평화와 상생으로 가는 길을 다시 여는 희망의 이정표가 되길 간절히 소망한다"며 "전 세계가 전쟁의 고통 속에 있는 지금, 남북이 마음을 모아 금강산의 문을 다시 연다면 전 세계인에게 큰 위로와 희망의 메시지가 될 것"이라고 덧붙였다.
+    또 "남북의 평화와 화합, 금강산 관광 재개를 염원하며 소중한 법회를 마련해주신 대한불교조계종 총무원장 진우스님과 신도 여러분께도 깊은 감사의 말씀을 드린다"고 말했다.
+
+    조계종 민족공동체추진본부가 주관한 이날 법회에는 정동영 통일부 장관과 방용승 민주평화통일자문회의 사무처장, 더불어민주당 김영배·김준혁·전진숙·허영 의원 등 정치인들과 불교 신도 등 400여명이 참석했다.
+    통일부와 민주평화통일자문회의는 조계종의 이번 법회 개최를 후원했다.
+    우 후보는 이 행사에 이어 고성군 토성면 인흥리 세계잼버리수련장을 방문해 현장을 둘러봤다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[금강산관광 재개 기원 법회]]></Title>
+         <Caption><![CDATA[[우상호 후보 측 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260408164300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/08/AKR20260408164300062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[금강산관광 재개 기원 법회]]></Title>
+         <Caption><![CDATA[[우상호 후보 측 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260408164300062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/08/AKR20260408164300062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

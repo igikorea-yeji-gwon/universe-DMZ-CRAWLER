@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260222032000062</ContentID>
+      <SendDate>20260222</SendDate>
+      <SendTime>124719</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260222032000062]]></Href>
+      <Writer><![CDATA[박영서]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구 주요 관광지 방문객 48만명…한반도섬·DMZ 안보 관광 인기]]></Title>
+      <SubTitle><![CDATA[전년보다 14% 증가…1박 2일 체류형 코스·관광인프라 확충 추진]]></SubTitle>
+      <Body><![CDATA[양구 주요 관광지 방문객 48만명…한반도섬·DMZ 안보 관광 인기
+전년보다 14% 증가…1박 2일 체류형 코스·관광인프라 확충 추진
+
+
+    
+    (양구=연합뉴스) 박영서 기자 = 지난해 강원 양구군 주요 관광문화시설 방문객이 50만명에 육박했다.
+    22일 양구군에 따르면 한반도섬, 양구수목원, 양구백자박물관, 광치자연휴양림 등 관광문화시설 18곳에 총 48만3천여명이 찾았다.
+    2024년 42만3천여명보다 14.2%가량 늘어난 수치다.
+    지난해 가장 많은 관광객이 찾은 곳은 한반도섬으로, 약 14만명을 기록했다.
+    한반도섬 방문객 증가와 함께 을지전망대, 통일관, 전쟁기념관 등 비무장지대(DMZ) 안보 관광지 방문객도 큰 폭으로 늘어나며 전체 관광객 증가를 견인했다.
+    지난해 을지전망대 재개장과 전쟁기념관의 전시환경 개선공사 역시 관광객 유입 확대에 긍정적인 영향을 미쳤다고 양구군은 분석했다.
+
+    군은 관광객 체류시간 확대와 관광 만족도 향상을 위해 다양한 정책과 시설 확충 사업을 추진하고 있다.
+    우선 방산면과 해안면을 중심으로 지역을 순환하는 1박2일 체류형 관광코스를 운영한다.
+    지역 이미지를 담은 관광상품 개발을 위해 기념품 공모전도 추진한다.
+    오는 6월 준공 예정인 종합관광안내소를 중심으로 관광 안내 체계를 정비하고, 다국어 관광지도 제작과 관광안내판 전면 보수, 외국어 안내판 신설 등을 통해 편의성도 한층 높인다.
+    이와 함께 스파클링 한반도섬, 평화빌리지, 파로호 꽃섬 하늘다리 조성 사업 등을 추진해 경쟁력을 강화한다.
+    박현정 관광문화과장은 "최근 관광 흐름이 체험과 체류 중심으로 변화하고 있는 만큼 양구만의 특색을 살린 관광코스와 인프라를 지속해서 확충해 만족도를 높이겠다"고 말했다.
+
+    conanys@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구 한반도섬]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240617000005990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/06/17/05/PCM20240617000005990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구수목원]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20241118000015990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/11/18/15/PCM20241118000015990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구 을지전망대]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20241121000156990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/11/21/56/PCM20241121000156990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

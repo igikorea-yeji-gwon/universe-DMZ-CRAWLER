@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260413052800062</ContentID>
+      <SendDate>20260413</SendDate>
+      <SendTime>100221</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260413052800062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, 시티투어 운영…대표 관광명소 코스별로 즐긴다]]></Title>
+      <SubTitle><![CDATA[두타연 힐링·문화 산책·DMZ 펀치볼 트레킹 등 3가지 구성]]></SubTitle>
+      <Body><![CDATA[양구군, 시티투어 운영…대표 관광명소 코스별로 즐긴다
+두타연 힐링·문화 산책·DMZ 펀치볼 트레킹 등 3가지 구성
+
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군이 지역 대표 관광명소를 코스별로 즐길 수 있는 '양구시티투어'를 오는 17일부터 운영한다.
+    양구시티투어는 전문 문화관광해설사의 안내를 들으며 요일별로 정해진 코스에 따라 양구군의 구석구석을 둘러보는 관광 서비스다.
+    올해는 11월 15일까지 운영되며, 매주 금·토·일 춘천역에서 출발해 양구군의 관광명소를 둘러보고 다시 춘천으로 돌아오는 당일 코스로 진행된다.
+    올해 시티투어는 ▲두타연 나들이 코스(금) ▲박수근 힐링 산책코스(토) ▲DMZ 펀치볼 나들이 코스(일) 등 3가지 테마로 구성됐다.
+    특히 양구 9경과 지역 축제를 연계해 양구만의 자연과 문화, 역사를 폭넓게 경험할 수 있도록 기획된 것이 특징이다.
+    양구군은 지난해에 이어 시티투어 이용객을 대상으로 한 특별 이벤트를 지속 운영한다.
+    이를 통해 양구 1경인 양구수목원 입장료 면제와 을지전망대 관람료 2천원 할인 혜택을 제공함으로써 지역 관광 활성화에도 이바지할 방침이다.
+    양구문화관광 누리집 또는 매일관광을 통해 예약받으며, 춘천역 1번 출구 옆 여행자 쉼터에서 현장 신청도 가능하다.
+    아울러 서울·경기권 관광객을 위한 '광역시티투어 힐링·산책코스'도 4월 중 운영을 시작할 계획이다.
+    군은 이달 18일부터 10월 31일까지(7∼8월 미운행) 'DMZ 평화의 길 테마노선'을 병행해 관광 선택지를 넓일 계획이다.
+    박현정 관광문화과장은 13일 "올해 시티투어는 양구 고유의 매력을 가득 담아 다채로운 코스로 준비했다"며 "앞으로도 다시 찾고 싶은 여행지가 될 수 있도록 흥미로운 관광 콘텐츠 개발과 손님맞이 준비에 힘쓰겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구시티투어]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260413052800062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/13/AKR20260413052800062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

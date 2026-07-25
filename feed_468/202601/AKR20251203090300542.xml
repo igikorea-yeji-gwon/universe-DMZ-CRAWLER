@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20251203090300542</ContentID>
+      <SendDate>20260101</SendDate>
+      <SendTime>080016</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Category code="11"/>
+      <Region>
+         <RegionCode code="7105014" name="브라질"/>
+         <RegionCode code="7105016" name="아르헨"/>
+      </Region>
+      <Class>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0712001" name="영화"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001788" name="연재"/>
+         <AttributeCode code="9001028" name="이매진"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20251203090300542]]></Href>
+      <Writer><![CDATA[성연재]]></Writer>
+      <Desk code="542"><![CDATA[DB.출판부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[imazine story] 세상 끝에서 만난 브라질 ③ 이구아수]]></Title>
+      <Body><![CDATA[[imazine story] 세상 끝에서 만난 브라질 ③ 이구아수
+
+    (이구아수=연합뉴스) 성연재 기자 = 남미를 대표하는 절경, 이구아수 폭포는 세계 3대 폭포 중 하나로 꼽힌다. 브라질과 아르헨티나가 함께 절경을 공유하고 있으며, 2.7㎞에 걸쳐 275개의 폭포가 초당 1천t의 물을 쏟아내는 장엄한 풍경을 펼쳐낸다. 코앞에서 폭포의 굉음과 함께 거대한 물기둥이 쏟아지는 모습을 바라보고 있으면, 자연의 힘 앞에 인간은 한없이 작아지는 느낌이다. 
+    
+
+    
+    ◇ 아르헨티나·브라질 국경 맞댄 이구아수 
+
+    이구아수를 만나는 여정은 아르헨티나의 푸에르토 이구아수에서 시작됐다. 처음부터 '매운맛'을 보기로 했다. 보트 투어를 통해 폭포 아래까지 다가갔다. 사정없이 튀는 물보라와 천둥 같은 굉음을 온몸으로 느끼는 시간이었다. 만반의 준비를 했지만, 비옷의 목 부분으로부터 쏟아지는 폭포수는 사정없이 몸 안으로 쏟아져 내렸다. 모두 흠뻑 젖은 채 비옷을 벗어야만 했다. 그러나 모두 웃음이 끊이지 않는 얼굴이다. 
+    그다음엔 생태 열차를 타고 이구아수의 명소 '악마의 목구멍'으로 향했다. 앙증맞은 기차 위에 올라타 풍경을 감상한 뒤 내렸다. 이후 물길 위로 세워진 철제 다리 위를 한참을 걸어 악마의 목구멍을 마주했다. 물로 만들어진 거대한 산이 통째로 내 눈앞에서 무너져 내리는 모습은 그야말로 사람들을 압도한다. 안개와 무지개가 피어오르는 풍경 앞에 서니 '지구 끝'에 선 듯한 느낌이었다. 
+
+
+    
+    아르헨티나 쪽인 '푸에르토 이구아수'는 규모로 인간을 압도하지만, 브라질 쪽 '포스두 이구아수'는 전체 폭포를 조망할 수 있는 매력이 있다. 이튿날 국경을 넘어 브라질로 이동해 전체 폭포를 조망했다. 잘 조성된 걷기 길을 따라가며 맞은편 폭포들이 병풍처럼 펼쳐지는 장관을 바라보는 매력에 흠뻑 빠졌다. 브라질 이구아수는 다양한 관람 포인트가 많아 '아기자기한 볼거리'를 느끼게 한다. 공원 내부에는 객실에서 폭포를 조망할 수 있는 특급 호텔도 있지만, 1박에 100만원에 육박하는 숙박료 탓에 머물지 못한 점이 아쉽게 남았다.
+
+
+
+    ◇ 영화 '미션'의 배경 이구아수의 원주민 공동체
+
+    그러나 이런 아름다운 자연 풍광의 이면에는 인간이 남긴 또 다른 비극이 존재한다. 이구아수 폭포 일대는 예수회 선교사들이 이 지역에서 원주민 과라니족을 보호하며 신앙과 문명의 공존을 모색했던 역사가 숨어 있는 공간이다. 아카데미상(오스카) 수상작 영화 '미션'은 바로, 이 과정을 그린 작품이다. 총 7개 부문에 후보로 올랐고 촬영상(최우수 촬영)을 받았다. 
+    영화 속 오보에를 들고 폭포를 오르던 가브리엘 신부는 핍박받던 예수회 선교사들의 상징이다. 그들이 세운 공동체는 기독교와 원주민 문화가 조화를 이룬 남미의 이상향으로 알려져 있다. 예수회 선교사들은 1609년 파라과이·브라질·아르헨티나 접경 지역에 첫 공동체 '리덕시온'(Reduccion)을 세우기 시작했으며, 과라니족을 노예사냥과 식민 권력의 착취로부터 보호하기 위해 자치 마을과 교육·농경 기반을 마련했다.
+
+
+    
+    17∼18세기 전성기에는 약 30개 이상의 공동체가 운영될 만큼 성장했으며, 수십만 명의 과라니족이 예수회와 공존하는 삶을 영위했다. 그러나 1750년 마드리드 조약으로 국경이 재조정되면서 상황은 급변했다. 포르투갈 식민 권력은 이들을 탄압하기 시작했고 예수회는 추방됐다.
+    '가브리엘의 오보에'로 유명한 영화 주제곡은 엔리오 모리코네의 곡이다. 파라과이는 오늘날에도 과라니어를 공용어로 사용한다. 이는 과라니족과 예수회 공동체가 남긴 문화적·언어적 유산이 현대에도 살아 있음을 보여준다.
+
+
+
+    ◇ 항공료가 만든 '출혈의 여정'
+
+    이구아수는 항공편이 아니면 접근하기 어렵다. 리우나 상파울루에서 이구아수까지 가는 항공권은 최소 1년 전 예약하지 않으면 왕복 50만원에 육박할 정도다. 리우에서 만난 한 독일인 여행자는 국제선 요금을 방불케 하는 항공료 부담으로 이구아수 방문을 포기했다고 털어놓았다. 필자는 비용을 아끼기 위해 리우에서 상파울루까지 구간의 경우에는 편도 7시간이 걸리는 고속버스를 이용해야만 했다. 그런데도 수많은 여행자가 이곳을 찾는 이유는 분명하다. 대지와 하늘이 맞닿는 지점에서 마주치는 자연의 압도적 힘 때문이다.
+
+
+    
+    ◇ 폭포와 작은 새 
+
+    1984년 유네스코 세계자연유산으로 등재된 이구아수 폭포는 지금도 쉼 없이 대지를 적신다. 그 물소리에는 폭력에 의해 낙원을 빼앗긴 이들의 메아리가 깃들어 있다. 브라질 쪽에서는 영화 미션에서 보여주던 그 각도로 이구아수를 바라볼 수 있다. 
+
+
+     
+    영화에서 보던 각도로 폭포를 바라보던 순간, 새 한 마리가 물벼락을 뚫고 폭포 뒤편으로 뛰어드는 장면을 목격했다. 엄청난 수압을 견디며 폭포 속으로 뛰어드는 이유는 천적을 피하기 위해서다. 공동체의 이상을 안고 폭력에 맞섰던 과라니족과 예수회의 모습이 폭포 속으로 뛰어드는 새 한 마리의 모습과 겹쳐 보였다.
+
+    ※ 이 기사는 연합뉴스가 발행하는 월간 '연합이매진' 2026년 1월호에서도 볼 수 있습니다. 
+    polpori@yna.co.kr
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[브라질 쪽에서 본 이구아수 폭포 [사진/성연재 기자]]]></Caption>
+         <FileName>AKR20251203090300542_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2025/12/03/AKR20251203090300542_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[폭포수가 쏟아지는 보트]]></Caption>
+         <FileName>AKR20251203090300542_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2025/12/03/AKR20251203090300542_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[아기자기한 즐길거리가 많은 아르헨티나 쪽 이구아수. 작은 기차를 타고 이동하는 모습.]]></Caption>
+         <FileName>AKR20251203090300542_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2025/12/03/AKR20251203090300542_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[영화 미션 [피터팬 픽쳐스]]]></Caption>
+         <FileName>AKR20251203090300542_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2025/12/03/AKR20251203090300542_04_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[폭포로 뛰어드는 새 [사진/성연재 기자]]]></Caption>
+         <FileName>AKR20251203090300542_05_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2025/12/03/AKR20251203090300542_05_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[영화 미션에서 본 각도로 사진을 찍는 관광객 [사진/성연재 기자]]]></Caption>
+         <FileName>AKR20251203090300542_06_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2025/12/03/AKR20251203090300542_06_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[브라질 쪽에서 바라본 이구아수 폭포. 작은 새가 폭포로 뛰어드는 모습을 바라볼 수 있다. [사진/성연재 기자]]]></Caption>
+         <FileName>AKR20251203090300542_07_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2025/12/03/AKR20251203090300542_07_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

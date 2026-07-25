@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260528088600504</ContentID>
+      <SendDate>20260528</SendDate>
+      <SendTime>132951</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260528088600504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["李정부 1년, 접경지 일상평화 회복…평화공존 기초쌓아"]]></Title>
+      <SubTitle><![CDATA[통일부, '한반도 평화공존 정책' 주요 추진성과 자평]]></SubTitle>
+      <Body><![CDATA["李정부 1년, 접경지 일상평화 회복…평화공존 기초쌓아"
+통일부, '한반도 평화공존 정책' 주요 추진성과 자평
+
+
+    (서울=연합뉴스) 하채림 기자 = 이재명 정부가 한반도 평화공존 정책을 추진한 결과, 지난 1년간 접경지역에서 일상의 평화가 회복됐으며, 지속 가능한 한반도 평화공존을 위한 기초를 쌓았다고 통일부가 28일 밝혔다. 
+    통일부는 이날 배포한 보도자료를 통해 '이재명 정부의 한반도 평화공존 정책' 주요 추진 성과를 이같이 자평했다. 
+    정부는 남북 간 긴장 완화와 신뢰 회복을 위한 선제 조처로 대북 확성기 방송을 중단했으며, 민간 단체의 대북 전단 살포 중단을 끌어냈다고 통일부는 소개했다. 
+    이재명 대통령이 작년 8월 광복절 경축사를 통해 '평화공존의 대북정책 3원칙'을 발표하는 등 남북관계를 '적대와 대결'에서 '평화공존과 공동성장'으로 전환하기 위한 일관된 정책 비전을 제시했다고 설명했다. 
+
+    또, '북한 주민 접촉신고 처리 지침'을 폐지해 민간 차원의 남북 교류 자율성을 제고한 결과, 북한 주민 접촉 신고 수리율이 종전 63%에서 99%로 급등했다. 
+    이와 함께 2023년 축소된 통일부의 남북대화·교류 조직과 기능을 복원해 평화·협력 추진 역량이 강화됐다고 통일부는 평가했다. 
+    노동신문 등 북한자료 공개 확대를 추진했으며, 기존의 안보 중심 통일교육을 평화공존·민주시민에 초점을 맞춤 평화통일교육으로 전환했다는 것도 핵심 성과로 꼽았다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[작년 7월 임진각에서 열린 납북자가족모임의 '전단살포 중단선언']]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진] 2025.7.8 andphotodo@yna.co.kr]]></Caption>
+         <FileName>PYH2025070808500006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/07/08/PYH2025070808500006000_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이재명 대통령, 80주년 광복절 경축사]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 홍해인 기자 = 이재명 대통령이 15일 서울 세종문화회관에서 열린 80주년 광복절 경축식에서 경축사를 하고 있다. 2025.8.15 [대통령실통신사진기자단] hihong@yna.co.kr]]></Caption>
+         <FileName>PYH2025081503220001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/08/15/PYH2025081503220001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

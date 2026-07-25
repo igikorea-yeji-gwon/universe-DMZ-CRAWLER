@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260211182800009</ContentID>
+      <SendDate>20260211</SendDate>
+      <SendTime>193944</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0506004" name="항공교통"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260211182800009]]></Href>
+      <Writer><![CDATA[오수진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[멕시코접경 美텍사스 엘패소공항 열흘간 긴급폐쇄…"보안상 사유"]]></Title>
+      <SubTitle><![CDATA[FAA, 항공편 운항 전면 중단 발표…멕시코 영공은 제외]]></SubTitle>
+      <Body><![CDATA[멕시코접경 美텍사스 엘패소공항 열흘간 긴급폐쇄…"보안상 사유"
+FAA, 항공편 운항 전면 중단 발표…멕시코 영공은 제외
+
+
+    (서울=연합뉴스) 오수진 기자 = 미국 연방항공청(FAA)이 멕시코 국경 인근에 있는 텍사스주 엘패소 국제공항을 10일(현지시간) 오후 11시 30분부터 열흘간 긴급 폐쇄했다.
+    로이터통신과 뉴욕타임스(NYT)에 따르면 FAA는 구체적인 공항 폐쇄 이유를 밝히지 않은 채 "특별 보안상의 사유"라고만 밝혔다.
+    엘패소 공항은 미국 빅스 육군 비행장 옆에 있으며 멕시코 후아레스와 국경을 맞대고 있다.
+    NYT는 공항 측이 갑작스럽게 이번 결정을 통보받았으며 FAA의 추가 지침을 기다리고 있다고 말했다고 전했다.
+    엘패소 출신인 빈센트 페레즈 텍사스주 하원의원도 공항 폐쇄 조치에 대한 정보가 없다며 "중대한 비상사태가 아닌 이상 미국 영공이 10일 동안 폐쇄된 사례는 들어본 적이 없다"고 말했다.
+    이번 조치는 오는 20일까지 시행될 예정이며 공항 반경 10해리(약 18.5㎞) 이내의 지역에 모두 적용된다. 멕시코 영공은 포함되지 않는다.
+    지난해 1∼11월 기준 349만명의 승객이 이용한 엘패소 공항은 사우스웨스트, 델타, 유나이티드, 아메리칸 항공 등 미국의 주요 항공사가 이용하고 있다.
+    kiki@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[미국-멕시코 국경지역인 엘파소 시내 모습]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260211493301009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/02/11/PRU20260211493301009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

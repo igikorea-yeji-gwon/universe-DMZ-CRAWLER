@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260222002900080</ContentID>
+      <SendDate>20260222</SendDate>
+      <SendTime>022605</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7214001" name="북한"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1002003" name="북러관계"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260222002900080]]></Href>
+      <Writer><![CDATA[최인영]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["北공병단, 러 쿠르스크서 폭발물 160만개 없애고 돌아가"]]></Title>
+      <Body><![CDATA["北공병단, 러 쿠르스크서 폭발물 160만개 없애고 돌아가"
+
+
+    (모스크바=연합뉴스) 최인영 특파원 = 북한 공병들이 우크라이나에 점령됐던 러시아 접경지 쿠르스크에서 폭발물 160만개를 파괴한 뒤 지난해 12월 북한으로 돌아갔다고 알렉산드르 힌시테인 쿠르스크 주지사가 밝혔다.
+    힌시테인 주지사는 21일(현지시간) 러시아 일간 콤소몰스카야 프라브다에 "북한 전문가들은 약 160만개의 폭발 장치를 파괴했다"고 말했다고 리아노보스티 통신이 보도했다.
+    힌시테인 주지사는 북한 공병부대가 쿠르스크 서부 국경지대에서 미폭발 포탄을 발견하고 처리하는 데 중요한 역할을 했으며, 그 결과 지금까지 약 15만헥타르 이상의 영토에서 제거 작업이 완료됐다고 설명했다.
+    그는 2024년 블라디미르 푸틴 러시아 대통령이 쿠르스크를 방문해 지뢰 제거 병력을 강화하라고 지시한 결과 이 작업에 투입된 인원이 러시아 공병부대와 비상사태부 전문가, 북한 전문가를 포함해 최대 2천명으로 정점을 찍었다고 말했다.
+    그는 북한 공병들이 겨울철 폭발물 처리 작업의 어려움 때문에 지난해 12월 북한으로 돌아갔지만, 다시 돌아올 것으로 기대한다고 밝혔다.
+    북한은 2024년 6월 러시아와 '포괄적 전략적 동반자 관계 조약'을 체결하고 러시아 쿠르스크주에 파병해 우크라이나로부터 영토 탈환을 지원했다. 발레리 게라시모프 러시아군 총참모장은 지난해 4월 북한군이 쿠르스크 해방 작전에 참여했다고 푸틴 대통령에게 보고하며 이 사실을 공식적으로 확인했다.
+    abbie@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[알렉산드르 힌시테인 러시아 쿠르스크 주지사]]></Title>
+         <Caption><![CDATA[[타스 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20251226012901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2025/12/26/PTA20251226012901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

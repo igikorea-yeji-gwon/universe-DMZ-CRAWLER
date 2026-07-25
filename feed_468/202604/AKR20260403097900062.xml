@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260403097900062</ContentID>
+      <SendDate>20260403</SendDate>
+      <SendTime>144242</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004006" name="속초"/>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="0201018" name="투자협력"/>
+         <ClassCode code="0107002" name="지방의회"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260403097900062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[원미희 강원도의원, 평화경제특구 공모 적극 대응 촉구]]></Title>
+      <SubTitle><![CDATA["도내 7개 시군 개별 준비 중"…도 차원 통합 전략 필요]]></SubTitle>
+      <Body><![CDATA[원미희 강원도의원, 평화경제특구 공모 적극 대응 촉구
+"도내 7개 시군 개별 준비 중"…도 차원 통합 전략 필요
+
+
+    (춘천=연합뉴스) 류호준 기자 = 강원특별자치도가 정부의 평화경제특구 지정 공모에 적극적으로 나서야 한다는 목소리가 나왔다.
+    원미희 강원도의원(비례·국민의힘)은 3일 제344회 임시회 5분 자유발언에서 정부의 평화경제특구 지정 공모와 관련해 강원도의 전략적 대응을 촉구했다.
+    원 의원은 "정부가 2026∼2027년 평화경제특구 지정 계획을 공고한 이후 전국 17개 접경지역이 치열한 경쟁에 돌입했다"며 "강원도 역시 춘천, 철원, 양구, 화천, 인제, 속초, 고성 등 7개 시군이 대상이지만 각 시군이 개별적으로 준비하고 있다"고 지적했다.
+    이어 "시군이 분산 대응할 경우 단 한 곳도 선정되지 못할 수 있다"며 "이번 공모는 국가 기본계획과의 부합성이 핵심이고, 신청권자가 시장 군수가 아닌 도지사인 만큼 도 차원의 통합 전략이 필요하다"고 덧붙였다.
+    특히 정부의 기본계획에 부합하도록 시군 공동 권역형 신청을 주문했다.
+    또 동해안권 특구 전략과 관련해 속초와 강원 고성은 반드시 하나의 권역으로 공동 신청해야 한다고 강조했다.
+    속초의 경우 항만·관광·생활 인프라를 갖춘 거점 도시이고 고성은 DMZ와 금강산을 연결하는 접경 최전선으로 두 지역이 결합 시 남북 관광·경제협력의 완결 구조 형성이 가능할 것으로 보고 있다.
+    통일부가 추진하는 속초 원산 간 국제 원산 갈마 평화관광 계획과 관련해서는 북미, 남북 대화 재개시 속초와 고성은 과거 금강산 관광을 실시한 지역으로, 역사적 기반과 정책적 연속성을 갖추고 있어 금강산·설악산, 원산·갈마∼속초를 잇는 평화 관광지대 실현이 가능하다고 힘주어 말했다.
+    원 의원은 "평화경제특구는 접경지역 희생에 대한 보상 성격으로 세제 혜택 등 다양한 혜택과 함께 미래 성장 기반 확보를 위한 좋은 기회"라며 "동해안권 평화경제특구는 속초와 고성이 함께 가야만 가능한 필수 전략"이라고 말했다.
+    이어 "이번 전략은 2024년 6월 도정질문과 지난 2월 5분 자유발언을 통해 제시한 강원형 메가시티∼생활권 강소 도시 행정통합과도 무관치 않다"고 마무리했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[원미희 강원특별자치도의원]]></Title>
+         <Caption><![CDATA[[강원특별자치도의회 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260403097900062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/03/AKR20260403097900062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

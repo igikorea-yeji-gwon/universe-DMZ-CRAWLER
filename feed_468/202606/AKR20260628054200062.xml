@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260628054200062</ContentID>
+      <SendDate>20260628</SendDate>
+      <SendTime>210007</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004014" name="춘천"/>
+         <RegionCode code="7106034" name="에티오"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+         <ClassCode code="0701003" name="전시공연"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260628054200062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[현장in] 6·25 참전 에티오피아 용사 후손들, 격전지 춘천서 평화의 합창]]></Title>
+      <SubTitle><![CDATA[참전용사 손자녀 구성 '강뉴합창단' 할아버지가 피 흘린 땅에서 공연 펼쳐]]></SubTitle>
+      <Body><![CDATA[[현장in] 6·25 참전 에티오피아 용사 후손들, 격전지 춘천서 평화의 합창
+참전용사 손자녀 구성 '강뉴합창단' 할아버지가 피 흘린 땅에서 공연 펼쳐
+
+
+    (춘천=연합뉴스) 양지웅 기자 = "나의 살던 고향은 꽃 피는 산골…아리랑 아리랑 홀로 아리랑."
+    28일 강원 춘천시의 한 교회에서는 한국을 지킨 영웅의 후손들이 멀리서 찾아와 뜻깊은 공연을 펼쳤다.
+    무대의 주인공은 6·25 참전 에티오피아 용사인 '강뉴부대'의 손자녀 34명으로 구성된 강뉴합창단이다.
+    이들은 에티오피아 참전 75주년, 참전용사 후원회 창립 30주년을 기념해 할아버지가 목숨을 바쳐 지켜낸 한국을 찾았다.
+    특히 춘천은 강뉴부대 제1진이 1951년 여름 처음 투입된 중부 전선으로 단원들에게는 뜻깊은 곳이다.
+    합창단은 이날 '에델바이스' , '고향의 봄' 등 우리에게 친숙한 노래부터 시작해 아프리카 전통춤과 오 해피데이 등 흥겨운 공연으로 객석을 채운 시민들의 어깨를 들썩이게 했다.
+    특히 한복으로 갈아입은 단원들이 부채춤을 추며 '홀로 아리랑' 을 불러 감동을 자아내기도 했다.
+
+    할아버지가 목숨 바쳐 지켜낸 대한민국을 기억하고, 노래로 그 정신을 이어가려는 아이들은 '기억과 감사', '만남과 교감', '화합과 희망'을 공연에 담아 진심을 전했다.
+    이날 공연에는 강뉴부대 출신 참전용사 테스파예 아스마마우(95)씨도 참석했다. 그는 1953년 4월부터 이듬해 4월까지 한반도에 파병됐던 참전용사다.
+    그는 "70년 전에는 한국이 온통 발이 빠지는 흙밭이었는데 70년 동안 너무 변해있어 신기하고, 발전한 이 땅을 다시 찾게 돼 너무 기쁘다"며 "우리를 기억하고 합창단을 초청해줘서 감사하다"고 말했다.
+    관객들은 공연이 끝날 즈음 온정을 모아 이들을 후원했다.
+    한국 체류 기간 중 모인 성금은 에티오피아 참전용사 후손 어린이들의 심장병 수술비 등으로 사용될 계획이다.
+    신광철 한국전쟁참전국기념사업회장은 "전쟁 당시 아무것도 없었던 한국이 지금 얼마나 번영하게 됐는지 참전용사 후손들에게 보여주고 싶었다"며 "이들이 부르는 평화와 번영의 노래가 두 나라에 화합과 희망을 가져다주길 바란다"고 말했다.
+    강뉴합창단은 내달 말까지 서울과 대전, 고양, 수원, 부산 등을 돌며 공연을 이어갈 예정이다.
+
+    에티오피아는 6·25전쟁 당시 아프리카 대륙에서 유일하게 지상군을 파병해준 나라다.
+    1951년 5월부터 정전협정이 체결된 1953년 7월까지 총 3천518명을 보냈다.
+    이들은 전쟁 기간 최전방 중부 전선에서 253전 253승이라는 전공을 세웠다.
+    이 과정에서 122명이 전사하고 536명이 다쳤으나 단 한 명의 포로도 남기지 않은 것으로 전해졌다.
+    하지만 이들은 1974년 에티오피아에 공산 군사정권이 들어서면서 친미 성향의 한국을 도왔다는 이유로 반역자로 몰려 곤궁한 삶을 이어가야 했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[6·25 참전 에티오피아 용사 후손들, 춘천서 공연 펼쳐]]></Title>
+         <Caption><![CDATA[(춘천=연합뉴스) 양지웅 기자 = 28일 강원 춘천시 춘천중앙교회에서 6·25 참전 에티오피아 용사의 손자녀들로 구성된 '강뉴합창단'이 공연을 선보이고 있다. 2026.6.28 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026062807540006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/28/PYH2026062807540006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[6·25 참전 에티오피아 용사 후손들, 춘천서 평화의 합창]]></Title>
+         <Caption><![CDATA[(춘천=연합뉴스) 양지웅 기자 = 28일 강원 춘천시 춘천중앙교회에서 6·25 참전 에티오피아 용사의 손자녀들로 구성된 '강뉴합창단'이 공연을 선보이고 있다. 2026.6.28 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026062807610006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/28/PYH2026062807610006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[6·25 참전 에티오피아 용사 후손들, 춘천서 평화의 합창]]></Title>
+         <Caption><![CDATA[(춘천=연합뉴스) 양지웅 기자 = 28일 강원 춘천시 춘천중앙교회에서 6·25 참전 에티오피아 용사의 손자녀들로 구성된 '강뉴합창단'이 공연을 선보이고 있다.2026.6.28 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026062807790006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/28/PYH2026062807790006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

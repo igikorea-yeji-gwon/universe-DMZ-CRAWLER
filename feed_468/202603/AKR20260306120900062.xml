@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260306120900062</ContentID>
+      <SendDate>20260306</SendDate>
+      <SendTime>152002</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0505007" name="식물"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260306120900062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원산림과학연구원·국립DMZ자생식물원, 접경지 식물 보전 맞손]]></Title>
+      <Body><![CDATA[강원산림과학연구원·국립DMZ자생식물원, 접경지 식물 보전 맞손
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원특별자치도 산림과학연구원은 6일 양구군 국립DMZ자생식물원 국제회의실에서 DMZ 및 접경지역 자생식물의 보전과 육성을 위한 업무 협약식을 열었다.
+    이번 협약은 국립DMZ자생식물원이 보유한 접경지역 자생식물을 대상으로 보전·관리·증식·전시 분야의 공동 운영과 기술 협력을 추진하고자 마련됐다.
+    양 기관은 협약을 통해 접경지역 자생식물의 현지 외 보전 및 증식·재배·관리 운영, 재배시설 및 관리 기술 협력, 기술 자문과 교육 및 인력 교류, 전시·교육·홍보 프로그램 운영에 나서기로 했다.
+    산림과학연구원은 이번 협약을 계기로 접경지역 식물 보전의 중요성을 알리는 전시와 교육 프로그램을 확대하고, 자생식물의 안정적인 보전을 위한 증식·재배 등도 적극 추진할 계획이다.
+    DMZ 및 접경지역은 희귀·특산 자생식물이 다수 분포하는 생태적 핵심지역이다.
+    최근 기후변화에 따른 생육환경 변화와 서식지 감소, 침입 외래식물 확산 등으로 체계적인 보전 대책 마련이 요구되고 있으며, 유전자원 확보와 증식 기반 강화를 위한 전문기관 간 협력 필요성이 커지는 상황이다.
+    채병문 도 산림과학연구원장은 "이번 협약을 통해 DMZ 및 접경지역 자생식물의 안정적인 보전 기반을 더욱 공고히 하고, 증식·재배 기술 협력과 전시·교육 프로그램을 운영해 자생식물 보전의 공공적 가치를 확산시키겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국립DMZ자생식물원]]></Title>
+         <Caption><![CDATA[[국립수목원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PYH2011072002650006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2011/07/20/PYH2011072002650006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

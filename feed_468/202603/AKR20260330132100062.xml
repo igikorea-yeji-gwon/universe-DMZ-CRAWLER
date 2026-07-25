@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260330132100062</ContentID>
+      <SendDate>20260330</SendDate>
+      <SendTime>160209</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0105001" name="선거일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260330132100062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[속초시장 선거 레이스 점화…민주당 경선 후보 간 신경전도]]></Title>
+      <SubTitle><![CDATA[토론회 매체 두고 이견…출마 선언 이어지며 선거 구도 형성]]></SubTitle>
+      <Body><![CDATA[속초시장 선거 레이스 점화…민주당 경선 후보 간 신경전도
+토론회 매체 두고 이견…출마 선언 이어지며 선거 구도 형성
+
+
+    (속초=연합뉴스) 류호준 기자 = 6·3 지방선거를 앞두고 강원 속초시장 후보 간 경쟁이 본격화되고 있다.
+    더불어민주당 김철수 속초시장 예비후보는 30일 선거 사무소에서 비전 선포식을 열고 "설렘 보다는 무거운 책임감으로 이 자리에 섰다"며 "민선 7기 시장 재임 동안 현장에 답이 있다는 신념으로 현장 중심의 시정을 이끌었다"고 밝혔다.
+    이어 "시장직은 연습하는 자리가 아닌 결과로 증명하는 자리"라며 "'추진력 있게 일 잘하는 시장' 답게 즉시 성과로 보여 드리겠다"고 강조했다.
+    같은 당 소속의 주대하 예비후보는 지난 21일 선거 사무소 개소식을 열었다.
+    주 예비후보는 "속초의 관광자원개발로 발생하는 이익이 일부에만 돌아가는 구조를 바꾸고 시민에게 환원하는 제도를 도입하겠다"며 "청년이 떠나지 않고 어르신이 존중받는 도시를 만들겠다"고 다짐했다.
+    이어 "설악권 관광경제를 통합해 통합관광행정지원센터와 순환형 대중교통체계를 구축하고 설악권 관광개발 공사를 설립하겠다"며 "해양 산악 스포츠 문화예술 복합 레저특구 추진과 접경지역 및 고령화 도시의 지속 가능한 성장 동력을 만들겠다"고 덧붙였다.
+    두 후보는 경선을 앞둔 가운데 TV 토론회 방식을 두고 설전도 벌이고 있다.
+    토론회 개최 필요성에는 두 후보 모두 공감하고 있지만, 토론 방송 매체 등을 두고 견해차를 보인다.
+    김철수 예비후보는 더 많은 시민의 알권리 충족을 위해 지상파 3사 주관 방송을 요구하는 반면, 주대하 예비후보는 지역 방송과 유튜브 형식 등과 관계없이 참여하겠다는 입장인 것으로 알려졌다.
+    이병선 현 시장은 국민의힘 속초시 후보로 단수 공천을 받았다.
+    이 시장은 지난 1월 출판 기념회를 열고 3선 도전을 시사한 데 이어 지난 22일 시정 보고회를 통해 민선 8기 주요 성과와 비전을 공유했다.
+    무소속 염하나 시의원도 지난 17일 출마 기자회견을 열고 "속초를 바꾸라는 시민의 뜻을 마음에 새겨 이 자리에 섰다"며 "이 자리에서 속초시장 출마를 선언한다"고 밝혔다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초 시내]]></Title>
+         <Caption><![CDATA[[촬영 류호준]]]></Caption>
+         <FileName>PCM20260330000009990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2026/03/30/09/PCM20260330000009990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260502027000083</ContentID>
+      <SendDate>20260502</SendDate>
+      <SendTime>131355</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7214001" name="북한"/>
+         <RegionCode code="7102025" name="중국"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260502027000083]]></Href>
+      <Writer><![CDATA[정성조]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[북러 자동차 다리 연결식 직후에…中외교관, 북중러 접경지 방문]]></Title>
+      <SubTitle><![CDATA[엿새간 北함경북도·라선시 순회…中, 태평양 직접진출 위해 북러 협조 필요]]></SubTitle>
+      <Body><![CDATA[북러 자동차 다리 연결식 직후에…中외교관, 북중러 접경지 방문
+엿새간 北함경북도·라선시 순회…中, 태평양 직접진출 위해 북러 협조 필요
+
+
+    (베이징=연합뉴스) 정성조 특파원 = 북한과 러시아가 두만강 교량 건설에 나서는 등 밀착을 강화하는 가운데 북한 주재 중국 외교관이 북중러 접경인 함경북도와 라선시를 방문했다고 주북 중국대사관이 1일 밝혔다.
+    주북 중국대사관에 따르면 왕충룽 공사참사관(공참) 일행은 지난달 25∼30일 함경북도와 라선시의 공장 5곳과 전시회장 등을 둘러보면서 생산·경영·판매 상황을 파악했다.
+    이어 왕 공참 일행은 라선시 원정리 통상구로 이동해 조사·연구·시찰 활동을 했다고 주북 중국대사관은 전했다. 북한 원정리는 신(新)두만강대교를 통해 중국 지린성 훈춘시 취안허 통상구로 연결되는 북중 교역 창구다.
+    왕 공참 일행의 함경북도·라선시 방문에는 진옌광 청진 주재 중국총영사와 장광남·림광호 북한 외무성 아주1국 연구원, 리준필 라선시 대외사업국장, 김성철 함경북도 대외사업국 부국장 등이 동행했다고 주북 중국대사관은 설명했다.
+
+    중국 외교관의 함경북도·라선시 방문은 북한과 러시아가 내달 '두만강 자동차 교량' 완공 일정을 공식화한 직후 이뤄졌다. 북러는 지난달 21일 양국 국경에서 두만강 교량 연결식을 개최했다.
+    북러 두만강 자동차 교량 건설은 2024년 6월 평양에서 열린 김정은 북한 국무위원장과 블라디미르 푸틴 러시아 대통령의 정상회담 합의사항으로, 지난해 4월 말 착공했다.
+    두만강에는 북한 두만강역과 러시아 하산역을 기차로 오가는 철교가 있지만, 그동안 자동차용 교량은 없었다. 자동차 교량 개통은 북러 간 협력이 긴밀해지면서 양국 간 교류를 확대하는 실질 조치도 속도를 내고 있음을 보여준다.
+    두만강 하류는 동해(태평양) 직접 진출을 노리는 중국에 전략적으로 중요한 지역이기도 하다.
+    중국은 북한과 압록강·두만강을 경계로 국경을 맞대고 있는데, 서해와 곧장 연결되는 압록강 국경과 달리 동쪽의 두만강 국경은 태평양에 닿기 전 지린성 훈춘시 팡촨에서 끝난다. 팡촨부터 동해로 향하는 두만강 하류 약 17㎞ 구간은 북러의 국경이다.
+    이 때문에 중국이 두만강 하류를 통해 태평양으로 직접 진출하려면 북한과 러시아의 협조가 필수적이다. '북러 국경' 구간에선 소련 시절 건설된 철교 때문에 화물선의 항행이 거의 불가능한 상태인 것으로 알려졌다.
+    중러는 지난 2024년 5월 베이징 정상회담 공동성명에서 중국 선박이 두만강 하류를 통해 바다로 나가 항해하는 사안에 관해 북한과 '건설적 대화'를 진행하는 것을 지지한다는 내용을 명시한 바 있다.
+
+    xing@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한 공장 둘러보는 왕충룽 주북 중국대사관 공참(오른쪽에서 두번째)]]></Title>
+         <Caption><![CDATA[[주북 중국대사관 홈페이지 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260502027000083_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/02/AKR20260502027000083_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한 공장 둘러보는 왕충룽 주북 중국대사관 공참(오른쪽)]]></Title>
+         <Caption><![CDATA[[주북 중국대사관 홈페이지 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260502027000083_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/02/AKR20260502027000083_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북러 잇는 두만강 자동차다리 연결식 진행]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 북-러 국경에서 자동차다리 양측 구간을 연결하는 작업이 지난 21일 성과적으로 진행됐다고 조선중앙통신이 23일 보도했다. 2026.4.23 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026042300900004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/23/PYH2026042300900004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

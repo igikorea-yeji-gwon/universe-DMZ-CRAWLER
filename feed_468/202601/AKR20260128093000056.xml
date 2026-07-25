@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260128093000056</ContentID>
+      <SendDate>20260128</SendDate>
+      <SendTime>134553</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7010001" name="제주도"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0701008" name="문화정책"/>
+         <ClassCode code="0707001" name="미술일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260128093000056]]></Href>
+      <Writer><![CDATA[김호천]]></Writer>
+      <Desk code="056"><![CDATA[제주취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[제주 4·3미술 프로젝트 '청년사삼정감' 진행…참가신청 접수]]></Title>
+      <Body><![CDATA[제주 4·3미술 프로젝트 '청년사삼정감' 진행…참가신청 접수
+
+
+
+    (제주=연합뉴스) 김호천 기자 = 제주 미술인 단체인 탐라미술인협회는 청년의 시선에서 예술을 통해 4·3을 다시 말하고, 묻고, 현재와 이어가는 '2026∼2027 4·3미술 프로젝트 청년사삼정감' 사업을 한다고 27일 밝혔다.
+    이 사업은 제주 4·3을 중심으로 한 역사적 기억을 청년 예술가의 시선으로 다시 돌아보고, 현장 조사와 예술적 실천을 통해 새로운 서사를 구축하는 연구형 전시 프로젝트다.
+    프로젝트를 주관하는 4·3미술제조직위원회는 이 사업에 참여할 청년 예술가를 공모한다.
+    프로젝트는 3월 6∼7일 제주도 내 4·3 유적지 답사와 토론을 한 뒤 4월에 4·3 위령제에 참여하고 4·3미술제 전시를 돌아보는 것으로 시작한다.
+    참가자들은 이어 같은 달 4·3 관련 교육을 받고 유적지를 순례하고 작업 및 연구 과정을 발표한다. 
+    7월 13∼18일 대구, 여수, 광주, 정읍, DMZ, 서울 등 한반도 역사의 현장을 방문해 조사하고, 지역 예술가들을 만난다.
+    11월까지 4·3 미술 특강 및 선배 작가들을 만나고 프로젝트 결과를 발표한다. 최종 작품 전시는 내년 3∼4월에 한다.
+    모집 대상 및 인원은 제주도 출신 또는 제주에서 활동하는 35세 이하 시각예술 및 공연 예술가, 문학 작가, 4·3 연구자 등 9명 이내다. 학력이나 국적은 제한이 없다.
+    참가 신청은 전자우편(jeju43art@gmail.com)으로 31일까지 하면 된다. 내달 9일 인터뷰하고, 다음 날 선정 결과를 발표한다.
+    khc@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['청년사삼정감' 공모 포스터]]></Title>
+         <Caption><![CDATA[[탐라미술인협회 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260128093000056_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/28/AKR20260128093000056_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260414011800062</ContentID>
+      <SendDate>20260414</SendDate>
+      <SendTime>063622</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0606005" name="화재"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260414011800062]]></Href>
+      <Writer><![CDATA[강태현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 철원 DMZ 산불 이틀째 진화 중…헬기 3대 투입]]></Title>
+      <Body><![CDATA[강원 철원 DMZ 산불 이틀째 진화 중…헬기 3대 투입
+
+
+    (철원=연합뉴스) 강태현 기자 = 강원 철원군 비무장지대(DMZ)에서 발생한 산불 진화 작업이 이틀째 이어지고 있다.
+    14일 산림 당국에 따르면 전날(13일) 낮 12시 10분께 철원군 철원읍 가단리 비무장지대에서 산불이 났다.
+    산림청은 전날 헬기 4대를 투입해 진화 작업을 벌인 데 이어 이날 일출과 동시에 헬기 3대를 투입해 진화 중이다. 전날까지 진화율은 60%를 보였다.
+    불은 비무장지대 북측에서 시작돼 남쪽으로 번진 것으로 알려졌다.
+    당국은 진화를 마치는 대로 피해 면적 등을 추산할 방침이다.
+    taetae@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpeg">
+         <Title><![CDATA[봄철 비무장지대(DMZ) 산불(PG)]]></Title>
+         <Caption><![CDATA[[제작 이태호] 일러스트]]></Caption>
+         <FileName>C0A8CA3C0000015AA79F3DBB00049D4F_P2.jpeg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2017/03/07/01/C0A8CA3C0000015AA79F3DBB00049D4F_P2.jpeg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

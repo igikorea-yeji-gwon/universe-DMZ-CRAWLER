@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260309107300062</ContentID>
+      <SendDate>20260309</SendDate>
+      <SendTime>141825</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260309107300062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 마현 13초소 이전 완료…내달부터 통행 제한 전면 해제]]></Title>
+      <Body><![CDATA[철원군, 마현 13초소 이전 완료…내달부터 통행 제한 전면 해제
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 철원∼화천을 연결하는 국도 5호선 마현리 입구의 군부대 13민통초소를 52초소로 이전을 완료함에 따라 내달부터 전면 개통한다고 9일 밝혔다.
+    이에 따라 마현리 주민과 농민들은 출입 제한 없이 통행할 수 있게 돼 60여년간 군사지역 내 민통초소 출입 통제로 불편을 겪어온 이들의 숙원이 해소될 전망이다.
+    이번 초소 이전은 마현리 주민들의 지속적인 건의로 추진된 사업이다.
+    철원군은 접경권 발전지원사업 공모를 통해 사업비 26억4천800만원을 확보한 뒤 2023년 초 민·관·군 국민권익위원회 조정 협의를 이루면서 초소 이전을 본격 추진했다.
+    이 과정에서 민·관·군 협의를 수십 차례 이어가며 지뢰탐지, 안전울타리 및 폐쇄회로(CC)TV 설치 위치 선정 등 다양한 이해관계를 조율했다.
+    이현종 군수는 "이번 민통초소 이전을 통해 60여년 동안 제한받던 근남면 마현리 주민들의 통행 불편이 해소돼 이들의 생업과 생활에 많은 혜택이 돌아갈 것"이라고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 마현 13초소 안전울타리 설치]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260309107300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/09/AKR20260309107300062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

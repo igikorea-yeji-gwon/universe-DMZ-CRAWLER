@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260318127600504</ContentID>
+      <SendDate>20260318</SendDate>
+      <SendTime>153101</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="0108001" name="외교일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260318127600504]]></Href>
+      <Writer><![CDATA[민선희]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[외교부, '지상전 본격화' 레바논서 조속 출국 강력 권고]]></Title>
+      <Body><![CDATA[외교부, '지상전 본격화' 레바논서 조속 출국 강력 권고
+
+
+    (서울=연합뉴스) 민선희 기자 = 레바논에서 지상전이 본격화하는 등 전황이 악화하는 가운데, 외교부는 현지 교민들에게 민항편을 통해 조속히 출국하라고 강력히 권고했다. 
+    외교부는 18일 "이스라엘 지상군이 레바논 남부에 투입되는 등 현지 정세가 지속 악화 중인 점을 감안해, 레바논에 체류 중인 국민들은 현재 가용한 민항편을 통해 조속히 출국해달라"고 권고했다. 
+    전규석 주레바논대사도 지난 11일 대사관 홈페이지에 게시한 '교민들께 드리는 말씀'을 통해 "지금, 이 상황에서 레바논에 계속 남는 것은 사명이 아니라 여러분과 가족의 생명을 위험에 노출하는 선택이 될 수 있다"고 밝혔다. 
+    이어 "이제는 레바논을 잠시 떠나실 때"라며 "어렵더라도 상황이 안정될 때까지만 레바논에서의 체류를 잠시 멈춰달라"고 했다. 
+    그러면서 "지금 떠나지 않는다면 매우 어려운 여건하에서 대피하실 수도 있고, 정부가 안전을 충분히 도모하기 어려운 상황도 배제할 수 없다"며 "여러분의 안전과 자녀의 안전, 사랑하고 걱정하는 가족들, 국민들의 애끓는 염려를 생각해 정부와 대사관의 적극 협조해달라"고 당부했다.
+    현재 레바논 남부 이스라엘 접경지역(블루라인으로부터 5㎞ 포함)과 남부주, 나바티예주, 다히예 일부 지역(베이루트 공항 및 M51 도로 제외)에는 여행금지에 해당하는 여행경보 4단계가 발령돼있으며, 나머지 지역은 3단계(출국권고)다. 
+    외교부에 따르면 현재 레바논에는 120여명의 우리 교민이 체류하고 있다. 
+    16일(현지시간) 외신들에 따르면 이스라엘은 최근 레바논 남부에서 지상전을 개시했다.
+    이스라엘 북부와 국경을 맞댄 레바논 남부지역은 친(親)이란 이슬람 시아파 무장 조직 헤즈볼라의 활동이 활발한 곳으로, 이스라엘은 이번 전쟁이 시작되고서 이 지역을 집중적으로 공습해왔다.
+    ssun@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘 공습으로 파손된 레바논 남부의 건물]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260315503401009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/03/15/PRU20260315503401009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

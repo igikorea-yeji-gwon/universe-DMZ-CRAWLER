@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260203141200062</ContentID>
+      <SendDate>20260203</SendDate>
+      <SendTime>164210</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0606008" name="안전관리"/>
+         <ClassCode code="0702006" name="민속풍습"/>
+         <ClassCode code="0801012" name="휴가휴일"/>
+         <ClassCode code="0412001" name="해양항만"/>
+         <ClassCode code="0510004" name="경찰"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260203141200062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[속초해경, 설 연휴 특별 안전 대책 추진…"안전한 명절 되세요"]]></Title>
+      <SubTitle><![CDATA[다중 이용 선박 등 중심 관리 강화…해안가 접근 자제 등 당부]]></SubTitle>
+      <Body><![CDATA[속초해경, 설 연휴 특별 안전 대책 추진…"안전한 명절 되세요"
+다중 이용 선박 등 중심 관리 강화…해안가 접근 자제 등 당부
+
+
+    (속초=연합뉴스) 류호준 기자 = 강원 속초해양경찰서는 오는 18일까지 설 연휴 해양 안전관리 특별대책을 추진한다고 3일 밝혔다.
+    속초해경은 설 연휴 동해안을 찾는 방문객이 증가할 것으로 보고 안전하고 즐거운 명절이 될 수 있도록 이번 대책을 실시한다.
+    주요 추진내용으로는 도선, 낚시어선 등 다중 이용 선박과 수상레저 주요 활동지 안전관리 강화, 연안해역 안전관리 및 안전 정보 제공, 접경 해역 안전관리, 민생침해범죄 일제 단속 및 정보·보안, 외사 활동 강화, 해양오염사고 대비 등이 있다.
+    해양 안전 저해 사범의 경우 선박 불법 증·개축, 안전 검사 미수검, 1인 조업선 구명조끼 미착용 등을 중점적으로 살펴본다.
+    민생범죄는 서민경제 침해형과 시장 질서 교란형 범죄 등 해양 종사자의 생계와 직결된 범죄를 대상으로 특별단속을 실시한다.
+    속초해경 관계자는 "안전하고 즐거운 설 연휴를 보낼 수 있도록 국민의 안전사고 예방을 위해 최선을 다하겠다"며 "연휴를 즐기는 국민들도 바다 날씨가 좋지 않을 때는 해안가 접근을 자제하는 등 안전 수칙을 준수해달라"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초해양경찰서]]></Title>
+         <Caption><![CDATA[[속초해양경찰서 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240705000059062_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/07/05/59/PCM20240705000059062_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

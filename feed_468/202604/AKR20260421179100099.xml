@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260421179100099</ContentID>
+      <SendDate>20260421</SendDate>
+      <SendTime>234916</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7106047" name="콩고민공"/>
+         <RegionCode code="7106035" name="우간다"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001133" name="우분투"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260421179100099]]></Href>
+      <Writer><![CDATA[나확진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우간다·민주콩고 연합 작전…무장단체 피랍 200명 구출]]></Title>
+      <Body><![CDATA[우간다·민주콩고 연합 작전…무장단체 피랍 200명 구출
+
+
+    (요하네스버그=연합뉴스) 나확진 특파원 = 아프리카 중부 우간다와 콩고민주공화국(민주콩고) 군이 연합 작전을 펼쳐 이슬람국가(IS) 연계 무장단체에 피랍된 민간인 200여명을 구출했다.
+    우간다 군은 20일(현지시간) 성명에서 민주콩고 군과 함께 지난주 민주콩고 동부 에풀루강 인근에서 이슬람 무장세력 '민주군사동맹'(ADF) 캠프를 급습해 다수의 반군을 사살하고 무기고를 확보했다며 이같이 밝혔다.
+    ADF는 1990년대 초 우간다에서 조직된 이후 중앙정부의 통제가 약한 접경국 민주콩고 동부로 거점을 옮겨 활동해왔다. 2019년부터는 IS의 분파를 자처하며 민주콩고 동부에서 민간인 살해와 납치·강간을 일삼아 유엔 등에서 인권 침해의 주범으로 지목됐다.
+    이번에 구출된 인원 가운데 가장 어린 피해자는 14세 소녀였다고 우간다군은 밝혔다.
+    이들은 식량을 제대로 받지 못한 채 강제노동 등을 해야 했으며 일부는 말라리아나 호흡기 감염 등 질병에 걸렸음에도 제대로 치료받지 못했다고 우간다군은 설명했다.
+    우간다군은 2021년부터 민주콩고 정부를 지원해 ADF와 싸우기 위해 파병, 연합 작전을 하고 있다.
+    rao@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[우간다와 민주콩고 군의 연합작전으로 확보한 이슬람 무장단체 '민주군사동맹'(ADF)의 무기들[우간다군 홈페이지 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260421179100099_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/21/AKR20260421179100099_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

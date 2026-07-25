@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260326184000004</ContentID>
+      <SendDate>20260326</SendDate>
+      <SendTime>185940</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0109012" name="군사훈련"/>
+         <ClassCode code="0109008" name="주한미군"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260326184000004]]></Href>
+      <Writer><![CDATA[방현덕]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한반도평화행동 "이란 파병 반대…한미훈련 유예해야"]]></Title>
+      <Body><![CDATA[한반도평화행동 "이란 파병 반대…한미훈련 유예해야"
+
+
+    (서울=연합뉴스) 최윤선 기자 = 시민단체 '한반도 평화행동'은 26일 정부를 향해 미국-이란 전쟁 국군 파병 반대와 한미 연합 군사훈련 유예 등을 촉구했다.
+    이 단체는 성명에서 세계정세 급변 와중에도 한반도 평화를 위해서는 정부가 평화 우선 전략을 펴야 한다며 이같이 말했다. 
+    이들은 "어떤 경우에도 국제법적으로 용납되기 어려운 미국의 대(對)이란 전쟁에 참전하거나 군을 파견하지 말아야 한다"며 "이미 인근에 파견된 청해부대나 아크부대의 군사적 개입도 절대로 있어선 안 된다"고 주장했다.
+    또 "북한을 군사적으로 위협할 의사가 없다고 천명한 바를 뒷받침하기 위한 구체적 후속 조치를 단행해야 한다"며 "접경지역의 군사훈련을 중단하고 한미 연합 군사 연습을 유예해야 한다"고 강조했다.
+    이들은 이와 함께 조건 없는 전시작전통제권 환수와 한국전쟁 종전 논의 착수 등도 필요하다고 말했다. 지난 정부의 무인기 침투 도발 등에 대한 공식 유감 표명과 함께 정부와 국회가 '한반도 평화 결의안'을 채택하는 방안도 추진해야 한다고 덧붙였다. 
+    한반도 평화행동은 국내 607개 종교·시민사회단체와 80여개 국제 파트너 단체가 참여하는 단체다. 
+    ysc@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[한반도 평화행동 [한반도 평화행동 홈페이지]]]></Caption>
+         <FileName>AKR20260326184000004_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/26/AKR20260326184000004_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

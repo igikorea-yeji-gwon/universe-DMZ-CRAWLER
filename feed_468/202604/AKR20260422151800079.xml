@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260422151800079</ContentID>
+      <SendDate>20260422</SendDate>
+      <SendTime>175735</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260422151800079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘군 참모총장 "모든 전선 전투 복귀 준비 완료"]]></Title>
+      <Body><![CDATA[이스라엘군 참모총장 "모든 전선 전투 복귀 준비 완료"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 미국과 이란의 2차 종전 협상이 무산된 가운데 에얄 자미르 이스라엘군 총참모장이 모든 전선에서 전투를 재개할 준비가 되어 있다고 말했다.
+    자미르 총장은 22일(현지시간) 대통령 관저에서 열린 독립기념일 우수 장병 포상 행사에서 "이스라엘군은 높은 경계와 대비 태세를 유지하고 있다. 모든 전선에서 즉각적이고 강력하게 전투에 복귀할 준비가 되어 있다"고 강조했다.
+    자미르 총장은 지난해 6월 이란과의 12일 전쟁과 최근 40일간 이어진 대이란 군사작전 등 이란과의 교전 상황, 레바논에서 이어지고 있는 친이란 무장 정파 헤즈볼라와의 지상전 등을 언급했다.
+    그러면서 그는 "우리는 지속적인 전투를 통해 군사력을 재건해 왔다. 현재 이 시각에도 북부 접경 지역 사회의 방어력을 강화하기 위해 레바논에서 치열한 전투를 수행 중"이라고 말했다.
+    앞서 이스라엘 공영방송 칸(Kan)은 전날 이스라엘 고위 안보 당국자를 인용, 이스라엘이 미국과 이란의 종전 협상 타결 가능성을 낮게 보고 휴전 종료 후 전쟁 재개 준비에 들어갔다고 보도했다. 
+    당시 이스라엘 당국자는 "이스라엘과 미국은 이미 조율을 마쳤으며 즉각적으로 전쟁을 재개할 준비가 되어 있다"고 말했다. 
+    특히 지난주 브래드 쿠퍼 미 중부사령관의 이스라엘 방문 당시, 양국은 이란 전역의 국가 기간시설 및 에너지 기반 시설 타격을 포함한 공동 작전 계획과 타격 목표 리스트를 최종 승인한 것으로 알려졌다고 방송은 전했다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[에얄 자미르 이스라엘군 참모총장]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스 자료사진. 재판매 및 DB 금지.]]]></Caption>
+         <FileName>AKR20260422151800079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/22/AKR20260422151800079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

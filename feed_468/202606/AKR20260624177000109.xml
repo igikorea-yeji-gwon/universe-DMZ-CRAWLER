@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260624177000109</ContentID>
+      <SendDate>20260624</SendDate>
+      <SendTime>235835</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103005" name="노르웨이"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260624177000109]]></Href>
+      <Writer><![CDATA[민경락]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["러 공격에 우크라 남부서 NGO 직원 사망"]]></Title>
+      <SubTitle><![CDATA[노르웨이 인도주의 단체 소속…"5명 부상"]]></SubTitle>
+      <Body><![CDATA["러 공격에 우크라 남부서 NGO 직원 사망"
+노르웨이 인도주의 단체 소속…"5명 부상"
+
+
+    (로마=연합뉴스) 민경락 특파원 = 러시아의 공격으로 노르웨이의 인도주의 단체 인민구호회 소속 지뢰 제거 전문가가 숨졌다고 AFP통신 등이 24일(현지시간) 보도했다.
+    인민구호회 측은 이날 AFP통신에 "러시아 공격으로 1명이 사망하고 5명은 다쳤으며 이 중 1명은 위독하다"고 전했다.
+    이들은 우크라이나 남부 헤르손 지역에 머물던 중 러시아 공격으로 피해를 본 것으로 전해졌다.
+    최근 러시아와 우크라이나 간 교전이 격화하면서 민간인 피해도 속출하고 있다.
+    한편 우크라이나 총참모부는 밤새 러시아 오렌부르크 지역의 가스 처리 시설을 타격했다고 밝혔다. 러시아 남부에 있는 오렌부르크는 우크라이나 전선에서 1천200㎞ 이상 떨어져 있다.
+    최근 우크라이나가 장거리 드론으로 러시아 에너지 인프라를 집중 공습하면서 러시아가 실효 지배 중인 크림반도와 접경지 등지의 석유 공급에 차질이 빚어지고 있다.
+    rock@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[러시아 공격 받은 도네츠크 지역의 아파트]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스. 재배포 및 DB 금지]]]></Caption>
+         <FileName>PAP20260624321101009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/06/24/PAP20260624321101009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

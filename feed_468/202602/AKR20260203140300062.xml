@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260203140300062</ContentID>
+      <SendDate>20260203</SendDate>
+      <SendTime>163702</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260203140300062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, 철원·고성 접경지역 주민 정주여건 개선 추진]]></Title>
+      <Body><![CDATA[강원도, 철원·고성 접경지역 주민 정주여건 개선 추진
+
+    (춘천=연합뉴스) 이상학 기자 = 강원 철원군과 고성군이 '접경지역 정주환경 개선 공모사업'에 선정됐다. 
+
+    3일 강원도에 따르면 철원군의 '동막리 민북마을 상생 및 환경친화 정주환경 개선'과 고성군의 '접경지역 마을 상생·협력 공동 발전' 등 2개 사업이 이번 공모사업에 선정됐다. 
+    이 사업은 약 2주간 진행된 공모 심사를 거쳐 사업 목적에 부합하고 주민 수요를 반영한 맞춤사업을 대상으로 선정했다.
+    철원에서 이뤄지는 사업은 침수로 인해 불가피하게 조성 중인 이주마을과 기존 마을을 교량 설치와 안전한 보행도로 조성 등으로 연결하는 것이다. 
+    고성에서는 화곡리 일대에 어르신 가드닝 공간을 조성하고, 마달리 거점센터 주변에 안내판 설치 등 환경 개선을 추진하는 것이다. 
+    이희열 도 기획조정실장은 "이번에 선정된 두 사업은 주민의 필요성을 최우선으로 고려해 선정됐다"며 "일회성에 그치지 않고 건강 증진과 소득 증대에 기여할 것으로 기대한다"고 말했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원특별자치도 청사 현판]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20250204000085990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/02/04/85/PCM20250204000085990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

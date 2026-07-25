@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260320056100060</ContentID>
+      <SendDate>20260320</SendDate>
+      <SendTime>100932</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0109003" name="육군"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260320056100060]]></Href>
+      <Writer><![CDATA[임병식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[민통선 철책 넘으려던 민간인 검거한 육군 장병 포상]]></Title>
+      <Body><![CDATA[민통선 철책 넘으려던 민간인 검거한 육군 장병 포상
+
+    (파주=연합뉴스) 임병식 기자 = 새벽 시간에 서부전선 민간인통제선(민통선) 철책을 넘으려던 민간인을 발견하고 검거한 육군 장병들이 부대 표창을 받았다.
+
+    20일 군에 따르면 육군 1군단 한기성 중장은 지난 19일 육군 1사단 장단대대를 방문해 영상감시병 정경윤(22) 상병 등 강안경계작전 장병 6명에게 군단장 표창을 수여했다.
+    이들은 지난 17일 오전 3시께 경기 파주시 임진각 인근에서 민통선 철책을 넘으려던 50대 남성 A씨를 영상 카메라로 발견했다.
+    부대는 즉각 상황을 전파한 뒤 감시 카메라로 A씨를 계속 추적함과 동시에 초동조치조와 기동순찰조, 정보분석조를 출동시켜 임진강변 철책을 넘으려던 A씨를 검거해 경찰에 인계했다.
+    군은 최초 식별자인 영상감시병을 시작으로 대대와 여단, 사단 지휘통제실, 경찰까지 체계적으로 지휘가 원활히 이루어진 '완전작전'이라고 평가했다. 
+    정경윤 상병은 "수시로 이루어지는 훈련과 임무에 성실히 임했을 뿐"이라며 "앞으로도 매 순간 실제상황이라는 생각으로 임무에 최선을 다하겠다"고 말했다. 
+    한편 A씨는 군사기지법 위반 혐의로 경찰에 입건돼 조사받고 있다.
+    흔히 '민통선'이라고 불리는 민간인통제선은 군사작전과 보안을 목적으로 비무장지대(DMZ) 군사분계선 이남 10㎞ 이내에 국방부가 설정한 출입 통제 구역이다. 
+    민통선을 허가 없이 출입할 경우 군사기지 및 군사시설보호법에 따라 강제 퇴거 조치 및 형사처벌을 받을 수 있다. 
+    andphotodo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[군단장 표창 받은 1사단 장단대대 장병들]]></Title>
+         <Caption><![CDATA[왼쪽부터 정경윤 상병, 권호민 중사, 문구송 소령, 조현량 대위, 오권삼 대위, 김우영 중사(진). 2026.3.20 [육군 1사단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260320056100060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/20/AKR20260320056100060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

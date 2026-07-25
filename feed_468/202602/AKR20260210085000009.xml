@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260210085000009</ContentID>
+      <SendDate>20260210</SendDate>
+      <SendTime>114809</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0501009" name="이민출입"/>
+         <ClassCode code="0404001" name="건설일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260210085000009]]></Href>
+      <Writer><![CDATA[김용래]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[트럼프 강경 이민단속에 美 건설업계 직격탄…공기지연·구인난]]></Title>
+      <SubTitle><![CDATA[잦은 단속에 합법 체류자까지 마구잡이 체포…정리해고·파산보호 속출]]></SubTitle>
+      <Body><![CDATA[트럼프 강경 이민단속에 美 건설업계 직격탄…공기지연·구인난
+잦은 단속에 합법 체류자까지 마구잡이 체포…정리해고·파산보호 속출
+
+
+    (서울=연합뉴스) 김용래 기자 = 미국 각지에서 연방정부의 마구잡이식 이민자 단속이 이어지자 공사 지연이 속출하는 등 건설업계가 심각한 타격을 입고 있다고 월스트리트저널(WSJ)이 보도했다.
+    9일(현지시간) WSJ에 따르면 텍사스 남부 리오그란데 밸리 전역의 주택 공사 현장에서는 최근 연방 이민단속국의 강제 단속이 심해지면서 현장 근로자들이 체포되는 일이 잇따랐다.
+    멕시코 접경에 있는 리오그란데 밸리는 4개의 카운티로 이뤄진 지역으로, 건설 현장 노동자의 이민자 비율이 특히 높은 곳이다.
+    이 지역 몬테 시엘로 주택단지에서는 최근 연방 요원들이 최소 6차례 이상 반복적으로 현장 단속을 벌였고, 몇주 전에는 기습 단속으로 노동자 8명을 체포해갔다.
+    당국의 잦은 단속에 따라 주택 건설이 예정된 일정보다 몇 달 이상 지연됐고, 업체들은 공사를 마무리할 인력 채용에 큰 어려움을 겪고 있다.
+    이 지역의 콘크리트 공급업체인 '57 콘크리트'는 연방정부의 강경 이민 단속으로 큰 피해를 입은 곳 중 하나다.
+    이 업체에 따르면 건설기업들의 인력 감축과 공사 중단 등으로 작년 5월 말부터 11월까지 콘크리트 사용량이 60% 급감했다. 이에 따라 이 업체는 직원 150명 중 60명을 내보내고 신규 투자도 모두 중단한 데 이어 지난해 12월엔 파산보호 신청을 하기에 이르렀다.
+    이런 일이 일어나는 건 비단 텍사스뿐만이 아니다.  미국종합건설협회가 지난달 내놓은 보고서에 따르면 미 전역의 민간 건설기업의 3분의 1가량이 지난 6개월 연방정부의 이민 단속에 영향을 받았다고 밝혔다.
+
+    미네소타주건설협회 그레이스 켈리어 부회장은 합법적 서류를 소지한 사람들까지 포함해 전체 작업팀이 당국의 이민 단속으로 체포되는 일도 있었다고 전했다. 이렇게 체포된 합법 체류자들도 판사와 대면해 석방 결정을 받기까지 몇주 씩 기다려야 한다.
+    미네소타주 사례처럼 현재 트럼프 행정부가 진행 중인 이민 단속은 불법 체류자뿐만이 아니라 합법적인 체류 허가를 받은 사람들까지도 막무가내로 이뤄지는 것이 특징이다.
+    그 결과 합법적인 취업 여부와 상관없이 구직자들이 건설 현장에서 일하기를 꺼리는 분위기가 강해졌고, 이는 건설 산업과 지역 경제 전반의 타격으로 이어지고 있다.
+    마리오 게래로 남부텍사스건설협회장은 자신을 포함해 대부분의 주변인이 트럼프 대통령에게 표를 줬고 그의 범죄자 추방정책을 지지한다면서도 강경 이민 단속이 지역경제에 피해를 주고 있다고 말했다.
+    그는 WSJ와 인터뷰에서 "그들(이민세관단속국)은 적법 서류 소지 여부와 상관없이 기본적으로 현장의 모든 사람을 잡아가 버린다"면서 "일터를 공포에 떨게 만드는데 사람들이 일하러 가는 것을 두려워할 수밖에 없다"고 비판했다. 
+    yonglae@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[미국 주택 건설 현장]]></Title>
+         <Caption><![CDATA[[EPA=연합뉴스 자료사진]]]></Caption>
+         <FileName>PEP20250517097701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2025/05/17/PEP20250517097701009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[미 연방요원들의 이민단속 현장]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스 자료사진]]]></Caption>
+         <FileName>PRU20260209461801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/02/09/PRU20260209461801009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

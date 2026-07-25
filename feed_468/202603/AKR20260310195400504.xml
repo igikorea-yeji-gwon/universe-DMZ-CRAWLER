@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260310195400504</ContentID>
+      <SendDate>20260311</SendDate>
+      <SendTime>072651</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1008004" name="북한인권"/>
+         <ClassCode code="1008006" name="탈북귀순"/>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260310195400504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[언론인 함진우씨 실종 8년여만에 '북한내 억류자'로 공식 분류]]></Title>
+      <SubTitle><![CDATA[장기 억류 국민 총 7명으로 늘어…통일부 "가족에 위로금 안내 예정"]]></SubTitle>
+      <Body><![CDATA[언론인 함진우씨 실종 8년여만에 '북한내 억류자'로 공식 분류
+장기 억류 국민 총 7명으로 늘어…통일부 "가족에 위로금 안내 예정"
+    
+
+    (서울=연합뉴스) 하채림 기자 = 2017년 북중 접경지역에서 취재 중 실종된 탈북민 언론인 함진우 씨가 북한 내 억류자로 공식 분류됐다. 
+    통일부 당국자는 11일 "장관이 작년 말 방침을 밝힌 후 유관기관과 협의를 거쳐 언론인 함진우 씨를 북한에 억류된 우리 국민으로 분류했다"고 밝혔다. 
+    통일부 웹사이트의 억류자 현황 페이지에도 "현재 북한은 김정욱·김국기·최춘길 선교사와 우리 국적을 획득한 북향민 4인까지 총 7인을 억류하고 있는 것으로 파악되고 있다"로 기재돼 있다. 함씨를 포함한 북한이탈주민 억류자 4명은 실명이 기재되지 않았다.
+    곧 발간될 '2026 통일백서'에도 억류자 현황이 7명으로 반영될 예정이다. 
+    앞서 정동영 통일부 장관은 작년 12월 언론간담회에서 함씨를 북한 내 억류자 명단에 추가할 것이라고 말한 바 있다. 
+    국내외 민간단체에 따르면 함씨는 북한 전문 매체의 기자로 활동하던 2017년 5월 북중 접경지역에서 취재 활동 중 북한 당국에 끌려가 연락이 끊겼다. 
+    김정욱 씨를 비롯한 선교사 3명은 억류 기간이 만 11년을 넘겼으며 다른 억류자 3명도 2016년 3∼5월 이래 10년간 생사와 소재가 전혀 파악되지 않고 있다. 
+
+    함씨가 북한 내 억류 국민으로 인정됨에 따라 그의 가족은 납북 피해자 위로금 지급 대상이 될 것으로 보인다. 
+    통일부는 2023년 11월부터 '군사정전에 관한 협정 체결 이후 납북피해자의 보상 및 지원에 관한 법률'에 따라 억류자 가족을 납북 피해자로 인정해 위로금을 지급했다. 현재까지 6명의 억류자 중 5명의 가족 소재를 확인해 가족당 1천500만∼2천만원의 위로금을 지급했다.
+    통일부는 이르면 이달 중 함씨의 가족과 접촉해 납북 피해자 위로금 제도를 안내할 계획이다. 
+    통일부 당국자는 "가족이 위로금을 신청한다면 법률에 따라 심의위원회를 열어 납북 피해자 인정 여부를 결정하게 된다"고 설명했다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpeg">
+         <Title><![CDATA[북한에 장기 억류된 선교사 김정욱·최춘길·김국기(왼쪽부터)]]></Title>
+         <Caption><![CDATA[[연합뉴스TV 제공]]]></Caption>
+         <FileName>C0A8CA3D000001634C943A110001CD6A_P2.jpeg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2018/05/11/09/C0A8CA3D000001634C943A110001CD6A_P2.jpeg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[정동영 통일부 장관]]></Title>
+         <Caption><![CDATA[2025.12.11 [통일부 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2025121107860001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/12/11/PYH2025121107860001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

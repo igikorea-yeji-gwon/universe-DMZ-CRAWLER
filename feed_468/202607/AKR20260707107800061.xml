@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260707107800061</ContentID>
+      <SendDate>20260707</SendDate>
+      <SendTime>144959</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0701004" name="축제"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0712005" name="한류"/>
+         <ClassCode code="0701003" name="전시공연"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260707107800061]]></Href>
+      <Writer><![CDATA[최종호]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기관광공사, 10월 임진각서 '한류 OST' 페스티벌 개최]]></Title>
+      <Body><![CDATA[경기관광공사, 10월 임진각서 '한류 OST' 페스티벌 개최
+
+    (수원=연합뉴스) 최종호 기자 = 경기관광공사는 올해 10월 9일부터 11일까지 파주 임진각 평화누리에서 '2026 고스트(GHOST) 페스티벌'을 개최한다고 7일 밝혔다.
+
+
+    고스트(Gyeonggi Hallyu Original Sount Track)는 경기 한류 오리지널 사운드 트랙의 약자로, 이번 행사는 세계 한류 팬 유치를 목표로 기획된 OST 테마의 음악 축제이다.
+    경기관광공사는 K-드라마와 영화의 OST를 분단화 평화의 상징인 비무장지대(DMZ)와 결합해 다채로운 문화 체험과 관광을 녹여낸 글로벌 문화관광축제를 선보인다는 계획이다.
+    축제의 메인 프로그램인 GHOST 콘서트에는 국내 정상급 OST 아티스트들이 출연해 음악 공연을 펼치고 행사장에는 OST 체험존, 한류 콘텐츠 마켓, K-푸드존, 포토존 등이 마련된다.
+    티켓 가격은 1일권 12만원, 2일권 18만원, 3일권 24만원이고 얼리버드 예매 기간에는 1일권에 한해 20% 할인이 적용된다.
+    조원용 경기관광공사 사장은 "평화와 한류를 잇는 독보적인 글로벌 축제 모델이 될 이번 행사에는 5만명 이상의 국내외 관람객이 방문할 것으로 예상된다"며 "세계적 경쟁력을 갖춘 K-콘텐츠를 경기도 관광자원과 연계해 대한민국을 대표하는 한류 관광 축제로 키워나가겠다"고 말했다.
+    zorba@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[축제 포스터]]></Title>
+         <Caption><![CDATA[[경기관광공사 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260707107800061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/07/07/AKR20260707107800061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260206129600062</ContentID>
+      <SendDate>20260206</SendDate>
+      <SendTime>155943</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0706001" name="문학"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260206129600062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군 '철원문학관' 개관…애초 명칭은 '이태준문학관']]></Title>
+      <SubTitle><![CDATA["군부대 측, 이태준 월북 이력 이유로 부동의…문학관 명칭 변경"]]></SubTitle>
+      <Body><![CDATA[철원군 '철원문학관' 개관…애초 명칭은 '이태준문학관'
+"군부대 측, 이태준 월북 이력 이유로 부동의…문학관 명칭 변경" 
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 6일 지역 문학과 문화예술의 거점이 될 '철원문학관' 개관식을 열었다.
+    철원읍 사요리 366-1에 자리한 문학관은 총면적 445.8㎡, 지상 1층 규모로 상설·기획전시관, 교육실, 수장고, 사무실 등을 갖췄다.
+    현재 고서 122점 등 자료를 기반으로 지역 문학 유산의 체계적 보존과 전시·연구 환경을 마련할 계획이다.
+    군은 문화생활 공간으로서 문학 교육, 특별강연 등 프로그램을 운영해 군민의 문학 접근성과 이해를 높이고, 지역 특색을 살린 관광명소로 철원의 역사적 의의와 정체성을 문학과 연결해 문화관광 경쟁력을 강화할 방침이다.
+    특히 대한민국 근대 단편소설 기틀 마련에 이바지한 것으로 평가받는 철원 출신 상허 이태준의 문학 가치를 발굴·연구할 예정이다.
+    올해는 철원군이 직영하며 시범운영 후 효율적인 운영방안을 검토한다.
+    개관과 함께 전시 '강원의 역사전, 철원의 어제와 오늘'이 이달 27일까지 이어진다.
+
+    철원군은 당초 '이태준 문학관'으로 사업을 추진했으나 재작년 8월 사업명을 철원문학관으로 변경했다.
+    철원군 관계자는 "문학관 터가 접경지역에 자리해 사업 추진에 인근 부대의 동의가 필요했다"며 "부대 측에서 이태준 선생의 월북 이력을 짚으며 이를 동의하지 않아 문학관 이름을 바꾸게 됐다"고 설명했다.
+    철원에서 태어난 이태준 선생은 1920년 '시대일보'를 통해 등단한 후 박태원, 이효석, 정지용 등과 '구인회'를 결성해 활동했으며 해방 후 월북했다.
+    그는 북에서조차 1953년 남로당에 대한 숙청이 진행되면서 부르주아 잔당으로 몰려 추방돼 교정원으로 전전하는 등 불우한 세월을 보낸 것으로 알려졌다.
+    이태준 선생에 대한 연구는 1988년 해금 조치가 이뤄진 뒤 활발히 진행되고 있다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA['철원문학관' [철원군 제공·재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260206129600062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/06/AKR20260206129600062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA['철원문학관' [철원군 제공·재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260206129600062_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/06/AKR20260206129600062_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

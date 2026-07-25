@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260702012100504</ContentID>
+      <SendDate>20260702</SendDate>
+      <SendTime>070905</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Region>
+         <RegionCode code="7214001" name="북한"/>
+      </Region>
+      <Class>
+         <ClassCode code="1001001" name="북한정치"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260702012100504]]></Href>
+      <Writer><![CDATA[이은정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[北, '정전일' 앞두고 6·25전쟁 일화 선전…체제 결속 다지기]]></Title>
+      <Body><![CDATA[北, '정전일' 앞두고 6·25전쟁 일화 선전…체제 결속 다지기 
+
+
+    (서울=연합뉴스) 이은정 기자 = 북한이 오는 27일 '전승절'로 기념하는 정전협정 체결일을 앞두고 6·25전쟁 당시 군사적 성과를 재조명하며 반미 의식 고취를 통한 체제 결속에 나섰다. 
+    조선중앙통신은 2일 '전승의 7·27을 안아온 군사적 기적들 주문진해전에서의 승리' 제하 기사에서 1950년 7월 발생한 주문진해전에서 "단 4척의 어뢰정으로 적들이 바다의 '움직이는 섬'이라고 자랑하던 중순양함을 격침시키고 경순양함을 격파하는 위훈을 세웠다"고 선전했다.
+    노동당 기관지 노동신문도 이날 '조선전쟁은 제국주의연합세력의 '반공십자군원정'이였다'라는 제목의 기사를 싣고 6·25전쟁이 "조미(북미) 간에 벌어진 첫 힘의 대결인 동시에 제2차 세계대전 후 민주주의 진영과 제국주의 진영으로 대립된 두 극 간에 처음으로 되는 격렬한 대결전"이었다고 주장했다.
+    신문은 "제국주의연합 세력의 무력침공을 물리치는 조선인민의 투쟁은 자기 조국의 운명을 사수하기 위한 결사의 조국방위전이였을뿐 아니라 세계의 평화와 안전을 수호하기 위한 정의의 성전"이라고 강변했다.
+    6·25전쟁에서 미국에 맞서 이겼다고 주장하는 북한은 정전협정 체결일을 1973년 '조국해방전쟁 승리기념일'로 지정했고, 1996년부터 국가 명절인 '전승절'로 격상해 기념하고 있다.
+
+    북한 관영 매체들은 전승절을 약 한 달 앞둔 지난달 말부터 6·25전쟁을 소재로 선전전을 이어가며 분위기를 고조시키고 있다.
+    중앙통신은 6·25전쟁을 '조국해방전쟁'이라 지칭하며 "미제를 우두머리로 하는 제국주의연합세력의 침략으로부터 조국의 자유와 독립을 영예롭게 수호한 전쟁"이라고 지난달 28일 보도했다. 
+    통신은 30일에도 "우리 비행사들에 의해 미제가 요란스럽게 떠들어대던 '하늘의 요새'는 낙엽의 신세를 면치 못했다"며 과거 미군 폭격기 격추 사례를 상기했고, "전쟁 3년간 배출된 영웅은 600여명, 그중 공화국2중영웅만도 5명이나 된다"며 참전군인들의 위훈을 추켜세웠다. 
+    올해는 5·10년 단위로 꺾어지는 정주년이 아니지만, 평양 미림비행장에 대규모 병력 수송 트럭이 포착되면서 '전승절'을 계기로 한 열병식 개최 가능성도 제기된다. 
+    미국 북한 전문매체 NK뉴스는 25일(현지시간) 민간위성서비스 플래닛랩스가 촬영한 사진을 토대로 지난 22일∼23일 미림비행장 주차장에 병력 수송 트럭으로 보이는 수십 대의 차량이 도착했으며 기지 내 김일성 광장을 본뜬 조형물 주변으로 자재들이 옮겨졌다고 전했다. 
+    북한은 전승절 70주년이던 2023년 야간 열병식을 개최해 대륙간탄도미사일(ICBM)을 비롯한 핵무력을 과시한 바 있다. 
+    ask@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한, 전승절 72주년 맞아 다채로운 기념 행사 개최]]></Title>
+         <FileName>PYH2025072800660004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/07/28/PYH2025072800660004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한, 전승절 조국해방전쟁시기 상징종대 기념행진]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 북한은 지난 27일 저녁 평양에서 전승 72주년 경축 '조국해방전쟁시기 상징종대들의 기념행진 의식'이 진행 됐다고 조선중앙TV가 28일 보도했다. [조선중앙TV 화면] 2025.7.28 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2025072809830004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/07/28/PYH2025072809830004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

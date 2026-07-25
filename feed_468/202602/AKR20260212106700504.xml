@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260212106700504</ContentID>
+      <SendDate>20260212</SendDate>
+      <SendTime>135446</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109010" name="보훈복지"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260212106700504]]></Href>
+      <Writer><![CDATA[이정현]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[보훈부, 주한공관 상대 보훈외교 설명회]]></Title>
+      <Body><![CDATA[보훈부, 주한공관 상대 보훈외교 설명회
+
+
+    (서울=연합뉴스) 이정현 기자 = 국가보훈부는 12일 그랜드하얏트 서울에서 '2026 보훈외교 설명회'를 열고 유엔참전국과의 보훈 협력을 확대하겠다고 밝혔다.
+    설명회에는 권오을 보훈부 장관을 비롯해 미국과 영국, 캐나다 등 21개 주한 유엔참전국 대사와 국방무관, 유엔사 참모장 등 60여 명이 참석했다.
+    보훈부는 '유엔참전국의 희생과 공헌을 기억하고 미래로 이어가는 국제보훈'을 주제로 2026년 보훈외교 추진 방향과 비전을 공유했다. 
+    보훈부는 유엔참전용사와 유가족을 대상으로 재방한 사업, 현지 위로·감사 행사, 유엔참전국 후손교류캠프, 참전국 후손 장학사업 등 다양한 사업을 추진하고 있다.
+    보훈부는 올해 유엔참전국과의 연대와 협력 강화에 따른 협조를 당부하고 참전국 대사를 비롯한 각국 대표들의 의견을 청취했다.
+    권 장관은 "보훈외교는 과거의 희생을 기억하고, 그 정신을 미래세대와 나누는 평화외교의 새로운 모델이자, 대한민국이 국제사회와의 상호 우의를 확장해 갈 수 있는 원동력"이라고 강조했다.
+    lisa@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2026 보훈외교 설명회]]></Title>
+         <Caption><![CDATA[[국가보훈부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260212106700504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/12/AKR20260212106700504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260529001451017</ContentID>
+      <SendDate>20260529</SendDate>
+      <SendTime>101147</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Category code="08"/>
+      <Class>
+         <ClassCode code="0901009" name="게임"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260529001451017]]></Href>
+      <Writer><![CDATA[김주환]]></Writer>
+      <Desk code="017"><![CDATA[테크부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[주인공은 '박 이병'…콜 오브 듀티, 한국 배경 차기작 공개(종합)]]></Title>
+      <SubTitle><![CDATA[서울 시내 교전·해병대 상륙작전 묘사…로고에 한글 등장
+10월 23일 PC·콘솔 출시…시리즈 최초 닌텐도 스위치 지원]]></SubTitle>
+      <Body><![CDATA[주인공은 '박 이병'…콜 오브 듀티, 한국 배경 차기작 공개(종합)
+서울 시내 교전·해병대 상륙작전 묘사…로고에 한글 등장
+10월 23일 PC·콘솔 출시…시리즈 최초 닌텐도 스위치 지원
+
+
+    (서울=연합뉴스) 김주환 기자 = 전 세계에서 5억 장이 넘게 팔린 인기 1인칭 슈팅 게임(FPS) '콜 오브 듀티' 시리즈의 차기작이 남북한 간 전면전을 배경으로 돌아온다.
+    액티비전은 28일(이하 현지시간) '콜 오브 듀티: 모던 워페어 4' 트레일러를 공개하고 게임을 오는 10월 23일 출시한다고 밝혔다.
+    공개된 트레일러는 한국군과 미군 병사들이 서울 시내를 순찰하다가 갑작스러운 정전과 함께 적의 기습이 시작되는 장면으로 시작된다.
+
+    이어 숭례문을 모티브로 한 서울 시내에서 장갑차와 전차를 타고 교전하는 모습, 국군 해병대로 추정되는 부대가 공기부양정을 타고 해안에 상륙하는 모습 등이 담겼다.
+    제작진에 따르면 시리즈의 주인공은 대한민국 국군의 '박 이병'이다. '
+    모던 워페어' 시리즈의 주인공인 프라이스 대위는 특수부대 요원에서 무법자가 되어 세계를 재앙으로 몰고 갈 무기를 저지하기 위해 독자 행동에 나선다.
+    싱글플레이 캠페인은 한반도를 무대로 펼쳐지는 전투를 중심으로 뉴욕에서의 근접 전투, 자동차 추격전, 뭄바이에서의 야간 기습 등 전 세계의 전장을 담았다.
+    멀티플레이 모드에는 총 12개의 코어 맵이 도입되며, 실감 나는 총격전을 구현하기 위한 새로운 기능인 '발리스틱 어소리티'가 도입됐다.
+    2022년 작 '콜 오브 듀티: 모던 워페어 II'에 등장했다가 이후 작품에서 빠진 게임 모드 'DMZ'도 이번 작품에 다시 돌아온다. 제작진은 내달 초 'DMZ' 모드 미리보기 영상을 공개할 예정이다.
+
+    타이틀 로고에는 '콜 오브 듀티 모던 워페어'라는 글자와 함께 아라비아 숫자 '4' 대신 한글로 '사'라는 글자가 적혔다.
+    액티비전에 따르면 '모던 워페어 4'는 오는 10월 23일 PC·콘솔 플랫폼으로 발매될 예정이다.
+    특히 '콜 오브 듀티' 시리즈 메인 타이틀 중에서는 최초로 '닌텐도 스위치 2' 플랫폼으로도 출시된다.
+
+    콜 오브 듀티 시리즈에 한국이 플레이 가능한 스테이지 배경으로 나오는 것은 2014년 출시된 '어드밴스드 워페어' 이후 12년 만이다.
+    '콜 오브 듀티'는 마이크로소프트(MS) 산하 액티비전이 유통하는 인기 1인칭 슈팅게임(FPS) 시리즈로, 2024년 기준 전 세계에서 5억 장 이상이 판매됐다.
+    jujuk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4]]></Title>
+         <Caption><![CDATA[[트레일러 캡처]]]></Caption>
+         <FileName>AKR20260529001451017_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529001451017_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4]]></Title>
+         <Caption><![CDATA[[트레일러 캡처]]]></Caption>
+         <FileName>AKR20260529001451017_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529001451017_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4]]></Title>
+         <Caption><![CDATA[[트레일러 캡처]]]></Caption>
+         <FileName>AKR20260529001451017_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529001451017_04_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4]]></Title>
+         <Caption><![CDATA[[액티비전 제공]]]></Caption>
+         <FileName>AKR20260529001451017_05_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/29/AKR20260529001451017_05_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

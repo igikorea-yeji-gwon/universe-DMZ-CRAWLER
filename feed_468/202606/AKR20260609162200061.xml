@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260609162200061</ContentID>
+      <SendDate>20260609</SendDate>
+      <SendTime>190014</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005014" name="수원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0510005" name="판결"/>
+         <ClassCode code="0605007" name="성범죄"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260609162200061]]></Href>
+      <Writer><![CDATA[권준우]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['취준생에 성추행' 서울교통공사 직원 항소심도 징역 1년]]></Title>
+      <SubTitle><![CDATA[취업 정보 미끼로 4명 상대 범행…재판부 "1심 판단 정당"]]></SubTitle>
+      <Body><![CDATA['취준생에 성추행' 서울교통공사 직원 항소심도 징역 1년
+취업 정보 미끼로 4명 상대 범행…재판부 "1심 판단 정당"
+
+    (수원=연합뉴스) 권준우 기자 = 취업 준비생들을 상대로 성추행 등을 일삼은 혐의로 재판에 넘겨진 30대 서울교통공사 직원이 항소심에서도 실형을 선고받았다.
+
+    수원지법 형사항소6-2부(강희경 이상훈 김은정 부장판사)는 9일 강제추행, 강요, 폭행 등 혐의로 기소된 A씨의 항소심 선고 공판에서 원심을 파기하면서도 1심과 같은 징역 1년을 선고했다.
+    재판부는 아울러 A씨에게 40시간의 성폭력 치료 프로그램 이수와 아동·청소년·장애인 관련 기관에 각 3년간 취업 제한을 명령했다.
+    항소심 재판부는 "원심이 피고인의 강제추행죄를 유죄로 인정해 형을 선고하면서 신상정보 공개·고지 명령 및 취업제한 명령의 통보나 면제 여부를 심리해 판단하지 않은 누락이 있어 원심판결을 직권으로 파기한다"고 밝혔다.
+    직권 파기에도 불구하고 A씨의 주요 혐의에 대한 유무죄 판단과 형량은 1심과 동일하게 유지했다.
+    재판부는 "피고인은 간접경험 형태로 이뤄진 추행 부분에 대해 사실오인 및 법리 오해를 주장하지만 원심이 적법하게 채택해 조사한 증거들을 종합해 보면 1심의 유죄 판단은 정당하다"고 판시했다.
+    그러나 검찰이 강요죄를 예비적 공소사실로 추가해 항소한 부분은 받아들이지 않았다.
+    재판부는 "피해자들이 피고인의 요구에 불쾌감을 느끼긴 했으나 시험 관련 정보나 자료를 제공받을 목적으로 응한 것으로 보인다"며 "검사가 제출한 증거만으로는 피고인이 피해자들의 의사결정 자유를 제한할 정도로 겁을 먹게 할 만한 해악을 고지했다고 인정하기 부족하다"고 기각 사유를 설명했다.
+    A씨는 2022년 12월부터 지난해 11월까지 취업 준비생인 20대 남성 B씨 4명에게 접근해 강제로 추행하고 가학적인 행위를 저지른 혐의로 기소됐다.
+    2018년 서울교통공사 승무원으로 입사한 그는 온라인 블로그 등을 통해 일반인이 구하기 힘든 기출문제 등을 다수 보유한 것처럼 홍보하며 피해자들에게 접근한 것으로 조사됐다.
+    특히 피해자 B씨를 자기 할머니 집으로 불러 속옷만 남기고 옷을 벗게 한 뒤 진공청소기로 엉덩이를 10여 차례 때리고 성적 수치심을 유발하는 행위를 강요한 것으로 드러났다.
+    stop@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[수원지법.수원고법 전경]]></Title>
+         <Caption><![CDATA[[촬영 이영주]]]></Caption>
+         <FileName>PCM20241029000015990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/10/29/15/PCM20241029000015990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

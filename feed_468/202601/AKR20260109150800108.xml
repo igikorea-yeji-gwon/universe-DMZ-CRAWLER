@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260109150800108</ContentID>
+      <SendDate>20260109</SendDate>
+      <SendTime>234240</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107005" name="시리아"/>
+         <RegionCode code="7107017" name="튀르키예"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260109150800108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[시리아 알레포 긴장…정부군 경고에도 쿠르드족 "못 물러나"]]></Title>
+      <Body><![CDATA[시리아 알레포 긴장…정부군 경고에도 쿠르드족 "못 물러나"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 시리아 북서부의 튀르키예 접경지 알레포에서 정부군과 쿠르드족 무장단체 시리아민주군(SDF) 사이 긴장이 고조되고 있다.
+    9일(현지시간) 시리아 국영 SANA통신 등에 따르면 시리아군은 SDF의 거점인 알레포의 셰이크막수드 지역을 공습할 예정이라며 현지 주민들에게 인도주의 통로로 대피하라고 당부했다.
+    시리아군은 "SDF와 쿠르드노동조당(PKK) 테러조직이 이 지역을 알레포 주민 공격을 위한 진지로 삼고 있다"고 지적했다.
+    이같은 움직임이 시리아군이 이날 오전 3시부터 9시까지 6시간 동안 휴전한다고 선포하고 SDF에 철군을 요구했으나 SDF가 응하지 않았기 때문이다.
+    현지 군 소식통은 PKK 연계 세력이 휴전을 무산시키고 군을 공격하려고 시도하는 모습이 포착됐다고 SANA에 전했다.
+    셰이크막수드, 아슈라피에 등 알레포 일부를 관할하는 SDF 측은 성명에서 이번 철수 요구가 항복을 받아내려는 뜻이라며 "우리의 이웃을 지키겠다"고 밝혔다고 로이터통신이 보도했다.
+    시리아 정부군이 SDF와 함께 PKK를 언급한 것은 쿠르드족 분리주의 세력을 견제해온 튀르키예의 군사개입 관측을 불러일으키는 대목이다.
+    전날 튀르키예 국방부는 성명에서 "시리아 정부는 테러조직의 공격으로 사상자가 나오자 알레포에서 대테러 작전을 개시했다"며 "시리아가 지원을 요청한다면 튀르키예는 필요한 지원을 제공하겠다"고 밝혔다.
+    튀르키예는 시리아 내전 국면에서 일부 반군을 지원하며 깊이 개입했다. 또 지난 수년간 미국과 유럽 등이 테러단체로 지정한 PKK에 대해 시리아와 이라크 일대에서 군사작전을 폈다.
+    2024년 12월 시리아의 이슬람 반군 하야트타흐리르알샴(HTS)이 바샤르 알아사드 독재정권을 몰아내고 임시정부를 세우는 과정에 친튀르키예 반군의 조력을 받은 영향으로 현재 시리아 정권은 튀르키예와 밀착하고 있다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[시리아 정부군]]></Title>
+         <Caption><![CDATA[(알레포 AP=연합뉴스) 9일(현지시간) 시리아 북부 알레포에 배치된 시리아 정부군. 2026.1.9 photo@yna.co.kr]]></Caption>
+         <FileName>PAP20260109238601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/01/09/PAP20260109238601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

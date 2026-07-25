@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260401035251030</ContentID>
+      <SendDate>20260401</SendDate>
+      <SendTime>111759</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0201001" name="경제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260401035251030]]></Href>
+      <Writer><![CDATA[김철선]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[DMZ 평화의 길 12개 구간 전면 개방…'철책 인근'도 걷는다(종합)]]></Title>
+      <SubTitle><![CDATA[17일부터 11월까지 운영…통일부 재개방 추진한 DMZ 내부구간은 포함 안 돼]]></SubTitle>
+      <Body><![CDATA[DMZ 평화의 길 12개 구간 전면 개방…'철책 인근'도 걷는다(종합)
+17일부터 11월까지 운영…통일부 재개방 추진한 DMZ 내부구간은 포함 안 돼
+    
+    (서울=연합뉴스) 구정모 하채림 김철선 기자 = 정부는 오는 17일부터 11월 30일까지 비무장지대(DMZ) 접경지역에 조성된 '디엠지(DMZ) 평화의 길' 테마노선 12개 구간을 전면 개방한다고 1일 밝혔다.
+    단, 혹서기인 7∼8월에만 운영이 중단된다.
+    테마노선은 인천 강화와 경기 김포·고양·파주·연천, 강원 철원·화천·양구·인제·고성 등 접경지역 10곳에서 생태·문화·역사 자원을 활용해 평화와 안보의 의미를 체험할 수 있도록 지난 2019년 조성된 길이다.
+    각 코스는 야생 동식물 보호와 참가자 안전을 고려해 운영되며, 군부대 협조로 일부 구간에서는 철책 인근을 직접 걸을 수 있게 했다. 또 지역 주민 등으로 구성된 해설사와 안내요원이 동행해 각 장소에 얽힌 이야기를 들려준다.
+    테마노선은 안보지역 특성상 대한민국 국민만 참여할 수 있으며, 본인 인증과 신분 확인 절차를 거쳐야 한다. 참가비는 1인당 1만원이다.
+    참가를 희망하는 국민은 이날부터 'DMZ 평화의 길' 공식 누리집(www.dmzwalk.com)과 걷기여행 모바일 응용프로그램(앱) '두루누비'를 통해 신청하면 된다.
+    올해는 관계 부처 협력을 통해 일부 코스의 회당 참가 인원과 운영일을 확대해 더 많은 국민이 참여할 수 있도록 했다. 
+    다만, 이날 발표된 평화의 길 테마노선에는 통일부가 재개방을 추진했던 DMZ 내부 도보구간 3곳(파주·철원·고성)은 포함되지 않았다.
+    이들 구간은 2019년 평화의 길 조성 때부터 운영됐다가 2024년 4월부터 안보 상황을 이유로 일반에 개방이 중단된 상태다.
+    군사분계선(MDL) 기준 남쪽 2㎞까지인 DMZ 남측구역 출입은 정전협정에 따라 관할권이 있는 유엔사의 승인을 받아야 하는데, 유엔사는 안전을 이유로 DMZ 안쪽으로 들어가는 도보구간 재개방에 부정적이다.
+    유엔사는 "오늘 발표된 내용은 DMZ 내 현재 활동에 변화를 의미하지 않는다"며 "유엔사는 정전협정에 따라 DMZ 내 활동을 관리 및 통제하며, DMZ 내 활동은 기존 절차에 따른 사전 검토와 조율, 승인이 필요하다"고 밝혔다.
+
+    pseudojm@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[평화를 여는 길(DMZ 평화의 길 시작점)]]></Title>
+         <Caption><![CDATA[[촬영 안 철 수] 2024.8.16, 경기도 고양시/행주산성 대첩문 앞]]></Caption>
+         <FileName>PCM20240816000089990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/08/16/89/PCM20240816000089990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

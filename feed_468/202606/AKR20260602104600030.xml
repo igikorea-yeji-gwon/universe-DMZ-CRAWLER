@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260602104600030</ContentID>
+      <SendDate>20260602</SendDate>
+      <SendTime>163001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0201001" name="경제일반"/>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0402004" name="축산업"/>
+         <ClassCode code="0408002" name="식품"/>
+         <ClassCode code="0507006" name="보건"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260602104600030]]></Href>
+      <Writer><![CDATA[김세린]]></Writer>
+      <Desk code="030"><![CDATA[소비자경제부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[농식품부, 휴가철 앞두고 국경검역·방역 태세 점검]]></Title>
+      <Body><![CDATA[농식품부, 휴가철 앞두고 국경검역·방역 태세 점검
+
+
+    (서울=연합뉴스) 김세린 기자 = 농림축산식품부는 2일 인천국제공항에서 국경 검역과 가축 방역 관리 상황을 점검했다고 밝혔다. 
+    이번 점검은 휴가철을 앞두고 중국과 몽골에서 새로운 유형(SAT1형)의 구제역이 잇따라 발생함에 따라 국내 유입을 차단하기 위해 마련됐다. 
+    농식품부는 이날 인천공항의 휴대 축산물 엑스레이(X-ray) 검색 등 현장 검역 체계를 살피고 인천시 등 관계기관으로부터 방역 추진 상황을 보고받았다.
+    현재 정부는 강화·옹진군 등 접경지역 11개 시·군을 대상으로 'SAT1형' 구제역 백신 접종을 추진 중이다. 
+    박정훈 농식품부 식량정책실장은 "인적·물적 교류가 늘어나는 만큼 방역에 빈틈이 생기지 않도록 최선을 다해달라"며 "가축전염병 예방 수칙을 국민과 축산 관계자에게 적극 홍보해 경각심을 높여달라"고 당부했다.
+    athena@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[농림축산식품부]]></Title>
+         <Caption><![CDATA[[농림축산식품부 제공]]]></Caption>
+         <FileName>PCM20190112000060030_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2019/01/12/60/PCM20190112000060030_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

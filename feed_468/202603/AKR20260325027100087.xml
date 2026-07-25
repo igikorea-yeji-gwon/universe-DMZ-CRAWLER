@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260325027100087</ContentID>
+      <SendDate>20260325</SendDate>
+      <SendTime>082916</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7105023" name="칠레"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0102002" name="대통령"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260325027100087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['남미 트럼프' 카스트, '좌파' 바첼레트 유엔총장 후보 지지철회]]></Title>
+      <SubTitle><![CDATA[당선인 시절엔 지지, 취임 후엔 보수 선명성 앞세우며 입장 바꿔]]></SubTitle>
+      <Body><![CDATA['남미 트럼프' 카스트, '좌파' 바첼레트 유엔총장 후보 지지철회
+당선인 시절엔 지지, 취임 후엔 보수 선명성 앞세우며 입장 바꿔
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = '남미의 트럼프'라 불리는 호세 안토니오 카스트 칠레 대통령이 유엔사무총장에 도전하는 미첼 바첼레트 전 대통령에 대한 지지를 취임 2주 만에 전격 철회했다고 칠레 일간 엘메르쿠리오와 AFP통신 등이 24일(현지시간) 보도했다.
+    카스트 대통령은 이날 로스 라고스 지역의 차카오 교량 건설 현장에서 "대륙 내 후보 분열로 바첼레트가 선출될 가능성이 낮으며, 당선 불확실성 속에 수개월간 진행될 경선 비용을 국가가 부담하는 것은 부적절하다"며 지지 철회 입장을 밝혔다. 
+    특히 그는 과거 바첼레트 행정부 시절의 이민자 유입 문제와 유엔의 무능을 거론하며 지지 철회의 정당성을 강조했다.
+    다만 "바첼레트가 브라질과 멕시코의 지지를 바탕으로 도전을 계속하는 것은 그녀의 자유"라며 다른 후보를 대신 지지하지는 않겠다고 밝혔다.
+    이에 대해 바첼레트 전 대통령은 성명을 내고 "나를 추천한 브라질, 멕시코 정부와 함께하겠다"며 완주 의지를 굽히지 않았다. 
+    앞서 칠레 정부는 지난달 가브리엘 보리치 전 대통령 체제에서 바첼레트를 차기 유엔사무총장 후보로 공식 추천했다. 카스트 대통령은 당선인 시절 이를 수용하는 듯한 태도를 보였으나 취임 후 보수 선명성을 내세우며 입장을 바꿨다.
+    소아과 의사 출신인 바첼레트 전 대통령은 사회당 소속으로 칠레 최초의 여성 대통령이 돼 두 차례 재임했고, 유엔 인권최고대표를 역임했다. 현재 안토니우 구테흐스 유엔사무총장의 임기는 올해 말 종료되며, 차기 수장 자리를 놓고 여러 후보가 각축전을 벌이고 있다.
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[미첼 바첼레트 전 칠레 대통령과 호세 안토니오 카스트 현 칠레 대통령]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스]]]></Caption>
+         <FileName>AKR20260325027100087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/25/AKR20260325027100087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

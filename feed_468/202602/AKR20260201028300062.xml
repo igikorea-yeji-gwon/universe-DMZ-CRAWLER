@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260201028300062</ContentID>
+      <SendDate>20260201</SendDate>
+      <SendTime>142019</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0505006" name="동물"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0702003" name="천연기념"/>
+         <ClassCode code="0505001" name="환경일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260201028300062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, 2월 지질·생태명소에 '철원 두루미타운·철새도래지']]></Title>
+      <SubTitle><![CDATA[두루미 겨울 월동 풍경 감상…DMZ 탐조 체험 국제 명소 명성]]></SubTitle>
+      <Body><![CDATA[강원도, 2월 지질·생태명소에 '철원 두루미타운·철새도래지' 
+두루미 겨울 월동 풍경 감상…DMZ 탐조 체험 국제 명소 명성
+
+
+    (춘천=연합뉴스) 이상학 기자 = 강원특별자치도가 2월의 '지질·생태명소'로 철원군의 'DMZ두루미평화타운·철새도래지'를 1일 꼽았다. 
+    강원도는 지난해 1월부터 도내 자연생태자원의 우수성과 특별함을 알리고, 명소 활성화를 위해 매달 한 곳을 선정하고 있다.
+    DMZ두루미평화타운·철새도래지는 천연기념물 제202호 두루미와 제203호 재두루미의 주요 월동지다. 
+    동북아시아 두루미 이동 경로의 핵심 거점 역할을 하는 생태적으로 중요한 지역으로 알려져 있다. 
+
+    특히 철원평야와 한탄강 일대는 국내에서 보기 드문 7종의 두루미류를 한 지역에서 관찰할 수 있어 국제적으로 보전 가치가 높은 철새 도래지다. 
+    이러한 생태적 가치를 인정받아 해당 지역은 천연기념물(1973년)을 비롯해 생태관광지역(2018년)과 강원생태평화 유네스코 생물권보전지역(2019년)으로 지정되기도 했다. 
+    이중 DMZ두루미평화타운은 천연기념물 보호와 생태관광을 연계한거점 시설로, 두루미 생태와 DMZ 일대 자연·역사적 가치를 체험할 수 있는 탐조 프로그램을 운영한다. 
+    또 두루미 탐조 프로그램은 28일까지 운영되며, 평화타운에서 아이스크림고지·월정리역 등으로 이어지는 1코스와 한탄강 두루미 탐조대 2코스로 구성돼 있다. 
+
+    이밖에 주변에는 한탄강 세계지질공원의 현무암 주상절리와 협곡을 가까이에서 체험하는 '한탄강 물윗길 트레킹, 은하수교·횃불전망대, 직탕폭포 등 다양한 지질·생태 명소가 위치해 연계 관광을 할 수 있다.
+    강원도 관계자는 "철원 DMZ두루미평화타운·철새도래지 일대는 평화와 생명이 공존하는 공간으로, 겨울철에만 만날 수 있는 두루미의 장관을 통해 자연의 소중함을 되새길 수 있는 대표적인 생태명소"라고 말했다. 
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ두루미평화타운·철새도래지]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260201028300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/01/AKR20260201028300062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ두루미 탐조관광 프로그램]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260201028300062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/01/AKR20260201028300062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[아이스크림고지 두루미생태탐조대]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260201028300062_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/01/AKR20260201028300062_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

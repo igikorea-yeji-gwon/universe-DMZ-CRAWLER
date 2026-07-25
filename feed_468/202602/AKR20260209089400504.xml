@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260209089400504</ContentID>
+      <SendDate>20260209</SendDate>
+      <SendTime>145428</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007006" name="남북갈등"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260209089400504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["北, 헌법에 '영해' 조항 넣고 NLL 부정 시도 가능성"]]></Title>
+      <SubTitle><![CDATA[통일硏 보고서…"서해서 유엔해양법협약의 '중간선' 주장할 수도"]]></SubTitle>
+      <Body><![CDATA["北, 헌법에 '영해' 조항 넣고 NLL 부정 시도 가능성"
+통일硏 보고서…"서해서 유엔해양법협약의 '중간선' 주장할 수도"
+
+
+    (서울=연합뉴스) 하채림 기자 = 북한이 제9차 당대회 후 헌법에 '영해' 조항을 신설하고 이를 근거로 국제법을 원용해 서해 북방한계선(NLL) 무력화에 나설 가능성이 있다는 전문가 전망이 나왔다.
+    통일연구원 김태원 연구기획부장은 9일 발간한 보고서를 통해 북한이 당대회를 거쳐 영토 규정의 정치적 정당성을 확보한 후 헌법상 영토 조항 신설을 공식화할 것으로 예상했다.
+    김정은 국무위원장은 2024년 1월 최고인민회의 시정연설에서 "국가의 남쪽 국경선이 명백히 그어진 이상 불법 무법의 '북방한계선'을 비롯한 그 어떤 경계선도 허용될 수 없다"고 말했다. 
+    '국경선'이 그어졌다고 한 점에 비춰 이미 영토 조항이 마련됐을 가능성이 제기됐지만, 북한은 2024년 10월 개헌이 있었음에도 관련 조항이 신설됐다고 공표하지는 않았다.
+    이에 북한은 이달 하순 당대회에서 '적대적 두 국가' 관계를 당 규약에 반영한 뒤 이어질 최고인민회의에서 헌법상 영토·영공·영해 조항 신설을 마무리할 가능성이 있다.
+    
+
+    보고서는 김 위원장이 작년 4월 5천t급 신형 구축함 '최현호' 진수식에서 최초로 언급한 '중간계선해역' 용어로 볼 때, 북한이 향후 유엔해양법협약(UNCLOS)의 '중간선' 규정을 원용해 NLL 무력화를 시도할 수 있다고 봤다.
+    UNCLOS 15조는 인접국의 영해가 겹칠 때 영해 범위는 중간선을 넘지 못한다고 규정한다. 보고서는 북한이 자신에게 유리한 중간선 주장을 위해 자의적으로 설정한 '직선기선'도 적용할 것으로 예상했다.
+    그러나 보고서는 남북 간 해상관계를 규율하는 특별법으로서 정전협정이 존재하며, 이는 일반법인 해양법에 우선한다고 지적했다.
+    더구나 북한은 유엔해양법협약에 서명했을 뿐 비준하지 않아 당사국도 아니라고 강조했다.
+    보고서는 "NLL은 정전협정 체제에서 군사적 충돌을 방지하고 한반도의 안정을 유지한 실효성 경계선이라는 메시지를 국제사회에 지속해서 발신해야 한다"고 주문했다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한의 서해 경계선 주장 변천]]></Title>
+         <Caption><![CDATA[[통일연구원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260209089400504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/09/AKR20260209089400504_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[구축함 '최현호' 진수식 참석한 김정은]]></Title>
+         <Caption><![CDATA[2025.4.26     [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2025042601560004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/04/26/PYH2025042601560004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

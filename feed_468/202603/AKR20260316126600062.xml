@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260316126600062</ContentID>
+      <SendDate>20260316</SendDate>
+      <SendTime>162337</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0402003" name="임업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260316126600062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, 춘천 호수지방정원 조성 승인…의암호 일대 18㏊ 규모]]></Title>
+      <Body><![CDATA[강원도, 춘천 호수지방정원 조성 승인…의암호 일대 18㏊ 규모
+
+    (춘천=연합뉴스) 이상학 기자 = 강원특별자치도가 춘천시 의암호 상중도 일대에 조성되는 '호수 지방정원' 계획을 승인하기로 했다.
+
+    강원도는 16일 춘천 호수 지방정원 조성계획을 승인하고 도내 지방정원을 2030년까지 6곳으로 확대해 운영할 계획이라고 밝혔다.
+    이 지방정원은 의암호 수변 경관을 활용한 호수형 정원으로, 춘천시 중도동 일대 약 18㏊에 총사업비 154억원을 투입해 조성한다. 
+    정원에는 테마정원과 체험시설, 편의시설 등이 들어서며 내년 준공이 목표다.
+    지방정원 사업은 현재 도내 5개 시·군에서 총 566억원 규모로 추진되고 있다.
+    영월 동·서강 지방정원은 동강과 서강이 만나는 수변 경관을 활용한 강원 제1호 지방정원으로 청령포 관광과 연계한 복합 관광지로 주목받고 있다.
+    양구 DMZ 펀치볼 지방정원은 접경지역 생태·평화 관광 자원을 활용한 정원으로 조성 중이며, 인제 용대 지방정원은 설악산과 백담사 인근 자연경관을 기반으로 한 치유형 정원으로 추진되고 있다.
+
+    또 평창 청옥산 지방정원은 해발 1천250ｍ 육백마지기 일대의 자연경관을 활용한 정원으로 조성되고 있다. 
+    이밖에 강릉 주문진 향호 지방정원은 석호 수변 경관을 활용한 정원 조성 사업으로 토지 확보와 인허가 절차가 진행 중이다.
+    춘천시의 경우 국가정원으로 승격하기 위해 지방정원 지정을 선행한 것이다. 
+    김진태 지사는 "춘천 호수 지방정원은 부지 확보 문제로 사업이 다소 지연됐지만 춘천시가 향후 추진 계획을 제시해 타당성이 있다고 판단했다"며 "2030년까지 도내 지방정원 6곳을 조성해 정원 관광 경쟁력을 높이겠다"고 말했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[춘천 상중도]]></Title>
+         <Caption><![CDATA[[춘천시 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20230224000099062_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2023/02/24/99/PCM20230224000099062_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구 펀치볼]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20230316000174990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2023/03/16/74/PCM20230316000174990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

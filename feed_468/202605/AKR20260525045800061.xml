@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260525045800061</ContentID>
+      <SendDate>20260525</SendDate>
+      <SendTime>162811</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005014" name="수원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0105001" name="선거일반"/>
+         <ClassCode code="0101001" name="정치일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001211" name="경기선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260525045800061]]></Href>
+      <Writer><![CDATA[최해민]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기지사 후보들 연휴 마지막날 치열한 유세전…공약대결도 가열]]></Title>
+      <Body><![CDATA[경기지사 후보들 연휴 마지막날 치열한 유세전…공약대결도 가열
+
+    (수원=연합뉴스) 최해민 기자 = 부처님오신날 연휴 마지막 날인 25일 경기도지사 선거 여야 후보들은 투표일을 9일 앞두고 유동 인구가 많은 주요 유세 거점을 중심으로 총력전을 펼쳤다.
+
+
+    더불어민주당 추미애 후보는 이날 오전 의왕시 내손동 민방위교육장 사거리와 안양 평촌중앙공원을 잇달아 찾아 나들이 나온 가족 단위 시민들에게 지지를 호소했다.
+
+
+    오후에는 광명 철산 상업지구 로데오거리로 이동해 거리 유세를 이어갔다.
+
+
+    국민의힘 양향자 후보는 오전 양평군 용문천년시장에서 상인들과 만난 뒤 곧바로 포천으로 이동해 유세 활동을 벌였다.
+    오후에는 여주 한글시장에서 집중 유세를 펼쳤으며 저녁에는 수원 나혜석거리에서 유권자들을 만날 예정이다.
+
+
+    개혁신당 조응천 후보는 이날 일정을 경기 북부 지역에 집중했다.
+    조 후보는 포천, 동두천, 의정부 등을 차례로 돌며 현장 목소리를 청취하고 지역 발전 적임자임을 내세웠다.
+    선거일이 다가오면서 후보 간 공약 경쟁도 점차 가열되고 있다.
+    추 후보는 이날 '안심주거·규제개혁·든든청년' 공약을 발표하고 도민 주거 불안 해소와 청년층 지원을 약속했다.
+    주요 내용으로는 공공주택 55만호 공급, 청년·신혼부부 역세권 주거 확대, 역세권 중심의 15분 생활권 구축 등이 포함됐다.
+    양 후보는 양평 유세에서 경기 동부권을 친환경·관광·정주형 미래거점으로 육성하겠다는 구상을 밝혔다.
+    세부 사업으로는 서울~양평 고속도로 조기 착공, 양평군립병원 설립 추진, 도시가스 공급 확대, 남한강·북한강 수변 관광벨트 조성 등을 제시했다.
+    경기 북부 행보에 주력한 조 후보도 지역 맞춤형 공약인 '경기북부 대전환 4대 약속'을 발표했다.
+    공약에는 국방거점도시 조성, 북부 국방 R&D 벨트 구축, 유네스코 한탄강·DMZ 생태관광 벨트 조성 등이 담겼다.
+    goals@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[선대위 공개회의]]></Title>
+         <Caption><![CDATA[[추미애 캠프 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260525045800061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/25/AKR20260525045800061_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[전통시장 방문한 양향자 후보]]></Title>
+         <Caption><![CDATA[[양향자 캠프 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260525045800061_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/25/AKR20260525045800061_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[전통시장 방문한 조응천 후보]]></Title>
+         <Caption><![CDATA[[조응천 캠프 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260525045800061_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/25/AKR20260525045800061_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기지사 출마하는 추미애·양향자·조응천]]></Title>
+         <Caption><![CDATA[[촬영 임병식·홍기원·신현우]]]></Caption>
+         <FileName>PCM20260508000105990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2026/05/08/05/PCM20260508000105990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260224110300062</ContentID>
+      <SendDate>20260224</SendDate>
+      <SendTime>145251</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260224110300062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, 국회 방문해 지역 핵심 현안 협력 건의]]></Title>
+      <Body><![CDATA[양구군, 국회 방문해 지역 핵심 현안 협력 건의
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군 관계자들이 24일 국회를 방문해 지역 주요 현안 사업에 관한 협력을 요청했다.
+    서흥원 군수는 이날 한기호 의원을 만나 미활용 군용지의 조속한 매각 추진, 접경권 개발을 위한 국비 신규사업 선정, 펀치볼 안보 관광지 출입 절차 개선 등 지역 발전과 직결된 핵심 현안을 설명하고 국회 차원의 지원을 건의했다.
+    특히 미활용 군용지 매각이 정주 여건 개선과 공공시설 확충 등 주요 군정 사업 추진의 기반이 되는 만큼, 관계부처 협의가 조속히 이뤄질 필요가 있다는 점을 강조했다.
+    아울러 접경권 개발을 위한 신규 국비 사업 확보와 펀치볼 안보 관광지 방문 편의성 개선이 이뤄질 경우 관광 활성화와 지역경제 회복에 도움이 될 것으로 보고 관련 지원을 요청했다.
+    김지희 기획예산실장은 "접경지역은 각종 규제로 인해 발전 여건이 제한돼 온 만큼 국회와 정부의 지속적인 관심과 협력이 중요하다"며 "지역 발전의 기반이 되는 핵심 현안이 차질 없이 추진될 수 있도록 적극 대응해 나가겠다"고 말했다.
+    양구군은 이번 국회 방문을 계기로 관계 부처와 협의를 이어가며 지역 현안 해결을 위한 대응을 강화해 나갈 방침이다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[서흥원 양구군수, 지역 핵심 현안 협력차 국회 방문]]></Title>
+         <Caption><![CDATA[(양구=연합뉴스) 24일 서울 여의도 국회를 방문한 서흥원 강원 양구군수(가운데)가 한기호 의원을 만나 지역 핵심 현안 사업에 관한 협조를 요청하고 있다. 2026.2.24 [양구군 제공. 재판매 및 DB 금지] yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026022412010006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/24/PYH2026022412010006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

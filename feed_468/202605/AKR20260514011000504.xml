@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260514011000504</ContentID>
+      <SendDate>20260514</SendDate>
+      <SendTime>064620</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0108003" name="한미외교"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260514011000504]]></Href>
+      <Writer><![CDATA[김효정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한미 국방당국 "공동 안보목표 협력 심화"…전작권 언급은 없어]]></Title>
+      <SubTitle><![CDATA[장관회담 이어 차관보급 통합국방협의체…현안 이견조율 시도했을 듯]]></SubTitle>
+      <Body><![CDATA[한미 국방당국 "공동 안보목표 협력 심화"…전작권 언급은 없어
+장관회담 이어 차관보급 통합국방협의체…현안 이견조율 시도했을 듯
+   
+
+    (서울=연합뉴스) 김효정 기자 = 한미가 전시작전통제권(전작권) 전환 문제 등에 이견을 보이는 가운데 국방당국 차관보급 회의인 통합국방협의체(KIDD) 회의를 열고 동맹 방향성을 논의했다.
+    국방부는 12∼13일(현지시간) 미국 워싱턴DC에서 김홍철 국방정책실장과 미 전쟁부 존 노 인태안보 차관보, 제임스 핀치 동아시아 부차관보 직무대리를 수석대표로 KIDD 회의가 개최됐다고 14일 밝혔다. 양국 국방·외교 분야 주요 관계자도 참여했다.
+    양측은 회의에서 한미동맹의 전반적인 국방협력 현황을 평가하고, 동맹의 연합방위태세를 강화하기 위한 정책 방향에 대해 의견을 교환했다.
+    또 지난해 11월 한미 정상 간 공동설명서(조인트 팩트시트) 국방 분야 및 지난해 개최된 제57차 한미안보협의회(SCM) 공동성명 이행을 위한 협력을 적극 추진하는 데 뜻을 같이했다고 국방부는 밝혔다.
+    양측은 KIDD가 동맹을 더욱 공고히 하기 위한 실질적 협력을 진전시키는 데 중요한 기반을 제공한다고 평가하고, 한반도 및 인도·태평양 지역에서 공동의 안보 목표를 달성하기 위해 협력을 심화하기로 했다.
+    이번 KIDD 회의에서는 한미동맹 현안인 전작권 문제 등을 두고 한미 간 이견 조율이 시도됐을 것으로 보이지만, 결과 발표에서 전작권 논의에 대한 언급은 구체적으로 없었다.
+    KIDD 직전인 지난 11일(현지시간) 워싱턴DC에서 피트 헤그세스 미 국방부(전쟁부) 장관과 회담한 안규백 국방부 장관은 전작권의 조속한 전환에 공감했다면서도 "미측에서 약간의 다른 생각을 가진 부분이 있다"고 말했다.
+    핵추진잠수함 건조 협력, 유엔군사령부가 관할권을 행사하고 있는 비무장지대(DMZ) 분할관리 방안 등 현안도 테이블에 올랐을 것으로 보이나 이 역시 어떤 논의가 이뤄졌는지 언급되지 않았다.
+    다만 한미 정상 조인트 팩트시트, 지난해 SCM 결과를 적극 이행하기로 한 대목은 전작권 및 핵추진잠수함 문제에 대해 양국이 계속 진전을 모색하겠다는 의지 표시로도 해석된다.
+    한미 정상은 지난해 조인트 팩트시트에서 한국의 핵추진잠수함 건조에 협력한다는 데 합의했다. 또 지난해 57차 SCM 당시 올해 말 SCM에서 전작권 전환 목표 연도를 확정하기로 한 바 있다.
+    KIDD 회의는 한미 간 적시적이고 효과적인 안보 협의를 위해 2011년 시작한 고위급 회의체로, 매년 1∼2차례 한미가 번갈아 개최해왔다. 이번 KIDD는 올해 말 열릴 양국 국방장관 간 SCM을 준비하는 의미도 있다.
+    kimhyoj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[미국 워싱턴DC에서 열린 한미 통합국방협의체(KIDD)]]></Title>
+         <Caption><![CDATA[[국방부 제공]]]></Caption>
+         <FileName>AKR20260514011000504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/14/AKR20260514011000504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

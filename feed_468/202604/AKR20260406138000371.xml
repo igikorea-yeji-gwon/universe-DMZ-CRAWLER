@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260406138000371</ContentID>
+      <SendDate>20260406</SendDate>
+      <SendTime>204649</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="10"/>
+      <Class>
+         <ClassCode code="0108001" name="외교일반"/>
+         <ClassCode code="0503001" name="교육일반"/>
+         <ClassCode code="0701001" name="문화일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260406138000371]]></Href>
+      <Writer><![CDATA[강성철]]></Writer>
+      <Desk code="371"><![CDATA[동포.다문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[KF, 17개국 외교관 초청해 지한파 양성하는 '한국언어문화연수']]></Title>
+      <Body><![CDATA[KF, 17개국 외교관 초청해 지한파 양성하는 '한국언어문화연수'
+
+
+    (서울=연합뉴스) 강성철 기자 = 한국국제교류재단(KF·이사장 송기도)은 6일부터 8주간, 17개국 외교관 17명을 한국으로 초청해 '2026 KF 외교관 한국언어문화연수'를 실시한다고 6일 밝혔다.
+    이번 연수에는 아프리카, 유럽, 중남미, 동남아 등 다양한 지역 출신 외교관이 참여한다
+    참가자들은 연수 기간 서울과학종합대학원대학교에서 한국어 집중 교육을 받고, 한국의 정치·경제·사회 전반에 대한 강의를 수강할 예정이다. 아울러 외교부 방문 및 관계자 간담회를 통해 각국의 정책 환경과 관심 사안에 대한 의견을 공유하고 상호 이해를 높이는 시간을 갖는다.
+    이와 함께 경복궁, 비무장지대(DMZ), 현대 모터스튜디오 등 주요 현장을 방문하고, K-팝 댄스, 태권도 등 다채로운 한국 문화 체험 행사에 참여함으로써 한국 사회와 문화에 대한 이해를 심화한다.
+    특히, 오는 27∼30일에는 제주도를 방문해 지역의 주요 정책과 발전 사례를 살펴보고, 현장 중심 프로그램을 통해 지역에 대한 이해를 높일 예정이다.
+    이날 서울 한국프레스센터 매화홀에서 열린 환영식에는 주한 칠레, 투르크메니스탄, 말레이시아 대사를 비롯한 주한 외교단 11명이 참석해 연수생들을 격려했다. 이 자리에는 연수 수료 후 현재 주한 공관에서 근무 중인 선배 외교관들이 함께 자리해 경험을 공유했다.
+    송기도 이사장은 "참가자들이 한국어와 한국 사회를 보다 폭넓게 이해하는 계기가 되길 바란다"라며 "아울러 연수를 통해 형성된 교류가 향후 다양한 분야에서의 상호 이해 증진으로 이어지기를 기대한다"고 말했다.
+    재단은 지한파 양성을 위해 2005년부터 지금까지 121개국 629명의 외교관을 초청했다. 이들은 연수 후 각국 외교부, 주한 공관, 국제기구 등에서 활약하고 있다.
+    wakaru@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[KF, 17개국 외교관 초청해 '한국언어문화연수']]></Title>
+         <Caption><![CDATA[[KF 제공]]]></Caption>
+         <FileName>AKR20260406138000371_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/06/AKR20260406138000371_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

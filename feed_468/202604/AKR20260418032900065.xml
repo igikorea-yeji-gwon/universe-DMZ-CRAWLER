@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260418032900065</ContentID>
+      <SendDate>20260418</SendDate>
+      <SendTime>113744</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107002" name="지방의회"/>
+         <ClassCode code="0103006" name="입법"/>
+         <ClassCode code="0501011" name="인구통계"/>
+         <ClassCode code="0101001" name="정치일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260418032900065]]></Href>
+      <Writer><![CDATA[신민재]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국회 정개특위, 인천 시의원 정수 40→45명 조정안 마련]]></Title>
+      <Body><![CDATA[국회 정개특위, 인천 시의원 정수 40→45명 조정안 마련
+
+
+
+    (인천=연합뉴스) 신민재 기자 = 인천의 시의원 정수를 현행 40명에서 45명으로 늘리는 방안이 추진된다.
+    18일 국회 정치개혁특별위원회에 위원으로 참여 중인 국민의힘 배준영 의원(인천 중구·강화군·옹진군)에 따르면 정개특위는 전날 전체회의를 열어 이런 내용이 포함된 공직선거법 개정안을 마련했다.
+    오는 7월로 예정된 인천 행정체제 개편과 인구 증가세를 반영해 지역구 시의원 정수는 36명에서 39명으로, 비례대표는 4명에서 6명으로 각각 증원된다.
+    인구 감소로 폐지 가능성이 제기됐던 옹진군 시의원 의석은 도서·접경 지역이라는 특수성과 지역 대표성을 고려해 현행대로 유지된다.
+    이번 개정안은 국회 법제사법위원회와 본회의 심의·의결을 거쳐 시행될 예정이다.
+    smj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[인천시의회]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20240428000001990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/04/28/01/PCM20240428000001990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

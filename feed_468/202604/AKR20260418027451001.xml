@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260418027451001</ContentID>
+      <SendDate>20260418</SendDate>
+      <SendTime>185359</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260418027451001]]></Href>
+      <Writer><![CDATA[김효정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[송언석 "'정동영 외교 안보 리스크' 임계점 넘어…경질해야"(종합)]]></Title>
+      <SubTitle><![CDATA[통일부 "공개정보 근거한 언급" 거듭 강조]]></SubTitle>
+      <Body><![CDATA[송언석 "'정동영 외교 안보 리스크' 임계점 넘어…경질해야"(종합)
+통일부 "공개정보 근거한 언급" 거듭 강조
+
+
+
+    (서울=연합뉴스) 김치연 김효정 기자 = 국민의힘 송언석 원내대표는 18일 정동영 통일부 장관이 북한 영변·강선 외에 평안북도 구성을 핵시설 소재지로 언급한 것을 두고 미국 정부가 정부 공유 제한 방침 등을 통보했다는 언론 보도와 관련, "외교적 대형사고"라고 비판했다.
+    송 원내대표는 이날 페이스북에서 "이번 사태와 같은 일의 재발 방지 대책의 첫걸음은 정 장관 경질"이라며 이같이 밝혔다.
+    그는 "대한민국 외교안보의 '정동영 리스크'는 임계점을 넘었다"면서 "유엔사와의 조율 없이 DMZ법을 여당과 추진하다 유엔사의 강력한 반발을 초래했고, 북한의 반헌법적 두 국가론을 동조하는 경솔한 발언으로 국내외 불신을 자초했다"고 꼬집었다.
+    그러면서 "급기야 그 가벼운 입으로 인해 한미 양국 간 정보공유와 군사 공조를 훼손하는 중대한 실책을 저지른 것"이라며 "한미 양국의 굳건한 안보 공조에 금이 간 것"이라고 밝혔다.
+    정 장관은 지난달 6일 국회 외교통일위원회에 출석해 라파엘 그로시 국제원자력기구(IAEA) 사무총장의 보고라며 북한의 우라늄 농축시설 소재지로 영변과 구성 외에 강선까지 거론했다.
+    당시 발언은 정부 고위 당국자가 공개석상에서 구성을 북한의 우라늄 농축시설 소재지로 처음 언급한 것이어서 주목받았다. 그로시 사무총장의 원 보고에는 영변과 강선만 나왔었다.
+    통일부는 정 장관의 외통위 발언이 국제연구기관 등의 공개정보에 근거한 것으로, 타 기관에서 정보를 제공받은 것이 아니며 이런 배경을 미국 측에도 설명했다고 앞서 해명했다.
+    통일부 당국자는 이날도 "구성에서의 우라늄 농축 가능성은 이미 2016년 미국 ISIS(과학국제안보연구소) 보고서 발표와 국내 언론 보도 이후 최근까지 여러 연구기관 및 여러 언론이 보도해 왔다"며 이런 공개 정보에 근거해 북핵 문제 심각성과 해결의 시급성을 강조히는 과정에서 구성을 언급했던 것이라고 거듭 강조했다.   
+    chic@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[발언하는 송언석 원내대표]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 배재만 기자 = 국민의힘 송언석 원내대표가 17일 국회에서 열린 원내대책회의에서 발언하고 있다. 2026.4.17 scoop@yna.co.kr]]></Caption>
+         <FileName>PYH2026041702070001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/17/PYH2026041702070001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

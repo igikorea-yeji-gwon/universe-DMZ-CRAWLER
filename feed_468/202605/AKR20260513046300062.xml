@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260513046300062</ContentID>
+      <SendDate>20260513</SendDate>
+      <SendTime>094121</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260513046300062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군 '2026 펀치볼 감자꽃·숲길 걷기' 내달 6∼7일 개최]]></Title>
+      <Body><![CDATA[양구군 '2026 펀치볼 감자꽃·숲길 걷기' 내달 6∼7일 개최
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군은 내달 6∼7일 해안면 DMZ 펀치볼 둘레길 일원에서 '2026 감자꽃·숲길 걷기' 행사를 개최한다. 
+    한국등산·트레킹지원센터와 함께 진행하는 이번 행사는 초여름 감자꽃이 만개한 펀치볼 일원의 자연경관과 DMZ 숲길을 함께 체험할 수 있도록 마련됐다.
+    특히 호국보훈의 달인 6월에 열리는 만큼 참가자들이 DMZ 일원의 생태·평화 자원을 직접 체험하며 평화의 의미를 되새기는 계기가 될 것으로 기대된다.
+    참가자들은 DMZ 펀치볼 둘레길 대표 구간인 만대벌판길과 오유밭길 일원을 중심으로 총 6.6㎞ 코스를 걷게 된다.
+    해당 구간은 DMZ 자생식물원을 출발해 송가봉 쉼터, 대암 계곡, 감자꽃길, 만대저수지를 거쳐 다시 식물원으로 돌아오는 순환형으로 운영한다.
+    중식 장소인 성황당 야외쉼터에서는 지역 농특산물과 산나물을 활용한 '숲밥'이 참가자 전원에게 제공되며, 만대저수지 쉼터에서는 감자 부침개 체험과 간단한 간식을 즐길 수 있다.
+    행사장 일원에서는 지역 농특산품 판매 장터도 함께 열린다.
+    장터에서는 시래기, 사과, 벌꿀, 건나물 등 지역 농특산물과 질경이, 돼지감자순, 산마늘 등을 활용한 장아찌류 등을 만날 수 있다.
+    참가 신청은 숲나들e 홈페이지를 통해 선착순으로 받는다.
+    양구군 관계자는 13일 "이번 행사는 단순한 걷기를 넘어 민족 분단의 역사와 평화의 의미가 공존하는 펀치볼에서 자연의 가치와 생태환경의 소중함을 함께 느끼고, 몸과 마음을 치유하는 시간을 제공하기 위해 마련됐다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구 펀치볼 감자꽃]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260513046300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/13/AKR20260513046300062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

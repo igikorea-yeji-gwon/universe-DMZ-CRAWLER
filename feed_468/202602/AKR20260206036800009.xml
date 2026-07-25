@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260206036800009</ContentID>
+      <SendDate>20260206</SendDate>
+      <SendTime>092449</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107007" name="예멘"/>
+         <RegionCode code="7107004" name="사우디"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260206036800009]]></Href>
+      <Writer><![CDATA[김아람]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[사우디, 예멘서 UAE 지우려 오일머니 살포…올해 4조원 편성]]></Title>
+      <SubTitle><![CDATA['철군' UAE 지원받던 분리주의 세력 군대 급여 등 지원]]></SubTitle>
+      <Body><![CDATA[사우디, 예멘서 UAE 지우려 오일머니 살포…올해 4조원 편성
+'철군' UAE 지원받던 분리주의 세력 군대 급여 등 지원
+
+
+    (서울=연합뉴스) 김아람 기자 = 사우디아라비아가 작년 말 예멘에서 아랍에미리트(UAE)를 밀어낸 이후 현지에서 영향력을 키우기 위해 수십억 달러를 투입하고 있다고 로이터통신이 12일(현지시간) 보도했다.
+    예멘과 서방 당국자들에 따르면 사우디는 올해 예멘 군대와 공무원들에게 지급할 급여를 위한 예산을 30억달러(약 4조4천억원) 가까이 책정했다.
+    이 예산에는 UAE가 예멘 내 분리주의 세력인 남부과도위원회(STC) 전사들에게 지급해온 급여 약 10억달러가 포함됐다.
+    최근 사우디는 UAE로부터 급여를 받던 수십만 명의 공무원과 작년 12월 사우디 지원군을 공격한 수만 명의 전사들에게 급여를 지원하기 시작했다. 
+    이처럼 올해 사우디가 예멘에 투입하는 '오일머니'는 급여와 개발 프로젝트 비용 등을 포함해 40억달러를 넘어설 수 있다고 당국자 2명은 전했다.
+    무암마르 에리아니 예멘 정보부 장관은 로이터 인터뷰에서 "사우디는 우리와 협력해왔으며 모든 급여를 전액 지급할 준비가 됐다고 밝혔다"고 말했다.
+    그는 구체적인 금액은 밝히지 않았으나, 사우디의 지원이 STC를 재편하고 이 조직을 예멘 국가 권력 아래로 끌어들이는 데 도움이 될 것이라고 덧붙였다.
+
+    사우디는 예멘 국가 분열을 막기 위해 STC를 포함한 남부 파벌들을 사우디 주도의 단일 군사 구조로 통합, 현재 예멘 영토의 약 3분의 1을 장악한 후티 반군을 압박하고자 한다.
+    이런 맥락에서 사우디는 STC에 '정치적 당근'도 제시한 것으로 알려졌다. 후티 반군과의 갈등 해결에 STC가 힘을 보태면, STC의 오랜 꿈인 분리 독립 국가 건설을 도와주겠다는 제안이다.
+    사우디와 UAE는 중동 지역 주도권을 놓고 예멘, 수단 등에서 치열한 경쟁을 벌이고 있다.
+    그동안 예멘에서는 이란이 지원하는 후티 반군에 맞서 국제적으로 승인된 예멘 정부를 복원한다는 공동 목표 아래 협력해왔으나, 남예멘 부활을 추구하는 STC를 둘러싼 입장 차이로 갈등을 빚어왔다.
+    사우디는 예멘 정부군을, UAE는 STC를 각각 지원해왔는데 지난해 말 STC가 사우디 접경지까지 세력을 확장하면서 사우디를 자극했다.
+    이에 사우디는 작년 12월 26일과 30일 예멘 내 STC를 점령지를 직접 공습했고, 결국 UAE의 철군과 STC의 점령지 철수를 끌어냈다.
+    영국 싱크탱크인 채텀하우스의 파레아 알무슬리미 연구원은 로이터에 "사우디와 1천800㎞ 국경을 공유하는 예멘의 불안정한 상황이 사우디의 외국인 관광객 유치 및 투자 계획을 방해할 수 있다"고 설명했다.
+    rice@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[사우디 리야드에서 열린 남부 예멘의 미래를 논의하는 회의]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260119005901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/01/19/PAP20260119005901009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[예멘 아덴에서 열린 STC 지지 집회]]></Title>
+         <Caption><![CDATA[[EPA=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20260124095601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/01/24/PEP20260124095601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260521097600084</ContentID>
+      <SendDate>20260521</SendDate>
+      <SendTime>130442</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102010" name="미얀마"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260521097600084]]></Href>
+      <Writer><![CDATA[박진형]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[미얀마 정부군, 남부 국경무역 거점도 탈환]]></Title>
+      <SubTitle><![CDATA[최근 中 지원 업고 반군 장악 지역 잇따라 되찾아]]></SubTitle>
+      <Body><![CDATA[미얀마 정부군, 남부 국경무역 거점도 탈환
+최근 中 지원 업고 반군 장악 지역 잇따라 되찾아
+
+
+
+    (하노이=연합뉴스) 박진형 특파원 = 군사정권 수장 출신 민 아웅 흘라잉 대통령이 이끄는 미얀마 정권이 반군에 잃어버린 주요 지역을 잇따라 되찾고 있다.
+    21일(현지시간) 미얀마 관영 매체 '글로벌 뉴 라이트'에 따르면 미얀마 정부군은 남부 타닌타리주의 태국과 접경 지역인 마우타웅 마을을 지난 19일 탈환했다.
+    이 지역은 작년 11월 반군에 넘어갔지만, 미얀마군은 최근 약 2주 동안 200여건의 크고 작은 교전을 벌인 끝에 이 지역을 되찾는 데 성공했다.
+    이 과정에서 최소 24명의 반군 병력이 숨졌다. 
+    정부군 측에서도 일부가 "영웅적으로 목숨을 바쳤다"고 이 매체는 전했지만, 구체적인 사망자 수는 공개하지 않았다.
+    마우타웅은 작은 마을이지만 태국과 국경 무역 거점이기도 하다.
+    정부군이 이 지역을 되찾으면서 앞으로 이곳을 통한 태국과의 국경 무역·운송 활동이 재개될 것으로 이 매체는 전망했다.
+    이에 앞서 최근 정부군은 중국 국경으로 이어지는 북부 주요 고속도로도 탈환했다고 밝혔다고 AFP 통신은 전했다.
+    당초 2023년 하반기 미얀마민족민주주의동맹군(MNDAA)·아라칸군(AA)·타앙민족해방군(TNLA) 등 소수민족 반군들이 '형제동맹'을 결성, 합동 공세에 나서자 군사정권은 수세로 몰렸다.
+    정부군은 이들의 공세에 잇따라 주요 지역을 내주면서 크게 흔들렸다.
+    하지만 군사정권이 위기에 빠지자 정권 붕괴를 원치 않는 중국이 적극 개입, 반군 공세의 핵심인 MNDAA와 TNLA를 압박해 작년 정권과 휴전협정을 체결하도록 했다.
+    중국은 또 저렴한 무인기(드론) 수천 대와 항공기·동력 패러글라이더 등을 군사정권에 공급했고, 정부군은 이를 활용해 반군 장악 지역에 무차별 폭격을 가해 반군을 밀어냈다.
+    이에 한숨 돌린 군사정권은 작년 12월∼올해 1월 야당의 참여를 봉쇄한 채 실시한 총선에서 친군부 정당을 앞세워 다수 의석을 확보했다.
+    이어 군복을 벗은 민 아웅 흘라잉 최고사령관을 대통령으로 하는 민간 정부로 간판을 바꿔다는 데 성공한 뒤 동남아 주변 국가들과 대화 등을 통해 국제사회 복귀를 시도하고 있다.
+    또 지난달 미얀마 민주 진영 임시정부인 국민통합정부(NUG) 산하 시민방위군(PDF) 등 반군 단체들에 오는 7월 말까지 평화회담을 갖자고 제안하는 등 활동 반경을 넓히고 있다.
+    jhpark@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[미얀마 정부군]]></Title>
+         <Caption><![CDATA[작년 8월 19일(현지시간) 미얀마 동부 카야주의 한 마을을 반군으로부터 되찾은 미얀마 정부군 군인들이 승전 기념 포즈를 취하고 있다. 
+[AP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20250821005001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2025/08/21/PAP20250821005001009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260417070600009</ContentID>
+      <SendDate>20260417</SendDate>
+      <SendTime>111412</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260417070600009]]></Href>
+      <Writer><![CDATA[김승욱]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[레바논 휴전에 축제인데…"이스라엘, 남부에 일부 공격 지속"]]></Title>
+      <SubTitle><![CDATA[레바논군 '휴전 위반' 주장…주민·피란민에 각별한 주의 촉구]]></SubTitle>
+      <Body><![CDATA[레바논 휴전에 축제인데…"이스라엘, 남부에 일부 공격 지속"
+레바논군 '휴전 위반' 주장…주민·피란민에 각별한 주의 촉구
+
+
+    (서울=연합뉴스) 김승욱 기자 = 이스라엘과 레바논 간 열흘간의 휴전으로 레바논 전역에서 축하 분위기가 확산했다. 하지만 휴전 직후에 일부 지역에서는 이스라엘 공격이 지속됐다는 주장도 뒤따랐다. 
+    17일(현지시간) 외신들에 따르면 도널드 트럼프 미국 대통령이 소셜미디어를 통해 양국의 휴전 사실을 공개하자 레바논 수도 베이루트에서는 시민들이 공중으로 총을 쏘며 기쁨을 표현했다.
+    도시 곳곳에서는 큰 폭발음이 울려 퍼졌다. 현지 언론은 일부 축하 사격에 대전차 무기까지 동원된 것으로 보인다고 전했다.
+    전쟁 피해가 컸던 베이루트 남부 교외에서도 주민들이 거리로 나와 휴전을 기념했다. 
+    다만 레바논의 친이란 무장정파 헤즈볼라는 "총알은 적을 향해야 한다"며 축하 사격 자제를 촉구하면서 유탄으로 인한 사고 가능성을 경고했다.
+    헤즈볼라는 중동 내에서 이란의 가장 막강한 대리세력이다. 이스라엘은 자국 북부와 접경한 레바논 남부에 거점을 두는 헤즈볼라는 최대 안보위협으로 간주한다.
+
+    이스라엘과 레바논 간 충돌은 올해 2월 28일 시작된 이란 전쟁 초기 이스라엘군이 이란 최고지도자 아야톨라 알리 하메네이를 사살한 데 대한 보복으로 헤즈볼라가 이스라엘에 로켓 공격을 가하면서 촉발됐다.
+    이후 이스라엘군은 레바논을 공격하고 남부 국경 지역 일부를 점령했다. 이스라엘은 헤즈볼라 무장 해제와 장기적 안보 확보를 목표로 하고 있다.
+    레바논 정부는 교전에 직접 참여하지 않은 채 긴장 완화와 이스라엘군 철수를 요구해왔다.
+    이런 가운데 레바논군은 양국 간 휴전이 발효된 이후인 17일 오전에도 이스라엘이 남부 지역에서 "공격 행위"를 벌였다고 주장했다.
+    레바논군은 엑스(X·옛 트위터)를 통해 "이스라엘의 여러 차례에 걸친 공격 행위로 인해 휴전 협정 위반 사항이 발생하고 있다"며 남부 지역으로 돌아가는 주민과 피란민들에게 각별한 주의를 기울일 것을 촉구했다.
+    ksw08@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[16일(현지시간) 연기 피어오르는 레바논]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260417020001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/04/17/PAF20260417020001009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘과의 휴전 발표 축하하는 헤즈볼라 지지자들]]></Title>
+         <Caption><![CDATA[(AFP=연합뉴스) 레바논 베이루트 남부 외곽 지역에서 헤즈볼라 지지자들이 이스라엘과의 휴전 발효를 축하하고 있다. 2026.4.17]]></Caption>
+         <FileName>PAF20260417131801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/04/17/PAF20260417131801009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

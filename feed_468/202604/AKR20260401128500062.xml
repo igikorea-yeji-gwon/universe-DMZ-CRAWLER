@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260401128500062</ContentID>
+      <SendDate>20260401</SendDate>
+      <SendTime>144008</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0412002" name="수산업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260401128500062]]></Href>
+      <Writer><![CDATA[유형재]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[동해안 최북단 저도어장, 9일 첫 입어…170척 예상]]></Title>
+      <SubTitle><![CDATA[연간 15억원 소득 창출…어업지도선 고정 배치, 조업 질서 확립]]></SubTitle>
+      <Body><![CDATA[동해안 최북단 저도어장, 9일 첫 입어…170척 예상
+연간 15억원 소득 창출…어업지도선 고정 배치, 조업 질서 확립 
+
+
+    (강릉=연합뉴스) 유형재 기자 = 강원특별자치도는 동해안 최북단 저도어장에 오는 9일 올해 첫 입어를 실시한다고 1일 밝혔다.
+    입어 예상 척수는 현내면 소속에선 120척, 거진읍 소속에선 50척 등 170척이다. 
+    저도어장은 북방한계선(NLL)과 조업한계선 사이에 위치한 최대 황금어장으로 평소에는 출입이 통제되나 매년 4월 1일부터 12월 31일까지 9개월간 조업이 이루어진다.
+    이곳에서는 크고 맛이 월등해 전국적으로 유명한 대문어를 비롯한 대게, 해삼, 해조류 등 어업인 및 관광객들이 선호하는 다양한 어종이 어획된다.
+    지난해 저도어장에서는 연승, 자망 등 어선 9천221척이 190일간 조업해 문어, 대게, 해삼 등 69t을 어획해 약 15억원 규모의 소득을 올렸다.
+    척당 평균 위판 금액은 3천100만원에 달한다.
+
+    도는 접경 수역에서의 안전 조업과 피랍방지를 위해 어업지도선을 상시 배치하고 해군, 해경 경비정과 긴밀한 공조 체제를 유지하며 어로한계선 이탈 방지와 긴급상황 대응 등 어선 안전 조업 지도 활동을 강화할 계획이다.
+    또 고성군 및 고성군수협에서는 조업 구역 이탈 방지를 위한 경계 부표 설치를 마쳤고, 저도어장 입어 어업인을 대상으로 어선 안전 조업 및 월선 방지 등 안전교육을 실시했다. 
+    특히 과거 52년간 유지됐던 대면 확인 방식을 개선해 2024년부터 도입된 무선설비를 활용한 '통신 점호' 입어 절차를 올해도 운영해 어업인들의 조업 대기 시간을 단축하는 불편을 해소한다.
+    손창환 도 제2청사 본부장은 "남북 간 접경지역인 저도어장의 특수성을 고려해 관계기관과 긴밀히 협조해 월선 및 안전사고 없이 어업인 소득증대에 기여할 수 있도록 최선을 다하겠다"고 말했다.
+
+    yoo21@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[동해 최북단 저도어장 대문어]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2023041403080006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2023/04/14/PYH2023041403080006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[저도어장 개방…평화로운 조업]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2023041403830006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2023/04/14/PYH2023041403830006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[황금 저도어장 향한 힘찬 출발]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2025041703470006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/04/17/PYH2025041703470006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

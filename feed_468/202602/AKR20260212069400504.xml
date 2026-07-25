@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260212069400504</ContentID>
+      <SendDate>20260212</SendDate>
+      <SendTime>110910</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260212069400504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[평화경제특구 참여 지자체 9월·내년 8월 등 두 차례 접수]]></Title>
+      <Body><![CDATA[평화경제특구 참여 지자체 9월·내년 8월 등 두 차례 접수
+
+
+    (서울=연합뉴스) 하채림 기자 = 통일부는 평화경제특구 지정을 원하는 지방자치단체의 개발계획 접수를 올해 9월과 내년 8월 등 두 차례에 걸쳐 접수한다고 12일 밝혔다.
+    통일부와 국토교통부 등이 참여하는 평화경제특구위원회는 지난 3∼10일 제3차 회의를 서면으로 진행해 이런 내용의 개발계획 접수 일정을 결정했다.
+    개발계획 수립에 필요한 충분한 시간을 지자체에 보장하기 위해 두 차례에 걸쳐 접수는 진행하는 것이라고 통일부는 전했다.
+    평화경제특구위원회는 지자체의 개발계획을 심사하는 평가단을 민간 전문가 13명과 통일부·국토부 담당 과장 등 총 15명으로 구성했다.
+    정부는 내년까지 총 4개 내외 평화경제특구를 지정할 계획이다. 
+    평화경제특구는 접경지역의 발전 및 남북교류협력 산업의 활성화를 위해 조세·부담금 감면, 규제특례 및 기반시설 지원 등을 제공하는 사업이다. 
+
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[평화경제특구 기본구상]]></Title>
+         <Caption><![CDATA[[통일부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260212069400504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/12/AKR20260212069400504_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[평화경제특구 지정 절차]]></Title>
+         <Caption><![CDATA[[통일부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260212069400504_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/12/AKR20260212069400504_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

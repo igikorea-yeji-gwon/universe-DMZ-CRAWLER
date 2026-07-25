@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260417000200108</ContentID>
+      <SendDate>20260417</SendDate>
+      <SendTime>000429</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107004" name="사우디"/>
+         <RegionCode code="7102032" name="파키스탄"/>
+         <RegionCode code="7107006" name="아랍에미"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260417000200108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[사우디, 파키스탄에 30억달러 예금 추가 예치]]></Title>
+      <Body><![CDATA[사우디, 파키스탄에 30억달러 예금 추가 예치
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 사우디아라비아가 파키스탄 중앙은행에 30억달러(약 4조4천400억원)의 예금을 추가로 맡긴다고 사우디 국영 SPA 통신이 16일(현지시간) 보도했다.
+    SPA는 사우디가 파키스탄 중앙은행에 예치해둔 기존 50억달러(약 7조4천억원) 규모의 예금 만기도 연장하기로 결정했다고 전했다. 전날 사우디 실권자인 무함마드 빈 살만 왕세자 겸 총리가 사우디 제다를 방문한 셰바즈 샤리프 파키스탄 총리를 맞아 회담한 직후 이뤄진 조치다.
+    최근 아랍에미리트(UAE)는 올해 만기가 도래하는 약 35억달러(약 5조 1천800억원) 규모의 만기 연장을 7년만에 처음으로 거부하고 상환을 요구하면서 파키스탄의 재정적 부담이 가중됐는데 사우디가 지원하고 나선 모양새다.
+    사우디의 이같은 움직임은 작년 말 UAE의 지지를 받던 예멘의 분리주의 무장세력인 남부과도위원회(STC)와 사우디가 접경지에서 무력 충돌을 벌이며 사우디와 UAE의 긴장이 고조됐던 상황과도 무관하지 않은 것으로 보인다.
+    사우디는 과거 국내외 안보가 불안해질 때마다 서아시아의 군사 대국 파키스탄으로부터 도움을 받았으며, 파키스탄은 경제 위기 때 사우디의 지원을 받곤 했다. 양국은 작년 9월 17일 전략적상호방위조약(SMDA)을 체결하면서 더욱 밀착하고 있다.
+    지난 11일 파키스탄 이슬라마바드에서 열린 미국과 이란의 종전 협상을 앞두고 파키스탄 공군 전력이 사우디 동부 다란 지역의 킹압둘아지즈 공군기지에 배치돼 만일의 사태에 대비하기도 했다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[사우디 왕세자(오른쪽)와 파키스탄 총리 '환한 미소']]></Title>
+         <Caption><![CDATA[(제다 EPA=연합뉴스) 지난 15일(현지시간) 사우디 제다에서 무함마드 빈 살만 왕세자가 셰바즈 샤리프 파키스탄 총리를 환영하고 있다. [파키스탄 총리실 제공, 재판매 및 DB 금지] 2026.4.17 photo@yna.co.kr]]></Caption>
+         <FileName>PEP20260416120701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/04/16/PEP20260416120701009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260330061100060</ContentID>
+      <SendDate>20260330</SendDate>
+      <SendTime>103128</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0201001" name="경제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260330061100060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도 '평화경제특구' 후보지 연천·파주·포천 등 3곳 선정]]></Title>
+      <Body><![CDATA[경기도 '평화경제특구' 후보지 연천·파주·포천 등 3곳 선정
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도는 정부의 평화경제특구 조성 계획과 관련해 연천군, 파주시, 포천시 등 3곳을 평화경제특구 후보지로 선정했다고 30일 밝혔다.
+
+    앞서 정부는 올해부터 내년까지 모두 4개 안팎의 평화경제특구를 조성하겠다고 발표한 바 있다. 
+    도는 지난달 11일부터 지난 10일까지 고양, 파주, 김포, 양주, 포천, 동두천, 가평, 연천 등 경기도 내 접경지역 8개 시군을 대상으로 평화경제특구 후보지 선정을 위한 공개모집을 진행했다.
+    공모에는 모두 7개 시군이 참가했다. 
+    도는 이번에 선정된 3개 후보지를 대상으로 다음 달부터 '경기도 평화경제특구 개발계획 수립 연구용역'을 시작할 계획이다.
+    도는 연구용역을 통해 후보지별 특화 전략을 개발하고 법정 계획의 완성도를 높이는 등의 준비를 거쳐 통일부에 특구 지정을 신청한다는 구상이다.
+    특구 최종 지정 여부는 통일부 등의 심의를 거쳐 결정된다.
+    박현석 경기도 평화협력국장은 "이번 후보지 선정은 전문가들이 경기도의 특구 지정 가능성을 극대화하기 위해 내린 평가"라며 "선정된 시·군과 함께 전국에서 가장 앞서가는 평화경제 모델을 구축하겠다"고 말했다.
+    평화경제특구로 지정되면 법인세, 지방세, 부담금 감면 및 자금 지원 등 혜택이 주어지며, 산단형이나 관광ㆍ문화형 또는 복합형 특구를 조성할 수 있다.
+    도는 이번에 선정되지 않은 시군을 대상으로 재공모 등을 통해 후보지를 추가 선정할 계획이다. 추가 시군 역시 개발계획 수립 연구용역을 통해 특구 지정을 신청하도록 지원하게 된다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도청사]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260330061100060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/30/AKR20260330061100060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

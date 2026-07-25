@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260604038700065</ContentID>
+      <SendDate>20260604</SendDate>
+      <SendTime>062638</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001212" name="인천선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260604038700065]]></Href>
+      <Writer><![CDATA[신민재]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[6·3 지선] 인천 기초단체장 '리턴매치' 5곳 중 3곳서 민주 '勝']]></Title>
+      <SubTitle><![CDATA[민주, 남동·미추홀·옹진 탈환…국힘, 제물포·강화 수성]]></SubTitle>
+      <Body><![CDATA[[6·3 지선] 인천 기초단체장 '리턴매치' 5곳 중 3곳서 민주 '勝' 
+민주, 남동·미추홀·옹진 탈환…국힘, 제물포·강화 수성
+
+
+
+    (인천=연합뉴스) 신민재 기자 = 인천에서 더불어민주당이 6·3 지방선거 압승을 거둔 가운데 군수·구청장 후보 간 재대결에서도 우세를 보였다.
+    이번에 기초단체장 후보 간 리턴매치가 성사된 인천 군·구 5곳 중 3곳에서 민주당 후보가 국민의힘 소속 현직 단체장을 꺾으며 4년 전 패배를 설욕했다.
+    인천시청과 시교육청 등 공공기관이 밀집해 '인천 정치 1번지'로 꼽히는 남동구에서는 민주당 이병래 전 인천시의원이 현직 구청장인 국민의힘 박종효 구청장과 4년 만에 다시 맞붙어 승리했다.
+    미추홀구에서는 전·현직 구청장의 재대결이 펼쳐졌다. 이곳에서는 민주당 김정식 전 구청장이 국민의힘 이영훈 현 구청장을 꺾었다. 
+    전·현직 군수가 리턴매치를 벌인 옹진군에서도 민주당 장정민 전 군수가 국민의힘 문경복 현 군수를 누르고 설욕에 성공했다.
+    국민의힘은 원도심과 접경지역 등 2곳에서 군수·구청장 자리를 지키며 체면치레를 했다.
+    인천 동구와 중구의 내륙 지역이 통합돼 다음 달 출범하는 제물포구에서는 국민의힘 김찬진 현 동구청장이 민주당 남궁형 전 인천시의원과 재대결해 200여표 차로 신승을 거뒀다.
+    강화군에서는 국민의힘 박용철 현 군수가 2년 전 군수 보궐선거에 이어 다시 한번 민주당 한연희 전 평택시 부시장을 꺾고 재선 고지에 올랐다.
+    smj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[투표 기다리는 인천 유권자들]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2026060301720006500_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/03/PYH2026060301720006500_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

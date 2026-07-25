@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260422038300061</ContentID>
+      <SendDate>20260422</SendDate>
+      <SendTime>092455</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005014" name="수원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0401001" name="산업일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260422038300061]]></Href>
+      <Writer><![CDATA[최해민]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, 외국인 일일 여행상품 'EG투어' 운영 개시]]></Title>
+      <Body><![CDATA[경기도, 외국인 일일 여행상품 'EG투어' 운영 개시
+
+    (수원=연합뉴스) 최해민 기자 = 경기도와 경기관광공사는 외국인 전용 일일 여행상품 '2026 EG투어' 운영을 시작했다고 22일 밝혔다.
+
+    2017년부터 매년 봄부터 11월 말까지 운영돼 온 EG투어는 대중교통 이용에 불편을 겪는 외국인 관광객이 서울 주요 거점에서 도내 관광명소를 편리하게 방문할 수 있도록 설계된 전용 투어 상품이다.
+    서울 거점은 홍대입구역과 을지로입구역, 양재역 등이며, 이곳에서 전용 차량에 탑승하면 4가지 관광 노선을 자유롭게 방문할 수 있다.
+    연계 노선은 ▲ 전통과 한류를 결합한 수원·용인 노선 ▲ 도자와 역사를 테마로 한 이천·여주 노선 ▲ 비무장지대를 들여다보는 파주 평화 노선 ▲ 애기봉 평화생태공원을 방문하는 김포 노선 등이다.
+    경기도는 이들 정규 노선 외에도 계절이나 지역 특성을 고려한 테마형 기획 노선도 추가로 운영할 계획이다.
+    EG투어는 온라인 여행상품 판매플랫폼인 클룩, 케이케이데이, 트립닷컴 등을 통해 구매할 수 있다.
+    고영미 경기도 관광산업과장은 "EG투어는 서울에만 머물다가 출국하는 외국인 관광객을 도내 관광지로 유입시키는 데 의미가 있는 사업"이라며 "앞으로도 도내 곳곳에 숨겨진 보석 같은 관광 자원을 촘촘하게 연결해 외국인들의 방문 문턱을 낮추겠다"고 말했다.
+    goals@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도청사]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240902000037060_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/09/02/37/PCM20240902000037060_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260406070600062</ContentID>
+      <SendDate>20260406</SendDate>
+      <SendTime>110553</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0701006" name="역사"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260406070600062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, DMZ 평화의 길 6개 코스 개방…생태·역사·안보 체험]]></Title>
+      <SubTitle><![CDATA[접경지역 5개 군 참여…오는 17일부터 11월30일까지 테마 운영]]></SubTitle>
+      <Body><![CDATA[강원도, DMZ 평화의 길 6개 코스 개방…생태·역사·안보 체험
+접경지역 5개 군 참여…오는 17일부터 11월30일까지 테마 운영
+
+    (춘천=연합뉴스) 이재현 기자 = 강원특별자치도는 DMZ(비무장지대) 평화의 길 테마노선 6개 코스를 전면 개방한다고 6일 밝혔다.
+
+    테마노선은 도내 접경지역 5개 군에 조성된 코스로, 개방 시기는 오는 17일부터 11월 30일까지다.
+    DMZ와 민간인출입통제선 이북 지역 천혜의 생태·문화·역사 자원을 활용해 자유와 안보, 평화의 가치를 체험할 수 있도록 구성한 길이다.
+    6·25전쟁 당시 국군과 중공군 간 공방전 끝에 국군이 탈환한 '철원 백마고지 코스'(12㎞·소요시간 130분)는 공작새 전망대 등을 감상할 수 있고, 가곡 '비목'의 배경이 된 '화천 백암산 비목 코스'(87.9㎞·240분)는 케이블카로 오를 수 있다.
+
+    전쟁 속에서도 자연의 모습을 간직한 '양구 두타연 피의 능선 코스'(16.7㎞·180분)와 백두대간의 아름다운 풍경을 바라보는 '인제 대곡리초소∼1052고지 코스'(46㎞·180분)도 개방돼 백두대간의 아름다운 비경을 직관할 수 있다.
+    '고성 A코스'(3.6㎞·90분) 통일전망대와 '고성 B코스'(7.2㎞·70분) 금강산전망대'는 동해안을 따라 이어지는 해금강과 금강산을 함께 조망할 수 있다.
+    대부분 구간은 참가자 안전과 야생 동식물 보호를 위해 차량으로 이동하며, 일부 구간은 도보 탐방을 병행해 평화의 의미와 비무장지대의 자연·역사적 가치를 직접 체험할 수 있도록 운영한다.
+    한국관광공사 '평화의 길' 누리집(www.dmzwalk.com)과 걷기여행 모바일 앱 '두루누비'를 통해 예약할 수 있고, 방문일 기준 8일 전까지 선착순 신청을 받는다.
+
+    코스별로 하루 1∼2회, 주 4∼5일 운영되며 혹서기(7∼8월)에는 운영이 일시 중지된다.
+    참가비 1만원은 지역경제 활성화를 위해 지역 상품권이나 특산품 등으로 환급받을 수 있다.
+    최재희 도 접경지역과장은 "디엠지 평화의 길은 단순한 걷기 코스를 넘어 접경지역의 가치를 알리는 상징적인 장소"라며 "이번 테마노선 개방으로 침체한 DMZ 접경지역의 관광 활성화는 물론 지역 경제회복의 계기가 되기를 바란다"고 말했다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[고성통일전망대에서 바라본 북측 해금강]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2019042704970001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2019/04/27/PYH2019042704970001300_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 'DMZ 평화의 길']]></Title>
+         <Caption><![CDATA[[촬영 이재현]]]></Caption>
+         <FileName>PYH2019052920920006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2019/05/29/PYH2019052920920006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ 평화의길]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2019091720320001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2019/09/17/PYH2019091720320001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

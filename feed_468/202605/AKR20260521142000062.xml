@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260521142000062</ContentID>
+      <SendDate>20260521</SendDate>
+      <SendTime>162127</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004018" name="화천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0107003" name="지방정가"/>
+         <ClassCode code="0105001" name="선거일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260521142000062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[르포] 무주공산 화천군수 선거…접경지 경제·인구 해법 경쟁]]></Title>
+      <SubTitle><![CDATA[산천어축제·농어촌 기본소득 놓고 김세훈·최명수 양자 대결
+주민들 "침체한 지역 경제 살릴 후보 필요" 한목소리]]></SubTitle>
+      <Body><![CDATA[[르포] 무주공산 화천군수 선거…접경지 경제·인구 해법 경쟁
+산천어축제·농어촌 기본소득 놓고 김세훈·최명수 양자 대결
+주민들 "침체한 지역 경제 살릴 후보 필요" 한목소리 
+
+
+    (화천=연합뉴스) 이상학 기자 = "떠나지 않는 화천을 위해 공약을 제대로 실천할 후보를 뽑아야죠."
+    6·3 지방선거 공식 선거운동 첫날인 21일 강원 대표 접경지역인 화천군.
+    화천읍 시가지에는 후보들의 이름이 적힌 현수막과 유세 차량이 등장했지만, 주민들의 관심은 선거 열기보다 지역의 미래와 먹고사는 문제에 더 쏠려 있었다.
+    최문순 군수의 3선 연임 제한으로 무주공산이 된 이번 화천군수 선거는 더불어민주당 김세훈 후보와 국민의힘 최명수 후보 간 양자 대결로 치러진다.
+    두 후보는 이날 각각 출정식을 열고 본격적인 표심 공략에 돌입했다.
+    다만 접경지역 특유의 차분한 분위기 속에 선거 열기는 아직 조용한 편이었다.
+    주민들이 후보들에게 기대하는 것은 결국 지역경제 회복과 인구 감소 대응이었다.
+    주민 김모(36)씨는 "아이 키우기 좋은 환경과 교육 문제를 제대로 챙길 수 있는 후보에게 표를 줄 생각"이라고 말했다.
+    상인 최모(44)씨도 "접경지역 경기가 워낙 어렵다 보니 결국 산천어축제를 비롯해 지역경제를 얼마나 살릴 수 있을지가 가장 중요하다"고 강조했다. 
+     김세훈 후보는 이번 선거에서 농어촌 기본소득과 '화천형 햇빛연금'을 전면에 내세우고 있다.
+
+    김 후보는 "화천은 소멸위험 지역인 만큼 기본소득 정책이 반드시 필요하다"며 "군민 누구나 월 15만원씩 받는 기본소득과 햇빛연금을 통해 젊은 층과 군인가족이 머무는 도시를 만들겠다"고 강조했다.
+    이어 "북한강과 파로호, 산악자원 등을 활용해 사계절 관광도시로 전환하고 생활인구를 늘려 국내 대표 관광도시로 만들겠다"고 말했다. 
+    특히 화천산천어축제에 대해서는 "숫자 경쟁보다 질적 전환이 필요하다"며 드론쇼와 야간 콘텐츠 확대, 체류형 프로그램 강화 등을 통해 축제 경쟁력을 높이겠다는 구상도 내놨다.
+    반면 최명수 후보는 '경제자립도시'를 기조로 안정적인 군정 운영과 지역 균형발전을 강조했다.
+    최 후보는 "5개 읍·면 경제가 선순환하는 구조를 만들어야 한다"며 "간동면과 사내면 등 지역별 특성에 맞춘 정주여건 개선과 경제 활성화에 집중하겠다"고 밝혔다.
+
+    농어촌 기본소득과 햇빛소득 정책에 대해서는 "정부 시책이라면 적극 수용하겠다"면서도 "군 자체 재원만으로 추진하기에는 어려운 현실적인 한계도 검토해야 한다"는 입장을 내놨다.
+    산천어축제와 관련해서는 "현재 축제를 더 발전시키면서 사계절 관광과 연계하는 방향을 고민해 나가야 한다"고 설명했다.
+    지역 정가에서는 이번 선거가 접경지 민심과 정권 지원론, 보수 기반 유지 여부가 맞물리며 민심을 가를 것으로 보고 있다.
+
+    hak@yna.co.kr   
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[하남면에 내걸린 두 후보의 선거 현수막]]></Title>
+         <Caption><![CDATA[[촬영 이상학 기자]]]></Caption>
+         <FileName>AKR20260521142000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/21/AKR20260521142000062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[주민과 악수하는 김세훈 후보]]></Title>
+         <Caption><![CDATA[[촬영 이상학]]]></Caption>
+         <FileName>AKR20260521142000062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/21/AKR20260521142000062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[주민과 악수하는 최명수 후보]]></Title>
+         <Caption><![CDATA[[촬영 이상학]]]></Caption>
+         <FileName>AKR20260521142000062_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/21/AKR20260521142000062_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[6ㆍ3 지방선거 (PG)]]></Title>
+         <Caption><![CDATA[[김선영 제작] 일러스트]]></Caption>
+         <FileName>PCM20260105000107990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2026/01/05/07/PCM20260105000107990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260423030100504</ContentID>
+      <SendDate>20260423</SendDate>
+      <SendTime>083716</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0501016" name="한국전쟁"/>
+         <ClassCode code="0109010" name="보훈복지"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260423030100504]]></Href>
+      <Writer><![CDATA[이정현]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[영연방 가평전투 75주년 기념식 내일 가평서 개최]]></Title>
+      <SubTitle><![CDATA[오늘은 파주서 영국 임진강전투 기념식]]></SubTitle>
+      <Body><![CDATA[영연방 가평전투 75주년 기념식 내일 가평서 개최
+오늘은 파주서 영국 임진강전투 기념식
+
+
+    (서울=연합뉴스) 이정현 기자 = 국가보훈부는 6·25전쟁 최대 격전 중 하나인 '영연방 가평전투'의 75주년 기념식'이 오는 24일 오전 경기도 가평 영연방 참전기념비에서 주한영대사관 주관으로 열린다고 23일 밝혔다.
+    가평전투는 1951년 4월 23일부터 25일까지 영연방군 제27여단 용사 2천여 명이 5배가 넘는 중공군과 격전을 치른 끝에 승리를 거둔 전투로, 국군과 유엔군이 새로운 방어진지를 구축하는 데 크게 기여했다.
+    기념식에는 권오을 장관을 비롯해 영연방 주한 대사, 국군·영연방 4개국(영국·캐나다·호주·뉴질랜드) 육군참모총장, 한미연합사 부사령관, 유엔사 부사령관, 미8군 사령관, 방위사업청장 등 300여 명이 참석한다. 
+    기념식은 유엔기수단 입장, 영국 국왕 말씀 낭독, 국가보훈부 장관·국군 육군참모총장 기념사, 추도사, 묵념, 헌화, 유엔기수단 퇴장, 블랙이글스 추모비행 등의 순으로 진행된다. 
+    특히 이번 행사에는 국가보훈부 재방한 초청으로 한국을 찾은 영연방 참전용사와 유·가족 26명, 그리고 국군 참전용사 2명도 참석한다.
+    기념식 후 캐나다는 캐나다 참전기념비에서, 호주·뉴질랜드는 호주·뉴질랜드 참전기념비에서 각각 가평전투 기념식을 별도로 개최한다.
+    기념식 하루 전인 이날 오전에는 파주 설마리전투 추모공원에서 '영국 임진강전투 기념식'도 열린다. 
+    이 자리에는 강윤진 보훈부 차관이 참석, 임진강전투에 참전했던 영국군 참전용사이자 '이달의 6·25전쟁영웅'으로 선정된 고(故) 제임스 파워 칸 중령의 유족에게 전쟁영웅 선정패를 전달한다.
+    권오을 보훈부 장관은 "우리 정부와 국민은 영연방 참전용사들의 희생과 헌신을 기억하며, 그 숭고한 혈맹의 인연을 우리의 미래세대들도 이어갈 수 있도록 다각적인 노력을 기울이겠다"고 밝혔다. 
+    콜린 크룩스 주한영국대사는 "임진강과 가평 등지에서 자유를 위해 싸운 영국 장병들의 희생은 오늘날 양국 간 깊고 지속적인 동반자 관계의 원천"이라며 "영국은 앞으로도 대한민국의 안보와 평화·안정을 위해 협력해 나갈 것"이라고 말했다.
+    lisa@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도 가평 영연방 참전기념비]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>AKR20260423030100504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/23/AKR20260423030100504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260105154300108</ContentID>
+      <SendDate>20260105</SendDate>
+      <SendTime>222401</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107005" name="시리아"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260105154300108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘·시리아, 美 중재로 파리서 안보협정 논의 재개]]></Title>
+      <Body><![CDATA[이스라엘·시리아, 美 중재로 파리서 안보협정 논의 재개
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 이스라엘과 시리아가 5일(현지시간) 미국의 중재로 안보협정 체결을 위한 논의를 재개했다.
+    시리아 국영 SANA통신에 따르면 아사드 알샤이바니 외무장관과 후세인 알살라메 정보총국장이 이끄는 시리아 대표단이 이날 파리에서 이스라엘 측과 협상에 참석했다.
+    이스라엘 대표단은 예히엘 라이터 미국 주재 이스라엘대사가 이끌며, 이스라엘 정보기관 모사드의 차기 국장으로 지명된 로만 고프만 총리실 군사비서관도 참여하는 것으로 알려졌다
+    시리아 임시정부의 소식통은 "이번 협상 재개는 협상불가능한 국가적 권리를 회복하기 위한 시리아의 확고한 의지를 보여주는 것"이라고 말했다.
+    앞서 미국 매체 악시오스는 도널드 트럼프 미국 대통령의 시리아특사인 톰 배럭 주튀르키예 미국대사가 양국 협상을 중재한다고 보도했다.
+    이번 만남은 이스라엘과 시리아의 견해차로 협상이 교착에 빠진 지 약 2개월만에 성사됐다.
+    양국이 논의하는 안보협정의 핵심은 국경을 맞댄 이스라엘 북부와 시리아 남부의 긴장 해소다.
+    시리아와 이스라엘은 1974년 휴전하면서 분쟁지인 골란고원에 유엔휴전감시군(DOF)이 주둔하는 완충지대를 설정하고 양쪽에 군사분계선을 뒀다.
+    그러나 이스라엘은 2024년 12월 시리아에서 바샤르 알아사드 독재정권이 쫓겨난 직후 접경지에 설정된 완충지대 너머 시리아 영토 내로 지상군을 진입시켜 주둔 중이다.
+    이스라엘은 1974년 협정이 아사드 축출로 인해 일시적으로 무효화됐다고 주장하며 접경지 일대의 무기가 적대세력이 넘어가지 않도록 해야 한다는 입장이고, 시리아는 이스라엘이 자국 내에서 병력을 모두 철수해야 한다고 요구한다.
+    트럼프 대통령은 이스라엘이 중동 내 아랍 국가들과 관계를 정상화하는 '아브라함 협정'에 시리아를 포함해 우호적인 기반을 다지고 이란의 역내 영향력을 억제하려는 구상이다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2024년 12월 15일 골란고원의 이스라엘-시리아 경계선에서 이스라엘군이 기동하는 모습.]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20251215280401009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2025/12/15/PAP20251215280401009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

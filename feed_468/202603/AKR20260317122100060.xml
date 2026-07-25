@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260317122100060</ContentID>
+      <SendDate>20260317</SendDate>
+      <SendTime>144012</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260317122100060]]></Href>
+      <Writer><![CDATA[최재훈]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주 민통선 철책 넘은 50대 남성 검거]]></Title>
+      <Body><![CDATA[파주 민통선 철책 넘은 50대 남성 검거
+
+    (파주=연합뉴스) 최재훈 기자 = 경기 파주시에서 민간인통제구역 철책을 넘은 50대 남성이 체포됐다.
+
+    경찰과 군에 따르면 17일 오전 3시께 파주시 임진각 인근 철책선 내부에 민간인이 침입한 상황을 군 당국이 포착했다.
+    출동한 군 당국은 1차 철책을 넘은 후 2차 철책도 넘으려고 시도하는 50대 남성 A씨를 붙잡아 경찰에 인계했다.
+    검거 후 A씨는 범행 동기 등에 대해 전혀 진술하지 않은 것으로 알려졌다.
+    경찰은 A씨를 군사기지법 위반 혐의로 입건해 범행 동기 등을 조사하고 있다.
+    jhch793@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[연합뉴스 자료사진]]></Title>
+         <Caption><![CDATA[[장현경 제작] 일러스트]]></Caption>
+         <FileName>PCM20201104000089990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2020/11/04/89/PCM20201104000089990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

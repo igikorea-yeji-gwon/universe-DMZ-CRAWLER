@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260331186600098</ContentID>
+      <SendDate>20260331</SendDate>
+      <SendTime>182031</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260331186600098]]></Href>
+      <Writer><![CDATA[현윤경]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[벨기에 슈퍼마켓서 비상식량 키트 판매 시작]]></Title>
+      <SubTitle><![CDATA["정전 등 상황서 24시간 버틸 수 있도록 제품 구성"]]></SubTitle>
+      <Body><![CDATA[벨기에 슈퍼마켓서 비상식량 키트 판매 시작
+"정전 등 상황서 24시간 버틸 수 있도록 제품 구성" 
+    
+
+    (브뤼셀=연합뉴스) 현윤경 특파원 = 중동 전쟁 격화 속에 벨기에 슈퍼마켓 매대에 비상식량 키트가 등장했다고 브뤼셀타임스 등 현지 언론이 전했다.
+    현지 슈퍼마켓 체인 콜루이트는 31일부터 수도 브뤼셀을 비롯한 전국 80개 매장에서 비상식량 키트 판매를 시작한다고 밝혔다.
+    29.99유로(약 5만2천원)로 책정된 이 제품에는 케밥 스튜, 파스타 등 두 끼 분량의 음식, 에너지 바, 스틱 커피, 이온 음료 분말 등 총 3천100칼로리 분량의 식품과 휴지, 숟가락, 식품 재가열용 파우치 등이 담겼다.
+    회사 측은 "제품의 목적은 비상 상황에서 24시간 동안 버틸 수 있도록 돕는 것"이라며 "벨기에 소매업체로서 고객의 요구와 정부의 권고에 부응해 상품을 출시했다"고 말했다. 
+    2021년 여름 왈롱 지역을 휩쓴 홍수, 최근 프랑스 접경 도시 몽스에서 발생한 2주간의 가스 공급 중단 사태 등을 겪은 뒤 비상식량 키트를 출시해달라는 목소리가 커졌다고 회사 측은 설명했다.
+    격화하는 중동 전쟁으로 유럽이 다시 에너지 위기에 처할 수 있다는 불안감도 제품 출시에 영향을 미친 것으로 보인다. 
+    콜루이트 관계자는 "예상보다 오래 지속되거나 불편한 시간대에 정전이 발생할 경우 이 제품이 유용할 수 있다"고 말했다. 
+    콜루이트는 일단 시범 판매를 거쳐 소비자의 반응을 살핀 뒤 수요가 높을 경우 전국의 모든 매장으로 판매를 확대할 예정이다.
+    ykhyun14@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[벨기에 슈퍼마켓 체인 콜루이트에 등장한 비상 식량 키트 [콜루이트 홈페이지 갈무리. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260331186600098_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/31/AKR20260331186600098_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

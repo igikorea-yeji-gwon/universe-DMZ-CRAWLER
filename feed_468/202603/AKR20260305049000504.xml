@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260305049000504</ContentID>
+      <SendDate>20260305</SendDate>
+      <SendTime>094202</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0402004" name="축산업"/>
+         <ClassCode code="0507006" name="보건"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260305049000504]]></Href>
+      <Writer><![CDATA[김철선]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[軍도 가축전염병 차단 총력…방역 작전에 제독차도 투입]]></Title>
+      <SubTitle><![CDATA[장비 178대, 인력 400여명 동원]]></SubTitle>
+      <Body><![CDATA[軍도 가축전염병 차단 총력…방역 작전에 제독차도 투입
+장비 178대, 인력 400여명 동원
+
+
+    (서울=연합뉴스) 김철선 기자 = 국방부는 아프리카돼지열병(ASF), 고병원성 조류인플루엔자(AI), 구제역 등 최근 유행하는 가축전염병을 차단하기 위해 강화된 방역 작전을 실시 중이라고 5일 밝혔다.
+    국방부에 따르면 군은 설 연휴부터 장비 178대와 인력 400여명을 동원해 전국적으로 90여건 이상의 방역 지원을 완료하고 매일 평균 10여곳의 현장에서 방역 작전을 수행하고 있다.
+    적 화학 공격에 대응하는 특수장비 K-10 제독차도 방역작전에 투입했다. 3천ℓ 대용량 탱크와 고압살포 능력을 활용해 도로 방역 현장에서 바이러스 확산을 막는 핵심 역할을 수행 중이라고 한다.
+    전국 각지에 있는 군부대들은 지역별 특성에 맞춰 방역 작전을 진행하고 있다.
+    민통선 및 접경지역(연천·철원·양구 등)은 야생 멧돼지로 인한 ASF 확산을 막기 위해 도로 방역을 실시하고 있으며, 축산 농가가 밀집한 내륙 거점 지역(포천·홍성·평택·고양 등)에는 K-10 제독차 등을 투입해 주요 거점 소독과 방역 초소 운영을 지원한다.
+    제주도에서는 AI 확산 방지를 위해 철새도래지(성산읍 오조리) 인근에 대한 정기적인 도로 방역을 지원 중이다.
+    국방부는 향후 질병 확산 추이를 면밀히 주시하며 농림축산식품부 및 각 지자체와 협력할 계획이라고 밝혔다.
+    kcs@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[제주도 군 방역작전]]></Title>
+         <Caption><![CDATA[[국방부 제공. DB 및 재판매 금지]]]></Caption>
+         <FileName>AKR20260305049000504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/05/AKR20260305049000504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

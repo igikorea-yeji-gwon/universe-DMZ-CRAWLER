@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260512060700060</ContentID>
+      <SendDate>20260512</SendDate>
+      <SendTime>100754</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109003" name="육군"/>
+         <ClassCode code="0501010" name="가정가족"/>
+         <ClassCode code="0707002" name="사진영상"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260512060700060]]></Href>
+      <Writer><![CDATA[임병식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[픽! 파주] 가정의 달 맞아 가족사진 남긴 접경지 군인들]]></Title>
+      <Body><![CDATA[[픽! 파주] 가정의 달 맞아 가족사진 남긴 접경지 군인들 
+
+    (파주=연합뉴스) "부대 생활이 바쁘다는 이유로 가족사진을 찍지 못했는데, 첫 가족사진이 생겨 너무 행복합니다."
+    가정의 달을 맞아 육군 부대와 사진작가가 접경지에서 근무 중인 군인들의 가족사진을 남겨주는 훈훈한 행사가 열렸다.
+
+    12일 육군 2기갑여단에 따르면 지난 9일 경기 파주시에서 윤대진 사진작가는 부대원과 가족을 대상으로 사진 촬영을 진행했다.
+    육군 공식 월간지인 '육군지' 필진으로 활동 중인 윤 작가는 부대의 요청에 재능 기부를 결정했고, 부대는 특별한 사연을 가진 20팀을 선정했다.
+    이날 가족사진을 촬영한 김 모 대위는 "군인 남편을 둔 탓에 임신 중인 아내가 매일 왕복 4시간 거리를 출퇴근하고 있어 항상 미안했다"며 "가족사진을 아내에게 깜짝 선물로 전해주고 싶었다"고 말했다.
+    군은 "가정에서 행복감을 유지하고 발전시키는 것도 강한 전투력 발휘에 필수 요소"라며 일과 가정의 양립 가치를 실현할 수 있는 문화행사를 추진할 예정이다. (글 = 임병식 기자, 사진 = 육군 2기갑여단 제공)
+    andphotodo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2기갑여단 부대원 가족사진 촬영하는 윤대진 사진작가]]></Title>
+         <Caption><![CDATA[[육군 2기갑여단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260512060700060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/12/AKR20260512060700060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

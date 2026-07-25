@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260430104900504</ContentID>
+      <SendDate>20260430</SendDate>
+      <SendTime>130348</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260430104900504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[고성에서 강화까지…'DMZ 평화걷기' 올해 4회 운영]]></Title>
+      <SubTitle><![CDATA[6벅7일 또는 12박 13일 일정]]></SubTitle>
+      <Body><![CDATA[고성에서 강화까지…'DMZ 평화걷기' 올해 4회 운영
+6벅7일 또는 12박 13일 일정
+
+
+    (서울=연합뉴스) 하채림 기자 = 통일부는 비무장지대(DMZ)를 따라 걸으며 한반도 평화와 공존의 의미를 되새기는 '2026 DMZ 평화걷기' 사업을 운영한다고 30일 밝혔다. 
+    총 네 차례 일정 가운에 6·7·9월은 6박 7일간, 10월은 12박 13일간 진행된다.
+    일정 중 평화·통일 전문가 특강, 주민과 대화, 접경지역 축제 방문, 거리공연 개최 등 다양한 프로그램도 마련된다. 
+    참가자들의 안전을 위해 전 구간에 상시 응급차량과 의료진이 배치된다. 
+    걷기 노선은 민간인통제선 이북과 DMZ 인접 구간을 중심으로 편성됐다. DMZ 내부는 포함되지 않는다.
+    참가 희망자는 통일부 누리집(unikorea.go.kr) 공지사항 게시판 또는 사업 운영업체 누리집(dmzpeace.co.kr)에서 신청할 수 있다. 
+
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2026 DMZ 평화걷기 포스터]]></Title>
+         <Caption><![CDATA[[통일부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260430104900504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/30/AKR20260430104900504_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2026 DMZ 평화걷기 동서횡단구간 노선도]]></Title>
+         <Caption><![CDATA[[통일부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260430104900504_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/30/AKR20260430104900504_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

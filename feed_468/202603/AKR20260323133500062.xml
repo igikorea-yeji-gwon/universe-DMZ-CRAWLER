@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260323133500062</ContentID>
+      <SendDate>20260323</SendDate>
+      <SendTime>170119</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260323133500062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, '2026 내나라 여행박람회'서 관광 홍보]]></Title>
+      <Body><![CDATA[철원군, '2026 내나라 여행박람회'서 관광 홍보
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 최근 서울 강서구 코엑스 마곡 전시장에서 열린 '2026 내나라 여행박람회'에 참가해 지역 관광지와 콘텐츠를 집중 홍보했다고 23일 밝혔다.
+    이는 문화체육관광부가 주최하고 한국관광협회중앙회가 주관하는 국내 대표 관광박람회로, 전국 지자체 및 관광 관련 기관이 참여해 다양한 관광 정보를 제공하는 자리다.
+    군은 주상절리길 등 대표 관광지와 오대쌀 가공식품, 기념품 등을 전시해 방문객들이 쉽고 재미있게 철원 관광을 체험할 수 있도록 홍보 활동을 펼쳤다.
+    특히 지난 21일 '모바일 철원', '디지털 관광주민증 철원' 현장 가입자에게 오대쌀을 증정하고 막걸리 시음을 진행하는 등 관광지 홍보와 함께 철원의 대표 특산품을 직접 체험할 수 있는 프로그램을 병행했다.
+    김익수 관광정책실장은 "철원 관광객 1천만명 시대를 위해 이번 박람회에서 철원의 볼거리와 놀거리. 먹거리뿐 아니라 DMZ의 매력도 함께 홍보했다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군, '2026 내나라 여행박람회'서 지역 관광 홍보]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260323133500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/23/AKR20260323133500062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260306124900009</ContentID>
+      <SendDate>20260306</SendDate>
+      <SendTime>153842</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107011" name="이란"/>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101011" name="국제정치"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260306124900009]]></Href>
+      <Writer><![CDATA[오수진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[제2 전선 레바논…이스라엘 집중포화 맞서 헤즈볼라 정예군 투입]]></Title>
+      <SubTitle><![CDATA[이스라엘, 베이루트 남부지역 최소 11차례 공습 
+헤즈볼라, 2024년 휴전협정 후 철수시킨 정예부대 접경지 재투입]]></SubTitle>
+      <Body><![CDATA[제2 전선 레바논…이스라엘 집중포화 맞서 헤즈볼라 정예군 투입
+이스라엘, 베이루트 남부지역 최소 11차례 공습 
+헤즈볼라, 2024년 휴전협정 후 철수시킨 정예부대 접경지 재투입
+
+
+    (서울=연합뉴스) 오수진 기자 = 중동 곳곳으로 이란 전쟁의 불씨가 번지는 가운데 이스라엘과 레바논 무장정파 헤즈볼라가 국경을 사이에 두고 맞불 타격을 주고받으며 지상전 태세 속에 제2의 전선을 형성하고 있다.
+    6일(현지시간) AP통신 등에 따르면 이스라엘은 전날 저녁부터 이날 새벽까지 레바논 수도 베이루트 남부 외곽 지역을 대상으로 최소 11차례 공습을 가했다. 
+    이스라엘군은 전날 저녁 이 지역 주민들에게 "목숨을 구하고 즉시 집에서 탈출하라"는 내용의 경고 알림을 보냈다. 
+    이번 공격으로 인해 사상자가 발생했다는 보도는 아직 나오지 않았으나 병원 두 곳에서 환자와 직원이 대피했으며 주유소 인근에서 화재가 발생하기도 했다고 AP통신은 전했다. 
+    이스라엘은 지난달 28일 공습을 시작해 이란 최고지도자 아야톨라 세예드 알리 하메네이를 '제거'한 이후 이란 대리 세력인 헤즈볼라가 로켓과 드론을 이용해 보복 공격을 시작하자 이에 대응해 연일 타격을 이어가고 있다.
+    이스라엘과 헤즈볼라의 대규모 무력 충돌은 지난 2024년 11월 양측의 휴전 협정을 맺은 후 이번이 처음이다. 
+    레바논 보건부는 이스라엘과 헤즈볼라 간 적대 행위가 재개된 후 현재까지 123명이 숨졌다고 밝혔다. 이번 전쟁 후 레바논에서 발생한 사망자는 이란 다음으로 많다. 
+    이스라엘은 완충지대 조성을 목적으로 지상군을 레바논 영토로 진격시켰다. 
+    레바논 유엔평화유지군(UNIFIL) 대변인 틸락 포카렐은 양측 접경지역인 레바논 남부로 더 많은 이스라엘군이 이동함에 따라 이곳에서 지상전을 포함한 교전 상황을 목격하고 있다고 전날 밝혔다. 
+
+    이에 맞서 헤즈볼라는 레바논 남부 지역 전투 준비를 위해 정예 라드완 부대를 이 지역에 배치했다. 
+    소식통들은 로이터통신에 라드완 부대원들이 헤즈볼라의 이스라엘 공세가 시작된 지난 2일부터 남부 지역으로 이동했으며, 이들이 접경 지역 전투에 합류해 이스라엘 전차의 진격을 저지하라는 명령을 받았다고 전날 말했다. 
+    헤즈볼라는 지난 2024년 레바논 남부의 리타니강 북쪽으로 병력을 모두 철수시킨다는 휴전 협정을 이스라엘과 맺었으나, 이번에 다시 국경 지역에 최정예 부대원들을 투입한 것이다.
+    이번에 남부 지역에 배치된 라드완 부대의 정확한 규모가 어느 정도인지는 아직 알려지지 않았다고 로이터통신은 덧붙였다. 
+    헤즈볼라는 이스라엘의 진격에 맞서싸울 의지를 이미 여러차례 밝힌 바 있다. 
+    나임 카셈 헤즈볼라 사무총장은 지난 4일 TV 연설을 통해 이스라엘의 점령과 확장 계획에 맞서 싸울 것이라며 "이는 생존을 위한 방어"라고 강조했다.
+    kiki@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘의 공습으로 화염과 연기 목격되는 레바논 수도 베이루트 외곽 지역의 모습]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260306136601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/03/06/PAP20260306136601009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 남부 지역에서 이스라엘 군용차량들이 이동하는 모습]]></Title>
+         <Caption><![CDATA[[EPA=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20260305226701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/03/05/PEP20260305226701009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

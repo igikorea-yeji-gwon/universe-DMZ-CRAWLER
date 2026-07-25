@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260604006700062</ContentID>
+      <SendDate>20260604</SendDate>
+      <SendTime>010812</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260604006700062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[6·3 지선] 강원 고성 첫 3선 함명준 당선인 "결과로 증명"]]></Title>
+      <SubTitle><![CDATA["중단 없는 발전과 도약 선택해 주신 군민 모두의 승리"]]></SubTitle>
+      <Body><![CDATA[[6·3 지선] 강원 고성 첫 3선 함명준 당선인 "결과로 증명"
+"중단 없는 발전과 도약 선택해 주신 군민 모두의 승리"
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = "앞으로의 4년은 '결과로 증명하는 시간'이 될 것입니다."
+    더불어민주당 함명준(66) 강원 고성군수 후보는 6·3 지방선거에서 군수직 수성에 성공했다.
+    함 당선인은 2020년 4월 보궐선거를 통해 처음 당선됐다.
+    이후 2022년 4월 지방선거에서 재선에 성공했으며, 이번 선거에서도 승리하며 3선 고지에 올랐다.
+    고성에서 3선 군수가 나오기는 이번이 처음이다. 
+    그는 "오늘의 승리는 저 함명준의 승리가 아니다"며 "고성의 중단 없는 발전과 도약을 선택해 주신 위대한 군민 모두의 승리"라고 당선 소감을 밝혔다.
+    이어 "선거 과정에서의 갈등과 대립은 모두 뒤로하고 이제는 고성의 발전을 위해 하나로 화합할 때"라며 "이번 선거를 통해 고성 발전을 염원하는 군민 여러분의 간절한 목소리를 들었다"고 강조했다.
+    주요 공약으로는 ▲ KTX 강릉∼제진 구간 조기 착공과 고속도로 고성 연장 차질 없이 추진 ▲ DMZ 평화 생태공원 등 사계절 명품 관광 인프라 완성 ▲ 평화경제특구 1호 지정 등을 내세웠다.
+    이를 통해 고성을 대한민국 관광의 중심지로 만들고, 지역 경제에 활력을 불어넣을 방침이다.
+    그는 "군민 여러분의 삶을 따뜻하게 보살피는 든든한 민생 군수가 되겠다"며 "당선 확정의 기쁨을 전력 질주를 위한 다짐으로 바꾸겠다"고 다짐했다.
+    그러면서 "내일부터 당장 고성 전역을 발로 뛰며, 군민 여러분께 약속드린 공약을 하나하나 확실하게 실천하겠다"며 "늘 군민의 눈높이에서 소통하고 낮고 겸손한 자세로 군민을 섬기겠다"고 덧붙였다.
+    이어 "깨끗하고 공정한 군정으로 군민 모두가 자부심을 느낄 수 있는 고성을 만들겠다"며 "저를 믿고 막중한 책임을 맡겨주신 군민 여러분께 진심으로 감사드린다"고 마무리했다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[함명준 강원 고성군수 당선인]]></Title>
+         <Caption><![CDATA[[함명준 후보 캠프 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260604006700062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/04/AKR20260604006700062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[함명준 강원 고성군수 당선인]]></Title>
+         <Caption><![CDATA[[독자 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260604006700062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/04/AKR20260604006700062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

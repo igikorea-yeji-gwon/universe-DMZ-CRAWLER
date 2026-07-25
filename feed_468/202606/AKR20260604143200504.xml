@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260604143200504</ContentID>
+      <SendDate>20260604</SendDate>
+      <SendTime>144701</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1008004" name="북한인권"/>
+         <ClassCode code="0605006" name="납치실종"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260604143200504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[北억류 함진우씨 가족에 납북피해 인정…위로금 지급결정]]></Title>
+      <SubTitle><![CDATA[통일부 납북피해자보상심의위서 의결]]></SubTitle>
+      <Body><![CDATA[北억류 함진우씨 가족에 납북피해 인정…위로금 지급결정
+통일부 납북피해자보상심의위서 의결
+
+
+    (서울=연합뉴스) 하채림 기자 = 정부가 올해 초 북한 내 '억류자'로 공식 분류한 언론인 함진우씨의 가족이 '납북 피해'를 인정받아 위로금을 받게 됐다. 
+    통일부는 4일 정부서울청사에서 납북피해자보상심의위원회를 열어 함씨 가족의 납북 피해를 인정하고 위로금 지급을 결정했다고 밝혔다. 
+    납북피해자보상심의위원회는 '군사정전에 관한 협정 체결 이후 납북피해자의 보상 및 지원에 관한 법률'(이하 전후납북자법)에 따라 구성, 운영되며 납북 피해 인정 여부를 심의한다. 
+    피해 위로금은 지급 결정 당시 최저임금과 납북 기간에 따라 달라지는데 함씨 가족에게는 약 1천900만원이 지급될 예정이다. 
+    국내외 민간단체에 따르면 함씨는 북한 전문 매체의 기자로 활동하던 2017년 5월 북중 접경지역에서 취재 활동 중 북한 당국에 끌려가 연락이 끊겼다. 
+    이날 납북 피해 위로금 지급 결정은 함씨가 올해 초 북한 내 억류자로 공식 분류된 데 따른 후속 조처다.
+    윤석열 정부는 김정욱 선교사 등 북한 내 장기 억류자와 그 가족이 납북 피해자에 해당한다고 판단하고 전후납북자법에 따라 위로금 지급을 결정했다. 
+    이에 따라 올 초 새롭게 억류자로 인정된 함씨도 납북 피해 위로금 대상이 된 것이다. 
+    이에 따라 북한 내 억류자 총 7명 가운데 국내에 가족이 없는 1명을 제외한 6명의 가족에게 위로금이 지급됐다. 
+    다만 함씨 등 억류자 7명이 전후납북자법에 따른 납북자(총 516명)로 공식 분류된 것은 아니다.
+    이날 심의위원회는 억류자들이 전후납북자법에 따른 납북자가 아니라는 일부 위원의 문제 제기로 표결까지 진행한 것으로 전해졌다. 
+    통일부는 "정부는 분단으로 인한 희생자 문제를 폭넓게 인정하고 이들의 아픔을 적극적으로 해결해 나간다는 견지에서 납북 피해자로 인정, 위로금 지급을 결정했다"고 설명했다. 
+    함씨를 제외한 억류자 6명의 억류 기간은 10년을 넘겼으며 특히 김정욱 선교사는 2013년 10월 이래 생사와 소재가 전혀 파악되지 않고 있다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpeg">
+         <Title><![CDATA[북한 내 억류 국민 7명 중 선교사 김정욱·최춘길·김국기씨(왼쪽부터, CG)]]></Title>
+         <Caption><![CDATA[[연합뉴스TV 제공]]]></Caption>
+         <FileName>C0A8CA3D000001634C943A110001CD6A_P2.jpeg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2018/05/11/09/C0A8CA3D000001634C943A110001CD6A_P2.jpeg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

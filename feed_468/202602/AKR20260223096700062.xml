@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260223096700062</ContentID>
+      <SendDate>20260223</SendDate>
+      <SendTime>141621</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109003" name="육군"/>
+         <ClassCode code="0109010" name="보훈복지"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260223096700062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[호국영웅의 화랑무공훈장, 73년 만에 가족 품 돌아가]]></Title>
+      <SubTitle><![CDATA[육군 2군수지원여단, 금화전투 전사자 유가족에 훈장 전수]]></SubTitle>
+      <Body><![CDATA[호국영웅의 화랑무공훈장, 73년 만에 가족 품 돌아가
+육군 2군수지원여단, 금화전투 전사자 유가족에 훈장 전수
+
+
+    (춘천=연합뉴스) 양지웅 기자 = 나라를 위해 산화한 호국영웅의 희생이 73년 만에 화랑무공훈장으로 기려졌다.
+    육군 2군수지원여단은 23일 6·25전쟁 당시 격전지 중 하나였던 강원 금화지구 전투에서 전공을 세우고 전사한 고 박재섭 상병(전사 당시 계급 일병)에 대한 화랑무공훈장 전수식을 열고 이를 유가족에게 전달했다.
+    훈장은 고인의 동생인 박재익(86) 씨가 대신 받았다.
+    박 상병은 1952년 6월 입대한 뒤 수도사단 1연대 소속으로 이듬해 7월 25일 치열했던 강원 금화지구 전투에서 전우들과 함께 전선의 한 축을 맡아 용맹하게 싸웠으나, 정전협정 체결을 코앞에 두고 전장에서 전사했다.
+    당시 공적을 인정받아 무공훈장 수여가 결정됐으나 여러 가지 상황으로 실제 훈장은 73년 만에 가족의 품으로 전해지게 됐다.
+    동생 재익 씨는 "당시에는 너무 어려 형이 전사했다는 소식만 들었다"며 "형이 나라를 위해 싸웠다는 사실을 이렇게 공식적으로 인정받아 감사하고, 오랜 시간이 지났지만 나라가 형의 이름을 다시 불러준 것 같아 큰 위로가 된다"고 말했다.
+    김민식 여단장은 "조국을 위해 헌신한 호국영웅의 숭고한 희생에 깊은 감사와 존경을 표한다"며 "우리 군은 그 뜻을 이어받아 국가를 지키는 본연의 임무에 최선을 다하겠다"고 답했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[육군 2군수지원여단, 금화전투 전사자 유가족에 무공훈장 전수]]></Title>
+         <Caption><![CDATA[[육군 2군수지원여단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260223096700062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/23/AKR20260223096700062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260105064700062</ContentID>
+      <SendDate>20260105</SendDate>
+      <SendTime>110420</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0606005" name="화재"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0606001" name="사고일반"/>
+         <ClassCode code="0605001" name="사건일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260105064700062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성 비무장지대 산불 3일째 진화 중…북측서 번져]]></Title>
+      <Body><![CDATA[강원 고성 비무장지대 산불 3일째 진화 중…북측서 번져
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = 강원 고성군 동부전선 비무장지대(DMZ)에서 발생한 산불 진화 작업이 3일째 이어지고 있다.
+    5일 소방·산림 당국에 따르면 지난 3일 오후 3시 13분께 고성군 수동면 비무장지대 내에서 산불이 났다.
+    불은 비무장지대 북측에서 시작돼 남측으로 번진 것으로 알려졌다.
+    현재까지 민가나 군 피해는 없는 것으로 전해졌다.
+    불이 난 곳은 인력 투입이 어려운 비무장지대인 탓에 당국은 산림청 헬기 3대를 투입해 진화 작업과 예방 살수 조치를 하고 있다.
+    당국은 불을 끄는 대로 화재 원인과 피해 규모 등을 조사할 방침이다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[산불진화헬기 DMZ내 투입 (PG)]]></Title>
+         <Caption><![CDATA[[정연주 제작] 사진합성·일러스트]]></Caption>
+         <FileName>PCM20181126000197990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2018/11/26/97/PCM20181126000197990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

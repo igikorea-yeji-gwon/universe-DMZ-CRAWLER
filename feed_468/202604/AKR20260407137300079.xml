@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260407137300079</ContentID>
+      <SendDate>20260407</SendDate>
+      <SendTime>171652</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260407137300079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘군, 레바논 남부에 공수·특공부대 투입…지상전 확대]]></Title>
+      <Body><![CDATA[이스라엘군, 레바논 남부에 공수·특공부대 투입…지상전 확대
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 이스라엘군이 친이란 무장 정파 헤즈볼라를 겨냥한 레바논 남부 지상전을 확대를 위해 정예 부대를 투입했다.
+    이스라엘군은 지난 한 주간 공수부대와 특공 부대로 구성된 제98사단이 최근 레바논 남부에서 추가적인 목표물에 대한 표적 작전을 시작했다고 7일(현지시간) 밝혔다.
+    정예 사단 투입은 헤즈볼라의 공격 역량을 완전히 무력화하기 위해 지상전의 강도와 범위를 더욱 확대하기 위한 것이다. 
+    제98사단의 가세로 이제 레바논 남부에 투입된 이스라엘군 병력은 총 6개 사단으로 늘었다.
+    이와 함께 이스라엘군은 레바논 내륙의 '대전차 방어선'을 따라 병력 배치를 완료했다고 밝혔다. 이 지역은 헤즈볼라가 이스라엘 접경 마을을 향해 대전차 유도 미사일을 발사해 온 주요 거점이다.
+    군 당국은 "병력이 전방 방어선을 강화하고 이스라엘 북부 주민들에 대한 위협을 제거하기 위해 작전을 지속하고 있다"고 설명했다.
+    헤즈볼라는 개전초 이란의 전 최고지도자인 아야톨라 알리 하메네이가 공습에 사망하자, 지난달 2일 정식 참전을 선언하고 이스라엘을 공격했다.
+    이스라엘은 헤즈볼라의 공격이 주민 안전과 안보에 위협이 된다고 판단, 국경을 넘어 레바논 남부에 지상군을 투입했다. 이스라엘은 국경에서 약 30㎞ 떨어진 리타니 강까지 완충지대를 구축하고 이 지역을 통제한다는 방침이다.
+    meolakim@yna.co.kr
+[https://youtu.be/hQLLuK7qYvc]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 남부에 투입된 이스라엘 공수부대원들]]></Title>
+         <Caption><![CDATA[[이스라엘군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260407137300079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/07/AKR20260407137300079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260228060500104</ContentID>
+      <SendDate>20260228</SendDate>
+      <SendTime>214109</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107011" name="이란"/>
+         <RegionCode code="7102023" name="인니"/>
+         <RegionCode code="7104002" name="미국"/>
+         <RegionCode code="7102032" name="파키스탄"/>
+         <RegionCode code="7108014" name="호주"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260228060500104]]></Href>
+      <Writer><![CDATA[손현규]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[美 이란 공격] 인니 대통령, 중재 제안…"기꺼이 테헤란 방문"]]></Title>
+      <SubTitle><![CDATA[이란 이웃국 파키스탄, 美 공습 규탄…호주는 안보 동맹국 美 지지]]></SubTitle>
+      <Body><![CDATA[[美 이란 공격] 인니 대통령, 중재 제안…"기꺼이 테헤란 방문"
+이란 이웃국 파키스탄, 美 공습 규탄…호주는 안보 동맹국 美 지지
+
+
+    
+    (자카르타=연합뉴스) 손현규 특파원 = 미국과 이스라엘이 28일(현지시간) 이란을 전격 공습한 뒤 프라보워 수비안토 인도네시아 대통령이 양국을 중재하겠다고 제안했다.
+    인도네시아 외교부는 이날 미국과 이스라엘이 이란을 공습한 이후 성명을 내고 "미국과 이란의 (핵) 협상 실패를 매우 유감스럽게 생각한다"며 "이는 중동 지역의 군사적 긴장 고조로 이어졌다"고 밝혔다.
+    그러면서 "인도네시아는 모든 당사자가 자제하고 대화와 외교를 최우선으로 해야 한다고 촉구한다"고 덧붙였다.
+    또 "(미국과 이란) 양국이 합의할 경우 인도네시아 대통령이 중재하기 위해 (이란 수도) 테헤란을 기꺼이 방문할 것"고 밝혔다.
+    이란과 국경을 맞닿은 이웃국인 파키스탄 정부는 미국과 이스라엘의 이란 공습이 부당하다며 규탄했다.
+    파키스탄 외교부는 성명에서 이샤크 다르 파키스탄 부총리 겸 외교부 장관이 이날 아바스 아라그치 이란 외무장관과 전화 통화를 했다고 밝혔다.
+    이어 "(다르 장관은) 위기를 평화적으로 해결하기 위해 긴급히 외교를 재개하고, 즉각적으로 긴장 고조 (행위)를 중단할 것을 촉구했다"고 덧붙였다. 
+    수니파 무슬림이 많은 파키스탄은 시아파가 다수인 이란과 900km 넘는 국경을 접하고 있다. 두 나라는 종파 갈등과 지정학적 관계 등으로 인해 협력과 갈등을 반복한다. 
+    2024년에는 이란이 파키스탄에 있는 자국 수니파 분리주의 무장 조직의 근거지를 미사일로 공격했고 이틀 뒤 파키스탄도 이란 동남부 접경지를 공습해 보복했으나 곧바로 화해했다.
+    이란은 지난해 10월에 이어 최근 파키스탄이 아프가니스탄과 무력 충돌하자 중재할 준비가 돼 있다고 나서기도 했다. 
+     미국의 주요 안보 동맹국인 호주는 이란을 공습한 미국을 지지한다는 입장을 냈다. 
+    앤서니 앨버니지 호주 총리는 이날 소셜미디어(SNS) 엑스(X·옛 트위터)에 "이란의 핵 프로그램이 세계 평화와 안보에 위협이 된다는 사실은 오랫동안 인정됐다"며 "우리는 미국이 이란의 핵무기 (보유)를 막는 조치를 지지한다"고 썼다. 
+    son@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[프라보워 인도네시아 대통령]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260228060500104_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/28/AKR20260228060500104_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

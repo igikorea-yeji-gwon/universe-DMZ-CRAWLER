@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260610150800504</ContentID>
+      <SendDate>20260610</SendDate>
+      <SendTime>171308</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Region>
+         <RegionCode code="7105001" name="중남미"/>
+      </Region>
+      <Class>
+         <ClassCode code="0108001" name="외교일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260610150800504]]></Href>
+      <Writer><![CDATA[김지헌]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['한-중남미 미래협력 포럼' 개최…"상호보완적 발전"]]></Title>
+      <Body><![CDATA['한-중남미 미래협력 포럼' 개최…"상호보완적 발전"
+
+
+    (서울=연합뉴스) 김지헌 기자 = 외교부는 10일 서울에서 '2026 한-중남미 미래협력 포럼'을 개최했다고 밝혔다.
+    페르난도 아라마요 볼리비아 외교부 장관을 비롯해 브라질, 코스타리카, 에콰도르, 과테말라, 멕시코 등 중남미 주요 국가 고위 인사와 한국 정부, 학계, 기업 관계자 등 210여명이 참석했다. 
+    박윤주 외교부 1차관은 개회사에서 인공지능(AI) 대전환과 글로벌 공급망 재편 시대에 한국과 중남미가 상호보완적 강점을 바탕으로 혁신과 성장을 선도하는 전략적 동반자로 함께 발전해 나갈 수 있을 것이라고 말했다.
+    참석자들은 AI 대전환 시대의 한-중남미 간 실용·혁신 협력, 공급망 다변화 및 무역·투자 현대화를 위한 정책 공조, 미래협력 분야 발굴을 통한 혁신과 공동 성장 방안 등 3개 세션에서 논의를 진행했다.
+    참석자들은 오는 11일 비무장지대(DMZ) 및 산업시설 시찰 등 일정을 이어간다.
+    jk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[한-중남미 미래협력 포럼]]></Title>
+         <Caption><![CDATA[[외교부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260610150800504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/10/AKR20260610150800504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

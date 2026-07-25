@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260708130000062</ContentID>
+      <SendDate>20260708</SendDate>
+      <SendTime>152915</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260708130000062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 소이산 지하벙커 전면 개방…안보 자원 가치 높여]]></Title>
+      <Body><![CDATA[철원군, 소이산 지하벙커 전면 개방…안보 자원 가치 높여
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 이달부터 철원읍 소이산 지하벙커를 전면 개방하고 본격적인 운영에 들어갔다고 8일 밝혔다.
+    군은 그동안 군사적 통제구역으로 지정돼 일반인 출입이 제한됐던 길이 300여ｍ 벙커에 원형 보존과 정비 작업을 진행한 뒤 대중에 공개했다.
+    이를 통해 과거 최전방 군사 요새로서 긴장감이 흐르던 소이산 지하벙커를 평화와 생태의 메시지를 전하는 문화적 자산으로 재탄생시켰다.
+    지하벙커는 별도 입장료 없이 무료로 운영하고 있다.
+    군은 소이산 지하벙커를 철원역사문화공원, 모노레일과 연계해 운영하면서 시너지 효과를 기대하고 있다.
+    모노레일을 타고 소이산 정상에 오른 관광객들은 백마고지, 철원평야, 비무장지대(DMZ) 평화지역을 한눈에 조망한 뒤 지하벙커 안을 관람할 수 있다.
+    군은 과도한 시설물 설치 대신 내부 보행 환경을 깔끔하게 개선하고 조명 시설을 확충하는 등 관람 편의를 돕는 데 집중했다.
+    철원군 관계자는 "벙커는 철원이 가진 안보 자원의 문화적 가치를 한 단계 높이는 계기가 될 것"이라며 "그동안 통제구역이었던 공간이 주민과 방문객 품으로 돌아
+온 만큼 철원역사문화공원과 연계해 관광 명소로 육성해 나갈 계획"이라고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군, 소이산 지하벙커 전면 개방]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260708130000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/07/08/AKR20260708130000062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

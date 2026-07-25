@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260520030300504</ContentID>
+      <SendDate>20260520</SendDate>
+      <SendTime>084845</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109010" name="보훈복지"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260520030300504]]></Href>
+      <Writer><![CDATA[김효정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[6·25 참전용사 함께 기린다…한·인도 보훈협력 양해각서]]></Title>
+      <SubTitle><![CDATA[인도, 6·25전쟁 의료지원국 참전…국내 첫 참전기념비도 제막]]></SubTitle>
+      <Body><![CDATA[6·25 참전용사 함께 기린다…한·인도 보훈협력 양해각서 
+인도, 6·25전쟁 의료지원국 참전…국내 첫 참전기념비도 제막
+
+
+    (서울=연합뉴스) 김효정 기자 = 6·25전쟁 당시 의료지원군으로 파견됐던 인도 참전용사들을 기리는 국제보훈 사업에 한·인도 정부가 협력하기로 했다.
+    권오을 국가보훈부 장관은 방한하는 라즈나트 싱 인도 국방장관과 오는 21일 경기도 파주 임진각 인도 참전기념비에서 '한국·인도 간 국제보훈 협력' 양해각서에 서명한다고 국가보훈부가 20일 밝혔다.
+    양국 정부는 양해각서에 따라 ▲ 참전 관련 사료 수집 및 참전용사 명예 선양 ▲ 참전용사 후손 및 미래세대를 위한 교류·협력 ▲ 참전 의의를 조명하는 학술·교육·문화사업 ▲ 기념시설 건립 등에 협력할 예정이다.
+    양국 국방장관은 양해각서를 체결한 뒤 인도 국방부가 건립한 국내 첫 인도 참전기념비 제막식에도 함께 참석할 예정이다.
+    참전기념비는 6·25전쟁 중 야전병원 지휘관으로 복무한 란가라지 육군 중령, 정전협정 당시 유엔 포로 송환위원회 의장을 역임한 티마이야 장군의 흉상 등으로 구성됐다.     
+    란가라지 중령은 올해 3월 보훈부로부터 '이달의 6·25전쟁영웅'으로 선정되기도 했다. 권 장관은 제막식에서 란가라지 중령의 후손인 칼파나 프라사드 여사에게 전쟁영웅 선정패도 전달한다.
+    6·25 전쟁이 발발하자 중립국이었던 인도는 유엔의 민간인 구호 결의에 따라 의료지원국 중 최대 규모의 의료인력을 파병했다. 
+    인도 제60공수야전병원부대는 1950년 부산에 도착한 뒤 전투부대와 함께 이동하며 전선 가까이에서 많은 장병과 환자를 치료했다.
+    kimhyoj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[6·25전쟁 인도 참전기념비]]></Title>
+         <Caption><![CDATA[[국가보훈부 제공]]]></Caption>
+         <FileName>AKR20260520030300504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/20/AKR20260520030300504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260604005000062</ContentID>
+      <SendDate>20260604</SendDate>
+      <SendTime>010128</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004011" name="인제"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260604005000062]]></Href>
+      <Writer><![CDATA[박영서]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[6·3 지선] 최상기 인제군수 3선 성공…'일 잘하는 군수' 재확인]]></Title>
+      <SubTitle><![CDATA[민선 7·8기 성과 표심으로 이어져…'미래 100년' 비전 추진 탄력]]></SubTitle>
+      <Body><![CDATA[[6·3 지선] 최상기 인제군수 3선 성공…'일 잘하는 군수' 재확인
+민선 7·8기 성과 표심으로 이어져…'미래 100년' 비전 추진 탄력
+
+
+    (인제=연합뉴스) 박영서 기자 = 4년 전 차기 선거 불출마를 선언했으나 고심 끝에 다시 한번 강원 인제군민들의 삶 속으로 뛰어든 더불어민주당 최상기 인제군수 후보가 내리 3선에 성공하며 '굳건한 신뢰'를 재확인했다.
+    2011년 재선거와 2014년 제6회 지방선거에서 두 차례나 패배의 쓴잔을 마셨던 최 당선인은 민선 7기와 8기와 이어 9기 군정까지 이끌 적임자로 낙점받았다.
+    최 당선인이 또다시 군민들의 부름을 받은 데에는 "군수는 경험하는 자리가 아니라 증명하는 자리"라고 늘 강조했던 그의 소신처럼 오로지 군민 삶의 질 향상에 몰두한 '일 잘하는 군수'라는 신뢰가 밑거름이 됐다는 분석이 나온다.
+    그는 민선 7·8기 동안 전국 최초로 시행한 영농자재 반값 지원 사업이 강원도를 넘어 전국적으로 확산한 것은 물론 동서고속화철도 개통에 대비한 도시 기반 구축과 생활 인프라 확충, 관광산업 육성 등을 꾸준히 추진하며 신뢰를 쌓았다.
+    "7만 군민과 함께 1천만 관광 시대를 열고, 미래 100년의 인제를 만들어 나가겠다"는 구호에 그치지 않고 지역 발전 청사진을 제시하며 관광·경제 활성화 정책을 펼치며 미래 성장동력을 마련한 점도 한몫했다.
+    여기에 접경지역이라는 지역적 한계를 극복하기 위한 규제 개선 노력과 정주 여건 개선 사업 추진 등도 3선 성공의 원동력으로 꼽힌다.
+    최 당선인은 당선 소감에서 "오늘 새벽, 현수막을 주문했다. 거기에는 짧은 두 줄만 담았다"라고 운을 뗐다.
+    그는 현수막에 '군민과 함께 시작했습니다. 국민과 함께 완성하겠습니다'라는 문구만 담은 점을 언급하며 "현수막에 '감사합니다'라는 말을 뺀 이유는 이번 선거 결과가 개인적인 영광이라기보다는 군민들이 자신의 삶과 인제의 미래를 스스로 선택했다는 자신감이 있었기 때문"이라며 "그 선택을 무겁게 받겠다"고 말했다.
+    최 당선인은 "지난 시간 말보다 일로, 구호보다 결과로 인제를 설명하려 했다"며 "그 걸음을 군민 여러분께서 알아봐 주셨다고 생각한다"고 밝혔다.
+    그러면서 "KTX 개통 시점에 발맞춰 인제읍과 덕산리, 원통을 하나로 묶어 도시의 틀을 세우겠다"며 "순천이 그러했듯 인제 전체를 정원 도시로 가꾸겠다"고 약속했다.
+    conanys@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[3선에 성공한 최상기 인제군수 당선인]]></Title>
+         <Caption><![CDATA[[최상기 당선인 측 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260604005000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/04/AKR20260604005000062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

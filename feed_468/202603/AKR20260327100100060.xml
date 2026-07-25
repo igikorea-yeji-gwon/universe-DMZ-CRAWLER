@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260327100100060</ContentID>
+      <SendDate>20260327</SendDate>
+      <SendTime>141305</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0705001" name="출판일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260327100100060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['DMZ 세계문학 페스타' 파주서 개막…29일까지 열려]]></Title>
+      <Body><![CDATA['DMZ 세계문학 페스타' 파주서 개막…29일까지 열려
+
+    (파주=연합뉴스) 우영식 기자 = 평화와 공존을 위한 문학의 역할을 조명하는 행사인 '2026 DMZ 세계문학 페스타'가 27일 경기 파주시 민간인출입통제선(이하 민통선) 북쪽 반환 미군기지 캠프 그리브스에서 개막했다.
+
+    이번 행사는 경기도, 경기문화재단, 한국작가회의가 공동 주최해 오는 29일까지 캠프 그리브스와 파주출판단지와 DMZ 캠프 그리브스에서 열린다.
+    행사는 김동연 경기도지사와 도종환 작가, 프리야 바실 작가 등 3명이 공동 조직위원장을 맡아 운영한다.
+
+    행사에는 노벨문학상 수상자인 스베틀라나 알렉시예비치를 비롯한 해외 및 국내 초청작가들과 조직위원회 관계자 등 약 150명이 참석했다.
+    해외 초청 작가는 프리야 바실, 호시노 도모유키, 아흘람 브샤라트, 마리아 로사 로호, 제인 정 트렌카, 이스마엘 베아, 사르지 라케스타, 주킬레 자마 등 모두 9명이다.
+    행사는 기조강연, 국제 작가 대담, 평화 북페어, 대회 선언문 채택 등 다양한 프로그램으로 사흘간 이어진다.
+    폐막식은 오는 29일 임진각 일대에서 'DMZ 평화 투어'를 진행한 후 파주출판도시 지혜의숲에서 열린다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[민통선에서 열린 DMZ 세계문학 페스타]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 27일 경기도 파주시 캠프 그리브스에서 열린 2026 DMZ 세계문학 페스타에서 참석자들이 기념촬영하고 있다. 2026.3.27 [경기도 제공. 재판매 및 DB 금지]
+    andphotodo@yna.co.kr]]></Caption>
+         <FileName>AKR20260327100100060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/27/AKR20260327100100060_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ 세계문학 페스타 참석한 알렉시예비치]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 27일 경기도 파주시 캠프 그리브스에서 열린 2026 DMZ 세계문학 페스타에서 노벨문학상 수상자인 스베틀라나 알렉시예비치가 발언하고 있다. 
+    벨라루스 출신 작가 알렉시예비치는 구술 채록을 통한 문학 작업으로 2015년 노벨문학상을 수상했다. 2026.3.27 [경기도 제공. 재판매 및 DB 금지]
+    andphotodo@yna.co.kr]]></Caption>
+         <FileName>AKR20260327100100060_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/27/AKR20260327100100060_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

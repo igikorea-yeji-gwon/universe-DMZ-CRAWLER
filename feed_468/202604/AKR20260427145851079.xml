@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260427145851079</ContentID>
+      <SendDate>20260427</SendDate>
+      <SendTime>205252</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260427145851079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[헤즈볼라 수장-레바논 대통령, 이스라엘과 회담 두고 설전(종합)]]></Title>
+      <Body><![CDATA[헤즈볼라 수장-레바논 대통령, 이스라엘과 회담 두고 설전(종합)
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 이란 전쟁에 개입해 레바논을 전쟁의 수렁으로 끌고 들어간 헤즈볼라 수장과 레바논 대통령이 이스라엘 정부와의 직접 협상을 두고 설전을 벌였다.
+    헤즈볼라 수장은 나임 카셈은 27일(현지시간) 레바논 정부와 이스라엘 정부 간의 직접 회담을 '중대 죄악'으로 규정하며 반대 의사를 밝혔다.
+    AFP 통신에 따르면 카셈은 이날 성명을 통해 "우리는 이스라엘과의 직접 협상을 단호히 거부한다"며 "현 집권 세력은 자신들의 행위가 레바논 국익은 물론 본인들에게도 전혀 도움이 되지 않는다는 사실을 알아야 한다"고 했다.
+    이어 레바논 당국을 향해 "레바논을 불안의 소용돌이로 몰아넣는 '중대한 죄악'을 즉각 중단해야 할 것"이라고 촉구했다.
+    또 카셈은 "직접 협상과 그 결과물은 우리에게 존재하지 않는 것이나 다름없다. 조금도 관심이 없다"며 "레바논과 국민을 지키기 위한 방어적 저항을 멈추지 않을 것"이라고 강조했다.
+
+    조셉 아운 레바논 대통령은 레바논을 전쟁의 소용돌이로 몰아넣은 헤즈볼라의 행위야말로 반역이라며 반발했다. 
+    아운 대통령은 성명을 통해 "나의 목표는 1949년 정전협정과 유사한 수준으로 이스라엘과의 전쟁 상태를 끝내는 것"이라며 "단, 레바논에 굴욕적인 합의는 결코 수용하지 않겠다는 점을 분명히 약속한다"고 말했다.
+    그는 이어 "우리를 전쟁으로 끌어들인 자들이 이제는 협상을 결정했다는 이유로 우리에게 책임을 묻고 있다"며 "우리가 추진하는 협상은 반역이 아니다. 진정한 반역은 외세의 이익을 실현하기 위해 자국을 전쟁터로 만드는 행위"라고 목소리를 높였다.
+    레바논의 친이란 무장정파 헤즈볼라는 미국과 이스라엘의 공습으로 전쟁이 발발하자 지난달 2일 이란의 편에서 참전을 선언하고 이스라엘을 공격했다.
+    헤즈볼라의 공격을 받은 이스라엘은 레바논의 수도 베이루트와 남부 지역 등에 맹폭을 가하고, 헤즈볼라에 의한 안보 위협 해소를 명분으로 대규모 지상군 병력을 국경 너머에 투입해 완충지대를 구축하고 있다.
+    이란의 레바논 휴전 요구를 수용한 도널드 트럼프 미국 대통령 주도로 지난 18일 이스라엘과 헤즈볼라 간 휴전이 발효됐다.
+    그러나 이후에도 양측간의 무력 공방이 이어지면서 개전 후 레바논 내 사망자는 2천500명을 넘어섰다.
+    헤즈볼라의 대이스라엘 전쟁으로 피해가 커지자 레바논 정부는 미국의 중재로 이스라엘과 두차례 대면 협상을 진행했다.
+    헤즈볼라 무장해제를 원하는 이스라엘과 평화를 희망하는 레바논 정부가 직접 협상에 나서자, 헤즈볼라는 강력하게 반발해왔다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[헤즈볼라 수장 나임 카셈의 방송 연설]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260427145851079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/27/AKR20260427145851079_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[조셉 아운 레바논 대통령]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260427145851079_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/27/AKR20260427145851079_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

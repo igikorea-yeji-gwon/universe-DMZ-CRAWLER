@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260413077200062</ContentID>
+      <SendDate>20260413</SendDate>
+      <SendTime>111751</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004011" name="인제"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260413077200062]]></Href>
+      <Writer><![CDATA[강태현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[인제군, 'DMZ 평화의 길 테마노선' 개방…사전 예약제 운용]]></Title>
+      <Body><![CDATA[인제군, 'DMZ 평화의 길 테마노선' 개방…사전 예약제 운용
+
+
+    (인제=연합뉴스) 강태현 기자 = 강원 인제군은 오는 17일부터 '비무장지대(DMZ) 평화의 길 테마노선' 인제 구간을 전면 개방한다고 13일 밝혔다.
+    이번에 개방되는 인제 구간은 서화리 평화의 길 방문자 센터를 출발해 치열한 역사가 서린 을지삼거리와 1052고지를 탐방하는 코스로 이뤄졌다.
+    도보 탐방 1.5㎞, 차량 이동 44.5㎞ 등 총 46㎞ 구간으로 전체 소요 시간은 약 3시간이다.
+    오는 17일부터 11월 30일까지 매주 수요일∼일요일 주 5일간 운영한다.
+    월요일과 화요일은 정기 휴무일로 운영하지 않으며 해당 기간에는 노선 정비와 생태계 보호를 위한 관리를 진행한다.
+    또 혹서기인 7월 1일∼8월 31일까지는 운영을 일시 중단한다.
+    탐방객 안전과 쾌적한 관람 환경 조성을 위해 운영 횟수는 오전 9시와 오후 1시 두 차례로 제한한다.
+    회당 참가 인원은 선착순 20명까지다.
+    참가 희망자는 한국관광공사가 운영하는 '두루누비' 공식 홈페이지를 통해 온라인으로 사전 신청하면 된다.
+    고령자나 온라인 접근이 어려운 관광객을 위해 전화(☎ 033-463-7077) 예약 서비스도 운영한다.
+    taetae@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[비무장지대(DMZ) 평화의 길]]></Title>
+         <Caption><![CDATA[[인제군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260413077200062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/13/AKR20260413077200062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

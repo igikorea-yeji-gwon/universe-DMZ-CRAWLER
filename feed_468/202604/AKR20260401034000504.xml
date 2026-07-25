@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260401034000504</ContentID>
+      <SendDate>20260401</SendDate>
+      <SendTime>085334</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+         <ClassCode code="0109010" name="보훈복지"/>
+         <ClassCode code="1007006" name="남북갈등"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260401034000504]]></Href>
+      <Writer><![CDATA[김철선]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국방부, DMZ 내 백마고지 일대 유해발굴 작업 재개]]></Title>
+      <Body><![CDATA[국방부, DMZ 내 백마고지 일대 유해발굴 작업 재개
+
+
+    (서울=연합뉴스) 김철선 기자 = 국방부는 1일부터 비무장지대(DMZ) 내 백마고지 일대에서 6·25전쟁 전사자 유해발굴 작업을 재개한다고 밝혔다.
+    국방부는 남북 간 군사적 긴장완화 조치의 일환으로 2022년 중단됐던 백마고지 유해발굴 작업을 지난해 재개한 바 있다.
+    강원도 철원에 위치한 백마고지는 6·25전쟁 당시인 1952년 10월 국군 제9보병사단과 중공군이 열흘 동안 12차례의 격전을 치른 격전지로, 다수의 국군 전사자와 실종자가 발생한 곳이다.
+    백마고지 일대 유해발굴은 안전을 최우선으로 지뢰제거와 이동로 확보에 이어 기초·정밀발굴 순으로 진행될 예정이라고 국방부는 밝혔다.
+    백마고지 유해발굴TF는 5보병사단과 국방부유해발굴감식단, 5공병여단 등으로 구성된다.
+    국방부는 "백마고지 유해발굴 작업 재개와 관련해 유엔사와 긴밀히 공조하고 있다"며 "6·25전쟁 전사자에 대한 유해발굴을 지속해 마지막 남은 한 분까지 가족과 조국의 품으로 모실 수 있도록 숭고한 국가의 소명을 다할 것"이라고 밝혔다.
+    우리 군은 백마고지 일대에서 지금까지 총 92구의 유해를 발굴했다.
+    kcs@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국방부, 비무장지대 내 백마고지 유해발굴]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 국방부는 10월 15일부터 지난달 28일까지 40여일 동안 중부전선 비무장지대(DMZ) 내 백마고지에서 6·25전쟁 전사자 유해발굴 작업을 실시해 25구의 유해와 1천962점의 유품을 수습했다고 1일 밝혔다. 사진은 유해를 봉송하는 모습. 2025.12.1 [국방부 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2025120101600001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/12/01/PYH2025120101600001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

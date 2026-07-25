@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260130099800704</ContentID>
+      <SendDate>20260130</SendDate>
+      <SendTime>141404</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001081" name="연합영상"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260130099800704]]></Href>
+      <Writer><![CDATA[류재갑]]></Writer>
+      <Desk code="704"><![CDATA[영상미디어부]]></Desk>
+      <DeliCode>L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[영상] 中, 미얀마서 '스캠 조직 운영' 일당 11명 사형 집행]]></Title>
+      <Body><![CDATA[[영상] 中, 미얀마서 '스캠 조직 운영' 일당 11명 사형 집행
+
+[https://youtu.be/XdgJMlH4RJw]
+
+    (서울=연합뉴스) 중국이 미얀마를 거점으로 온라인 사기범죄를 위한 '스캠 단지'를 만들어 전화사기와 살인 등을 저지른 중국인 범죄조직원에 대한 사형을 집행했습니다. 
+    29일 중국 관영 신화통신에 따르면 원저우시 중급인민법원은 이날 최고인민법원 승인을 거쳐 범죄조직 '밍 가문'(明家) 조직원 11명의 사형을 집행했습니다. 
+    이들은 지난해 9월 고의살인·고의상해·불법구금·사기·도박장 개설 등으로 1심에서 사형을 선고받았고 같은 해 11월 2심에서도 1심 판결이 그대로 유지됐습니다. 
+    최고인민법원은 밍씨 가족을 주축으로 한 '밍 가문' 범죄조직이 지난 2015년부터 미얀마 라우카이 등에 스캠 단지를 만들어 통신사기, 도박장 개설 등 범죄활동을 벌였으며 도박과 전화사기 등으로 100억위안(약2조원) 이상을 챙겼다고 확인했습니다.
+    최고인민법원은 또한 이들이 전화사기에 연루된 사람들을 상대로 고의살해·고의상해·불법감금 등 중대한 폭력 범죄를 저질러 중국인 14명을 사망케 하고 다수를 다치게 했으며 관련 증거가 명확하다면서 이들의 사형 집행을 승인했습니다. 
+    밍 가문은 중국 윈난성과 인접한 미얀마 국경 마을인 라우카이를 거점으로 일대를 스캠, 도박, 마약 등 범죄활동 중심지로 만든 4개 조직 중 하나입니다.
+    중국어가 통하고 중국 휴대전화 사용도 가능한 미얀마의 중국 접경 지역에서는 중국인 상대 통신사기 범죄조직이 기승을 부려왔습니다.
+    범죄조직들은 취업 사기, 인신매매 등으로 모은 인력을 감금하고 보이스피싱이나 로맨스 스캠 등 온라인 사기 범죄에 동원했습니다. 
+    중국은 2023년부터 미얀마 해당 지역에서 온라인 사기 범죄 조직 소탕 작전을 벌여 범죄에 가담한 자국인 수만 명을 본국으로 압송했는데요. 영상으로 보시죠.
+
+    제작: 류재갑·최주리
+    영상: 로이터
+    jacoblyu@yna.co.kr
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260130099800704_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/30/AKR20260130099800704_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

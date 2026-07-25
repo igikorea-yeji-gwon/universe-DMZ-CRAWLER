@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260122120200062</ContentID>
+      <SendDate>20260122</SendDate>
+      <SendTime>155206</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260122120200062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, 속도 내는 광역 행정통합에 3특 소외·역차별 우려]]></Title>
+      <SubTitle><![CDATA[김진태 지사, 도 출신 행안부 관계자 면담…"5극과 3특 함께 추진돼야"]]></SubTitle>
+      <Body><![CDATA[강원도, 속도 내는 광역 행정통합에 3특 소외·역차별 우려
+김진태 지사, 도 출신 행안부 관계자 면담…"5극과 3특 함께 추진돼야"
+
+    (춘천=연합뉴스) 이재현 기자 = 강원특별자치도가 정부의 5극 체제 추진 과정에서 기존 3특(강원·제주·전북)의 소외와 역차별을 거듭 우려하고 있다.
+
+    김진태 도지사는 22일 세종시에서 도 출신 행정안전부 주요 고위 관계자들을 만난 자리에서 "2년 전에 발의한 강원특별법이 조속히 처리되기는커녕 광역 행정통합이라는 큰 흐름에 밀려 소외되고 있다"고 밝혔다.
+    그러면서 "5극과 3특은 함께 추진돼야 한다"고 강조했다.
+    이 자리에는 홍천 출신의 박천수 행안부 재난관리정책국장을 비롯해 김홍규 강릉시장, 심규언 동해시장, 박상수 삼척시장 등이 참석했다.
+    김 지사는 최근 광주·전남, 대전·충남 등 통합 특별법 제정이 속도감 있게 추진되는 반면 이미 발의된 이른바 3특법(강원·제주·전북 특별법)과 행정수도 특별법은 논의조차 이뤄지지 않는 점을 언급했다.
+    5극 체제 추진 과정에서 준비가 완료된 기존 3특법이 오히려 역차별받고 있다는 점을 지적한 것이다.
+    특히 광역 행정통합 인센티브와 관련해 통합에 따른 지원 필요성에는 공감하면서도 교부세 등 재정지원과 공공기관 우선 이전 등의 지원은 제로섬 게임인 만큼 공평한 자원 배분 원칙이 함께 고려돼야 한다는 입장을 전달했다.
+    2024년 9월 26일 발의된 강원특별법 3차 개정안은 40개 입법 과제 중 3분의 2에 해당하는 약 29개 과제가 이미 부처 협의를 마치는 등 조속한 입법이 필요하다고 덧붙였다.
+    이와 함께 김 지사는 최근 2차로 해소된 군사 규제와 관련해 조건부 수용으로 추진 중인 민간인출입통제선(민통선) 북상 지역에 대한 국비 지원도 요청했다. 
+    조건부 수용 지역은 ▲ 방산면·동면 일원 두타연 관광 활성화 ▲ 고성 현내면 일원 통일전망대 인근 출입제한 개선 ▲ 고성 거진읍 산북리 일원 균형 개발 ▲ 거진읍 냉전리·건봉사 일원 관광 활성화 등 총 23.3㎢에 이른다.
+    이들 지역은 군 경계 시설 이전과 보완 설치가 선제적으로 이뤄져야 군사 규제가 해소되기 때문에 국비 확보가 필요한 상황이다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원도와 행안부, 지역 현안 간담회]]></Title>
+         <Caption><![CDATA[[강원도 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260122120200062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/22/AKR20260122120200062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260420055700061</ContentID>
+      <SendDate>20260420</SendDate>
+      <SendTime>103228</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>4</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005014" name="수원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260420055700061]]></Href>
+      <Writer><![CDATA[최해민]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기관광공사, 광교도청사에 복합문화공간 '경기, 장(場)' 개장]]></Title>
+      <Body><![CDATA[경기관광공사, 광교도청사에 복합문화공간 '경기, 장(場)' 개장
+
+    (수원=연합뉴스) 최해민 기자 = 경기관광공사는 경기도청 광교청사에 경기도의 관광과 문화를 한눈에 체험할수 있는 복합문화공간 '컬처라운지 경기, 장(場)'을 개장했다고 20일 밝혔다.
+
+    '컬처라운지 경기, 장(場)'은 지하 1층 광교청사 스트리트몰에 약 400㎡ 규모로 조성돼 12월 15일까지 운영된다.
+    매주 화요일부터 일요일까지, 오전 10시부터 오후 6시까지 이용할 수 있으며 일부 체험 프로그램은 네이버를 통해 사전 예약해야 한다.
+    이 공간은 경기관광공사, 경기문화재단, 한국도자재단, 경기콘텐츠진흥원, 경기아트센터, (사)DMZ국제다큐영화제 등 6개 공공기관이 협업해 조성했다.
+    여행, 전시, 공연, 체험 등 각 기관의 다양한 콘텐츠를 한 공간에서 경험할 수 있게 꾸며 놓은 것이 특징이다.
+    주요 프로그램으로는 나만의 경기여행 성향을 진단받는 '로컬레이더', 경기관광 사진전, 도자 공예 체험 및 차 시음, 문화 굿즈 판매, AI 기반 영화 및 다큐멘터리 상영, 특별 공연 등이 있다.
+    goals@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[사전 체험 프로그램]]></Title>
+         <Caption><![CDATA[[경기관광공사 제공. 재판매 DB 금지]]]></Caption>
+         <FileName>AKR20260420055700061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/20/AKR20260420055700061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

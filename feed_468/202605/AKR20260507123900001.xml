@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260507123900001</ContentID>
+      <SendDate>20260507</SendDate>
+      <SendTime>154000</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260507123900001]]></Href>
+      <Writer><![CDATA[최평천]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우상호 "지선서 남북 대립이냐 평화냐 결정…리스크 걷어내야"]]></Title>
+      <SubTitle><![CDATA[선거 정강·정책 연설서 "평화가 경제…안정되면 산업 따라와"]]></SubTitle>
+      <Body><![CDATA[우상호 "지선서 남북 대립이냐 평화냐 결정…리스크 걷어내야"
+선거 정강·정책 연설서 "평화가 경제…안정되면 산업 따라와"
+
+
+    
+    (서울=연합뉴스) 최평천 기자 = 더불어민주당 우상호 강원도지사 후보는 7일 6·3 지방선거와 관련, "이번 선거는 남북의 대립과 긴장을 숙명처럼 짊어지고 갈 것인지, 평화에 투자해 새로운 성장의 길을 열 것인지를 결정하는 갈림길"이라고 말했다.
+    우 후보는 이날 KBS에 방송된 6·3 지방선거 정강·정책 연설에서 "평화가 밥이고, 평화가 경제다. 평화가 정착된다는 것은 '코리아 리스크'를 걷어내고 세계의 기업들이 몰려오는 '코리아 프리미엄' 시대로 갈아타는 일"이라며 이같이 말했다.
+    우 후보는 "우리가 매일 마시는 커피값, 매달 내는 대출 이자에는 보이지 않는 '분단 비용'이 붙어있다"며 "분단 비용은 국가 신용도를 붙잡는 모래주머니이기도 하다"고 설명했다.
+    이어 "평화가 세상에서 가장 가성비 좋은 '행복 전략'"이라며 "지금이 바로 평화에 투자할 때"라고 강조했다.
+    그러면서 "개성공단과 금강산 관광을 통해 평화가 경제를 어떻게 작동시키는지, 또 경제는 평화를 어떻게 뒷받침하는지 경험했다"며 "이재명 정부와 민주당의 평화 기반 성장 비전은 남과 북이 함께 성장하는 경제공동체"라고 말했다.
+    우 후보는 "지금 남과 북 사이는 높고 차가운 벽에 꽉 가로막혀 있다"면서 "윤석열 정부가 왜 접경지역 위기를 조성하고, 어떻게 전쟁의 어둠을 악용하려 했는지는 '12·3 내란'이 적나라하게 보여줬다"고 꼬집었다.
+    그는 "강한 안보와 국익 중심의 실용외교, 군사적 긴장 완화와 실익 중심의 협력, 남북 협력을 지속시킬 제도적 장치라는 3개의 기둥을 잘 세워야 한다"며 "분야별 남북협의체를 상설화해 협력의 창구를 항상 열어둬야 한다"고 했다.
+    우 후보는 "평화로 안정된 땅에 관광이 물꼬를 트면 산업이 따라오고 본격적인 경제협력의 새로운 장이 펼쳐질 것"이라며 "접경지에 평화경제특구와 'RE100'(재생에너지 100%) 특구를 함께 지정하면 미래의 땅으로 바뀐다"고 말했다.
+    pc@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[연합뉴스와 인터뷰하는 우상호 강원도지사 예비후보]]></Title>
+         <Caption><![CDATA[(춘천=연합뉴스) 이재현 기자 = 더불어민주당 우상호 강원도지사 예비후보가 지난 1일 춘천시 선거사무소에서 연합뉴스와 인터뷰하고 있다. 2026.5.6 jlee@yna.co.kr]]></Caption>
+         <FileName>PYH2026050615700006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/06/PYH2026050615700006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

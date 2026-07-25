@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260410104200060</ContentID>
+      <SendDate>20260410</SendDate>
+      <SendTime>144248</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005003" name="고양"/>
+      </Region>
+      <Class>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260410104200060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['행주산성부터 장항습지까지'…고양 'DMZ 평화의 길' 17일 개방]]></Title>
+      <Body><![CDATA['행주산성부터 장항습지까지'…고양 'DMZ 평화의 길' 17일 개방
+
+    (고양=연합뉴스) 노승혁 기자 = 경기 고양시는 오는 17일부터 '2026년 DMZ 평화의 길 테마노선' 장항습지 생태 코스를 개방한다고 10일 밝혔다. 
+
+    탐방의 시작점은 행주산성 역사공원으로 고대 군사·물류의 중심이던 행주산성과 행주나루에서부터 조선시대 행호관어도까지 역사와 문화의 이야기를 담아 공원으로 조성한 곳이다. 
+    DMZ 평화의 길 고양 테마 노선의 백미는 단연 장항습지이다. 
+    람사르습지로 등록될 만큼 국제적 가치를 인정받은 이곳은 그간 군사시설 보호구역에 묶여 일반인의 출입이 엄격히 통제돼 왔다. 
+    하지만 DMZ 평화의 길 테마 노선을 통해 탐방객들은 전문 해설사의 안내에 따라 습지의 독특한 생태계를 가까이서 관찰할 수 있다.
+    DMZ 평화의 길 고양 코스가 다른 지역과 차별화되는 점은 '공간의 재해석'이다. 
+    과거 긴장감이 감돌던 군 초소 막사가 시민들을 위한 쉼터 나들라온으로 재탄생했는데, 나들라온은 DMZ의 기록을 담은 갤러리와 디오라마 전시로 꾸며져 탐방객들에게 휴식과 새로운 재미를 선사한다.
+    이번 테마 노선은 정발산역 고양관광정보센터에서 출발해 지하철과 버스 등 대중교통을 이용하면 더 쉽게 접근할 수 있다.
+    테마노선 프로그램은 오는 10월 31일까지 매주 3회(수·금·토요일) 운영하며 7월과 8월 중에는 혹서기로 운영이 일시 중단된다.
+    프로그램 신청은 두루누비 누리집(www.durunubi.kr) 또는 모바일앱으로 참가일 기준 8일 전까지 가능하다. 올해는 회당 참가인원을 40명까지 확대했으며, 참가비는 1만원이다.
+    고양시 관계자는 "장항습지의 생태 보존과 탐방객의 안전을 최우선으로 두고, 고양을 방문한 탐방객들이 일상의 스트레스를 해소하고 나들이를 즐길 수 있도록 최선을 다하겠다"고 말했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[고양 'DMZ 평화의 길']]></Title>
+         <Caption><![CDATA[[고양시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260410104200060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/10/AKR20260410104200060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

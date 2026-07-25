@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260114047900504</ContentID>
+      <SendDate>20260114</SendDate>
+      <SendTime>095041</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+         <RegionCode code="7005022" name="연천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260114047900504]]></Href>
+      <Writer><![CDATA[김호준]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[연천·철원 일대서 63만㎡ 군사시설보호구역 해제]]></Title>
+      <SubTitle><![CDATA[국방부, 4차 보호구역 관리기본계획 마련…민통선 북상 조정]]></SubTitle>
+      <Body><![CDATA[연천·철원 일대서 63만㎡ 군사시설보호구역 해제
+국방부, 4차 보호구역 관리기본계획 마련…민통선 북상 조정
+    
+
+
+    (서울=연합뉴스) 김호준 기자 = 국방부는 국민 편익 증진을 위해 접경지역 군사시설보호구역 63만㎡를 해제한다고 14일 밝혔다.
+    해제 지역은 경기도 연천군 연천읍 차탄리(7천497㎡)와 강원도 철원군 갈말읍 군탄리(25만1천106㎡), 철원군 동송읍 오덕리·이평리와 철원읍 화지리(37만1천23㎡) 등 3곳이다. 
+    군사시설보호구역이란 '군사기지 및 군사시설보호법'에 따라 군사기지와 군사시설을 보호하고 군사작전을 원활히 수행하기 위해 국방부 장관이 지정하는 구역으로 개발 등에 제한이 따른다. 국방부는 매년 군사작전에 미치는 영향과 주민 불편 등을 검토해 보호구역 중 일부를 해제해왔다. 
+    이번에 해제된 연천군 차탄리 일대는 연천군청 소재지로 이미 취락지역이 형성된 곳이며, 강원 철원군 오덕리·이평리·화지리 일대 역시 시외버스터미널 등 지역 교통거점 및 취락단지가 형성된 지역이다. 철원군 군탄리 일대는 고석정 및 드르니 주상절리길 등 관광단지가 형성된 곳이다. 
+    국방부의 군사시설보호구역 해제와 별도로 합동참모본부는 지난달 19일 접경지역 보호구역 1천244만㎡에서 건축 또는 개발 행위를 할 때 거쳐야 했던 관할부대와의 협의 업무를 지자체에 위탁하기로 했다. 이에 따라 사전에 군(軍)이 지정한 높이 이하에선 관할부대와 협의 없이 건축 등이 가능해진다.
+    군사시설보호구역 해제 및 협의 업무 지자체 위탁 보호구역은 여의도 면적의 4.5배 규모다
+    국방부는 또한 군사기지 및 군사시설 보호 심의위원회 심의를 거쳐 '제4차 보호구역 등 관리기본계획'(2025∼2029년)을 확정했다. 
+    이 계획에 따르면 군사분계선 10㎞ 이내로 설정하게 돼 있는 민통선이 지역별로 북상 조정된다. 아울러 군사분계선 25km 이내 지역 일대 벨트형으로 넓게 설정된 보호구역을 군사시설 외곽 박스형으로 지정·운영하는 방안을 마련해 불필요한 군사시설보호구역을 과감히 해제한다는 게 국방부의 계획이다. 
+    hojun@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[군사시설보호구역 변동지역]]></Title>
+         <Caption><![CDATA[[국방부 제공, 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260114047900504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/14/AKR20260114047900504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

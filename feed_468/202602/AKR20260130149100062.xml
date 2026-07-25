@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260130149100062</ContentID>
+      <SendDate>20260201</SendDate>
+      <SendTime>080004</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260130149100062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 설 앞두고 DMZ 평화관광 초소 위문품 전달]]></Title>
+      <Body><![CDATA[철원군, 설 앞두고 DMZ 평화관광 초소 위문품 전달
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 설 명절을 앞두고 오는 2일부터 13일까지 지역 내 DMZ 평화관광 민통선 출입초소와 협력 부대 등 총 20곳의 군 장병들에게 위문품을 전달한다.
+    철원군 시설관리사업소는 평화전망대, 월정리역, 근대문화유적센터, 백마고지전적비, 승리전망대 등 민간인 통제구역 안팎에서 DMZ 평화관광과 문화관광해설사를 배치·운영하고 있다.
+    철원군은 6사단 7여단 전방대대 등 민통선 내 관광 호송과 출입 통제 임무를 맡은 초소와 부대를 돌며 장병들에게 위문품을 전달하고 명절의 정을 함께 나눌 계획이다.
+    김종석 시설관리사업소장은 1일 "국토방위에 힘쓰며 철원 DMZ를 찾는 관광객들의 안전과 신속한 출입 조치에 이바지하는 부대 장병들에게 감사함을 전할 계획"이라며 "접경지역의 특색을 살린 평화관광 활성화에 힘쓰겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군청]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240530000005990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/05/30/05/PCM20240530000005990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260428184500099</ContentID>
+      <SendDate>20260428</SendDate>
+      <SendTime>211353</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7106008" name="나이지리"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260428184500099]]></Href>
+      <Writer><![CDATA[나확진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[나이지리아서 무장괴한 공격에 29명 사망…IS "우리가 했다"]]></Title>
+      <Body><![CDATA[나이지리아서 무장괴한 공격에 29명 사망…IS "우리가 했다"
+
+
+    (요하네스버그=연합뉴스) 나확진 특파원 = 나이지리아 북동부에서 이슬람국가(IS) 연계 단체의 소행으로 추정되는 공격으로 주민 29명이 사망했다.
+    28일(현지시간) AP, AFP 통신에 따르면, 지난 26일 카메룬과 접경한 나이지리아 아다마와주의 구야쿠 마을에 무장 괴한들이 들이닥쳐 이 같은 희생자가 발생했다고 아마두 우마루 핀티리 아다마와주지사가 밝혔다.
+    괴한들은 축구장에 모인 청년들을 상대로 무차별 총격을 했으며, 주변에 있던 여성들도 숨졌다고 주민들은 AFP에 말했다. 또 교회와 주택, 오토바이 등에 불을 질렀다고 덧붙였다.
+    나이지리아 북동부를 중심으로 활동하는 이슬람국가 서아프리카지부(ISWAP)는 이후 텔레그램을 통해 해당 공격을 자신들이 했다고 주장했다.
+    나이지리아 북동부에서는 2009년부터 이슬람 극단주의 단체 보코하람과 그 분파인 ISWAP 등이 정부군과 민간인을 공격해 지금까지 4만명 이상 숨지고 약 200만명의 피란민이 발생했다.
+    한편, 구야쿠 마을이 공격받은 26일 중북부 코기주의 로코자 마을에서는 무장 괴한들이 한 무허가 보육원을 공격해 어린이 23명을 납치했다.
+    당국은 이 가운데 15명을 현재 구출했지만 8명은 아직 찾고 있다고 밝혔다.
+    납치했다고 주장하는 단체는 아직 나타나지 않은 것으로 알려졌다.
+    나이지리아에서는 학생 등을 상대로 몸값을 노린 납치가 종종 벌어지고 있다.
+    지난해 11월에는 중북부 니제르주의 한 가톨릭계 기숙학교에서 300여명의 학생과 교사가 납치됐다가 한달여만에 모두 생환하기도 했다.     
+    rao@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[지난 3월 나이지리아 북부 케비 주에서 무장단체의 공격에 불탄 군차량 [AP=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260428094001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/04/28/PAP20260428094001009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

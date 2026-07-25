@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260604002400062</ContentID>
+      <SendDate>20260604</SendDate>
+      <SendTime>002429</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004018" name="화천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0105001" name="선거일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260604002400062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[6·3 지선] 김세훈 화천군수 당선인…보수 텃밭서 3번째 도전 결실]]></Title>
+      <SubTitle><![CDATA[민선 이후 31년 만에 첫 민주당 군수 탄생…'첫째도, 둘째도 소득' 공약]]></SubTitle>
+      <Body><![CDATA[[6·3 지선] 김세훈 화천군수 당선인…보수 텃밭서 3번째 도전 결실
+민선 이후 31년 만에 첫 민주당 군수 탄생…'첫째도, 둘째도 소득' 공약
+
+    (화천=연합뉴스) 이상학 기자 = 더불어민주당 김세훈 후보가 3일 치러진 제9회 전국동시지방선거에서 화천군수에 당선됐다.
+
+    민선 지방자치 출범 이후 줄곧 보수 성향 후보들이 당선됐던 화천에서 31년만에 첫 민주당 후보가 승리하면서 지역 정치권 안팎의 관심이 쏠린다. 
+    화천군은 철원·양구·인제·고성과 함께 강원 대표 접경지역으로 분류되는 곳으로, 그동안 보수 정당이 강세를 보여왔다.
+    그는 이번 선거에서 정권 프리미엄과 변화론을 앞세워 표심 공략에 집중했다.
+    특히 김 당선인은 앞선 두 차례 선거에서 고배를 마신 뒤 세 번째 도전 끝에 압도적인 표 차이로 승리하며 지역 정치 지형 변화의 상징적인 결과를 만들어냈다.
+    그는 선거 과정에서 농어촌기본소득과 햇빛연금 도입, 관광산업과 스포츠마케팅 확대 등을 통해 주민 소득을 높이는 경제 중심 공약을 제시해 유권자들의 선택을 받았다.
+    김 당선인은 "이번 결과는 저 개인의 승리가 아니라 더 나은 화천을 만들어 달라는 군민의 명령"이라며 "더 낮은 자세와 무거운 책임감으로 군정을 이끌겠다"고 소감을 밝혔다.
+    이어 "선거는 끝났고 이제는 화합과 통합의 시간"이라며 "특정 정당의 군수도, 특정 계층의 군수도 아닌 모든 군민의 군수가 되겠다"고 다짐했다.
+    김 당선인은 특히 '첫째도 소득, 둘째도 소득, 셋째도 소득'을 군정 목표로 제시하며 주민 삶의 질 향상을 최우선 과제로 제시했다.
+    그는 "스위스 같은 작지만 관광 화천을 만들어 지역경제를 살리고 주민 소득을 높여 더 풍요로운 도시를 만드는 데 군정 역량을 집중하겠다"고 강조했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김세훈 당선인(왼쪽)과 아내가 손을 들어 인사하고 있다]]></Title>
+         <Caption><![CDATA[[후보측 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260604002400062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/04/AKR20260604002400062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260424152800083</ContentID>
+      <SendDate>20260424</SendDate>
+      <SendTime>175417</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102025" name="중국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260424152800083]]></Href>
+      <Writer><![CDATA[김현정]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[中여대생, '송끄란 축제' 태국서 납치…中대사관도 '주의보']]></Title>
+      <Body><![CDATA[中여대생, '송끄란 축제' 태국서 납치…中대사관도 '주의보' 
+
+
+    (베이징=연합뉴스) 김현정 특파원 = 중국 여대생이 태국 전통 설 축제인 송끄란을 즐기기 위해 태국을 방문했다가 현지에서 납치되는 사고가 발생하자, 주태국 중국대사관이 자국민을 대상으로 안전 주의보를 발령했다. 
+    24일 중국 현지 매체인 양쯔완바오에 따르면 중국 광둥성 출신 한 여대생이 지인 초대로 쏭끄란 축제에 참가하기 위해 지난 10일 태국으로 출국했지만, 현지에서 납치됐다.
+    그는 납치범들에게 끌려가 태국·미얀마 접경 지역으로 옮겨졌고, 현재는 통신 사기 조직에 넘겨진 것으로 보인다고 양쯔완바오는 보도했다.
+    중국 경찰이 이 사건과 관련해 공식 수사에 착수한 것으로 알려졌으나, 현재까지 피해자의 상황이나 위치는 파악되지 않고 있다. 
+    사건이 알려지자 주태국 중국대사관은 이날 소셜미디어 공지를 통해 "최근 일부 중국 국민이 고수익 취업이나 여행을 미끼로 태국을 거쳐 미얀마 접경 지역으로 유인된 뒤 통신사기에 연루되고 있다"고 전했다. 
+    이어 "일부는 폭력·구금 등 심각한 피해를 입고 있다"며 "생명과 안전에 중대한 위협이 되고 있다"고 경고했다. 
+    중국대사관은 또 소셜미디어나 메신저를 통한 '고수익 일자리'나 여행 등의 제한을 경계하고, 지인이나 중개인이 개입한 소개도 신중히 검증할 것을 당부했다. 
+    아울러 취업 시에는 합법적인 절차를 거치고, 출국 전 고용기관의 자격과 근무지·업무 내용 등을 철저히 확인해야 한다고 강조했다.
+    hjkim07@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[태국 쏭끄란]]></Title>
+         <Caption><![CDATA[[신화 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PXI20260417011501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/xi/2026/04/17/PXI20260417011501009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

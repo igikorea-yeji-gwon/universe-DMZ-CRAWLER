@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260520030600003</ContentID>
+      <SendDate>20260520</SendDate>
+      <SendTime>110007</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Class>
+         <ClassCode code="0106001" name="중앙행정"/>
+         <ClassCode code="0405002" name="우주항공"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260520030600003]]></Href>
+      <Writer><![CDATA[임기창]]></Writer>
+      <Desk code="003"><![CDATA[산업부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국토위성 1·2호 조만간 동시운영…"국토관측 정밀·신속화"]]></Title>
+      <SubTitle><![CDATA[촬영주기 단축·3D 공간정보 구축…국민 일상 활용도도 향상]]></SubTitle>
+      <Body><![CDATA[국토위성 1·2호 조만간 동시운영…"국토관측 정밀·신속화"
+촬영주기 단축·3D 공간정보 구축…국민 일상 활용도도 향상
+
+    (서울=연합뉴스) 임기창 기자 = 국토교통부는 이달 초 국토위성 2호 발사를 계기로 앞서 2021년 발사된 1호와 2호를 동시 운영해 정밀 관측 역량을 강화한다고 20일 밝혔다.
+
+    지난 3일 발사된 국토위성 2호는 국토부·우주항공청·한국항공우주산업(KAI)·한국항공우주연구원이 공동 개발했으며 운영은 국토부가 맡는다. 이르면 1∼2주 이내에 첫 영상 촬영이 가능할 전망이다.
+    하루에 지구를 15바퀴 공전하는 국토위성 2기를 운영하면 동일 지점에 대한 촬영 주기가 종전 4∼5일에서 2∼3일로 줄어 토지, 도시, 녹지, 농·산림, 해양 등 국토 변화 모니터링 속도가 빨라진다.
+    이에 따라 국가 정책 수립과 공공서비스의 여러 영역에서 위성 영상 활용도가 전보다 높아지며, 특히 지상조사와 항공촬영이 제한되는 접경지역의 1대 5천 축척 국가기본도 갱신 주기가 2년에서 1년으로 짧아져 국내 공간정보 구축 측면에서 큰 변화가 예상된다고 국토부는 설명했다.
+    두 위성이 촬영한 영상을 합성하면 고정밀 입체 영상 제작이 가능해 국내뿐 아니라 해외 지역까지 3차원 공간정보를 구축할 수 있다. 아울러 산불이나 수해 등 재난 상황 파악에 활용되는 긴급 영상 촬영 주기도 기존 2일에서 1일로 단축돼 재난 대응 능력도 크게 향상될 것으로 국토부는 기대했다.
+    국토위성 영상을 활용해 제작하는 국토위성지도 갱신 주기도 평균 10개월에서 절반인 5개월 수준으로 단축된다. 이에 따라 주말 캠핑지 지형·환경 미리보기, 태풍 후 부모 산소 피해상황 확인, 입주 예정 아파트 공사 진행상황 모니터링 등 일반 국민의 일상에서 위성 영상 활용도가 높아진다.
+
+    국토부는 국토위성 영상과 이를 활용한 산출물 종류, 영상 접근·활용 방법 등을 수록한 '국토위성 활용 가이드북'을 제작해 국토지리정보원 홈페이지와 국토정보플랫폼을 통해 공개한다.
+    국토부는 관측폭 등 성능이 향상된 국토위성 3·4호, 기상이나 주야간에 구애받지 않고 지상을 정밀 관측해 시설물 관리와 재난 예방에 활용할 수 있는 영상레이더(SAR) 위성 도입도 추진 중이다.
+    성호철 국토부 국토정보정책관은 "위성 영상은 인공지능(AI) 시대에 적합한 디지털 자산으로, 공간정보 산업과 이를 기반으로 한 전후방 융복합 산업에서 잠재 활용 가치가 매우 크다"며 "국토위성이 정부 정책과 민간 산업에 폭넓게 활용될 수 있도록 지속적으로 발전시켜 나갈 것"이라고 말했다.
+    pulse@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국토위성 1·2호 활용 동시촬영]]></Title>
+         <Caption><![CDATA[[국토교통부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260520030600003_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/20/AKR20260520030600003_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[[국토교통부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260520030600003_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/20/AKR20260520030600003_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

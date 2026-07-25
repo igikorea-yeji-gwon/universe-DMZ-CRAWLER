@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260429141200065</ContentID>
+      <SendDate>20260430</SendDate>
+      <SendTime>071701</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260429141200065]]></Href>
+      <Writer><![CDATA[김상연]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[만성 정체 풀리나…강화 민통선 비대면 검문에 주민들 기대감]]></Title>
+      <SubTitle><![CDATA[교동대교 혼잡 개선될 듯…"주민 불편 해소되고 관광 만족도 높아질 것"]]></SubTitle>
+      <Body><![CDATA[만성 정체 풀리나…강화 민통선 비대면 검문에 주민들 기대감
+교동대교 혼잡 개선될 듯…"주민 불편 해소되고 관광 만족도 높아질 것"
+
+
+
+    (인천=연합뉴스) 김상연 기자 = 인천시 강화군이 민간인출입통제선(민통선)의 검문 체계를 비대면 방식으로 전환하는 정책을 추진하면서 주민과 관광객의 불편이 크게 줄어들 것으로 예상된다.
+    30일 강화군에 따르면 해병대 제2사단과 강화군은 지난달 31일 민통선 출입 통제 체계를 개선하기 위한 업무협약을 맺은 뒤 세부 추진 계획을 논의 중이다. 
+    강화군은 당초 비대면 검문 체계를 도입하기 위해 검문소 4곳에 폐쇄회로(CC)TV 30∼40대를 설치할 예정이었으나, 군 당국의 보안 강화 요청에 따라 CCTV를 60대로 늘리기로 했다.
+    여기에 철책선 부근 민간인 접근을 통제하는 경고 방송 장비를 추가로 설치할 계획이다. 일몰 이후에는 지금처럼 대면 검문 방식을 유지한다.
+    현재 강화도에는 강화읍 월곳리(연미정), 양사면 철산리(강화평화전망대), 교산리(양사면사무소 앞), 인화리(교동대교) 등 4곳에서 검문소가 운영되고 있다.
+    그동안 민통선 이북 지역으로 이동하려면 검문소에 직접 신분증을 제시하고 출입 기록을 수기로 작성하거나 QR코드로 임시출입증을 발급받아야 했다.
+    이에 따라 주민들은 출퇴근과 생업 등 일상 전반에 제약을 받았고, 외지 방문객도 접근성이 제한돼 관광·지역경제 활성화에 걸림돌이 됐다.
+
+
+
+    특히 섬 전체가 민통선 이북 지역으로 묶여 수시로 검문소를 드나들던 교동도 주민들은 비대면 검문 계획을 반기고 있다.
+    편도 1차로인 교동대교를 지나려면 검문소를 통과해야 하는 탓에 주말과 관광 성수기마다 차량이 몰리면서 긴 대기 행렬이 형성돼 주민과 방문객 모두 큰 불편을 겪었다.
+    인용호 교동면 고구1리 이장은 "교동대교 검문소는 방문객과 주민 진입로가 분리돼 있지만, 차량이 붐빌 때면 마구잡이로 뒤엉킨다"며 "화개정원 등 주요 관광지 방문객이 늘면서 평일에도 정체가 빚어진다"고 설명했다.
+    그러면서 "접경지 주민들 입장에서는 내 집 드나드는 것도 힘이 드니 서러운 점이 많았다"며 "비대면 검문이 시작되면 일상의 큰 불편 중 하나가 사라지는 것이어서 주민들도 모두 환영하는 분위기"라고 덧붙였다.
+    강화도 주민 조모(62) 씨는 "방문객이 신분증을 놓고 오는 등 변수가 발생하면 검문이 길어질 수밖에 없다 보니 불편한 점이 많았다"며 "비대면 검문을 계기로 출입이 간편해지면 전체적인 관광 만족도도 높아질 것"이라고 내다봤다.
+    강화군은 올해 하반기에 검문소 일대 CCTV와 방송 장비 설치를 완료한 뒤 순차적으로 비대면 검문을 도입할 방침이다.
+    강화군 관계자는 "비대면 검문에 따른 보안 공백이 생기지 않도록 군 당국과 세부 계획을 조율하고 있다"며 "다음 달 중으로 공사 용역을 발주할 예정"이라고 말했다.
+    goodluck@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[교동대교 검문소 인근 차량 행렬]]></Title>
+         <Caption><![CDATA[[강화군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260429141200065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/29/AKR20260429141200065_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강화도 민통선 검문소]]></Title>
+         <Caption><![CDATA[[강화군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260429141200065_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/29/AKR20260429141200065_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

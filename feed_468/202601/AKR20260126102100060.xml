@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260126102100060</ContentID>
+      <SendDate>20260126</SendDate>
+      <SendTime>143658</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0402004" name="축산업"/>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0507007" name="질병"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260126102100060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, 안성·포천서 ASF 잇단 발병에 방역수칙 준수 당부]]></Title>
+      <Body><![CDATA[경기도, 안성·포천서 ASF 잇단 발병에 방역수칙 준수 당부 
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도는 지난 23일 안성과 24일 포천 양돈농가에서 아프리카돼지열병(ASF)이 잇따라 발생하자 도내 전 양돈농가에 방역 수칙 준수를 요청했다고 26일 밝혔다.
+
+    경기도는 ASF 추가 확산을 막기 위해 23일 이후 방역자원을 총동원해 살처분을 실시하고, 방역대 내 정밀검사와 역학 관련 농장·차량·시설에 대한 추적검사 등 긴급 방역 조치를 추진하고 있다.
+    도는 접경지역이나 야생 멧돼지 ASF 검출 지역을 중심으로 발생하던 기존 양상과 달리, 바이러스 검출 이력이 없던 안성지역에서 ASF가 발생했다는 점에 주목하고 있다. 
+    ASF는 백신과 치료제가 없는 치명적인 가축전염병이다.
+    이에 도는 양돈농가 관계자들에게 외국인 근로자 및 종사자 관리 강화, 차량 출입 통제 및 소독 강화, 철저한 농장 출입 관리, 야생동물 차단 및 쥐 방제 철저, 의심 증상 즉시 신고 등 철저한 방역 수칙 이행을 당부했다.
+    이강영 경기도 축산동물복지국장은 "최근 한파로 야외 환경에서 바이러스 생존력과 전파 가능성이 커지고 소독 여건은 악화해 방역 환경이 매우 어려운 상황"이라며 "여기에 설 명절을 앞두고 사람과 차량 이동이 증가하면서 ASF 확산 위험이 더 커졌다"고 말했다.
+    한편, 도는 ASF 확산 방지를 위해 예찰·소독·현장 점검을 강화하고 방역 수칙 위반 사항에 대해서는 관련 법령에 따라 엄정하게 대응할 방침이다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[포천 ASF 발생 농장 출입통제]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260126102100060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/26/AKR20260126102100060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

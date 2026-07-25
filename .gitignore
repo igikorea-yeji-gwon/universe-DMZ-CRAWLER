@@ -34,7 +34,6 @@ Thumbs.db
 .idea/
 *.swp
 
-**.xml
 
 # 아카이브 수집 저장 현황 리포트 (수집 완료 시 자동 생성)
 archive-report-*.txt

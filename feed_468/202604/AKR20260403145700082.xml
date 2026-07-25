@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260403145700082</ContentID>
+      <SendDate>20260403</SendDate>
+      <SendTime>175713</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103007" name="독일"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260403145700082]]></Href>
+      <Writer><![CDATA[김계연]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["변방 때려서 뭐하나…푸틴 다음 타깃은 독일"]]></Title>
+      <SubTitle><![CDATA[에스토니아 안보전문가 "후방 무력화 우선"]]></SubTitle>
+      <Body><![CDATA["변방 때려서 뭐하나…푸틴 다음 타깃은 독일"
+에스토니아 안보전문가 "후방 무력화 우선"
+
+
+
+    (베를린=연합뉴스) 김계연 특파원 = 러시아의 우크라이나 다음 공격 목표는 발트 3국과 핀란드 등 북대서양조약기구(NATO·나토) 동부전선 국가가 아니라 독일이라고 유럽 안보전문가가 주장했다.
+    3일(현지시간) 독일 매체들에 따르면 에르키 코르트 에스토니아 국가안보연구소장은 폴란드 주간 프프로스트 인터뷰에서 "러시아가 나토 변방을 공격해서 뭘 얻겠는가"라며 "푸틴에게 중요한 건 나토 후방을 무력화하는 것이다. 그곳이 독일"이라고 말했다.
+    코르트 소장은 "독일은 러시아와 국경을 맞댄 나토 전방 국가들의 후퇴 거점이다. 이곳을 먼저 공격하지 않고서는 에스토니아나 수바우키 회랑 공격이 성공할 가능성이 전혀 없다"고 분석했다.
+    유럽 안보전문가들은 그동안 블라디미르 푸틴 러시아 대통령이 우크라이나 전쟁 종전 이후 또다른 유럽 국가를 침공한다는 전제 아래 에스토니아·라트비아·리투아니아·핀란드 등 러시아와 지리적으로 가까운 발트해 연안 국가들을 주로 언급했다.
+    특히 폴란드와 리투아니아 사이 약 65㎞ 육로 수바우키 회랑을 나토의 아킬레스건으로 꼽는다. 러시아가 이곳을 장악하면 역외영토 칼리닌그라드와 동맹국 벨라루스가 육로로 연결되고 발트 3국은 폴란드 등 나토 동맹국들과 분리된다는 이유에서다. 폴란드는 지난해 러시아와 벨라루스의 '자파드(서쪽)' 합동군사훈련을 수바우키 회랑 점령 준비라고 비난했다.
+
+    그러나 코르트 소장은 "크렘린은 독일을 러시아의 주적으로 간주하고 있다. 따라서 러시아의 과대망상으로는 (에스토니아 접경지역) 나르바나 수바우키보다 독일 공격이 오히려 정당화될 수 있다"고 다른 견해를 내놨다.
+    제2차 세계대전 당시 나치 독일을 무찌른 러시아는 우크라이나를 쳐들어가면서 우크라이나 네오나치 척결을 전쟁 명분 중 하나로 삼았다. 드미트리 메드베데프 국가안보회의 부의장 등 러시아 인사들은 우크라이나를 지원하는 독일의 나치 과거사를 끊임없이 언급하며 심리전을 벌이고 있다.
+    코르트 소장은 독일 사회 전반이 자국 방어능력에 비관적이라며 "유럽에서 가장 중요한 나라를 마비시키기는 비교적 쉬울 것이다. 러시아는 엄청난 선전 의미를 갖게 될 것"이라고 말했다. 우크라이나 전쟁 발발 이후 독일 재무장에 대해서도 "전선에서 돈이 싸우는 게 아니다"라며 러시아의 위협에 맞설 의지가 여전히 부족하다고 지적했다.
+    그는 ▲ 옛 동독 지역을 중심으로 독일에 거주하는 약 350만명의 러시아어 사용자 ▲ 러시아가 독일에 쌓아놓은 정보 네트워크 ▲ 독일대안당(AfD) 등 러시아 친화적인 극우 세력도 러시아가 독일을 침공하기 좋은 환경으로 꼽았다.
+    dada@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[푸틴 초상 새겨진 휘장]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20250226137801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2025/02/26/PEP20250226137801009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[블라디미르 푸틴 러시아 대통령]]></Title>
+         <Caption><![CDATA[[타스 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20250622032901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2025/06/22/PTA20250622032901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

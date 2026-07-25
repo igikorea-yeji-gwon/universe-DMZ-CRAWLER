@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260219001900085</ContentID>
+      <SendDate>20260219</SendDate>
+      <SendTime>022912</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103001" name="유럽"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260219001900085]]></Href>
+      <Writer><![CDATA[김지연]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[EU, 러·우크라 인접지역 경제활성화 전략 추진]]></Title>
+      <SubTitle><![CDATA["금융기관 통한 투자 확대 계획…직접 신규 자금지원은 없어"]]></SubTitle>
+      <Body><![CDATA[EU, 러·우크라 인접지역 경제활성화 전략 추진
+"금융기관 통한 투자 확대 계획…직접 신규 자금지원은 없어"
+
+
+    (런던=연합뉴스) 김지연 특파원 = 유럽연합(EU) 집행위원회가 18일(현지시간) 러시아 및 벨라루스, 우크라이나 인접 지역이 전쟁 장기화로 어려움을 겪는 데 대응해 경제 활성화 전략을 추진한다고 발표했다.
+    폴리티코 유럽판과 DPA 통신에 따르면 EU 집행위는 핀란드와 에스토니아, 라트비아, 리투아니아, 폴란드, 슬로바키아, 헝가리, 루마니아, 불가리아 접경 지역은 하이브리드 공격과 물동량 감소, 관광 및 인구 감소에 따른 타격을 받아 왔다고 지적했다.
+    라파엘레 피토 EU 부집행위원장은 "침공 초기 정상적인 일상생활이나 외국 쇼핑·관광객을 위해 조성된 장소들이 이제 안보나 민간·군사 양용, 병참, 드론, 긴급 지원을 위해 사용되고 있다"고 말했다.
+    집행위는 러시아의 우크라이나 침공 이후 이런 지역에 정치적, 기술적, 재정적 지원을 제공했으나 경제 및 안보 상황이 계속 악화해 추가 지원이 필요해졌다고 설명했다.
+    익명을 요구한 한 당국자는 폴리티코에 EU가 동부 지역의 인구가 빠져나가면 동쪽 국경에서 유럽의 방위 능력도 저하될 것으로 우려하며, 경제난이 극단주의 정당 지지와 러시아 선전에 대한 취약성을 높일 가능성도 걱정한다고 전했다.
+    집행위 전략은 글로벌 금융기관이 이 지역 투자 수요를 충족하고 자금 지원을 제공하도록 인센티브를 주는 데 초점을 맞춘다. 유럽투자은행(EIB)과 유럽부흥개발은행(EBRD) 등이 이 지역에 투자하도록 EU 지역 개발 기금을 보증금으로 쓸 수 있도록 허용하는 내용 등이다.
+    그러나 2028년까지인 EU 예산안이 이미 빡빡한 상황이라 이번 전략에 EU가 신규로 투입하는 돈은 없다고 당국자 2명이 폴리티코에 말했다.
+    슬로바키아 프레쇼브 자치주의 밀란 마예르스키 주지사는 "우리에게 필요한 건 EU 자금에 대한 직접 접근과 현실을 반영한 전략"이라며 "슬로바키아 동부에선 러시아 전쟁의 경제적, 사회적, 안보상 충격을 매일 느낀다. 전쟁으로 EU 평균과의 구조적 경제 격차는 더 벌어졌다"고 말했다.
+    cherora@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[에스토니아의 러 접경지 나르바에 걸린 EU·에스토니아·나토 깃발]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260206157401009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/02/06/PAF20260206157401009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

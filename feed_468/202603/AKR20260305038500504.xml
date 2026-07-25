@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260305038500504</ContentID>
+      <SendDate>20260305</SendDate>
+      <SendTime>110003</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0901014" name="로봇AI"/>
+         <ClassCode code="0109009" name="군수무기"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260305038500504]]></Href>
+      <Writer><![CDATA[김철선]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['폭발물 탐지제거 로봇' 軍 실전배치…국내 개발 로봇으론 처음]]></Title>
+      <SubTitle><![CDATA[DMZ 지뢰지대 통로 개척 임무 등 장병 대신 수행]]></SubTitle>
+      <Body><![CDATA['폭발물 탐지제거 로봇' 軍 실전배치…국내 개발 로봇으론 처음
+DMZ 지뢰지대 통로 개척 임무 등 장병 대신 수행
+
+
+    (서울=연합뉴스) 김철선 기자 = 방위사업청은 국내 기술로 개발한 'KR1폭발물탐지제거로봇'을 5일부터 일선 부대에 실전 배치하기 시작했다고 밝혔다.
+    이 로봇은 국내 연구개발을 통해 전력화한 첫 로봇 무기체계로, 군은 지난해 12월 'KR1폭발물탐지제거로봇'이라는 고유명칭을 부여했다.
+    'K'는 우리 군의 무기체계를, 'R'은 로봇 무기체계를, '1'은 국내 연구개발을 통해 최초로 전력화하는 로봇 무기체계의 순번을 의미한다.
+    그간 우리 군 폭발물처리반 요원들은 365일 24시간 출동 대기하면서 폭발물 의심 신고가 접수되면 30분 이내에 약 30㎏의 특수 장비를 착용하고 출동해 직접 휴대용 탐지기로 폭발물을 탐지·제거하는 위험한 작전을 수행했다.
+    KR1폭발물탐지제거로봇 전력화에 따라 로봇이 폭발물 탐지와 제거를 대신 수행해 장병 안전 환경이 크게 향상될 것으로 기대된다.
+    이 로봇은 해외 장비와 비교해 더 넓은 범위에서 원격으로 운용할 수 있고, 좁은 실내에서 이동하거나 계단 오르내리기까지 가능하다고 방사청은 설명했다.
+    군은 향후 비무장지대(DMZ) 지뢰지대 통로 개척 임무를 비롯해 대테러작전 폭발물 탐지·제거 작전, 위험지역 정찰, 후방지역 기동로 정찰, 지하 시설물 탐색 등 임무에 이 로봇을 투입할 계획이다.
+    정기영 방사청 미래전력사업본부장은 "앞으로도 첨단 로봇 무기체계 도입을 통해 우리 군 장병의 복무환경이 더욱 안전해질 수 있도록 개선할 것"이라고 말했다.
+    kcs@yna.co.kr
+[https://youtu.be/xGN2n3kM0_A]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[KR1폭발물탐지제거로봇]]></Title>
+         <Caption><![CDATA[[방위사업청 제공. DB 및 재판매 금지]]]></Caption>
+         <FileName>AKR20260305038500504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/05/AKR20260305038500504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

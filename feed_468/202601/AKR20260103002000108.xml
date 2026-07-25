@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260103002000108</ContentID>
+      <SendDate>20260103</SendDate>
+      <SendTime>021742</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107007" name="예멘"/>
+         <RegionCode code="7107004" name="사우디"/>
+         <RegionCode code="7107006" name="아랍에미"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260103002000108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[사우디 연합군, 예멘 분리주의 세력에 공세…7명 사망]]></Title>
+      <Body><![CDATA[사우디 연합군, 예멘 분리주의 세력에 공세…7명 사망
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 사우디아라비아 주도 연합군이 아랍에미리트(UAE)의 지원을 받는 예멘 분리주의 무장세력 남부과도위원회(STC)를 접경지에서 몰아내기 위한 공세에 나섰다고 AFP, 로이터 통신이 2일(현지시간) 보도했다.
+    STC에 따르면 이날 예멘 하드라마우트주(州) 알카샤 기지가 총 7차례에 걸쳐 공습받아 7명이 숨지고 20명 넘게 다쳤다.
+    하드라마우트 당국은 예멘 정부군이 알카샤에 위치한 군기지를 STC로부터 탈환했다고 밝혔다.
+    사우디군에 가까운 한 관계자는 "STC가 하드라마우트와 마라에서 철수할 때까지 공습이 멈추지 않을 것"이라고 경고했다.
+    사우디에 인접한 이들 두 지역은 한동안 사우디가 지지하는 예멘 정부군이 통치해왔지만, 옛 남예멘 부활을 목표로 하는 STC가 지난달 이 일대의 상당 부분을 별다른 저항 없이 장악했다.
+    사우디는 STC에 점령지 철수를 요구했으나 받아들여지지 않자 지난달 26일 STC 거점을 직접 공습했고, 나흘 뒤인 30일에도 예멘 무칼라 항구에 하역된 UAE 물자를 타격하며 긴장이 고조됐다.
+    UAE는 두 차례에 걸친 사우디의 공습 직후 예멘에서 군을 철수하겠다고 발표했다. 이날 UAE 정부 관계자는 "테러 대응 병력의 주둔이 종료됐다"고 밝혔다.
+    '뒷배' UAE가 한발 물러섰지만 STC는 여전히 강경한 태세다.
+    이날 아이다로 알주비디 STC 위원장은 TV 연설을 통해 "2년에 걸친 과도기 단계의 시작을 선언한다"며 대화와 국민투표를 거쳐 남부 독립에 나서겠다고 밝혔다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[사우디 측, 예멘 분리주의 세력 STC가 장악한 기지 공습]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260102119201009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/01/02/PAF20260102119201009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260608010600017</ContentID>
+      <SendDate>20260608</SendDate>
+      <SendTime>081520</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Category code="08"/>
+      <Class>
+         <ClassCode code="0901009" name="게임"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260608010600017]]></Href>
+      <Writer><![CDATA[김주환]]></Writer>
+      <Desk code="017"><![CDATA[테크부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[북한 도시 배경 '콜 오브 듀티' DMZ 모드 공개]]></Title>
+      <SubTitle><![CDATA[MS 쇼케이스서 페르소나6·기어즈 오브 워 신작도 발표]]></SubTitle>
+      <Body><![CDATA[북한 도시 배경 '콜 오브 듀티' DMZ 모드 공개
+MS 쇼케이스서 페르소나6·기어즈 오브 워 신작도 발표
+
+
+    (서울=연합뉴스) 김주환 기자 = 한국을 주무대로 전쟁을 다뤄 논란이 된 '콜 오브 듀티' 시리즈 차기작 '모던 워페어 4'가 가상의 북한 도시와 비무장지대(DMZ)를 소재로 한 신규 게임플레이를 공개했다.
+    액티비전은 8일(한국 시간) 미국에서 열린 마이크로소프트(MS) 신작 발표회 '엑스박스 게임 쇼케이스'에서 인피니티 워드가 개발한 '콜 오브 듀티: 모던 워페어 4'의 게임모드 'DMZ' 게임플레이 영상을 공개했다.
+    DMZ 모드의 무대는 러시아와 북한의 접경 지역에 위치한 가상의 도시 '하진'이다.
+    공개된 트레일러에는 가상의 북한 지도자가 등장하는 동상과 폐허가 된 도시의 풍경, 한글로 된 간판, '14호 관리소'라는 이름의 수용소 입구, 파괴된 원자로 등의 모습이 담겼다.
+    플레이어는 도시를 점령한 북한군 병력을 비롯해 다른 이용자들과 경쟁하며 값진 아이템을 들고 탈출해야 한다.
+
+    콜 오브 듀티 시리즈에 'DMZ' 모드가 돌아오는 것은 2022년 작 '모던 워페어 II' 이후 4년 만이다. 당시에는 중동의 가상 도시 '알 마즈라'가 주 무대였다.
+    '콜 오브 듀티: 모던 워페어 4'는 오는 10월 23일 PC·콘솔 플랫폼으로 발매될 예정이다.
+
+    MS는 이날 쇼케이스에서 '콜 오브 듀티' 외에도 하반기 이후 선보일 다수의 신작 트레일러를 공개했다.
+    MS는 그간 PC를 비롯해 플레이스테이션 등 경쟁 플랫폼까지 아우르던 게임 출시 전략을 수정했다.
+    이에 따라 엑스박스 진영의 대표작이었던 '기어즈 오브 워' 시리즈의 차기작 'E 데이'는 오는 10월 6일 엑스박스(Xbox) 콘솔 독점으로 출시된다. 
+    플레이그라운드 게임즈가 개발하고 MS가 배급하는 판타지 배경의 액션 RPG '페이블'은 내년 2월 23일 출시일을 확정했다.
+    일본 게임사 아틀러스는 '페르소나' 시리즈의 차기작 '페르소나 6' 티저 트레일러를 최초 공개하고, 리메이크 작인 '페르소나4 리바이벌'을 내년 2월 18일 선보인다고 밝혔다.
+    jujuk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4의 DMZ 모드]]></Title>
+         <Caption><![CDATA[[마이크로소프트(MS)·액티비전 제공]]]></Caption>
+         <FileName>AKR20260608010600017_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/08/AKR20260608010600017_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['DMZ' 모드 속 등장한 '하진']]></Title>
+         <Caption><![CDATA[[영상 캡처]]]></Caption>
+         <FileName>AKR20260608010600017_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/08/AKR20260608010600017_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜 오브 듀티: 모던 워페어 4의 DMZ 모드]]></Title>
+         <Caption><![CDATA[[마이크로소프트(MS)·액티비전 제공]]]></Caption>
+         <FileName>AKR20260608010600017_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/08/AKR20260608010600017_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

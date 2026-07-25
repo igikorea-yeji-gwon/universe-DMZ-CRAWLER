@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260602093800065</ContentID>
+      <SendDate>20260602</SendDate>
+      <SendTime>141620</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005009" name="김포"/>
+      </Region>
+      <Class>
+         <ClassCode code="0508001" name="NGO"/>
+         <ClassCode code="0501001" name="사회일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260602093800065]]></Href>
+      <Writer><![CDATA[천정인]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[김포시민단체 "탱크데이 스타벅스, 北접경지 애기봉서 퇴거해야"]]></Title>
+      <Body><![CDATA[김포시민단체 "탱크데이 스타벅스, 北접경지 애기봉서 퇴거해야"
+    
+
+
+    (인천=연합뉴스) 천정인 기자 = 스타벅스 코리아의 '탱크데이' 마케팅 논란과 관련해 김포 지역 시민단체들은 북한 접경지인 애기봉에 위치한 스타벅스 매장의 퇴거를 촉구했다. 
+    기독교평화행동목자단 등 8개 김포 시민단체는 2일 경기 김포시청 앞에서 기자회견을 열고 "반평화적 논란으로 물의를 빚은 브랜드가 다른 곳도 아닌 남북 분단의 최전선이자 평화의 상징인 애기봉에 입점해 있다는 사실은 국민 모두에게 커다란 모욕"이라고 비판했다.
+    이어 "지분 구조가 어떠하든 스타벅스가 가진 외국 자본의 상징성과 상업 문화가 평화의 성지를 잠식하는 것을 결코 좌시할 수 없다"며 "애기봉은 자본의 유혹이 아닌 평화와 통일이라는 본래 가치를 최우선으로 운영해야 한다"고 덧붙였다.
+    그러면서 "김포시는 애기봉 평화전망대에서 스타벅스 입점 계약을 즉시 해지하고, 스타벅스는 애기봉에서 즉각 퇴거하라"며 "관계 당국과 김포시는 독점 특혜 상업화를 멈추고 애기봉 본연의 평화·통일 정체성을 최우선으로 하는 운영 대책을 수립해야 한다"고 요구했다. 
+    2024년 11월 김포 애기봉생태공원에 들어선 스타벅스 매장은 커피를 마시며 북한 땅을 볼 수 있는 곳으로 유명하다. 
+
+    iny@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[스타벅스 김포애기봉생태공원점]]></Title>
+         <Caption><![CDATA[[스타벅스코리아 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260602093800065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/02/AKR20260602093800065_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA["김포 애기봉 스타벅스 철거하라"]]></Title>
+         <Caption><![CDATA[[애기봉 스타벅스 철거 촉구 시민사회단체 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260602093800065_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/02/AKR20260602093800065_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260424079300001</ContentID>
+      <SendDate>20260424</SendDate>
+      <SendTime>115517</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0104029" name="국민의힘"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260424079300001]]></Href>
+      <Writer><![CDATA[노선웅]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국힘, 정동영 해임건의안 당론 제출…"27일 본회의 열어야"]]></Title>
+      <SubTitle><![CDATA["관계부처 조율 없이 북핵시설 정보 무단공개…책임 물어야"]]></SubTitle>
+      <Body><![CDATA[국힘, 정동영 해임건의안 당론 제출…"27일 본회의 열어야"
+"관계부처 조율 없이 북핵시설 정보 무단공개…책임 물어야"
+
+
+    (서울=연합뉴스) 노선웅 기자 = 국민의힘은 북한 구성시(市) 우라늄 농축시설 공개 언급으로 '정보 누설' 논란이 제기된 정동영 통일부 장관에 대한 해임건의안을 27일 당론으로 제출했다.
+    곽규택·박충권 원내수석대변인은 이날 오전 국회 의안과에 당 의원 전원 명의로 '국무위원 정동영 통일부장관 해임건의안'을 대표로 냈다.
+    국민의힘은 정 장관이 국회 외교통일위원회에서 관계부처 조율 없이 북한 구성 우라늄 고농축 시설 정보를 무단 공개한 점, 원칙 없는 9·19 군사합의 복원을 주장하며 위헌적 두 국가론을 반복적으로 주장한 점 등을 해임건의 사유로 들었다.
+    또 정 장관이 정부 내 조율 없이 DMZ 내 유엔군사령부 관할권을 제한하는 법안을 추진하는 등 월권행위를 했으며 '북한 고농축 우라늄 2천㎏ 축적 추정' 등 미검증 정보를 공개·유포했다는 점도 사유에 넣었다. 
+    곽 수석대변인은 "해임건의안, 탄핵으로 정 장관의 책임을 물어야 하는 상황"이라며 "다수당인 민주당에 막혀 통과되지 않는다고 하더라도 국무위원으로서의 본분 망각한 행위에 대해선 해임건의를 통해 정치적인 판단을 받아야 한다"고 말했다.
+    박 수석대변인은 "이번 회기 중 28일 본회의가 예정돼 있는데 이날 표결을 하기 위해 27일 본회의를 열어 보고할 수 있도록 국회의장에게 본회의를 열어줄 것을 요청할 예정"이라고 했다.
+    bueno@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국민의힘, 의안과에 정동영 장관 해임건의안 제출]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 이동해 기자 = 국민의힘 곽규택 의원과 박충권 원내수석대변인이 24일 국회 의안과에 정동영 통일부 장관에 대한 해임건의안을 제출하고 있다. 2026.4.24 [공동취재] eastsea@yna.co.kr]]></Caption>
+         <FileName>PYH2026042406610001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/24/PYH2026042406610001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

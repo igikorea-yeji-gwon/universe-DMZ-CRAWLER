@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260101024300504</ContentID>
+      <SendDate>20260101</SendDate>
+      <SendTime>104319</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260101024300504]]></Href>
+      <Writer><![CDATA[이은정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[통일차관, 파주 민통선 이북 지역 주민들과 신년 제례]]></Title>
+      <SubTitle><![CDATA["2월 접경 지역 주민 참여하는 민관협의체 구성"]]></SubTitle>
+      <Body><![CDATA[통일차관, 파주 민통선 이북 지역 주민들과 신년 제례
+"2월 접경 지역 주민 참여하는 민관협의체 구성"
+
+
+    (서울=연합뉴스) 이은정 기자 = 김남중 통일부 차관은 새해 첫날인 1일 경기도 파주 민간인 통제선 이북 지역인 대성동 마을, 통일촌, 해마루촌 주민들과 해맞이 신년 제례를 지냈다.
+    김 차관은 인사말에서 "2026년을 '한반도 평화공존의 원년'으로 만들겠다는 포부와 함께 어렵게 되찾은 접경 지역의 평화로운 일상을 다시 잃어버리지 않도록 열심히 노력하겠다"고 말했다.
+    김 차관은 파주 장단면 부녀회 식당에서 마을 주민들이 준비한 떡국을 함께했다.
+    김 차관은 주민들의 애로사항을 청취한 뒤 "2월에 접경지역 주민들이 참여하는 민관협의체를 구성해서 긴밀히 협의해나가겠다"고 답했다.
+
+    이번 행사는 확성기와 소음 방송 등으로 고통받은 접경지역 주민들과 새해 한반도 평화를 기원하겠다는 취지에서 마련됐다.
+    통일부는 "평화와 민생을 동시에 챙기겠다는 이재명 정부의 의지를 보여준 것"이라며 "앞으로도 접경지역 주민들과 긴밀히 소통하며 분단 고통을 치유하기 위한 방안을 모색해나가겠다"고 밝혔다.
+    ask@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주 민간인 통제선 이북 지역 주민들과 만난 김남중 통일부 차관]]></Title>
+         <Caption><![CDATA[[통일부 제공]]]></Caption>
+         <FileName>AKR20260101024300504_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/01/AKR20260101024300504_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주 민간인 통제선 이북 지역 주민들과 떡국을 먹는 김남중 통일부 차관]]></Title>
+         <Caption><![CDATA[[통일부 제공]]]></Caption>
+         <FileName>AKR20260101024300504_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/01/AKR20260101024300504_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

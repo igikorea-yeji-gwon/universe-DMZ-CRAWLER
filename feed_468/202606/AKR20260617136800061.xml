@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260617136800061</ContentID>
+      <SendDate>20260617</SendDate>
+      <SendTime>162123</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0106006" name="개혁규제"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260617136800061]]></Href>
+      <Writer><![CDATA[최종호]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[추미애 "군사시설 규제 개선은 경기북부 도약의 출발점"]]></Title>
+      <Body><![CDATA[추미애 "군사시설 규제 개선은 경기북부 도약의 출발점"
+
+    (수원=연합뉴스) 최종호 기자 = 국방부가 국정과제인 '민군상생을 위한 국방 분야 규제 완화'의 일환으로 민간인출입통제선(민통선) 북상과 군사분계선(MDL) 이남 제한보호구역 최소화를 추진하기로 한 데 대해 추미애 경기도지사 당선인은 환영한다는 입장을 밝혔다.
+
+
+    추 당선인은 17일 입장문을 통해 "민통선과 제한보호구역은 경기북부 도민의 일상과 지역 발전에 적지 않은 제약으로 작용해 왔다"며 "이번 조치는 그 오랜 한계를 넘어 경기북부가 새로운 도약의 길로 나아가는 중요한 출발점이 될 것"이라고 했다.
+    그러면서 향후 접경지역에 대한 발전 구상을 내놨다.
+    그는 "경기도는 이번 규제 개선을 계기로 접경지역 시군과 함께 '평화지대 광역행정협의회'를 구축해 지역 간 연계 발전 전략을 마련하고 산업·교통·관광·정주여건 개선 사업을 체계적으로 추진해 나가겠다"고 강조했다.
+    국방부는 이날 민통선을 평균 2㎞ 올리고 여의도 150배 규모의 제한보호구역 해제를 추진하는 내용을 골자로 한 군사시설 규제개선 대책을 발표했다.
+    zorba@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[추미애 경기도지사 당선인]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>AKR20260617136800061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/17/AKR20260617136800061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260617152200062</ContentID>
+      <SendDate>20260617</SendDate>
+      <SendTime>173034</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004014" name="춘천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107003" name="지방정가"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0104020" name="민주당"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260617152200062]]></Href>
+      <Writer><![CDATA[박영서]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[민주당 강원도당, 민통선 북상에 "지역 발전 전기 마련" 환영]]></Title>
+      <Body><![CDATA[민주당 강원도당, 민통선 북상에 "지역 발전 전기 마련" 환영
+
+
+    (춘천=연합뉴스) 박영서 기자 = 더불어민주당 강원도당은 17일 국방부의 민간인통제선 북상과 군사시설 보호구역 해제 추진 계획 발표에 대해 "접경지역 주민들의 숙원을 일부 해소하고, 지역 발전의 새로운 전기를 마련할 수 있는 의미 있는 결정"이라고 환영했다.
+    민주당 도당은 "접경지역 주민들은 각종 군사 규제로 인해 재산권 침해는 물론 지역 개발에 많은 제약을 받아왔으며, 이는 결국 지역경제 침체와 인구감소 등 직접적인 피해로 이어져왔다"며 "이번 결정으로 주민 생활 불편이 완화되고, 관광·농업·기업투자 등 지역경제 활성화 기반이 확대될 것으로 기대된다"고 밝혔다.
+    그러면서 "접경지역 주민들이 안보를 이유로 오랜 세월 감내해 온 특별한 희생에 대한 합당한 보상이 이뤄지도록 중앙당과 정부, 관계 기관 등과 긴밀히 협력해 접경지역에 규제의 상징이 아닌 기회의 공간으로 거듭나도록 최선의 노력을 다하겠다"고 약속했다.
+    국방부는 이날 '민군상생을 위한 국방분야 규제 완화'의 일환으로 민간인통제선(민통선)을 평균 2㎞ 올리고, 여의도 150배 규모의 제한보호구역 해제를 추진한다고 발표했다.
+    conanys@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국방부, 민통선 평균 2㎞ 북상 추진]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 임병식 기자 = 국방부는 17일 접경지 민간인통제선(민통선)을 조정해 북쪽으로 평균 2㎞ 올리기로 했다. '민군상생을 위한 국방 분야 규제 완화'의 일환으로 추진되는 이번 정책은 접경지의 지형 여건과 작전계획 등을 검토해 내년부터 민통선을 군사분계선(MDL)으로부터 평균 6㎞ 정도로 조정하는 것이 골자다. 사진은 이날 경기도 파주시 접경지역의 민통선 일대 모습. 2026.6.17 andphotodo@yna.co.kr]]></Caption>
+         <FileName>PYH2026061711330006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/17/PYH2026061711330006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260326096800004</ContentID>
+      <SendDate>20260326</SendDate>
+      <SendTime>120001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0510002" name="검찰"/>
+         <ClassCode code="0103008" name="특검"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260326096800004]]></Href>
+      <Writer><![CDATA[전재훈]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[종합특검, 국방부 법무관리관 조사…외환의혹 수사 속도]]></Title>
+      <Body><![CDATA[종합특검, 국방부 법무관리관 조사…외환의혹 수사 속도
+
+
+    (서울=연합뉴스) 전재훈 기자 = 3대 특별검사 이후 남은 의혹을 수사하는 권창영 2차 종합특검팀이 홍창식 국방부 법무관리관을 소환했다.
+    26일 법조계에 따르면 특검팀은 이날 오전부터 홍 관리관을 참고인 신분으로 불러 조사하고 있다.
+    특검팀은 유재은 전 관리관 후임으로 임용된 홍 관리관을 상대로 평양 무인기 작전의 위법성과 정전협정 위반 여부 등을 조사하는 것으로 알려졌다.
+    법무관리관은 군 사법 정책 전반을 담당한다. 외국과의 군사협정에 관한 법적 검토 및 지원, 국방부 내 규제 정비 등도 맡는다.
+    앞서 국방부 간부들의 외환 의혹을 수사한 조은석 특검팀은 홍 관리관을 윤석열 전 대통령 등의 외환 혐의 관련 참고인 신분으로 불러 조사한 바 있다.
+    조 특검팀은 평양 무인기 사건 관련 김명수 전 합참의장을 소환조사했지만 별다른 혐의점은 찾지 못했다.
+    윤 전 대통령은 비상계엄 선포 명분을 만들기 위해 북한 도발을 목적으로 평양에 무인기를 투입하도록 지시했다는 혐의로 재판을 받고 있다.
+    kez@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[브리핑하는 2차 종합특검팀 김지미 특검보]]></Title>
+         <Caption><![CDATA[(과천=연합뉴스) 서대연 기자 = 권창영 2차 종합특별검사팀 김지미 특검보가 23일 경기도 과천 특검사무실에서 수사 관련 사항을 브리핑하고 있다. 2026.3.23 dwise@yna.co.kr]]></Caption>
+         <FileName>PYH2026032312150001301_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/03/23/PYH2026032312150001301_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

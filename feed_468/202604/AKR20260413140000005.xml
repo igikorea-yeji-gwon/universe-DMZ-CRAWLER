@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260413140000005</ContentID>
+      <SendDate>20260413</SendDate>
+      <SendTime>170414</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Region>
+         <RegionCode code="7104001" name="북미"/>
+      </Region>
+      <Class>
+         <ClassCode code="0712001" name="영화"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260413140000005]]></Href>
+      <Writer><![CDATA[박원희]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[나홍진 '호프', 북미 개봉 확정…美 배급사 네온과 손잡아]]></Title>
+      <Body><![CDATA[나홍진 '호프', 북미 개봉 확정…美 배급사 네온과 손잡아
+
+
+    (서울=연합뉴스) 박원희 기자 = 나홍진 감독의 영화 '호프'가 북미에서도 개봉한다.
+    배급사 플러스엠엔터테인먼트는 미국 배급사 네온과 파트너십 계약을 맺고 영화 '호프'를 북미에서 선보인다고 13일 밝혔다.
+    네온은 그간 봉준호의 '기생충', 박찬욱의 '어쩔수가없다', 자파르 파나히의 '그저 사고였을 뿐' 등을 북미에서 배급했다.
+    나홍진 감독이 10년 만에 선보이는 신작 '호프'는 비무장지대에 위치한 항구마을에 정체를 알 수 없는 존재가 찾아오며 벌어지는 일을 그린 작품이다. 황정민과 조인성, 정호연과 할리우드 배우 마이클 패스벤더, 알리시아 비칸데르 등이 출연했다.
+    '호프'는 다음 달 열리는 제79회 칸국제영화제 경쟁 부문에 초청돼 세계 최초로 공개된다. 올해 여름 국내에서 개봉할 예정이다.
+    encounter24@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[영화 '호프' 포스터]]></Title>
+         <Caption><![CDATA[[플러스엠 엔터테인먼트·포지드필름스 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260413140000005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/13/AKR20260413140000005_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

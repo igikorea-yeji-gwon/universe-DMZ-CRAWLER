@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260529106600060</ContentID>
+      <SendDate>20260529</SendDate>
+      <SendTime>143925</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105001" name="선거일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260529106600060]]></Href>
+      <Writer><![CDATA[최재훈]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[사전투표] 대북 접경지 민통선 안에서도 소중한 한표 행사]]></Title>
+      <Body><![CDATA[[사전투표] 대북 접경지 민통선 안에서도 소중한 한표 행사
+
+    (파주=연합뉴스) 최재훈 기자 = 제9회 전국동시지방선거 사전투표 첫날인 29일 오전 경기 파주시 대북 접경지인 민간인 통제선 안에서도 소중한 한표를 행사하는 행렬이 이어졌다.
+
+    육군 제1사단 수색대대 장병 100여명은 이날 오전 9시부터 파주시 장단면 통일촌 백연리 마을회관 2층에 마련된 사전 투표소를 찾았다.
+    민간인통제구역에 있는 인근 부대를 출발해 걸어서 사전 투표소에 도착한 장병들은 줄을 지어 소중한 한 표를 행사했다.
+    이들 장병 대부분은 관외 선거인으로 간단한 본인 확인을 마치고 투표용지를 배부받았다.
+    통일촌 투표소에는 기표소 5개(관외 3·관내 2)가 설치됐고, 투표함은 관외자 용과 관내자 용으로 구분됐다.
+    민간인통제구역에 마련된 이 투표소는 장병들이 대부분이었지만 통일촌 주민들도 눈에 띄었다.
+    한 주민은 "농번기를 맞아 바쁘지만, 소중한 한 표를 행사하기 위해 일찍 투표하게 됐다"면서 "이번 선거는 4년간 우리 고장을 이끌 지도자를 결정하는 선거로 훌륭한 지도자가 선출되길 바란다"고 말했다.
+
+    선관위 관계자는 "사전투표일에는 장병이 많고, 통일촌 주민들은 대부분 선거 당일에 투표할 것으로 예상한다"고 밝혔다.
+    사전투표는 30일에도 계속된다.
+    통일촌은 1973년 민통선 북방지역 개발로 정착된 마을이다. 행정구역상 파주시 장단면 백연리로 통일대교 북단에 있다.
+    jhch793@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[최전방에서 소중한 한 표]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 임병식 기자 = 제9회 전국동시지방선거 사전투표 첫날인 29일 오전 경기도 파주시 민간인통제선 마을 통일촌에 설치된 투표소에서 육군 1사단 장병들이 투표하고 있다. 2026.5.29 andphotodo@yna.co.kr]]></Caption>
+         <FileName>PYH2026052908200006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/29/PYH2026052908200006000_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[민주주의의 최전방]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 임병식 기자 = 제9회 전국동시지방선거 사전투표 첫날인 29일 오전 경기도 파주시 민간인통제선 마을 통일촌에 설치된 투표소에서 육군 1사단 장병들이 투표를 위해 줄지어 대기하고 있다. 2026.5.29 andphotodo@yna.co.kr]]></Caption>
+         <FileName>PYH2026052908980006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/29/PYH2026052908980006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

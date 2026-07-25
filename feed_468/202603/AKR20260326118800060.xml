@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260326118800060</ContentID>
+      <SendDate>20260326</SendDate>
+      <SendTime>140946</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260326118800060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주시, 경기 로컬관광 콘텐츠 발굴 공모사업 선정]]></Title>
+      <Body><![CDATA[파주시, 경기 로컬관광 콘텐츠 발굴 공모사업 선정
+
+    (파주=연합뉴스) 노승혁 기자 = 파주시는 경기도와 경기관광공사가 주관한 '2026년 경기도 로컬관광 콘텐츠 발굴 및 지원사업' 공모에 최종 선정돼 도비 1억5천만원을 확보했다고 26일 밝혔다.
+
+    이번 공모사업은 지역 고유의 관광 자원과 이야기를 활용한 지역관광 콘텐츠를 발굴하고, 지자체와 민간이 공동 참여하는 실행 기반을 마련하기 위해 추진됐다. 
+    총 26개 콘텐츠가 제출돼 경쟁을 벌인 결과 파주시 제안 사업을 포함해 6개 콘텐츠가 최종 선정됐다.
+    파주시는 '리:디엠지(Re:DMZ), 리제너레이션&릴랙스(Regeneration&Relax)'를 표어로 내걸고, '금지된 땅에서 피어나는 치유와 상생, 파주 생태 웰니스 대전환'을 청사진으로 제시했다.
+    시가 제안한 '디엠지(DMZ)숲' 중심의 지역관광 콘텐츠는 비무장지대(DMZ) 일원의 독보적인 생태·평화 자원을 활용해 건강 관리(웰니스) 관광을 고도화하고, 관광객이 파주 전역으로 확산할 수 있는 '체류형 관광 기반'을 구축하는 데 중점을 두고 있다.
+    사업 추진은 체계적인 민관 협력 방식으로 진행된다. 
+    파주시는 사업 총괄 관리와 콘텐츠 발굴·육성을, 파주도시공사는 회계 및 정산을 담당한다. 
+    민간 주체인 '디엠지(DMZ)숲(대표 임미려)'은 콘텐츠 고도화와 지역 연계 프로그램을 운영해 실질적인 사업 실행력을 높일 예정이다.
+    시는 지속가능한 관광도시 조성과 무장애 관광을 연계해 누구나 편안하게 오래 머물 수 있는 환경을 구축하고 관광객 체류 시간을 증대해 지역 경제 활성화를 높일 계획이다. 
+    또 주민 참여형 관광 콘텐츠를 발굴해 지역 고유성을 살린 관광 경쟁력을 한층 강화해 나갈 방침이다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주 로컬관광 웰니스]]></Title>
+         <Caption><![CDATA[[파주시 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260326118800060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/26/AKR20260326118800060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

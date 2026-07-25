@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260511167500079</ContentID>
+      <SendDate>20260511</SendDate>
+      <SendTime>235940</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260511167500079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['성모상 입에 담배' 종교 모독 이스라엘 병사들 교도소행]]></Title>
+      <Body><![CDATA['성모상 입에 담배' 종교 모독 이스라엘 병사들 교도소행
+
+
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 레바논 남부에서 작전 중 성모 마리아상의 입에 담배를 물리는 듯한 포즈로 사진을 찍은 이스라엘군 병사들이 군 교도소행 처분을 받았다.
+    이스라엘군은 11일(현지시간) 레바논 남부의 마론파 기독교인 마을 데벨에서 벌어진 종교 모독 행위에 대해 철저한 조사를 거쳐 관련자들을 엄중히 처벌했다고 밝혔다.
+    군 당국은 조사 결과를 토대로 성모 마리아상의 입에 담배를 꽂는 행위를 한 병사에게는 징역 21일, 이 장면을 사진으로 남긴 병사에게는 징역 14일 처분을 내렸다.
+    이번 사건 조사는 해당 지역 작전을 담당했던 제162 사단장이 지휘했다. 
+    이스라엘군은 성명을 통해 "이번 사안을 매우 엄중하게 보고 있다"며 "군은 종교와 예배의 자유를 존중하며, 모든 종교 및 공동체의 성지와 종교적 상징물을 보호한다"고 강조했다.
+    또 성명은 "작전 지역에 진입하기 전, 병사들에게 종교 시설 및 상징물에 대한 처신 규정을 정기적으로 명확히 교육하고 있다"고 덧붙였다.
+    이번 조치는 전쟁 중에 발생할 수 있는 종교적 마찰을 최소화하고, 국제사회의 비판과 종교 간 갈등 확산을 차단하기 위한 조처로 보인다.
+    이스라엘은 이란 전쟁 발발 직후부터 이란의 편에서 참전한 레바논 무장 정파 헤즈볼라와 무력 공방을 벌여왔다.
+    이스라엘은 레바논과 접경한 북부 국경지대 주민들의 안전을 확보한다는 명분으로 국경 넘어 레바논 남부에 대규모 지상군을 투입, 헤즈볼라의 은신처 및 공격 배후가 될 수 있는 가옥과 건물 등을 초토화하고 완충지대를 구축해왔다.
+    이 과정에서 일부 이스라엘 병사들이 마론파 기독교도 마을에서 예수상을 부수는 등 기독교 모독 행위를 하면서 논란을 빚었다.
+    종교 모독 행위에 대한 국제적인 공분 속에 에얄 자미르 이스라엘군 참모총장 등이 재발 방지를 위한 노력을 약속했지만, 또다시 성모상 모독 사건이 불거졌다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[성모 마리아상 입에 담배를 물리는 듯한 포즈로 사진을 찍는 이스라엘 병사]]></Title>
+         <Caption><![CDATA[[소셜 미디어 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260511167500079_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/11/AKR20260511167500079_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

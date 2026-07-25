@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260122159500001</ContentID>
+      <SendDate>20260123</SendDate>
+      <SendTime>070002</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260122159500001]]></Href>
+      <Writer><![CDATA[김유아]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[오늘의 국회일정](23일·금)]]></Title>
+      <Body><![CDATA[[오늘의 국회일정](23일·금)
+
+    ▲ 상임위원회
+    재정경제기획위원회, 전체회의(10:00 본관 430호)
+    ▲ 의원실 세미나
+    소병훈 의원실 등, (회복과 성장을 위한) 정년연장 특별위원회(10:00 더불어민주당 원내대표회의실)
+    김윤 의원실 등, 스튜어드십코드 실효성 제고를 위한 내실화 방안 모색 토론회(10:00 의원회관 신관 제2세미나실)
+    김영호 의원실 등, 독서국가 선포식: AI 시대 독서국가로 가는 길(14:00 의원회관 대회의실)
+    남인순 의원실 등, 민·관·기업·언론·종교계가 함께하는 어린이안전법 제도·정책 강화 대토론회(14:00 의원회관 제8간담회의실)
+    이재강 의원실 등, 비무장지대(DMZ)관련 법체계와 평화적 이용(14:00 의원회관 제4간담회의실)
+    김선민 의원실 등, 충동적 자살 예방 토론회(14:00 의원회관 제7간담회의실)
+    정을호 의원실 등, 해외 한국어교육 발전을 위한 현황 진단 및 과제(14:00 의원회관 제10간담회의실
+    ▲ 소통관 기자회견
+    박홍배 의원, 쿠팡 명절 휴업 촉구 및 생활물류서비스법 개정안 발의 공동 기자회견(09:20)
+    백승아 의원, 청소년 스마트폰 사용 관련 기자회견(11:00)
+    김현 의원, 더불어민주당 국민소통위원회 민주파출소 정례브리핑(13:40)
+    강득구 의원, 정치 현안 관련 기자회견(14:20)
+(끝)]]></Body>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260127068000546</ContentID>
+      <SendDate>20260127</SendDate>
+      <SendTime>104903</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001042" name="연합칼럼"/>
+         <AttributeCode code="9001788" name="연재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260127068000546]]></Href>
+      <Writer><![CDATA[한승호]]></Writer>
+      <Desk code="546"><![CDATA[콘텐츠융합실]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[글로컬] 한반도 비무장지대(DMZ)는 지금 안녕한가]]></Title>
+      <Body><![CDATA[[글로컬] 한반도 비무장지대(DMZ)는 지금 안녕한가
+
+
+
+
+
+    (서울=연합뉴스) 한승호 선임기자 = 한반도의 허리를 가로질러 설치된 DMZ(Demilitarized Zone)는 글자 그대로 '비무장지대'를 말한다. DMZ는 6·25 한국전쟁이 시작된지 3년여 만인 1953년 7월 체결된 정전협정에 따라 설치됐다. 군사분계선(MDL)에서 남과 북으로 각각 2km씩 완충지대를 만들기 위한 것이었다.
+    그런데 DMZ는 만들어진 이후 무장하지 않는다는 약속이 지켜지지 않으면서 오히려 '중무장지대'가 됐다는 탄식이 나온다. 남한도 일부 군사시설을 설치하기도 했지만 북한은 아예 '비무장'이 무색할 정도로 각종 무기와 군사시설을 배치했다. 
+    남북 모두 DMZ가 끝나는 지점에 설치한 철책선을 MDL 쪽으로 전진 배치함으로써 정전협정 '2km 비무장 유지' 조항을 위반했다. 비무장지대 내 감시초소의 경우, 북한군은 150여개의 GP를 설치했고 우리군도 수십개의 GP를 설치해 DMZ 내 수천명의 병력이 주둔하고 있다고 한다. 정전협정 '1천명 초과 금지' 조항도 위반하고 있는 셈이다.
+    지난 2013년 환경단체인 녹색연합은 7년 동안 조사를 거쳐 발간한 보고서에서 "정전협정 이후 60년이 지난 지금 DMZ 면적은 992km에서 43%가 감소한 570km에 불과하다"고 발표한 바 있다. 그러면서 "전체적으로 북이 200보를 밀고 왔다면 남측에서는 50보 정도 맞대응한 상황"이라고 설명했다.
+    DMZ의 무장화는 그 이후에도 남북관계가 호전되고 경제교류가 이뤄질 때는 잠시 멈칫하는가 싶었지만, 남북관계가 경색되면 어김없이 재개됐다. 남북 간 충돌을 방지하고 돌발 상황에 대처할 수 있는 '범퍼'가 좁아졌다는 얘기다. 
+    서울대 평화통일연구원이 지난 23일 국회 의원회관에서 개최한 'DMZ관련 법 체계와 평화적 이용' 세미나에 참석한 전문가들이 이런 우려를 다각도로 지적했다. DMZ의 중무장지대 전락에다 남북 대화가 단절되고 비공식 채널까지 사라지면서 DMZ에서 의도적이든 오해로 인한 것이든 공격이 이뤄지면 심각한 안보 위험으로 이어질 수 있다.
+
+     우리군은 2024년 6월 북한군의 MDL 침범 행위에 경고사격으로 대응한 뒤 "북한군은 DMZ를 비롯한 전선지역 여러 곳에 다수 병력을 투입해 경계능력 보강을 위한 다양한 형태의 작업을 진행 중"이라고 밝혔다. 북한은 2024년 초반부터 MDL을 '국경선'이라 부르면서 MDL 일대에 지뢰 매설, 대전차 콘크리트 장벽 등을 설치하는 등 요새화 작업을 벌이고 있다는 것이 당국의 분석이다. 
+     최근 북한군은 "지난해 9월과 이달에 남측으로부터 날아온 무인기를 격추했다"고 주장했다. 정부는 사실이 아니라면서 조사를 벌이고 있다. 만약 북한 주장대로 무인기가 MDL을 넘어간 것이라면 우리군의 감시 활동에 구멍이 뚫린 것이다. 북한이 무인기를 발견했더라도 핫라인이 있었으면 긴급 확인이 가능할 수도 있다.
+
+
+
+     '적대적 두 국가론'을 주장하고 있는 북한이 다음달 개최가 유력한 제9차 노동당대회에서 적대적 두 국가론을 당규약에 반영해 공식화할 경우에는 상황이 더 악화할 수 있다. 북측 2km구간 DMZ를 아예 없애고 MDL을 국경선으로 만들려는 시도를 할 가능성도 있다는 관측까지 나온다.
+    북한은 핵실험과 탄도미사일 발사로 도발해오다 멈추는 듯하더니 '핵보유국'을 자처하며 한반도 안보 지형을 흔들고 있다. 남한을 '같은 민족' 대신 '다른 나라'처럼 여기고 있다. 남북 대결의 완충지대인 DMZ가 제역할을 다하지 못하는 상황에 대비책을 강구할 때다. 군사적 억지와 위기관리 체계를 강화하지 않으면 DMZ가 남북 충돌의 최전선이 될 수 있음을 명심해야 한다.  
+    hsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260127068000546_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/27/AKR20260127068000546_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ(비무장지대)]]></Title>
+         <Caption><![CDATA[[촬영 안철수] 2025.8, 파주 임진각 갤러리 그리브스]]></Caption>
+         <FileName>PCM20250822000044990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/08/22/44/PCM20250822000044990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기 연천군 접경지역 철책선]]></Title>
+         <Caption><![CDATA[(연천=연합뉴스) 류영석 기자 2025.12.29  ondol@yna.co.kr]]></Caption>
+         <FileName>PYH2025122701990001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/12/27/PYH2025122701990001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260707063500504</ContentID>
+      <SendDate>20260707</SendDate>
+      <SendTime>102451</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0801002" name="날씨"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260707063500504]]></Href>
+      <Writer><![CDATA[김효정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[軍 "집중호우 때 北지뢰 유입 우려…발견시 접촉 말고 신고"]]></Title>
+      <Body><![CDATA[軍 "집중호우 때 北지뢰 유입 우려…발견시 접촉 말고 신고"
+
+
+    (서울=연합뉴스) 김효정 기자 = 군 당국이 장마를 앞두고 비무장지대(DMZ)에 북한이 묻어 둔 지뢰가 집중호우로 인해 남쪽으로 떠내려올 수 있다며 주의를 당부했다.
+    합동참모본부(합참)는 7일 "접경지역 일대에 집중호우 발생 시, 유실된 지뢰가 하천을 통해 유입될 우려가 있어 국민 여러분들의 주의를 당부드린다"고 밝혔다.
+    합참에 따르면 DMZ에는 북한 지뢰가 다량 매설돼 있고, 지뢰 매설 지역 가운데 일부에서는 임진강·한탄강·화강·북한강·인북천 등 남북 공유하천이 한강 하구로 연결된다.
+    합참은 남북 공유하천 인근에서 활동할 때 유실된 지뢰에 유의하라며 "지뢰로 추정되는 미상 물체를 발견 시에는 절대로 접촉하지 마시고 가까운 군부대나 경찰서에 신고해 달라"고 요청했다.
+    북한이 매설한 지뢰로는 나무 상자에 담긴 목함지뢰, 나뭇잎처럼 생긴 나뭇잎 지뢰 등이 발견되곤 했다. 
+    kimhyoj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한이 매설한 지뢰 형상]]></Title>
+         <Caption><![CDATA[[합동참모본부 제공]]]></Caption>
+         <FileName>AKR20260707063500504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/07/07/AKR20260707063500504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

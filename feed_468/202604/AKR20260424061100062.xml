@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260424061100062</ContentID>
+      <SendDate>20260424</SendDate>
+      <SendTime>103936</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+         <RegionCode code="7103019" name="벨기에"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+         <ClassCode code="0109010" name="보훈복지"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001004" name="화제"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260424061100062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[벨기에 참전용사 아들, 철원 DMZ 평화의 길 횡단노선 방문]]></Title>
+      <SubTitle><![CDATA[크리스토퍼 버니어 씨, 아버지 발자취 따라 이길리·백마고지 찾아]]></SubTitle>
+      <Body><![CDATA[벨기에 참전용사 아들, 철원 DMZ 평화의 길 횡단노선 방문
+크리스토퍼 버니어 씨, 아버지 발자취 따라 이길리·백마고지 찾아
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 6·25전쟁 당시 벨기에 참전용사의 아들이 부친의 발자취를 따라 최근 철원 DMZ 평화의 길 횡단노선 방문했다고 24일 밝혔다.
+    전쟁 당시 벨기에에서 철원까지 와 전선에 뛰어들었던 고 어네스틴 버니어 씨의 아들 크리스토퍼 버니어 씨는 지난 22∼23일 철원을 찾았다.
+    이번 방문은 부친이 생전에 자주 이야기하던 백마고지와 잣골(현 유곡리 일원) 전투 지역을 직접 보고 싶다는 간절한 바람에서 시작됐다.
+    크리스토퍼 씨는 철원군의 안내를 받아 DMZ 평화의 길 횡단노선을 따라 이길리 검문소, 유곡리 일원, 도창리 검문소 등을 둘러보며 아버지가 지나갔을 철원의 전장을 되짚었다.
+    전쟁이 남긴 상흔보다 평화의 풍경이 먼저 눈에 들어오는 지금, 그는 아버지가 지키고자 했던 땅을 직접 밟으며 오래된 기억과 마주했다.
+    곳곳에 남은 전적지의 흔적과 한탄강 일대의 고요한 풍경은 그에게 전쟁의 기억과 현재의 평화를 동시에 전했다.
+
+    특히 백마고지 전적비와 잣골 방어전이 벌어졌던 지역을 마주한 그는 오랜 시간 가슴에 담아두었던 부친의 이야기를 떠올리며 깊은 감회에 젖었다.
+    크리스토퍼 씨는 "아버지가 지켜낸 이 땅이 이렇게 아름답고 평화롭게 보존되어 있어 감격스럽다"고 말했다.
+    철원군 관계자는 "참전용사 후손의 방문은 DMZ가 비극의 현장에서 평화와 화합의 상징으로 바뀌었음을 보여주는 뜻깊은 사례"라며 "앞으로도 해외 참전용사와 가족들이 한국전의 의미를 직접 체험할 수 있도록 지원을 이어가겠다"고 덧붙였다.
+    벨기에는 6.25 전쟁에 3천498명을 파병해 임진강전투와 학당리, 잣골지구전투 등에서 국군을 도왔고, 이들 중 106명이 전사한 것으로 알려졌다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[벨기에 참전용사 아들로 철원 DMZ 찾은 크리스토퍼 버니어 씨]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260424061100062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/24/AKR20260424061100062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[6·25전쟁 당시 사진]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260424061100062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/24/AKR20260424061100062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

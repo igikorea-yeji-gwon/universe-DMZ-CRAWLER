@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260204172051108</ContentID>
+      <SendDate>20260205</SendDate>
+      <SendTime>012930</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7107006" name="아랍에미"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260204172051108]]></Href>
+      <Writer><![CDATA[민경락]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[미·러·우크라 3자회담 5시간만에 끝나…내일 속개(종합)]]></Title>
+      <SubTitle><![CDATA[우크라 "생산적이고 실질적인 협상"]]></SubTitle>
+      <Body><![CDATA[미·러·우크라 3자회담 5시간만에 끝나…내일 속개(종합)
+우크라 "생산적이고 실질적인 협상"
+
+
+    (이스탄불·로마=연합뉴스) 김동호 민경락 특파원 = 미국의 중재로 러시아와 우크라이나가 종전안을 논의하는 3자 회담이 4일(현지시간) 아랍에미리트(UAE) 아부다비에서 재개됐다.
+    이날 오전 시작된 회담은 약 5시간 만에 종료됐다. 이날 협상은 군사 이슈가 주된 의제였던 것으로 전해졌다. 협상은 5일 계속된다.
+    우크라이나 측은 협상을 마친 뒤 "실질적이고 생산적이었다"고 평가했다.
+    1차 회담은 지난달 23∼24일 같은 장소에서 개최됐다. 세 나라는 당초 후속 회담을 이달 1일 열자고 했지만 불분명한 이유로 늦춰졌다.
+    미국과 러시아, 우크라이나가 3자 회의체를 만들면서 종전 기대가 높아졌으나 영토 문제와 우크라이나 안전보장을 둘러싼 입장 차는 여전히 크다.
+    러시아는 도네츠크주와 루한스크주 등 돈바스 지역을 완전히 차지하기 전까지 전쟁을 끝내지 않겠다는 입장을 고수하고 있다.
+    러시아는 개전 후 루한스크를 완전히 장악했고, 도네츠크도 80%가량 통제하고 있다.
+    우크라이나는 도네츠크 전체 할양을 거부하면서 현재 전선을 동결하고 비무장지대를 만들자고 맞서고 있다.
+    종전 이후 러시아의 재침공을 막기 위한 미국 주도의 안전보장 체계를 러시아가 수용할지도 난제다.
+    UAE 외무부는 "이번 회담이 1차 회담의 성과를 바탕으로 보다 폭넓은 이해를 향한 진전을 이루기를 바란다"고 밝혔다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[4일(현지시간) 미·러·우크라 3자회담 아부다비에서 재개]]></Title>
+         <Caption><![CDATA[[UAE 외무부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260204172051108_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/04/AKR20260204172051108_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

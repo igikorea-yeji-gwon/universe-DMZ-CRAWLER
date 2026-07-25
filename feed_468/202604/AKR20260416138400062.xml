@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260416138400062</ContentID>
+      <SendDate>20260416</SendDate>
+      <SendTime>161914</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="1007006" name="남북갈등"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260416138400062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성 DMZ·양양 잇는 '평화 탐방 1박2일' 관광 상품 출시]]></Title>
+      <SubTitle><![CDATA[민통선 통과해 북녘 조망…낙산사·하조대 등 동해안 명소 포함]]></SubTitle>
+      <Body><![CDATA[강원 고성 DMZ·양양 잇는 '평화 탐방 1박2일' 관광 상품 출시
+민통선 통과해 북녘 조망…낙산사·하조대 등 동해안 명소 포함
+
+
+    (속초=연합뉴스) 류호준 기자 = 강원 고성 비무장지대(DMZ)와 양양의 주요 관광지를 연계한 체류형 평화 프로그램이 나왔다.
+    DMZ관광은 코리아 DMZ 기념사업회와 함께 고성군 DMZ 일대와 양양군 자연경관을 둘러보는 'DMZ 평화 탐방 및 워크숍 1박2일' 프로그램을 출시했다고 16일 밝혔다.
+    이번 프로그램은 분단과 평화통일의 현장인 DMZ 접경지역과 동해안 대표 관광지를 연계한 일정으로 구성됐다.
+    참가자들은 첫날 고성 민간인통제선(민통선)을 지나 옛 통일전망대를 리모델링한 해금강 식당에서 북한식 메뉴로 식사를 한 뒤, 통일 전망 타워에서 북녘 해금강을 조망한다.
+    이어 DMZ 박물관을 방문해 전시를 관람하고, 북한과 가장 가까운 전망지로 알려진 금강산전망대를 찾아 금강산과 동해선 일대를 살펴보며 평화통일의 의미를 되새긴다.
+    이후 양양으로 이동해 숙소에서 워크숍과 자유시간을 가진 뒤 일정을 마무리한다.
+    둘째 날에는 DMZ 접경지역과 통일을 주제로 간담회를 연 뒤 낙산해수욕장에서 자유시간을 갖는다.
+    이어 의상대사가 창건한 낙산사를 찾아 해수관음상과 의상대를 둘러보고, 하조대와 하조대 전망대, 38도선 마을 등을 답사한 뒤 지역 특산물로 점심을 먹고 일정을 마친다.
+    장승재 대표는 "이번 프로그램은 남북 분단의 최전선인 고성 DMZ에서 평화통일의 의미를 되새기고, 양양의 자연 속에서 워크숍을 병행할 수 있도록 구성했다"며 "전국 평화통일 관련 단체들의 관심과 참여를 기대한다"고 말했다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[고성 통일전망대 '북적']]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2024101722340006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2024/10/17/PYH2024101722340006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[고성 통일전망대에서 바라본 북한]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2024101722580006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2024/10/17/PYH2024101722580006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

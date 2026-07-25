@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260609012100071</ContentID>
+      <SendDate>20260609</SendDate>
+      <SendTime>063825</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0109008" name="주한미군"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001303" name="취재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260609012100071]]></Href>
+      <Writer><![CDATA[박성민]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[주한미군 부사령관, 태평양공군 부사령관으로 지명]]></Title>
+      <Body><![CDATA[주한미군 부사령관, 태평양공군 부사령관으로 지명
+    
+
+    
+    (워싱턴=연합뉴스) 박성민 특파원 = 데이비드 R. 아이버슨 주한미군 부사령관(중장)이 8일(현지시간) 다른 자리로 이동하는 인사 발령이 났다.
+    미국 국방부(전쟁부)는 이날 보도자료에서 "피트 헤그세스 장관이 다음과 같은 도널드 트럼프 미국 대통령의 후보자 지명을 발표했다"며 이같이 전했다.
+    아이버슨 부사령관은 미국 하와이의 진주만-히캠 합동기지의 태평양공군 부사령관으로 자리를 옮기게 됐다.
+    이 직책에 취임하려면 연방 상원의 인준을 받아야 한다.
+    아이버슨 부사령관은 그간 유엔사령부 산하 연합공군구성군 사령부 사령관, 한미연합사령부 산하 공군구성군사령부 사령관, 한국 오산 공군기지의 태평양공군 제7공군 사령관을 겸임해왔다.
+    아이버슨 부사령관은 지난 2024년 1월 취임했다.
+    한국 근무는 이때가 처음이었지만, 부친에 이어 2대째 주한미군 공군력을 책임지는 7공군 사령관을 맡아 눈길을 끌었다. 그의 부친 로널드 아이버슨은 1994년 10월부터 1997년 10월까지 이 직책을 맡았었다.
+    미 버지니아 대학 학군사관(ROTC)을 거쳐 1991년 임관한 아이버슨 부사령관은 F-15 비행 경력만 5천400시간에 달하는 베테랑 조종사 출신이다.
+    아이버슨 부사령관의 후임 인사는 지난달 5일 발표됐다.
+    트럼프 대통령은 데이비드 G. 슈메이커 공군 소장을 중장으로 진급시켜 주한미군 부사령관에 지명했다.
+    슈메이커 후보자는 카타르 알우데이드 공군기지에서 미 중부사령부 제9공군(중부공군) 부사령관 및 연합공군구성군사령부 부사령관으로 재직 중이다.
+    1994년 미 공군사관학교를 졸업한 그는 T-37, T-38, F-16A/B/C/D 기종에서 2천 시간 이상의 비행 경력을 보유한 베테랑 조종사 출신이다. 
+    슈메이커 후보자는 한국 군산 공군기지에서 3차례 근무한 경력도 갖고 있다. 제8작전전대(2005∼2006년) 표준화·평가 책임자, 제35전투비행대대 작전 책임자(2010∼2011년), 제8전투비행단장(2017~2018년) 등을 거쳤다. 
+    min22@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[취임사 하는 데이비드 아이버슨 미7공군사령관]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진 재판매 및 DB금지]]]></Caption>
+         <FileName>PYH2024013006170006100_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2024/01/30/PYH2024013006170006100_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

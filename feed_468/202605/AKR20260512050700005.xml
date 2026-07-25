@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260512050700005</ContentID>
+      <SendDate>20260512</SendDate>
+      <SendTime>101231</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0712002" name="연예"/>
+         <ClassCode code="0712004" name="가요"/>
+         <ClassCode code="0712005" name="한류"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260512050700005]]></Href>
+      <Writer><![CDATA[김선우]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[DMZ 피스트레인 뮤직 페스티벌, 인순이·백현진 등 30개 팀 출연]]></Title>
+      <SubTitle><![CDATA[내달 12∼14일 강원도 철원 DMZ서 개최]]></SubTitle>
+      <Body><![CDATA[DMZ 피스트레인 뮤직 페스티벌, 인순이·백현진 등 30개 팀 출연
+내달 12∼14일 강원도 철원 DMZ서 개최
+
+
+
+    (서울=연합뉴스) 김선우 기자 = 내달 12∼14일 강원도 철원군 고석정 일원에서 개최되는 '2026 DMZ 피스트레인 뮤직 페스티벌'(이하 '피스트레인')에 인순이, 서스턴 무어 등 8개국 30개 팀이 출연한다고 '피스트레인' 사무국이 12일 밝혔다.
+    '피스트레인'은 철원 비무장지대(DMZ)에서 열리는 글로벌 뮤직 페스티벌로, '음악을 통해 평화를 노래한다'는 콘셉트로 진행된다.
+    이번 행사에는 국적과 장르, 세대의 장벽을 허무는 여러 아티스트들이 출연한다. 이승열, 전자양, 페퍼톤스, 백현진 등 국내 아티스트들을 비롯해 영국 밴드 데드레터, 프랑스 파리 출신의 프로듀서이자 뮤지션 루이스 오프만, 태국 인디 밴드 짐브이 등이 무대에 오른다.
+    올해 '피스트레인'의 핵심 메시지는 '인간활동'이다. "잘 살아있음이 곧 평화"라는 메시지를 담았다. 
+    개막을 앞두고 오는 22일부터 24일까지 서울 홍대 맨하탄 레코즈에서는 공식 팝업 스토어 '팝업환승, 다음 역은 피스트레인'도 운영된다. '인간활동'의 의미를 공간 곳곳에 담아낸다. 
+    sunwoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['2026 DMZ 피스트레인 뮤직 페스티벌' 포스터]]></Title>
+         <Caption><![CDATA[[피스트레인 사무국 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260512050700005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/12/AKR20260512050700005_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

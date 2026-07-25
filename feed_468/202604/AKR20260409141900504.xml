@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260409141900504</ContentID>
+      <SendDate>20260409</SendDate>
+      <SendTime>164947</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260409141900504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['남북연결' 도라산역 오가는 관광열차, 10일 운영 재개]]></Title>
+      <SubTitle><![CDATA[DMZ 평화이음 열차, 월 2회 운행…6월부터 매주 금요일로 확대]]></SubTitle>
+      <Body><![CDATA['남북연결' 도라산역 오가는 관광열차, 10일 운영 재개
+DMZ 평화이음 열차, 월 2회 운행…6월부터 매주 금요일로 확대
+
+
+    (서울=연합뉴스) 하채림 기자 = 2000년 남북 철도연결 합의의 산물인 도라산역으로 가는 정기 관광열차가 6년 6개월 만에 운영을 재개한다.
+    통일부는 9일 서울역과 파주 도라산역 사이를 오가는 'DMZ 평화이음 열차' 운영을 10일 재개한다고 밝혔다. 
+    DMZ 평화이음 열차는 서울역, 운정역, 임진강역, 도라산역 구간을 오가는 관광열차다. 임진강역을 넘어 민통선 지역의 도라산역으로 이어지는 열차 여행을 즐길 수 있는 것은 물론 하차해 도라산역, 도라전망대, 통일촌 등을 방문할 수 있다. 
+    5월까지는 둘째와 넷째 금요일에 각 1회, 회당 탑승객 120명 규모로 운영된다. 6월부터는 월 4회, 매주 금요일에 운행할 예정이다.
+    예약은 코레일(www.korail.com), 코레일관광개발(www.korailtravel.com), DMZ 평화관광(dmz.paju.go.kr) 웹사이트 등에서 할 수 있다. 
+
+    도라산역은 2000년 6·15 남북정상회담과 후속 장관급회담을 계기로 도출된 남북 간 경의선 복원·철도 연결 합의에 따라 만들어진 철도역이다.
+    2019년 10월 아프리카돼지열병(ASF) 확산 우려로 중단된 도라산역행 관광열차는 그 후 코로나19 팬데믹으로 중단 상태가 지속됐고, 2023·2024년 하절기 일시적으로 운행된 바 있지만 정기 운행은 이번에 재개되는 것이다. 
+    정부는 DMZ 평화이음 열차 운행을 기념하기 위해 '도라산역, 평화를 다시 잇다' 행사를 10일 서울역과 도라산역 일원에서 개최한다. 
+    통일부는 "중단된 도라산역 열차 운영 재개를 통해 남북 간 적대·대결을 종식하고 평화공존으로 나아가겠다는 정부의 의지를 대내외에 표명하고, DMZ 평화관광 활성화로 한반도 평화·통일 공감대를 확산하겠다"고 밝혔다. 
+       tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ 평화이음 열차 운행 노선]]></Title>
+         <Caption><![CDATA[[통일부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260409141900504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/09/AKR20260409141900504_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2018년 남북철도공동조사 마치고 도라산역으로 귀환하는 남측 열차]]></Title>
+         <Caption><![CDATA[2018. 12. 18 [사진공동취재단=연합뉴스 자료사진] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2018121807940001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2018/12/18/PYH2018121807940001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260324135400062</ContentID>
+      <SendDate>20260324</SendDate>
+      <SendTime>152912</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0106005" name="예산재정"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260324135400062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[속초시, 중앙부처 찾아 접경지역 개발·국비 확보 총력]]></Title>
+      <SubTitle><![CDATA[접경지역 사업 우선 반영·국비 지원 필요성 강조]]></SubTitle>
+      <Body><![CDATA[속초시, 중앙부처 찾아 접경지역 개발·국비 확보 총력
+접경지역 사업 우선 반영·국비 지원 필요성 강조
+
+
+    (속초=연합뉴스) 류호준 기자 = 강원 속초시가 접경지역 개발 및 주요 현안 사업의 원활한 추진을 위해 국비 확보에 나섰다.
+    24일 시에 따르면 이병선 시장과 이양수 국회의원실은 이날 행정안전부와 기획재정부, 문화체육관광부 등 중앙부처를 방문해 주요 현안 사업의 필요성을 설명하고 국비 지원을 건의했다.
+    이 시장은 이날 행정안전부 교부세과를 찾아 대포농공단지 근로자 기숙사 조성사업과 엑스포 잔디광장 인조 잔디 교체사업 등 총 70억원 규모 사업에 대한 시 재정 부담 완화를 위해 지역 현안 특별교부세 지원을 요청했다.
+    이어 행정안전부 균형 발전진흥과와 기획재정부 지역예산과를 방문해 접경지 특수상황 지역 개발사업 10건(557억원)과 접경권 발전지원사업 2건(250억원) 등 주요 현안 사업을 설명하고 2027년도 접경지역 지원사업 우선순위 반영과 국비 지원 필요성을 강조했다.
+    또 행정안전부 재난관리정책국을 찾아 영랑교와 도천교 보수·보강 공사 등에 필요한 재난 안전 특별교부세 지원도 건의했다.
+    이와 함께 가뭄과 한파, 폭설, 집중호우 등 이상기후에 대비한 지하댐 추가 조성과 도로 열선 설치, 도시 침수 대응 사업 등 재난 대응 인프라 확충 방안과 정부 지원 대책에 대해서도 논의했다.
+    이 시장은 문화체육관광부도 방문해 설악동 관광 활성화 방안과 지속 가능한 관광 기반 조성 등 지역 관광 경쟁력 강화를 위한 주요 사업을 설명하고 정부 차원의 관심과 지원을 요청했다.
+    앞서 시는 지난해 행정안전부의 2026년 접경지역 특수상황 지역 개발 신규사업 공모에서 전국 최다인 6개 사업이 선정돼 국비 210억원을 확보했다.
+    이를 바탕으로 민선 8기 출범 이후 개청 이래 처음으로 2천억원 이상의 국·도비 보조금을 확보하는 성과를 거뒀다
+    이병선 시장은 "시민이 체감할 수 있는 생활밀착형 사업들이 정부 예산안에 반영돼 실질적인 변화로 이어질 수 있도록 중앙부처와 긴밀히 협의하며 국비 확보에 최선을 다하겠다"고 말했다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[행정안전부 방문한 속초시]]></Title>
+         <Caption><![CDATA[[속초시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260324135400062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/24/AKR20260324135400062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[행정안전부 방문한 속초시]]></Title>
+         <Caption><![CDATA[[속초시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260324135400062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/24/AKR20260324135400062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

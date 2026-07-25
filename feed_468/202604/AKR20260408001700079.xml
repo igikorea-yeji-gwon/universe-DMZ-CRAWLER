@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260408001700079</ContentID>
+      <SendDate>20260408</SendDate>
+      <SendTime>012748</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260408001700079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘군 참모총장 "이란과 전쟁, 전략적 분수령 도달"]]></Title>
+      <Body><![CDATA[이스라엘군 참모총장 "이란과 전쟁, 전략적 분수령 도달"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 에얄 자미르 이스라엘군 참모총장은 7일(현지시간) 이란을 상대로 한 전쟁이 전략적 분수령에 도달했다고 선언했다.
+    자미르 총장은 텔아비브 국방부 본부 내 지하 지휘소에서 안보 평가 회의를 주재하면서 "우리는 전략적 분수령에 접근하고 있다. 지금까지는 작전 개시 당시 설정했던 목표에 부합하는 상당한 성과를 거뒀다"고 평가했다. 
+    이어 "앞으로도 결연하게 행동할 것이며, 이란 정권에 가하는 타격을 더욱 심화시킬 것"이라고 강조했다.
+    도널드 트럼프 미국 대통령이 예고한 최후통첩 시한이 임박한 가운데 나온 자미르 총장의 발언은 전략적 판단에 따라 이란에 대한 작전 강도를 조절할 수 있다는 의미로 해석된다.
+    한편 자미르 총장은 레바논 남부에서 전개 중인 헤즈볼라 대상 지상전 상황도 언급했다.
+    그는 "이스라엘 접경 마을에 대한 직접 사격을 차단하기 위해 전방 방어 구역을 구축하고 있다"며 "동시에 레바논 내륙 깊숙한 곳에서 발사되는 로켓 공격에 대해서도 동시 대응 작전을 수행 중"이라고 설명했다.
+    meolakim@yna.co.kr
+[https://youtu.be/hQLLuK7qYvc]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[에얄 자미르 이스라엘군 참모총장]]></Title>
+         <Caption><![CDATA[[이스라엘군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260408001700079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/08/AKR20260408001700079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

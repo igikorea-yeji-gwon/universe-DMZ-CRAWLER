@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260524019100062</ContentID>
+      <SendDate>20260524</SendDate>
+      <SendTime>111612</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="03"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0107003" name="지방정가"/>
+         <ClassCode code="0105001" name="선거일반"/>
+         <ClassCode code="0101001" name="정치일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260524019100062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우상호·김진태 후보, 부처님오신날 사찰 찾아 불심 공략]]></Title>
+      <Body><![CDATA[우상호·김진태 후보, 부처님오신날 사찰 찾아 불심 공략
+
+
+    (춘천=연합뉴스) 이상학 기자 = 6·3 지방선거 공식 선거운동 첫 주말이자 부처님오신날인 24일 강원도지사 후보들은 사찰 방문과 전통시장 유세를 이어가며 불심과 민심 잡기에 나섰다.
+    더불어민주당 우상호 후보는 이날 평창과 양양, 인제를 돌며 동해안·접경지역 표심 공략에 집중했다.
+    우 후보는 부처님오신날을 맞아 평창 오대산 월정사를 찾아 법회에 참석하고 불교계 관계자들과 지역 현안을 청취했다.
+
+    이어 오후에는 양양전통시장과 인제장, 원통 일대에서 거리유세를 벌이며 생활밀착형 공약과 지역 균형발전 구상을 설명할 예정이다.
+    국민의힘 김진태 후보는 춘천과 원주지역 사찰을 중심으로 봉축법요식 참석 일정을 이어갔다.
+    김 후보는 춘천 삼운사와 석왕사 봉축법요식에 참석한 데 이어 정법사를 방문해 도민 안녕과 강원 발전을 기원했다.
+    오후에는 김문수 명예선대위원장과 함께 원주 성문사를 찾은 뒤 원주 도심 곳곳에서 '그물망 유세'를 벌이며 지지를 호소할 계획이다. 
+
+    양 후보는 공식 선거운동 첫 휴일을 맞아 종교계와 전통시장, 도심 상권 등을 중심으로 민생 행보를 이어가며 중도층과 부동층 표심 확보에 주력하는 모습이다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[우상호 김진태 후보]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20260331000003990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2026/03/31/03/PCM20260331000003990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[우상호 후보, 선거운동]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2026052105760006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/21/PYH2026052105760006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김진태 후보, 선거운동]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2026052105890006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/21/PYH2026052105890006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

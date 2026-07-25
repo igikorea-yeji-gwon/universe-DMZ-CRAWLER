@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260422003300079</ContentID>
+      <SendDate>20260422</SendDate>
+      <SendTime>021209</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260422003300079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘군 "헤즈볼라, 로켓·드론 공격…휴전 위반"]]></Title>
+      <Body><![CDATA[이스라엘군 "헤즈볼라, 로켓·드론 공격…휴전 위반"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 이스라엘군은 친이란 무장정파 헤즈볼라가 레바논 남부에 주둔 중인 자국군을 향해 로켓을 발사하고 이스라엘 본토로 드론을 날리는 등 휴전 합의를 위반했다고 21일(현지시간) 주장했다.
+    이스라엘군은 "헤즈볼라는 이스라엘이 점령 중인 보안 구역 내 라브 알탈라틴 지역에 배치된 이스라엘군 부대를 겨냥해 여러 발의 로켓을 쐈다"며 "이스라엘군은 몇 분 만에 로켓 발사 지점을 타격했다"고 밝혔다.
+    또 이와 별개로 레바논 접경지인 크파르 유발과 마얀 바루크 지역에서 울린 공습 사이렌 역시 실제 상황이었다고 덧붙였다. 당초 군은 이를 오작동이라고 발표했으나 정밀 조사 결과 레바논에서 발사된 드론을 요격하는 과정에서 경보가 작동한 것으로 밝혀졌다. 
+    헤즈볼라가 발사한 드론은 국경을 넘기 전 격추했다고 이스라엘군은 설명했다.
+    이란의 지원을 받는 '저항의 축' 일원인 헤즈볼라는 미국과 이스라엘의 공습에 이란의 전 최고지도자 아야톨라 알리 하메네이가 죽자, 이란 편에서 참전을 선언하고 이스라엘을 공격했다.
+    이스라엘은 헤즈볼라 대응을 명분으로 레바논 남부는 물론 수도 베이루트에까지 대대적인 공습을 가했다.
+    또 이스라엘은 국경에서 리타니강 남쪽까지 약 30㎞ 구간에서 헤즈볼라를 완전히 몰아내고 완충지대를 구축하겠다는 계획하에 레바논 남부에 지상군 병력을 대거 투입했다.
+    이스라엘은 레바논을 휴전에 포함해야 한다는 이란의 주장을 수용한 도널드 트럼프 미국 대통령의 압박을 받고 지난 18일부터 열흘간의 휴전에 들어갔다. 그러나 레바논 남부에 주둔 중인 지상군 병력은 철수하지 않았다.
+    이스라엘과 레바논 정부는 오는 23일 워싱턴에서 미국의 중재로 평화 협상을 앞두고 있다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군의 공습 이후 연기가 피어 오르는 레바논 남부]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260422003300079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/22/AKR20260422003300079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260325042000060</ContentID>
+      <SendDate>20260325</SendDate>
+      <SendTime>092458</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+         <RegionCode code="7005022" name="연천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0803002" name="풍경"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260325042000060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[임진강서 즐기는 벚꽃 여행…연천 평화누리길 11코스]]></Title>
+      <Body><![CDATA[임진강서 즐기는 벚꽃 여행…연천 평화누리길 11코스
+
+    (의정부=연합뉴스) 우영식 기자 = 경기 연천군 평화누리길 11코스 '임진적벽길'은 가장 늦게까지 벚꽃을 즐길 수 있는 곳이다.
+
+    경기도는 25일 꽃과 풍경이 어우러진 봄의 정취를 만끽할 수 있는 여행지로 평화누리길 11코스를 소개했다. 
+    고려 왕들의 위패를 모신 숭의전지를 출발해 고구려 성곽의 흔적이 있는 당포성을 거쳐 임진교를 건너 1㎞ 이상 벚꽃이 흐드러지게 핀 강변을 따라 걷는 코스로 구성돼 있다.
+    임진강변 벚꽃 길은 남한에서 가장 늦게까지 봄을 간직한 곳이다. 보통 4월 20일 전후 절정을 맞는다.
+    임진적벽길에서는 벚꽃 외에도 다양한 볼거리가 있다.
+    화산활동으로 형성된 주상절리 절벽이 강을 따라 병풍처럼 펼쳐져 있어 장관을 연출한다.
+    숭의전지나 당포성, 유엔군 화장장 등이 있어 역사적 의미도 되새길 수 있다.
+    한편, 도보 여행길 평화누리길은 김포, 고양, 파주, 연천 등 경기도 접경지역 4개 시군에 12개 코스로 구성돼 있다. 전체 길이는 189㎞에 달한다.
+    경기도는 'DMZ 사색(四色)하다'라는 주제로 월별 가볼 만한 평화누리길 코스를 소개하고 있다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[임진강변 벚꽃길]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260325042000060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/25/AKR20260325042000060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

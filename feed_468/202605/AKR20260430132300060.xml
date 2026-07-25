@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260430132300060</ContentID>
+      <SendDate>20260503</SendDate>
+      <SendTime>064501</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+         <RegionCode code="7005009" name="김포"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0803002" name="풍경"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260430132300060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, 5월 평화누리길에 김포 '조강철책길' 추천]]></Title>
+      <Body><![CDATA[경기도, 5월 평화누리길에 김포 '조강철책길' 추천
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도는 3일 가볼 만한 평화누리길로 문수산성 성곽길 너머 조강의 풍경을 만날 수 있는 평화누리길 2코스 김포 '조강철책길'을 소개했다.
+
+
+    평화누리길은 경기도 DMZ 접경지역인 김포·고양·파주·연천 4개 시·군을 잇는 최북단 도보 여행길로 모두 12개 코스(김포 3개 코스·고양 2개 코스·파주 4개 코스·연천 3개 코스)로 운영된다.
+    사계절의 특징이 고스란히 담겨 있다는 점에서 도는 'DMZ 사색(四色)하다'라는 주제로 월별 가볼 만한 평화누리길 코스를 소개하고 있다.
+    이번 달에는 김포 '조강철책길'을 소개했다.
+    이 코스는 총 8km의 비교적 짧은 구간이나 문수산성과 애기봉을 오르내리는 구간이 포함돼 있어 하이킹과 워킹의 즐거움을 동시에 맛볼 수 있다.
+    조강철책길의 출발점은 문수산성 남문이다. 5월의 문수산성은 초록이 짙어지는 산길과 견고한 성곽이 어우러져 걷는 이들에게 계절의 생동감을 전한다.
+    남문을 지나 성곽길로 들어서면 완만한 오르막과 굽이진 성벽이 이어지며, 길을 따라 한 걸음씩 오를수록 문수산성 특유의 역사적 분위기와 자연의 정취를 함께 느낄 수 있다.
+    이어 성벽을 따라 걷다 보면 시야가 트이는 지점마다 조강 하구 풍경이 간간이 시야에 들어오며 봄의 생동감과 함께 탁 트인 조망을 동시에 맛볼 수 있다.
+    문수산성은 1866년 병인양요 당시 프랑스군이 강화도를 점령한 뒤 한강 하구를 따라 진입하며 격렬한 전투가 벌어졌던 곳이다.
+    문수산성 정상에 오르면 염하강과 한강이 만나는 조강 하구가 한눈에 펼쳐진다. 맑은 날에는 옛 강화대교의 모습은 물론, 북한 지역까지 조망할 수 있어 탁 트인 풍경을 감상할 수 있다.
+    문수산 정상에서 내려온 뒤에는 평화의 길 거점센터(김포센터)에 들러 잠시 휴식을 취할 수 있다.
+    조강철책길은 애기봉 입구에서 여정을 마무리한다.
+    비록 평화누리길 2코스에 직접 포함되지는 않지만, 인근의 대표적인 평화관광지인 '애기봉평화생태공원도 함께 방문해볼 만하다. 최근 새로운 관광 명소로 주목받는 이곳은 기존 애기봉 전망대를 철거하고 평화생태전시관, 조강전망대, 생태탐방로 등을 조성했다.
+    전망대에 오르면 한강과 임진강이 만나는 조강 하구와 함께 북한 개풍군 일대를 비교적 선명하게 조망할 수 있다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[평화누리길 노선도]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260430132300060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/30/AKR20260430132300060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

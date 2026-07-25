@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260526126900017</ContentID>
+      <SendDate>20260527</SendDate>
+      <SendTime>061301</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Category code="07"/>
+      <Category code="08"/>
+      <Class>
+         <ClassCode code="0901002" name="과학기술"/>
+         <ClassCode code="0901001" name="IT"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260526126900017]]></Href>
+      <Writer><![CDATA[조승한]]></Writer>
+      <Desk code="017"><![CDATA[테크부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[과학관 전시물 출처가 '나무위키'…2년간 몰랐다]]></Title>
+      <SubTitle><![CDATA[한국과학기술사관 정전협정문 사진 출처 논란
+국립중앙과학관 "검수 누락된 실수…바로 조치"]]></SubTitle>
+      <Body><![CDATA[과학관 전시물 출처가 '나무위키'…2년간 몰랐다
+한국과학기술사관 정전협정문 사진 출처 논란
+국립중앙과학관 "검수 누락된 실수…바로 조치"
+
+
+    (서울=연합뉴스) 조승한 기자 = 국립중앙과학관이 우리나라 과학기술을 보여주기 위해 조성한 한국과학기술사관 내 전시물인 '정전협정문' 사진의 출처를 '나무위키'로 표기한 것을 2년 가까이 모른 채 전시한 것으로 드러났다.
+    27일 과학기술계 등에 따르면 과학기술정보통신부 소속 기관인 중앙과학관은 2024년부터 한국과학기술사관에 전시된 '한글 타자기로 쓴 휴전협정서' 사진 출처를 지식 정보 사이트인 '나무위키'로 표기했다.
+    여기서 소개한 문서인 정전협정문은 1953년 7월 27일 체결된 문서다. 국문본은 안과 의사이자 발명가인 고(故) 공병우 한글문화원 원장이 개발한 세벌식 한글타자기로 작성된 것으로 알려져 있다.
+    공 원장은 세벌식 한글타자기 개발 공로로 2022년 과학기술유공자로도 선정됐다.
+    전시물도 공 원장이 개발한 세벌식 한글타자기를 설명하면서 이로 작성된 대표 문서 중 하나인 정전협정문을 소개하는 내용으로 구성됐다.
+    하지만 중앙과학관은 2022년부터 3년간 준비를 거쳐 2024년 7월 한국과학기술사관을 재개장할 당시 이 전시물을 만들면서 내용에 대한 감수를 제대로 하지 않은 것으로 확인됐다.
+    전시물 내용을 외주 업체에서 만들어 오면 중앙과학관이 검토하고 수정하는 절차를 거쳤어야 했는데 이를 놓친 것이다.
+    이렇게 2년 가까이 전시되던 정전협정문은 최근 소셜미디어(SNS) 등에서 출처가 이상하다는 지적이 제기됐고, 중앙과학관도 이를 뒤늦게 인지하고 수정 절차에 들어갔다.
+    중앙과학관 관계자는 "(한국과학기술사관) 전체 리모델링을 하면서 전체적으로 달라지다 보니 확인하지 못한 것 같고 실수가 맞다"며 "미처 확인을 못 한 부분에 대해서는 바로 조치하고 앞으로 이런 일이 없게 하겠다"고 말했다.
+    shjo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중앙과학관 한국과학기술사관에 전시된 휴전협정서 사본]]></Title>
+         <Caption><![CDATA[[X 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260526126900017_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/26/AKR20260526126900017_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

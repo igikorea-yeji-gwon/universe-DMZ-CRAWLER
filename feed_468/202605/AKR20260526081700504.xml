@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260526081700504</ContentID>
+      <SendDate>20260526</SendDate>
+      <SendTime>120059</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260526081700504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["'9·19 복원' 방침 불변"이라지만…석달넘게 진전 안보여]]></Title>
+      <SubTitle><![CDATA[통일부 "부처간 협의 지속"…北기조·중동전쟁·한미협의 난항 등에 '주춤']]></SubTitle>
+      <Body><![CDATA["'9·19 복원' 방침 불변"이라지만…석달넘게 진전 안보여
+통일부 "부처간 협의 지속"…北기조·중동전쟁·한미협의 난항 등에 '주춤'
+   
+
+    (서울=연합뉴스) 하채림 김효정 기자 = 통일부는 남북 간 군사적 긴장 완화와 신뢰 회복을 위해 선제적, 단계적으로 9·19 군사합의를 복원해나간다는 정부 입장에 변화가 없다고 26일 밝혔다.
+    통일부 당국자는 이날 정부서울청사에서 취재진과 만난 자리에서 비행금지구역 설정 등 9·19 합의 복원을 위한 관계부처 검토 및 유엔군사령부와의 협의가 전면 중단됐다는 언론 보도와 관련한 질문에 "구체적인 복원 조치를 유관부처와 협의 중에 있다"며 이같이 답변했다.
+    다만 "유엔사와 협의 중단된 부분은 알지 못한다"고 이 당국자는 덧붙였다.
+    앞서 이재명 대통령은 작년 8월 광복절 경축사에서 9·19 합의를 선제적, 단계적으로 복원해나가겠다는 방침을 밝힌 바 있다.
+    이어 정동영 통일부 장관은 올해 2월 안보관계부처 장관회의의 협의 결과라며 9·19 합의 중 비행금지구역 설정부터 복원을 추진한다고 발표했다.
+    그러나 그로부터 석 달이 넘게 흘렀지만 비행금지구역 복원에 관한 가시적인 조처는 없는 상태다.
+    통일부는 정부의 9·19 합의 복원 방침에 변화가 없다는 입장을 재확인했지만 협의가 지지부진한 데에는 여러 가지 배경이 거론된다.
+
+    우선 정부가 비행금지구역 복원 추진 의사를 밝힌 후 열린 제9차 노동당대회와 이어진 최고인민회의에서 북한은 '적대적 두 국가 관계' 대남 노선을 한층 고착화했다. 정부의 선제적 긴장 완화 신호에 호응하기는커녕 "한국을 가장 적대적인 국가로 공인"한다며 적대성을 노골적으로 드러냈다.
+    안규백 국방부 장관도 지난달 언론 간담회에서 "공중에서 여러 제약 조건을 풀려다가 남북 관계가 긴장상태로 가서 주춤하고 있다"며, 북한의 적대적 기조 탓에 비행금지구역 복원 추진이 어렵다는 점을 우회적으로 언급했다.
+    정부는 또, 미국의 이란 공격으로 미군 전력이 중동으로 일부 차출된 상황에서 9·19 합의 복원은 대비 태세 약화 우려를 부를 수 있다는 것도 주요하게 고려한 것으로 알려졌다.
+    특히 9·19 합의 복원을 놓고 군과 주한미군의 협의도 순조롭지 않은 것으로 전해졌다.
+     국방부는 이날 9·19 합의 복원 협의가 중단됐는지 질문에 즉답하지 않은 채 "국방부는 정부의 한반도 평화공존 정책 추진을 군사적으로 지원하고 있다"고 연합뉴스에 밝혔다.
+    이어 "국방부는 확고한 군사대비태세와 한미연합방이태세를 유지한 가운데 다양한 군사적 신뢰 구축 방안을 검토 및 추진해 나갈 것"이라고 덧붙였다.
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[80주년 광복절 경축사 하는 이재명 대통령]]></Title>
+         <Caption><![CDATA[2025.8.15 [대통령실통신사진기자단=연합뉴스 자료사진] hihong@yna.co.kr]]></Caption>
+         <FileName>PYH2025081503320001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/08/15/PYH2025081503320001300_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[최고인민회의서 시정연설하는 김정은]]></Title>
+         <Caption><![CDATA[[조선중앙TV 화면=연합뉴스 자료사진] 2026.3.24     [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026032409920004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/03/24/PYH2026032409920004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

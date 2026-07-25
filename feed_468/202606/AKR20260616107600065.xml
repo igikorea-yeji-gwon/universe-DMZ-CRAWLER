@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260616107600065</ContentID>
+      <SendDate>20260616</SendDate>
+      <SendTime>143929</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005009" name="김포"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260616107600065]]></Href>
+      <Writer><![CDATA[천정인]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[김포 애기봉평화생태공원 누적 방문객 100만명 달성]]></Title>
+      <Body><![CDATA[김포 애기봉평화생태공원 누적 방문객 100만명 달성
+    
+
+    
+    (김포=연합뉴스) 천정인 기자 = 경기 김포시 애기봉평화생태공원이 누적 방문객 100만명을 달성했다.
+    16일 김포문화재단에 따르면 애기봉평화생태공원은 지난해 2월 누적 방문객 50만명을 달성한 이후 16개월 만인 지난 14일 100만번째 방문객을 맞았다. 
+    애기봉평화생태공원은 북한 개풍군과 조강을 조망할 수 있는 국내 대표적인 비무장지대(DMZ) 관광지로, 평화 생태전시관과 조강 전망대, 생태탐방로 등을 갖추고 있다.
+    김포문화재단은 100만번째 방문객에게 축하 꽃다발을 전달하고 이달 말 방문객 100만명 달성 기념 특별문화행사도 열 계획이다.
+    김포시 관계자는 "앞으로도 애기봉만의 역사·문화·생태 자원을 활용한 다양한 콘텐츠를 개발해 한국을 대표하는 문화관광 명소로 성장하도록 노력하겠다"고 말했다.
+    iny@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[애기봉 평화생태공원]]></Title>
+         <Caption><![CDATA[[김포시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20231220000183065_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2023/12/20/83/PCM20231220000183065_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

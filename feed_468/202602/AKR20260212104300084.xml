@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260212104300084</ContentID>
+      <SendDate>20260212</SendDate>
+      <SendTime>141319</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102030" name="태국"/>
+         <RegionCode code="7102027" name="캄보디아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101006" name="분쟁"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260212104300084]]></Href>
+      <Writer><![CDATA[박진형]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[태국-캄보디아 국경 또 지뢰 폭발…태국 병사 중상]]></Title>
+      <SubTitle><![CDATA['총선 압승' 아누틴 정부 강경 대응 가능성]]></SubTitle>
+      <Body><![CDATA[태국-캄보디아 국경 또 지뢰 폭발…태국 병사 중상
+'총선 압승' 아누틴 정부 강경 대응 가능성
+
+
+
+    (하노이=연합뉴스) 박진형 특파원 = 태국 총선에서 캄보디아 상대 강경 대응을 예고한 아누틴 찬위라꾼 총리의 정당이 압승을 거둔 가운데 태국-캄보디아 국경 지대에서 또 지뢰 폭발로 태국 군인이 중상을 입어 불안정한 휴전 상태가 흔들릴 위험성이 커졌다.
+    12일(현지시간) 블룸버그 통신과 네이션·방콕포스트 등 현지 매체들에 따르면 전날 오후 4시 40분께 태국 동부 시사껫주 깐타랄락 지역의 캄보디아와 접경지대에서 지뢰가 터졌다.
+    이 사고로 병사 1명이 왼쪽 무릎 아래를 잃는 중상을 입어 병원에서 치료받고 있으며, 다른 병사 2명도 가벼운 부상을 했다고 태국군이 밝혔다.
+    크게 다친 병사는 소속 부대의 통제 구역 안에서 수색 임무를 맡아 근무하다가 사고를 당한 것으로 알려졌다.
+    태국군의 초기 보고서에 따르면 지뢰는 과거 매설된 것이 아직 남아 있던 것으로 추정된다.
+    이로써 지난해 5월 국경 지대에서 양국 간 무력 충돌이 시작된 이후 지뢰 폭발 사고로 중상을 입은 태국 군인은 12명, 그 밖의 부상 군인은 최소 21명으로 늘었다고 방콕포스트는 전했다.
+    앞서 지난해 7월과 12월 두 나라가 본격적인 국경 지대 교전을 벌이면서 태국 측에서는 군인과 민간인 등 104명이 사망했다.
+    캄보디아 측에서는 공식적인 군인 사망자수가 공개되지 않은 가운데 민간인 38명이 숨진 것으로 전해졌다.
+    두 나라는 작년 12월 하순 휴전했지만, 이번 지뢰 사고로 다시 긴장이 높아질 것으로 보인다.
+    특히 지난 8일 총선에서 아누틴 총리와 여당 품짜이타이당이 양국 무력 충돌로 태국을 휩쓴 민족주의 열풍을 타고 압승하면서 태국의 강경 대응 가능성이 커지고 있다.
+    아누틴 총리는 선거 기간 국방력 강화를 강조하면서 국경 수호를 위해 태국-캄보디아 국경에 장벽을 설치하겠다고 공약했다.
+    또 자신이 집권하면 2001년 두 나라가 체결한 타이만 해역의 천연가스 매장지 관련 영유권 분쟁 합의를 파기하겠다고 예고하기도 했다.
+
+    jhpark@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[태국군이 캄보디아 국경지대에서 찾아낸 지뢰]]></Title>
+         <Caption><![CDATA[[방콕포스트 홈페이지 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260212104300084_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/12/AKR20260212104300084_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[태국, 지뢰폭발로 군인들 또 부상]]></Title>
+         <Caption><![CDATA[지난해 11월 10일(현지시간) 태국 동부 시사껫주의 캄보디아와 국경 지대에서 지뢰 폭발로 부상한 태국 군인 2명이 응급처치를 받고 있다. 202602.12
+[EPA 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20251110144101009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2025/11/10/PEP20251110144101009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

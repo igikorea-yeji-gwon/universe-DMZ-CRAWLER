@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260603101451065</ContentID>
+      <SendDate>20260604</SendDate>
+      <SendTime>063036</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0105001" name="선거일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001212" name="인천선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260603101451065]]></Href>
+      <Writer><![CDATA[홍현기]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[6·3 지선] 인천 군수·구청장 선거…민주당 11곳 중 8곳 승리(종합)]]></Title>
+      <SubTitle><![CDATA[4년 전 패배 설욕…국힘, 연수구·제물포구·강화군만 수성]]></SubTitle>
+      <Body><![CDATA[[6·3 지선] 인천 군수·구청장 선거…민주당 11곳 중 8곳 승리(종합)
+4년 전 패배 설욕…국힘, 연수구·제물포구·강화군만 수성
+
+
+
+    (인천=연합뉴스) 홍현기 기자 = 6·3 인천 기초자치단체장 선거에서 더불어민주당이 4년 전 패배를 설욕하며 압승을 거뒀다.
+    4일 중앙선거관리위원회의 개표 결과에 따르면 인천 11개 군·구 단체장 선거 가운데 민주당이 8곳, 국민의힘이 3곳에서 승리했다.
+    4년 전 지방선거에서 국민의힘이 7곳(보수계열 강화군 무소속 후보 제외), 민주당이 2곳에서 승리한 것과 반대되는 양상이다.
+    북한 접경지 서해5도를 낀 옹진군에서는 전직 군수인 민주당 장정민 후보가 현직 군수 국민의힘 문경복 후보를 누르고 재선 고지에 올랐다.
+    인천국제공항을 품은 신설 자치구 영종구에서는 청와대 행정관을 지낸 손화정 민주당 후보가 현직 중구청장인 국민의힘 김정헌 후보에 승리했다.
+    계양구에서는 3선 구청장을 지낸 민주당 박형우 후보가 4년간의 공백을 딛고 당선되면서 인천 최초 '징검다리 4선' 기록을 세웠다.
+    부평구에서는 재선 구청장인 민주당 차준택 후보가 현직 인천시의원인 국민의힘 이단비 후보를 이기고 3선에 성공했다.
+    미추홀구에서는 민선 7기 구청장인 민주당 김정식 후보가 현직 구청장인 국민의힘 이영훈 후보와의 '리턴매치'에서 승리하면서 4년 전 패배를 설욕했다.
+    서구 민주당 구재용 후보와 남동구 민주당 이병래 후보도 각각 현직 구청장인 국민의힘 후보에 맞서 승리를 거뒀다.
+    서구의 분구로 이번에 신설된 검단구에서도 민주당 김진규 후보가 상대 후보를 큰 격차로 따돌리고 당선됐다.
+    국민의힘은 연수구, 제물포구, 강화군 3곳을 수성하는 데 그쳤다. 
+    송도국제도시가 있는 연수구에서는 현직 구청장인 국민의힘 이재호 후보가 접전 끝에 민주당 정지열 후보를 꺾고 3선 고지에 올랐다. 
+    동구와 중구 내륙이 통합돼 보수 성향이 강한 지역으로 꼽히는 신설 자치구 제물포구에서는 현직 동구청장인 국민의힘 김찬진 후보가 근소한 차이로 승리했다.
+    북한 접경지로 보수 강세 지역인 강화군에서는 현직 군수인 국민의힘 박용철 후보가 군수 도전에 4번째로 나선 민주당 한연희 후보를 누르고 당선됐다.
+    hong@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[투표하는 유권자들]]></Title>
+         <Caption><![CDATA[(인천=연합뉴스) 임순석 기자 = 제9회 전국동시지방선거일인 3일 인천 연수구 선학초등학교에 마련된 선학동 제2투표소에서 유권자들이 투표하고 있다. 2026.6.3 soonseok02@yna.co.kr]]></Caption>
+         <FileName>PYH2026060301670006500_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/03/PYH2026060301670006500_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

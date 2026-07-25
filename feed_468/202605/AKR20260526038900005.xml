@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260526038900005</ContentID>
+      <SendDate>20260526</SendDate>
+      <SendTime>094150</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Region>
+         <RegionCode code="7103001" name="유럽"/>
+         <RegionCode code="7103043" name="폴란드"/>
+         <RegionCode code="7103040" name="체코"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0701005" name="학술"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260526038900005]]></Href>
+      <Writer><![CDATA[박의래]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도·한국유럽학회, 체코·폴란드서 한반도 평화 학술대회]]></Title>
+      <SubTitle><![CDATA[평화·안보·경제협력 미래 방향 논의]]></SubTitle>
+      <Body><![CDATA[경기도·한국유럽학회, 체코·폴란드서 한반도 평화 학술대회
+평화·안보·경제협력 미래 방향 논의
+
+
+
+    (서울=연합뉴스) 박의래 기자 = 경기도와 한국유럽학회는 '유럽 기반 한반도 평화 지식교류 플랫폼' 사업의 일환으로 체코 프라하와 폴란드 크라쿠프에서 국제학술대회를 개최했다고 26일 밝혔다.
+    행사는 지난 19일 체코 프라하 카를로바 대학교에서 '불확실성의 시대: 대한민국, 체코, 유럽연합의 전략적 협력'을 주제로, 22일 폴란드 크라쿠프 야기엘론스키 대학교에서 '불확실성의 시대: 유럽의 경험과 한반도 평화구축을 위한 협력'을 주제로 각각 열렸다.  
+    학술대회에서는 한국·체코·폴란드 주요 대학과 연구기관 학자들이 참여해 체제전환 경험, 유럽연합(EU) 확대 이후 경제수렴, 러시아-우크라이나 전쟁 이후 유럽 안보 전략, 에너지 안보, 이주·노동 정책 등을 토론했다.
+    홍영기 주체코 한국대사와 태준열 주폴란드 한국대사가 참석했으며, 이반 얀차렉 주한 체코대사는 영상 축사를 했다. 
+    이번 행사를 조율한 김남국 한국유럽학회 전임 회장은 "이번 국제학술대회는 유럽의 역사적 전환 경험과 한반도 평화 담론을 연결하는 매우 의미 있는 국제학술 교류의 장이었다"며 "불확실성이 심화하는 국제정세 속에서 한국과 유럽의 학자·정책전문가들이 평화·안보·경제협력의 미래 방향을 논의했다는 점에서 의의가 있다"고 말했다.
+    학술대회 성과는 오는 10월 비무장지대(DMZ) 에코 피스 포럼과 12월 한국유럽학회 연례학술대회에서 공유된다.
+    laecorp@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도·한국유럽학회 국제학술대회]]></Title>
+         <Caption><![CDATA[[한국유럽학회 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260526038900005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/26/AKR20260526038900005_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260122075100504</ContentID>
+      <SendDate>20260122</SendDate>
+      <SendTime>175231</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="1001005" name="북한군사"/>
+         <ClassCode code="1001001" name="북한정치"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260122075100504]]></Href>
+      <Writer><![CDATA[이은정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[통일부 "'무인기 北 침투' 9·19 합의 복원되면 억제 가능"]]></Title>
+      <Body><![CDATA[통일부 "'무인기 北 침투' 9·19 합의 복원되면 억제 가능"
+
+
+
+    (서울=연합뉴스) 이은정 기자 = 9·19 남북 군사합의를 복원한다면 민간의 대북 '무인기 침투'를 막을 수 있을 것이라고 통일부 당국자가 밝혔다. 
+    황승희 통일부 통일정책협력관은 22일 국회 도서관에서 민족화해협력범국민협의회 주최로 열린 '2026 통일정책포럼'에 참석해 민간인의 무인기 북한 침투는 "전쟁 개시 행위나 마찬가지"라고 한 이재명 대통령의 언급을 상기하며 이렇게 말했다.
+    황 협력관은 "9·19 군사합의가 선제·단계적으로 복원될 수 있다면 그런 부분(무인기 침투)을 조금 억제할 수 있고, 접경지역에서 평화적 제도화가 가능하지 않겠나"라고 말했다.
+    문재인 정부 때인 2018년 남북이 체결한 9·19군사합의는 ▲ 육상 및 해상 완충구역 내 포사격 및 기동훈련 금지 ▲ 비행금지구역 설정 ▲ JSA 비무장화 등의 내용을 담고 있다.
+    무인기는 군사분계선(MDL)으로부터 동부지역에서 15km, 서부지역에서 10km에서 비행이 금지돼 있어 황 협력관의 발언은 이를 염두에 둔 것으로 보인다.
+    윤석열 정부는 2023년 11월 북한의 정찰위성 발사에 대응해 9·19 군사합의 중 남북 접경지에 비행금지구역을 설정한 조항의 효력 정지를 결정했고, 이에 북한은 군사합의 전면 파기를 선언했다.
+    이후 오물 풍선 살포와 위치정보시스템(GPS) 교란 공격 등 북한의 대남 도발이 이어지자, 윤석열 정부는 2024년 6월 군사합의 전면효력 정지를 결정했다.
+    이재명 정부는 남북 간 우발 충돌을 방지하고 정치·군사적 신뢰를 구축하겠다는 취지에서 공중→지상→해상 순서로 우발적 충돌 방지 조치를 추진하는 등  9·19 군사합의를 복원하겠다는 입장이다.
+    ask@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[서울역에서 무인기 관련 뉴스 보는 시민들]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 이진욱 기자 = 11일 서울역 대합실에서 시민들이 북한의 무인기 영공 침범 주장 관련 뉴스를 보고 있다. 이날 김여정 북한 노동당 부부장은 "명백한 것은 한국발 무인기가 우리 국가의 영공을 침범하였다는 사실 그 자체"라며 "실체에 대한 구체적인 설명은 반드시 있어야 할 것"이라고 밝혔다. 2026.1.11 cityboy@yna.co.kr]]></Caption>
+         <FileName>PYH2026011103360001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/11/PYH2026011103360001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260306118100005</ContentID>
+      <SendDate>20260306</SendDate>
+      <SendTime>150309</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0707001" name="미술일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260306118100005]]></Href>
+      <Writer><![CDATA[박의래]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[유휴공간을 문화공간으로…아르코 작은미술관 사업 10주년]]></Title>
+      <Body><![CDATA[유휴공간을 문화공간으로…아르코 작은미술관 사업 10주년
+
+
+    (서울=연합뉴스) 박의래 기자 = 공공 유휴공간을 지역 문화공간으로 활용하는 '작은미술관 조성 및 운영지원 사업'이 10주년을 맞았다.
+    문화체육관광부와 한국문화예술위원회(아르코) 지난 5일 서울 대학로 예술가의 집에서 작은미술관 사업 10주년 기념 행사를 열었다고 6일 밝혔다.
+    이 사업은 미술관이 없는 지역의 공공 유휴공간을 문화공간으로 조성해 지역 주민의 예술 향유 기회를 넓히는 일이다. 2015년 시작해 전국 34개 시·군에 38개의 작은미술관이 조성됐다.
+    이 기간 2천907명의 예술인이 참여해 1천291회의 전시가 열렸고, 누적 관람객은 57만 명을 넘어섰다. 
+    이번 행사에서는 우수 사례 시상도 진행됐다.
+    단체 부문 대상은 민방위 대피소를 활용해 조성된 경기 김포 '작은미술관 보구곶'이 받았다. 접경지역이라는 장소성을 반영해 인근 군부대와 지역 주민이 함께하는 전시와 교육 프로그램을 꾸준히 운영해 온 점이 높은 평가를 받았다.
+    지역자원 가치확산상은 삼천포대교공원 인근에 조성된 경남 사천 작은미술관이, 지역협력 거버넌스 우수상은 옛 여인숙 건물을 재생한 인천 배다리 잇다스페이스 작은미술관이 각각 수상했다. 운영 지속성 우수상은 정미소를 개조해 조성한 나주 작은미술관이 받았다. 
+    개인 부문에서는 안계 작은미술관 김현주 관장과 나주 작은미술관 이명규 이사장이 운영공로상을, 삼척 작은미술관 AND의 김신애 기획자가 우수기획자상을 수상했다.
+    정병국 아르코 위원장은 "지난 10년은 예술가와 기획자, 지역 주민의 헌신으로 유휴공간이 예술이 숨 쉬는 문화공간으로 거듭난 시간이었다"며 "앞으로도 국민이 일상 가까이에서 예술을 만날 수 있도록 지원을 이어가겠다"고 말했다.
+    
+
+    laecorp@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['작은미술관 조성 및 운영지원 사업' 10주년 기념행사]]></Title>
+         <Caption><![CDATA[정병국 아르코 위원장(맨 왼쪽)과 수상자들이 기념촬영을 하고 있다.
+[아르코 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306118100005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306118100005_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['작은미술관 보구곶' 전경]]></Title>
+         <Caption><![CDATA[[아르코 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306118100005_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306118100005_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

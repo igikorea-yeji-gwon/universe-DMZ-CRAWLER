@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260605078800063</ContentID>
+      <SendDate>20260605</SendDate>
+      <SendTime>134043</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003004" name="대전"/>
+      </Region>
+      <Class>
+         <ClassCode code="0802005" name="등산"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260605078800063]]></Href>
+      <Writer><![CDATA[김준호]]></Writer>
+      <Desk code="063"><![CDATA[대전충남취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[산림청, 'DMZ펀치볼둘레길'서 감자꽃 숲길 걷기 체험]]></Title>
+      <Body><![CDATA[산림청, 'DMZ펀치볼둘레길'서 감자꽃 숲길 걷기 체험
+
+
+    
+    (대전＝연합뉴스) 김준호 기자 = 산림청은 6일부터 이틀간 비무장지대(DMZ) 펀치볼둘레길 일원에서 '감자꽃&숲길 걷기' 행사를 시범 운영한다고 5일 밝혔다.
+    이 행사는 단순한 탐방 중심의 숲길 이용에서 벗어나 국가숲길이 가진 자연경관을 지역 산촌의 역사·문화 스토리텔링과 결합해 '지역 발전을 견인하는 축'으로 활용하기 위해 마련됐다.
+    프로그램에 참여하는 탐방객은 지역 농가와 연계한 '숲밥 및 감자전 만들기' 체험을 할 수 있다.
+    산림청은 이번 시범 운영을 토대로 향후 전국 국가숲길과 산촌이 상생할 수 있는 '지역 활성화 표준 체험 프로그램'의 매뉴얼을 정립해 나갈 예정이다.
+    산림청은 2021년 지리산 둘레길을 시작으로 산림생태·문화·역사적으로 가치가 있는 9개 숲길을 국가숲길로 지정해 체계적으로 관리하고 있다. 
+    조영희 산림복지국장은 "이번 DMZ펀치볼둘레길 체험을 비롯한 다양한 국가숲길 체험프로그램을 통해 국민건강 증진은 물론 전국 산촌에 활력을 불어넣을 수 있는 상생 모델을 만들어 나가겠다"고 말했다.
+    kjunho@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ펀치볼둘레길]]></Title>
+         <Caption><![CDATA[[산림청 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260605078800063_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/05/AKR20260605078800063_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

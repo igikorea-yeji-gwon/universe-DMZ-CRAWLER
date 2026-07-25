@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260326077751030</ContentID>
+      <SendDate>20260326</SendDate>
+      <SendTime>161638</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Class>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0409001" name="유통일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0409003" name="전자거래"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260326077751030]]></Href>
+      <Writer><![CDATA[김채린]]></Writer>
+      <Desk code="030"><![CDATA[소비자경제부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["영월 유배지부터 울릉도까지"…G마켓·롯데온, 여행상품 할인(종합)]]></Title>
+      <SubTitle><![CDATA[문화체육관광부·한국관광공사와 봄맞이 특별전]]></SubTitle>
+      <Body><![CDATA["영월 유배지부터 울릉도까지"…G마켓·롯데온, 여행상품 할인(종합)
+문화체육관광부·한국관광공사와 봄맞이 특별전
+
+
+    (서울=연합뉴스) 김채린 기자 = G마켓(지마켓)과 롯데온은 '2026 여행가는 달'을 맞아 문화체육관광부·한국관광공사와 함께 '봄 여행상품 할인 특별전'을 진행한다고 26일 밝혔다.
+    G마켓에 따르면 이번 행사에는 90여개 여행사 및 관광시설이 참여해 상품 200여개를 선보인다.
+    구매 상품은 다음 달 1일부터 오는 5월 29일까지 이용 가능하며, 정부 지원 30% 할인쿠폰에 G마켓 10% 쿠폰을 더하면 최대 10만원까지 할인받을 수 있다.
+    이 밖에도 G마켓은 상품을 유형과 지역별로 구분해 여행 목적에 따라 쉽게 고를 수 있도록 했으며, 숙박 여행과 레저·입장권도 다양하게 준비했다고 설명했다.
+    당일여행 상품으로는 'KTX 이음 영주 세계문화유산&한우 미식 기차여행', '사유원 봄나들이 도슨트 투어', '구례·하동 지리산 봄꽃 여행', 숙박여행은 '목포·신안 프리미엄 미식 로드', '전북 예찬 마음이 머무는 세 가지 풍경' 등으로 구성됐다.
+    롯데온은 '롯데온과 국내여행, 전국 방방곡곡 설렘ON'이라는 슬로건으로 오는 5월 29일까지 전국 여행 상품을 할인된 가격에 선보인다.
+    대표 상품은 단종이 폐위 후 유배됐던 강원도 영월의 미식여행이다.
+    또 백제 세계문화유산을 탐방할 수 있는 익산 미륵사지 여행과 경주 키즈역사여행, 선사박물관부터 DMZ까지 탐방하는 연천 투어, 울릉도 2박3일 여행 등도 만나볼 수 있다.
+    롯데온은 행사 기간 최대 5만 원까지 할인되는 30% 할인쿠폰을 1인당 3매씩 제공한다고 설명했다. 여기에 롯데온 자체 할인과 카드 할인이 추가돼 최대 40% 저렴하게 구매할 수 있다.
+    lynn@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[G마켓, '봄 여행상품 할인 특별전' 진행]]></Title>
+         <Caption><![CDATA[[G마켓 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260326077751030_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/26/AKR20260326077751030_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

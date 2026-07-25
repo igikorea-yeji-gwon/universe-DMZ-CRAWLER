@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260501051400062</ContentID>
+      <SendDate>20260501</SendDate>
+      <SendTime>170128</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004013" name="철원"/>
+         <RegionCode code="7004005" name="삼척"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0509001" name="노동일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0801012" name="휴가휴일"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260501051400062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[노동절 철원 찾은 우상호…삼척 공약 발표한 김진태]]></Title>
+      <SubTitle><![CDATA[우 후보 "고향 발전 불씨 되겠다"…김 후보 "생명의료 도시로 탈바꿈"]]></SubTitle>
+      <Body><![CDATA[노동절 철원 찾은 우상호…삼척 공약 발표한 김진태
+우 후보 "고향 발전 불씨 되겠다"…김 후보 "생명의료 도시로 탈바꿈"
+
+    (춘천=연합뉴스) 이재현 기자 = 6·3 지선을 한 달여 앞둔 1일 63년 만에 법정공휴일로 지정된 노동절을 맞아 강원도지사 여야 후보는 접경지역과 남부권에서 각각 주민 소통과 공약 발표를 통한 표심 공략에 나섰다.
+
+    더불어민주당 우상호 예비 후보는 이날 고향인 철원군을 찾아 '갈말읍민의 날 주민 한마음 대회'에 참석해 주민과 소통의 시간을 가졌다.
+    갈말읍 승격 47주년을 기념해 갈말읍 체육회 주관으로 철원종합운동장 보조경기장에서 열린 이 행사에는 1천여명이 읍민이 참여해 화합의 장을 이뤘다.
+    운동장을 돌며 주민들과 손을 맞잡으며 인사를 나는 우 후보는 "운동장을 가득 채운 주민들의 뜨거운 에너지를 보니 고향 철원의 저력이 느껴진다"고 말했다.
+    또 "이 단합된 마음이 철원 발전의 커다란 불씨가 될 수 있도록 든든한 뒷받침이 되겠다"고 강한 의지를 내비쳤다.
+    우 후보는 이어 제10대 강원도의회 후반기 도의장을 역임한 한금석 철원군수 후보자의 출정식에 참석했다.
+    우 후보는 이 자리에서 "지역 발전을 위해서는 도지사와 군수가 여당 소속으로 한목소리를 내야 중앙정부와의 소통이 원활해진다"며 "정체된 철원의 수십 년 숙원을 4년 안에 해결할 기회를 달라"며 이재명 정부의 성공을 뒷받침할 한 후보의 필승 당위성을 역설했다.
+
+    국민의힘 김진태 예비 후보는 이날 삼척시 근덕면 수소공장 부지에서 박상수 삼척시장 후보자와 함께 삼척의 미래 먹거리 창출을 위한 핵심 공동공약을 발표했다.
+    두 후보는 삼척을 수소 저장·운송의 메카이자 첨단 의료 거점, 해양 관광 1번지로 도약시키겠다는 구체적인 로드맵을 제시했다.
+    이 중 수소 저장·운송 클러스터는 총사업비 3천177억원이 투입되는 대규모 프로젝트다.
+    이와 함께 석탄산업 전환지역인 삼척 도계읍의 자생력을 위한 '중입자 가속기 기반 의료클러스터 조성 사업도' 핵심 공약 발표에 포함됐다.
+    2026년부터 2030년까지 5년간 3천603억원을 투입하는 이 사업은 중입자 암 치료 시설을 구축하는 대형 프로젝트로, 지역 간 의료 격차를 해소하고 글로벌 체류·치유 관광 벨트를 조성하는 전환점이 될 것이라고 설명했다.
+    김 후보는 "삼척은 중입자 가속기 의료클러스터를 통해 생명의료도시로 탈바꿈하게 될 것"이라며 "여기에 수소와 관광을 더해 미래 에너지와 해양관광의 중심지로 확실히 키우겠다"고 말했다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 주민 만나는 우상호 후보]]></Title>
+         <Caption><![CDATA[[우상호 후보 선거캠프 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260501051400062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/01/AKR20260501051400062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[삼척 방문한 김진태 후보]]></Title>
+         <Caption><![CDATA[[김진태 후보 선거캠프 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260501051400062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/01/AKR20260501051400062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

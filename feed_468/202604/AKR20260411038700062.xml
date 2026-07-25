@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260411038700062</ContentID>
+      <SendDate>20260411</SendDate>
+      <SendTime>155946</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0804003" name="임신육아"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260411038700062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군 '공동육아 나눔터' 근남면 복합청사로 13일 이전]]></Title>
+      <SubTitle><![CDATA[취학 전후 아동과 학부모 위한 품앗이 활동 등 육아 지원]]></SubTitle>
+      <Body><![CDATA[철원군 '공동육아 나눔터' 근남면 복합청사로 13일 이전
+취학 전후 아동과 학부모 위한 품앗이 활동 등 육아 지원
+
+
+    (철원=연합뉴스) 류호준 기자 = 강원 철원군은 육단리 군인아파트 내 있는 공동육아 나눔터를 오는 13일 근남면 복합청사로 이전한다고 11일 밝혔다.
+    공동육아 나눔터는 2020년 도시재생 뉴딜사업으로 선정된 '접경지역의 생존모델, 국경 없는 양지마을' 도시재생사업의 일환으로 조성됐다.
+    제15보병사단이 운영 중으로, 이용 대상은 취학 전후 아동 및 학부모이다.
+    운영시간은 평일 오전 10시부터 오후 5시 30분까지다.
+    근남면 복합청사 3층 공동육아 나눔터로 직접 방문 신청 후 이용할 수 있다.
+    이용 관련 자세한 문의는 공동육아 나눔터 담당자(☎033-458-4198)에게 문의하면 된다.
+    이곳에서는 취학 전후 아동 및 학부모를 위해 품앗이 활동, 장난감도서관 등 다양한 프로그램을 운영 중으로, 이웃 간 소통과 교감 속에서 아이를 키울 수 있도록 지원하는 기능을 수행한다.
+    윤혜연 근남면장은 "근남면 복합청사 내 공동육아 나눔터 설치로 저출산 시대 자녀 출산과 양육이 부담이 아닌 기쁨으로 다가오는 계기가 되었으면 좋겠다"며 "자녀와 함께 성장하는 부모를 응원하겠다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군청]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240530000005990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/05/30/05/PCM20240530000005990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

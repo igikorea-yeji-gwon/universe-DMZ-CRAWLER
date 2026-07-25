@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260212121200060</ContentID>
+      <SendDate>20260212</SendDate>
+      <SendTime>142107</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0801012" name="휴가휴일"/>
+         <ClassCode code="0702006" name="민속풍습"/>
+         <ClassCode code="0801001" name="생활정보"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260212121200060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주임진각평화곤돌라 "설 연휴 80세 이상 무료 탑승"]]></Title>
+      <Body><![CDATA[파주임진각평화곤돌라 "설 연휴 80세 이상 무료 탑승"
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주임진각평화곤돌라는 설 연휴를 맞아 귀성객들이 가족들과 함께 즐겁게 지낼 수 있도록 오는 14∼18일 휴무 없이 정상 운영한다고 12일 밝혔다.
+
+    파주임진각평화곤돌라는 지난해 설 연휴 나흘간 약 1만 명 이상이 이용한 만큼 이번 설 연휴에도 많은 고객이 방문할 것으로 예상한다.
+    또, 설 연휴를 맞아 어르신 무료 탑승 이벤트를 진행한다. 
+    80세(1947년생) 이상이면 누구나 곤돌라 무료 탑승 혜택을 받을 수 있으며, 무료 탑승을 위해서는 매표소에 신분증을 제시해야 한다.
+    이와 함께 디엠지(DMZ) 스테이션 지하 1층에 있는 DMZ스페이스에서는 16∼18일 설날 체험 행사인 '복을 담아 가세요' 복주머니 만들기 체험도 진행된다. 
+    참여자들은 마음에 드는 복주머니 도안을 선택해 색칠한 뒤, 직접 가위로 오리고 풀로 붙여 나만의 복주머니를 만들 수 있다.
+    같은 공간에서는 설날 분위기를 더욱 달궈줄 '오징어게임 전통 놀이' 공간도 마련된다. 세계적 성공을 거둔 넷플릭스 시리즈 오징어게임에 등장한 딱지치기, 제기차기, 비석 치기, 공기놀이를 비롯해 설날을 대표하는 전통 놀이인 윷놀이와 투호까지 총 6종의 놀이를 체험할 수 있다. 
+    파주임진각평화곤돌라는 국내 최초 비무장지대(DMZ) 일대를 곤돌라로 이동하며 조망할 수 있는 관광 명소로, 내국인은 물론 외국인 관광객들에게도 꾸준한 관심과 사랑을 받고 있다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[임시개장한 임진각 평화 곤돌라]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2020040820070006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2020/04/08/PYH2020040820070006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

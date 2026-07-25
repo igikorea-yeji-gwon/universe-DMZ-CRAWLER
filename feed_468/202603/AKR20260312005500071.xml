@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260312005500071</ContentID>
+      <SendDate>20260312</SendDate>
+      <SendTime>033938</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7104002" name="미국"/>
+         <RegionCode code="7107011" name="이란"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+         <ClassCode code="0408015" name="드론"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260312005500071]]></Href>
+      <Writer><![CDATA[백나리]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[FBI, 지난달말 캘리포니아 경찰에 '이란 드론테러 가능성' 경고]]></Title>
+      <SubTitle><![CDATA[전쟁 개시 전 입수된 첩보 바탕…미국 본토서 보복시 확전 불가피]]></SubTitle>
+      <Body><![CDATA[FBI, 지난달말 캘리포니아 경찰에 '이란 드론테러 가능성' 경고
+전쟁 개시 전 입수된 첩보 바탕…미국 본토서 보복시 확전 불가피 
+
+
+    (워싱턴=연합뉴스) 백나리 특파원 = 미국 연방수사국(FBI)이 지난달 말 미 캘리포니아주 경찰 당국에 이란의 보복성 드론 테러 가능성을 경고했다고 미 ABC 방송이 11일(현지시간) 보도했다.
+    ABC 방송은 FBI가 지난달 말 캘리포니아 경찰에 전달했다는 경보문을 입수했다며 이렇게 전했다.
+    경보문에는 미국이 이란을 공격할 경우 이란이 미국 본토 해안의 선박에서 드론을 띄워 기습 공격을 할 수도 있다는 정보를 입수했다는 내용이 담겼다. 
+    FBI는 캘리포니아의 불특정 표적이 공격 대상이 될 수 있다면서 "시점과 방법, 표적, 주체에 대한 추가적 정보는 없다"고 덧붙였다. 
+    ABC는 경보문 발송의 정확한 날짜를 적시하지 않았으나 미국의 대이란 군사작전이 시작된 지난달 28일 즈음에 경보문이 전달된 것으로 보인다.
+    이란의 보복 공격 감행 가능성에 대한 첩보가 생산된 시점은 2월 초인 것으로 전해졌다.
+    미국 정보당국은 멕시코 마약 카르텔이 드론을 활용해 접경 지역의 미국 병력이나 민간인을 공격할 가능성을 우려해왔으며 이란이 이를 활용할 가능성이 있다고 ABC방송은 지적했다.
+    미 국토안보부에서 정보 파트를 총괄했던 존 코언은 "이란은 멕시코와 남미에 영향력이 있고 드론을 보유했으며 공격을 할 동기도 있다"면서 "경보를 발령해 지방 정부가 더 나은 대비·대응을 할 수 있도록 한 것은 현명한 처사"라고 말했다.
+    이란이 미국 본토에서 어떤 형태로든 도널드 트럼프 미 행정부의 대이란 군사작전에 대한 보복 공격을 감행한다면 사태가 걷잡을 수 없이 확대될 가능성이 크다. 
+    트럼프 행정부가 대이란 군사작전을 개시한 이후 이란은 중동 지역의 미군 기지 등을 겨냥해 보복에 나서기는 했지만 미국 본토를 상대로 한 공격을 한 적은 없다.
+    다만 첩보의 시점이나 FBI에 입수된 시점이 대이란 군사작전 개시 이전으로 보이는 만큼 첩보의 신뢰성이 어느 수준인지, 10일 넘게 전쟁이 이어지고 있는 지금도 유효한지는 미지수다.
+    nari@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[미군 잠수함에 격침되는 이란 군함]]></Title>
+         <Caption><![CDATA[[UPI 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PUP20260305019201009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/up/2026/03/05/PUP20260305019201009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

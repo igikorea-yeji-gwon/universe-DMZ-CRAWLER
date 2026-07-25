@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260327172500108</ContentID>
+      <SendDate>20260327</SendDate>
+      <SendTime>224133</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103033" name="에스토니"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260327172500108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[푸틴 최측근 "에스토니아도 러시아의 일부였다"]]></Title>
+      <Body><![CDATA[푸틴 최측근 "에스토니아도 러시아의 일부였다"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 블라디미르 푸틴 러시아 대통령의 최측근인 드미트리 메드베데프 러시아 국가안보회의 부의장이 에스토니아가 과거 러시아의 영토였다고 발언했다.
+    27일(현지시간) 메드베데프 부의장은 자신의 엑스(X·옛 트위터)에 영어로 글을 올려 "칼라스가 러시아에 대해 '자신들의 것이 아닌 것을 요구한다'며 또 실언을 했다"고 지적했다.
+    그러면서 "돈바스는 다른 누구도 아닌 러시아의 것이었다"며 "사실 에스토니아도 러시아의 일부였다"고 주장했다.
+    카야 칼라스 유럽연합(EU) 외교안보 고위대표는 전날 주요 7개국(G7) 외무장관회의에서 러시아의 우크라이나 돈바스 영토 할양 주장에 대해 "러시아는 협상에서 결코 자신들의 것이 아니었던 것을 요구하는 전략을 흔히 사용한다"며 "이런 함정에 빠지지 않도록 조심해야 한다"고 말했다. 칼라스 대표는 에스토니아 총리 출신이다. 러시아 접경국 에스토니아는 과거 제정 러시아의 지배를 받았다.
+    젤렌스키 대통령은 지난 26일 프랑스 일간 르몽드 인터뷰에서 "미국은 우리에게 '러시아가 원하는 대로 돈바스에서 철수하면 우리가 안전을 보장하겠다'고 하지만 우리의 요새 시설이야말로 안전 보장 수단 중 하나"라며 철군을 거부했다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[드미트리 메드베데프 러시아 국가안보회의 부의장]]></Title>
+         <Caption><![CDATA[[타스 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20260223062301009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2026/02/23/PTA20260223062301009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

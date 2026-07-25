@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260223047800003</ContentID>
+      <SendDate>20260223</SendDate>
+      <SendTime>100026</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Class>
+         <ClassCode code="0404004" name="건축업"/>
+         <ClassCode code="0505001" name="환경일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001038" name="게시판"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260223047800003]]></Href>
+      <Writer><![CDATA[임기창]]></Writer>
+      <Desk code="003"><![CDATA[산업부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[게시판] GS건설, 임직원 가족과 철원 두루미 서식지 탐방]]></Title>
+      <Body><![CDATA[[게시판] GS건설, 임직원 가족과 철원 두루미 서식지 탐방
+
+
+    ▲ GS건설은 비영리 국제 자연보전단체 세계자연기금(WWF)과 함께 임직원 가족이 참여하는 '두루미 탐조 가족프로그램'을 강원 철원군에서 진행했다고 23일 밝혔다. 참가 임직원과 가족들은 전문가들로부터 두루미 생태 교육을 듣고 한탄강 및 민통선 인근 지역에서 활동 중인 두루미를 직접 관찰하며 비무장지대(DMZ) 생태계의 환경적 가치를 살펴보는 시간을 가졌다. 이번 행사는 GS건설이 작년 말 한국 WWF에 대한 기부금 후원의 후속 프로그램으로 마련됐다. (서울=연합뉴스)
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[GS건설, WWF와 연계한 임직원 가족 두루미 탐조활동]]></Title>
+         <Caption><![CDATA[[GS건설 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260223047800003_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/23/AKR20260223047800003_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

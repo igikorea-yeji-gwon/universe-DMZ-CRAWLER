@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260706093700003</ContentID>
+      <SendDate>20260706</SendDate>
+      <SendTime>142746</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Class>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0405004" name="자동차"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260706093700003]]></Href>
+      <Writer><![CDATA[김윤구]]></Writer>
+      <Desk code="003"><![CDATA[산업부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[현대차, DMZ국제다큐멘터리영화제에 수소차 지원]]></Title>
+      <Body><![CDATA[현대차, DMZ국제다큐멘터리영화제에 수소차 지원
+
+
+    (서울=연합뉴스) 김윤구 기자 = 현대자동차가 '제18회 DMZ국제다큐멘터리영화제'를 공식 후원하며 수소 모빌리티 비전을 알린다.
+    현대차[005380]는 6일 서울 서초구 양재사옥에서 신승규 현대차그룹 에너지&수소정책담당 부사장과 오동진 영화제 집행위원장 등이 참석한 가운데 후원 협약을 체결했다고 밝혔다.
+    오는 9월 10∼16일 경기도 고양특례시와 파주시에서 열리는 영화제 기간 현대차는 VIP와 주요 관계자 의전, 관람객 이동을 위해 수소전기 SUV '디 올 뉴 넥쏘' 5대와 대형 수소전기버스 '유니버스 FCEV' 3대 등 총 8대의 수소전기차를 지원한다.
+    또 영화제 현장에서 현대차그룹 수소 브랜드 'HTWO' 비전을 담은 영상으로 ESG(환경·사회적 책무·기업지배구조) 경영 의지를 알릴 계획이다.
+    ykim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[후원 협약식]]></Title>
+         <Caption><![CDATA[[현대차 제공]]]></Caption>
+         <FileName>AKR20260706093700003_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/07/06/AKR20260706093700003_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

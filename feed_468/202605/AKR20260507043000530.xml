@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260507043000530</ContentID>
+      <SendDate>20260507</SendDate>
+      <SendTime>103001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0507007" name="질병"/>
+         <ClassCode code="0507006" name="보건"/>
+         <ClassCode code="0507001" name="의료일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260507043000530]]></Href>
+      <Writer><![CDATA[성서호]]></Writer>
+      <Desk code="530"><![CDATA[정책사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['한해 환자 600명' 말라리아, 능동 감시로 매개 모기 잡아낸다]]></Title>
+      <SubTitle><![CDATA[임승관 질병청장, 위험지역 파주 방문…말라리아 퇴치 실행계획 현황 점검
+방역당국, 2030년 말라리아 퇴치 목표]]></SubTitle>
+      <Body><![CDATA['한해 환자 600명' 말라리아, 능동 감시로 매개 모기 잡아낸다
+임승관 질병청장, 위험지역 파주 방문…말라리아 퇴치 실행계획 현황 점검
+방역당국, 2030년 말라리아 퇴치 목표
+
+
+    (서울=연합뉴스) 성서호 기자 = 국내에서 한해 500∼600명 환자가 발생하는 말라리아를 퇴치하기 위해 방역당국이 감시 체계를 강화한다.
+    질병관리청은 7일 임승관 청장이 경기도 파주를 방문해 경기도와 군(軍), 파주시 의사회 등 주요 기관들과 말라리아 환자 발생 빈도가 높은 경기 북부 지역 관리를 위한 협력 체계 강화 방안을 논의했다고 밝혔다.
+    이번 현장 방문에서 질병청과 관련 기관들은 제2차 말라리아 퇴치 실행 계획의 추진 전략과 중점 추진 과제를 논의했다. 
+    우리나라는 2차 계획에 따라 2030년까지 국내에서 말라리아를 퇴치한다는 방침이다.
+    이들 기관은 경기 북부지역을 중심으로 ▲ 선제적 능동 감시를 통한 말라리아 사례 발견 다각화 및 역학 조사 ▲ 무증상 감염사례 확인 ▲ 조기 진단 및 신속한 치료를 통한 매개 모기와 환자 간 전파 고리 차단 ▲ 매개 모기 감시 및 방제 강화 등 말라리아 퇴치를 위한 구체적 방안들을 논의했다.
+    관계 기관들은 또 말라리아 관리에 중요한 비무장지대(DMZ)를 방문해 환자 관리, 모기 감시 현장을 점검하고, 전국 68개 기관이 참여하는 일상 혈액검사 중 이상 적혈구(iRBC)를 통한 말라리아 조기진단 사업 진행 상황도 확인했다.
+    임 청장은 "선제적 감시, 진단, 치료를 적극적으로 연계해 환자와 매개 모기 간 전파 고리를 차단하고, 2030년까지 말라리아를 퇴치하기 위해 최선을 다하겠다"고 말했다.
+
+    국내 말라리아 환자 수는 1970년 1만6천명가량으로 정점을 찍었다가 1979년 퇴치 수준으로 줄었으나 1993년 재출현했다. 
+    현재는 매년 500∼600명 수준으로 환자가 나오고 있다.
+    우리나라는 북한, 멕시코, 태국 등과 함께 2017년 세계보건기구(WHO)가 지정한 말라리아 퇴치 우선 국가에 포함됐다.
+    작년 기준 국내 말라리아 환자는 위험지역에서 모기가 활발히 활동하는 5∼10월에 전체 발생의 약 95%가 집중됐다.
+    지역별 환자는 경기도가 321명(59%)으로 가장 많이 발생했고, 이어 인천 103명(18.9%), 서울 62명(11.4%), 강원 26명(4.8%) 등 순이었다.
+
+    말라리아는 원충에 감염된 모기에 물려 걸리는 질환으로, 우리나라에서 주로 발생하는 말라리아는 삼일열말라리아다.
+    말라리아에 걸리면 발열, 오한, 발한 등 대체로 감기와 비슷한 증상이 나타나고, 증상이 48시간 주기로 반복된다.
+    말라리아 의심 증상이 발생하면 즉시 의료기관을 찾아가 치료받아야 한다.
+    말라리아는 적절한 치료를 받지 않으면 재발할 수 있으므로 의사의 처방에 따라 용법·용량에 맞게 치료제를 모두 복용해야 한다.
+
+    soho@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중국얼룩날개모기 암컷 성충(왼쪽)과 유충]]></Title>
+         <Caption><![CDATA[[질병관리청 제공]]]></Caption>
+         <FileName>AKR20260507043000530_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/07/AKR20260507043000530_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2025년 말라리아 매개모기 밀도 감시 지점]]></Title>
+         <Caption><![CDATA[[질병관리청 제공]]]></Caption>
+         <FileName>AKR20260507043000530_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/07/AKR20260507043000530_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[2025년 말라리아 매개모기 밀도 현황]]></Title>
+         <Caption><![CDATA[2025년 누적 매개모기지수는 82.0으로 평년(2022∼2024년)(87.9) 대비 6.7%, 전년(120.6) 대비 32.0% 감소했다. [질병관리청 제공]]]></Caption>
+         <FileName>AKR20260507043000530_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/07/AKR20260507043000530_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[[질병관리청 제공]]]></Caption>
+         <FileName>AKR20260507043000530_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/07/AKR20260507043000530_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

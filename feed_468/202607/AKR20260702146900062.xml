@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260702146900062</ContentID>
+      <SendDate>20260702</SendDate>
+      <SendTime>165745</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0402004" name="축산업"/>
+         <ClassCode code="0507006" name="보건"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260702146900062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 구제역 백신 접종 완료…가축전염병 선제 방역 강화]]></Title>
+      <Body><![CDATA[철원군, 구제역 백신 접종 완료…가축전염병 선제 방역 강화
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 SAT1형(국내 미접종 유형) 구제역 발생에 따른 접경지역 구제역 백신 2차 접종을 지난 2주간 실시해 농가 386곳의 돼지와 염소 총 2만8천942마리에 대한 접종을 완료했다고 2일 밝혔다.
+    군은 접종 4주 후 중화항체 검사 등 모니터링 등 사후관리를 통해 방역 효과를 지속해서 확인할 계획이다.
+    이와 함께 군은 지난달 1일부터 도청 동물방역과와 함께 가금농장 63곳을 대상으로 동절기 대비 방역 실태 점검을 추진하고 있다.
+    내달 7일까지 10주간 이어지는 이번 점검은 고병원성 조류인플루엔자(AI) 예방을 위한 조치로, 육계·산란계·오리·메추리·종계 농장의 소독설비와 방역시설, 방역 수칙 준수 여부 등을 집중적으로 확인하는 방식으로 진행된다.
+    특히 방역실, 전실, 울타리 등 의무 방역시설의 적정 설치와 운영 여부, 출입구 소독시설 관리 상태를 중점 점검해 동절기 이전 현장 방역체계를 한층 더 촘촘히 보완할 계획이다.
+    아울러 럼피스킨(LSD) 매개곤충 집중 출몰 시기를 앞두고 오는 14일까지 2주간 소 사육 농가를 대상으로 방역·방제 요령 홍보를 추진한다.
+    철원군 관계자는 "농가 대상 홍보와 모니터링을 지속해 구제역, 고병원성 AI, 럼피스킨 등 주요 가축전염병에 대한 상시 대응체계를 강화해 나가겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[돼지 검사]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2019053111820006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2019/05/31/PYH2019053111820006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

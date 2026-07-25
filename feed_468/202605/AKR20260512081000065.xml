@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260512081000065</ContentID>
+      <SendDate>20260512</SendDate>
+      <SendTime>110757</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005009" name="김포"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260512081000065]]></Href>
+      <Writer><![CDATA[천정인]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["스타벅스-북한 마주한 풍경"…외신, 김포 애기봉평화공원 주목]]></Title>
+      <SubTitle><![CDATA[美 ABC방송, 애기봉 찾아 시사교양프로그램 촬영]]></SubTitle>
+      <Body><![CDATA["스타벅스-북한 마주한 풍경"…외신, 김포 애기봉평화공원 주목
+美 ABC방송, 애기봉 찾아 시사교양프로그램 촬영
+    
+
+
+    (김포=연합뉴스) 천정인 기자 = 스타벅스에 앉아 북한 땅을 볼 수 있는 경기 김포시 애기봉평화생태공원이 외신의 주목을 받고 있다. 
+    12일 김포시에 따르면 미국 ABC 방송 촬영팀은 지난 8일 애기봉평화생태공원을 찾아 시사교양 프로그램을 촬영했다.
+    ABC뉴스 대표 종군기자이자 앵커인 밥 우드러프를 포함한 촬영팀은 미국 '재향 군인의 날'을 맞아 세계 각지의 미군 부대를 방문해 군인들의 이야기와 주변 지역 주민들의 삶을 조명하는 프로그램을 제작하는 것으로 알려졌다.
+    이 프로그램은 오는 11월 디즈니 플러스 등을 통해 공개될 예정이다. 
+    촬영팀 관계자는 "자본주의의 상징이라 할 수 있는 스타벅스 카페와 북한이 마주하고 있는 독특한 풍경을 담기 위해 애기봉평화생태공원 전망대를 방문했다"며 "애기봉 전망대에서 바라볼 수 있는 접경지역의 풍경은 한국의 특수한 현실을 상징적으로 보여주는 장면이자 해외 시청자들에게도 한국에 대한 깊은 인상을 남길 수 있을 것"이라고 말했다. 
+    외신이 애기봉에 주목한 것은 이번이 처음은 아니다.
+    지난해 11월 남아프리카공화국, 헝가리, 체코, 튀르키예, 필리핀, 인도, 태국 등의 대표 외신들이 글로벌문화복합관광지로 거듭나게 된 애기봉평화생태공원에 관심을 보였다.
+    베트남 주요 언론사 사장, 편집장 등이 포함된 베트남기자협회 대표단도 지난해 10월 방문했다.
+    한편 지난 1∼3월 애기봉평화생태공원을 찾은 외국인 관광객은 지난해 같은 기간에 비해 약 87% 증가한 것으로 파악됐다. 
+    국적별로는 일본 34.3%, 대만 25.9%, 미국 7.9%, 중국 6.7% 순으로 나타났다.
+    김포시 관계자는 "이번 촬영은 국내 사업과 연계된 프로그램 제작이 아닌 ABC 측에서 애기봉의 독특한 풍경에 관심을 갖고 직접 촬영지로 선정한 것"이라며 "방문객 국적도 다변화하고 있어 명실상부한 글로벌 관광지로 자리 잡아 가고 있다"고 말했다.
+
+    iny@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김포 애기봉평화생태공원 촬영 중인 미국 ABC 촬영팀]]></Title>
+         <Caption><![CDATA[[김포시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260512081000065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/12/AKR20260512081000065_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="">
+         <Title><![CDATA[스타벅스 김포애기봉생태공원점 스케치]]></Title>
+         <Href><![CDATA[http://cdnvod.yonhapnews.co.kr/yonhapnewsvod/202412/MCM20241223000011038_700M1.mp4]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

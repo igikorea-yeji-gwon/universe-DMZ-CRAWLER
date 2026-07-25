@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260526039100008</ContentID>
+      <SendDate>20260526</SendDate>
+      <SendTime>093156</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Class>
+         <ClassCode code="0201001" name="경제일반"/>
+         <ClassCode code="0301004" name="마켓"/>
+         <ClassCode code="0302004" name="증시"/>
+         <ClassCode code="0302013" name="특징주"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260526039100008]]></Href>
+      <Writer><![CDATA[이민영]]></Writer>
+      <Desk code="008"><![CDATA[증권부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[특징주] 콘텐트리중앙, 영화 '호프' 칸 영화제 수상 불발에 10% 급락]]></Title>
+      <Body><![CDATA[[특징주] 콘텐트리중앙, 영화 '호프' 칸 영화제 수상 불발에 10% 급락
+
+
+
+    (서울=연합뉴스) 이민영 기자 = 영화 '호프'의 칸 영화제 수상이 불발된 가운데 26일 장 초반 콘텐트리중앙[036420] 주가가 급락 중이다.
+    이날 오전 9시 25분 기준 콘텐트리중앙은 전장 대비 10.19% 내린 5천730원에 거래되고 있다.
+    장중에는 한때 5천700원까지 밀리기도 했다.
+    콘텐트리중앙의 자회사 플러스엠 엔터테인먼트는 영화 '호프'의 배급사로 알려져 있다.
+    지난 주말 제79회 칸 국제 영화제가 폐막한 가운데 나홍진 감독의 '호프'가 수상 명단에 오르지 못한 점이 매도세를 자극한 것으로 풀이된다.
+    앞서 '호프'는 한국 작품으로는 4년 만에 칸 영화제 경쟁 부문에 진출해 시장의 주목을 받았다. 지난 2022년 박찬욱 감독의 '헤어질 결심'과 한국 제작사가 만든 고레에다 히로카즈 감독의 '브로커' 이후 첫 진출이었다. 
+    '호프'는 비무장지대에 위치한 항구마을에 정체를 알 수 없는 존재가 찾아오며 벌어지는 일을 그린 작품이다. 황정민과 조인성, 정호연과 할리우드 배우 마이클 패스벤더, 알리시아 비칸데르 등이 출연했다.
+    mylux@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['황금종려상 거머쥘까'…칸 영화제 등장한 '호프' 팀]]></Title>
+         <FileName>PAF20260518349001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/05/18/PAF20260518349001009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

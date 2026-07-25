@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260619063300062</ContentID>
+      <SendDate>20260619</SendDate>
+      <SendTime>105834</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004003" name="강원고성"/>
+         <RegionCode code="7103007" name="독일"/>
+      </Region>
+      <Class>
+         <ClassCode code="0108001" name="외교일반"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260619063300062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성군, 평화자원 로컬 브랜딩 추진…'분단을 자산으로']]></Title>
+      <SubTitle><![CDATA["장소성을 예술·음악과 연결해 차별화…국제 평화문화 도시로 성장시킬 것"]]></SubTitle>
+      <Body><![CDATA[강원 고성군, 평화자원 로컬 브랜딩 추진…'분단을 자산으로'
+"장소성을 예술·음악과 연결해 차별화…국제 평화문화 도시로 성장시킬 것"
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = 강원 고성군은 분단의 현실을 지역의 한계가 아닌 새로운 문화자산으로 전환하는 '평화자원 로컬 브랜딩' 사업을 추진한다고 19일 밝혔다.
+    이번 사업은 남고성과 북고성으로 나뉜 고성의 현실을 '선(線)-경계'라는 문화적 언어로 재해석하고, 이를 고성만의 지역 이미지와 콘텐츠로 확장하기 위해 마련됐다.
+    군은 분단 군이라는 장소성을 평화, 기억, 예술, 청년문화와 연결해 지속 가능한 지역브랜드로 발전시킨다는 계획이다.
+    특히 독일 베를린의 전자음악, 테크노 문화가 통독 이후 세대와 공간, 정서를 연결하는 문화적 매개 역할을 해온 점에 착안해, 지난해부터 주한독일대사관 국제적 협력 방안을 공동 추진했다.
+    이를 토대로 다음 달 3일 국회 고성연수원에서 고성군이 주최하고, 주한독일대사관과 한스자이델 재단이 후원하는 '고성 특화 문화전략 국제포럼'을 개최한다. 
+    주요 발제자로는 이선철 감자꽃스튜디오 대표, 김미소 사단법인 디엠지피스트레인 상무이사, 곽희준 퍼밋 대표 등이 있다.
+    주한독일대사관과의 협력을 통해 베를린의 전설적인 테크노 클럽 '트레조아' 설립자인 디미트리 헤게만이 영상으로 패널 참석이 추진되고 있어, 분단과 통일의 경험을 가진 독일의 문화적 메시지가 고성의 평화 브랜딩과 만나는 계기가 될 것으로 기대된다.
+    또 오는 10월에는 고성 세계잼버리수련장에서 SUNN FESTIVAL 개최가 예정되어 있다.
+    '경계에서 피어나는 축제'를 주제로 테크노, 전자음악, 은은한 주변의 소리 퍼포먼스 등을 결합한 새로운 형태의 문화축제로 기획되고 있다.
+    군은 이 축제를 통해 평화자원 로컬 브랜딩을 주민과 방문객이 직접 체험하고 공유하는 단계로 확장할 방침이다.
+    이번 평화자원 로컬 브랜딩을 일회성 행사에 그치지 않고, 지역 가치 창출가와 지역 문화 주체가 함께 참여하는 지속 가능한 생태계로 발전시킬 계획이다.
+    담론 형성, 콘텐츠 제작, 지역 확산, 브랜드화로 이어지는 구조를 통해 고성이 스스로 문화적 경쟁력을 만들어가는 모델을 구축할 방침이다.
+    김진희 기획조정실장은 "평화자원 로컬 브랜딩은 고성의 역사와 장소성을 예술, 음악, 영상, 축제와 연결하는 새로운 시도"라며 "고성을 국제적인 평화문화 브랜드로 성장시키겠다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[평화자원 로컬브랜딩 협의]]></Title>
+         <Caption><![CDATA[[강원 고성군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260619063300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/19/AKR20260619063300062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260112075000504</ContentID>
+      <SendDate>20260112</SendDate>
+      <SendTime>145945</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="1007001" name="남북교류"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260112075000504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[통일부, 김여정 담화에 "부자연스런 소통…통신선 복구 시급"]]></Title>
+      <SubTitle><![CDATA[고위관계자 "우발적 충돌 막고 상대방 오독하지 않기 위해"]]></SubTitle>
+      <Body><![CDATA[통일부, 김여정 담화에 "부자연스런 소통…통신선 복구 시급"
+고위관계자 "우발적 충돌 막고 상대방 오독하지 않기 위해"
+
+
+    (서울=연합뉴스) 하채림 이정현 기자 = 통일부 고위관계자는 김여정 북한 노동당 부부장의 '한국 무인기 침투' 비난 담화에 대해 "일종의 소통"이지만 부자연스럽다며, 통신선 복구가 시급하다고 밝혔다.
+    이 관계자는 12일 김 부부장의 담화를 어떻게 평가하느냐는 연합뉴스의 질문에 "일종의 소통"이라면서도 "일체 통신이 끊어진 상태에서 공중을 통한 소통을 하는 것으로, 부자연스러운 상황"이라고 말했다.
+    이어 "남북이 통신선을 복구해야 하는 이유"라며 "우발적 충돌을 막기 위해, 상대방의 의도를 오독하지 않기 위해서라도 통신선 복구가 시급하다"고 강조했다. 
+
+    북한의 한국 무인기 침투 주장을 계기로 접경지역에서 우발적 충돌을 막기 위해 9·19 군사합의 복원 필요성이 다시 제기되는 데 대해 이 관계자는 "국방부와 통일부 사이에 (9·19 군사합의 복원에 관한) 협의가 진행되고 있다"고 말했다.
+    그러나 북한이 이번 무인기 사태를 계기로 적대적 대남 인식을 더욱 공고히 하고 있어 북한과의 합의가 아닌 선제적 9·19 합의 복원은 더 어려워졌다는 관측도 나온다.
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김여정 북한 노동당 부부장]]></Title>
+         <Caption><![CDATA[[조선중앙TV 화면. 국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution]]]></Caption>
+         <FileName>PCM20250820000008990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/08/20/08/PCM20250820000008990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[北 "韓, 작년 9월과 4일에 또 무인기 도발…대가 각오해야"]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 북한 조선인민군 총참모부 대변인은 10일 조선중앙통신을 통해 작년 9월과 지난 4일에 한국이 침투시킨 무인기를 격추했다고 주장하며 이에 대한 대가를 치르게 될 것이라고 위협했다. 사진은 북한이 주장한 추락된 한국 무인기 잔해들. 2026.1.10  [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026011000440004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/10/PYH2026011000440004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

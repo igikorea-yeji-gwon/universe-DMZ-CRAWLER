@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260227052000062</ContentID>
+      <SendDate>20260227</SendDate>
+      <SendTime>100943</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="1007006" name="남북갈등"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260227052000062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성군, 무인기 대북 침투 재발 방지·진상 조사 촉구]]></Title>
+      <SubTitle><![CDATA[접경지역 평화 안전 연석회의 참석해 통일부에 결의문 전달]]></SubTitle>
+      <Body><![CDATA[강원 고성군, 무인기 대북 침투 재발 방지·진상 조사 촉구
+접경지역 평화 안전 연석회의 참석해 통일부에 결의문 전달
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = 강원 고성군이 무인기 대북 침투 재발 방지와 철저한 진상 조사를 촉구했다.
+    고성군은 전날 통일부 남북회담 본부에서 열린 접경지역 평화 안전 연석회의에 참석해 '무인기 대북 침투 재발 방지 및 진상조사 철저 촉구 결의문'을 전달했다고 27일 밝혔다.
+    이번 회의는 설 연휴 기간 중 발표된 정동영 통일부 장관의 현안 입장 발표에 대한 후속 조치로 마련됐다.
+    앞서 정동영 장관은 지난 18일 지난해 9월부터 올해 1월까지 총 네 차례 민간 무인기 대북 침투 사건이 발생했음을 밝히고, 이에 대한 대북 사과 입장 발표, 처벌 규정 강화, 재발 방지 대책 마련 등을 약속했다.
+    정 장관이 주재한 이날 회의에서 참석자들은 무인기 침투행위에 대한 항공 안전법상 처벌 규정 강화와 남북관계발전법 내 금지 규정 명문화 방안 등을 논의했다.
+    아울러 지방정부 차원에서 관련 조례를 제정하고, 재난 및 안전관리 기본법에 따른 위험구역 내 금지행위에 무인기 침투행위를 추가하는 방안 등도 검토했다.
+    통일부 측은 대북 전단 살포와 확성기 방송 등으로 인한 접경지역 피해 문제 해결을 위해 앞장서 온 접경지역 시장·군수협의회의 노력을 언급하며, 통일부와 협의회, 관련기관으로 구성된 '접경지역 평화 안전 연석회의' 설치·운영을 약속하는 등 협력 의지를 강조했다.
+    군 관계자는 "접경지역 현안에 대해 중앙정부가 관심을 표한 것에 대해 환영한다"며 "중앙정부와 긴밀히 협력해 접경지역이 항구적인 평화지대로 자리매김할 수 있도록 앞장서겠다"고 말했다.
+
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[접경지역 평화 안전 연석회의]]></Title>
+         <Caption><![CDATA[[강원 고성군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260227052000062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/27/AKR20260227052000062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[접경지역 평화 안전 연석회의]]></Title>
+         <Caption><![CDATA[[강원 고성군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260227052000062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/27/AKR20260227052000062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

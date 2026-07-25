@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260409071100052</ContentID>
+      <SendDate>20260409</SendDate>
+      <SendTime>104122</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7006001" name="경남"/>
+         <RegionCode code="7006017" name="통영"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0501016" name="한국전쟁"/>
+         <ClassCode code="0701002" name="문화시설"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260409071100052]]></Href>
+      <Writer><![CDATA[정종호]]></Writer>
+      <Desk code="052"><![CDATA[경남취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[통영 용호도에 포로수용소 전시관 개관…'다크투어리즘' 활성화]]></Title>
+      <Body><![CDATA[통영 용호도에 포로수용소 전시관 개관…'다크투어리즘' 활성화
+
+
+
+    (통영=연합뉴스) 정종호 기자 = 경남 통영시는 한산면 용호도에 포로수용소 전시관을 개관했다고 9일 밝혔다.
+    용호도 포로수용소는 6·25 전쟁 때 거제도 포로수용소 포화 문제를 해결하기 위해 1952년 조성됐다.
+    당시 북한 송환을 희망하는 포로 약 8천명이 수용됐다.
+    정전협정 이후에는 북한에서 송환된 국군 포로를 심문하기 위한 시설로도 활용되는 등 인민군과 국군 포로가 차례로 머물렀다.
+    이 과정에서 용호도 주민들은 터전에서 쫓겨났다가 다시 돌아오는 등 아픔을 겪었다.
+    시는 이러한 역사적 가치를 보존하고, 평화 메시지를 전달하기 위해 학술조사와 정비계획 수립 등 절차를 거쳐 전시관을 건립했다.
+    단층 규모인 이 전시관에서는 포로수용소 유적과 전쟁 소개민(疏開民·공습이나 화재 등에 대비해 다른 곳으로 옮겨져 사는 사람) 관련 자료 등을 관람할 수 있다.
+    전날 열린 전시관 개관식에 참석한 통영시 관계자와 주민 등은 전시관을 둘러보면서 용호도의 역사적 의미와 평화의 가치를 되새기는 시간을 가졌다.
+    시는 전쟁 상처를 기억하고, 평화와 공존을 배우는 역사교육의 장으로 전시관을 활용할 예정이다.
+    천영기 시장은 "포로수용소 유적과 역사적 자원을 활용한 전시·교육·트레킹 프로그램 등 '다크투어리즘'을 활성화하겠다"고 전했다.
+    jjh23@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[통영 한산면 용호도 포로수용소 전시관 개관]]></Title>
+         <Caption><![CDATA[[경남 통영시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260409071100052_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/09/AKR20260409071100052_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

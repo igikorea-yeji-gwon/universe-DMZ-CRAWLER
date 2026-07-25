@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260513125100060</ContentID>
+      <SendDate>20260513</SendDate>
+      <SendTime>153448</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+         <RegionCode code="7005022" name="연천"/>
+         <RegionCode code="7005028" name="파주"/>
+         <RegionCode code="7005030" name="포천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0501001" name="사회일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260513125100060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도 '평화경제특구' 개발계획 수립 용역 착수]]></Title>
+      <Body><![CDATA[경기도 '평화경제특구' 개발계획 수립 용역 착수 
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도는 13일 접경지역 평화경제특구 지정을 위한 개발계획 수립 연구용역에 착수했다고 밝혔다.
+
+    평화경제특구는 남북 접경지역을 중심으로 평화·안보 가치와 산업·경제 기능을 결합한 국가 전략사업이다.
+    평화경제특구로 지정되면 법인세, 지방세, 부담금 감면 및 자금 지원 등 혜택이 주어지며 산단형이나 관광ㆍ문화형 또는 복합형 특구를 조성할 수 있다.
+    도는 평화경제특구 후보지로 선정된 연천군, 파주시, 포천시 등 3곳을 대상으로 '경기도 평화경제특구 개발계획 수립 연구용역'을 진행할 방침이다. 
+    도는 8월까지 개발계획 구상과 사업계획 수립을 추진한 뒤 9월께 통일부에 평화경제특구 지정을 건의할 계획이다.
+    이후 내년 8월 추가 지정 건의를 검토하고, 9∼10월 용역을 마무리한다.
+    도는 효율적 개발계획 수립을 위해 도-시·군-용역수행기관 간 실무협의체도 구성해 운영한다. 실무협의체를 통해 후보지별 추진현황 점검, 현안 조정 및 일정 협의 등 개발계획 수립을 구체화할 예정이다.
+    도는 개발계획을 총괄하고 시·군 협의 조정, 중앙부처 대응, 제도개선 건의 등을 맡는다. 연천군·파주시·포천시는 후보지별 기초자료 제공, 각종 영향평가 등 행정절차 이행, 현장 대응 등을 담당한다.
+    용역수행기관인 서울대학교 산학협력단에서는 후보지 현황 분석, 개발구상, 토지이용계획 수립, 특구 지정 신청자료 작성 지원 등을 한다.
+    박현석 평화협력국장은 "도와 시·군, 전문가가 함께 협력해 실현 가능성 있는 개발계획을 마련하고, 경기도 접경지역이 새로운 성장거점으로 도약하도록 특구 지정 준비에 최선을 다하겠다"고 말했다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도 평화경제특구 개발계획 용역 착수]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260513125100060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/13/AKR20260513125100060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

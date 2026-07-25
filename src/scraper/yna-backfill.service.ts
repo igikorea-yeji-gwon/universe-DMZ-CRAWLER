@@ -11,8 +11,8 @@ import { TranslationClientService } from './translation-client.service';
 import { KEYWORDS, BROWSER_UA } from './yna-feed.service';
 
 const DT_FORMAT = 'YYYY-MM-DD HH:mm:ss';
-// 연합뉴스 과거 아카이브 XML 위치: configs/yna/<YYYYMM>/*.xml
-const YNA_XML_DIR = path.join(process.cwd(), 'configs', 'yna');
+// 연합뉴스 과거 아카이브 XML 위치: feed_468/<YYYYMM>/*.xml (프로젝트에 포함 배포)
+const YNA_XML_DIR = path.join(process.cwd(), 'feed_468');
 
 interface BackfillItem {
   guid: string;

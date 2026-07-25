@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260406019300009</ContentID>
+      <SendDate>20260406</SendDate>
+      <SendTime>085207</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260406019300009]]></Href>
+      <Writer><![CDATA[김아람]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[레바논 암울한 부활절…이스라엘 폭격속 피란길에서 기도]]></Title>
+      <SubTitle><![CDATA[중동 내 기독교 비중 최다…드론 공격에 하루에만 11명 희생]]></SubTitle>
+      <Body><![CDATA[레바논 암울한 부활절…이스라엘 폭격속 피란길에서 기도
+중동 내 기독교 비중 최다…드론 공격에 하루에만 11명 희생
+
+
+    (서울=연합뉴스) 김아람 기자 = 이스라엘과 레바논 친이란 무장정파 헤즈볼라 간 교전이 격화하는 가운데 많은 레바논 기독교인이 피란길에서 부활절을 맞아야 하는 처지로 내몰렸다.
+    5일(현지시간) AP통신에 따르면 지난달 초 이스라엘과 헤즈볼라 사이에 교전이 시작된 이후 레바논에서는 1천400명 넘게 사망하고 100만명 이상의 피난민이 발생했다.
+    기독교인은 레바논 전체 인구 550만명 중 약 3분의 1을 차지한다. 기독교 12개 종파가 공존하는 레바논은 아랍권에서 기독교인 비율이 가장 높은 국가다.
+    전쟁으로 폐허가 된 레바논 남부 지역을 떠난 피란민 중에는 기독교인 수천 명도 포함됐다.
+    이들은 비잔틴, 이슬람, 오스만 제국 정복기부터 현대의 여러 위기에 이르기까지 오랫동안 굳건히 자리를 지켜온 고향의 교회를 떠나야 하는 처지다.
+    수년간 이스라엘 접경지인 레바논 남부 알마 알샤브에서 부활절 설교를 해온 마룬 가파리 신부는 올해 베이루트 외곽의 한 교회에서 설교했다.
+
+    이 교회에는 알마 알샤브에서 온 피란민들이 모였다. 이들은 고향을 떠나 멀리서 마음을 달랠 수밖에 없었다.
+    마룬 가파리 신부의 곁에는 현재 이스라엘과 헤즈볼라 간 교전지에 갇힌 알마 알샤브 교회의 모습을 본뜬 판지 모형이 세워져 있다.
+    신부의 형제인 70세 사미 가파리는 이스라엘의 폭격 속에 알마 알샤브 교회에서 대피 중이던 주민 중 한명이었다. 그는 지난달 8일 잠시 교회 밖으로 나갔다가 이스라엘 드론 공격에 사망했다.
+    이 참극은 마룬 가파리 신부를 포함해 남아 있던 주민들이 짐을 싸는 계기가 됐다. 유엔 평화유지군은 이들을 베이루트 북부 외곽으로 대피시켰다.
+    마룬 가파리 신부는 AP에 "우리는 교회에 남고 싶었지만 우리 중 누구라도 언제든 표적이 되거나 죽을 가능성이 존재했다"며 "모두가 지쳤다"고 말했다.
+
+    부활 주일인 5일 레바논에서는 이스라엘의 공습으로 최소 11명이 숨졌다. 지난달 초 이스라엘과의 교전이 시작된 이래 가장 폭력적인 날 중 하루였다고 로이터통신은 설명했다.
+    레바논 보건부에 따르면 남부 크파르하타에서 4세 어린이를 포함해 7명이 사망했고, 베이루트 인근에서 4명이 숨지고 39명이 다쳤다.
+    이날 베이루트 전역에서는 온종일 공습 소리와 저공 비행하는 전투기들의 굉음이 울려 퍼졌다. 베이루트 외곽 지역은 8차례 공습을 받았다고 레바논 국영 매체는 전했다.
+    미국·이스라엘과 이란 간 전쟁 발발 후 지난달 2일 헤즈볼라가 이란을 지원하기 위해 이스라엘에 로켓을 발사하면서 레바논은 본격적으로 이번 전쟁에 휘말리기 시작했다.
+    이어 이스라엘이 레바논에 대한 공격을 개시하고 남부 지역을 침공하면서 레바논은 이번 전쟁에서 가장 격렬한 교전지가 됐다.
+    rice@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[5일 베이루트 성 안토니오 교회에서 열린 부활절 미사에서 기도하는 레바논 마로니트 기독교인들]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260406001601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/04/06/PAF20260406001601009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[5일 베이루트 성 안토니오 교회에서 열린 부활절 미사에서 기도하는 레바논 마로니트 기독교인들]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260406002401009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/04/06/PAF20260406002401009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[5일 레바논 베이루트 남부 외곽 지역에서 연기가 치솟는 모습]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260406023501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/04/06/PAP20260406023501009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260625068800005</ContentID>
+      <SendDate>20260625</SendDate>
+      <SendTime>104925</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0712001" name="영화"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260625068800005]]></Href>
+      <Writer><![CDATA[박원희]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[다큐 거장 프레더릭 와이즈먼 회고전, 영상자료원서 내달 개최]]></Title>
+      <Body><![CDATA[다큐 거장 프레더릭 와이즈먼 회고전, 영상자료원서 내달 개최
+
+
+    (서울=연합뉴스) 박원희 기자 = 올해 작고한 다큐멘터리 거장 프레더릭 와이즈먼 감독의 작품을 다시 만나보는 회고전이 열린다.
+    한국영상자료원(KOFA)은 다음 달 9∼22일 서울 시네마테크KOFA에서 와이즈먼 특별전 '다시 보고 싶은 프레더릭 와이즈먼'을 DMZ국제다큐멘터리영화제와 공동 개최한다고 25일 밝혔다.
+    이번 특별전은 지난해 DMZ국제다큐멘터리영화제와 서울아트시네마, 부산 영화의전당 등이 공동 주관한 '프레더릭 와이즈먼 전작 순회 회고전'의 일환이다.
+    영상자료원은 '다시 보고 싶은 프레더릭 와이즈먼 영화' 관객 투표를 통해 선정된 '임사'(1989), '티티컷 풍자극'(1967), '복지'(1975), '센트럴파크'(1990), '시티홀'(2020), '고등학교'(1968), '청소년 법원'(1973) 등 7편을 특별전에서 선보인다.
+    DMZ국제다큐멘터리영화제 프로그래머들이 추천한 '시각장애인'(1986), '백화점'(1983), '가정폭력'(2001) 등 3편도 함께 상영한다.
+    다음 달 18일에는 '시각장애인'을 상영한 뒤 DMZ국제다큐멘터리영화제 장병원 수석 프로그래머가 관객과 대화를 나눈다.
+    프레더릭 와이즈먼은 1967년 '티티컷 풍자극'을 시작으로 60년 동안 45편의 작품을 연출하며 병원, 학교, 복지시설 등 미국 사회의 제도적 공간을 카메라로 들여다보고 개인과 권위 사이의 관계를 포착한 것으로 평가받는다.
+    그는 이런 공로를 인정받아 2014년 베네치아영화제 평생공로 황금사자상, 2016년 미국 아카데미 공로상을 받았다. 지난 2월 96세를 일기로 세상을 떠났다.
+    encounter24@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['프레더릭 와이즈먼 전작 순회 회고전']]></Title>
+         <Caption><![CDATA[[한국영상자료원 제공. 재판매 및 DB금지]]]></Caption>
+         <FileName>AKR20260625068800005_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/25/AKR20260625068800005_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

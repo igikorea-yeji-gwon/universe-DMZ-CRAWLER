@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260111054000062</ContentID>
+      <SendDate>20260111</SendDate>
+      <SendTime>205038</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0505003" name="수질환경"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0403008" name="수자원"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260111054000062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, 민통선 내 저수지 취수 수돗물 확대…"오염원 없어"]]></Title>
+      <SubTitle><![CDATA[양구읍 일부지역 시범 급수…상반기 내 전 지역 확대 추진]]></SubTitle>
+      <Body><![CDATA[양구군, 민통선 내 저수지 취수 수돗물 확대…"오염원 없어"
+양구읍 일부지역 시범 급수…상반기 내 전 지역 확대 추진
+
+    (양구=연합뉴스) 이상학 기자 = 강원 접경지역인 양구군이 수돗물을 민간인 출입통제선(이하 민통선) 내 저수지에서 취수해 공급하는 방안을 확대 추진한다. 
+
+    양구군은 민통선 내에 위치한 식수전용 저수지(비아댐)에서 원수를 취수해 양구읍과 동면 상수도 급수구역 주민들에게 수돗물을 공급하기로 했다고 11일 밝혔다. 
+    앞서 양구군은 2021년 7월 민통선 내에 식수전용저수지를 완공한 데 이어 2022년 1월부터 취수를 시작해 동면 주민들에게 급수를 공급하고 있다. 
+    하지만, 양구읍은 상수도 취수원인 서천 하천수가 수질오염에 노출될 우려가 있고, 가뭄 발생 시 취수량이 감소하는 문제가 있어 취수를 변경하기로 한 것이다. 
+    이에 따라 양구군은 양구읍 일부 지역을 대상으로 시범 급수를 시작해 단계적으로 공급 범위를 확대한다는 방침이다. 
+    김춘호 상하수도사업소장은 "민통선 내에 건설된 식수전용저수지 주변은 오염원이 없어 수질 안전성이 뛰어나다"며 "상반기 내 양구읍 전체지역에 민통선 취수 수돗물이 공급되도록 하겠다"고 말했다. 
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구군청]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20230821000007990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2023/08/21/07/PCM20230821000007990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

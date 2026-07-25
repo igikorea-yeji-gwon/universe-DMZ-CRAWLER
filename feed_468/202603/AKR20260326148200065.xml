@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260326148200065</ContentID>
+      <SendDate>20260326</SendDate>
+      <SendTime>155634</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0510004" name="경찰"/>
+         <ClassCode code="0412001" name="해양항만"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260326148200065]]></Href>
+      <Writer><![CDATA[황정환]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[신형 3천t급 경비함정 취항…서해 NLL 불법 외국어선 단속 투입]]></Title>
+      <Body><![CDATA[신형 3천t급 경비함정 취항…서해 NLL 불법 외국어선 단속 투입 
+
+
+    
+　   (인천=연합뉴스) 황정환 기자 = 중부지방해양경찰청 서해5도특별경비단(서특단)은 26일 인천 해양경찰 전용부두에서 최신형 3천t급 경비함정 '3019함'(태평양19호) 취항식을 열었다.
+    3019함은 서해5도 인근 북방한계선(NLL)과 배타적 경제수역(EEZ) 등에서 불법조업 외국 어선을 단속하는 업무를 수행한다. 서해5도 해역은 접경 해역 특성상 단속 시간에 제약이 있어 단속이 쉽지 않은 곳이다.
+    지난해 12월 준공된 3019함은 길이 122.3m, 폭 15m 규모로, 최대속력은 시속 45㎞다. 10m급 고속단정 2대와 반도체소자방식(SSPA) 레이더 2대, 헬기 격납고 1기, 항해 통합모니터링 시스템, 어라운드뷰 시스템 등을 갖췄다.
+    이날 행사에는 박재화 중부지방해양경찰청장, 박성민 인천지검 검사장, 김용태 인천지방해양수산청장 등 관계자 100여명이 참석했다.
+    박 청장은 "서특단이 관할하는 해역은 EEZ와 NLL을 모두 포함해 그 어느 바다보다 주권 수호의 중요성이 부각된다"며 "해양 안보 수호에 최선을 다해달라"고 말했다.
+    앞서 3019함은 취항식을 닷새 앞둔 지난 21일 인천해경 부두 입항 중 방파제와 충돌해 선체 측면이 찌그러져 긴급 수리를 받았다.
+    hwan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[최신형 경비함정 '3019함' 취항식]]></Title>
+         <Caption><![CDATA[[서해5도특별경비단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260326148200065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/26/AKR20260326148200065_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

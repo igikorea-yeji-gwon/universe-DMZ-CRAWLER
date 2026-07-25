@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260306053500060</ContentID>
+      <SendDate>20260306</SendDate>
+      <SendTime>102925</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0802005" name="등산"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0501001" name="사회일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260306053500060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['사계절 걷는 최북단 도보길'…경기도, 월별 평화누리길 추천]]></Title>
+      <SubTitle><![CDATA[김포·고양·파주·연천 잇는 12개 코스 189㎞…계절별 특색 뚜렷]]></SubTitle>
+      <Body><![CDATA['사계절 걷는 최북단 도보길'…경기도, 월별 평화누리길 추천
+김포·고양·파주·연천 잇는 12개 코스 189㎞…계절별 특색 뚜렷
+
+    (의정부=연합뉴스) 노승혁 기자 = 경기도가 4∼12월 월별·계절별 특색이 뚜렷해 걷기 좋은 평화누리길 코스를 6일 소개했다.
+
+    평화누리길은 경기도 비무장지대(DMZ) 접경 지역 4개 시·군을 잇는 최북단 도보 여행길이다.
+    2010년 김포 3개 코스, 고양 2개 코스, 파주 4개 코스, 연천 3개 코스 등 1∼12코스 약 189㎞에 조성됐다.
+    DMZ 인근 철책선을 따라 걸으며 분단 현실을 체감하면서 뛰어난 자연경관과 역사의 흔적을 느낄 수 있다.
+    경기도는 4월 가볼 만한 코스로 봄꽃이 절정을 이루는 연천 임진적벽길(11코스)과 고양 행주나루길(4 코스)을 추천한다.
+    임진적벽길은 벚꽃길을 따라 숭의전지, 당포성, 임진강 주상절리 등을 함께 만날 수 있다. 이 코스는 5월 열리는 연천 구석기 축제와도 연계해 즐길 수 있다. 
+    행주나루길은 개나리·진달래·벚꽃·철쭉이 차례로 피어나는 대표적인 봄꽃 코스다. 가까운 일산호수공원에서 4월 24일∼5월 10일 국제꽃박람회가 열려 일정을 맞추면 봄나들이 코스로 제격이다.
+
+    5월에 어울리는 김포 조강철책길(2코스)은 문수산 철쭉길과 함께 '병인양요'의 흔적이 남은 문수산성, 홍예문, 조강저수지 등을 따라 걸으며 자연과 역사를 동시에 느낄 수 있다.
+    김포 염하강철책길(1코스)는 6월에 가볼 만하다. 평화누리길 시작점인 대명항에서 출발해 덕포진과 '손돌바람' 설화가 전해지는 구간을 따라 한강 하구의 시원한 풍경을 감상할 수 있다.
+    가을에는 역사와 문화 이야기가 중심이 된다. 
+    9월 연천 고랑포길(10코스)에 가면 고구려 요새 호로고루를 비롯해 장남교, 고랑포 옛 포구, 고인돌과 적석총 등 선사·고대 유적을 만나고 통일바라기 축제와 댑싸리 축제 등도 즐길 수 있다.
+    파주 반구정길(8코스)은 10월 걷기 좋다. 황희 정승의 청백리 이야기가 깃든 반구정을 따라 걷다 보면 임진각에서 DMZ 오픈 페스티벌을 비롯한 가을 축제, 분홍빛 코스모스 등과 함께 가을을 만끽할 수 있다.
+
+    11월에는 파주 율곡길(9코스)이 이어진다. 율곡 이이의 발자취를 따라 율곡습지공원, 율곡수목원, 임진강 적벽 산책로 등을 걷는 코스로 반려견과 함께하는 펫 트레킹 등 체험형 프로그램도 진행될 예정이다.
+    12월 코스로 김포 한강철책길(3코스)을 소개했다. 후평리 철새도래지와 애기봉, 전류리 포구를 따라 걸으며 한강 하구의 철새와 겨울 생태를 관찰할 수 있다.
+    경기도는 매월 계절에 맞는 평화누리길 코스를 추천해 도민과 관광객들이 사계절 내내 자연·역사·풍경을 느끼며 길 위의 사색을 즐길 수 있도록 안내할 계획이다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[임진적벽 주상절리]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306053500060_07_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306053500060_07_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[문수산성]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306053500060_08_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306053500060_08_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[연천 댑싸리 공원]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260306053500060_09_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/06/AKR20260306053500060_09_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

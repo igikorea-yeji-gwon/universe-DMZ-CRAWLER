@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260129180600546</ContentID>
+      <SendDate>20260130</SendDate>
+      <SendTime>093337</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001042" name="연합칼럼"/>
+         <AttributeCode code="9001788" name="연재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260129180600546]]></Href>
+      <Writer><![CDATA[한승호]]></Writer>
+      <Desk code="546"><![CDATA[콘텐츠융합실]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[글로컬] DMZ의 주인은 누구인가]]></Title>
+      <SubTitle><![CDATA[DMZ는 대결의 장이 아니라 평화로 나아가는 공간
+유엔사·정부, 정전체제→평화체제 전환 위해 머리 맞대야]]></SubTitle>
+      <Body><![CDATA[[글로컬] DMZ의 주인은 누구인가
+DMZ는 대결의 장이 아니라 평화로 나아가는 공간
+유엔사·정부, 정전체제→평화체제 전환 위해 머리 맞대야
+
+
+
+    (서울=연합뉴스) 한승호 선임기자 = 대한민국 영토인데도 한국 정부가 제대로 권한을 행사하지 못하는 곳이 있다. 한반도 허리를 가르는 비무장지대(DMZ) 이야기다. DMZ는 1953년 7월 체결된 정전협정에 따라 설치됐다. 유엔군사령부(유엔사)가 정전협정을 바탕으로 DMZ 통제권을 갖고 있다.
+    정동영 통일부 장관은 지난 21일 강원도 고성군의 'DMZ 평화의 길'을 찾아 막혀있는 DMZ 내부 구간의 재개방을 추진하겠다고 밝혔다. 2019년 4월 개방됐으나 2024년 4월 안보 상황을 이유로 닫혔던 구간을 다시 열겠다는 것이다. 
+    유엔사는 곧바로 "DMZ 내부 3개의 도보 구간은 보안상 이유로 출입이 제한되며 유엔사의 관할에 속한다"면서 "지금의 DMZ 출입 정책과 절차에는 변동이 없다"고 사실상 반대 의사를 밝혔다. 지난해 12월 DMZ를 방문하려던 김현종 국가안보실 제1차장은 유엔사의 제지를 받았다가 뒤늦게 허가를 얻기도 했다.
+    유엔사는 여당이 최근 추진 중인 'DMZ 평화적 이용법'에 대해서도 "법이 통과된다면 정전협정에 정면으로 위배된다"고 강하게 반대하며 'DMZ 관할권'을 다시 주장했다. 이 법안은 비군사적·평화적 목적에 한해 DMZ 출입 권한을 한국 정부가 행사한다는 내용을 담고 있다. 
+
+
+    
+    유엔사가 DMZ와 관련해 한국 정부와 엇갈린 행보를 보이자 국민적 시선도 곱지 않다. DMZ 출입 허가와 평화적 이용에 대해 유엔사가 일관되지 않은 입장을 보인다는 지적도 나온다. 유엔사는 군사정전위원회(군정위)를 두고 정전협정 이행 감시, 규정 위반 사건 처리 등 임무를 수행한다.  
+    북한이 정전협정 체제 초기 비군사적 영역에 대한 군정위의 허가 권한을 들어 남북 교류와 통일에 대한 군정위의 책임을 지적하자, 유엔사는 비군사적 영역은 남북 정부의 주권 행사 영역임을 강조했다. 유엔사는 남북이 팽팽한 군사 대결로 치닫던 1971년 6월 '정전협정 본래 취지대로 DMZ를 비무장 상태로 환원하고 평화적 목적에 사용 가능하게 하자'는 제안을 하기도 했다. 군정위 회의록에 남아 있다.
+    유엔사는 또한 남북 충돌의 완충지대로써 비무장 상태를 유지해야 하는 DMZ가 사실상 중무장지대로 전락하는 과정에서 규정 위반을 제대로 막아내지 못했다. 특히 북한은 DMZ에 중화기와 병력을 배치한 데 이어 DMZ를 없애고 군사분계선을 국경선으로 만들려 한다는 관측까지 나온다.
+
+
+    
+    유엔군이 한국전쟁에서 결정적 역할을 했고, 유엔사는 정전 이후 남북 충돌 방지에 기여했다. 이런 점은 충분히 평가받아 마땅하다. 그러나 정전협정을 관리한다는 이유로 한반도의 평화를 염원하는 국민적 의사와 한국 정부의 비군사적 권한 행사까지 제약하려는 것은 재검토가 필요하다. 정전협정은 평화를 위한 수단이다. 
+    더욱이 자칫하면 미국이 가장 큰 영향력을 행사하는 유엔사가 한반도 평화 자체보다 미국의 인도·태평양 전략 차원의 역할을 더 중시하는 것이 아니냐는 오해를 살 소지도 있다. 이는 유엔사의 권위와 정당성에도 결코 도움이 되지 않는다.
+
+
+
+   
+     DMZ는 대결의 장이 아니라 평화로 나아가는 공간이 돼야 한다. 유엔사는 통제의 주체가 아니라 조정자이자 평화 촉진자이어야 한다. 한국 정부와 긴밀한 협의를 통해 정전협정 취지에 부합하는 새로운 해법을 모색해야 한다. 한국 정부 역시 DMZ의 평화적 이용 권한을 분명한 원칙과 책임 아래 행사하겠다는 의지를 보여야 한다.
+    지금 필요한 것은 권한 다툼이 아니라 정전체제를 평화체제로 전환하기 위해 머리를 맞대는 것이다. 유엔사와 한국 정부 모두 역사적 질문 앞에 서 있다.     
+     hsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[판문점 경계 근무]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 이지은 기자 = 28일 오전 경기도 파주 비무장지대 내 판문점에서 남한 병사들이 북쪽을 주시하고 있다. 
+2010.4.28 jieunlee@yna.co.kr]]></Caption>
+         <FileName>AKR20260129180600546_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/29/AKR20260129180600546_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[유엔사, 불허했던 김현종 DMZ 출입 허가]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 유엔군사령부가 17일 SNS를 통해 김현종 국가안보실 제1차장(오른쪽)의 비무장지대(DMZ) 출입을 허가했다고 밝혔다. 앞서 정동영 통일부 장관은 김 차장의 DMZ 출입이 불허됐다며 유엔사를 비판한 바 있다.
+    2025.12.17 [유엔사 페이스북 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260129180600546_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/29/AKR20260129180600546_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[6·25 전쟁 75주년, 영웅들을 기억하며]]></Title>
+         <Caption><![CDATA[(오산=연합뉴스) 홍기원 기자 = 6·25 전쟁 75주년인 25일 경기도 오산시 죽미령평화공원을 찾은 학생들이 유엔군 초전 기념비에 헌화하고 있다. 2025.6.25
+    xanadu@yna.co.kr]]></Caption>
+         <FileName>AKR20260129180600546_05_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/29/AKR20260129180600546_05_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[평화·생태 관광 1번지 DMZ]]></Title>
+         <Caption><![CDATA[[연합뉴스DB]]]></Caption>
+         <FileName>AKR20260129180600546_06_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/29/AKR20260129180600546_06_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

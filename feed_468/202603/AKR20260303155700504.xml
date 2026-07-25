@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260303155700504</ContentID>
+      <SendDate>20260303</SendDate>
+      <SendTime>175126</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260303155700504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["미중 정상회담, 돌파구 기회…평화 특사 역할 필요"]]></Title>
+      <SubTitle><![CDATA[전략硏 NK포럼…"DMZ 충돌위험 커져 9·19 복원 시급"]]></SubTitle>
+      <Body><![CDATA["미중 정상회담, 돌파구 기회…평화 특사 역할 필요"
+전략硏 NK포럼…"DMZ 충돌위험 커져 9·19 복원 시급"
+
+
+    (서울=연합뉴스) 하채림 기자 = 조만간 열릴 미중 정상회담에서 한반도 문제에서 돌파구가 마련되려면 한반도 평화특사의 역할이 중요하다는 전문가 지적이 나왔다.
+    이희옥 성균관대 명예교수는 3일 웨스틴조선 서울호텔에서 국가안보전략연구원이 개최한 'NK포럼'에서 "4월 초로 예고된 미중 정상회담은 한반도 문제의 돌파구를 마련하는 모멘텀이 될 수 있다"고 말했다.
+    이 교수는 한반도 문제가 미·중의 우선순위에서 밀릴 수 있다며 "미중 정상회담에서 한반도 이슈가 의제로 다뤄질 수 있도록 고속철, 관광, 인도적 협력, 관광 등 '패키지 딜'을 미리 미중 양측에 주입해야 한다"고 제언했다. 
+    이어 "중국이 전국인민대표자회의를 마무리한 후 국가전략 방침을 전달하는 외교 행보가 본격화할 것으로 보인다"며 "그 과정에서 한반도 평화특사의 활동이 매우 중요한 역할을 할 수 있다"고 내다봤다.
+    통일부는 작년 말 대통령 업무보고에서 북미 대화 추동을 위한 주변국 협력을 끌어내기 위한 방안으로 한반도 평화특사 임명을 보고한 바 있다.
+    김연철 전 통일부 장관도 한반도 평화특사와 관련, "특정 부처의 역할을 따질 문제가 아니다"며 "핵심은 이 천금같은 미중 정상회담 계기를 어떻게 활용할 것인가 하는 것"이라고 강조했다. 
+    한편 북한의 비무장지대(DMZ) 국경화 작업으로 DMZ 북측 완충지대가 사라지고 군사적 충돌 우려가 매우 커졌다는 우려도 제기됐다. 
+    조용근 경남대 교수는 "DMZ 내 북한군이 군사분계선(MDL)을 수시로 침범하고 우리 군의 경고사격이 이어지고 있는 상황"이라며 정부 내 논의 중인 9·19 군사합의 중 비행금지 구역 복원과 함께 지상 완충구역도 복원해야 한다고 주장했다. 
+    조 교수는 "북한군의 국경선 설치·경계가 일상적 상황일 때에는 우리 군의 경고사격 기준을 완화하되 북한군의 의도적 도발 시에는 현장에서 단호하게 군사적 조치로 대응해야 한다"고 말했다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국가안보전략연구원, NK포럼 개최]]></Title>
+         <Caption><![CDATA[[국가안보전략연구원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260303155700504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/03/AKR20260303155700504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

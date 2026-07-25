@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260129053000060</ContentID>
+      <SendDate>20260129</SendDate>
+      <SendTime>094244</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0505007" name="식물"/>
+         <ClassCode code="0402003" name="임업"/>
+         <ClassCode code="0505008" name="외래종"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260129053000060]]></Href>
+      <Writer><![CDATA[김도윤]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[특산식물 '외대으아리' 강화지역 자생 첫 확인]]></Title>
+      <Body><![CDATA[특산식물 '외대으아리' 강화지역 자생 첫 확인
+
+
+    (포천=연합뉴스) 김도윤 기자 = 산림청 국립수목원은 인천 강화군 서도면 도서 지역에서 우리나라 특산식물인 '외대으아리' 자생지를 확인했다고 29일 밝혔다.
+    외대으아리는 경기지역과 강원도 중부 이북에서 주로 자생하는데 강화지역에서 발견된 것은 이번이 처음이라고 국립수목원은 설명했다.
+    국립수목원은 비무장지대(DMZ) 일대 도서 지역 식물상을 조사해 총 621종을 확인했으며 이 과정에서 외대으아리를 비롯해 산림청 지정 희귀식물인 '가는털백미'와 '백운산원추리' 등 특산식물 7종도 관찰했다.
+
+    그동안 이 지역에서 보고되지 않은 환경부 지정 생태계교란종인 '물참새피'를 포함해 외래식물 97종도 발견됐다.
+    이 지역은 외래식물을 중심으로 식물상 변화가 나타난 것으로 조사됐으며 국립수목원은 지역 개발에 따른 외래종 유입과 확산 영향을 원인으로 꼽았다.
+    국립수목원 관계자는 "강화군 서도면 도서지역의 고유 식물상을 보전하려면 탐방로 조정과 안내판 설치, 외래식물 확산 억제 등 관리 대책이 필요하다"고 말했다.
+
+    kyoon@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[특산식물 '외대으아리']]></Title>
+         <Caption><![CDATA[[국립수목원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260129053000060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/29/AKR20260129053000060_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[특산식물 '백운산원추리']]></Title>
+         <Caption><![CDATA[[국립수목원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260129053000060_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/29/AKR20260129053000060_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[생태계교란종 '물참새피']]></Title>
+         <Caption><![CDATA[[국립수목원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260129053000060_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/29/AKR20260129053000060_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

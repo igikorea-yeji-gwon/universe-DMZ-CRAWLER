@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260330170400099</ContentID>
+      <SendDate>20260330</SendDate>
+      <SendTime>202512</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7106009" name="남아공"/>
+         <RegionCode code="7106052" name="남수단"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1102002" name="UN"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001010" name="부고"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260330170400099]]></Href>
+      <Writer><![CDATA[나확진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[아파르트헤이트와 싸운 백인 변호사 니컬러스 헤이섬 별세]]></Title>
+      <SubTitle><![CDATA[2021년부터 유엔 남수단임무단 대표 지내…여러 국제분쟁 중재]]></SubTitle>
+      <Body><![CDATA[아파르트헤이트와 싸운 백인 변호사 니컬러스 헤이섬 별세
+2021년부터 유엔 남수단임무단 대표 지내…여러 국제분쟁 중재
+
+
+    (요하네스버그=연합뉴스) 나확진 특파원 = 남아프리카공화국의 아파르트헤이트(흑인차별정책)와 싸운 '백인 변호사' 니컬러스 헤이섬(73) 유엔남수단임무단(UNMISS) 대표가 지난 17일 미국 뉴욕에서 별세했다고 미국 일간 뉴욕타임스(NYT)가 29일(현지시간) 보도했다.
+    헤이섬 대표의 딸은 부친이 심장과 폐 질환을 앓았으며 병원에서 운명했다고 말했다.
+    헤이섬 대표는 1952년 4월 21일 아파르트헤이트가 시행되던 당시 남아프리카연방 요하네스버그에서 사탕수수 회사 관리자였던 영국 출신 부친과 반아파르트헤이트 단체에서 활동한 모친 사이에서 태어났다.
+    남아공 해군에서 복무한 그는 남아공 나탈대학교와 케이프타운대에서 법학을 공부했다. 1976년 반아파르트헤이트 남아공 전국학생연맹 회장으로 선출됐으며 학생 시위 도중 체포돼 수감되기도 했다.
+    고인은 졸업 후 위트워터스랜드대학교 응용법학연구센터 부교수가 됐고, 로펌을 설립해 변호사로 활동하며 흑인 노동조합 활동을 지원했다. 그러던 중에도 반아파르트헤이트 활동 등을 이유로 여러 차례 수감됐다.
+    1990년 넬슨 만델라 대통령이 석방되고 아프리카민족회의(ANC)가 합법화되면서 헤이섬 대표는 남아공 새 헌법 초안을 만드는 데 참여했다.
+    1994년 만델라 대통령 당선부터 1999년 퇴임까지 수석 법률 보좌관으로 일했다. 이후 그는 만델라 대통령의 지원 등에 힘입어 국제 분쟁 중재자로 활발하게 활동했다. 
+    부룬디 내전, 수단 내전 등 여러 국제 분쟁의 중재에 참여했으며 2005년 유엔에 합류한 뒤에는 이라크 새 헌법 제정 과정에도 참여했다. 유엔아프가니스탄지원단 대표, 유엔소말리아임무단 대표 등을 역임했다.
+    2021년 안토니우 구테흐스 유엔 사무총장은 그를 UNMISS 대표 겸 남수단 유엔사무총장 특사로 임명했다.
+    헤이섬 대표와 일했던 니키 간츠 유엔 중동담당 부국장은 "백인 남아프리카인이라는 정체성이 그의 모든 행동을 규정했다"며 "그는 모든 소수자 집단에 집중하고 모든 목소리가 반영되도록 헌신했다"고 말했다.
+    구테흐스 총장은 성명에서 헤이섬 대표에 대해 "평생을 세계에서 가장 복잡하고 취약한 지역에서 정의와 대화, 회복을 위해 헌신했다"고 애도했다.
+    rao@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[니컬러스 헤이섬 유엔남수단임무단(UNMISS) 대표 [신화 연합뉴스 자료사진 재판매 및 DB 금지]]]></Caption>
+         <FileName>PXI20220621006901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/xi/2022/06/21/PXI20220621006901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

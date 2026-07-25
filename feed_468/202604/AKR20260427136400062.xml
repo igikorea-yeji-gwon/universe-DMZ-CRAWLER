@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260427136400062</ContentID>
+      <SendDate>20260427</SendDate>
+      <SendTime>172904</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0107003" name="지방정가"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260427136400062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[허영 의원, 남북체육교류 특례법 발의…"스포츠로 평화 물꼬"]]></Title>
+      <SubTitle><![CDATA[민주당 철원·화천·양구·고성 등 접경지역 군수 후보 동참]]></SubTitle>
+      <Body><![CDATA[허영 의원, 남북체육교류 특례법 발의…"스포츠로 평화 물꼬"
+민주당 철원·화천·양구·고성 등 접경지역 군수 후보 동참  
+
+
+    (춘천=연합뉴스) 이상학 기자 = 더불어민주당 허영 의원(춘천·철원·화천·양구 갑)이 남북 체육교류의 제도적 기반 마련을 위한 특례법을 발의하고 스포츠를 통한 한반도 평화 복원을 제안했다.
+    허 의원은 27일 서울 국회 소통관에서 기자회견을 통해 '남북체육교류협력에 관한 특례법안' 발의 취지를 설명하며 "정세 변화에 흔들리지 않는 지속 가능한 교류 체계가 필요하다"고 밝혔다.
+    이번 법안은 남북 체육교류가 정치 상황에 따라 중단과 재개를 반복해 온 한계를 극복하는 데 초점을 두었다. 
+    주요 내용은 스포츠 물품 반출입 및 선수단 방문 절차 특례, 남북체육교류 지원센터 및 추진협의회 설치, 재정 지원 및 방송·통신 인프라 구축, 통관 절차 간소화 등이다.
+    허 의원은 "스포츠는 경색된 남북 관계 속에서도 가장 먼저 손을 맞잡을 수 있는 분야"라며 "안정적인 제도 기반을 통해 교류의 '골든타임'을 놓치지 않도록 해야 한다"고 강조했다.
+    이날 기자회견에는 김경성 남북체육교류협회 이사장과 강원 4개 접경지역에 출마한 민주당 소속 한금석 철원군수 후보, 김세훈 화천군수 후보, 김철 양구군수 후보, 함명준 고성군수 후보가 함께 했다. 
+
+    남북체육교류협회는 올해 '아리스포츠컵 원산 국제유소년축구대회'를 시작으로 2028년 평양 아시아탁구선수권대회, LA 올림픽까지 이어지는 스포츠 교류 로드맵도 제시했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[허영 국회의원 기자회견]]></Title>
+         <Caption><![CDATA[[의원실 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260427136400062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/27/AKR20260427136400062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[허영 더불어민주당 의원]]></Title>
+         <Caption><![CDATA[[허영 의원실 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20220921000057054_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2022/09/21/57/PCM20220921000057054_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

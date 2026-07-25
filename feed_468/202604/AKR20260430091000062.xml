@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260430091000062</ContentID>
+      <SendDate>20260430</SendDate>
+      <SendTime>112446</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0503011" name="교육행정"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260430091000062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[최광익 강원교육감 예비후보, 접경지 군인 가족 대상 공약 발표]]></Title>
+      <SubTitle><![CDATA[7개 시군에 군인 가족 교육지원센터 구축…학업·정서·진로 멘토링]]></SubTitle>
+      <Body><![CDATA[최광익 강원교육감 예비후보, 접경지 군인 가족 대상 공약 발표
+7개 시군에 군인 가족 교육지원센터 구축…학업·정서·진로 멘토링
+
+
+    (춘천=연합뉴스) 양지웅 기자 = 최광익 강원교육감 예비후보가 30일 도 교육청에서 기자회견을 열고 '군인 가족 교육지원센터' 구축을 핵심으로 하는 접경지역 군인 가족 대상 공약을 발표했다.
+    군인 가족 교육지원센터는 화천, 양구, 인제, 철원, 고성, 춘천, 동해 등 군부대가 많은 7개 시군의 교육지원청에 신설하는 조직이다.
+    이곳에서는 군인 가족 전·입학 시 필요한 학교 배정부터 행정 처리까지 원스톱으로 대행하고, 전학으로 발생하는 교과 진도 차이를 막기 위한 기초학력 보충, 정서 및 진로 멘토링 등을 제공한다.
+    최 예비후보는 임기 1년 차에 시 단위, 군 단위 지역에서 각 1곳씩 2곳에서 시범운영을 시작해 임기 3년 차에 7개 시군으로 확대할 계획이다.
+    아울러 민·관·군 협력 통학·돌봄 네트워크 구축, 민·군 공용 스쿨버스 노선 신설, 이음 온택트 과외 제공, 안심 에듀 케어 택시 바우처 지급 등을 약속했다.
+    특히 군인 배우자들의 경력 단절을 극복할 수 있도록 늘봄학교와 방과 후 강사 채용 시 혜택을 제공하고, 아동보호 자격을 이수한 전역 군인을 학교 보안관으로 우선 채용할 것을 공약했다.
+    최 예비후보는 "어려운 환경 속에서도 묵묵히 조국을 지키는 군인들의 희생이 있기에 오늘의 우리가 있다"며 "나라를 지키는 군인 부모들을 위한 교육 방패가 돼 자녀의 미래를 완벽히 책임지겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[최광익 강원교육감 예비후보, 군인 가족 대상 공약 발표]]></Title>
+         <Caption><![CDATA[(춘천=연합뉴스) 양지웅 기자 = 최광익 강원교육감 예비후보가 30일 강원 춘천시 강원특별자치도교육청에서 기자회견을 열고 접경지역 군인 가족을 위한 공약을 발표하고 있다. 2026.4.30 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026043006110006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/30/PYH2026043006110006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

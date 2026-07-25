@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260429041700060</ContentID>
+      <SendDate>20260429</SendDate>
+      <SendTime>092952</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0109008" name="주한미군"/>
+         <ClassCode code="0701002" name="문화시설"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260429041700060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, 내달 1일부터 캠프 그리브스 탄약고 자율 개방]]></Title>
+      <Body><![CDATA[경기도, 내달 1일부터 캠프 그리브스 탄약고 자율 개방
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도는 다음 달 1일부터 파주 군내면 민간인 통제구역 내에 있는 캠프 그리브스 역사공원 내 탄약고 1·2관의 관람방식을 제한 개방에서 자율 개방으로 변경한다고 29일 밝혔다.
+
+    기존에는 인솔자의 안내, 제한된 인원이라는 제약이 있었으나 다음 달부터는 누구나 원하면 관람할 수 있게 된다. 
+    앞서 도는 지난해 9월 캠프 그리브스 역사공원을 일반에 개방했으나 과거 주한미군이 부대에 탄약을 보급하기 위해 사용했던 시설인 탄약고 전시관만은 안전상의 이유로 특별관람 공간으로 제한했다. 
+    이번에 자율 개방된 탄약고는 미군 주둔 당시 미군 부대에 탄약을 보급하기 위해 사용되었던 병기 창고의 원형을 보존한 채, 현재 탄약고 1관은 미디어아트 전시관으로 운영 중이다. 
+    이승근 작가의 '이 선을 넘지 마시오'라는 주제의 작품을 통해 관람객은 어두운 탄약고 내부에서 바닥의 선을 따라 이동하며 분단의 암흑기에서 평화와 희망의 에너지가 넘치는 세상으로 나아가는 과정을 시각적·청각적으로 체험할 수 있다.
+    탄약고 2관에서는 미군 군용 텐트와 낙하산을 해체·재조합한 설치 미술 연진영 작가의 '주름진 서식지'를 전시 중이다.
+    도는 이번 전면 개방을 위해 관람객들이 잠시 숨을 고를 수 있는 휴게 공간도 마련했다.
+    김영옥 경기도 DMZ정책과장은 "탄약고는 캠프 그리브스에서 가장 차갑고 단단한 공간이었지만, 이제는 가장 따뜻한 평화의 울림을 전하는 곳이 될 것"이라며 "계속해서 많은 시민이 찾는 장소가 되도록 콘텐츠를 개발하겠다"고 말했다.
+    캠프 그리브스는 1953년 미군 주둔 이후 50여년 간 사용되다 2007년 반환된 옛 미군 기지다. 현재는 DMZ의 역사와 예술, 문화를 체험할 수 있는 갤러리 그리브스, 기획전시관, 다큐멘타관, 카페 그리브스 등 주요 전시관과 편의시설 등을 갖추고 있다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[캠프 그리브스 탄약고 전경]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260429041700060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/29/AKR20260429041700060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260111013700053</ContentID>
+      <SendDate>20260111</SendDate>
+      <SendTime>085833</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>4</Urgency>
+      <Category code="03"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003003" name="대구"/>
+         <RegionCode code="7007001" name="경북"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260111013700053]]></Href>
+      <Writer><![CDATA[이승형]]></Writer>
+      <Desk code="053"><![CDATA[대구경북취재본부]]></Desk>
+      <DeliCode>G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경북도, 중부내륙연계 발전계획 수립…지역소멸 대응·균형발전]]></Title>
+      <Body><![CDATA[경북도, 중부내륙연계 발전계획 수립…지역소멸 대응·균형발전
+
+
+    (안동=연합뉴스) 이승형 기자 = 경북도는 최근 중부내륙 연계지역 발전계획안을 마련해 강원도와 함께 공청회를 개최했다고 12일 밝혔다.
+    중부내륙 연계 발전지역(8개 시도·27개 시군구)의 각 시도 발전계획은 인접 시도 간 연계·협력을 통한 균형발전을 도모하는 것을 목표로 한다.
+    경북도는 발전계획으로 사회간접자본(SOC) 확충을 위해 김천∼전주 간 동서 횡단철도 건설, 문경 역세권 도시개발사업을 마련했다.
+    또 생태자원 친환경 활용과 산림휴양복지 강화를 위해 국립 농생명 치유복합시설(상주)과 백두대간 남산 힐링 정원(예천)을 조성할 예정이다.
+    이와 함께 백두대간 부항댐 체류형 관광지(김천)와 국가 e-스포츠 도시(예천), 이차전지 클러스터 산업단지(상주), 소재·부품·장비 특화 육성(영주) 등 모두 4대 분야에 52개 세부 전략을 발굴했다.
+    중부내륙 스마트 응급의료 서비스 구축, 접경 마구령 터널 주변 지역 협력 등 강원도와 연계 사업도 포함했다.
+    도는 앞으로 공청회 내용을 바탕으로 발전계획을 수정·보완한 후 행정안전부에 제출할 계획이다.
+    행정안전부는 관계 중앙행정기관과 협의를 거쳐 지방시대위원회의 심의를 통해 중부내륙 연계 발전 종합계획을 확정할 예정이다.
+    이상수 경북도 지방시대정책국장은 "인접 시도와의 실질적인 연계·협력을 통해 지역소멸에 대응하고 균형성장을 주도하겠다"고 말했다.
+    haru@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중부내륙연계지역 발전계획 공청회]]></Title>
+         <Caption><![CDATA[[경북도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260111013700053_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/11/AKR20260111013700053_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

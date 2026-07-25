@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260420023000060</ContentID>
+      <SendDate>20260420</SendDate>
+      <SendTime>084648</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005026" name="의정부"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+         <ClassCode code="0201001" name="경제일반"/>
+         <ClassCode code="0401001" name="산업일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260420023000060]]></Href>
+      <Writer><![CDATA[우영식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, 3개 시군 대상 '평화경제특구' 개발계획 용역 착수]]></Title>
+      <Body><![CDATA[경기도, 3개 시군 대상 '평화경제특구' 개발계획 용역 착수
+
+    (의정부=연합뉴스) 우영식 기자 = 경기도는 정부가 올해와 내년 모두 4개 안팎의 평화경제특구 조성 계획을 발표한 것과 관련해 연천, 파주, 포천 등 3개 시군을 대상으로 후보지별 개발계획 수립 연구용역에 착수했다고 20일 밝혔다.
+
+    평화경제특구는 남북 접경지역을 중심으로 평화·안보 가치와 산업·경제 기능을 결합한 국가 전략사업이다.
+    평화경제특구로 지정되면 법인세, 지방세, 부담금 감면 및 자금 지원 등 혜택이 주어지며, 산단형이나 관광ㆍ문화형 또는 복합형 특구를 조성할 수 있다.
+    연구용역은 서울대 산학협력단이 맡아 내년 10월 19일까지 18개월간 추진한다.
+    연구 범위는 연천, 파주, 포천의 지역별 여건과 강점을 반영한 맞춤형 개발계획 수립이다.
+    주요 과업은 평화경제특구 지정 필요성 및 지역 여건 분석, 산업·관광·투자유치 등 특화전략 수립, 토지 이용 및 기반 시설 계획 마련, 단계별 개발사업 실행방안 도출, 정부 지정 신청을 위한 개발계획서 작성 등이다.
+    도는 다음 달 중 착수보고회를 개최해 추진 방향을 공유하고, 해당 시·군과 정례 실무협의회를 운영하며 현장 의견을 반영한 계획을 수립할 방침이다.
+    도는 특화 전략 마련 및 개발계획 구체화를 통해 오는 9월에 시작될 1차 지구(시범지구) 지정과 내년 8월 2차 지구 지정에 차질 없이 대응할 계획이다.
+    박현석 평화협력국장은 "평화경제특구는 접경지역을 규제와 단절의 공간에서 성장과 기회의 공간으로 전환할 수 있는 새로운 국가 발전모델"이라며 "경기도는 가장 먼저 개발계획 수립 절차에 착수하는 등 차질 없이 준비해 특구 지정이 이뤄지도록 하겠다"고 말했다.
+    wyshik@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[경기도청사]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260420023000060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/20/AKR20260420023000060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

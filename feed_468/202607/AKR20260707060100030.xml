@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260707060100030</ContentID>
+      <SendDate>20260707</SendDate>
+      <SendTime>110004</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Class>
+         <ClassCode code="0201001" name="경제일반"/>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0402004" name="축산업"/>
+         <ClassCode code="0507007" name="질병"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260707060100030]]></Href>
+      <Writer><![CDATA[김세린]]></Writer>
+      <Desk code="030"><![CDATA[소비자경제부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[농식품부, 접경지역에 구제역 SAT1형 백신 접종 완료]]></Title>
+      <SubTitle><![CDATA[서해안 77만마리도 9∼10월 접종…해외 발생 상황 고려해 지역 확대]]></SubTitle>
+      <Body><![CDATA[농식품부, 접경지역에 구제역 SAT1형 백신 접종 완료
+서해안 77만마리도 9∼10월 접종…해외 발생 상황 고려해 지역 확대
+
+
+    (서울=연합뉴스) 김세린 기자 = 농림축산식품부는 구제역 SAT1형의 국내 유입에 대비해 접경지역 소·염소 17만마리에 대한 백신 접종을 완료했다고 7일 밝혔다.
+    농식품부에 따르면 SAT1형 구제역은 올해 3월 중국에서 처음 발생한 데 이어 지난 5월 몽골에서도 확인됐다.
+    이에 농식품부는 지난 5월 13일부터 인천과 경기, 강원 등 접경지역 11개 시·군의 소와 염소를 대상으로 구제역 SAT1형 1·2차 접종을 실시해 지난 5일 모두 완료했다.
+    또 국립축산과학원 등 종축자원 보호시설의 우제류 1만6천여마리에도 백신을 접종했다. 
+    접종 후 젖소에서 일시적인 체온 상승과 유량 감소가 나타났으나 모두 회복됐으며 한우와 염소에서는 특이사항이 확인되지 않았다고 농식품부는 설명했다.
+    농식품부는 오는 9월 O·A형 구제역 백신 접종 시기에 맞춰 서해안 22개 시·군의 소·염소 77만마리에 대해서도 SAT1형 백신을 접종하고, 10월까지 2차 접종을 마칠 예정이다.
+    만일의 상황에 대비해 연말까지 880만두분의 백신을 추가로 비축할 계획이다.
+    아울러 해외 발생 상황을 지속적으로 점검해 전문가 협의를 거쳐 접종 지역 확대 여부도 검토하기로 했다.
+    athena@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[(예천=연합뉴스) 윤관식 기자 = 경북에서 11년 만에 구제역이 발생한 3일 경북 예천군 한 한우 축사 인근에서 방역 당국이 출입을 통제하고 있다. 2026.7.3 psik@yna.co.kr]]></Caption>
+         <FileName>PYH2026070307110005300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/07/03/PYH2026070307110005300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

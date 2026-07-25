@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260223039251060</ContentID>
+      <SendDate>20260223</SendDate>
+      <SendTime>111222</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005030" name="포천"/>
+         <RegionCode code="7004013" name="철원"/>
+         <RegionCode code="7005022" name="연천"/>
+         <RegionCode code="7005002" name="가평"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109012" name="군사훈련"/>
+         <ClassCode code="0109003" name="육군"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260223039251060]]></Href>
+      <Writer><![CDATA[임병식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[가축 전염병 방역 비상에 육군 훈련 일부 연기(종합)]]></Title>
+      <Body><![CDATA[가축 전염병 방역 비상에 육군 훈련 일부 연기(종합)
+
+    (가평=연합뉴스) 임병식 기자 = 구제역과 아프리카돼지열병(ASF), 고병원성 조류인플루엔자(AI) 등 가축 전염병 확산으로 방역에 비상이 걸린 가운데 접경지 육군 훈련 일부가 미뤄졌다. 
+    23일 군에 따르면 육군 수도기계화보병사단은 오는 27일부터 다음 달 6일까지 경기 포천과 연천, 강원 철원 일대에서 실시 예정이었던 전술훈련 평가를 4월 말로 연기하기로 했다. 
+
+    사단 예하 혜산진여단 전 병력이 참가하는 이번 훈련 동안 해당 지역 3번·37번·43번 국도 등에서 전차와 장갑차, 군병력이 대규모로 기동할 예정이었다.
+    군 관계자는 "주요 훈련지인 포천과 철원 지역에 ASF가 발생한 엄중한 상황에서 방역 협조 차원으로 부득이 기동 훈련을 연기한다"고 설명했다. 
+    앞서 지난달 24일 포천시 소재 양돈농가에서 ASF가 발생한 데 이어, 지난 20일 철원군 소재 양돈농가에서도 ASF가 발생했다. 
+    현재 방역 당국은 포천과 철원 일대 양돈 농가를 대상으로 이동 제한과 소독을 실시하고 있다. 
+    andphotodo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[기동하는 K9 자주포]]></Title>
+         <Caption><![CDATA[[육군 수도기계화보병사단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260223039251060_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/23/AKR20260223039251060_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

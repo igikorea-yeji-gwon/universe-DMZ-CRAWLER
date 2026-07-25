@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260624049500001</ContentID>
+      <SendDate>20260624</SendDate>
+      <SendTime>095652</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0101004" name="탄핵"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260624049500001]]></Href>
+      <Writer><![CDATA[김연정]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['안규백 장관 탄핵소추' 국민청원 15만명 육박…국힘 "경질해야"]]></Title>
+      <Body><![CDATA['안규백 장관 탄핵소추' 국민청원 15만명 육박…국힘 "경질해야"
+    
+
+    
+    (서울=연합뉴스) 김연정 이율립 기자 = 안규백 국방부 장관 탄핵에 대한 국회 청원에 14만여명이 참여한 것으로 24일 집계됐다.
+    국회 국민동의 청원 홈페이지에 따르면 지난 18일 올라온 이 청원에 이날 현재 14만5천572명이 참여했다.
+    이 청원은 "방첩사령부 해체와 핵심 기능 분산, 예비군 사망사건 등에 대한 책임 있는 조치 부족으로 국가안보와 장병 안전에 대한 국민적 우려가 커지고 있다"면서 국회가 안 장관의 직무수행 적정성을 철저히 조사해 탄핵해줄 것을 요청한다는 내용이다.
+    이와 관련, 국민의힘 정점식 원내대표는 이날 페이스북 글을 올리고 "안 장관의 국방부가 국군 방첩사 해체, 육해공 사관학교 통폐합 및 지방 이전 추진, 후방부대 경계의 민간 위탁 등 국방의 근간을 뒤흔드는 일들이 충분한 검증과 논의 없이 강행 추진되고, 한미동맹 약화에 대한 우려 속에서 여러 현안에 관한 우리 국방부와 유엔사의 의견 엇박자가 노출됐다"고 말했다.
+    또 "수많은 청년의 공분을 샀던 지난달 포천 예비군 훈련 사망사고에 대한 진상 규명과 책임자 문책은 장관과 군 수뇌부의 철저한 무관심 아래 흐지부지되고 있다"며 "대한민국 전쟁기념관에 6·25 전쟁에 관한 중국의 '항미원조' 논리를 소개하는 프로그램이 등장하는 경악스러운 일도 있었다"고 비판했다.
+    그러면서 "이 대통령은 닷새 만에 10만 명을 돌파한 이번 국민청원을 가볍게 여기면 안 된다"며 "안보 불안 해소를 위해 안 장관을 경질하고 국방 안보 정책 기조를 전면 쇄신할 것을 강력히 촉구한다"고 말했다. 
+    최수진 원내수석대변인도 논평에서 "안 장관에 대한 탄핵 소추 촉구 청원이 빗발치는 현 상황은 단순한 인사 실패가 아니라, 이재명 정부의 왜곡된 안보관이 낳은 명백한 '인사 참사'"라며 "이 대통령은 안 장관을 즉각 경질하고 외교·안보 라인을 전면 쇄신하라"고 요구했다.
+
+    한편, 정 원내대표는 정보통신망법 개정 철회를 촉구하는 국민 동의 청원도 10만명을 돌파했다며 민주당을 향해 "국민 청원으로 드러난 국민적 불안을 직시하고 법안의 시행 전 보류와 법안 재개정 논의에 착수해야 한다"고 촉구했다.
+    그는 "우리 당이 지난해 말 '국민 입틀막 3대 악법' 중 하나로서 저지하고자 했던 정보통신망법이 7월 7일부터 시행 예정"이라며 "이 법은 '허위조작정보'의 기준이 모호해 사실상 언론, 유튜브, 인터넷 전반에 걸쳐 권력의 자의적 판단에 따른 표현의 자유 억압을 초래하게 될 악법"이라고 말했다.
+    yjkim84@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260624049500001_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/24/AKR20260624049500001_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[안규백 국방부 장관]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2026061015160001301_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/10/PYH2026061015160001301_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

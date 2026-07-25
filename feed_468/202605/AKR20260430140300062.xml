@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260430140300062</ContentID>
+      <SendDate>20260501</SendDate>
+      <SendTime>070002</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004003" name="강원고성"/>
+      </Region>
+      <Class>
+         <ClassCode code="0803001" name="여행"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0801012" name="휴가휴일"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260430140300062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원 고성 대진등대 해상탐방로 개방…'탁 트인 동해 경관']]></Title>
+      <SubTitle><![CDATA[대진항 관광 명소화 일환…계절별 운영 시간 차등]]></SubTitle>
+      <Body><![CDATA[강원 고성 대진등대 해상탐방로 개방…'탁 트인 동해 경관'
+대진항 관광 명소화 일환…계절별 운영 시간 차등
+
+
+    (강원 고성=연합뉴스) 류호준 기자 = 강원 고성군은 현내면 대진리 일원에 조성한 대진등대 해상탐방로를 개방했다고 1일 밝혔다.
+    대진등대 해상탐방로는 2025년 5월 착공해 지난달 총연장 157m로 조성됐다.
+    탐방로는 탁 트인 동해 경관을 가까이에서 체험할 수 있는 해상 보행 공간으로, 지역의 새로운 관광 명소로 기대를 모은다.
+    운영시간은 계절별로 다르다.
+    4월부터 10월까지는 오전 7시부터 오후 6시까지, 11월부터 3월까지는 오전 8시부터 오후 5시 30분까지 개방한다.
+    이번 사업은 강원도 접경지역 발전 특화사업인 '대진항 일원 관광 명소화 조성사업'의 일환이다.
+    군은 대진항 일원 관광 명소화 조성사업을 통해 이번 사업 외에도 대진등대 주차장 조성사업과 해상탐방로 인근 바다전망대 조성사업도 추진하고 있다.
+    대진등대 해상탐방로는 군사 보호구역 내 있어 운영시간 외에는 출입을 제한한다.
+    특히 군부대 순찰로가 함께 운영되고 있는 만큼 방문객은 지정된 탐방로 이용과 운영시간을 반드시 준수해야 한다. 
+    군 관계자는 "대진등대 해상탐방로 개방을 통해 동해안 북부권의 관광 매력을 한층 강화하고 체류형 관광 기반을 확대하겠다"며 "안전하고 쾌적한 이용을 위해 방문객들의 적극적인 협조를 당부드린다."라고 밝혔다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원 고성 대진등대 해상탐방로]]></Title>
+         <Caption><![CDATA[[강원 고성군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260430140300062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/30/AKR20260430140300062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

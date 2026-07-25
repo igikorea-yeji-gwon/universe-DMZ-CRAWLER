@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260424076500001</ContentID>
+      <SendDate>20260424</SendDate>
+      <SendTime>130000</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260424076500001]]></Href>
+      <Writer><![CDATA[설승은]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[靑·권익위, 장마 전까지 마현천서 지뢰제거·준설작업 진행키로]]></Title>
+      <SubTitle><![CDATA[靑갈등조정비서관실, 권익위 주재 현장 회의 참석…軍과 협의도]]></SubTitle>
+      <Body><![CDATA[靑·권익위, 장마 전까지 마현천서 지뢰제거·준설작업 진행키로
+靑갈등조정비서관실, 권익위 주재 현장 회의 참석…軍과 협의도
+
+
+    (서울=연합뉴스) 설승은 기자 = 청와대 공공갈등조정비서관실과 국민권익위원회는 24일 유실 지뢰가 매몰돼있는 강원도 철원군 마현천에 대해 이번 장마철 이전 지뢰 제거와 준설 작업을 하기로 했다. 
+    공공갈등조정비서관실은 이날 마현천이 있는 철원군 마현리에서 권익위 주재로 열린 현장 조정 회의에서 이 같은 내용이 담긴 대책을 마련했다고 보도자료를 통해 밝혔다.
+    여기에는 우기(雨期) 전 위험지역 지뢰 제거 및 긴급 준설, 마현천 전 구간 정비사업 추진, 관련 내용 이행 점검을 위한 민·관·군 협의체 가동 등이 담겼다. 
+    마현천에는 하천 상류에서 유실됐거나 비무장지대(DMZ)에서 매설됐다 하천에 흘러들어온 지뢰가 다수 잔존해있다. 군사 접경지역이라는 특수성 때문에 치수 인프라 구축이 어려워 매년 수해 피해도 반복됐다.
+    하천 바닥에 매몰된 유실 지뢰 탓에 기초적인 준설 작업도 이뤄지지 못하면서 매년 장마철이면 하천이 범람했고, 농경지 침수 피해가 발생하면서 주민들의 생명과 재산권이 침해받아왔다는 지적이 제기됐다.
+    이에 마현리 주민들은 지난 1월 권익위에 이 같은 문제를 해결해 달라며 집단 민원을 냈고, 공공갈등조정비서관실은 권익위와 함께 현장을 찾아 주민 의견을 청취하고 범정부적 조정 작업에 착수했다.
+   특히 국방부 및 육군 제15보병사단과 긴밀히 협의한 결과 지뢰 제거와 하천 준설을 병행하는 '투 트랙' 해결책을 도출할 수 있었다고 공공갈등조정비서관실은 강조했다.
+    청와대 측은 "오래된 난제일수록 정부가 더 선제적이고 과감하게 움직여야 한다는 대통령의 각별한 당부가 관계 기관의 유기적 협력을 끌어낸 동력이 됐다"며 "현장에서 답을 찾는 실천적 해결에 매진하겠다"고 강조했다.
+    ses@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[영농철 맞아 민통선 유실지뢰 탐지]]></Title>
+         <Caption><![CDATA[<저작권자 ⓒ 2003 연 합 뉴 스. 무단전재-재배포 금지.>]]></Caption>
+         <FileName>2030417h5554484_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/old/data3/orign_img/2003/04/17/_03/2030417h5554484_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

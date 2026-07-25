@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260428143700371</ContentID>
+      <SendDate>20260428</SendDate>
+      <SendTime>155537</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="10"/>
+      <Class>
+         <ClassCode code="1008002" name="동포"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0503001" name="교육일반"/>
+         <ClassCode code="0701001" name="문화일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260428143700371]]></Href>
+      <Writer><![CDATA[강성철]]></Writer>
+      <Desk code="371"><![CDATA[동포.다문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[동포의 창] "율곡 배우고 통일 염원"…중국동포 자녀 파주서 역사 탐방]]></Title>
+      <SubTitle><![CDATA[중국동포한마음연합총회, 자운서원·DMZ서 차세대 정체성 함양]]></SubTitle>
+      <Body><![CDATA[[동포의 창] "율곡 배우고 통일 염원"…중국동포 자녀 파주서 역사 탐방
+중국동포한마음연합총회, 자운서원·DMZ서 차세대 정체성 함양
+
+
+    (서울=연합뉴스) 강성철 기자 = 중국동포한마음연합총회(총회장 김세광)는 재한 중국동포 자녀들의 정체성 함양을 위해 '자운서원 및 오두산통일전망대 문화·역사 체험학습'을 실시했다고 28일 밝혔다.
+    지난 25일 한마음장학회 및 구로어울림주말학교와 함께한 행사에는 초중등생 20여명이 참여했다.
+    이번 행사는 미래 세대인 동포 자녀들이 우리 역사의 뿌리를 이해하고 한반도 평화에 대한 올바른 인식을 정립하도록 돕기 위해 마련했다.
+    참가자들은 경기도 파주시 소재 자운서원에서 조선 유학의 거목인 율곡 이이의 생애와 사상을 접했고, 전통의상과 다도 체험에도 나섰다.
+    이어 오두산통일전망대와 국립평화통일민주교육원을 방문해 분단 현실에 대한 인식을 넓히고 통일을 염원했다.
+    김세광 총회장은 "동포 자녀들의 한국 역사·문화 체험은 정체성 확립과 가치관 형성에 중요한 밑거름"이라며 "앞으로도 미래 세대를 위한 교육 지원을 아끼지 않을 것"이라고 밝혔다.
+    wakaru@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[재한 중국동포 자녀들 파주서 역사·문화 체험]]></Title>
+         <Caption><![CDATA[재한 중국동포 자녀 20여명은 지난 25일 경도도 파주시 일원에서 역사 문화를 체험했다. [중국동포한마음연합총회 제공]]]></Caption>
+         <FileName>AKR20260428143700371_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/28/AKR20260428143700371_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

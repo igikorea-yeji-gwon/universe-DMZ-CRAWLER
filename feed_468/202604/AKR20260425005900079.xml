@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260425005900079</ContentID>
+      <SendDate>20260425</SendDate>
+      <SendTime>040051</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260425005900079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["레바논 투입 이스라엘 병사들 민가 약탈…참모총장, 수사 지시"]]></Title>
+      <Body><![CDATA["레바논 투입 이스라엘 병사들 민가 약탈…참모총장, 수사 지시"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 친이란 무장정파 헤즈볼라에 의한 안보 위협을 해소한다는 명분으로 레바논 남부에 투입된 이스라엘 병사들이 민간인 주택에서 약탈을 일삼는다는 의혹이 제기됐다고 이스라엘 일간 하레츠가 24일(현지시간) 보도했다.
+    신문은 별도의 정보원을 언급하지 않은 채 에얄 자미르 이스라엘군 참모총장이 레바논 남부에 투입된 병사들의 약탈 의혹에 대한 수사를 지시했다고 전했다.
+    보도에 따르면 자미르 참모총장은 수사 지시와 더불어 레바논 접경지대의 출입국 검문소에 군사경찰을 증강 배치해 이스라엘로 돌아오는 모든 군용 및 민간 차량을 검문해 약탈 물품 반입을 원천 차단하라는 지시도 내렸다.
+    최근, 이 신문은 병사들의 증언을 토대로 레바논 남부에 투입된 군인들이 민간인 주택에서 물건을 훔치고 있다고 보도했다.
+    병사들이 증언한 약탈 물품 중에는 오토바이와 TV, 그림, 소파, 카펫 등 가전제품과 가구류도 포함되어 있었다.
+    특히 일부 약탈 사례는 현장 지휘관들의 묵인하에 이뤄졌다는 증언도 있었다.
+    이스라엘군은 이런 의혹에 대해 "필요한 경우 징계 및 형사 조처를 하고 있다"며 "헌병대가 국경 검문소에서 약탈 행위를 방지하기 위해 정기적인 검문을 실시하고 있다"고 밝혔다.
+    이스라엘군은 이란 전쟁 발발 후 헤즈볼라의 공격으로 북부 국경지대 주민들이 안보 위협에 직면하자, 대규모 공습과 함께 지상군 병력을 국경 넘어 레바논 남부에 투입했다.
+    레바논에 진입한 이스라엘군은 국경에서 리타니 강까지 남북으로 30㎞ 구간에 완충지대를 구축하기 위해 주요 기간시설과 민가 등을 철저하게 파괴하고 있는 것으로 전해졌다.
+    이 과정에서 이스라엘 병사가 현지 마론파 기독교인 마을에서 예수상을 파손해 논란이 일기도 했다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 국경 인근에 배치된 이스라엘군 병사들과 차량]]></Title>
+         <Caption><![CDATA[[로이터 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260425005900079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/25/AKR20260425005900079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260127036600065</ContentID>
+      <SendDate>20260127</SendDate>
+      <SendTime>091036</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005009" name="김포"/>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0701003" name="전시공연"/>
+         <ClassCode code="1008001" name="북한일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260127036600065]]></Href>
+      <Writer><![CDATA[홍현기]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[북녘 마주한 김포 애기봉서 매주 상설공연…올해 45회 예정]]></Title>
+      <Body><![CDATA[북녘 마주한 김포 애기봉서 매주 상설공연…올해 45회 예정
+
+
+
+    (김포=연합뉴스) 홍현기 기자 = 경기도 김포시는 북한 접경지역인 월곶면 애기봉평화생태공원에서 올해 12월까지 매주 토요일마다 공연을 개최한다고 27일 밝혔다.
+    오는 31일부터 진행되는 상설 공연의 첫 번째 주제는 'Vol.0 병오년, 새해를 틀어줘!'다.
+    시는 새해 희망과 도약의 메시지를 담아 4인조 클래식 연주, 2인조 팝페라, 6인조 브라스밴드 공연을 선사할 예정이다.
+    공연 첫 회에는 새해 다짐을 담는 연하장 꾸미기와 말띠 해를 기념하는 마패·복주머니 만들기 등 체험행사도 열린다.
+    시는 올해 말까지 총 45차례 100여개 팀 공연을 열면서 봄길 걷기, 어린이 그림 그리기 대회, 크리스마스 기념 생태탐방로 점등 등 다양한 행사도 개최할 계획이다.
+    김포시 관계자는 "병오년 새해에 가족과 함께 애기봉을 찾아 아름다운 풍광과 공연을 즐기면서 따뜻한 희망의 기운을 받아 가시길 바란다"고 말했다.
+
+
+    hong@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[애기봉서 북한 땅 바라보는 관광객들]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>AKR20260127036600065_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/27/AKR20260127036600065_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[애기봉 상설공연 포스터]]></Title>
+         <Caption><![CDATA[[김포시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260127036600065_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/27/AKR20260127036600065_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

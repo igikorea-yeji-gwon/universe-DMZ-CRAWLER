@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260402111200371</ContentID>
+      <SendDate>20260402</SendDate>
+      <SendTime>142537</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="10"/>
+      <Region>
+         <RegionCode code="7105018" name="에콰"/>
+      </Region>
+      <Class>
+         <ClassCode code="1102012" name="개발원조"/>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0108001" name="외교일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260402111200371]]></Href>
+      <Writer><![CDATA[성도현]]></Writer>
+      <Desk code="371"><![CDATA[동포.다문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국제이주기구, 한국 정부와 '에콰도르 국경' 이주자 6천명 지원]]></Title>
+      <Body><![CDATA[국제이주기구, 한국 정부와 '에콰도르 국경' 이주자 6천명 지원
+
+
+    (서울=연합뉴스) 성도현 기자 = 국제이주기구(IOM) 한국대표부는 대한민국 정부 지원 프로젝트를 통해 에콰도르 국경 지역 이주자와 지역 주민 6천여명에 대한 인도적 지원에 나선다고 2일 밝혔다.
+    IOM은 이 프로젝트를 통해 페루·콜롬비아와의 접경 지역을 이동하는 취약계층의 필수 서비스 접근성을 확대하게 될 것으로 기대한다.
+    IOM의 '이재이주추적매트릭스(DTM)'에 따르면 페루 국경 지역 '우아키야스'와 콜롬비아 국경 지역 '라고 아그리오' 및 '툴칸' 국경을 통해 매일 약 550명의 취약 이주자가 이동한다.
+    이들 대부분은 안전한 식수, 식량, 생계 수단은 물론 안전한 거주 공간, 의료보건 서비스, 법률 지원에 접근하기 어려운 상황이다.
+    IOM은 이 프로젝트를 통해 취약한 이주자에게 임시 휴식처 및 식량, 1차 의료보건 서비스, 정신건강 및 심리·사회적 지원 등을 제공한다.
+    또 출산 키트, 가족 위생 키트, 영유아 키트를 배포하고, 법률 상담 서비스·보호 사례 관리 등 포괄적인 인도적 대응을 위한 활동도 진행한다.
+    IOM은 DTM 방법론을 통해 국경 지역의 이주 흐름에 대한 핵심 데이터를 수집해 국가 및 지방정부 관계 당국의 정책 결정을 지원하고, 근거 기반 공공정책 수립에 기여할 방침이다.
+    이 프로젝트를 통해 에콰도르 국경 지역의 지역 사회도 쉼터·안전 공간 등 기존 시설을 보강할 수 있게 되며, 역량 강화 등 지원을 받는다.
+    심재현 주에콰도르 한국대사는 "에콰도르 이주자와 난민을 위한 인도적 지원과 사회 통합을 촉진하는 프로젝트를 지원한다"며 "한국 정부는 2019년 이후 베네수엘라 난민·이주자 유입 증가에 대응하기 위해 양자·다자 채널을 통해 에콰도르에 인도적 지원을 제공해 왔다"고 밝혔다.
+    크리스티나 메호 IOM 에콰도르 대표부 대표는 "에콰도르 국경 지역에 거주하거나 이곳을 통해 이동하는 사람에게 즉각적인 지원과 기초 서비스가 필요하다"며 "이 프로젝트는 이주자와 지역사회를 보호하려는 한국 정부의 확고한 의지를 보여준다"고 강조했다.
+    raphael@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[에콰도르 국경 지역]]></Title>
+         <Caption><![CDATA[[국제이주기구 한국대표부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260402111200371_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/02/AKR20260402111200371_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

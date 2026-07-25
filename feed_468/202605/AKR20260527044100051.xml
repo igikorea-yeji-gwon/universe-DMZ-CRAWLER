@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260527044100051</ContentID>
+      <SendDate>20260527</SendDate>
+      <SendTime>163001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Category code="06"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003005" name="부산"/>
+         <RegionCode code="7103044" name="프랑스"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501016" name="한국전쟁"/>
+         <ClassCode code="0109010" name="보훈복지"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001010" name="부고"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260527044100051]]></Href>
+      <Writer><![CDATA[차근호]]></Writer>
+      <Desk code="051"><![CDATA[부산취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[프랑스 참전용사 2명, 부산 유엔기념공원에 영면]]></Title>
+      <SubTitle><![CDATA[참전용사 부인도 2015년 안장된 남편 곁에 합장]]></SubTitle>
+      <Body><![CDATA[프랑스 참전용사 2명, 부산 유엔기념공원에 영면
+참전용사 부인도 2015년 안장된 남편 곁에 합장
+
+
+    (부산=연합뉴스) 차근호 기자 = 6·25전쟁 때 한국을 위해 싸운 프랑스 참전용사 2명과 참전용사의 부인이 부산 유엔기념공원에 잠들었다.
+    재한유엔기념공원관리처는 27일 오후 부산 남구 유엔기념공원 참전용사 묘역에서 프랑스 참전용사 앙드레 다샤리 씨와 자크 그리졸레 씨의 안장식을 거행했다고 밝혔다.
+    1932년 태어난 다샤리 참전용사는 공학도였으나 한국의 자유와 평화를 지키기 위해 자원입대했다.
+    그는 1953년 3월 부산에 도착해 정전협정이 체결된 그해 7월까지 전선에서 임무를 수행했고, 정전 이후에도 1954년 8월까지 한반도에 머물렀다.
+    프랑스로 돌아간 뒤에는 참전용사협회 활동에 참여했고, 전쟁 이후 한국 사회의 모습과 재건 과정을 사진과 단편 영화로 기록했다.
+    이 작품들은 파리 한국문화원 등 프랑스 주요 도시에 전시돼 한국의 재건 노력을 알리는 데 기여했다.
+
+    1928년생인 그리졸레 참전용사는 1951년부터 1953년까지 두 차례 한국에 파병돼 최전선에서 임무를 수행했다.
+    그는 생전 강원 양구 일대 '단장의 능선 전투'를 가장 치열했던 전투 중 하나로 회상했다.
+    그리졸레 참전용사는 생전 "우리는 한국을 잊지 않고, 한국은 우리를 잊지 않는다"는 말을 남긴 것으로 알려졌다.
+    이날 프랑스 참전용사 레몽 베나르 씨의 부인 니콜 베나르 여사의 합장식도 함께 열렸다.
+    니콜 여사는 2015년 남편 안장 이후 2023년까지 매년 방한해 남편의 묘를 참배했으며, 지난해 세상을 떠난 뒤 유언에 따라 남편 곁에 잠들게 됐다.
+    서정인 재한유엔기념공원관리처장은 "세계 유일의 유엔기념공원에서 참전용사와 가족들이 편히 쉬실 수 있도록 최고의 예우를 갖춰 모시겠다"고 말했다.
+    ready@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[앙드레 다샤리, 자크 그리졸레 참전용사]]></Title>
+         <Caption><![CDATA[[재한유엔기념공원관리처 제공. 재판매 및 DB금지]]]></Caption>
+         <FileName>AKR20260527044100051_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/27/AKR20260527044100051_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[앙드레 다샤리 참전용사의 생전 모습]]></Title>
+         <Caption><![CDATA[[재한유엔기념공원관리처 제공. 재판매 및 DB금지]]]></Caption>
+         <FileName>AKR20260527044100051_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/27/AKR20260527044100051_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

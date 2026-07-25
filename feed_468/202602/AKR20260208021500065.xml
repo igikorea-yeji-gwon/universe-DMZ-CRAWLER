@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260208021500065</ContentID>
+      <SendDate>20260208</SendDate>
+      <SendTime>100745</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501011" name="인구통계"/>
+         <ClassCode code="0501002" name="사회문제"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0103006" name="입법"/>
+         <ClassCode code="0106006" name="개혁규제"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260208021500065]]></Href>
+      <Writer><![CDATA[신민재]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["인구감소지역, 수도권 규제서 빼야"…수정법 개정안 발의]]></Title>
+      <Body><![CDATA["인구감소지역, 수도권 규제서 빼야"…수정법 개정안 발의
+
+
+
+    (인천=연합뉴스) 신민재 기자 = 북한과 인접한 인천시 강화군과 서해 섬들로 구성된 옹진군 등지를 '수도권 규제'에서 배제하는 법률 개정이 추진된다.
+    국민의힘 배준영 의원(인천 중구·강화군·옹진군)은 인구 감소와 지역 간 격차 등을 고려한 수도권정비계획법 일부 개정안을 대표 발의했다고 8일 밝혔다.
+    개정안은 수도권정비계획법의 목적을 기존의 '과밀 억제' 중심에서 '인구 변화에 대응하고 지역 간 균형을 살리는 방향'으로 전환하는 내용을 담았다.
+    또 과밀억제권역·성장관리권역·자연보전권역으로 구성된 기존 3권역 체계에 '인구감소권역'을 새롭게 도입하는 내용이 포함됐다.
+    이밖에 수도권정비계획을 수립할 때 인구감소권역에 대한 지원 사항을 함께 고려하도록 하고, 공공기관 이전과 각종 정책을 추진하는 과정에서도 인구감소지역의 여건을 반영하는 법적 근거를 마련했다.
+    1982년 제정된 수도권정비계획법은 수도권 외곽의 농어촌·접경지역까지 대도시와 같은 기준이 그대로 적용돼 인천시 강화군·옹진군, 경기도 가평군·연천군 등 인구감소지역의 현실을 따라가지 못한다는 지적이 많았다.
+    배 의원은 "이번 개정안은 수도권과 비수도권을 나누려는 것이 아니라, 수도권 안에서 뒤처진 지역을 바로 세우기 위한 최소한의 제도 정비"라고 강조했다.
+    smj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강화평화전망대서 북녘 바라보는 관광객]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2026011105660006500_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/11/PYH2026011105660006500_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260311130500062</ContentID>
+      <SendDate>20260311</SendDate>
+      <SendTime>153522</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+         <RegionCode code="7004011" name="인제"/>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0106005" name="예산재정"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0504001" name="복지일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260311130500062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, 사회서비스 취약지 선정…양구·인제 통합돌봄 시행]]></Title>
+      <SubTitle><![CDATA[국비 확보해 다음달부터 패키지 돌봄 서비스 추진]]></SubTitle>
+      <Body><![CDATA[강원도, 사회서비스 취약지 선정…양구·인제 통합돌봄 시행
+국비 확보해 다음달부터 패키지 돌봄 서비스 추진
+
+    (춘천=연합뉴스) 이상학 기자 = 강원특별자치도가 보건복지부의 '사회서비스 취약지 공모사업'에 선정돼 접경지역 돌봄 서비스를 강화한다.
+
+    도는 보건복지부 주관 사회서비스 취약지 공모사업에 선정돼 국비를 확보하고 사업을 추진한다고 11일 밝혔다.
+    이번 사업은 의료와 돌봄 인프라가 부족한 지역의 여건과 주민 수요를 반영해 맞춤형 사회서비스를 패키지 형태로 제공하는 것이 핵심이다.
+    도는 이달 27일 통합돌봄 제도 본격 시행에 맞춰 사회서비스 인프라가 상대적으로 부족한 접경지역의 돌봄 공백을 줄이기 위해 공모에 참여했다.
+    사업 대상지로 선정된 양구군과 인제군은 고령화가 빠르게 진행되는 지역으로 의료와 돌봄 시설 접근성이 낮아 서비스 확대 필요성이 제기돼 왔다.
+    사업에는 강원사회서비스원이 수행기관으로 참여해 고위험 돌봄 대상자를 발굴하고 서비스 연계와 조정, 품질 관리 등을 담당한다.
+    또 일상돌봄과 동행돌봄, 마음돌봄 등을 결합한 통합돌봄 서비스를 패키지 형태로 제공해 지역 주민의 돌봄 체계를 강화할 계획이다.
+    박송림 도 복지보건국장은 "이번 공모 선정을 계기로 접경지역 주민들이 체감할 수 있는 촘촘한 복지 안전망을 구축하겠다"고 말했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원도청 전경]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20221114000029990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2022/11/14/29/PCM20221114000029990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

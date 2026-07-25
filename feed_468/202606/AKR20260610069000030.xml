@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260610069000030</ContentID>
+      <SendDate>20260610</SendDate>
+      <SendTime>110001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="0201001" name="경제일반"/>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0412002" name="수산업"/>
+         <ClassCode code="0106006" name="개혁규제"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260610069000030]]></Href>
+      <Writer><![CDATA[김세린]]></Writer>
+      <Desk code="030"><![CDATA[소비자경제부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[해수부 "인천·경기 연안 야간조업 허용"…44년 만에 규제 완화]]></Title>
+      <SubTitle><![CDATA[국방부 등과 협의 거쳐 결정…강화해역은 연말까지 연장 시범 운영]]></SubTitle>
+      <Body><![CDATA[해수부 "인천·경기 연안 야간조업 허용"…44년 만에 규제 완화
+국방부 등과 협의 거쳐 결정…강화해역은 연말까지 연장 시범 운영
+
+
+    (서울=연합뉴스) 김세린 기자 = 다음 달 1일부터 인천·경기 연안해역(북위 37도 30분 이남)에서 야간 조업이 전면 허용된다.
+    해양수산부는 국방부 등 관계 기관과 협의를 거쳐 지난 3월부터 해당 해역에서 야간 조업을 시범 운영한 데 이어 이같이 결정했다고 10일 밝혔다.
+    지난 1982년 안보상 이유로 도입된 야간 조업 제한 규제가 44년 만에 개선되면서 어업인들의 조업 여건 개선과 소득 증대가 기대된다고 해수부는 설명했다.
+    해수부는 이번 조치로 어선 1천200여척이 연간 약 3천200t의 수산물을 추가로 어획해 약 187억원의 소득 증대 효과를 거둘 것으로 전망했다.
+    그동안 야간 조업 시범 운영 대상에서 제외됐던 북위 37도 30분 이북 강화해역은 올해 말까지 조업 시간을 일출 전 30분부터 일몰 후 30분까지 연장해 시범 운영한다.
+    강화해역 남단 7개 어장은 성어기에 한해 조업 시간을 일출 전 1시간부터 일몰 후 1시간까지 추가 연장한다.
+    황종우 해수부 장관은 "이번 규제 개선이 어업인들의 수익 증대와 지역경제 활성화에 도움이 될 것으로 기대한다"며 "접경수역의 조업 여건을 지속적으로 개선하고 어업인 안전관리도 철저히 하겠다"고 말했다.
+    athena@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[인천·강화해역 야간조업·항행 규제완화 해역도]]></Title>
+         <Caption><![CDATA[[해양수산부 제공]]]></Caption>
+         <FileName>AKR20260610069000030_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/10/AKR20260610069000030_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

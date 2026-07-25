@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260112109600504</ContentID>
+      <SendDate>20260112</SendDate>
+      <SendTime>155011</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260112109600504]]></Href>
+      <Writer><![CDATA[이정현]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[안규백 "유엔사 통해 무인기 남북공동조사 제안해볼 생각"]]></Title>
+      <Body><![CDATA[안규백 "유엔사 통해 무인기 남북공동조사 제안해볼 생각"
+
+
+    (서울=연합뉴스) 이정현 기자 = 안규백 국방부 장관은 12일 북한의 한국 무인기 침투 주장과 관련해 "유엔군사령부를 통해 남북 공동조사 제안을 해 볼 생각을 갖고 있다"고 밝혔다.
+    안 장관은 이날 국회 법제사법위원회에 출석해 더불어민주당 박지원 의원이 북한으로부터 무인기를 반환받으면 남북 공동조사를 제의할 생각이 있느냐는 물음에 이같이 답했다.
+    안 장관은 또 현재로서는 민간에서 보냈을 확률이 굉장히 높은 게 맞냐는 질문에도 "그렇게 추정하고 있다"고 답했다.
+    앞서 조선인민군 총참모부 대변인은 전날 성명에서 작년 9월과 지난 4일 한국이 침투시킨 무인기를 격추했다고 주장했다. 
+    이에 국방부는 우리 군이 해당 무인기를 보유하지 않고 있다며 민간 무인기일 가능성을 철저히 조사하겠다고 밝혔고 이날 군경합동조사 태스크포스(TF)가 구성됐다.
+    lisa@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[질의에 답하는 안규백 장관]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 황광모 기자 = 안규백 국방부 장관이 12일 서울 여의도 국회에서 열린 법제사법위원회 전체회의에서 의원 질의에 답하고 있다. 2026.1.12 hkmpooh@yna.co.kr]]></Caption>
+         <FileName>PYH2026011212540001301_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/12/PYH2026011212540001301_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

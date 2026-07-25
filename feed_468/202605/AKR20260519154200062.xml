@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260519154200062</ContentID>
+      <SendDate>20260519</SendDate>
+      <SendTime>174221</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0504002" name="노인복지"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260519154200062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우상호 "안보·경제 강화" vs 김진태 "노인 일자리 2배 확대"]]></Title>
+      <SubTitle><![CDATA[우 "강원, 군 과학화 중심 무대"…강호축 철도망 합동 공약 발표
+김 "아들 살려놓고 혼내셔야"…반려견과 'TWO표 독려 캠페인']]></SubTitle>
+      <Body><![CDATA[우상호 "안보·경제 강화" vs 김진태 "노인 일자리 2배 확대"
+우 "강원, 군 과학화 중심 무대"…강호축 철도망 합동 공약 발표
+김 "아들 살려놓고 혼내셔야"…반려견과 'TWO표 독려 캠페인'
+
+    (춘천=연합뉴스) 이재현 기자 = 6·3 지선을 보름 앞둔 19일 여야 강원도지사 후보들은 국방·평화·안보와 복지·노인·농축산 분야의 정책과 공약 대결을 펼쳤다.
+
+    더불어민주당 우상호 후보는 이날 강원도당 회의실에서 열린 '강원 국방안보평화특별위원회(이하 평화특별위) 출범식'에 참석해 강원지역 안보와 경제 발전에 대한 구상을 밝혔다.
+    출범식에는 김도균 도당위원장(육군 중장)을 비롯해 상임의장을 맡은 백군기 전 용인시장(육군 대장), 최성천 전 공군작전사령관(공군 중장), 박경철 전 육군 주임원사 등 국방·안보·평화 분야 전문가 및 접경지역 관계자들이 함께했다.
+    평화특별위는 접경지역 주민들의 국방·안보·평화에 대한 높은 관심을 바탕으로 우 후보 지지 기반 확대와 지방선거 승리를 지원하기 위해 구성됐다.
+    앞으로는 접경지역 안보 현안과 평화 정책에 대한 의견 수렴, 지역 안보 단체와의 협력 체계 구축, 접경지역 유세 지원 활동 등을 이어갈 계획이다.
+    우 후보는 "이재명 정부의 가장 큰 목표는 튼튼한 안보 위에 정착한 평화를 국민의 먹고사는 문제로 이어지게 만드는 것"이라며 "지금 정부는 유례없이 국방 예산을 확대해 군 현대화와 군 복지 향상을 함께 추진하고 있다"고 강조했다.
+    이어 "조만간 부사관 급여 인상과 초급 간부 주거 환경 개선이 본격 추진될 예정"이라며 "장병들이 군 복무 중 드론 등 첨단 과학기술을 직접 배우고 활용할 수 있도록 군의 과학화도 준비 중인데, 그 중심 무대는 강원도가 될 것"이라고 말했다.
+
+    앞서 국회 민주당 당 대표실에서 열린 '강호축 철도망 합동 공약 발표'에 참석한 우 후보는 강릉∼청주공항∼광주∼목포를 연결하는 동서축(X축) 철도망 완성을 통한 강원 대도약을 선언했다.
+    공약 발표 행사에는 정청래 총괄 상임선대위원장과 우 후보를 비롯해 신용한 충북지사 후보, 민형배 전남광주통합특별시장 후보가 참석했다. 
+    이에 맞서는 국민의힘 김진태 후보는 이날 복지, 노인, 농축산, 건축 등 도내 핵심 민생 현장의 목소리를 경청하는 정책 행보를 이어갔다.
+
+    김 후보는 강원사회복지연대 간담회를 시작으로 대한노인회 도 연합회, 강원농축협, 연탄은행, 도 건축사회 등과 연쇄 정책간담회를 개최했다.
+    강원사회복지연대 간담회에서 김 후보는 "도에서 지급하는 복지수당을 종사자 중 60세 이상 어르신들에게도 전면 확대 지급하겠다"고 약속했다.
+    도비 27억원이 투입되던 기존 사업에 46억원의 예산을 추가 투입해 총 76억원 규모로 확대하겠다는 구상이다.
+    이어 진행된 대한노인회 도 연합회 간담회에서 김 후보는 "어르신들을 위한 가장 확실한 복지는 일자리"라며 "국비와 도비를 과감하게 매칭해 노인 일자리 사업을 현재의 두 배로 확충하겠다"고 공약했다.
+    그러면서 "미우나 고우나 이 아들을 살려놓고 혼을 내셔야 제가 도지사로서 여러분을 제대로 도와드리지 않겠느냐"며 "두 번째 임기를 맡겨주신다면 현장의 제안을 한 글자도 빼놓지 않고 도정에 완벽히 반영하겠다"고 지지를 호소했다.
+    이와 함께 선거캠프 1층에서 열린 강원농축협 정책간담회에 참석한 김 후보는 농·축·인삼가들의 애로사항을 청취하고 강원 농축산업의 경쟁력을 끌어올릴 대안을 논의하는 등 현장의 목소리를 듣는 청취 행보를 이어갔다.
+
+    김 후보는 이날 춘천 공지천 일원에서 '내 삶이 특별해질 강원, 당신의 특별한 TWO표'라는 투표 독려 캠페인의 세 번째 시리즈를 이어갔다.
+    2022년 유기견 보호소에서 가족이 된 반려견 뭉치와 함께 산책과 조깅하며 시민들을 만난 김 후보는 "꼭 투표해달라", "진짜를 뽑는 특별한 투표에 함께해달라"고 호소했다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국방안보평화특별위원회 출범식 참석한 우상호 후보]]></Title>
+         <Caption><![CDATA[[우상호 후보 선대위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260519154200062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/19/AKR20260519154200062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['강호축 철도망 합동 공약 발표' 참석한 우상호 후보]]></Title>
+         <Caption><![CDATA[[우상호 후보 선대위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260519154200062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/19/AKR20260519154200062_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원사회복지연대 간담회 참석한 김진태 후보]]></Title>
+         <Caption><![CDATA[[김진태 후보 선대위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260519154200062_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/19/AKR20260519154200062_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김진태 후보, 특별한 TWO표 세 번째 시리즈]]></Title>
+         <Caption><![CDATA[[우상호 후보 선대위 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260519154200062_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/19/AKR20260519154200062_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

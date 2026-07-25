@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260622152700504</ContentID>
+      <SendDate>20260622</SendDate>
+      <SendTime>192529</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0108001" name="외교일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260622152700504]]></Href>
+      <Writer><![CDATA[권수현]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[정동영 "한반도 평화공존 정책, 獨 동방정책과 궤 같이해"]]></Title>
+      <SubTitle><![CDATA[독일 연방하원 부의장 면담 "독일 경험, 한반도에 절실히 필요"]]></SubTitle>
+      <Body><![CDATA[정동영 "한반도 평화공존 정책, 獨 동방정책과 궤 같이해"
+독일 연방하원 부의장 면담 "독일 경험, 한반도에 절실히 필요"
+
+
+    
+    (서울=연합뉴스) 하채림 권수현 기자 = 정동영 통일부 장관이 22일 방한 중인 보도 라멜로 독일 연방하원 부의장과 만나 정부의 '한반도 평화공존 정책'이 서독의 '동방정책'과 지향점을 공유하고 있음을 설명하고 독일 측의 협력을 당부했다고 통일부가 밝혔다.
+    정 장관은 면담 모두 발언에서 "이재명 정부의 대북정책인 평화공존 정책은 빌리 브란트 서독 총리의 '동방정책'과 궤를 같이한다"며 "동방정책을 통해 평화공존을 추구하고 화해협력의 길로 전진했던 독일의 경험이 지금 한반도에 절실하게 필요하다"고 말했다. 
+    정 장관은 독일 통일 후 동서독 통합 노력에 경의를 표하면서 "안타깝게도 남과 북은 헤어진 지 80년이고 이질화가 많이 진전됐다. 하루속히 만나 대화하고 교류·협력하는 것이 시급한 이유"라고 강조했다.
+    라멜로 부의장은 이에 독일 역시 분단 시기 동서독 간 군사적 대치 상황이 우발적 충돌로 격화할 가능성과 불안을 안고 있었다고 돌아보고, 과거 동서독 접경지역 주민들 간의 제한적 왕래와 교류가 이질감을 완화하고 교류협력을 발전시키는 토대가 됐다고 조언했다. 
+    라멜로 부의장은 브란트 총리의 '접근을 통한 변화' 정책을 강조하면서 "한반도에서 일어나는 모든 일이 평화롭게 진행되기를 바란다"고 밝혔다. 
+    양측은 또한 한반도 평화를 위해 다양한 협력 관계를 발전시키는 데 노력하기로 했다고 통일부는 전했다. 
+    inishmore@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[정동영 통일부 장관, 보도 라멜로 독일 연방하원 부의장과 면담]]></Title>
+         <Caption><![CDATA[[통일부 제공. DB 및 재판매 금지]]]></Caption>
+         <FileName>AKR20260622152700504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/22/AKR20260622152700504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

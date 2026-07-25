@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260312168300099</ContentID>
+      <SendDate>20260312</SendDate>
+      <SendTime>182606</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103044" name="프랑스"/>
+         <RegionCode code="7106047" name="콩고민공"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1102002" name="UN"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260312168300099]]></Href>
+      <Writer><![CDATA[나확진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[민주콩고서 드론 공격에 유니세프 프랑스인 직원 사망]]></Title>
+      <SubTitle><![CDATA[정부군·반군, 상대에 책임 전가…정부군 오폭 가능성도 거론]]></SubTitle>
+      <Body><![CDATA[민주콩고서 드론 공격에 유니세프 프랑스인 직원 사망 
+정부군·반군, 상대에 책임 전가…정부군 오폭 가능성도 거론
+
+
+
+    (요하네스버그=연합뉴스) 나확진 특파원 = 콩고민주공화국(민주콩고·DR콩고) 동부 반군 장악 지역에서 11일(현지시간) 드론 공격으로 국제기구에서 근무하던 프랑스인이 사망했다고 AP, AFP 통신 등 외신이 전했다.
+    유엔아동기금(UNICEF·유니세프)는 이 단체 소속 카린 뷔세가 이날 새벽 드론 공격으로 동부 고마 인근 힘비 거주지에서 사망했다고 밝혔다. 뷔세 외에도 이번 공격으로 두 명이 더 숨진 것으로 알려졌다.
+    반군 M23은 정부군이 공격했다고 주장했으며 정부군은 국경을 접한 르완다가 반군 M23을 이용해 공격했다고 반박했다.
+    지난해 초 M23이 고마를 장악한 이후 고마에서 수백㎞ 떨어진 곳에 주둔한 정부군과 M23 모두 그동안 드론으로 교전했다고 AFP는 전했다. 
+    일각에서는 드론 공격을 받은 지역에 M23 지휘관이 다수 거주하는 점을 들어 정부군의 오폭 가능성도 제기했다. M23 지원 혐의로 궐석재판에서 사형선고를 받은 조제프 카빌라 전 민주콩고 대통령도 인근에 거주하는 것으로 알려졌다.
+    유엔과 프랑스 등은 이번 공격을 강하게 비판했다.
+    에마뉘엘 마크롱 프랑스 대통령은 엑스(X·옛 트위터)에 적은 글에서 유가족에게 조의를 전하며 "생명을 구하기 위해 헌신하는 사람들과 국제 인도법에 대한 존중을 호소한다"고 말했다.
+    스테판 두자릭 유엔사무총장 대변인은 안토니우 구테흐스 유엔 사무총장이 이번 공격에 격분했다며 "인도주의적 구호 요원은 결코 공격대상이 돼선 안 된다. 그게 국제법이고 논쟁이나 타협의 대상이 아니다"라고 말했다.
+    유엔에 따르면 올해 민주콩고에서 인도주의적 구호 요원이 사망한 것은 이번이 두 번째다. 
+    코발트와 구리, 콜탄 등 전략 광물이 풍부한 민주콩고 동부지역은 M23 등 100여개 무장세력이 난립하면서 30년 넘게 분쟁에 시달려왔다.
+    특히 르완다의 지원을 받는 것으로 알려진 M23은 2021년부터 동부 광산 지역 다수를 장악하고 세력을 키웠다.
+    지난해 말 도널드 트럼프 미국 대통령의 중재로 민주콩고와 르완다 정부는 평화협정을 체결했지만, 미국 재무부는 이달 초 르완다군이 평화협정을 준수하지 않고 M23 반군을 계속 지원하고 있다며 르완다군과 지휘관 4명을 제재 대상에 올렸다. 
+    rao@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[11일(현지시간) 콩고민주공화국 동부 고마에서 드론 공격에 부서진 집을 구조 요원이 살피고 있다.[신화 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PXI20260312006101009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/xi/2026/03/12/PXI20260312006101009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

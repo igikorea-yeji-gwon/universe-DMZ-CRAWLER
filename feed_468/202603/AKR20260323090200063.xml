@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260323090200063</ContentID>
+      <SendDate>20260323</SendDate>
+      <SendTime>133225</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7011001" name="충남"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="1008001" name="북한일반"/>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260323090200063]]></Href>
+      <Writer><![CDATA[정윤덕]]></Writer>
+      <Desk code="063"><![CDATA[대전충남취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[충청권 통일플러스센터 개관…4월부터 본격 가동]]></Title>
+      <SubTitle><![CDATA[통일 이후 모습 체험 등 통해 통일 공감대 확산]]></SubTitle>
+      <Body><![CDATA[충청권 통일플러스센터 개관…4월부터 본격 가동
+통일 이후 모습 체험 등 통해 통일 공감대 확산
+
+
+    (홍성=연합뉴스) 정윤덕 기자 = 통일 공감대 확산 거점이 될 충청권 통일플러스(+)센터가 23일 문을 열고 다음 달부터 본격 가동에 들어간다.
+    충남도에 따르면 국·도비 137억4천만원을 들여 내포신도시에 건립된 센터는 지상 3층·지하 1층 규모(연면적 2천226㎡)로, 앞서 개관한 인천·호남·강원·경기 센터보다 크다.
+    센터는 통일 이후 북한과 결합한 충남의 모습을 체험할 수 있는 미래전시실, 북한 명소 실감 영상 체험과 비무장지대(DMZ) 멸종위기종 찾기 체험이 가능한 미래영상실, 통일 관련 서적을 열람·대출할 수 있는 아카이브, 남북 문화 교육장, 특별 전시실 등으로 구성됐다.
+    센터에서는 도민들이 북한 문화를 접하고 통일에 대한 이해를 키워 나아갈 수 있도록 북한 요리 체험, 어린이·청소년 통일 강좌 등 프로그램을 운영하는 한편 북한이탈주민 초기 정착 지원 및 인식 개선 사업도 추진한다.
+    이용 시간은 화∼일요일 오전 9시부터 오후 6시까지이다.
+    김태흠 충남지사는 "센터에서 통일 관련 교육과 전시 체험 등 매년 100회 이상의 프로그램을 운영, 연간 2만명의 방문객을 유치하게 될 것"이라며 "우리 아이들이 자연스럽게 한반도 평화를 이야기하고, 미래 통일 한국의 꿈을 꿀 수 있게 하겠다"고 말했다.
+    cobra@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[충청권 통일플러스센터 개관]]></Title>
+         <Caption><![CDATA[[충남도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260323090200063_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/23/AKR20260323090200063_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

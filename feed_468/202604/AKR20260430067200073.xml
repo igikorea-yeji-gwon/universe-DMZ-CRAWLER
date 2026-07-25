@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260430067200073</ContentID>
+      <SendDate>20260430</SendDate>
+      <SendTime>101021</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102024" name="일본"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260430067200073]]></Href>
+      <Writer><![CDATA[조성미]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["日방위상, 6월 말 방한 추진…국방장관 회담 조율 중"]]></Title>
+      <SubTitle><![CDATA[日언론 "안보협력 강화 논의…군사분계선·주한미군기지 시찰 방안도"]]></SubTitle>
+      <Body><![CDATA["日방위상, 6월 말 방한 추진…국방장관 회담 조율 중"
+日언론 "안보협력 강화 논의…군사분계선·주한미군기지 시찰 방안도"
+    
+    (도쿄=연합뉴스) 조성미 특파원 = 고이즈미 신지로 일본 방위상이 6월 하순 한국을 방문해 안규백 국방부 장관과 방위 협력 강화와 북한 대응 등에 대해 협의하는 방안을 조율 중이라고 요미우리신문 등 일본 언론들이 30일 보도했다.
+    고이즈미 방위상의 방한은 지난해 10월 취임 이래 처음이다.
+    현지 언론은 이번 국방장관 회담 일정이 안 장관과 고이즈미 방위상이 지난 1월 일본에서 만나 매년 상호 방문하자고 합의한 데 따른 것이라고 일본 정부 관계자를 인용해 전했다.
+    안 장관은 1월 30일 가나가와현 요코스카시 해상자위대 총감부에서 고이즈미 방위상과 회담하고 한일 수색·구조훈련(SAREX) 재개, 인공지능(AI)·무인체계·우주 협력 등에 합의했다.
+    고이즈미 방위상은 이번 방한 기간 군사분계선과 주한미군 기지 시찰에 나서는 방안도 조율 중인 것으로 전해졌다.
+    요미우리는 북한이 러시아와 군사 협력을 긴밀히 하는 상황에서 집속탄두를 장착한 단거리 지대지 탄도미사일 시험발사에 나서는 등 군사 능력을 고도화하고 있다며 한일 양국이 안전보장을 목표로 긴밀히 소통하는 상황이라고 해설했다.
+    양국 국방장관 차기 회담에서 안보 환경에 대한 의견을 교환하고 한미일 안보 협력의 추가 추진 상황도 확인할 것으로 전망됐다.
+
+    csm@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[악수하는 안규백 장관과 고이즈미 방위상]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 안규백 국방부장관이 30일 일본 가나가와현 요코스카시 해상자위대 총감부에서 열린 한일 국방장관회담에서 고이즈미 신지로 일본 방위상과 악수하고 있다. 2026.1.30 [국방부 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2026013012870001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/30/PYH2026013012870001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

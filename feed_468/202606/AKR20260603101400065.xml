@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260603101400065</ContentID>
+      <SendDate>20260603</SendDate>
+      <SendTime>233501</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0105001" name="선거일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001212" name="인천선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260603101400065]]></Href>
+      <Writer><![CDATA[홍현기]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[6·3 지선] 인천 기초단체장 선거서 민주당 승기…4년전 패배 설욕 전망]]></Title>
+      <SubTitle><![CDATA[인천 11곳 중 10곳서 민주당 1위…강화군에선 국힘 후보 당선]]></SubTitle>
+      <Body><![CDATA[[6·3 지선] 인천 기초단체장 선거서 민주당 승기…4년전 패배 설욕 전망
+인천 11곳 중 10곳서 민주당 1위…강화군에선 국힘 후보 당선
+
+
+
+    (인천=연합뉴스) 홍현기 기자 = 6·3 인천 기초자치단체장 선거에서 더불어민주당이 4년 전 패배를 딛고 우세를 보이고 있다.
+    3일 중앙선거관리위원회에 따르면 오후 11시 20분 현재 인천 11개 군·구 단체장 선거 가운데 민주당이 10곳, 국민의힘이 1곳에서 1위를 차지하고 있다.
+    4년 전 지방선거에서 국민의힘이 7곳(보수계열 강화군 무소속 후보 제외), 민주당이 2곳에서 승리한 것과 반대되는 양상이다.
+    옹진군에서는 개표율 88.17% 상황에서 전직 군수인 민주당 장정민 후보가 5천547표(50.87%)를 얻어 5천356표(49.12%)를 득표한 현직 군수 국민의힘 문경복 후보에 앞서고 있다.
+    영종구에서도 41.7% 개표가 진행된 가운데 민주당 손화정 후보가 1만2천926표(49.89%)로 현직 중구청장인 국민의힘 김정헌 후보(1만1천517표·44.45%)에 앞서는 상황이다.
+    계양구도 20.88% 개표 상황에서 3선 구청장을 지낸 민주당 박형우 후보가 78.26%의 높은 득표율을 보이면서 국민의힘 이병택 후보(21.73%)와 큰 격차를 보이고 있다.
+    제물포구에서는 26.2% 개표가 진행된 가운데 민주당 남궁형 후보가 62.13%의 득표율로 현직 동구청장인 국민의힘 김찬진 후보(37.86%)와 격차를 유지하고 있다.
+    15.87% 개표 상황인 부평구에서는 재선 구청장인 민주당 차준택 후보가 76.08%의 득표율을 기록하면서 국민의힘 이단비 후보(23.91%)와 큰 득표율 차이를 보인다.
+    서구에서는 민주당 구재용 후보, 검단구에서는 민주당 김진규 후보, 남동구에서는 민주당 이병래 후보, 연수구에서는 민주당 정지열 후보가 각각 선두를 달리고 있다.
+    다만 접경지로 보수 강세 지역으로 꼽히는 강화군에서는 개표율 99.62% 상황에서 현직 군수인 국민의힘 박용철 후보가 55.4%의 득표율을 기록하며 당선이 확실해진 상황이다.
+    hong@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[투표하는 유권자들]]></Title>
+         <Caption><![CDATA[(인천=연합뉴스) 임순석 기자 = 제9회 전국동시지방선거일인 3일 인천 연수구 선학초등학교에 마련된 선학동 제2투표소에서 유권자들이 투표하고 있다. 2026.6.3 soonseok02@yna.co.kr]]></Caption>
+         <FileName>PYH2026060301670006500_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/03/PYH2026060301670006500_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260430001000079</ContentID>
+      <SendDate>20260430</SendDate>
+      <SendTime>003112</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260430001000079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[레바논 대통령 "이스라엘과 직접 협상 조건은 전면 휴전"]]></Title>
+      <Body><![CDATA[레바논 대통령 "이스라엘과 직접 협상 조건은 전면 휴전"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 조셉 아운 레바논 대통령은 29일(현지시간) 이스라엘과의 직접 협상 개시를 위한 백악관의 공식 일정 확정을 기다리고 있다면서 협상의 조건으로 완전한 휴전을 제시했다.
+    아운 대통령은 이날 현지 기업인들과 만나 "이스라엘이 안보를 확보할 수 있는 유일한 길은 오직 협상"이라면서 "대화가 시작되기 전에 이스라엘 측이 전면적인 휴전을 수용해야 한다"고 말했다.
+    그는 이어 "만약 이스라엘이 국경 마을을 파괴하고 침범하는 방식으로 안보를 달성할 수 있다고 믿는다면 오산"이라며 "이스라엘은 과거에도 같은 방식을 시도했으나 그 어떤 결과도 얻지 못했다는 사실을 이미 경험했다"고 지적했다.
+    이와 관련 기드온 사르 이스라엘 외무장관은 알 아라비야 방송과 인터뷰에서 "헤즈볼라가 휴전 중임에도 레바논을 계속해서 전쟁의 늪으로 끌어들이고 있다"고 비판했다.
+    그는 또 휴전 체제를 지지하지만, 이스라엘 북부 접경 지역이나 남부 레바논에 주둔 중인 이스라엘군을 겨냥한 공격에는 적극 대응할 것이라고 말했다.
+    사르 장관은 이어 "레바논에 대해 어떠한 영토 야욕도 없다"면서 "헤즈볼라와 기타 무장 정파들이 완전히 해체된다면 이스라엘은 군대를 철수하는 데 아무런 문제가 없을 것"이라고 강조했다.
+    이스라엘과 레바논은 미국의 중재로 지난 18일 열흘간의 휴전에 돌입했다.
+    휴전 발효 이후에도 레바논 남부에 지상군 주둔 상태를 유지하고 있는 이스라엘군과 헤즈볼라는 국경 지대를 중심으로 산발적인 교전을 이어왔지만, 도널드 트럼프 미국 대통령은 휴전을 3주 더 연장한 상태다. 
+    이스라엘과 레바논은 미국의 중재로 워싱턴에서 2차례 직접 접촉했으며, 본격적인 평화 협상을 준비하고 있다.
+    이스라엘이 헤즈볼라 무장해제를 양국 직접 협상의 의제로 제시한 가운데, 헤즈볼라는 직접 협상 자체를 강력하게 반대하고 있다. 
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[조셉 아운 레바논 대통령]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260430001000079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/30/AKR20260430001000079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

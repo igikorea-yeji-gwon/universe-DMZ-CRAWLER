@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260205084900062</ContentID>
+      <SendDate>20260205</SendDate>
+      <SendTime>111712</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004011" name="인제"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0504001" name="복지일반"/>
+         <ClassCode code="0403004" name="석유가스"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260205084900062]]></Href>
+      <Writer><![CDATA[박영서]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[인제군, 남면·기린면 LPG 배관망 구축 추진…156억 투입]]></Title>
+      <Body><![CDATA[인제군, 남면·기린면 LPG 배관망 구축 추진…156억 투입
+
+
+    (인제=연합뉴스) 박영서 기자 = 강원 인제군이 도시가스 미공급 접경지역인 남면과 기린면을 대상으로 면 단위 액화석유가스(LPG) 배관망 구축사업을 본격적으로 추진하며 난방비 부담 완화와 안정적인 에너지 공급체계 마련에 나선다.
+    군은 LPG 배관망 구축이 완료되지 않은 두 지역의 시내를 중심으로 2027년까지 156억원을 투입해 단계적으로 배관망을 구축한다.
+    사업 대상 지역은 남면 신남리 688세대와 기린면 현리 585세대 등 총 1천200여세대다.
+    사업이 완료되면 해당 지역 주민들은 기존 방식보다 더 안정적인 LPG 공급 환경을 이용할 수 있다.
+    남면 신남리에는 LPG 저장탱크 4곳과 함께 약 11.6㎞ 구간에 공급 관로를 설치한다.
+    기린면 현리에는 LPG 저장탱크 4곳과 약 13.2㎞ 구간의 공급 관로를 구축한다.
+    LPG 배관망이 구축되면 기존 LPG 용기나 실내 등유를 썼을 때보다 연료비를 약 30∼40% 절감할 수 있다.
+    겨울철 난방비 부담이 큰 접경지역 주민들의 생활비 절감과 주거 안정에 실질적인 도움이 될 것으로 기대된다.
+    또 단순한 배관 설치를 넘어 가스보일러 교체, 금속배관 설치, 가스 안전차단기 설치 등이 함께 포함돼있어 노후 설비로 인한 가스 누출이나 화재 등 가스 사고를 예방할 수 있다는 장점도 있다.
+    군 관계자는 "사업 추진과정에서 안전관리를 빈틈없이 하고, 주민 의견을 지속해서 수렴해 불편 사항이 없도록 최선을 다하겠다"고 말했다.
+    conanys@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[인제군]]></Title>
+         <Caption><![CDATA[[인제군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20220119000073062_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2022/01/19/73/PCM20220119000073062_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

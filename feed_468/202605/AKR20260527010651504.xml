@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260527010651504</ContentID>
+      <SendDate>20260527</SendDate>
+      <SendTime>110426</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1008001" name="북한일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="1001005" name="북한군사"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260527010651504]]></Href>
+      <Writer><![CDATA[전명훈]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[北, 탄도·순항미사일, 방사포 섞어서 시험발사…김정은 참관(종합)]]></Title>
+      <SubTitle><![CDATA[김정은 "현 정세는 부단한 군사력 갱신 재촉…강력한 포병무력 건설"]]></SubTitle>
+      <Body><![CDATA[北, 탄도·순항미사일, 방사포 섞어서 시험발사…김정은 참관(종합)
+김정은 "현 정세는 부단한 군사력 갱신 재촉…강력한 포병무력 건설"
+
+
+
+    (서울=연합뉴스) 전명훈 기자 = 북한이 신형 '경량급 다용도 미사일 발사체계', '다연장 전술 순항미사일 무기체계' 등을 시험발사했다고 밝혔다.
+    조선중앙통신은 27일 김정은 국무위원장이 참관한 가운데 전날 미사일총국·국방과학연구기관의 중요무기 발사시험이 진행됐다고 보도했다.
+    통신은 이날 '전술 탄도미사일', '사거리 연장 240㎜ 조종 방사포탄', '전술 순항미사일' 등의 성능을 분석 평가했다고 밝혔다.
+
+    중앙통신이 공개한 사진을 보면 경량급 다용도미사일발사체계는 전술탄도미사일과 240㎜ 방사포를 모두 발사할 수 있는 무기체계로 보인다. 
+    통신은 순항 미사일 여러 발을 한꺼번에 탑재하는 박스형 발사 방식의 다연장 전술 순항미사일 무기체계의 사진도 공개했다.
+    김 위원장은 "중요한 고난도 국방 과학기술이 실천 무기시험에 도입됐다"며 이날 시험 결과에 큰 만족감을 드러냈다고 통신은 전했다.
+    중앙통신은 특히 '전술 순항미사일'이 남부 국경지역의 장거리 포병여단에 배치될 예정이라면서 김 위원장의 이 무기체계의 군사적 가치에 대해 긍정적인 평가를 내렸다고 전했다.
+    통신은 '전술 순항비행탄'이 초정밀 자치항법체계와 지형대조 항법체계가 결합되고, 인공지능(AI) 말기유도기능이 도입돼, 활공 및 추진복합 비행방식으로 100㎞ 계선의 표적을 초정밀 타격하는 전술무기체계라고 주장했다. 
+
+    북한의 주장대로 사정거리가 100㎞인 순항미사일 무기체계가 북한의 남부 국경, 즉 군사분계선 인근에 배치된다면 서울을 포함한 수도권 대부분 지역이 사정권에 포함될 수 있다.
+    김 위원장은 "오늘 진행된 중요무기체계개발시험들은 우리 군사력 갱신의 뚜렷한 신호이자 우리 군대의 전투력강화에서 커다란 기술적진보를 의미하는 사변"이라며 "모든 발사차량들의 사격조종계통과 자동화체계가 현대전의 적합조건들에 맞게 완전히 갱신되여 전투적용성이 제고"됐다고 흡족해했다.
+    그러면서 "현 정세는 부단한 군사력갱신을 재촉하고있다"며 "그 누구도 견주지 못할 가장 현대적이고 가장 강력한 포병무력을 건설하는 것은 무력건설에서 우리가 최우선시하는 정책방향"이라고 했다.
+
+    김 위원장은 또 "대적하는 세력이 요행을 떠나 이론적으로 생존자체가 불가능할 정도로 되는 파괴력을 갖추는 것은 우리 군대의 작전수행에 있어서 필수적 조건"이라며 "그러한 능력은 적에게 극도의 불안과 공포를 주게 되며 그 자체가 전쟁억제의 중요한 고리로, 책임적인 행사"라고 위협했다.
+    앞서 합동참모본부는 26일 평안북도 정주 일대에서 서해상으로 발사된 근거리 탄도미사일 등 다종의 발사체를 포착했다고 밝혔다.
+    근거리 탄도미사일은 약 80㎞를 비행했으며, 근거리 탄도미사일과 함께 방사포(다연장로켓의 일종)도 발사된 것으로 군 당국은 평가하고 있다.
+    북한이 근거리 탄도미사일과 방사포를 동시에 발사한 것은 이례적으로, '섞어쏘기' 전술로 방공망 회피·타격 능력을 과시하려는 의도가 읽힌다.
+
+    이번 발사시험을 정부의 '대한민국 핵추진 잠수함 개발 기본계획'에 대한 대응 성격으로 해석하는 시각도 있다. 
+    안규백 국방부 장관은 이재명 대통령이 참석한 가운데 전날 경남 진해에서 개최된 '제1회 미래국방전략위원회'에서 관련 기본계획을 보고했다.
+    이날 북한의 발사시험 소식은 북한 주민들이 보는 노동신문에는 실리지 않았다.
+    북한의 탄도미사일 발사는 지난달 19일 이후 37일 만이며, 올해 들어 8번째였다.
+    이날 발사시험 현장에는 조춘룡 조선노동당 중앙위원회 비서, 김정식 당 군수공업부 제1부부장, 군부 원로 박정천 국방성 고문, 장창하 미사일총국장 등이 김 위원장을 수행했다.
+    지난달 탄도미사일 발사 현장에 대동했던 김 위원장의 딸 주애는 이날 북한 매체 보도에서 모습이 확인되지 않았다.
+
+    id@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="">
+         <Title><![CDATA[北, 탄도·순항미사일, 방사포 섞어서 시험발사…김정은 참관]]></Title>
+         <Href><![CDATA[http://cdnvod.yonhapnews.co.kr/yonhapnewsvod/202605/MCM20260527000010038_700M1.mp4]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은, 중요무기 시험 참관]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 김정은 국무위원장이 지난 26일 국방과학원이 개발한 경량급 다용도 미사일 발사체계와 다연장 전술순항미사일 무기체계 시험을 참관했다고 조선중앙통신이 27일 보도했다. 2026.5.27 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026052700880004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/27/PYH2026052700880004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은, 중요무기 시험 참관]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 김정은 국무위원장이 지난 26일 국방과학원이 개발한 경량급 다용도 미사일 발사체계와 다연장 전술순항미사일 무기체계 시험을 참관했다고 조선중앙통신이 27일 보도했다. 2026.5.27 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026052700890004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/27/PYH2026052700890004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은, 중요무기 시험 참관]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 김정은 국무위원장이 지난 26일 국방과학원이 개발한 경량급 다용도 미사일 발사체계와 다연장 전술순항미사일 무기체계 시험을 참관했다고 조선중앙통신이 27일 보도했다. 2026.5.27 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026052700900004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/27/PYH2026052700900004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은, 중요무기 시험 참관]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 김정은 국무위원장이 지난 26일 국방과학원이 개발한 경량급 다용도 미사일 발사체계와 다연장 전술순항미사일 무기체계 시험을 참관했다고 조선중앙통신이 27일 보도했다. 2026.5.27 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026052700910004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/27/PYH2026052700910004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은, 중요무기 시험 참관]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 김정은 국무위원장이 지난 26일 국방과학원이 개발한 경량급 다용도 미사일 발사체계와 다연장 전술순항미사일 무기체계 시험을 참관했다고 조선중앙통신이 27일 보도했다. 2026.5.27 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026052700920004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/27/PYH2026052700920004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

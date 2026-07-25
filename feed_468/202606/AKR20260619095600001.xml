@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260619095600001</ContentID>
+      <SendDate>20260619</SendDate>
+      <SendTime>141232</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>2</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0102002" name="대통령"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260619095600001]]></Href>
+      <Writer><![CDATA[임형섭]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[속보] 李대통령 "교황에 北·DMZ 방문 요청…'적극고려·추진' 답변"]]></Title>
+      <Body><![CDATA[[속보] 李대통령 "교황에 北·DMZ 방문 요청…'적극고려·추진' 답변"
+
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이재명 대통령, G7·유럽 순방 결과 브리핑]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 김도훈 기자 = 이재명 대통령이 19일 청와대 춘추관에서 G7·유럽 순방 결과 브리핑을 하고 있다. 2026.6.19 superdoo82@yna.co.kr]]></Caption>
+         <FileName>PYH2026061915820001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/06/19/PYH2026061915820001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

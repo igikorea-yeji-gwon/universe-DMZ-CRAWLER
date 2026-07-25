@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260101056700108</ContentID>
+      <SendDate>20260101</SendDate>
+      <SendTime>221939</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0408015" name="드론"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260101056700108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러, '푸틴 관저 공격' 주장 고수…"데이터 추출"]]></Title>
+      <Body><![CDATA[러, '푸틴 관저 공격' 주장 고수…"데이터 추출"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 러시아는 1일(현지시간) 블라디미르 푸틴 대통령 관저가 우크라이나군 무인기(드론) 공격의 표적이 됐다는 주장을 이어갔다.
+    리아노보스티 통신에 따르면 러시아 국방부는 성명에서 "러시아 특수기관 요원들이 작년 12월29일 밤 노브고로드 지역 상공에서 격추된 우크라이나 드론의 항법장치에서 비행 계획 파일을 추출했다"고 밝혔다.
+    러시아 국방부는 이 파일에 저장된 데이터를 해독한 결과 이 드론의 최종 목표 지점이 푸틴 대통령 관저의 한 시설이었던 것으로 파악됐다며 "이 자료를 기존 창구를 통해 미국 측에 전달할 것"이라고 말했다.
+    전날 러시아 국방부는 한 러시아 군인이 숲에 격추된 우크라이나산 차클룬 드론의 잔해를 보여주는 영상과 드론의 항로를 상세하게 그린 지도를 공개했다.
+    또 이 드론에 6㎏가량의 폭발물이 실렸지만 터지지는 않았으며, 총 91대의 드론이 우크라이나의 체르니히우와 수미 등 접경지에서 발사돼 노브고로드의 푸틴 대통령 관저로 향했다고 주장했다.
+    이에 헤오르히 티키 우크라이나 외무부 대변인은 이 영상에 대해 로이터 통신에 "우습다"면서 "(우크라이나는) 이 같은 공격이 없었다는 데 절대적으로 확신한다"고 밝혔다.
+    미국의 안보 당국자들도 우크라이나가 드론 공격으로 푸틴 러시아 대통령이나 그의 거주지를 표적으로 삼지 않았다는 판단을 내렸다고 미국 일간 월스트리트저널(WSJ)이 보도했다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[러시아 국방부가 지난달 31일 공개한 드론 잔해]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20260101086801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/01/01/PEP20260101086801009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

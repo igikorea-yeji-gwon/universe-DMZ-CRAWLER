@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260310060500062</ContentID>
+      <SendDate>20260310</SendDate>
+      <SendTime>100926</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260310060500062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 2027년 국·도비 1천727억원 확보에 총력]]></Title>
+      <Body><![CDATA[철원군, 2027년 국·도비 1천727억원 확보에 총력
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 지역 지속 발전과 주민 삶의 질 향상을 위해 2027년 국·도비 1천727억원 확보에 총력을 다하고 있다고 10일 밝혔다.
+    이를 위해 최근 이현종 군수 주재로 보고회를 열고 주요 국·도비 사업들을 살피며 확보 진행 상황을 점검하고 향후 계획을 논의했다.
+    주요 사업은 화지·오덕 풍수해생활권 종합 정비, 공공하수처리시설 설치, 접경지역 액화석유가스(LPG) 배관망 확충, 김화·동송 권역 시가지 정비, 마현지구 배수 개선, 노동력 절감 벼 재배단지 조성, 철원종합운동장 노후시설 개선 등이다.
+    이현종 군수는 "이번 보고회를 바탕으로 사업별 추진계획을 지속 보완하고, 추가적인 신규사업을 발굴해 국·도비 예산을 최대로 확보할 수 있도록 총력을 다할 것"이라고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군, 2027년 국·도비 확고 보고회]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260310060500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/10/AKR20260310060500062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

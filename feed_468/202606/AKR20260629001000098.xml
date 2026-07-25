@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260629001000098</ContentID>
+      <SendDate>20260629</SendDate>
+      <SendTime>003711</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260629001000098]]></Href>
+      <Writer><![CDATA[현윤경]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[폭염 동진에 동유럽 '절절'…독일 41.7도 연일 신기록]]></Title>
+      <SubTitle><![CDATA[야간에도 30도 육박 열대야…체코·폴란드도 40도 웃돌아]]></SubTitle>
+      <Body><![CDATA[폭염 동진에 동유럽 '절절'…독일 41.7도 연일 신기록 
+야간에도 30도 육박 열대야…체코·폴란드도 40도 웃돌아 
+
+
+
+    (브뤼셀=연합뉴스) 현윤경 특파원 = 서유럽을 휩쓸며 기록적인 초여름 더위를 몰고 온 열돔이 동쪽으로 이동하면서 중부유럽과 동유럽이 며칠째 절절 끓고 있다.
+    연일 40도 넘게 수은주가 치솟으며 신기록을 갈아치우고 있는 독일에서는 28일(현지시간)에도 동부 브란덴부르크주의 기온이 41.7도까지 오르며 기록 행진을 이어갔다. 
+    독일에서는 지난 26일 프랑스 국경 인근의 자르브뤼켄-부르바흐 기온이 41.3도, 다음날인 27일에는 중동부 작센안할트주의 뫼케른-드레비츠가 41.5도까지 뛴 데 이어 사흘 연속 최고 기온을 경신했다고 dpa통신은 전했다. 
+    
+
+
+    한낮 동안 치솟은 기온은 밤에도 식지 않으며 열대야도 나타났다. 27일 밤과 28일 새벽 사이 동부 작센주 쿱쉬츠의 기온은 29.4도에 달해 야간 최고 기록을 새로 썼다. 이는 2003년 8월13일 서부 라인란트팔츠주의 바인비트 산에서 기록된 종전 야간 최고 기온 27.3도를 2도 이상 웃돈 것이다. 
+    체코와 폴란드도 이날 기온이 나란히 40도 넘게 오르며 유례없는 폭염이 기승을 부렸다. 체코에서는 수도 프라하 북부 독사니의 기온이 41.1도를 기록해 전날 최고 기록 40.9도를 하루 만에 갈아치웠다. 폭염으로 오존 수치가 올라가면서 프라하와 인근 지역에서는 스모그 경보도 발령됐다. 
+    폴란드에서도 이날 독일 접경 도시인 슬루비체의 기온이 40.5도에 이르며 종전 최고 기록을 경신했다. 
+    AFP통신은 열돔의 이동으로 서유럽의 경우 더위가 다소 꺾인 반면 독일, 체코, 폴란드, 헝가리, 슬로바키아, 세르비아, 크로아티아, 오스트리아 등 중부유럽과 동유럽 대부분 지역은 이날도 기온이 35도를 웃돌아 폭염의 영향권에서 벗어나지 못할 것이라고 전망했다. 
+    이날 유럽에서 35도 이상의 고온에 노출된 사람은 최소 1억9천100만명에 달할 것이라고 AFP는 추산했다.
+    ykhyun14@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[은박 천을 뒤집어쓰고 미국 가수 브루노 마스의 베를린 공연에 온 관객들]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260629004201009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/06/29/PAF20260629004201009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[28일 독일 베를린 분수대에서 더위를 식히고 있는 시민들과 개]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260629005701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/06/29/PRU20260629005701009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

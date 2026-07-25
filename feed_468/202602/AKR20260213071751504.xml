@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260213071751504</ContentID>
+      <SendDate>20260213</SendDate>
+      <SendTime>114018</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260213071751504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[통일부, '무인기 재발방지' 北요구에 "대책마련해 즉시 시행"(종합)]]></Title>
+      <SubTitle><![CDATA[정부, 9·19 군사합의 중 '비행금지구역 설정' 복원 검토]]></SubTitle>
+      <Body><![CDATA[통일부, '무인기 재발방지' 北요구에 "대책마련해 즉시 시행"(종합)
+정부, 9·19 군사합의 중 '비행금지구역 설정' 복원 검토
+   
+
+    (서울=연합뉴스) 하채림 기자 = 통일부는 13일 민간인이 무인기를 북한으로 날린 사건에 대해 "철저하게 진상을 조사하고 있으며, 유사 사례가 발생하지 않도록 재발방지 대책도 마련해 즉시 시행할 것"이라고 밝혔다.
+    윤민호 통일부 대변인은 13일 정부서울청사에서 열린 정례브리핑에서 무인기 사건의 재발 방지를 요구한 김여정 북한 노동당 부부장의 담화에 유의하고 있다며 이렇게 말했다.
+    윤 대변인은 "북한은 오늘 담화를 통해 지난 2월 10일 통일부 장관의 무인기 관련 유감 표명에 대해 '다행'·'상식적'이라는 반응과 함께, 재발방지 대책을 재차 강조했다"면서 "북한이 한반도 긴장 완화와 우발사태 방지를 위한 남북 공동의 노력이 필요하다는 점을 시사하고 있는 것으로 이해한다"고 평가했다.
+    그는 "한반도 긴장을 바라지 않는 마음은 남과 북이 다르지 않을 것으로 생각하며, 서로 진정성을 가지고 허심탄회하게 소통해 나간다면 지난 정권에서 파괴된 남북 간의 신뢰도 회복될 것으로 기대한다"고 말했다.
+    김 부부장은 이날 조선중앙통신에 공개한 담화에서 "우리 공화국 영공 침범과 같은 엄중한 주권침해사건의 재발을 확실히 방지할 수 있는 담보조치를 강구해야 한다"고 요구했다.
+
+    정부는 재발방지 조치로 2018년 남북이 체결한 9·19 군사합의에 명시된 비행금지 구역을 선제적으로 되살리는 방안을 검토 중인 것으로 알려졌다.
+    9·19군사합의에 명시된 대로 비행금지구역이 설정되면 무인기도 군사분계선(MDL)으로부터 동부지역에서 15km, 서부지역에서 10km에서 비행이 금지된다.
+    정 장관도 무인기 사건 재발 방지를 위해 9·19 군사합의 중 '공중에서의 적대행위 중단'을 즉시 시행해야 한다고 밝힌 바 있다.
+    윤 대변인은 이에 대해 "그런 부분은 조속히 복원해야 할 필요가 있다"며 "현재 관계기관 간 그런 부분이 검토되고 있다"고 말했다.
+    그는 이날 통일부의 입장 발표 배경에 대해 "남북관계가 적대적이 되면 신뢰가 무너지고 소통이 막혀 상대방에 대한 거친 말만 오가게 된다"며 "이재명 정부는 이를 극복하고 남북 간 신뢰의 국면을 만들고 평화공존으로 나아가기 위해 노력해 나갈 것"이라고 밝혔다.
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김여정 북한 노동당 부부장]]></Title>
+         <Caption><![CDATA[[조선중앙통신 홈페이지 갈무리. 국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution]]]></Caption>
+         <FileName>PCM20250820000009990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/08/20/09/PCM20250820000009990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[통일부, 김여정 담화에 대한 입장 발표]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 이정훈 기자 = 윤민호 통일부 대변인이 13일 서울 종로구 정부서울청사에서 열린 정례브리핑에서 김여정 북한 노동당 부부장 담화에 대한 통일부 입장을 발표하고 있다. 2026.2.13 uwg806@yna.co.kr]]></Caption>
+         <FileName>PYH2026021310270001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/13/PYH2026021310270001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

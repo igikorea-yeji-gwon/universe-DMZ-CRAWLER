@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260406069200062</ContentID>
+      <SendDate>20260406</SendDate>
+      <SendTime>110103</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0201018" name="투자협력"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260406069200062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[속초시, '평화 바닷길' 연다…평화경제특구 유치 본격화]]></Title>
+      <SubTitle><![CDATA[항만·철도·관광자원 적극 활용…관광·물류형 특구 조성]]></SubTitle>
+      <Body><![CDATA[속초시, '평화 바닷길' 연다…평화경제특구 유치 본격화
+항만·철도·관광자원 적극 활용…관광·물류형 특구 조성
+
+
+    (속초=연합뉴스) 류호준 기자 = 강원 속초시가 평화경제특구 유치를 본격 추진한다.
+    시는 6일 시청 디지털상황실에서 '속초시 평화경제특구 조성방안 연구용역' 착수보고회를 개최하고 특구 지정을 위한 전략 구체화에 착수했다.
+    이병선 속초시장과 부시장, 국장, 부서장들이 참석한 이날 보고회에서 참석자들은 연구용역을 수행하는 강원연구원의 과업 추진 방향과 일정, 핵심 전략 등을 청취했다.
+    아울러 속초시의 입지적 강점과 발전 가능성을 중심으로 평화경제특구 지정 대응 전략을 심도 있게 논의했다.
+    보고회에서는 국제 카페리와 크루즈선 모항을 갖춘 항만 인프라를 기반으로 과거 해상 금강산 관광 노선인 속초∼금강산(장전항) 항로를 확장해 향후 원산 갈마 해안관광지구∼속초∼러시아·일본을 연결하는 '평화 바닷길' 구상이 핵심 전략으로 제시됐다. 
+    또 속초∼원산을 잇는 관광·물류 기반의 남북 접경 트윈시티 구상, 환동해 글로컬 크루즈 및 평화관광 네트워크 중심 거점 구축도 주요 전략에 포함됐다.
+    이와 함께 2029년 개통 예정인 동서 고속철 및 동해북부선과 양양국제공항의 접근성 등을 결합한 광역 교통축을 마련해 배후 복합 물류단지 조성과 설악산∼금강산을 잇는 국제관광 벨트 구축에도 나선다는 계획이다.
+    시는 이번 연구용역을 통해 평화경제특구 지정에 필요한 논리와 실행 전략을 체계적으로 마련하고 관련 기반을 구축해 오는 9월 통일부의 평화경제특구 1차 지정에 도전할 예정이다.
+    특히 특구 신청 시 속초시만의 차별화된 강점을 적극적으로 부각할 방침이다. 
+    평화 경제 특별구역은 남북 접경지역을 중심으로 경제협력 및 공동 번영을 목표로 지정되는 국가 전략 특화 구역이다.
+    개발사업자 및 입주기업에 대한 인허가 간소화, 지방세 및 부담금 감면, 기반 시설 구축 등 다양한 행정·재정적 지원이 제공된다. 
+    이병선 시장은 "이번 용역이 단순한 연구에 그치지 않고 70여년간 안보를 위해 특별한 희생을 감내해 온 속초시민들의 권리를 되찾는 실행력 있는 계획이 될 수 있도록 할 것"이라며 "평화경제특구 지정을 통해 남북경협의 전략적 관광·물류 거점으로 도약할 수 있도록 최선을 다하겠다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[속초 평화경제특구 조성방안 연구용역 착수보고회]]></Title>
+         <Caption><![CDATA[[속초시 제공. 재판매 및 DB금지]]]></Caption>
+         <FileName>AKR20260406069200062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/06/AKR20260406069200062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

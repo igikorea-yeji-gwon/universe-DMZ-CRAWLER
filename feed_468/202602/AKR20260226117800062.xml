@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260226117800062</ContentID>
+      <SendDate>20260226</SendDate>
+      <SendTime>140031</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260226117800062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 한탄강 주상절리길 정상 운영…일부 관광지 폐쇄]]></Title>
+      <SubTitle><![CDATA[야생조류 폐사체서 고병원성 AI 검출…차단 방역 강화]]></SubTitle>
+      <Body><![CDATA[철원군, 한탄강 주상절리길 정상 운영…일부 관광지 폐쇄
+야생조류 폐사체서 고병원성 AI 검출…차단 방역 강화
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군이 고병원성 조류인플루엔자(AI) 확산을 막고자 최근 폐쇄했던 한탄강 주상절리길의 운영을 26일 재개했다.
+    군 방역 당국은 주상절리길이 고병원성 AI가 확인된 야생조류 폐사체 발견 지점과 3㎞ 넘게 떨어져 감염 확산 위험이 적다고 판단해 재개방을 결정했다.
+    쉬리공원 캠핑장과 승리전망대도 정상 운영에 들어갔다.
+    다만 한탄강 물윗길과 철원역사문화공원, DMZ 평화관광, 두루미 탐조관광 등은 운영 중단을 이어간다.
+    철원군 관계자는 "고병원성 AI 확산을 막고자 가금 농장 등에 대한 차단 방역과 소독을 강화하고 있다"고 말했다.
+    철원지역에서는 지난 15일 장흥리와 19일 토교저수지의 야생조류 폐사체에서 고병원성 AI 항원이 검출됐다.
+    이에 군 방역 당국은 긴급 차단 방역에 나서면서 주요 관광지를 폐쇄하고, 정월대보름 행사와 3·1절 기념행사도 취소했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[고병원성 조류인플루엔자(AI)(PG)]]></Title>
+         <Caption><![CDATA[[이태호 제작] 일러스트]]></Caption>
+         <FileName>PCM20190201000617990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2019/02/01/17/PCM20190201000617990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260210070700065</ContentID>
+      <SendDate>20260217</SendDate>
+      <SendTime>071700</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0506002" name="도로교통"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0201018" name="투자협력"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260210070700065]]></Href>
+      <Writer><![CDATA[신민재]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['서해남북평화도로' 1단계 영종도∼신도 올해 5월말 개통]]></Title>
+      <SubTitle><![CDATA[2단계 신도∼강화도 해상교량도 경제자유구역 연계 추진]]></SubTitle>
+      <Body><![CDATA['서해남북평화도로' 1단계 영종도∼신도 올해 5월말 개통
+2단계 신도∼강화도 해상교량도 경제자유구역 연계 추진
+
+
+
+    (인천=연합뉴스) 신민재 기자 = 인천국제공항이 있는 영종도와 접경지역인 강화도를 연결하는 '서해남북평화도로'(이하 평화도로) 1단계 구간이 오는 5월 말 개통된다.
+    17일 인천시에 따르면 2021년 착공한 평화도로 첫 구간인 영종도∼신도 도로 건설사업은 현재 88%의 공정률을 기록 중이다.
+    다음 달부터 도로포장, 추락방지용 난간 설치, 교통안전시설 공사 등을 진행해 개통 준비를 마무리할 예정이다.
+    영종도∼신도 도로는 해상교량(2.07㎞)을 포함해 길이 3.2㎞, 왕복 2차로 규모이며 총사업비는 1천597억원이다.
+    시는 영종도∼신도 해상교량 명칭으로 '신도영종대교', '신도평화대교','서해남북평화대교' 등을 검토하고 있다.
+    시는 해당 도로 개통 대비 태스크포스(TF)를 가동해 주차장을 비롯한 기반시설 확충과 버스 노선 조정 등을 추진하고 있다.
+    시는 영종도∼강화도 평화도로 전체 14.6㎞ 구간 중 1단계 사업에 이어 2단계 사업인 신도∼강화도 해상교량(11.4㎞) 건설도 준비하고 있다.
+    올해 상반기 강화도 남단이 경제자유구역으로 지정되면 개발계획상 조성원가에 해상교량 건설비를 반영하고 경제자유구역 기반시설에 포함시켜 국비 지원도 신청할 방침이다.
+    신도∼강화도 해상교량 사업비는 5천억원으로 추산된다.
+    인천시 관계자는 "영종도∼신도∼강화도를 연결하는 평화도로가 완공되면 접경지역 정주 여건 개선과 지역 균형 발전에 크게 기여할 것"이라고 말했다.
+
+
+    smj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[영종도∼신도 해상교량]]></Title>
+         <Caption><![CDATA[[인천시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260210070700065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/10/AKR20260210070700065_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[서해남북평화도로 위치도]]></Title>
+         <Caption><![CDATA[[인천시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260210070700065_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/10/AKR20260210070700065_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

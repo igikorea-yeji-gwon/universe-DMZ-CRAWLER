@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260401172700062</ContentID>
+      <SendDate>20260401</SendDate>
+      <SendTime>175628</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260401172700062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우상호 강원지사 예비후보 "민통선 북상·에너지 고속도로 건설"]]></Title>
+      <SubTitle><![CDATA[철원서 접경지역 발전 전략 발표…당내 '강원발전특별위원회' 설치]]></SubTitle>
+      <Body><![CDATA[우상호 강원지사 예비후보 "민통선 북상·에너지 고속도로 건설"
+철원서 접경지역 발전 전략 발표…당내 '강원발전특별위원회' 설치
+
+    (춘천=연합뉴스) 이재현 기자 = 더불어민주당 우상호 강원도지사 예비후보는 1일 접경지역의 해묵은 규제를 걷어내고 경제지도를 바꿀 민생 공약을 발표했다.
+
+    우 후보는 이날 철원에서 열린 민주당 현장 최고위원회 회의에 참석, 민간인출입통제선(민통선) 5㎞ 북상과 청정에너지 고속도로 조성을 골자로 한 접경지역 발전 전략을 내놨다.
+    그는 "접경지역 주민들이 안보를 위해 감내해 온 희생에 대해 이제 국가가 확실히 보상하게 하겠다"며 "접경지역의 경제 활성화도 이뤄내겠다"고 밝혔다.
+    이에 화답하듯 이날 현장 최고위를 주재한 민주당 정청래 대표는 강원의 획기적 발전을 위해 당내 '강원발전특별위원회'를 설치하고 우상호 후보를 상임위원장을 내정했다고 언급했다.
+    이어 '구리-포천 고속도로의 철원 연장'과 '춘천∼철원 중앙고속도로 연장' 사업을 당 차원에서 책임지고 완수하겠다고 약속했다.
+    이에 우 후보는 접경지역의 교통이 사통팔달로 이어질 수 있는 전기가 마련될 수 있다는 점에 감사의 마음을 전했다.
+    이 자리에서 우 후보는 "민통선 5㎞ 북상 및 규제 완화를 통해 가용 부지를 확보하고 해당 지역에 청정에너지 고속도로를 구축해 자원이 곧 에너지가 될 수 있도록 하겠다"고 밝혔다.
+    또 "청정에너지 고속도로에서 발생한 수익은 에너지 연금의 형태로 접경지역 주민에게 직접 환원할 것"이라며 "군사적 긴장이 높았던 곳을 생태 관광과 청정에너지의 메카로 탈바꿈해 새로운 미래 먹거리를 창출하겠다"고 비전을 제시했다.
+
+    에너지 고속도로는 이재명 대통령이 후보 시절 제안한 광역 송전망 강화 공약으로, 재생에너지 생산지역의 전력을 수도권·산업지대 등 수요지에 안정적으로 공급하기 위한 국가 에너지 인프라 사업이다.
+    이날 민주당 현장 최고위는 지방선거를 앞두고 지역 현안을 직접 챙기기 위해 마련됐으며, 우 후보는 지난 31일부터 이어온 '접경지역 현장 정책투어'의 하나로 철원 일정에 합류했다.
+    회의 직후 우 후보와 정 대표는 철원읍민 체육대회 현장을 찾아 주민들과 직접 소통하며 민심 행보를 이어갔다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[발언하는 민주당 우상호 강원지사 후보]]></Title>
+         <Caption><![CDATA[(철원=연합뉴스) 신현우 기자 = 더불어민주당 강원도지사 후보인 우상호 전 청와대 정무수석이 1일 강원 철원새마을금고 본점 대회의실에서 열린 현장 최고위원회의에서 발언하고 있다. 2026.4.1 nowwego@yna.co.kr]]></Caption>
+         <FileName>PYH2026040107370001301_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/01/PYH2026040107370001301_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[고리 던지기 성공한 민주당 우상호 강원지사 후보]]></Title>
+         <Caption><![CDATA[(철원=연합뉴스) 신현우 기자 = 더불어민주당 우상호 강원도지사 후보가 1일 강원 철원종합문화복지센터 다목적구장에서 열린 철원읍민 화합대축전에 방문해 고리 던지기를 한 뒤 환호하고 있다. 2026.4.1 nowwego@yna.co.kr]]></Caption>
+         <FileName>PYH2026040115250001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/01/PYH2026040115250001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

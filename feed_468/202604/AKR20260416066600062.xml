@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260416066600062</ContentID>
+      <SendDate>20260416</SendDate>
+      <SendTime>103308</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0504008" name="청년복지"/>
+         <ClassCode code="0205001" name="고용취업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260416066600062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 행안부 공모 '청년마을 만들기' 사업 최종 선정]]></Title>
+      <Body><![CDATA[철원군, 행안부 공모 '청년마을 만들기' 사업 최종 선정
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 행정안전부가 주관한 '2026년 청년마을 만들기' 사업 공모에서 철원읍 소재 '철문열다·미리 만나는 통일마을'이 최종 선정됐다고 16일 밝혔다.
+    이번 공모에는 전국 141개 단체가 신청해 10곳이 최종 선정됐다.
+    청년마을 만들기 사업은 청년들이 일정 기간 지역에 머물며 일자리 실험과 주민 교류를 통해 지역에 정착할 수 있도록 지원하는 정책이다.
+    철문열다는 이번 사업 선정으로 2028까지 매년 2억원씩 3년간 총 6억원을 지원받게 됐다.
+    미리 만나는 통일마을은 분단과 접경이라는 지역적 특성을 출발점으로 철원에 정착하는 북한 이탈 청년과 지역 청년이 함께 식음료(F&B)·가공식품·온라인 마켓 창업 등을 운영하는 프로그램이다.
+    로컬 크리에이터 교육과 일자리 창출, 고용 환경 조성으로 철원 접경지역 청년 정주 환경을 마련하고 다른 지역 청년 유입을 이끌 기반을 조성하고자 한다. 
+    철원군 관계자는 "청년들이 지역에서 도전한 다양한 실험이 국가사업으로 이어지며 성과를 나타내고 있다"며 "앞으로도 지역 자원과 청년의 창의성을 결합한 다양한 모델을 확산할 수 있도록 적극 지원하겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군 '철문열다']]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260416066600062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/16/AKR20260416066600062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260109070100009</ContentID>
+      <SendDate>20260109</SendDate>
+      <SendTime>121836</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107006" name="아랍에미"/>
+         <RegionCode code="7107007" name="예멘"/>
+         <RegionCode code="7107004" name="사우디"/>
+         <RegionCode code="7106027" name="소말리아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101009" name="분리독립"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260109070100009]]></Href>
+      <Writer><![CDATA[나확진]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[걸프국 긴장…사우디 공격받는 예멘세력, 후원국 UAE 피신]]></Title>
+      <SubTitle><![CDATA[사우디·UAE, 예멘 내전 개입 중 미는 세력 달라 파열음 지속]]></SubTitle>
+      <Body><![CDATA[걸프국 긴장…사우디 공격받는 예멘세력, 후원국 UAE 피신
+사우디·UAE, 예멘 내전 개입 중 미는 세력 달라 파열음 지속
+
+
+    (서울=연합뉴스) 나확진 기자 = 아라비아반도 서남부에 있는 예멘에서 분리주의 세력이 사우디아라비아의 거듭된 공습으로 상당수 거점에서 물러난 뒤 지도자마저 아랍에미리트(UAE)로 떠났다는 주장이 제기됐다.
+    사우디가 주도하는 예멘 연합군은 8일(현지시간) 예멘 분리주의 세력 남부과도위원회(STC) 수장인 아이다루스 알주바이디(58) 위원장이 소말리아를 거쳐 아랍에미리트(UAE)로 달아났다고 밝혔다고 AP통신 등은 전했다.
+    연합군에 따르면 알주바이디 위원장은 지난 6일 밤 예멘 남부 아덴에서 배를 타고 바다를 건너 소말릴란드 베르베르항으로 이동한 뒤 그곳에서 화물 수송기를 타고 소말리아 수도 모가디슈를 거쳐 UAE 아부다비로 이동했다.
+    연합군 대변인 투르키 알말키 소장은 알주바이디 위원장 일행이 UAE의 감시하에 수송기를 탔으며, 이 수송기는 항공식별 시스템을 꺼놨다가 UAE 아부다비 알리프 공군기지에 착륙 10분 전에 재가동했다고 말했다고 영국 BBC 방송은 전했다.
+
+    이와 관련, STC는 앞서 알주바이디 위원장의 행방이 묘연하다는 주장이 제기되자 7일에도 아덴에서 집무를 봤다며 출국설을 부인한 바 있지만 이번 연합군의 발표가 나온 이후에는 특별한 언급이 없었다고 AP는 전했다. UAE도 별다른 입장을 밝히지 않았다.
+    다만, 소말리아 이민 당국은 알주바이디 위원장 일행이 자국 항구와 공항을 허가 받지 않고 사용했다는 주장에 대해 조사하고 있다고 밝혔다.
+    예멘은 1960년대 영국과 오스만제국에서 북예멘과 남예멘으로 각각 독립했지만, 1990년 통일했다. 하지만 1994년 남예멘이 다시 분리독립을 선언하면서 내전이 발발했고 북예멘의 승리로 재통일되는 등 분리 움직임이 계속돼왔다.
+    남예멘 공군 출신인 알주바이디 위원장은 1994년 내전에도 참가하는 등 남예멘 분리독립 운동을 계속해왔다.
+    2014년 이란을 등에 업은 후티족 반군이 예멘 수도를 점령하는 등 세력을 확장하자 알주바이디 위원장은 후티 반군과 싸움에 앞장섰고 이듬해 아덴 주지사가 됐다.
+    하지만 2017년 예멘 정부에 충성하지 않는다는 이유로 주지사에서 해임됐고 곧바로 STC를 설립한 뒤 UAE의 자금과 무기 지원을 받아 예멘 남부에서 가장 세력이 큰 민병대로 키웠다.
+    2022년 예멘에서 압드라보 만수르 하디 대통령이 하야하고 후티 반군에 맞선 여러 정치단체가 참여한 대통령지도위원회(PLC)가 국가통치조직으로 결성되자 알주바이디 위원장은 PLC에 부위원장으로 참여했다.
+
+    하지만 STC는 지난해 말 남부지역에서 정부군을 상대로 공세를 강화하며 옛 남예멘 지역 대부분을 장악했다. 그러자 예멘 정부를 지원하는 사우디는 STC에 자국과 국경을 접한 하드라마우트 주(州)에서 병력을 철수하라고 경고했고, STC가 응하지 않자 지난달 말 STC 군을 겨냥한 공습을 시작했다.
+    사우디의 계속된 공습에 STC를 지원하던 UAE는 예멘에서 철군을 결정했고, STC도 사우디 접경지 등에서 병력을 철수했다.
+    이런 가운데 STC는 지난 2일 옛 남예멘 영토에 '남아라비아국'을 창설한다는 자체 헌법을 발표했지만, 알주바이디 위원장의 출국으로 분리주의 세력이 급격히 약화할 것이라는 전망이 나온다.
+    이미 대통령지도위원회는 알주바이디 위원장을 PLC 부의장직에서 해임했으며 반역 혐의로 기소했다.
+    중동 전문가인 엘리자베스 켄달 영국 케임브리지대 커튼 칼리지 학장은 알주바이디 위원장의 출국이 확인된다면 그가 정치적으로 재기하기는 어려울 것이라고 AFP 통신에 말했다.
+    rao@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[예멘 분리주의 세력 남부과도위원회(STC)의 아이다루스 알주바이디 위원장[AP=연합뉴스 자료사진]]]></Caption>
+         <FileName>PAP20260107196601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/01/07/PAP20260107196601009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[무함마드 빈 살만 사우디아라비아 왕세자와 무함마드 빈 자예드 알 나흐얀 아랍에미리트 대통령 [EPA 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20211208187401009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2021/12/08/PEP20211208187401009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[8일 예멘 남부 아덴에서 정부군이 거리를 순찰하고 있다.[EPA=연합뉴스]]]></Caption>
+         <FileName>PEP20260109074601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/01/09/PEP20260109074601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260511151400098</ContentID>
+      <SendDate>20260511</SendDate>
+      <SendTime>182621</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260511151400098]]></Href>
+      <Writer><![CDATA[현윤경]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우크라 불법무기 유입 가능성에 유럽 벌써 긴장]]></Title>
+      <SubTitle><![CDATA[EU "종전시 우크라에서 유럽으로 불법무기 대량 유입 가능성"
+"유고 내전 직후와 유사 상황 우려"…우크라 서부 접경 경계 강화]]></SubTitle>
+      <Body><![CDATA[우크라 불법무기 유입 가능성에 유럽 벌써 긴장  
+EU "종전시 우크라에서 유럽으로 불법무기 대량 유입 가능성"
+"유고 내전 직후와 유사 상황 우려"…우크라 서부 접경 경계 강화   
+    
+
+    (브뤼셀=연합뉴스) 현윤경 특파원 = 러시아와의 전쟁이 끝나면 우크라이나에서 유럽으로 불법 무기가 대량으로 흘러들 위험이 높다고 유럽연합(EU) 국경·해안 경비청(Frontex·프론텍스)이 경고했다. 
+    10일(현지시간) 폴리티코 유럽판에 따르면, 라르스 게르데스 프론텍스 부청장은 우크라이나전 종전 이후 "더 큰 규모의 무기 밀수 가능성이 있다"며 "이는 유럽에 안보 문제가 될 수 있다"고 밝혔다. 
+    게르데스 부청장은 이런 발언은 블라디미르 푸틴 러시아 대통령이 9일 모스크바에서 열린 제2차 세계대전 승전 기념 전승절 퍼레이드 이후 기자회견에서 우크라이나와의 전쟁이 "막바지에 다다르고 있다"고 말한 직후 나온 것이다.      
+    게르데스 부청장은 우크라이나 전쟁에 사용된 무기가 유럽으로 은밀히 들어올 위험은 휴전이나 평화협정 체결로 특히 높아질 수 있다는 인식을 드러냈다. 
+    그는 "그 시점에 우크라이나 내부에 대량의 무기, 탄약, 폭발물이 남아 있을 것이며, 돈이 필요한 사람도 많을 것"이라며, 유럽으로 대량의 불법 무기가 유입된 옛 유고슬라비아 내전 직후와 비슷한 상황이 벌어질 수 있다고 우려했다.
+    그는 프론텍스가 현재 우크라이나 서부 국경 지역의 상황을 면밀히 주시하고, 활동을 강화하고 있다며 "우리는 우크라이나 전쟁 초기부터 이런 상황에 대비해 왔다"고 덧붙였다. 
+    한편, EU 경찰 기구인 유로폴은 우크라이나전 개전 직후인 2022년 여름 유럽의 범죄 조직들이 우크라이나에서 총기를 밀수한 정황을 파악했다고 밝힌 바 있다. 세르게이 라브로프 당시 러시아 국방장관도 우크라이나에 지원된 서방의 무기 일부가 이미 암시장으로 흘러들어가 중동 전역에 유통되고 있다고 주장하기도 했다. 
+    ykhyun14@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[무기 사용법을 배우는 우크라이나 키이우 시민들 [AFP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260511151400098_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/11/AKR20260511151400098_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

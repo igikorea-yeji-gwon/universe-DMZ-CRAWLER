@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260401075500062</ContentID>
+      <SendDate>20260401</SendDate>
+      <SendTime>102720</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0402002" name="농업"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260401075500062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['바쁜 영농철 식사 해결' 철원군, 못자리 공동 취사장 운영]]></Title>
+      <Body><![CDATA['바쁜 영농철 식사 해결' 철원군, 못자리 공동 취사장 운영
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 본격적인 농사철을 맞아 못자리 설치로 바쁜 주민들을 위해 오는 2일부터 공동 취사장 운영을 시작한다.
+    군은 철원농협과 함께 이달 21일까지 민간인 출입 통제선(민통선) 이북 지역인 철원읍 외촌리 근대문화유산 전시장에 못자리 공동 취사장을 운영할 예정이다.
+    이곳에서는 농업인 800여명이 매일 무료로 점심을 해결할 수 있다.
+    취사장은 매일 오전 11시부터 오후 1시까지 운영할 계획이다.
+    군은 이를 통해 야외 취사로 인한 산불 위험을 낮추고 일손 부족을 해결하면서 농업인 복리증진 및 경영비를 절감 효과를 거둘 것으로 기대했다.
+    올해로 운영 26년째를 맞은 못자리 공동 취사장은 고령화 등으로 발생하는 일손 부족을 행정기관과 농협 강원본부가 손잡고 해결하는 우수 시책사업으로 손꼽히고 있다.
+    이현종 군수는 1일 "농사일이 바쁘고 힘들지만, 지자체와 지역농협 간 협력사업으로 높게 평가받고 있는 못자리 공동취사장에서 부담 없이 맛있게 식사하고, 올 한해도 풍년 농사가 되길 기원한다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군, 영농철 맞아 못자리 공동 취사장 운영 시작]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PYH2024040211520006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2024/04/02/PYH2024040211520006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260124044900002</ContentID>
+      <SendDate>20260125</SendDate>
+      <SendTime>110002</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Region>
+         <RegionCode code="7214001" name="북한"/>
+      </Region>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="1003001" name="북한경제"/>
+         <ClassCode code="0201018" name="투자협력"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260124044900002]]></Href>
+      <Writer><![CDATA[한지훈]]></Writer>
+      <Desk code="002"><![CDATA[경제부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["남북협력 재개, 일회성 지원보다 인력·기술 교류로"]]></Title>
+      <SubTitle><![CDATA["北 경제 정책, 인적 역량 강화에 무게 전망"…현대경제硏 보고서]]></SubTitle>
+      <Body><![CDATA["남북협력 재개, 일회성 지원보다 인력·기술 교류로"
+"北 경제 정책, 인적 역량 강화에 무게 전망"…현대경제硏 보고서
+
+
+    (서울=연합뉴스) 한지훈 기자 = 남북 간 인력과 기술 교류를 통해 협력 재개의 초기 접점을 마련할 수 있다는 주장이 나왔다.
+    현대경제연구원은 25일 '2025년 북한 경제 평가 및 시사점' 보고서에서 "남북협력을 일회성 지원보다 (기존 설비의) 운영 병목을 완화하고 지속 가능성을 높일 수 있는 협력 방식으로 전환할 필요가 있다"며 이같이 밝혔다.
+    연구원은 북한이 9차 당대표를 통해 지난 2021∼2025년의 국가경제발전 5개년 계획보다 상향된 목표 설정이 불가피할 것이라고 전망했다.
+    구체적으로는 북한 경제 정책이 하드웨어보다 소프트웨어, 즉 인적 역량과 운영 책임 강화로 쪽으로 무게중심을 옮길 것으로 예상했다. 
+    특히 연구원은 "북한이 최근 강조하는 인적 역량 강화 기조는 정치적 민감도가 상대적으로 낮아 남북협력의 초기 접점으로 활용할 여지가 있다"고 강조했다.
+    연구원은 또 보건, 식량, 위생, 재난 대응 등 지속가능개발목표(SDGs) 기반 협력이 북한의 민생 중심 정책 방향과 부합하는 만큼 대북 제재 환경에서도 추진 가능한 협력 틀이 될 수 있다고 분석했다.
+    남한의 접경지역 평화경제특구 구상과 관련해선 대규모 개발 대신 제한적인 협력부터 시작하면서 신뢰를 축적할 수 있을 것으로 내다봤다.
+    연구원은 "(평화경제특구를) 북한의 폐쇄적인 자력갱생, 자생자결 기조를 고려한 협력의 실험적 공간으로 활용할 수 있다"고 말했다. 
+    hanjh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김정은, 온포휴양소 준공식 참석]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 김정은 북한 국무위원장이 지난 20일 함경북도 경성군 온포근로자휴양소 준공식에 참석해 준공 테이프를 끊었다고 조선중앙TV가 21일 보도했다. 김 위원장은 시설을 둘러본 뒤 2월 중에 휴양소를 개업하라고 지시했다. [조선중앙TV 화면] 2026.1.21 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026012109600004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/21/PYH2026012109600004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

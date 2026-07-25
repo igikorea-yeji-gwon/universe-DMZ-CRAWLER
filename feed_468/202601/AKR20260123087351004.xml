@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260123087351004</ContentID>
+      <SendDate>20260123</SendDate>
+      <SendTime>135842</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260123087351004]]></Href>
+      <Writer><![CDATA[이동환]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경찰, '北무인기 침투' 3명 출국금지…우리 군부대도 촬영]]></Title>
+      <SubTitle><![CDATA[해병대 부대 무단 촬영…군사기지 보호법 위반 혐의 적용]]></SubTitle>
+      <Body><![CDATA[경찰, '北무인기 침투' 3명 출국금지…우리 군부대도 촬영
+해병대 부대 무단 촬영…군사기지 보호법 위반 혐의 적용
+
+
+    (서울=연합뉴스) 이동환 기자 = 북한의 한국 무인기 침투 주장과 관련해 진상을 규명하는 '군경합동조사 TF'가 민간인 피의자 3명에 대해 출국금지 조치를 했다.
+    23일 연합뉴스 취재를 종합하면 군경은 무인기를 제작한 장모씨, 자신이 무인기를 날려 보냈다고 주장한 30대 대학원생 오모씨, 이들이 설립한 무인기 제작 업체 A사에서 '대북 전담 이사'로 활동한 김모씨 등을 모두 출국금지했다.
+    이들에게는 항공안전법 위반 혐의 외에도 군사기지 및 군사시설 보호법 위반 혐의 등도 적용됐다. 일반이적죄는 적용되지 않은 상태다.
+    이들이 북한을 목적지로 날린 무인기가 강화군 불온면에서 이륙해 강화군 송해면을 거쳐 군사분계선을 넘어가는 과정에서 우리 해병대 2사단 부대 일부를 무단 촬영한 혐의가 새롭게 포착된 것으로 전해졌다. 사실상 우리 방공망도 뚫린 셈이다.
+
+    오씨는 그간 자청한 언론 인터뷰를 통해 무인기를 날린 이유에 대해 북한 우라늄 공장의 방사능 오염 수치를 확인하는 게 목적이었다고 주장해왔다.
+    그러나 장씨와 오씨의 과거 윤석열 정부 대통령실 계약직 근무 이력, 국군정보사령부 개입 의혹 등이 드러나면서 군경은 수사망을 확대하고 있다.
+    정보사 소속 B 대령은 오씨를 2024년 11월 공작 협업 대상으로 삼은 뒤 1천300만원 상당의 활동비를 지원했다. 이후 지난해 5월 오씨를 북한 관련 보도를 하는 두 매체의 발행인으로 등록시키는 데 관여한 것으로 전해졌다.
+    B 대령이 공작 계획을 승인받는 과정 등이 대통령실 국가안보실 소속 C 중령 등을 거쳐 더 '윗선'으로 보고됐다는 의혹 등도 수사 대상에 오른 것으로 전해졌다.
+    장씨가 날렸던 무인기가 지난해 11월 경기도 여주에서 추락한 채 발견됐을 당시 비행 동선을 기록하는 비행통제장치, 영상 메모리카드 등이 사라진 경위 등에 대해서도 군경은 조사를 진행 중인 것으로 알려졌다.
+    dhlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[北 "韓, 작년 9월과 4일에 또 무인기 도발…대가 각오해야"]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 북한 조선인민군 총참모부 대변인은 지난 10일 조선중앙통신을 통해 작년 9월과 지난 4일에 한국이 침투시킨 무인기를 격추했다고 주장하며 이에 대한 대가를 치르게 될 것이라고 위협했다. 사진은 북한이 주장한 개성시 장풍군에 추락된 한국 무인기. 2026.1.10 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026011000460004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/10/PYH2026011000460004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[군경 '북한 무인기 침투' 피의자 압수수색 종료]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 류영석 기자 = 북한의 한국 무인기 침투 주장에 대한 진상을 규명하는 '군경합동조사 TF'가 21일 민간인 피의자 3명의 주거지 및 사무실 등에 대한 압수수색에 나선 가운데 이날 피의자 장모씨와 오모씨가 다니던 서울의 한 대학교 공대 건물에서 경찰 관계자들이 압수품을 옮기고 있다. 2026.1.21 ondol@yna.co.kr]]></Caption>
+         <FileName>PYH2026012117980001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/21/PYH2026012117980001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

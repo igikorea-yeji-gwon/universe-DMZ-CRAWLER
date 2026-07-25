@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260625139100061</ContentID>
+      <SendDate>20260625</SendDate>
+      <SendTime>163433</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0504001" name="복지일반"/>
+         <ClassCode code="0503001" name="교육일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260625139100061]]></Href>
+      <Writer><![CDATA[최찬흥]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[경기도, '중장년 인턴캠프' 개소…인생 2막 설계]]></Title>
+      <Body><![CDATA[경기도, '중장년 인턴캠프' 개소…인생 2막 설계  
+
+    (수원=연합뉴스) 최찬흥 기자 = 경기도는 25일 경기신용보증재단에서 중장년 대상 갭이어 프로그램인 '인턴(人-Turn) 캠프' 입학식을 열었다.
+
+    인턴 캠프는 40~64세 중장년에게 교육과 진로 탐색, 인턴십 등 다양한 경험을 제공하는 내용으로 16주 여정으로 인생 2막을 설계하게 된다.
+    캠프 인원을 지난해 120명에서 올해 150명으로 늘렸으며, 339명이 지원해 2.3대 1의 경쟁률을 기록했다.
+    이들은 경기 파주와 포천, 강원 인제, 전북 남원, 경북 고령 등 5곳에서 팀별로 나눠 캠프를 진행한다.
+    작년 참가자들은 목공벤치 제작·전통시장 기증, 옻칠공예 축제 상품 기획, DMZ 체험 콘텐츠 제작, 군 유휴지 트레킹 코스 발굴 등의 프로젝트를 수행했다.
+    송은실 경기도 사회혁신경제국장은 "지난해 전국 최초로 시작한 중장년 갭이어 프로그램 참여자들이 다양한 영역에서 활발히 활동하며 영향력을 펼치고 있다"며 "중장년층의 새로운 도전과 지역사회 참여를 지원하는 대표 생애 전환 정책으로 발전시켜 나가겠다"고 말했다.
+    chan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[중장년 인턴캠프 개소]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260625139100061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/25/AKR20260625139100061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

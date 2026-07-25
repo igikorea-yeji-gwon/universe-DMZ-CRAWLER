@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260619121300062</ContentID>
+      <SendDate>20260619</SendDate>
+      <SendTime>154652</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0801012" name="휴가휴일"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260619121300062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원관광재단, 크루즈 선사 초청 속초항 크루즈 답사 여행 성료]]></Title>
+      <SubTitle><![CDATA[설악산 등 관광지 둘러봐…"속초항과 강원 관광 경쟁력 소개"]]></SubTitle>
+      <Body><![CDATA[강원관광재단, 크루즈 선사 초청 속초항 크루즈 답사 여행 성료
+설악산 등 관광지 둘러봐…"속초항과 강원 관광 경쟁력 소개"
+
+
+
+    (속초=연합뉴스) 류호준 기자 = 강원관광재단은 세계적인 크루즈 선사인 카니발 그룹의 기항지 관광 담당자를 초청한 속초항 크루즈 답사 여행을 성공적으로 마쳤다고 19일 밝혔다.
+    지난 15일부터 이날까지 5일간 진행한 이번 답사 여행은 속초시와 함께 최근 개발한 지역 특화 체험형 관광 콘텐츠를 세계 크루즈 시장에 소개하고 향후 기항지 관광상품으로 연계하기 위해 마련됐다.
+    카니발 그룹 계열사인 홀랜드 아메리카 크루즈는 2023년부터 매년 속초항 기항을 추진해 왔으며, 2030년까지 입항 일정이 확정된 상태다.
+    시번 크루즈도 올해 처음으로 속초항에 입항해 향후 지속적인 기항이 기대된다.
+    재단과 시는 올해 하반기 기항 예정인 크루즈부터 지역 특화 관광상품을 본격 운영하는 것을 목표로 이번 답사 여행을 추진했다.
+    참가자들은 설악산국립공원과 고성 비무장지대(DMZ) 등을 둘러보고 아바이마을 실향민 문화 체험과 요리 교실, 낙산사 템플스테이, 속초 수제 맥주 양조장 견학 등 동해안만의 특색 있는 관광 콘텐츠를 체험했다.
+    선사 관계자는 "이번에 확인한 속초 특화 프로그램을 올해 10월 입항 시 실제 기항지 관광상품으로 적극 도입하겠다"며 "향후 지속적인 기항 유치를 위한 맞춤형 상품 개발에도 협력하겠다"고 말했다.
+    재단은 이번 답사 여행이 속초항의 여객 수용 능력과 강원의 자연·문화 관광자원을 글로벌 크루즈 업계에 알리는 성과를 거둔 것으로 평가했다.
+    최성현 재단 대표이사는 "세계적인 크루즈 선사인 카니발 그룹에 속초항과 강원 관광의 경쟁력을 효과적으로 소개하는 계기가 됐다"며 "해외 선사와의 협력을 더욱 강화해 속초항을 환동해권을 대표하는 국제 크루즈 기항지로 육성하겠다"고 말했다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[크루즈 선사 초청 답사 여행]]></Title>
+         <Caption><![CDATA[[강원관광재단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260619121300062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/19/AKR20260619121300062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

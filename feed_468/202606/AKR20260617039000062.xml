@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260617039000062</ContentID>
+      <SendDate>20260617</SendDate>
+      <SendTime>091811</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0702003" name="천연기념"/>
+         <ClassCode code="0505006" name="동물"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260617039000062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['잘 지내렴' 양구군, 천연기념물 산양 10마리 자연 방사]]></Title>
+      <SubTitle><![CDATA[무선 발신기 달아 생태 집중 모니터링…산양 행동권 자료 활용]]></SubTitle>
+      <Body><![CDATA['잘 지내렴' 양구군, 천연기념물 산양 10마리 자연 방사
+무선 발신기 달아 생태 집중 모니터링…산양 행동권 자료 활용
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군 산양·사향노루센터는 오는 18일 산양 10마리를 자연으로 돌려보낸다.
+    방사하는 산양은 지난 겨울 구조된 수컷 10마리로, 치료와 재활 과정을 통해 건강을 회복해 현재 건강한 상태로 확인했다.
+    이들 중 4마리는 동면 월운리 비득고개 민간인통제선 일원에서 공개 방사하며, 나머지 6마리는 방산면 두타연과 천미리 일원에서 비공개로 돌려보낼 예정이다.
+    방사 장소는 구조 지점 인근 민통선 일원으로, 침엽수림과 활엽수림이 잘 어우러져 산양에게 최적의 서식지다.
+    이 지역은 외부 간섭이 적고 먹이자원이 풍부해 산양이 안착하고 서식지를 확장하는데 매우 적합한 환경이다.
+    방사하는 산양의 목에 발신기를 달아 약 2년간 집중적으로 모니터링할 예정이다.
+    이를 통해 확보한 생태 데이터는 DMZ 일원에 서식하는 산양의 행동권 분석 연구 자료로 활용한다.
+    이번 방사는 구조 개체의 자연 복귀를 넘어 지역 산양 개체군 강화와 유전적 다양성 확보, DMZ 일대 생태계 복원에도 이바지할 전망이다.
+    조재운 센터장은 17일 "양구는 국내 최대 산양 서식지 중 하나로 우수한 자연환경과 생태적 연결성을 갖추고 있다"라며 "앞으로도 민·관·군 협력을 바탕으로 구조·치료·방사 사업을 지속해서 추진하겠다"고 말했다.
+    산양은 천연기념물 및 멸종 위기 야생 생물 Ⅰ급으로, 세계자연보전연맹(IUCN)이 국제 보호 동물로 지정했다.
+    국내에 1천여마리가 살고 있으며 이중 절반인 500여마리가 양구에서 안정적으로 서식하는 것으로 조사됐다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구군, 천연기념물 산양 자연으로 방사]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2024103108680006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2024/10/31/PYH2024103108680006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260412053300098</ContentID>
+      <SendDate>20260412</SendDate>
+      <SendTime>192032</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103044" name="프랑스"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260412053300098]]></Href>
+      <Writer><![CDATA[현윤경]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[아무도 몰랐다…1년반 아빠차에 감금 9세 소년에 프랑스 발칵]]></Title>
+      <SubTitle><![CDATA[극심한 영양실조에 걷지 못하는 상태로 발견]]></SubTitle>
+      <Body><![CDATA[아무도 몰랐다…1년반 아빠차에 감금 9세 소년에 프랑스 발칵
+극심한 영양실조에 걷지 못하는 상태로 발견
+
+
+   
+    (브뤼셀=연합뉴스) 현윤경 특파원 = 프랑스에서 9세 소년이 1년 반 동안 아버지의 화물차에서 감금 생활을 하다가 구조돼 지역 주민들이 충격에 빠졌다고 AP통신이 보도했다.
+    스위스, 독일 접경 지역인 프랑스 동부 하겐바흐 검찰은 11일(현지시간) 성명을 내고 차에서 어린아이 소리가 난다는 주민의 신고를 받고 경찰이 출동한 끝에 비참한 상태의 소년을 발견했다고 밝혔다. 
+    경찰이 차량 문을 강제로 열었을 때 소년은 쓰레기 더미 위에 담요 하나만 덮은 채 벌거벗은 상태로 웅크리고 누워 있었고, 근처에는 배설물도 나뒹굴고 있었다고 검찰은 설명했다. 
+    오랜 기간 앉아만 있던 탓에 더 이상 걷지 못하는 데다 심각한 영양실조 증상을 보인 이 소년은 즉각 병원으로 이송됐으며 소년의 아버지는 납치 등의 혐의로 기소됐다고 검찰은 덧붙였다. 
+    소년의 아버지는 당국 조사에서 당시 7세이던 아들을 정신병원에 보내려 한 자기 애인에게서 아들을 보호하려고 2024년 11월부터 아들을 차에서 생활하게 했다고 진술했다. 검찰은 그러나 아이가 실종되기 전 정신질환 병력이 없었고 학교 성적도 좋았다고 말했다.
+    소년은 수사관들에게 아버지의 애인과 지내는 데 '큰 어려움'이 있었다면서 아버지가 자신을 가두는 것 외에 선택의 여지가 없었을 것이라고 말한 것으로 전해졌다. 소년은 또한 감금된 이후 샤워를 한 번도 하지 못했다고도 이야기했다. 
+    사법 당국은 피해자 아버지의 애인 등 다른 사람도 감금 사실을 알고 있었는지를 조사하고 있다. 피해자가 다니던 학교 측에는 그가 다른 학교로 전학 간 것으로 통보된 상태였다고 한다.
+    소년의 12세 친누나와 아버지 애인의 10세 딸은 사회복지기관의 보호를 받게 됐다. 
+    ykhyun14@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Caption><![CDATA[9세 소년이 1년 반 화물차에서 감금 생활을 하다 구조된 프랑스 동부 소도시 하겐바흐 [AP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260412024901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/04/12/PAP20260412024901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

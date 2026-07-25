@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260506088000065</ContentID>
+      <SendDate>20260506</SendDate>
+      <SendTime>113621</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260506088000065]]></Href>
+      <Writer><![CDATA[천정인]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강화 민통선 '하이패스식 비대면 출입체계' 전환 착수]]></Title>
+      <Body><![CDATA[강화 민통선 '하이패스식 비대면 출입체계' 전환 착수
+    
+
+
+    (강화=연합뉴스) 천정인 기자 = 인천시 강화군은 교동 검문소를 시작으로 민간인출입통제선(민통선) 검문 체계를 스마트 출입 체계로 전환하는 공사에 착수한다고 6일 밝혔다. 
+    교동 검문소는 강화 북부 접경 지역 주요 관문으로, 그동안 신분 확인 등 대면 검문으로 인한 차량 정체와 통행 불편이 지속적으로 제기돼 왔다. 
+    군은 이러한 불편을 해소하기 위해 차량번호 인식 시스템과 CC(폐쇄회로)TV를 활용한 출입 관리 등 스마트 기술을 적용해 하이패스식으로 검문 없이 통과하는 통행 환경을 구축한다는 계획이다.
+    강화군이 해병대 2사단과의 비대면 검문을 위한 업무협약을 맺은 뒤 처음으로 나타난 가시적 성과다.
+    올해 안으로 지역 내 모든 검문소에 스마트 출입 체계를 적용, 주간 대면 검문을 단계적으로 폐지할 예정이다. 
+    강화군 관계자는 "군민의 일상 불편을 해소하는 것은 물론 접경지역 규제 완화로 지역 발전의 중요한 전환점이 될 것으로 기대된다"고 말했다.
+    iny@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강화군 교동검문소]]></Title>
+         <Caption><![CDATA[[인천시 강화군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260506088000065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/06/AKR20260506088000065_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

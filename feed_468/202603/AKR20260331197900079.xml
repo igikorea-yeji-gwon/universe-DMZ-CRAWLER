@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260331197900079</ContentID>
+      <SendDate>20260331</SendDate>
+      <SendTime>195510</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260331197900079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘 국방 "레바논 접경 마을 가자처럼 모두 파괴할 것"]]></Title>
+      <Body><![CDATA[이스라엘 국방 "레바논 접경 마을 가자처럼 모두 파괴할 것"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 친이란 무장정파 헤즈볼라의 위협을 제거한다는 명분으로 레바논에 지상군을 투입한 이스라엘이 국경 인근의 모든 주택을 파괴해 완충지대를 조성하겠다고 밝혔다.
+    이스라엘 카츠 이스라엘 국방장관은 31일(현지시간) 군 지도부 상황 점검 회의에서 "국경 인근의 위협을 완전히 제거하기 위해 레바논 접경 마을의 모든 주택을 파괴할 것"이라고 말했다.
+    또 "이는 가자지구의 라파, 베이트 하눈을 모델로 한 것"이라고 강조했다.
+    카츠 장관은 이어 "작전이 종료되면 이스라엘군은 레바논 영토 내에 보안 구역을 설정하고, 리타니 강까지의 전 지역에 대해 보안 통제권을 유지할 것"이라고 덧붙였다.
+    그러면서 이스라엘 북부지역 주민의 안전이 확실히 보장될 때까지 60만 명 이상의 레바논 남부 주민은 리타니 강 이남으로 복귀하지 못하도록 차단하겠다는 뜻도 밝혔다.
+    카츠 장관은 "레바논을 이란의 영향권으로부터 분리하고, 헤즈볼라의 위협 능력을 완전히 박탈하기 위한 결정"이라며 지속적인 군사적 존재감을 통해 레바논 내 상황을 근본적으로 변화시킬 것"이라고 말했다.
+
+    리타니강은 이스라엘 국경에서 북쪽으로 약 30㎞ 거리에 있다. 따라서 카츠 장관의 언급은 국경에서 30㎞ 이내의 모든 가옥을 부숴 폐허로 만든 뒤 통제권을 행사하겠다는 뜻이다. 
+    특히 주권 국가인 레바논의 영토 내 도시를 가자지구의 라파와 베이트 하눈처럼 초토화하겠다는 계획은 방어 목적을 넘어선 비례의 원칙을 어긴 과잉 대응이라는 비판을 받을 가능성이 크다.
+    헤즈볼라는 미국과 이스라엘의 공습으로 지난달 28일 이란 최고지도자 아야톨라 알리 하메네이가 죽자 참전을 선언하고 이스라엘을 공격해왔다.
+    이스라엘은 헤즈볼라의 위협을 제거하겠다며 레바논 수도 베이루트와 남부 국경지대 등을 공습하는 한편, 지상군 병력을 대거 국경 너머로 투입해 헤즈볼라를 소탕하고 완충지대를 구축하고 있다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군의 공습으로 검은 연기가 솟아오르는 레바논 남부]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260331197900079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/31/AKR20260331197900079_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 국경 지대에서 작전 중인 이스라엘군 탱크와 중장비들]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260331197900079_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/31/AKR20260331197900079_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

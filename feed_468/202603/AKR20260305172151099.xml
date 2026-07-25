@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260305172151099</ContentID>
+      <SendDate>20260305</SendDate>
+      <SendTime>211900</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103051" name="아제르바"/>
+         <RegionCode code="7107011" name="이란"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260305172151099]]></Href>
+      <Writer><![CDATA[강훈상]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[아제르서 이란발 드론 공격에 민간인 2명 부상(종합)]]></Title>
+      <SubTitle><![CDATA[이란 접경 나히체반 공항·학교 피해…이란, 드론 발사 부인]]></SubTitle>
+      <Body><![CDATA[아제르서 이란발 드론 공격에 민간인 2명 부상(종합)
+이란 접경 나히체반 공항·학교 피해…이란, 드론 발사 부인
+    
+
+    (요하네스버그=연합뉴스) 나확진 특파원 = 아제르바이잔의 역외영토인 나히체반의 공항과 학교가 이란에서 날아온 드론 공격을 받아 2명이 부상했다.
+    5일(현지시간) AP, AFP, 로이터 통신에 따르면 이란에서 드론 2대가 출격해 이 가운데 1대는 이날 나히체반 공항 건물에 부딪힌 뒤 폭발했으며 다른 1대는 인근 학교에 떨어져 민간인 2명이 다쳤다고 아제르바이잔 외무부가 밝혔다.
+    나히체반은 아르메니아를 사이에 두고 아제르바이잔 본토와 떨어진 역외영토로, 이란과 국경을 접한다. 나히체반 공항은 이란 국경에서 약 10㎞ 떨어져 있다.
+    아제르바이잔 외무부는 자국 주재 이란 대사를 초치해 항의했다.
+    외무부는 성명에서 "아제르바이잔 영토에 대한 이번 공격은 국제법 규범과 원칙에 어긋나며 역내 긴장을 고조시킨다"며 이번 공격을 강력히 규탄한다고 밝혔다.
+    또 "이란이 가능한 한 빨리 이번 사건에 대해 명확히 설명하고 미래에 이런 사건이 재발하지 않도록 필요한 조치를 시급히 할 것을 요구한다"며 자국이 이란에 대해 적절한 대응을 할 권리가 있다 덧붙였다.
+    이에 대해 이란군 총참모부는 성명을 통해 "아제르바이잔을 향해 드론을 발사하지 않았다"고 부인하면서 "무슬림 국가 간의 관계를 교란하려는 시온주의자 정권(이스라엘)의 그러한 행태는 새로운 일이 아니다"라고 주장했다.
+    rao@yna.co.kr
+[https://youtu.be/fkKv9w6o1rk]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이란 샤헤드 드론(기사와 직접 관련 없음)]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스 자료사진 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260303036901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/03/03/PAP20260303036901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

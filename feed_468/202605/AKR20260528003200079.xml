@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260528003200079</ContentID>
+      <SendDate>20260528</SendDate>
+      <SendTime>025415</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260528003200079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘군, 레바논 남부 전역에 대피령…휴전 후 처음]]></Title>
+      <Body><![CDATA[이스라엘군, 레바논 남부 전역에 대피령…휴전 후 처음
+
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 친이란 무장 정파 헤즈볼라와 휴전에도 불구하고 무력 충돌을 이어온 이스라엘군이 레바논 남부 전역에 공습을 예고하는 주민 대피령을 내렸다.
+    이스라엘군은 27일(현지시간) 성명을 통해 레바논 남부 전역의 주민들에게 자흐라니 강 이북으로 대피하라며 "강 이남의 모든 지역은 전투 구역으로 간주한다"고 경고했다.
+    아비하이 아드라이 이스라엘군 아랍어 대변인은 "레바논 남부의 모든 주민은 헤즈볼라 요원, 시설 및 전투 장비로부터 멀리 떨어져 있을 것을 촉구한다"며 "이스라엘군은 민간인에게 피해를 줄 의도가 없다"고 말했다.
+    군 당국은 최근 며칠 동안 레바논 남부의 특정 도시와 마을을 대상으로 일련의 국지적 대피령을 내린 바 있지만 지난달 중순 휴전 발효 이후 레바논 남부 전역에 대피령을 내린 건 처음이다.
+    베냐민 네타냐후 이스라엘 총리는 지난 15일 이스라엘군에 "(가속) 페달을 더 세게 밟으라"며 헤즈볼라를 겨냥한 공세를 강화하라고 지시했다.
+    이후 이스라엘군은 레바논 남부 나바티에를 비롯한 최소 50개 마을에 대피 경보를 발령하고 대규모 공습을 단행했다.
+    또 레바논 남부에서 작전 중인 이스라엘군은 국경 일대에 지정한 완충구역인 '옐로라인' 너머로 지상 작전을 확대했다고 현지 언론이 전했다.
+    옐로라인은 이스라엘군이 헤즈볼라에 의한 안보 위협을 줄이겠다며 지난달 중순 남부 접경지역에 설정한 구역으로, 레바논 영토 내부로 10㎞ 깊이까지 뻗어 있다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군의 공습으로 연기가 피어오르는 레바논 남부 티레]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260528034501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/05/28/PAF20260528034501009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

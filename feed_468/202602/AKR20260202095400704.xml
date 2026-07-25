@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260202095400704</ContentID>
+      <SendDate>20260202</SendDate>
+      <SendTime>142509</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7103036" name="우크"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101005" name="전쟁내전"/>
+         <ClassCode code="0408015" name="드론"/>
+         <ClassCode code="0109009" name="군수무기"/>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001081" name="연합영상"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260202095400704]]></Href>
+      <Writer><![CDATA[정윤섭]]></Writer>
+      <Desk code="704"><![CDATA[영상미디어부]]></Desk>
+      <DeliCode>L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[영상] 러, 한 달간 드론 6천여대 날려 우크라 무차별 공습]]></Title>
+      <Body><![CDATA[[영상] 러, 한 달간 드론 6천여대 날려 우크라 무차별 공습
+    
+[https://youtu.be/kKCLp7DWqLE]
+   
+    (서울=연합뉴스) 러시아가 우크라이나 통근버스와 산부인과 병원 등 민간 시설을 대상으로 무차별 드론 공격에 나섰습니다.
+    AFP·로이터통신 등에 따르면 1일(현지시간) 우크라이나 중부 드니프로페트로우스크주에서 에너지기업 DTEK 통근버스가 러시아 드론 공격을 받아 15명이 숨지고 7명이 다쳤습니다.
+    버스에는 근무를 마친 광산 직원들이 타고 있었던 것으로 전해졌습니다. 
+    전날 밤에는 같은 주에서 러시아 드론이 민가를 덮치면서 2명이 사망했습니다.
+    러시아 군은 우크라이나 남부 도시 자포리자에도 두 차례 드론 공격을 감행했고, 네 살배기 아이를 포함해 최소 9명 다쳤다고 우크라이나 당국은 전했습니다.
+    이 과정에서 러시아 군은 드론을 동원해 산부인과 병원까지 공격했습니다. 우크라이나 당국은 병원에서 검진받던 여성 2명이 다쳤다며 러시아가 새 생명까지 겨냥한 전쟁을 하고 있다고 비판했습니다.
+    러시아와 우크라이나는 미국의 중재로 혹한기 에너지 시설 공격을 잠시 중단했지만 도심이나 최전방 공격은 계속되면서 긴장 완화로 나아가지는 못하는 분위기입니다.
+    우크라이나 당국에 따르면 러시아는 지난 1주일 동안 우크라이나에 980대가 넘는 공격용 드론과 1천100발의 유도항공폭탄, 미사일 2발을 발사했습니다.
+    1월 한 달 기준으로는 공격용 드론 6천대 이상, 유도항공폭탄 5천500발, 미사일 158발을 우크라이나로 날렸습니다.
+    러시아의 무차별 드론 공격에 최근 이틀 동안 우크라이나 민간인 17명이 숨진 가운데 미국 중재 하에 종전안을 논의하는 3자 회담이 4∼5일 아랍에미리트 아부다비에서 재개됩니다.
+    러시아는 우크라이나가 돈바스 지역 전체를 넘기지 않으면 종전은 없다는 입장이고, 우크라이나는 현재 전선을 동결하고 비무장지대로 만들자고 맞서고 있습니다.
+    이에 미국은 돈바스를 러시아에 넘겨야만 안전보장을 제공할 수 있다면서 우크라이나에 '영토 양보'를 종용하는 것으로 알려졌습니다.
+
+    제작: 정윤섭·송해정
+    영상: 로이터·STATE EMERGENCY SERVICE OF UKRAINE IN DNIPROPETROVSK REGION·EPA·X@CforCD
+    
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260202095400704_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/02/AKR20260202095400704_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

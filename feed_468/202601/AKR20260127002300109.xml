@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260127002300109</ContentID>
+      <SendDate>20260127</SendDate>
+      <SendTime>033135</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260127002300109]]></Href>
+      <Writer><![CDATA[민경락]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['종전 첫발' 뗀 미·러·우크라 3자회담…신중함 속 탐색전]]></Title>
+      <SubTitle><![CDATA[러 "시작 자체 긍정적"…젤렌스키 "다음 회의 이를수록 좋아"]]></SubTitle>
+      <Body><![CDATA['종전 첫발' 뗀 미·러·우크라 3자회담…신중함 속 탐색전
+러 "시작 자체 긍정적"…젤렌스키 "다음 회의 이를수록 좋아"
+
+
+    (로마=연합뉴스) 민경락 특파원 = 미국 중재 하에 러시아·우크라이나가 종전안을 논의하는 3자회담이 첫 발을 뗐다.
+    양측은 회의가 끝난 뒤 긍정·부정 평가도 자제했다. 파행 없이 한 자리에서 함께 논의를 시작했다는 것만으로도 종전 기대감을 높였다는 평가다.
+
+    ◇ 3자회담 뒤 말 아낀 러·우크라…뚜렷한 긍정도 부정도 없어
+    26일(현지시간) 로이터·타스 통신 등 외신에 따르면 이날 러시아와 우크라이나 양측 모두 3자회담 결과와 관련해 신중한 반응을 내놨다.
+    상호 비판이나 부정적 평가는 배제하는 듯했지만, 긍정적인 표현도 자제하는 분위기다.
+    볼로디미르 젤렌스키 우크라이나 대통령은 이날 우크라이나 대표단으로부터 회의 결과를 보고 받은 뒤 SNS에 "모든 당사자의 핵심 입장이 분석됐다"고 밝혔다.
+    그는 "해결되지 않은 복잡한 정치 사안들도 함께 논의됐다"며 "외교에서 실질적인 성과가 필요하다"고 강조했다.
+    그러면서 "다음 회의는 이를수록 좋다"며 향후 논의에 기대감을 내비쳤다. 
+    드미트리 페스코프 러시아 크렘린궁 대변인도 이날 "초기 접촉에서 높은 결과를 기대하는 것은 실수"라며 "이러한 접촉이 건설적으로 시작된 사실 자체는 긍정적"이라고 평가했다.
+    다만 그는 "우호적 분위기가 있었다고 말하지 않겠다"며 "이 단계에서는 그럴 가능성이 희박하다"고 말했다.
+    양측은 이르면 내달 1일 세 번째 3자회담을 열기로 한 것으로 전해졌다.
+
+
+    ◇ 내달 1일 회의 속개할 듯…회의장 밖은 아직 전쟁터
+    지난 23일과 24일 아랍에미리트(UAE) 아부다비에서 두차례 열린 3자 회의에서는 핵심 사안인 영토 문제가 주로 논의됐다. 종전안에 더해 추가적인 군사 행동을 예방할 수 있는 방안도 의제에 올랐다.
+    러시아와 우크라이나는 동부 도네츠크주의 소유권을 두고는 접점을 찾지 못하고 있다. 러시아는 도네츠크 전체를 포기하라고 요구하나 우크라이나는 현재 전선을 동결하고 비무장지대를 만들자고 맞서고 있다.
+    회의장 밖에서는 군사력을 동원한 양측의 공세가 계속됐다.
+    우크라이나 군은 전날 러시아 크라스노다르 지역의 정유소를 타격했다고 밝혔다.
+    우크라이나는 러시아의 전쟁 자금을 차단하기 위해 서방 제재를 피해 원유를 실어 나르는 러시아 그림자 선단, 에너지 시설 등을 집중적으로 공격하고 있다.
+    우크라이나는 러시아의 공격으로 유네스코(UNESCO) 세계문화유산인 페체르스크 라브라(동굴수도원)이 훼손되는 피해를 봤다.
+    유네스코는 전쟁이 발발한 뒤 2023년 페체르스크 라브라를 위험에 처한 유산 목록에 추가한 바 있다.
+    rock@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[러시아 공격에 훼손된 키이우 세계문화유산 페체르스크 라브라]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재배포 및 DB 금지]]]></Caption>
+         <FileName>PAF20260127029201009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/01/27/PAF20260127029201009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[푸틴·트럼프·젤렌스키]]></Title>
+         <Caption><![CDATA[[로이터·AP·AFP=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20250807000033990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/08/07/33/PCM20250807000033990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[다보스포럼서 만난 젤렌스키 대통령과 트럼프 대통령]]></Title>
+         <Caption><![CDATA[[로이터 연합뉴스 자료사진. 재배포 및 DB 금지]]]></Caption>
+         <FileName>PRU20260125271501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/01/25/PRU20260125271501009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260112057600504</ContentID>
+      <SendDate>20260112</SendDate>
+      <SendTime>110553</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1008001" name="북한일반"/>
+         <ClassCode code="0403003" name="재생에너"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260112057600504]]></Href>
+      <Writer><![CDATA[전명훈]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['고질적 전력난' 北, 재생에너지 사용 독려…"전기 걱정 몰라"]]></Title>
+      <Body><![CDATA['고질적 전력난' 北, 재생에너지 사용 독려…"전기 걱정 몰라"
+
+
+
+    (서울=연합뉴스) 전명훈 기자 = 만성적인 전력 부족에 시달리는 북한이 태양광, 풍력 등 재생 에너지 사용을 적극적으로 독려하고 나섰다.
+    국제 제재로 연료 수입이 제한된 상황에서 화력·수력 등 기존 발전 방식으로는 수요를 충당하기 어려운 상황이 계속되자 바로 전기를 생산할 수 있는 재생에너지의 중요성을 주민들에게 적극적으로 홍보하는 모습이다. 
+    북한 주민을 대상으로 발행하는 노동당 기관지 노동신문은 12일자 5면에 실은 '이들처럼 자연에네르기(에너지) 이용에 품을 넣자'라는 제목의 기사에서 황해남도 은율군의 금산포젓갈가공공장 등 사례를 들며 "근 10년간 재생에네르기 발전소 운영을 잘하여 그 덕을 크게 보고 있다"고 보도했다. 
+    신문에 따르면 이 지역에는 2015년 이 지역을 방문한 김정은 국무위원장의 지시에 따라 태양광, 풍력발전소가 건립됐다. 
+    이 발전소의 태양광 패널은 1만1천여개 수준이다. 풍력 발전 시설은 북한 국가과학원의 자체 기술을 활용했다고 한다.
+    이 발전소는 풍력·태양광 발전을 병렬로 구성, 악천후로 태양광 발전량이 부족할 때도 풍력 발전이 정상 운영돼 전력 생산에 문제가 없다고 한다. 
+    신문은 환경오염을 일으키지 않는다는 점, 사용하고 남은 전력은 국가 전력망에 보탤 수 있다는 점 등을 재생에너지의 장점으로 소개했다. 
+    이 발전소가 생산한 전력은 공장뿐 아니라 공장 종업원의 주택에 전기를 공급하고도 남아 지금까지 수백만㎾h 규모를 국가 전력망에 공급했다고 신문은 전했다.
+    공장 지배인은 신문에 "조업한 때로부터 오늘까지 전기 걱정이란 말 자체를 모른다"고 자랑했다.
+    통계청에 따르면 2024년 북한의 연간 전력 생산량은 253억㎾h로 같은 기간 한국(5천956억㎾h)의 4.2% 수준에 그친다.
+    북한은 고질적 전력난 해소를 위해 2013년 5월 태양열과 태양광, 풍력, 지열 등 재생에너지의 효율적인 활용을 목적으로 하는 '재생에너지법'을 채택하고 관련 사업을 독려해왔다.
+    통일연구원 북한연구실은 작년 11월 보고서에서 북중 접경의 북한 도시에 태양광 패널 보급이 늘어나면서 야간 조명이 크게 늘었다고 분석했다. 
+    id@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한, 전력수요 증가에 '분산형 태양빛발전소' 확대]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 북한의 태양광 발전소 [조선중앙TV 화면]  2023.12.11 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2023121109340004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2023/12/11/PYH2023121109340004200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

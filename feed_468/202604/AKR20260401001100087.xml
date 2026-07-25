@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260401001100087</ContentID>
+      <SendDate>20260401</SendDate>
+      <SendTime>010157</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7105023" name="칠레"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260401001100087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[칠레 국경장벽 도입 이어 체류권부여 폐지…'반이민' 본격화]]></Title>
+      <SubTitle><![CDATA['칠레 트럼프' 카스트 우향우 정책 가속]]></SubTitle>
+      <Body><![CDATA[칠레 국경장벽 도입 이어 체류권부여 폐지…'반이민' 본격화
+'칠레 트럼프' 카스트 우향우 정책 가속 
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = '칠레의 트럼프'라 불리는 호세 안토니오 카스트 대통령 취임 이후 칠레 정부가 급격히 우경화하고 있다.
+    최근 이민자 유입을 막기 위한 국경 장벽 건설 계획을 발표한 데 이어, 이번에는 대규모 이민자 체류권 부여 계획을 철회했다.
+    30일(현지시간) AFP통신에 따르면 프랑크 사우어바움 이민청장은 이날 "우리는 보리치 정부가 제안했던 대규모 거주권 부여 절차를 진행하지 않을 것"이라며 18만2천명에게 체류권을 부여하려던 계획을 철회한다고 밝혔다. 
+    앞서 가브리엘 보리치 전 좌파 정부는 인도적 차원에서 체류권을 신청한 이민자들에게 거주증을 발급하는 법령을 준비해 왔으나, 정권 교체와 함께 이 정책은 폐기 수순을 밟게 됐다.
+    카스트 대통령은 후보 시절부터 살인, 납치, 갈취 등 강력 범죄의 급증이 이민자 급증에 따른 현상이라고 주장하며 강력한 이민자 단속을 예고해 왔다. 
+    그는 취임사에서도 "치안 없는 민주주의는 허구이며 치안 없는 자유는 소수만이 누리는 특권"이라고 말하며 '치안'에 방점을 둘 것임을 강조한 바 있다.
+    실제로 카스트 대통령은 취임 후 첫 주요 정책으로 페루·볼리비아 접경 지역에 이른바 '국경 방패'(Border Shield) 구축을 선언하고, 500㎞ 규모의 장벽 건설을 추진하고 있다. 칠레 정부는 거주권 서류가 없는 외국인이 약 33만7천명에 달하는 것으로 파악하고 있다.
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[칠레에 세워지고 있는 국경장벽]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스]]]></Caption>
+         <FileName>AKR20260401001100087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/01/AKR20260401001100087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

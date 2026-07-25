@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260128036400009</ContentID>
+      <SendDate>20260128</SendDate>
+      <SendTime>092229</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7214001" name="북한"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1003001" name="북한경제"/>
+         <ClassCode code="1004001" name="북한사회"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260128036400009]]></Href>
+      <Writer><![CDATA[김승욱]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러, 대북교역 급증 속 접경 하산역 보안검색 대폭 강화]]></Title>
+      <SubTitle><![CDATA[우크라 전쟁 이후 북러 교류 늘어…하산역에 엑스레이 검색기 2대 설치]]></SubTitle>
+      <Body><![CDATA[러, 대북교역 급증 속 접경 하산역 보안검색 대폭 강화 
+우크라 전쟁 이후 북러 교류 늘어…하산역에 엑스레이 검색기 2대 설치
+
+
+    (서울=연합뉴스) 김승욱 기자 = 러시아가 북한과의 교역 확대에 발맞춰 북한접경도시 하산에 있는 철도역의 보안 검색을 대폭 강화했다고 미국의 북한전문 매체 NK뉴스가 27일(현지시간) 보도했다.
+    이는 마약이나 무기 등 불법 물품의 밀수를 차단하려는 조치로 풀이된다.
+    NK뉴스에 따르면 러시아 모스크바 소재 보안장비 업체 '디아그노스티카-M'은 지난 13일 러시아 국경시설 건설·운영 관리청에 'TS-SCAN 100100' 엑스레이 검색기 2대를 공급했다.
+    이 장비들은 두만강을 사이에 두고 북한과 마주한 러시아 연해주 하산역에 설치됐다. 업체 측은 이번 장비는 하산역의 통관 보안 검색 효율성을 높이기 위한 것이라고 설명했다.
+    'TS-SCAN 100100'은 가로·세로 최대 1ｍ 크기의 대형 화물을 스캔할 수 있는 장비다. 두 개의 엑스레이 투사기를 이용해 다양한 각도에서 물체를 스캔함으로써 사각지대를 없앤 것이 특징이다.
+    '디아그노스티카-M' 관계자는 "복잡한 부품이나 다른 물건 뒤에 숨겨진 폭발물, 무기, 마약 등 은닉된 위험 요소를 찾아내는 능력이 향상될 것"이라며 "유기물과 금속을 구별할 수 있어 추가적인 개봉 검사 없이도 정밀 검색이 가능하다"고 말했다.
+    우크라이나 전쟁 이후 군사적 밀착을 가속해 온 러시아와 북한은 최근 경제 교류의 폭도 넓히고 있다. 이번 보안 강화 조치는 상업적 교류가 활발해지면서 밀수 시도 또한 잦아진 데 따른 대응 차원으로 해석된다.
+    앞서 2024년 12월 블라디보스토크 세관 당국은 평양행 비행기에 탑승하려던 한 북한 남성이 냉동 히말라야 곰 발바닥을 밀반출하려던 것을 적발한 바 있다. 이 밖에도 과거 사향노루의 분비물이나 방탄조끼 제작용 물자를 밀수하려다 적발된 사례도 있다.
+    NK뉴스에 따르면 현재 두만강 접경 지역에는 새로운 차량용 교량과 검문소가 건설 중이다. 새 교량은 오는 6월 중순 완공될 예정이다. 
+    '디아그노스티카-M'은 이 차량 검문소에도 자사의 엑스레이 제품이 도입될 수 있다고 밝혔다.
+    ksw08@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북러 잇는 두만강 자동차 다리 착공식]]></Title>
+         <Caption><![CDATA[[조선중앙통신=연합뉴스 자료사진] 국내에서만 사용 가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution.]]></Caption>
+         <FileName>AKR20260128036400009_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/28/AKR20260128036400009_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

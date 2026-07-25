@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260219068900504</ContentID>
+      <SendDate>20260219</SendDate>
+      <SendTime>112716</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260219068900504]]></Href>
+      <Writer><![CDATA[김호준]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국방부 "비행금지구역 재설정, 軍대비태세에 영향 없게 추진"]]></Title>
+      <SubTitle><![CDATA[비행금지구역 재설정 때 사단·군단급 무인기 운용에 제한]]></SubTitle>
+      <Body><![CDATA[국방부 "비행금지구역 재설정, 軍대비태세에 영향 없게 추진"
+비행금지구역 재설정 때 사단·군단급 무인기 운용에 제한
+    
+
+
+    (서울=연합뉴스) 김호준 이정현 기자 = 국방부는 19일 비행금지구역 재설정에 대해 "군사대비태세에 미치는 영향이 없도록 보안대책을 강구해서 추진할 예정"이라고 밝혔다.
+    정빛나 국방부 대변인은 이날 정례브리핑에서 '비행금지구역을 남측만 복원하면 (대북) 정찰·감시 능력을 사실상 내려놓는 것 아니냐'는 지적에 "국방부는 유관 부처 및 미국 측과 협의해 비행금지구역 설정을 포함해서 9·19 군사합의 일부 복원을 검토하고 있다"며 이렇게 말했다.
+    정동영 통일부 장관은 전날 브리핑에서 민간의 대북 무인기 침투 재발방지 대책과 관련, "물리적 충돌 방지와 군사적 신뢰 구축을 위해 비행금지구역 설정 등을 포함해 기존 9·19 남북군사합의 일부 복원을 선제적으로 검토·추진할 것"이라고 밝혔다.
+    2018년 남북이 체결한 9·19 군사합의에 명시된 비행금지구역이 재설정되면 무인기도 군사분계선(MDL)으로부터 동부지역에서 15km, 서부지역에서 10km에서 비행이 금지된다.
+    다만, 우리만 선제적으로 비행금지구역을 다시 설정하면 무인기를 활용한 대북 감시·정찰 작전 역량이 크게 떨어질 수 있다는 우려가 제기된다.
+    2024년 6월 윤석열 정부의 9·19 군사합의 전면효력 정지 결정 이후 비행금지구역 내 사단 및 군단급 무인기의 운용이 재개됐는데 비행금지구역이 재설정되면 이들 무인기 운용이 다시 제한받게 된다. 
+    장도영 합동참모본부 공보실장은 이날 국방부 정례브리핑에서 '군단급·사단급 무인기의 대북 감시 기능을 글로벌호크나 위성이 대체할 수 있느냐'는 질문에 "우리 군은 현재 관련된 내용을 검토 중"이라며 구체적인 답변을 피했다. 
+    hojun@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[브리핑하는 정빛나 국방부 대변인]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 윤동진 기자 = 정빛나 국방부 신임 대변인이 16일 국방부에서 브리핑을 하고 있다. 2025.12.16 mon@yna.co.kr]]></Caption>
+         <FileName>PYH2025121606350001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/12/16/PYH2025121606350001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

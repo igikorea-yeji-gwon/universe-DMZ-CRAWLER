@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260615139700062</ContentID>
+      <SendDate>20260615</SendDate>
+      <SendTime>164305</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0703003" name="개신교"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260615139700062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한미 목사들, 세계 평화 기원하며 DMZ 250㎞ 걷는다]]></Title>
+      <Body><![CDATA[한미 목사들, 세계 평화 기원하며 DMZ 250㎞ 걷는다
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원 국경선평화학교는 한국과 미국의 목사 20여명이 오는 17∼25일 철원에서 고성통일전망대까지 DMZ 평화의 길 250여㎞를 걸으며 양국 평화와 세계의 전쟁 종식을 기도하는 행사를 개최한다고 15일 밝혔다.
+    올해 처음 열리는 기도 순례에서 성직자들은 세계 전쟁 상황 속 교회의 평화 실천 방안을 모색하고 기도한다.
+    이들은 최근 미국과 한국의 일부 교회 지도자들이 전쟁을 지지하고 극우 정치이념을 옹호하는 현상을 우려하면서, 예수 그리스도의 평화를 따르는 한국과 미국 교회로 다시 거듭나자는 내용의 '카파'(KAPA·Korea America Peace Again)운동을 전개한다.
+    이들은 순례 첫날인 17일 철원 국경선평화학교에서 출발, 소이산에 올라 북녘땅을 바라보며 평화 예배를 갖는다.
+    양국 목사들은 매일 낮 25㎞를 걷고, 저녁에는 탈북민, 접경지역 주민 등과의 대화, 평화 콘서트 등 다양한 프로그램에 참여한다.
+    마지막 날인 25일 고성 금강산 콘도에서 한반도와 세계평화를 위한 예배를 진행하면서 폐막할 예정이다. 
+    단장을 맡은 백용석 서울 강남교회 목사는 15일 "한국과 미국 목사들이 함께 DMZ 평화의 길을 걸으며 기도할 때 한국과 미국이 다시 평화로운 나라가 되는 운동이 일어나길 기대한다'고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[한미 양국 목사들, 세계 평화 기원하며 DMZ 250㎞ 순례]]></Title>
+         <Caption><![CDATA[[국경선평화학교 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260615139700062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/15/AKR20260615139700062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

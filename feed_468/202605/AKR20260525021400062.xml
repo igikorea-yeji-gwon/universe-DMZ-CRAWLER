@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260525021400062</ContentID>
+      <SendDate>20260525</SendDate>
+      <SendTime>102235</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0506003" name="철도교통"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260525021400062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우상호·김진태, 석탄일 연휴로 이어진 유세 접경지역서 마무리]]></Title>
+      <SubTitle><![CDATA[우, '청정에너지 고속도로' 강조…김, '동서 고속철 역세권 개발' 추진]]></SubTitle>
+      <Body><![CDATA[우상호·김진태, 석탄일 연휴로 이어진 유세 접경지역서 마무리
+우, '청정에너지 고속도로' 강조…김, '동서 고속철 역세권 개발' 추진
+
+    (춘천=연합뉴스) 이재현 기자 = 6·3 지선을 9일 앞둔 25일 여야 강원도지사 후보들은 철원·화천·양구 등 접경지역 유권자와의 만남으로 석가탄신일 연휴 유세 일정을 마무리했다.
+
+    더불어민주당 우상호 후보는 이날 철원군 동송읍 동송시장에 이어 서면 와수시장에서 거리 유세를 펼치며 소중한 한표 행사를 호소한다.
+    또 화천으로 이동해 군인가족 간담회를 통해 접경지역의 애로사항 등을 청취한 뒤 양구읍 5일 장터와 동면사무소 앞에서 거리 유세를 이어간다.
+    철원 출신인 우 후보는 군사 규제 완화를 통해 접경지역을 새로운 경제성장 거점으로 만드는 '청정에너지 고속도로'를 핵심 공약으로 소개하며 접경지역 주민 표심 공략에 나선다. 이어 춘천으로 이동해 퇴근 인사로 일정을 마무리한다.
+    이에 맞서는 국민의힘 김진태 후보는 철원군 갈말읍을 시작으로 동송읍과 김화읍에서 그물망 유세를 이어간다.
+    김 후보는 동송읍에서 '특별한 TWO표' 제4탄 행사를 통해 생애 처음 투표하는 고3 유권자들을 대상으로 투표 독려 캠페인을 펼친다.
+    또 화천과 양구로 이어지는 그물망 유세를 통해 군 장병 가족, 자영업자, 농업인 등 다양한 주민들과 만나 포천∼철원 고속도로 추진, 동서 고속철 역세권 개발과 같은 지역 맞춤형 공약을 설명하며 유권자의 마음을 사로잡는다.
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[우상호 김진태]]></Title>
+         <Caption><![CDATA[[촬영 양지웅]]]></Caption>
+         <FileName>PCM20260331000003990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2026/03/31/03/PCM20260331000003990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

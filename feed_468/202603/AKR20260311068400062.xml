@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260311068400062</ContentID>
+      <SendDate>20260311</SendDate>
+      <SendTime>103352</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0411002" name="관광"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260311068400062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 내달부터 승리전망대 안보 견학 절차 간소화]]></Title>
+      <SubTitle><![CDATA[민통초소 이전 따라 주 6일 관광·당일 방문 신청 추진]]></SubTitle>
+      <Body><![CDATA[철원군, 내달부터 승리전망대 안보 견학 절차 간소화
+민통초소 이전 따라 주 6일 관광·당일 방문 신청 추진
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 13민통초소 이전에 맞춰 내달부터 승리전망대 DMZ 안보 견학 절차를 간소화할 계획이라고 11일 밝혔다.
+    휴전선 248㎞ 중 한가운데 위치한 승리전망대는 금강산 철길과 북한 지역에 있는 오성산, 평강고원 등 다양한 경관을 한눈에 볼 수 있는 안보 관광지다.
+    전망대 견학은 현재 주 3일(월·목·토요일) 이뤄지고 있으며 개인은 하루 전, 단체는 사흘 전에 예약해야 한다.
+    탐방객은 정해진 날짜에 개인차량으로 승리전망대까지 이동해서 전망대 안팎을 관람할 수 있다.
+    철원군은 견학 일수를 주 3일에서 6일로 확대하고, 당일 방문 신청도 가능하도록 군부대와 협의하고 있다.
+    김종석 시설관리사업소장은 "승리전망대 견학 절차 간소화로 마현리 관광과 지역농산물 판매에 이바지할 수 있도록 관할부대와 지속해서 협의해 나가겠다"고 말했다.
+    앞서 철원군은 철원∼화천을 연결하는 국도 5호선 마현리 입구의 군부대 13민통초소를 52초소로 이전을 완료함에 따라 내달부터 전면 개통한다고 9일 밝혔다.
+    이에 따라 마현리 주민과 농민들은 출입 제한 없이 통행할 수 있게 돼 60여년간 군사지역 내 민통초소 출입 통제로 불편을 겪어온 이들의 숙원이 해소될 것으로 보인다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 승리전망대]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260311068400062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/11/AKR20260311068400062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

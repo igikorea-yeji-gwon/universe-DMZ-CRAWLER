@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260629015600009</ContentID>
+      <SendDate>20260629</SendDate>
+      <SendTime>081501</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260629015600009]]></Href>
+      <Writer><![CDATA[김아람]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘, 평화 합의에도 레바논 계속 타격…"200m 땅굴 파괴"]]></Title>
+      <Body><![CDATA[이스라엘, 평화 합의에도 레바논 계속 타격…"200m 땅굴 파괴"
+
+
+    (서울=연합뉴스) 김아람 기자 = 이스라엘은 레바논 남부 지역에서 친이란 무장정파 헤즈볼라가 사용하던 지하 시설을 파괴했다고 28일(현지시간) 밝혔다.
+    로이터통신에 따르면 베냐민 네타냐후 이스라엘 총리와 이스라엘 카츠 국방장관은 이날 공동 성명에서 레바논 남부 마즈달 준 마을에 있는 약 200ｍ 길이 지하 터널을 이같이 타격했다고 발표했다.
+    이스라엘 측은 이 터널에 수백개의 무기와 발사대가 있었으며, 공격에 앞서 미국에 사전 통보했다고 덧붙였다.
+    앞서 이스라엘군은 전날 레바논 남부 나바티예 지역도 드론으로 타격했다.
+    네타냐후 총리는 이스라엘군이 레바논 남부 안보 지대에 계속 머물 것이라며 "테러 기반을 계속 파괴하고, 북부 접경지 주민들에 대한 위협을 제거하며, 이스라엘 국민의 안전을 지킬 것"이라고 주장했다.
+    이에 앞서 미국과 이란이 체결한 종전 양해각서(MOU)에는 레바논을 포함한 모든 전선에서 군사작전을 종료한다는 내용이 담겼지만, 이스라엘과 헤즈볼라 간 충돌은 지난 18일 MOU 발효 후에도 이어졌다.
+    이에 이스라엘과 헤즈볼라 간 무력 충돌을 멈추기 위해 미국의 중재로 이스라엘과 레바논은 지난 26일 평화 기본 합의안에 서명했다.
+    다만 이 합의에는 이스라엘과 실질적으로 분쟁 중인 헤즈볼라가 참여하지 않아 한계가 있다는 관측이 나왔다.
+    합의안은 이스라엘군이 레바논 남부 지역에서 단계적으로 철수하되, 당분간 레바논 영토 안쪽 최대 10㎞에 이르는 안보 지대에는 머물 수 있도록 했다.
+    헤즈볼라 수장인 나임 카셈 사무총장은 이번 합의를 이스라엘에 대한 항복이라고 규정하며 거부했다. 그는 이스라엘이 레바논에서 철수할 때까지 헤즈볼라가 압박을 계속할 것이라고 밝혔다.
+    rice@yna.co.kr
+[https://youtu.be/OPg6rss3VDI]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[28일(현지시간) 이스라엘 접경지인 레바논 남부 지역에서 연기가 치솟는 모습]]></Title>
+         <Caption><![CDATA[[EPA=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20260629003901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/06/29/PEP20260629003901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

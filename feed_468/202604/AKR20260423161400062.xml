@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260423161400062</ContentID>
+      <SendDate>20260423</SendDate>
+      <SendTime>174232</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260423161400062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[6.3 지선 강원지사 여야 후보, D-41 접경지역 정책 경쟁]]></Title>
+      <SubTitle><![CDATA[우상호, 경제 활성·생활여건 개선 청사진…김진태, 철새도래지서 생태관광 비전 제시]]></SubTitle>
+      <Body><![CDATA[6.3 지선 강원지사 여야 후보, D-41 접경지역 정책 경쟁
+우상호, 경제 활성·생활여건 개선 청사진…김진태, 철새도래지서 생태관광 비전 제시
+
+    (춘천=연합뉴스) 이재현 기자 = 6·3 지선을 41일 앞둔 23일 강원도지사 선거 여야 후보들은 접경지역 정책 대결을 통해 접경 주민 표심 공략에 나섰다.
+
+    더불어민주당 우상호 예비 후보는 이날 국회 소통관에서 '강원·경기·인천지역 접경지역의 새로운 변화와 공존을 위한 협약' 기자회견을 열고 접경지 경제 활성화와 주민 생활 여건 개선을 위한 청사진을 제시했다.
+    접경지역을 공유하는 같은 당 소속 추미애 경기도지사 후보, 박찬대 인천광역시장 후보와 함께 한 이번 회견은 접경지역의 역사적 희생을 상생의 기회로 전환하고 DMZ를 중심으로 한 새로운 번영의 시대를 열기 위해 마련됐다. 
+    접경지역을 '평화지대'로 새롭게 명명하기로 한 세 후보는 ▲ 제도적 개선 방안 모색 ▲ DMZ 생태·평화 관광 및 한반도 평화 경제 거점 재정립과 정책 협력 강화 ▲ '평화지대 광역단체장협의회' 활성화를 통한 연대 등 핵심 과제에 합의했다.
+    우 후보는 "지난 73년간 규제와 단절을 감내하며 묵묵히 대한민국 안보를 지켜온 접경지 도민들의 오랜 기다림과 헌신에 응답하겠다"며 "낡은 규제를 걷어내고 평화 경제의 새로운 지도를 그려 도민의 삶을 확실히 변화시키겠다"고 말했다.
+    또 "정례 협의회를 구축해 구체적인 정책을 공동 추진하고 중앙 정부의 전폭적인 지원을 이끌어내겠다"고 강조했다.
+    이어 이날 민주당 16개 광역단체장 후보자 연석회의에도 참석한 우 후보는 "'강원도를 좀 살려달라'는 도민의 절박한 호소와 절규에 응답하기 위해 나선 만큼 강원도가 특별해지기 위해서는 중앙정부와 당의 전폭적인 지원이 필요하다"고 호소했다.
+    국민의힘 김진태 예비 후보는 이날 철원군 동송읍 'DMZ 두루미 평화타운'을 방문해 생태관광 비전을 제시했다.
+
+    이번 방문은 강원도가 지난 2월 '지질·생태명소'로 선정한 DMZ 두루미 평화 타운·철새도래지'의 가치를 재확인하기 위해 이뤄졌다.
+    김 후보는 "철원평야를 찾는 철새는 우리 지역 생태계의 건강함을 상징하는 귀한 손님"이라며 "다만 외지에서 철원으로 넘어오며 바이러스 등 부정적인 영향을 줄 수 있는 부분에 대해서는 완벽한 방역이 필요하다"고 강조했다.
+    지난해 10월부터 지난 4월 17일까지 이어진 '고병원성 AI 특별방역 대책 기간' 철새도래지 야생조류에서 9건의 AI 바이러스가 검출됐으나 신속한 선제적 조치로 도내 가금 농장에는 단 한 건의 AI가 발생하지 않았다는 점도 덧붙였다.
+    그러면서 김 후보는 강원도의 생태적 가치를 보존하면서도 이를 지역 경제 활성화와 연결하는 스마트한 관광 모델을 구축하겠다고 약속했다.
+    그는 "도 전역의 산림과 해양, 생태 자원을 하나로 묶어 대한민국을 넘어 세계인이 찾는 글로벌 웰니스 관광 허브'로 도약시키겠다"며 "단순한 경관 관람을 넘어 치유와 휴식, 첨단 기술이 접목된 고부가가치 관광 콘텐츠를 육성해 도를 사계절 내내 활력이 넘치는 명품 관광지로 만들겠다"고 약속했다. 
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['평화지대' 공동협약 기자회견 참석한 우상호 후보]]></Title>
+         <Caption><![CDATA[[우상호 후보 선거캠프 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260423161400062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/23/AKR20260423161400062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원 철새도래지 찾은 김진태 후보]]></Title>
+         <Caption><![CDATA[[김진태 후보 선거캠프 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260423161400062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/23/AKR20260423161400062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

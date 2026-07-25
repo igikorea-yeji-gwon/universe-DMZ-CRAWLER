@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260205048200057</ContentID>
+      <SendDate>20260205</SendDate>
+      <SendTime>093848</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>4</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003006" name="울산"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0503007" name="사회교육"/>
+         <ClassCode code="0502003" name="기부봉사"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260205048200057]]></Href>
+      <Writer><![CDATA[장영은]]></Writer>
+      <Desk code="057"><![CDATA[울산취재본부]]></Desk>
+      <DeliCode>G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[울주군, 우수 평생학습동아리 모집…최대 150만원 지원]]></Title>
+      <Body><![CDATA[울주군, 우수 평생학습동아리 모집…최대 150만원 지원
+
+
+    (울산=연합뉴스) 장영은 기자 = 울산 울주군은 오는 11일부터 20일까지 '2026년 우수 평생학습동아리 지원사업' 참여 동아리를 모집한다고 5일 밝혔다. 
+    지원 대상은 성인 10명 이상으로 구성된 학습동아리로, 전체 구성원 중 80%가 군민(학습자)이어야 한다. 
+    신청을 원하는 동아리는 울주평생학습포털(www.ulju.ulsan.kr/lll/) 공지사항에서 서식을 내려받아 작성한 뒤 울주군청 교육체육과 평생교육팀을 방문해서 내면 된다.
+    울주군은 신청한 동아리를 대상으로 동아리 운영 적정성, 사업 계획의 구체성, 사회공헌활동 계획 등을 검토한 뒤 3월 울주평생학습포털에서 선정 결과를 발표할 예정이다. 
+    선정된 동아리는 강사비·교재비·재료비 등 직접경비를 동아리당 최대 150만원까지 지원받는다.
+    울주군 관계자는 "동아리 활동이 일회성 모임으로 끝나지 않고, 지역사회와 연결되는 배움으로 이어지도록 적극 지원하겠다"고 말했다. 
+    young@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[울주군 평생학습동아리 전문성 키운다]]></Title>
+         <Caption><![CDATA[(울산=연합뉴스) 12일 울산 울주군은 삼남읍 더엠컨벤션에서 '2025년 평생학습동아리 전문연수'를 진행했다. 울산 지방자치단체 가운데 평생학습동아리 전문연수를 하는 것은 울주군이 유일하다.2025.9.12 [울주군 제공.재판매 및 DB 금지] young@yna.co.kr]]></Caption>
+         <FileName>PYH2025091217840005700_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/09/12/PYH2025091217840005700_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260415089500371</ContentID>
+      <SendDate>20260415</SendDate>
+      <SendTime>114300</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="10"/>
+      <Class>
+         <ClassCode code="0108001" name="외교일반"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0101001" name="정치일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260415089500371]]></Href>
+      <Writer><![CDATA[강성철]]></Writer>
+      <Desk code="371"><![CDATA[동포.다문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[KF, 한-호 관계 증진 위해 호주 차세대 정치인 6명 초청]]></Title>
+      <Body><![CDATA[KF, 한-호 관계 증진 위해 호주 차세대 정치인 6명 초청
+
+
+
+    (서울=연합뉴스) 강성철 기자 = 한국국제교류재단(KF·이사장 송기도)은 오는 18∼24일 호주 정치권 차세대 인사 6명을 초청해 지한파를 양성하는 '2026 한-호 정치 차세대지도자 교류 방한 사업'을 시행한다고 15일 밝혔다. 
+    이 사업은 2010년 KF가 주최한 '한-호 대화' 공동성명의 후속 사업으로, KF가 호주정치교류위원회(AusPol)와 협력해 2011년부터 추진해 온 정례 교류 프로그램이다. 
+    양국의 차세대 정치인과 정치 분야 실무 인사가 격년으로 상호 방문해 양국의 정치 제도에 대한 이해를 높이고 정계 인적 네트워크를 구축하는 한편 외교 현안 및 사회·문화 전반에 대한 인식을 제고하고 있다. 
+    이번 방한에는 클라라 안드리치 서호주 의회 상원의원, 엘리자베스 리 호주수도준주 의회 의원, 조던 레인 뉴사우스웨일스 의회 하원의원 등 현직 의원 3명이 참가한다.
+    또 케이틀린 쿡 호주수도준주 노동당 사무총장, 애들레이드 키드슨 서호주 노동당 부사무총장, 킴 즈엉 호주 부총리 겸 국방부 장관실 선임보좌관 등 정당 및 정책 실무 인사도 함께한다. 
+    이들은 방한 기간 국회, 중앙선거관리위원회, 통일부, 행정중심복합도시건설청, 세종특별자치시 및 세종시의회, 아산정책연구원 등을 방문해 한국의 정치·행정·선거 제도와 주요 정책 현안에 대한 이해를 넓힌다. 
+    국회에서는 외교통일위원회 및 한호의원친선협회 소속 의원들과 면담을 갖고 양국 의회 간 교류·협력을 논의하며, 역대 한국 참가들과 간담회도 가진다. 
+    이밖에 산업현장과 비무장지대, 전쟁기념관, 고궁 등을 방문하며, 다도 등 전통문화를 체험하고 프로야구 경기도 관람한다.
+    KF 관계자는 "호주 차세대 정치 리더들이 한국의 정치·외교·안보·산업 전반에 대한 이해를 심화해서 양국 미래세대 간 협력을 확대하는 계기가 되길 기대한다"고 밝혔다. 
+    wakaru@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[KF, 호주 차세대 정치인 초청해 '지한파 양성']]></Title>
+         <Caption><![CDATA[[KF 제공]]]></Caption>
+         <FileName>AKR20260415089500371_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/15/AKR20260415089500371_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

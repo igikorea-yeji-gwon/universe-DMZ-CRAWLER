@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260408038900504</ContentID>
+      <SendDate>20260408</SendDate>
+      <SendTime>091729</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260408038900504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[통일부, 남북미중 '한반도 평화체제' 협상 방안 본격 연구]]></Title>
+      <Body><![CDATA[통일부, 남북미중 '한반도 평화체제' 협상 방안 본격 연구
+
+
+    (서울=연합뉴스) 하채림 기자 = 통일부가 현 한반도 정전체제를 '평화체제'로 전환하는 남·북·미·중 4자 협상 틀에 대한 연구에 본격 착수했다. 
+    8일 통일부에 따르면 남북회담본부는 전날 '한반도 평화체제 구축을 위한 4자 협상 시나리오 개발' 연구용역과제 공모에 들어갔다. 
+    통일부는 한반도 평화체제 구축을 위한 주요 쟁점과 각국 입장을 검토하고, 이를 바탕으로 협상 시나리오를 개발하며 시뮬레이션(피스게임)을 진행하기 위해 이번 연구용역을 추진한다고 소개했다. 
+    세부적으로는 정전협정, 유엔군사령부, 협정 당사자 문제, 북미 관계 정상화, 북핵과 군비통제 등 평화체제 협상과 관련한 주요 쟁점을 다루게 된다. 또 국가별 이해관계를 고려해 평화체제에 관한 각국의 입장도 분석한다. 
+    이러한 쟁점과 각국의 입장을 바탕으로 4자 회담을 가정한 협상 시나리오 3건을 개발하고 제안된 시나리오를 활용한 협상 시뮬레이션 진행 결과, 평가 및 정책제언도 담긴다. 
+    연구용역 결과는 11월 말 나올 예정이다. 
+    이번 연구용역은 평화체제 전환을 위해 유력한 프로세스로 꼽히는 남·북·미 중 4자 협상을 현실화하기 위한 방안을 모색하기 위한 것이다. 
+    특히 북한이 '적대적 두 국가론'에 따라 한국을 철저히 외면하고 있는 상황을 고려해 다자적 접근을 통해 한반도 긴장 완화와 평화 공존을 추진하겠다는 의지가 담겼다는 분석도 나온다.
+    앞서 이재명 대통령은 3·1절 기념사를 통해 "남북 간 실질적 긴장 완화와 유관국 협력을 통해 정전체제를 평화체제로 전환해 나갈 수 있도록 모든 노력을 다하겠다"고 밝힌 바 있다. 
+    정동영 통일부 장관도 지난달 국회 외교통일위원회에서 "한국전쟁 종식에 대한 정치적 의지를 반영한 평화선언을 추진하고, 이를 토대로 평화협정 체결 등 평화체체 논의에 착수할 것"이라고 말했다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[통일부 남북회담본부]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20191226000246990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2019/12/26/46/PCM20191226000246990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

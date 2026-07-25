@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260512149500504</ContentID>
+      <SendDate>20260512</SendDate>
+      <SendTime>164637</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+         <ClassCode code="1210004" name="축구"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260512149500504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[정동영, 남북축구경기 직관검토…"8년만 선수 방남 자체로 의미"]]></Title>
+      <SubTitle><![CDATA[이용훈 주교회의 의장 예방…"남북관계, 최악상태 벗어나고 있어"]]></SubTitle>
+      <Body><![CDATA[정동영, 남북축구경기 직관검토…"8년만 선수 방남 자체로 의미"
+이용훈 주교회의 의장 예방…"남북관계, 최악상태 벗어나고 있어"
+    
+
+    (서울=연합뉴스) 하채림 기자 = 정동영 통일부 장관은 수원에서 20일 열리는 수원FC위민과 북한 '내고향여자축구단'의 아시아축구연맹(AFC) 여자 챔피언스리그(AWCL) 경기 현장 관람을 검토하고 있다고 밝혔다.
+    정 장관은 12일 광진구 한국천주교중앙협의회에서 이용훈 한국천주교주교회의 의장을 예방한 자리에서 남북 여자 축구 경기장에 오느냐는 이 의장의 질문에 "여러 가지 검토하고 있다"고 답변했다. 
+    이어 "이번에, 수원에 평양(북한) 팀 오는 것이 거의 8년 만"이라며 "2018년 말 이후 일체 민간교류, 체육교류가 끊어졌는데, (선수단 방남) 그 자체만으로 의미가 있다"고 평가했다. 
+    내고향여자축구단은 17일 인천공항으로 도착해 20일 수원에서 수원FC위민과 4강 경기를 벌인다. 
+    북측 스포츠선수가 방남해 경기를 참가하는 것은 2018년 12월 국제탁구연맹(ITTF) 월드투어 그랜드파이널스 이후 7년 5개월 만이다.
+
+    남북관계 단절이 지속되는 데 대해 정 장관은 "아직도 앙금이 온전히 가시지 않았다"며 "무엇보다 신뢰가 무너져서, 불신을 말끔히 걷어내는 것이 중요하다"고 강조했다. 
+    그러면서도 "(남북관계가) 최악 상태를 벗어나고 있다"고 진단하고, "얼음을 하루아침에 녹일 수는 없겠지만 벌써 봄이고 여름인데 얼음도 녹을 때가 오리라 생각한다"고 기대했다. 
+    이 의장은 2027년 7월 열리는 가톨릭 세계청년대회(WYD) 계기에 방한하는 레오 14세 교황이 남북 분단 상황에 관심을 갖고 접경지역을 방문할 가능성이 있다며 정 장관의 협조를 당부했다. 
+    이에 정 장관은 정부의 지원과 뒷받침이 있을 것이라며 "교황께서 오시는 계기에 한반도의 불안정한 평화가 안정적인 평화로 진화·발전하길 기대한다. 교황께서 축복하고 다니시는 걸음마다 평화의 메시지가 널리 퍼져나가리라 생각한다"고 말했다. 
+    이에 앞서 정 장관은 한국천주교주교회의가 2024년 12월 계엄 이튿날 이 의장 명의로 비판 입장문을 발표, 혼란에 빠진 국민을 위로했다며 다시 한번 사의를 표했다.
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이용훈 주교와 인사하는 정동영 장관]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 최재구 기자 = 정동영 통일부 장관이 12일 서울 광진구 천주교중앙협의회에서 이용훈 한국천주교주교회의 의장을 예방하며 인사하고 있다. 2026.5.12 jjaeck9@yna.co.kr]]></Caption>
+         <FileName>PYH2026051214210001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/12/PYH2026051214210001300_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이용훈 주교 예방한 정동영 장관]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 최재구 기자 = 정동영 통일부 장관이 12일 서울 광진구 천주교중앙협의회에서 이용훈 한국천주교주교회의 의장을 예방하고 있다. 2026.5.12 jjaeck9@yna.co.kr]]></Caption>
+         <FileName>PYH2026051214410001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/12/PYH2026051214410001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

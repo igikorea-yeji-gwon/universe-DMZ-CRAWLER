@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260129070400060</ContentID>
+      <SendDate>20260129</SendDate>
+      <SendTime>104015</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0204003" name="부동개발"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260129070400060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['반환공여지 신속 개발'…파주시장, 국방장관에 지원 건의]]></Title>
+      <Body><![CDATA['반환공여지 신속 개발'…파주시장, 국방장관에 지원 건의
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시는 지난 28일 국방부에서 안규백 국방부 장관 주재로 열린 '경기북부 반환 공여지 개발 정부 지원방안 지방정부 의견 청취 간담회'에서 반환공여구역 개발을 위한 정부의 적극적인 지원을 요청했다고 29일 밝혔다.
+
+    이 간담회에서 김경일 파주시장은 "파주시의 미군 반환 공여지는 지난 70년간 국가 안보를 위해 활용되며 접경 지역에 기나긴 희생을 요구해 온 땅"이라며 "수십 년간 지역 개발을 가로막아온 땅을 이제는 지역 주민에게 돌려줘야 마땅하다"고 말했다. 
+    김 시장은 "미군 반환 공여지의 신속한 활용이 가능하도록 실질적인 지원에 나서달라"고 요청했다. 
+    이어 민간 사업자가 지정된 캠프 에드워즈·스탠턴·자이언트 반환 공여지의 경우 군사시설 보호구역 협의로 인허가 절차가 지연되고 있는 점을 들어 불필요한 규제 완화와 군 협의가 신속하게 이뤄져야 한다는 점을 강조했다.
+    아울러 김 시장은 "캠프 게리오웬 반환 공여지의 경우 정책 여론조사 결과 파주시민의 62%가 공원·녹지 조성을 희망하고 있다"면서 토지 매입비 최대 95% 정부 지원이 현실성 있게 추진될 수 있도록 검토해 달라고 건의하고, 민간인 통제선의 과감한 북상(최대 5km) 필요성을 제기하며 제도 개선을 요청했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['반환공여지 신속 개발'…파주시장, 국방장관에 지원 건의]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 경기 파주시는 지난 28일 국방부에서 안규백 국방부 장관(왼쪽) 주재로 열린 '경기북부 반환 공여지 개발 정부 지원방안 지방정부 의견 청취 간담회'에서 반환공여구역 개발을 위한 정부의 적극적인 지원을 요청했다고 29일 밝혔다. 오른쪽은 파주시장. 2026.1.29
+[파주시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260129070400060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/29/AKR20260129070400060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

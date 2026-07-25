@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260228029800009</ContentID>
+      <SendDate>20260228</SendDate>
+      <SendTime>113326</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260228029800009]]></Href>
+      <Writer><![CDATA[이도연]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우크라 드론 공격에 러시아도 5만명 정전…암흑속 단수·추위도]]></Title>
+      <Body><![CDATA[우크라 드론 공격에 러시아도 5만명 정전…암흑속 단수·추위도
+
+    
+
+    (서울=연합뉴스) 이도연 기자 = 우크라이나가 러시아의 에너지 시설을 공격하면서 접경지 벨고로드 곳곳에 정전이 발생하면서 약 5만명의 주민이 암흑 속에 추위에 떨었다.
+    27일(현지시간) 로이터통신 등에 따르면 이날 뱌체슬라프 글라드코프 벨고로드 주지사는 텔레그램을 통해 "에너지 시설에 심각한 손상이 발생했다"며 "전기, 수도, 난방 공급이 중단됐다"고 밝혔다.
+    글라드코프 주지사는 이들 가구 중 절반에는 이날 중 전력 공급이 재개될 것이라고 덧붙였다.
+    벨고로드 지역 당국은 우크라이나군이 지난 24시간 동안 드론 153대와 포탄 12발을 발사했다고 밝혔다.
+    러시아 현지 텔레그램 채널은 벨고로드 화력발전소 등 에너지 시설이 우크라이나의 공격을 받았다고 전했다.
+    우크라이나 당국은 이번 공격에 대해 입장을 내놓지 않았다. 
+    벨고로드는 지난 23일에도 우크라이나의 공격을 받아 전기와 수도, 난방이 중단됐다.
+    우크라이나 국경에서 40㎞ 거리인 벨고로드는 전쟁 이후 기습 드론·미사일 공격을 받아 사망자 485명이 나왔다.  
+    러시아는 수개월 동안 우크라이나의 에너지 인프라를 거의 매일 타격해왔다.
+    지난 22일에도 러시아가 미사일과 드론으로 키이우 일대 에너지 시설을 공격하면서 여러 지역에서 정전이 발생했다.
+    dylee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[지난 3일 정전으로 암흑 된 러시아 벨고로드]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스 자료사진]]]></Caption>
+         <FileName>AKR20260228029800009_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/28/AKR20260228029800009_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

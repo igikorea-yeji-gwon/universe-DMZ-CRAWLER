@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260418001300087</ContentID>
+      <SendDate>20260418</SendDate>
+      <SendTime>005700</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7105025" name="콜롬비아"/>
+         <RegionCode code="7105011" name="베네수"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001303" name="취재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260418001300087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[콜롬비아 대통령, 24일 베네수엘라서 로드리게스와 정상회담]]></Title>
+      <SubTitle><![CDATA[마두로 축출 후 베네수엘라 방문하는 첫 해외정상]]></SubTitle>
+      <Body><![CDATA[콜롬비아 대통령, 24일 베네수엘라서 로드리게스와 정상회담
+마두로 축출 후 베네수엘라 방문하는 첫 해외정상
+
+
+    (멕시코=연합뉴스) 송광호 특파원 = 구스타보 페트로 콜롬비아 대통령이 오는 24일(현지시간) 베네수엘라 수도 카라카스에서 델시 로드리게스 베네수엘라 임시대통령과 정상회담을 갖는다.
+    지난 1월 미군 작전으로 니콜라스 마두로 전 대통령이 축출된 이후 미국 에너지장관 등 고위 관계자가 방문한 적은 있지만, 해외 정상이 직접 카라카스를 찾는 것은 이번이 처음이다.
+    좌파 연대인 '진보진영 총결집회의' 참석차 스페인 바르셀로나를 방문 중인 페트로 대통령은 17일 스페인 국영방송 RTVE와의 인터뷰에서 로드리게스 임시대통령과의 정상회담을 위해 4월24일 카라카스를 방문할 예정이라고 밝혔다.
+    당초 두 정상은 지난달 양국 접경 지역인 콜롬비아 쿠쿠타에서 만날 예정이었으나, 베네수엘라 측이 보안 문제를 이유로 막판에 취소했다. 쿠쿠타 일대는 마약 밀매 조직과 좌익 게릴라의 본거지로, 콜롬비아는 그간 베네수엘라가 이들을 비호하고 있다고 비판해 왔다.
+    페트로 대통령은 로드리게스 측이 "보안 문제"를 거론했는데, 이는 "과도한 두려움"이었다고 생각한다고 말했다.
+    그러면서 "산이 무함마드에게 오지 않으면, 무함마드가 산으로 가야 한다"는 서구권 격언을 인용하며 "산(로드리게스)이 내게 오지 않으니 내가 산으로 가는 것"이라고 덧붙였다.
+    정상회담에선 국경 보안 정상화 문제와 베네수엘라 정치 전환기 대응 등 양국의 핵심 현안이 심도 있게 논의될 것이라고 콜롬비아 일간 엘티엠포는 전했다.
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[델시 로드리게스 베네수엘라 임시대통령(좌)과 구스타보 페트로 콜롬비아 대통령]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스]]]></Caption>
+         <FileName>AKR20260418001300087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/18/AKR20260418001300087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

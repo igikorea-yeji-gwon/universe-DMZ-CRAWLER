@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260515017700009</ContentID>
+      <SendDate>20260515</SendDate>
+      <SendTime>075146</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260515017700009]]></Href>
+      <Writer><![CDATA[김승욱]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[미중정상회담] 시진핑, 트럼프에 "이란 원유구입 계속할 것"]]></Title>
+      <SubTitle><![CDATA[CNN "中 민간 정유업체들, 이란에 수십억달러 쏟아부어"]]></SubTitle>
+      <Body><![CDATA[[미중정상회담] 시진핑, 트럼프에 "이란 원유구입 계속할 것"
+CNN "中 민간 정유업체들, 이란에 수십억달러 쏟아부어"
+
+
+
+    (서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 미국 대통령은 시진핑 중국 국가주석이 중국은 이란의 원유를 계속해서 구입하겠다는 입장을 자신에게 밝혔다고 전했다.
+    폭스뉴스는 14일(현지시간) 중국을 국빈 방문한 트럼프 대통령이 방중에 동행한 자사 앵커 션 해니티와의 인터뷰에서 "그(시 주석)는 중국이 이란에서 원유를 많이 사고 있으며 이를 계속하고 싶다는 뜻을 밝혔다"고 말했다고 보도했다.
+    폭스뉴스가 온라인을 통해 공개한 내용은 예고편으로, 자세한 내용은 미국 동부시간으로 14일 오후 9시(한국시간 15일 오전 10시) 전체 인터뷰가 방송돼야 알 수 있을 것으로 보인다.
+    트럼프 대통령의 이 같은 발언은 시 주석이 호르무즈 해협 개방에 도움을 줄 용의가 있고, 이란에 군사 장비를 주지 않겠다는 입장을 자신에게 밝혔다고 전하는 과정에서 나왔다.
+    트럼프 대통령은 "그(시 주석)은 호르무즈 해협이 개방되는 것을 보고 싶어 했다"며 "그래서 내가 '우리가 막은 게 아니라 이란이 막았고, 그래서 우리가 그들을 막은 것'이라고 답했다"고 말했다.
+    올해 2월 28일 전쟁이 시작되자 이란이 글로벌 원유의 20%가 지나는 무역로인 호르무즈 해협을 사실상 봉쇄하고, 미국이 이에 대응해 대(對)이란 해상봉쇄에 나선 것을 언급한 것으로 풀이된다.
+    한편 CNN 방송은 '티팟(teapot) 정유소'라 불리는 중국의 소규모 민간 정유업체들이 이란산 원유를 가공해 가솔린, 디젤, 석유화학 제품을 생산한다고 보도했다.
+    CNN은 "산둥성과 그 접경 지역의 항구, 파이프라인, 정유소들은 오래전부터 이란 경제에 수십억 달러를 쏟아부으며 미국의 압박에 맞서 테헤란이 버틸 수 있도록 돕고 있다"며 "(중국) 변두리의 이러한 활동들이 트럼프와 시진핑 사이의 협상 테이블 위로 끌어올려지고 있다"고 밝혔다.
+    ksw08@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[트럼프 미국 대통령(왼쪽)과 시진핑 중국 국가주석]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260514252901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/05/14/PAF20260514252901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

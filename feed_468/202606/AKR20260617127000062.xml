@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260617127000062</ContentID>
+      <SendDate>20260617</SendDate>
+      <SendTime>155551</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260617127000062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한기호 의원 "민통선 조정 환영…수년간 필요성 주장 결실"]]></Title>
+      <Body><![CDATA[한기호 의원 "민통선 조정 환영…수년간 필요성 주장 결실"
+
+
+    (춘천=연합뉴스) 양지웅 기자 = 17일 국방부가 민간인출입통제선(이하 민통선) 북상과 군사분계선(MDL) 이남 제한보호구역 최소화 등 군사 규제 완화 대책을 발표하자 민통선 북상 필요성을 꾸준히 제기한 국민의힘 한기호 의원이 환영했다.
+    한 의원은 수년간 국회 국방위원회와 예산결산특별위원회에서 민통선 북상의 필요성을 피력해왔으며, 지난해 7월 합동참모의장과 국방부 장관에게 민통선 북상의 필요성과 구체적인 기대효과를 담은 건의문을 보냈다.
+    이어 지난해 10월에는 민통선 설정 범위를 기존 10㎞에서 5㎞로 축소하는 '군사기지 및 군사시설 보호법'을 대표 발의하기도 했다.
+    민통선이 평균 6㎞로 북상하면 그동안 출입 통제와 개발 제한으로 극심한 불편을 겪어온 접경지역 주민들의 불편이 크게 해소될 전망이다.
+    특히 주민들의 실질적인 재산권 행사가 가능해지면서 지역경제 발전의 전환점이 될 것으로 기대된다.
+    한 의원은 "그동안 국가 안보를 위해 막대한 재산권 침해와 생활 불편을 감내해 온 접경지역 주민들을 위해 끈질기게 설득해 온 노력이 결실하게 돼 다행"이라며 "민통선 북상 조치가 주민들이 체감할 수 있는 실질적인 지역 발전으로 이어질 수 있도록 후속 조치 마련에도 힘쓰겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국민의힘 한기호 의원]]></Title>
+         <Caption><![CDATA[[한기호 의원실 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20230421000142062_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2023/04/21/42/PCM20230421000142062_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

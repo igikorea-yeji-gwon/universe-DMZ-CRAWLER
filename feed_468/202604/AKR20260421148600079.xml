@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260421148600079</ContentID>
+      <SendDate>20260421</SendDate>
+      <SendTime>170255</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260421148600079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘 국방 "헤즈볼라 무장해제에 외교·군사적 압박 총동원"]]></Title>
+      <Body><![CDATA[이스라엘 국방 "헤즈볼라 무장해제에 외교·군사적 압박 총동원"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 이스라엘 카츠 이스라엘 국방부 장관이 군사적 외교적 수단을 총동원해 반드시 헤즈볼라 무장 해제라는 목표를 달성하겠다고 강조했다.
+    카츠 장관은 21일(현지시간) 예루살렘 헤르츨 산에서 열린 전몰장병 명단 낭독 행사에 참석해 "레바논 작전의 최우선 목표는 군사적 조치와 외교적 수단을 결합해 헤즈볼라를 무장 해제하는 것"이라고 말했다.
+    그는 이어 "베냐민 네타냐후 총리와 나는 휴전 중일지라도 레바논에 주둔 중인 우리 군을 보호하기 위해 이스라엘군에 강력하게 행동하라고 지시했다"고 강조했다.
+    카츠 장관은 "북부 접경지 주민에게 안보를 되찾아주겠다는 우리의 임무는 명확하고 단호하다"며, 국경에서 30㎞가량 떨어진 리타니강 북쪽의 위협에 대해서도 작전을 수행할 것이라고 공언했다.
+    또 헤즈볼라 수장인 나임 카셈을 겨냥한 경고도 잊지 않았다.
+    카츠 장관은 이스라엘군의 폭격에 사망한 헤즈볼라의 전 수장 하산 나스랄라를 언급하며 "나스랄라와 마찬가지로 카셈도 레바논 내 시아파 공동체를 파괴하고 영토와 터전을 잃는 대가를 치르게 될 것"이라며 "카셈이 목숨으로 대가를 치를 때까지 이 공세는 계속될 것"이라고 강조했다.
+    이란의 지원을 받는 '저항의 축' 일원인 헤즈볼라는 미국과 이스라엘의 공습에 이란의 전 최고지도자 아야톨라 알리 하메네이가 죽자, 이란 편에서 참전을 선언하고 이스라엘을 공격했다.
+
+    이스라엘은 헤즈볼라에 대한 대응을 명분으로 레바논 남부는 물론 수도 베이루트에까지 대대적인 공습을 가했다.
+    또 이스라엘은 국경에서 리타니강 남쪽까지 약 30㎞ 구간에서 헤즈볼라를 완전히 몰아내고 완충지대를 구축하겠다는 계획하에 레바논 남부에 지상군 병력을 대거 투입했다.
+    이스라엘은 레바논을 휴전에 포함해야 한다는 이란의 주장을 수용한 도널드 트럼프 미국 대통령의 압박을 받고 지난 18일부터 열흘간의 휴전에 들어갔다. 그러나 레바논 남부에 주둔 중인 지상군 병력은 철수하지 않았다.
+    지난 14일 33년 만에 대사급 직접 접촉을 시작한 이스라엘과 레바논은 오는 23일 워싱턴에서 미국의 중재로 마주 앉아 평화 협정 체결 및 헤즈볼라 무장해제 등을 논의할 예정이다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘 카츠 이스라엘 국방부 장관]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260421148600079_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/21/AKR20260421148600079_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 국경 인근에서 순찰중인 이스라엘군 병사들]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260421148600079_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/21/AKR20260421148600079_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

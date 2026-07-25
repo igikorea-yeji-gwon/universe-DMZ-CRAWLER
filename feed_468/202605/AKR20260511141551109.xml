@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260511141551109</ContentID>
+      <SendDate>20260511</SendDate>
+      <SendTime>203949</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7104002" name="미국"/>
+         <RegionCode code="7103036" name="우크"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260511141551109]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[러·우크라, 또 휴전 공방…합의 위반 '네탓'(종합)]]></Title>
+      <SubTitle><![CDATA[러 "우크라가 2만3천여건 어겨"
+젤렌스키 "러 자폭드론 공격 1만건 달해"]]></SubTitle>
+      <Body><![CDATA[러·우크라, 또 휴전 공방…합의 위반 '네탓'(종합)
+러 "우크라가 2만3천여건 어겨"
+젤렌스키 "러 자폭드론 공격 1만건 달해"
+
+
+    (로마·이스탄불=연합뉴스) 민경락 김동호 특파원 = 러시아와 우크라이나가 도널드 트럼프 미국 대통령의 중재로 성사된 휴전 기간에 서로 상대방이 합의를 위반했다며 공방을 벌이고 있다. 
+    러시아 국방부는 11일(현지시간) 성명을 내고 휴전이 시작된 지난 9일 0시부터 이날까지 '특별군사작전' 구역 내에서 우크라이나군의 휴전 위반 사례가 총 2만3천802건 기록됐다고 밝혔다.
+    지난 하루 동안 우크라이나군이 러시아군 진지를 향해 다연장로켓시스템, 야포, 박격포 등을 12차례에 걸쳐 767발 쏘았으며, 무인항공기(UAV·드론)를 동원한 공습은 6천905차례 있었다고 러시아 국방부는 주장했다.
+    러시아 국방부는 또 우크라이나 접경지인 러시아 서부 벨고로드 지역의 민간 표적을 향해 드론 18기가 날아들어 주민 2명이 다치는 등 피해가 발생했다고도 했다.
+    러시아 국방부는 "우크라이나군의 공격에 대응해 러시아군이 다연장로켓 진지와 야포, 박격포 등을 공격했고 지휘소와 드론 발사대도 타격했다"고 설명했다.
+
+    반면 우크라이나는 러시아가 최전방에서 자폭 드론 등 공격을 계속했다고 지적했다. 
+    우크라이나 일간 키이우인디펜던트에 따르면 볼로디미르 젤렌스키 우크라이나 대통령은 전날 저녁 연설에서 "러시아군은 전선에서 어떤 휴전도 지키지 않았고 노력조차 하지 않고 있다"고 밝혔다.
+    젤렌스키 대통령은 지난 하루 후방 도심을 겨냥한 대규모 드론·미사일 공격은 없었지만 전선에서는 러시아군의 공격이 150건 이상 감행됐다고 말했다. 구체적으로 자폭 드론 공격이 거의 1만건에 달했고 포격도 100건이 넘었다고 주장했다.
+    젤렌스키 대통령은 "우크라이나의 모든 부대는 러시아에 상응하는 방식으로 대응할 것"이라고 말했다. 휴전에 열려있지만 러시아가 공격하면 언제든 반격에 나설 것이라는 뜻으로 풀이된다.
+    양측은 도널드 트럼프 미국 대통령의 중재로 러시아의 제2차 세계대전 승리 기념일(전승절)을 맞아 9∼11일 3일간 휴전을 합의한 상태다.
+    앞서 지난 4일 러시아가 우크라이나와 합의 없이 전승절(5월 9일)을 맞아 8∼9일 휴전을 선포하자 우크라이나도 일방적으로 6일 0시부터 휴전을 선언했고 양측은 서로 휴전을 인정할 수 없다며 공격을 주고받았다.
+    러시아 측은 이번 휴전 연장은 없다고 이미 선을 그은 상태다.
+    미국이 중재하는 양측의 종전 협상은 중동 사태로 사실상 멈춰선 상태다. 마코 루비오 미국 국무장관은 지난 8일 러·우 전쟁과 관련해 "중재 역할을 할 준비는 돼 있다"면서도 "노력이 진전되지 않는다면 시간을 낭비하고 싶지 않다"고 말했다.
+    rock@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[드론 날리는 우크라이나군. 기사와 상관없는 자료사진입니다.]]></Title>
+         <Caption><![CDATA[[우크라이나군 24기계화여단 제공/EPA=연합뉴스 자료사진]]]></Caption>
+         <FileName>PEP20260107168001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/01/07/PEP20260107168001009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[볼로디미르 젤렌스키 우크라이나 대통령]]></Title>
+         <Caption><![CDATA[[로이터 연합뉴스 자료사진. 재배포 및 DB 금지]]]></Caption>
+         <FileName>PRU20260511226601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/05/11/PRU20260511226601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

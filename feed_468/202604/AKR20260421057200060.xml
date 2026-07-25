@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260421057200060</ContentID>
+      <SendDate>20260421</SendDate>
+      <SendTime>100152</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0402003" name="임업"/>
+         <ClassCode code="0505007" name="식물"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260421057200060]]></Href>
+      <Writer><![CDATA[김도윤]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['벚꽃 엔딩' 제주에서 강원 양구까지 완성]]></Title>
+      <Body><![CDATA['벚꽃 엔딩' 제주에서 강원 양구까지 완성
+
+
+    (포천=연합뉴스) 김도윤 기자 = 산림청 국립수목원은 국내 최북단 식물원인 국립DMZ자생식물원에 '제주왕벚나무'가 만개했다고 21일 밝혔다.
+    강원 양구군 해안면 해발 680ｍ에 위치한 이 식물원은 기온이 낮아 다른 지역보다 벚꽃이 늦게 핀다.
+    이로써 제주에서 시작돼 양구를 끝으로 '벚꽃 엔딩'이 완성됐다고 국립수목원은 설명했다.
+    이번에 만개한 벚나무는 2021년 제주 한라생태숲에서 분양받아 심은 개체다.
+    국립수목원 관계자는 "국내 최남단 특산수종이 최북단 환경에 적응한 상징적인 사례"라고 말했다.
+
+    kyoon@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[최북단 식물원에 만개한 제주왕벚나무]]></Title>
+         <Caption><![CDATA[[국립수목원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260421057200060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/21/AKR20260421057200060_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="">
+         <Title><![CDATA[최북단 식물원에 벚꽃 만개]]></Title>
+         <Href><![CDATA[http://cdnvod.yonhapnews.co.kr/yonhapnewsvod/202604/MCM20260421000012060_700M1.mp4]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

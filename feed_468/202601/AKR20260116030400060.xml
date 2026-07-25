@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260116030400060</ContentID>
+      <SendDate>20260116</SendDate>
+      <SendTime>084914</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0502003" name="기부봉사"/>
+         <ClassCode code="0507001" name="의료일반"/>
+         <ClassCode code="0109003" name="육군"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260116030400060]]></Href>
+      <Writer><![CDATA[임병식]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[픽! 파주] 육군 1사단 새해맞이 민통선 마을 의료 봉사]]></Title>
+      <Body><![CDATA[[픽! 파주] 육군 1사단 새해맞이 민통선 마을 의료 봉사
+
+    (파주=연합뉴스) 육군 1사단은 새해를 맞아 지난 15일 경기 파주시 민간인통제선 이북 지역에서 마을 주민 대상 의료 봉사를 실시했다고 16일 밝혔다.
+
+
+
+    1사단 의무대대는 지난해부터 '민북지역 찾아가는 의료봉사'라는 이름으로 매월 정기적으로 민통선 마을을 방문해 한방 및 물리치료, 구강검진 등 의료지원을 펼치고 있다.
+    이날 민통선 내 통일촌과 해마루촌뿐만 아니라 비무장지대(DMZ) 안에 위치한 대성동 마을 주민들도 파주시 군내면 통일촌 경로당에 모여 50건의 의료지원을 받으면서 지난해부터 총 512건의 의료지원이 이뤄졌다.
+    의무대대장 박채연 중령은 "주로 농업에 종사하고 고령인 마을 주민들의 특성을 고려해 의료봉사를 진행하고 있다"고 설명했다.
+
+    이완배 통일촌 이장은 "민북지역에는 의료 서비스를 제대로 받을 수 있는 마땅한 시설이 없어 주민들이 어려움이 많다"며 "1사단 의무대대가 정기적으로 찾아와 주민들의 만족도가 높다"고 말했다.
+    군은 의료 봉사뿐만 아니라 음주 및 비만 등 생활습관형 질환 예방을 위한 교육과 상담을 추가할 예정이다.
+    현재 파주 민통선 안에는 1953년 정전협정에 따라 DMZ 안에 조성된 대성동과 1972년 민통선 북방지역 개발정책으로 탄생한 통일촌, 2001년 장단군 실향민들을 위해 조성한 해마루촌 등 총 3곳의 민간인 마을이 자리하고 있다. (글 = 임병식 기자, 사진 = 육군 1사단 제공)
+    andphotodo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[육군 1사단 새해맞이 민통선 마을 의료 봉사]]></Title>
+         <Caption><![CDATA[민통선 마을 주민이 혈압을 측정하고 있는 모습. 2026.1.15 [육군 1사단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260116030400060_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/16/AKR20260116030400060_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[육군 1사단 새해 맞이 민통선 마을 의료 봉사]]></Title>
+         <Caption><![CDATA[민통선 마을 주민 구강보건상담. 2026.1.15 [육군 1사단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260116030400060_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/16/AKR20260116030400060_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[육군 1사단 새해맞이 민통선 마을 의료 봉사]]></Title>
+         <Caption><![CDATA[진료 접수하는 민통선 마을 주민. 2026.1.15 [육군 1사단 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260116030400060_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/16/AKR20260116030400060_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

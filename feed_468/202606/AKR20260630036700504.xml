@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260630036700504</ContentID>
+      <SendDate>20260630</SendDate>
+      <SendTime>092759</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1008001" name="북한일반"/>
+         <ClassCode code="1007005" name="대북정책"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260630036700504]]></Href>
+      <Writer><![CDATA[이은정]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["'전 세계 2대' 美전략정찰기 '컴뱃센트', 한국에 30시간 체류"]]></Title>
+      <SubTitle><![CDATA["하루 이상 체류 정황 공개는 이례적"]]></SubTitle>
+      <Body><![CDATA["'전 세계 2대' 美전략정찰기 '컴뱃센트', 한국에 30시간 체류"
+"하루 이상 체류 정황 공개는 이례적"
+
+
+    (서울=연합뉴스) 이은정 기자 = 미국 공군이 단 2대만 보유한 전략정찰기 RC-135U '컴뱃센트'가 한국에 약 30시간 머문 뒤 일본 오키나와로 이동한 것으로 확인됐다.
+    항공기 추적 웹사이트 '플라이트레이더24'에 따르면, 컴뱃센트는 지난 26일 오전 7시 53분 한국 남해상을 거쳐 한반도에 진입했다고 미국의소리(VOA) 방송이 30일 보도했다.
+    이후 오전 8시 14분 경기도 수원 인근에서 포착됐고, 곧 위치 신호가 사라졌다.
+    컴뱃센트는 약 30시간 뒤인 27일 오후 2시 48분 경기도 오산 인근에서 항적이 나타났으며 같은 날 오후 5시께 일본 오키나와 가데나 미 공군기지에 착륙한 것으로 확인됐다. 
+    VOA는 미 전략정찰기가 한국에서 하루 이상 체류한 정황이 공개된 것은 이례적이라고 평가했다. 다만, 위치 신호가 사라졌던 때 지상에 머물렀는지 추가 비행을 했는지는 확인되지 않았다. 
+    컴뱃센트는 미 공군이 운용하는 특수 전자정보 정찰기로 수백km 밖에서도 지상 레이더와 군 통신, 각종 전자신호를 수집·분석할 수 있으며 미사일 발사 준비 과정과 탄도미사일 비행 특성 등을 탐지한다. 전 세계에 단 2대만 운용되는 것으로 알려진다.
+    컴뱃센트는 통상 1년에 2~3차례 한반도에서 포착되는데, 그동안 군사분계선(MDL) 일대와 동·서해 상공을 비행한 뒤 수 시간 안에 오키나와 등으로 복귀하는 항적이 대부분이었다고 VOA는 전했다. 
+    북한은 미군 전략정찰기의 활동에 민감하게 반응해왔다. 지난 2024년 조선중앙통신은 논평을 통해 컴뱃센트의 한반도 전개를 비난한 바 있다. 
+    ask@yna.co.kr
+[https://youtu.be/m6Kwak5iNKo]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[미군 정찰기, 북한 순항미사일 발사 후 잇따라 한반도 출동]]></Title>
+         <Caption><![CDATA[<<기사 내용과 관련 없음>>]]></Caption>
+         <FileName>PYH2020041507340050400_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2020/04/15/PYH2020041507340050400_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260430059400062</ContentID>
+      <SendDate>20260430</SendDate>
+      <SendTime>101232</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260430059400062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[철원군, 농어촌기본소득 시범사업 추가 공모 도전]]></Title>
+      <SubTitle><![CDATA[군민 1명당 연 180만원을 철원사랑상품권으로 지급]]></SubTitle>
+      <Body><![CDATA[철원군, 농어촌기본소득 시범사업 추가 공모 도전
+군민 1명당 연 180만원을 철원사랑상품권으로 지급
+
+
+    (철원=연합뉴스) 양지웅 기자 = 강원 철원군은 농림축산식품부의 2026년 농어촌기본소득 시범사업 공모 선정에 총력을 기울이고 있다고 30일 밝혔다.
+    이는 올해 7월부터 내년 12월까지 1년 6개월간 추진하는 시업으로, 군민 1명당 연 180만원을 철원사랑상품권으로 지급하는 방식으로 운영된다.
+    총사업비는 1천74억원 규모로 국비 40%, 도비 30%, 군비 30%가 투입된다.
+    군은 주민 3만9천804명 전체를 대상으로 하는 이번 사업이 지역경제에 미칠 파급효과가 클 것으로 내다봤다.
+    철원군은 접경지역이자 농어촌 인구감소지역으로서 지역경제 침체와 인구 유출, 공동체 약화라는 구조적 어려움에 직면해 있다.
+    군은 기본소득 도입이 지역 내 소비 진작과 소상공인 매출 확대, 주민 생활 안정에 실질적인 도움을 줌과 동시에 열악한 군 재정 여건 속에서도 국·도비 753억원이 지역 상품권으로 순환되면, 지역경제 활성화에 큰 효과가 있을 것으로 예측했다.
+    또 경기 포천과 의정부 서울 강북지역 등 수도권 인구 유입을 유도해 강원 북부권의 균형발전을 이끌고, 농어촌기본소득을 시행 중인 인근 지역으로의 인구 유출을 방지하는 효과를 기대했다.
+    아울러 귀농·귀촌 정책과의 연계 효과도 기대하고 있다. 안정적인 기본소득 기반은 새로운 정착 수요를 끌어들이는 요인이 될 수 있고, 정주 여건 개선과 맞물려 농촌 인구 유입 정책의 실효성을 높일 수 있을 것으로 분석이다. 
+    이현종 군수는 "농어촌기본소득은 군민의 삶을 지키고 지역경제에 활력을 불어넣는 중요한 투자"라며 "철원군이 반드시 시범사업 대상지로 선정될 수 있도록 모든 행정 역량을 집중하겠다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[철원군청]]></Title>
+         <Caption><![CDATA[[철원군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240530000005990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/05/30/05/PCM20240530000005990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

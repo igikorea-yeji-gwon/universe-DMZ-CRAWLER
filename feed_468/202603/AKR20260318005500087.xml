@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260318005500087</ContentID>
+      <SendDate>20260318</SendDate>
+      <SendTime>045055</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7105018" name="에콰"/>
+         <RegionCode code="7105025" name="콜롬비아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260318005500087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[관세 이어 '폭격 논란'까지…에콰도르·콜롬비아 갈등 격화]]></Title>
+      <SubTitle><![CDATA[영토침범 vs 작전수행…양국 책임 공방 놓고 '으르렁']]></SubTitle>
+      <Body><![CDATA[관세 이어 '폭격 논란'까지…에콰도르·콜롬비아 갈등 격화
+영토침범 vs 작전수행…양국 책임 공방 놓고 '으르렁' 
+
+
+    
+    (멕시코시티=연합뉴스) 송광호 특파원 = 미국의 지원 속에 마약 카르텔과의 전쟁에 나선 에콰도르가 이웃 국가 콜롬비아와 분쟁에 휩싸였다. 국경지대 폭격에 따른 영토 침범 논란이 불거지면서다. 
+    구스타보 페트로 콜롬비아 대통령은 17일(현지시간) 엑스(X·옛 트위터)를 통해 에콰도르와의 접경지대에서 발생한 폭격으로 27구의 시신이 발견됐다고 밝혔다. 그러면서 "나는 그런(폭격) 명령을 내린 적이 없다"며 "이번 폭격은 콜롬비아군에 의해 수행된 게 아니다"고 덧붙였다.
+    페트로 대통령은 전날 밤 에콰도르 측에서 폭탄을 투하한 것 아니냐는 취지의 발언을 하면서 "우리는 전쟁을 원하지 않는다"고 했는데, 이날 이런 입장을 재차 강조한 것이다.
+    에콰도르 측은 적극 반박했다. 다니엘 노보아 대통령은 엑스에 올린 글을 통해 "페트로 대통령, 당신의 주장은 거짓"이라며 "우리는 당신의 영토가 아닌 우리 영토 내에서 작전을 수행하고 있다"고 주장했다.
+    그는 폭격 지점들이 마약 테러와 연루된 집단들의 은신처로 사용됐고, 이곳에 은둔한 대부분이 콜롬비아인이라고 밝히면서 "에콰도르를 정화하고 재건하는 일을 계속해 나갈 것"이라고 덧붙였다.
+
+    도널드 트럼프 미국 대통령이 마약 카르텔 소탕을 천명한 '미주 방패 회의'에 참석한 후 에콰도르는 카르텔과의 전쟁에 박차를 가하고 있다. 정부는 약 7만5천 명의 군경을 투입하고 통행금지를 시행하는 등 강경 대응에 나섰으며 이 과정에서 250여 명을 검거하고, 페루 접경 지역의 불법 광산 캠프 129곳을 급습했다.
+    전 세계 코카인의 70%를 생산하는 콜롬비아와 페루 사이에 끼어 있는 에콰도르는 최근 수년간 영향력 확장에 나선 카르텔들의 활동 무대로 변했다. 특히 코카인의 주요 루트가 된 해안 도시와 콜롬비아 국경 지역 도시를 중심으로 폭력 집단 간 충돌과 테러 사건이 빈발하고 있다. 
+    에콰도르는 콜롬비아 정부가 양국 국경지대에서 활동하는 마약 카르텔을 막기 위해 충분한 노력을 기울이지 않는다고 비판하며 지난달 콜롬비아산 수입품에 대한 관세를 기존 30%에서 50%로 높였다. 콜롬비아도 이에 대한 보복으로 에콰도르산 수입품에 대해 관세율을 50%로 인상했다.
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜롬비아 구스타보 페트로 대통령(좌)과 다니엘 노보아 에콰도르 대통령(우)]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스]]]></Caption>
+         <FileName>AKR20260318005500087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/18/AKR20260318005500087_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[카르텔과의 전쟁 중인 에콰도르군]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스]]]></Caption>
+         <FileName>AKR20260318005500087_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/18/AKR20260318005500087_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

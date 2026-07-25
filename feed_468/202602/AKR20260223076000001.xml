@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260223076000001</ContentID>
+      <SendDate>20260223</SendDate>
+      <SendTime>114620</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0109012" name="군사훈련"/>
+         <ClassCode code="0104029" name="국민의힘"/>
+         <ClassCode code="0108003" name="한미외교"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260223076000001]]></Href>
+      <Writer><![CDATA[박수윤]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국힘, 한미 FS연습 발표 연기 보도에 "동맹 흔들려선 안돼"]]></Title>
+      <Body><![CDATA[국힘, 한미 FS연습 발표 연기 보도에 "동맹 흔들려선 안돼"
+
+
+
+    
+    (서울=연합뉴스) 박수윤 기자 = 국민의힘은 한미 군 당국이 오는 25일로 예정했던 '자유의 방패'(FS·Freedom Shield) 연습 계획 발표 일정을 연기했다는 보도가 나오자 "한미 동맹은 어떠한 상황에서도 흔들려서는 안 된다"고 23일 밝혔다.
+    박성훈 수석대변인은 이날 논평에서 "보도에 따르면 한미 연합 연습 '자유의 방패' 실시 계획 발표가 연기된 것으로 알려졌다"며 "훈련 방식과 규모를 둘러싸고 한미 간 이견이 노출된 것으로 전해지며 국민의 우려가 깊어지고 있다"고 말했다.
+    박 수석대변인은 "최근 우리 정부의 비무장지대(DMZ) 개방 요구와 9·19 군사합의 복원 추진 등 한미 간의 이견과 갈등으로 비칠 수 있는 사안이 연이어 불거지는 상황에서 이번 훈련 (발표) 연기는 예사롭지 않다"고 지적했다.
+    이어 "진정한 평화는 압도적인 억제력과 동맹 간의 굳건한 신뢰 위에서만 가능하다"며 "무리한 훈련 축소 논란을 즉각 해소하고, 한미 동맹을 바탕으로 한 연합방위 태세를 조속히 정상화해야 한다"고 요구했다.
+    조용술 대변인 역시 논평을 통해 "정권이 남북 간 '묻지마 평화' 분위기 조성을 이유로 연합훈련 축소에 무게를 두는 모습은 안보 공백 우려를 키운다"며 "사전에 협의된 동맹국과의 군사 연습에 일방적인 계획 변경을 요구하는 것은 국가 간 신뢰를 훼손하는 행위"라고 비판했다.
+    최은석 원내수석대변인도 논평을 내고 "한미일 협력의 새 시대를 선언한 지 3년도 채 지나지 않았는데, 이재명 정부 출범 몇 달 만에 협력의 기반이 흔들린다는 우려가 커지고 있다"고 말했다.
+    그러면서 "훈련 축소 요청, 일방적 일정 변경, 한미일 공중 연합훈련에서의 일본 배제 시도까지 한미일 안보 협력의 큰 흐름에서 이탈하는 신호가 이어지고 있다"며 "정부는 안보 라인의 인식을 전면 재점검하고, 한미일 협력을 훼손하는 모든 행태를 즉각 중단해야 한다"고 주문했다.
+    clap@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[한미연합 전투지휘훈련]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 제17보병사단이 2025년 FS/TIGER의 일환으로 인천 일대 및 경기 파주 무건리훈련장에서 '한미연합 전투지휘훈련'을 실시했다고 19일 밝혔다. 사진은 공중기동훈련에 참가한 17사단 장병들이 미2사단/한미연합사단 소속 치누크(CH-47)에 탑승하고 있는 모습. 2025.3.19 [육군 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2025031917240001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2025/03/19/PYH2025031917240001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

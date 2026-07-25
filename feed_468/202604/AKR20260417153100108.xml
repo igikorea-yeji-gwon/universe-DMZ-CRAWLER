@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260417153100108</ContentID>
+      <SendDate>20260417</SendDate>
+      <SendTime>194255</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107017" name="튀르키예"/>
+         <RegionCode code="7107005" name="시리아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260417153100108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[시리아 대통령 "튀르키예와 자유무역지대 조성 추진"]]></Title>
+      <Body><![CDATA[시리아 대통령 "튀르키예와 자유무역지대 조성 추진"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 아메드 알샤라 시리아 임시대통령은 튀르키예와 함께 자유무역지대 조성을 추진하고 있다고 17일(현지시간) 밝혔다.
+    이날 개막한 안탈리아외교포럼(ADF) 참석차 튀르키예를 방문 중인 알샤라 대통령은 아나돌루 통신 인터뷰에서 시리아 북서부의 튀르키예 접경지인 이들리브 지역의 산업 협력을 위해 이같은 사업을 논의하고 있다고 말했다.
+    알샤라 대통령은 "동서양을 잇는 가교 역할을 하는 튀르키예와 시리아의 지역 연결성은 큰 잠재력이 있다"고 강조했다.
+    특히 이들리브는 라타키아, 알레포 등 시리아 주요 도시를 거쳐 수도 다마스쿠스까지 이어지는 도로망에서 전략적으로 중요한 위치라는 설명이다.
+    알샤라 대통령은 주요 기반시설, 공항 확장과 항만 투자 등 재건 사업에서도 튀르키예 기업들이 참여하고 있다고 언급했다.
+    시리아의 이슬람 반군 하야트타흐리르알샴(HTS) 수장이었던 알샤라 대통령은 2024년 12월 튀르키예가 지원하는 무장세력의 도움으로 바샤르 알아사드 독재정권을 축출해 정권을 잡은 뒤 튀르키예와 다방면에서 밀착하고 있다.
+    HTS가 수년간 장악했던 이들리브는 알샤라 대통령의 정치적 기반이기도 하다.
+    알샤라 대통령은 최근 발발한 미국·이스라엘과 이란의 전쟁으로 글로벌 에너지 위기가 확산하는 가운데 시리아의 지정학적 중요성이 더 대두되고 있다며 "시리아는 에너지 공급에 있어 안전한 통로라는 대안이 될 수 있다"고 주장했다.
+    튀르키예에서 시리아와 요르단을 통해 페르시아만(걸프 해역)으로 연결되는 공급망이 구축되고 있으며 최근 합의를 통해 이라크산 석유가 시리아 항구로 수출되기 시작했다는 것이다.
+    알샤라 대통령은 카스피해, 지중해, 홍해, 페르시아만 등 4개 수역을 연결하는 '4대양 프로젝트'를 언급하며 시리아와 튀르키예의 중요성을 거듭 강조했다.
+    알샤라 대통령은 시리아가 이스라엘과 안보협졍을 추진하는 것과 관련해선 "진지하게 임하고 있다"면서도 "협상이 교착에 빠진 것은 아니지만 이스라엘이 시리아 영토 주둔을 유지하겠다고 버티는 것이 문제"라고 지적했다.
+    또 최근 이스라엘이 레바논 남부에서 벌인 강도높은 지상전을 언급하며 "남부 시리아의 연결 문제와 관련해서는 물론 지역 전체로 봐서도 위협"이라고 비판했다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[아메드 알샤라 시리아 임시대통령]]></Title>
+         <Caption><![CDATA[[로이터 연합뉴스 자료사진 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260330291101009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/03/30/PRU20260330291101009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260325165100082</ContentID>
+      <SendDate>20260325</SendDate>
+      <SendTime>183637</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103008" name="라트비아"/>
+         <RegionCode code="7103033" name="에스토니"/>
+         <RegionCode code="7103012" name="리투아니"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260325165100082]]></Href>
+      <Writer><![CDATA[김계연]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[전자전에 길잃은 드론…발트3국 영공침범 잇따라]]></Title>
+      <Body><![CDATA[전자전에 길잃은 드론…발트3국 영공침범 잇따라
+
+
+    (베를린=연합뉴스) 김계연 특파원 = 러시아와 우크라이나가 전쟁 중 날린 걸로 추정되는 드론이 발트해 연안 3국 영공을 잇따라 넘어갔다.
+    에스토니아 매체 ERR 등에 따르면 25일 오전 3시43분께(현지시간) 러시아 쪽에서 에스토니아로 넘어간 드론이 접경지역 이다비루의 아우베레 발전소 굴뚝을 들이받았다.
+    인명피해나 발전시설 손상은 없었다. 그러나 당국이 자세한 위치를 알리지 않은 채 '드론을 목격하면 대피하고 112로 신고하라'는 내용의 휴대전화 메시지를 뿌려 문의전화가 폭주했다고 ERR은 전했다.
+    아스트리드 아시 에스토니아 검찰청장은 경위를 조사 중이라며 "현재까지 정보로는 에스토니아를 직접 겨냥한 게 아니다"라고 말했다.
+    라트비아에서도 이날 오전 2시19분께 영공을 넘어온 비행물체가 군 레이더에 탐지됐다. 이 드론은 약 10분 뒤 벨라루스와 국경 근처 마을 크라슬라바에서 폭발했다. 에길스 레슈친스키스 라트비아군 합동참모차장은 TV에 출연해 "방공부대가 잠을 이루지 못했다"고 말했다. 
+    이들 드론은 우크라이나의 러시아 석유수출 기지 공습 과정에서 경로를 벗어난 것으로 당국은 추정했다. 우크라이나는 러시아의 전쟁 돈줄을 끊겠다며 발트해 연안에 있는 러시아 우스트루가항과 프리모르스크항을 집중 공격하고 있다.
+    지난 23일 오전 3시께는 리투아니아 남부 바레나의 라비사스 호수에 드론이 추락했다. 이 호수는 벨라루스 국경에서 약 15㎞, 우크라이나에서는 200㎞ 이상 떨어져 있다. 리투아니아 당국은 러시아 프리모르스크항을 겨냥해 날린 우크라이나 드론으로 확인했다.
+    러시아와 우크라이나는 서로 하루 수백 대씩 드론을 날리고 있다. 이 과정에서 전파 교란 등으로 경로를 이탈한 드론이 다른 나라 영공을 넘어가는 일이 종종 있다.
+    유럽은 지난해 9월 폴란드군이 러시아 쪽에서 영공을 침범한 드론 여러 대를 격추한 뒤 한동안 드론 공포에 시달렸다. 당시 폴란드를 비롯한 유럽 상당수 국가는 러시아의 도발 또는 대비태세 떠보기로 간주했다. 반면 러시아에서는 우크라이나가 북대서양조약기구(NATO·나토)를 전쟁에 끌어들이기 위해 벌인 자작극이라는 주장이 제기됐다.
+    러시아는 진상규명을 위한 공동조사를 제안했으나 폴란드가 거부했다. 폴란드 당국은 수거한 드론 잔해를 분석해 내달 자체조사 결과를 발표할 예정이다.
+    dada@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[우크라이나 드론 조종사]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20260324031601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/03/24/PEP20260324031601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

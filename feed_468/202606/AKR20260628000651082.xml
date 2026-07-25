@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260628000651082</ContentID>
+      <SendDate>20260628</SendDate>
+      <SendTime>023856</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103001" name="유럽"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260628000651082]]></Href>
+      <Writer><![CDATA[김계연]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['오메가 열돔' 북유럽까지…덴마크 역대 최고 37도(종합)]]></Title>
+      <SubTitle><![CDATA[독일 41.5도, 체코 40.6도, 스위스 39.0도]]></SubTitle>
+      <Body><![CDATA['오메가 열돔' 북유럽까지…덴마크 역대 최고 37도(종합)
+독일 41.5도, 체코 40.6도, 스위스 39.0도
+
+
+
+    (베를린=연합뉴스) 김계연 특파원 = 유럽을 휩쓸고 있는 폭염으로 북유럽 덴마크까지 여러 나라가 역대 최고기온 기록을 새로 쓰고 있다.
+    덴마크 기상청은 27일(현지시간) 핀섬에 있는 오덴세의 기온이 36.6도로 측정돼 1874년 관측을 시작한 이래 연중 최고기온 기록을 세웠다고 밝혔다. 기존 덴마크 최고기온은 1975년 8월 관측된 36.4도였다.
+    이 기록은 유틀란트반도 동쪽 도시 외둠 기온이 37.0도로 측정돼 1시간 만에 깨졌다.
+    체코는 북서부 독사니에서 수은주가 40.6도까지 올라 2012년 관측된 연중 최고기온 기록 40.4도를 넘어섰다.
+    체코 기상청은 이날 관측소 171곳 중 20곳에서 역대 최고기온이 기록됐다고 밝혔다. 또 "일요일(28일)은 더 더울 것으로 예상된다"며 이 기록도 오래가지 못할 것으로 보인다고 말했다.
+
+    스위스도 이날 오후 1시30분께 바젤의 기온이 39.0도까지 올라 전날 38.8도에 이어 이틀 연속 신기록을 세웠다.
+    독일에서는 40도를 웃도는 폭염이 이틀째 이어지고 있다.
+    전날 프랑스와 접경지역인 서부 자르브뤼켄 기온이 41.3도까지 치솟으며 연중 최고기온 기록을 깼다. 이날은 오후 4시30분께 작센안할트주 드레비츠에서 41.5도가 관측돼 기록이 하루 만에 경신됐다. 독일에서는 지금까지 6월 기온이 40도를 넘은 적이 전국을 통틀어 한 번도 없었다.
+    이날 오후 2시께 이미 동부 작센안할트주와 바이에른주 여러 관측소에서 기온이 40도를 돌파하며 폭염이 전국으로 번진 상태다.
+    지열에 아스팔트가 갈라지면서 베를린 외곽 2번 고속도로, 함부르크 7번 고속도로, 바이에른주 93번 고속도로 등 곳곳에서 차량 통행이 통제됐다.
+
+    야외 행사는 대부분 축소 또는 취소됐다. 베를린 당국은 이날 오후 도심 열기를 식히려고 브란덴부르크문과 포츠담광장 등지에 시위진압용 경찰 물대포차를 투입했다. 튀링겐·헤센·작센주는 제설 차량에 물을 채워 도로에 물을 뿌리고 있다.
+    서유럽에서 시작한 폭염은 전날부터 독일과 스위스 등 중부 유럽으로 본격 확대됐다. 프랑스는 이날 기준 본토 96개 데파르트망(광역 자치권) 중 37곳에 폭염 적색경보가 발효 중이다. AFP통신은 이날 기준 유럽 전역에서 1억9천300만명이 기온 35도 이상 더위에 노출된 것으로 분석됐다.
+
+
+    인명피해는 날마다 늘고 있다.
+    프랑스에서는 이달 18일 이후 최소 74명이 익사했다고 로랑 누네즈 내무장관이 이날 밝혔다. 이들은 대부분 안전 감독이 이뤄지지 않는 강이나 호수, 연못에서 숨졌고 사설 수영장에서도 사망사고가 있었다고 누네즈 장관은 덧붙였다. 독일도 이날만 베를린에서 2명, 바이에른주에서 1명이 호수 등지에 뛰어들었다가 숨진 채 발견됐다.
+    이번 폭염은 북부 아프리카에서 유입된 뜨거운 공기가 유럽 상공에 정체되며 발생했다. 고기압과 양옆을 가로막은 저기압 배치가 그리스 문자 Ω(오메가)와 비슷하다고 해서 오메가 열돔이라는 이름이 붙었다. 세계기상기구(WMO)는 이번 열파가 중부 유럽을 거쳐 발칸반도로 이동할 것으로 보고 있다.
+    dada@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[체코 블타바강]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAF20260628018901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/af/2026/06/28/PAF20260628018901009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[독일 프랑크푸르트 시내 노동자]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260625374001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/06/25/PAP20260625374001009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[덴마크 코펜하겐 아마게르 해변]]></Title>
+         <Caption><![CDATA[[EPA=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20260627196801009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2026/06/27/PEP20260627196801009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[독일 베를린 경찰 물대포차 투입]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260628004601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/06/28/PRU20260628004601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260311171900504</ContentID>
+      <SendDate>20260311</SendDate>
+      <SendTime>185458</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="0108001" name="외교일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260311171900504]]></Href>
+      <Writer><![CDATA[김지헌]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[정부, 레바논 일부 '여행금지' 지역 추가]]></Title>
+      <Body><![CDATA[정부, 레바논 일부 '여행금지' 지역 추가
+
+
+    (서울=연합뉴스) 김지헌 기자 = 외교부는 현 중동 상황으로 인해 레바논 베이루트 남쪽 다히예의 일부 지역을 한국 시각 12일 0시를 기해 여행금지(여행경보 4단계) 지역으로 지정한다고 11일 밝혔다.
+    현재 레바논은 남부 이스라엘 접경지역과 나바티예주가 여행금지 지역으로 지정돼 있다. 다히예의 베이루트 공항 및 M51 도로를 제외한 지역이 여행금지 대상으로 추가 지정된다.
+    예외적 여권 사용 허가 없이 여행금지 지역을 방문하면 처벌받을 수 있다.
+    외교부는 "해당 지역 방문을 계획 중인 국민은 방문을 취소해주시기를 바라며, 해당 지역에 체류 중인 국민은 안전한 지역으로 이동해 주시기를 바란다"고 밝혔다.
+    jk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 여행경보 조정 전후]]></Title>
+         <Caption><![CDATA[[외교부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260311171900504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/11/AKR20260311171900504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

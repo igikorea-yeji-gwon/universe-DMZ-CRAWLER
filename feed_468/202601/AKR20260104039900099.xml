@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260104039900099</ContentID>
+      <SendDate>20260104</SendDate>
+      <SendTime>191904</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7106001" name="아프리카"/>
+         <RegionCode code="7106043" name="케냐"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0505006" name="동물"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+         <AttributeCode code="9001133" name="우분투"/>
+         <AttributeCode code="9001004" name="화제"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260104039900099]]></Href>
+      <Writer><![CDATA[유현민]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[케냐서 '거대 상아' 명물 희귀종 코끼리 54살로 자연사]]></Title>
+      <Body><![CDATA[케냐서 '거대 상아' 명물 희귀종 코끼리 54살로 자연사
+
+
+    (요하네스버그=연합뉴스) 유현민 특파원 = 동부 아프리카 케냐에서 거대한 상아를 가진 희귀종 '슈퍼 터스커' 코끼리가 죽어 현지인들의 애도가 이어지고 있다.
+    AP통신에 따르면 케냐야생동물관리청(KWS)은 3일(현지시간) 성명에서 "땅을 쓸 듯하게 거대한 상아와 차분하고 위엄 있는 모습을 유명한 슈퍼 터스커 크레이그가 54살의 나이로 세상을 떠났다"고 전했다.
+    코끼리 보호단체인 암보셀리재단은 크레이그가 자연사했다며 "크레이그가 자연스럽게 생을 마감할 수 있도록 노력해준 모든 분께 감사드린다"고 밝혔다.
+    크레이그는 케냐 남부 탄자니아 접경의 야생동물 보호구역인 암보셀리 국립공원의 명물로 관광객들의 사랑을 받아 왔다. KWS는 크레이그가 차분한 성격으로 "방문객들이 사진을 찍을 때 종종 참을성 있게 멈춰 서곤 했다"고 설명했다.
+    크레이그는 2021년 맥주 제조사 이스트아프리카브루어리스(EAB)의 인기 맥주 '터스커'를 통해 공식 후원 대상이 되기도 했다고 AP통신은 덧붙였다.
+    현지 방송사 NTC는 "아프리카에 남은 마지막 휴퍼 터스커 코끼리 중 하나인 희귀종"이라며 크레이그의 죽음에 시민들의 애도가 이어지고 있다고 보도했다.
+    슈퍼 터스커 코끼리는 바닥에 닿을 정도로 매우 긴 상아를 가진 아프리카코끼리로 현재 야생에 20여 마리만 남은 것으로 추정된다. 슈퍼 터스커(거대한 상아)는 주로 40살 이상 된 수컷에서 나타나며 한쪽에 45㎏을 넘는 것으로 알려졌다.
+
+    hyunmin623@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[3일(현지시간) 생을 마감한 케냐 슈퍼 터스크 코끼리 크레이그]]></Title>
+         <Caption><![CDATA[[케냐야생동물관리청(KWS)/AP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260104039900099_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/04/AKR20260104039900099_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[3일(현지시간) 생을 마감한 케냐 슈퍼 터스크 코끼리 크레이그]]></Title>
+         <Caption><![CDATA[[케냐야생동물관리청(KWS)/AP=연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260104039900099_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/04/AKR20260104039900099_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

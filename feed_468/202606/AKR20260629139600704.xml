@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260629139600704</ContentID>
+      <SendDate>20260629</SendDate>
+      <SendTime>164656</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001102" name="WEB"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260629139600704]]></Href>
+      <Writer><![CDATA[전석우]]></Writer>
+      <Desk code="704"><![CDATA[영상미디어부]]></Desk>
+      <DeliCode>L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[쇼츠] 평화합의 잉크도 안 말랐는데…레바논 지하터널 파괴한 이스라엘]]></Title>
+      <Body><![CDATA[[쇼츠] 평화합의 잉크도 안 말랐는데…레바논 지하터널 파괴한 이스라엘
+
+#shorts[https://youtu.be/GuU4-p7O_Iw]
+
+    (서울=연합뉴스) 이스라엘은 레바논 남부 지역에서 친이란 무장정파 헤즈볼라가 사용하던 지하 시설을 파괴했다고 28일(현지시간) 밝혔습니다.
+    로이터통신에 따르면 이스라엘의 베냐민 네타냐후 총리와 카츠 국방장관은 이날 공동성명에서 레바논 남부 마즈달 준 마을에 있는 약 200m 길이 지하 터널을 타격했다고 발표했습니다. 터널에는 수백 개의 무기와 발사대가 있었으며, 공격에 앞서 미국에 사전 통보했다고 덧붙였습니다.
+    네타냐후 총리는 이스라엘군이 레바논 남부 안보 지대에 계속 머물 것이라며 "테러 기반을 계속 파괴하고 북부 접경지 주민에 대한 위협을 제거하겠다"고 밝혔습니다.
+    자세한 내용은 풀영상에서 확인하세요.
+
+    제작 : 전석우·황성욱
+    영상 : 로이터·EPA·UPI·X 이스라엘방위군·@Worldsource24·텔레그램 헤즈볼라
+
+
+    jujitsusw@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260629139600704_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/29/AKR20260629139600704_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

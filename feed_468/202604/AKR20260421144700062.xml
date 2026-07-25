@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260421144700062</ContentID>
+      <SendDate>20260421</SendDate>
+      <SendTime>165610</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004013" name="철원"/>
+         <RegionCode code="7004002" name="강릉"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0403003" name="재생에너"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260421144700062]]></Href>
+      <Writer><![CDATA[이재현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우상호 "접경지에 에너지 연금"…김진태 "영동권에 제2소방본부"]]></Title>
+      <SubTitle><![CDATA[우, 안규백 국방부 장관 만나 구체화…김, 총력 대응체제 구축 골든타임 단축]]></SubTitle>
+      <Body><![CDATA[우상호 "접경지에 에너지 연금"…김진태 "영동권에 제2소방본부"
+우, 안규백 국방부 장관 만나 구체화…김, 총력 대응체제 구축 골든타임 단축
+
+    (춘천=연합뉴스) 이재현 기자 = 6·3 지방선거를 43일 앞둔 21일 강원도지사 여야 예비 후보들은 접경지역과 영동지역을 돌며 각각 국방과 소방 분야의 민생 공약 대결을 펼쳤다.
+
+    더불어민주당 우상호 예비 후보는 이날 안규백 국방부 장관을 만나 민간인출입통제선(민통선) 북상과 청정에너지 고속도로 등 접경지역 발전을 위한 두 가지 공약을 구체화하고 나섰다.
+    우선 청정에너지 고속도로는 민통선 5㎞ 북상과 규제 완화를 통해 가용 부지를 확보하고, 해당 지역에 태양광 또는 풍력 등 재생에너지 기반 시설을 설치하는 것을 골자로 한다. 이른바 청정에너지 고속도로에서 발생한 수익은 '강원청정연금' 형태로 접경지역 주민에게 지급·환원한다는 계획이다.
+    이와 함께 장병 교육과 산업을 함께 키우는 국방 드론 교육·실증 특화단지 조성 방안도 논의했다.
+    우 후보는 "이 두 가지는 고향인 철원을 포함한 도내 접경지역이 가진 문제를 기회로 바꾸기 위해 고민하며 준비해온 것"이라며 "접경지역 문제를 더 이상 미뤄두지 않고, 분명하면서도 차근차근 바꿔나가겠다"고 강조했다.
+    이어 "안 장관은 국회 국방위원회에서 오랜 기간 활동하며 위원장까지 지낸 국방 분야 전문가로, 제20대 국회에서 국방위원회 함께 활동한 경험이 있다"며 "두 가지를 어떻게 현실화할 것인지에 대해 더 깊이 있는 이야기를 나눴다"고 덧붙였다. 
+
+    국민의힘 김진태 예비 후보는 이날 강릉시 주문진읍 제2청사를 방문, 제2청사 개청에 이어 '제2소방본부 신설'을 공약으로 내세웠다.
+    민선 8기 도정 출범 이후인 2023년 7월 개청한 제2청사는 276명의 인력이 배치돼 현재까지 8천건의 민원을 처리하며 영동지역 행정의 거점으로 자리매김했다.
+    이날 '뚝심 이어달리기 제6탄'을 진행한 김 후보는 제2청사의 성공적인 안착을 바탕으로 영동권 도민의 생명과 재산을 더 확실히 보호하기 위해 제2소방본부 신설을 약속했다.
+    제2소방본부는 영동지역의 대형 산불, 수해, 폭설 등 특수 재난 환경에 대응하는 전담 조직으로 구성·운영할 계획이다.
+    대형 재난 발생 시 군·경·산림청 등 관계기관과의 실시간 공조를 통해 총력 대응 체계를 구축함으로써 골든타임 단축이 기대된다. 또 영동권 기후와 지형 특성에 맞춘 지역 밀착형 소방 서비스 제공도 가능할 것으로 보인다.
+    김 후보는 "제2청사는 세웠던 그 뚝심으로 이제는 영동권 도민들의 안전을 빈틈없이 책임지겠다"며 "제2청사가 영동의 행정과 산업을 일으켰다면, 제2소방본부는 생명과 안전을 지키는 든든한 보루가 될 것"이라고 강조했다. 
+    jlee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[안규백 국방부 장관 만난 우상호 후보]]></Title>
+         <Caption><![CDATA[[우상호 후보 선거캠프 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260421144700062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/21/AKR20260421144700062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강릉 주문진읍 제2청사 민원실 방문하는 김진태 후보]]></Title>
+         <Caption><![CDATA[[김진태 후보 선거캠프 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260421144700062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/21/AKR20260421144700062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

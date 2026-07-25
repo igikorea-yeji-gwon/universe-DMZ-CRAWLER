@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260116148200797</ContentID>
+      <SendDate>20260116</SendDate>
+      <SendTime>181352</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107011" name="이란"/>
+         <RegionCode code="7107001" name="중동"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101011" name="국제정치"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001081" name="연합영상"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260116148200797]]></Href>
+      <Writer><![CDATA[이준삼]]></Writer>
+      <Desk code="797"><![CDATA[디지털콘텐츠부]]></Desk>
+      <DeliCode>L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[영상] "전재산 증발, 월급은 쓰레기" 47년 철권통치 초유의 파국]]></Title>
+      <Body><![CDATA[[영상] "전재산 증발, 월급은 쓰레기" 47년 철권통치 초유의 파국
+
+[https://youtu.be/xiW45YT4Bic]
+
+    (서울=연합뉴스) 이준삼 기자 = 살인적인 물가 폭등과 화폐 가치 폭락. 분노한 시민들이 거리로 쏟아져 나오며 1979년 이슬람 혁명으로 수립된 신정체제가 최대 위기를 맞고 있습니다.
+    이란 정부는 군경은 물론 정예 병력인 혁명수비대까지 투입해 유혈 진압에 나섰고, 이 과정에서 확인된 사망자만 수천 명, 최대 1만 2천 명에 달한다는 충격적인 관측까지 나오고 있습니다. 
+    특히 인터넷과 통신이 완전히 차단되고 영공마저 폐쇄된 가운데, 현지에서는 저격수에 의한 조준 사격 등 참혹한 증언이 잇따르며 '중동판 킬링필드'에 대한 우려가 커지는 상황. 
+    미국과 유럽 국가들은 자국민에게 즉각적인 대피령을 내렸고, 미 항공모함 전단이 중동으로 기수를 돌리는 등 일촉즉발의 긴장감은 시간이 갈수록 고조되고 있습니다. 
+   최악의 경제난이 불을 지폈지만, 그 끝은 억눌린 자유를 향하고 있습니다. 
+   오랜 신정 체제의 근간을 뒤흔들고 있는 이란 시민들의 반정부 시위, 접경국 튀르키예에서 이번 상황을 정밀 추적 중인 김동호 특파원이 그 긴박한 이면을 짚었습니다.
+
+    기획·구성: 이준삼
+    편집: 황지윤
+    영상: AFP·로이터·X @melianouss·Anadolu Agency·EYEPRESS
+
+
+    jslee@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260116148200797_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/16/AKR20260116148200797_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260513062100056</ContentID>
+      <SendDate>20260513</SendDate>
+      <SendTime>102634</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0107004" name="지방일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260513062100056]]></Href>
+      <Writer><![CDATA[백나용]]></Writer>
+      <Desk code="056"><![CDATA[제주취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["올레길에서 행복하라" 서명숙 제주올레 이사장 49재 추모걷기]]></Title>
+      <Body><![CDATA["올레길에서 행복하라" 서명숙 제주올레 이사장 49재 추모걷기 
+
+
+    (제주=연합뉴스) 백나용 기자 = 제주올레는 오는 25일 오전 10시부터 고(故) 서명숙 이사장 추모걷기를 개최한다고 13일 밝혔다.
+    이 행사는 지난달 7일 향년 68세를 일기로 영면에 든 서 이사장의 49재를 맞아 서 이사장을 추모하기 위해 기획됐다. 
+    출발지는 영결식이 열렸던 서귀포시 동홍동 서복공원 잔디광장으로, 참가자들은 생전 서 이사장이 자주 걸었던 제주올레 6코스를 역방향으로 걷게 된다.
+    행사는 추모 공연과 함께 제주올레 안은주 대표 인사말, 일본 기쿠치 케이이치 미야기현의원 추모사 순으로 진행된다. 서 이사장에게 추모글을 남길 수 있는 공간도 마련된다.
+    오후 1시 30분 추모 걷기가 끝나면 제주올레 6코스 시작점 인근에 있는 카페 '안녕 소깍' 앞 주차장에서 가수 이두헌의 추모 공연이 진행된다.
+    서 이사장 49재 추모 걷기는 제주올레 6코스뿐 아니라 '나만의 올레길에서 혼자 또는 함께 서명숙 이사장을 추모하며 걷기'란 콘셉트로 국내외 트레일에서도 진행된다.
+    ATN(Asia Trails Network)은 5월 25일 일본 미치노쿠 해안 트레일 관계자들과 함께 제주를 테마로 한 소품을 착용하고 추모 걷기에 동참할 예정이다. 
+    제주올레 6코스와 우정의 길 협약을 맺은 스위스 체르마트 5개 호수길 역시 같은 날 포르투갈 로타 비센티나 트레일을 걸으며 서명숙 이사장을 추모한다.
+    강릉바우길과 내포문화숲길, DMZ캠프, 부산갈매길, 여강길, 유라시아일출길, 인제천리길, 지리산둘레길, 진안고원길 등 한국걷는길연합 소속 트레일도 오는 23일부터 25일 사이 추모 걷기를 시행한다. 
+    안은주 대표는 "서 이사장이 마지막으로 전한 '올레길에서 행복하라'는 말을 많은 분들과 함께 나누고 서 이사장을 기리기 위해 이번 행사를 준비했다"며 "많은 참여 바란다"고 말했다.
+    dragon.me@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[고 서명숙 제주올레 이사장]]></Title>
+         <Caption><![CDATA[[제주올레 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260513062100056_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/13/AKR20260513062100056_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

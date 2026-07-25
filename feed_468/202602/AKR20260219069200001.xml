@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260219069200001</ContentID>
+      <SendDate>20260219</SendDate>
+      <SendTime>114117</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0102001" name="청와일반"/>
+         <ClassCode code="1001001" name="북한정치"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260219069200001]]></Href>
+      <Writer><![CDATA[설승은]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[靑, 北김여정 담화에 "긴장고조 행위 삼가고 평화노력 함께해야"]]></Title>
+      <SubTitle><![CDATA["남북이 평화 공존과 공동성장의 길로 나아가길 기대"]]></SubTitle>
+      <Body><![CDATA[靑, 北김여정 담화에 "긴장고조 행위 삼가고 평화노력 함께해야"
+"남북이 평화 공존과 공동성장의 길로 나아가길 기대"
+
+
+    
+    (서울=연합뉴스) 설승은 기자 = 청와대는 19일 북한 김여정 노동당 부부장이 대북 무인기 침투사건에 대한 정동영 통일부 장관의 유감 및 재발 방지 의지 표명을 '높이 평가한다'며 군사분계선 경계를 강화하겠다는 내용의 담화를 낸 데 대해 "정부는 남과 북이 평화 공존과 공동 성장의 길로 나아가길 기대한다"는 입장을 밝혔다. 
+    청와대 관계자는 이날 김 부부장의 담화에 대해 "정부는 접경지역에서 긴장을 고조시키는 행위를 삼가고 평화를 만들어가기 위한 노력을 남북이 함께하길 바란다"며 이같이 말했다. 
+    앞서 정 장관은 전날 브리핑에서 무인기 사건의 재발 방지책으로 비행금지구역 설정 등을 포함해 기존 9·19 남북군사합의 일부 복원을 선제적으로 검토·추진키로 했다고 밝힌 바 있다.
+    이에 김 부부장은 이날 낸 담화에서 "한국 통일부 장관이 우리 국가의 영공을 침범한 한국 측의 무인기 도발 행위에 대해 공식 인정하고 다시 한번 유감과 함께 재발 방지 의지를 표명한 데 대해 높이 평가한다"면서도 "우리 군사지도부는 한국과 잇닿아있는 공화국 남부 국경 전반에 대한 경계 강화 조치를 취하게 될 것"이라고 언급했다.
+    ses@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[청와대]]></Title>
+         <Caption><![CDATA[[촬영 이정훈] 2025.12.8]]></Caption>
+         <FileName>PCM20251224000049990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/12/24/49/PCM20251224000049990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

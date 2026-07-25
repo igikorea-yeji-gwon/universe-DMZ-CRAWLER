@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260102138200085</ContentID>
+      <SendDate>20260102</SendDate>
+      <SendTime>174019</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260102138200085]]></Href>
+      <Writer><![CDATA[김지연]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우크라, '러 반역자' 사망 위장…7억 현상금도 챙겨]]></Title>
+      <SubTitle><![CDATA['러 드론에 사망' 의용군 생존…"돈은 우크라 특수부대 강화에"]]></SubTitle>
+      <Body><![CDATA[우크라, '러 반역자' 사망 위장…7억 현상금도 챙겨
+'러 드론에 사망' 의용군 생존…"돈은 우크라 특수부대 강화에"
+
+
+    (런던=연합뉴스) 김지연 특파원 = 우크라이나 국방부 정보총국(HUR)이 블라디미르 푸틴 러시아 대통령에 반대해 우크라이나 편에서 싸우는 러시아인 의용군 지휘자의 죽음을 위장해 러시아로부터 현상금을 받아냈다고 1일(현지시간) 밝혔다.
+    키이우포스트 등에 따르면 지난달 27일 자포리자주 전선에서 사망했다고 발표된 러시아의용군(RVC) 창설자 데니스 카푸스틴(41)이 사실은 살아 있으며, 이는 현상금을 노린 위장 작전이었다고 HUR은 설명했다.
+    RVC는 지난달 27일 지휘관인 카푸스틴이 자포리자주 전선에서 러시아의 1인칭 시점(FPV) 드론 공격에 사망했다고 밝혔다. 그러면서 "우리는 반드시 복수할 것이다. 당신의 유산은 계속 남을 것"이라고 다짐까지 했다.
+    그러나 이는 러시아 특수기관이 카푸스틴 살해에 50만달러(약 7억2천만원) 현상금을 걸었다는 점을 역이용한 작전이었다고 한다.
+    HUR은 "러시아 특수기관이 이 범죄(카푸스틴 살해 교사) 실행을 위해 배정한 자금을 우리 측이 확보했다"며 "이 돈은 HUR 특수부대 강화에 쓰일 것"이라고 설명했다.
+    HUR은 푸틴 대통령이 카푸스틴을 '개인적인 적'으로 여겨 러시아 특수기관이 카푸스틴 살해 교사에 이같은 거액을 걸었다면서 러시아 특수기관 내부의 선동가와 작전 실행자 등을 파악했다고도 주장했다.
+    키릴로 부다노우 정보총국장은 카푸스틴에게 "살아 돌아온 것을 축하한다"며 "당신의 암살에 배정된 돈을 우리의 싸움에 쓸 수 있다니 기쁘다"고 말했다고 한다.
+    2022년 8월 조직된 RVC와 '화이트 렉스'라는 콜사인으로도 불리는 카푸스틴은 각각 러시아에서 금지된 테러 조직, 테러리스트 및 극단주의자 명단에 올라가 있다. 이 단체의 홈페이지에는 "우리의 승리만이 러시아에 평화를 가져온다"라는 문구가 적혀 있다.
+    러시아 연방보안국(FSB)은 카푸스틴이 러시아 시민으로서 우크라이나군 편에서 군사 작전에 참여했으며 러시아 에너지 시설 폭파 시도, 접경지 브랸스크 공격 등에 관여했다고 본다. 러시아는 카푸스틴에 대해 브랸스크 침공과 반역죄 혐의로 결성 재판을 통해 무기징역을 선고했다.
+    키이우포스트는 카푸스틴이 우크라이나에서 반크렘린 활동을 하는 저명한 인사이지만, 극우 활동으로 논란의 여지가 많은 인물이라고 짚었다. 
+    cherora@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[데니스 니키틴으로도 알려진 데니스 카푸스틴(오른쪽에서 두번째)]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PEP20241224022901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/epa/2024/12/24/PEP20241224022901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

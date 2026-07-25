@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260206077800504</ContentID>
+      <SendDate>20260206</SendDate>
+      <SendTime>112553</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="1102002" name="UN"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260206077800504]]></Href>
+      <Writer><![CDATA[김호준]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[국방부 "유엔사와 DMZ 관리 현실화 협의 중…논의 초기단계"]]></Title>
+      <Body><![CDATA[국방부 "유엔사와 DMZ 관리 현실화 협의 중…논의 초기단계"
+    
+
+
+    (서울=연합뉴스) 김호준 김철선 기자 = 국방부는 6일 "한반도 정전체제를 안정적으로 유지하는 가운데 비무장지대(DMZ)를 효과적으로 관리하는 방안에 대해 유엔군사령부와 협의 중"이라고 밝혔다.
+    국방부 당국자는 이날 기자간담회에서 국방부가 DMZ 공동관리를 미국 측에 제안했다는 언론 보도에 대한 사실관계 확인 요청에 이런 공식 입장을 밝혔다.
+    국방부는 군사분계선(MDL) 기준 남쪽 2㎞까지인 DMZ 남측구역 중 남측 철책 이북은 계속 유엔사가 관할하고, 철책 남쪽은 한국군(국방부)이 관할하도록 하자고 제안한 것으로 전해졌다.
+    원래 철책은 MDL 남쪽 2㎞ 지점을 연결한 남방한계선에 설치돼야 하나, 대북 감시 및 경계 임무의 원활한 수행을 위해 일부 지역에선 이보다 북쪽에 설치됐다. DMZ 남측구역 중 철책 이남 지역이 차지하는 면적은 전체의 약 30%에 달한다.
+    이 당국자는 "2011년부터 정권과 무관하게 이 내용과 관련해 계속 논의가 있던 것은 맞다"며 "그런데 안규백 국방부 장관 취임 이후 연초부터 실무선에서 DMZ 관리의 현실화, 그리고 효율화를 논의해보자고 했고, (현재) 논의 중"이라고 설명했다.
+    그는 'DMZ 관리 효율화 논의가 연초부터 재개된 것이냐'는 추가 질문에는 "재개는 맞지 않다"며 "안 장관 취임 후 이 의제를 의제화해서 공식적으로 논의해보자는 취지"라고 답했다. 
+    과거에 이뤄진 DMZ 관리 현실화 논의는 비공식적인 협의이고, 올해부터 공식 의제로 다룬다는 설명으로 보인다.
+    국방부는 한미통합국방협의체(KIDD)와 한미안보협의회(SCM) 등 한미 국방 당국 간 협의체에서도 DMZ 관리 현실화를 의제로 다룰 것을 제안한 것으로 전해졌다. 
+    '유엔사와의 논의에 진척이 있냐'는 질문에는 "실무선에서 이제 논의 초기단계라 아직 뭔가 구체적으로 설명해 드릴 것은 없다"며 "논의 진행 과정에서 추가로 설명해 드릴 수 있을 것"이라고 답변했다.
+    hojun@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[국방부, 'DMZ 공동관리' 제안]]></Title>
+         <Caption><![CDATA[(연천=연합뉴스) 임병식 기자 = 비무장지대(DMZ) 관할권 문제를 두고 국방부가 미국 측에 DMZ 공동관리를 제안한 것으로 전해지며 유엔군사령부의 호응에 귀추가 주목되고 있다. 사진은 경기도 연천군 민간인통제선 지역에서 유엔군사령부 군사정전위원회가 DMZ를 관할하고 있다는 내용을 알리는 푯말의 모습. 2026.2.5 [연합뉴스 자료사진] andphotodo@yna.co.kr]]></Caption>
+         <FileName>PYH2026020502860006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/05/PYH2026020502860006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260219036800061</ContentID>
+      <SendDate>20260219</SendDate>
+      <SendTime>092426</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0712001" name="영화"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260219036800061]]></Href>
+      <Writer><![CDATA[최찬흥]]></Writer>
+      <Desk code="061"><![CDATA[경기취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[DMZ국제다큐영화제 신임 집행위원장에 오동진 영화평론가]]></Title>
+      <Body><![CDATA[DMZ국제다큐영화제 신임 집행위원장에 오동진 영화평론가
+
+    (수원=연합뉴스) 최찬흥 기자 = 경기도는 DMZ국제다큐멘터리영화제 신임 집행위원장으로 오동진 영화평론가를 임명했다고 19일 밝혔다.
+
+    오 신임 집행위원장은 부산국제영화제 집행위원, 아시안필름마켓 운영위원장, 제천국제음악영화제 집행위원장 등을 지냈으며 현재 들꽃영화상 운영위원장과 부천국제판타스틱영화제 조직위원을 맡고 있다.
+    강지숙 경기도 콘텐츠산업과장은 "오 신임 집행위원장은 현장과 산업, 비평을 두루 경험한 전문가"라며 "DMZ국제다큐멘터리영화제 운영을 안정적으로 이끌고 영화제가 한 단계 더 도약하는 계기를 마련할 것으로 기대한다"고 말했다.
+    올해로 18회째인 DMZ국제다큐멘터리영화제는 오는 9월 10일~16일 고양과 파주 일대에서 열린다. 
+    chan@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[오동진 DMZ국제다큐영화제 신임 집행위원장]]></Title>
+         <Caption><![CDATA[[경기도 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260219036800061_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/19/AKR20260219036800061_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

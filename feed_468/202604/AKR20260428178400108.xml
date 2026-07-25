@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260428178400108</ContentID>
+      <SendDate>20260428</SendDate>
+      <SendTime>190411</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1101005" name="전쟁내전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260428178400108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[우크라, 러 항구에 드론 공습…수일째 화재·기름비]]></Title>
+      <SubTitle><![CDATA[러·우 밤새 공격 주고받아…민간인 4명 숨져]]></SubTitle>
+      <Body><![CDATA[우크라, 러 항구에 드론 공습…수일째 화재·기름비
+러·우 밤새 공격 주고받아…민간인 4명 숨져
+
+
+    (로마·이스탄불=연합뉴스) 민경락 김동호 특파원 = 우크라이나가 석유 시설이 밀집한 러시아 서남부의 흑해 연안 항구도시 투압세를 집중적으로 타격하면서 수일째 화재가 계속되고 있다.
+    28일(현지시간) 타스, 로이터 통신 등에 따르면 밤사이 투압세의 한 정유공장이 우크라이나군의 드론 공격을 받아 화재가 발생했다.
+    우크라이나군은 지난 16일과 20일에도 이 일대를 강도 높게 공습했다.
+    특히 16일 공격 이후 발생한 연기 기둥이 인공위성 촬영 사진에 포착될 정도로 한때 화재 상황이 심각했던 수준으로 알려졌다.
+    유독성 화학물질이 섞인 '기름 비'가 관측됐고, 대기질 검사에서 그을음과 벤젠, 자일렌 등 오염물질 농도가 정상치의 2∼3배에 달한 것으로 나타났다.
+    석유가 바다에 대량 유출돼 해상에 거대한 기름띠가 형성되기도 했다. 러시아 당국은 이날 오전까지 바닷가와 강 하구에서 오염된 토양 4천165㎥를 수거했다고 밝혔다.
+    우크라이나는 미국이 중재하던 러시아와 종전 협상이 최근 중동 사태로 사실상 멈춰서자 러시아 최대 국영 석유기업인 로스네프트의 정유시설이 있는 투압세 등을 집중적으로 노리며 러시아의 전쟁 자금줄을 조이는 데에 주력하고 있다.
+    한편 이날 러시아 당국은 우크라이나 접경지인 벨고로드가 우크라이나의 드론 공습을 받아 민간인 3명이 숨지고 3명이 다쳤다고 발표했다.
+    우크라이나 중부 크리비리흐 지역에서는 밤새 러시아의 공격을 받아 40대 남성이 사망한 것으로 전해졌다.
+
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[20일(현지시간) 러시아 투압세 정유시설이 우크라이나 드론의 공격을 받는 모습]]></Title>
+         <Caption><![CDATA[[소셜미디어 캡처, 로이터=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260422226101009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/04/22/PRU20260422226101009_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[26일(현지시간) 기름 유출에 오염된 러시아 투압세 바닷가]]></Title>
+         <Caption><![CDATA[[타스 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20260427012901009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2026/04/27/PTA20260427012901009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

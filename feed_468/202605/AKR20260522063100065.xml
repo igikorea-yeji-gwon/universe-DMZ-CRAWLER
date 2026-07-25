@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260522063100065</ContentID>
+      <SendDate>20260522</SendDate>
+      <SendTime>111006</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0105004" name="지방선거"/>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0109001" name="국방일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001212" name="인천선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260522063100065]]></Href>
+      <Writer><![CDATA[신민재]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[인천시장 여야후보, 軍心 다지기…'명예해병' vs '베테랑패스']]></Title>
+      <Body><![CDATA[인천시장 여야후보, 軍心 다지기…'명예해병' vs '베테랑패스'
+
+
+
+    (인천=연합뉴스) 신민재 기자 = 6·3 인천시장 선거에 출사표를 던진 여야 후보들이 군(軍)에 얽힌 인연과 예비역 우대정책 등을 앞세워 군심 잡기에 박차를 가하고 있다.
+    더불어민주당 박찬대 후보는 선거운동 첫날인 지난 21일 인천상륙작전기념관에서 해병대 예비역연대로부터 감사패를 받고 '명예해병'이 됐다.
+    예비역연대는 "순직해병 특검법 입법과 진상 규명 과정에서 당시 원내대표였던 박 후보가 해병대보다 더 열의 있게 도와줬고 수사 결과 지휘관들을 처벌할 수 있었다"며 감사의 뜻을 전했다.
+    육군 병장으로 만기 전역한 박 후보는 페이스북에 '박찬대가 명예해병이 된 이유'라는 관련 영상을 올리며 해병대와의 각별한 인연을 과시했다.
+    인천은 서해5도를 비롯한 접경지역에서 남북 간 잦은 충돌이 벌어져 '한반도의 화약고'로도 불린다.
+
+    현재 인천 백령도에는 해병대 제6여단이, 연평도에는 연대급 부대인 해병대 연평부대가 주둔하고 있다.
+    국민의힘 유정복 후보는 22일 페이스북을 통해 예비역 우대정책인 '전역증이 자랑스러운 인천 베테랑패스' 공약을 제시하며 군심 다지기에 나섰다.
+    베테랑패스는 인천 거주 24∼39세 군필 청년을 대상으로 지역화폐인 인천이음카드를 별도 디자인 카드로 교체해주고 1%포인트 추가 캐시백 혜택을 제공하는 게 골자다. 
+    이 카드 소지자에게는 인천지역 공영주차장 30% 할인 혜택도 제공할 예정이다.
+    학사장교 1기로 임관해 육군 중위로 전역한 유 후보는 페이스북에 본인의 군 시절 사진과 가상의 전역증 예시 사진을 올리기도 했다.
+    유 후보는 민선 8기 시장 재임 기간 참전유공자를 비롯한 보훈대상자 예우를 강화하기 위해 관련 수당을 인상했고 통합보훈회관을 착공하는 등 '호국보훈도시 인천'을 강조해왔다.
+    smj@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[박찬대·유정복 후보 군 관련 SNS 게시물]]></Title>
+         <Caption><![CDATA[[박찬대·유정복 후보 페이스북 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260522063100065_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/22/AKR20260522063100065_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[박찬대·유정복 인천시장 후보]]></Title>
+         <Caption><![CDATA[(인천=연합뉴스) 임순석 기자 =  6·3 지방선거 공식 선거운동 첫날인 21일 더불어민주당 박찬대 인천시장 후보와 국민의힘 유정복 인천시장 후보가 각각 열린 출정식에서 발언하고 있다. 2026.5.21 soonseok02@yna.co.kr]]></Caption>
+         <FileName>PYH2026052116650006500_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/21/PYH2026052116650006500_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

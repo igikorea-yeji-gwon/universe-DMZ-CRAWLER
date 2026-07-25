@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260402034000371</ContentID>
+      <SendDate>20260402</SendDate>
+      <SendTime>090001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="10"/>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0103001" name="국회일반"/>
+         <ClassCode code="0108001" name="외교일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260402034000371]]></Href>
+      <Writer><![CDATA[강성철]]></Writer>
+      <Desk code="371"><![CDATA[동포.다문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[KF, 엘살바도르·불가리아·美·요르단·브라질 국회 인사 초청]]></Title>
+      <SubTitle><![CDATA[5∼11일 한국 정치·역사·문화 체험…의회 간 교류 확대 모색]]></SubTitle>
+      <Body><![CDATA[KF, 엘살바도르·불가리아·美·요르단·브라질 국회 인사 초청 
+5∼11일 한국 정치·역사·문화 체험…의회 간 교류 확대 모색
+
+
+    (서울=연합뉴스) 강성철 기자 = 한국국제교류재단(KF·이사장 송기도)은 엘살바도르, 불가리아, 요르단, 미국, 브라질 등 글로벌 사우스를 포함하는 5개국과의 관계 증진을 위해 의회 분야 유력 인사를 초청한다고 2일 밝혔다.
+    수에서 까예하스 엘살바도르 제1국회부의장, 흐리스토 가제프 불가리아 국회 국방위원장, 후세인 알 마잘리 요르단 상원의원, 마이클 레트 미국 조지아주 상원의원, 루이스 에두아르두 룰라 다 폰치 브라질 연방 하원의원 등 5명이 오는 5일부터 11일까지 방한한다,
+    이들은 한국법제연구원, 국립외교원 등 주요 유관기관을 방문해 우리 외교정책 및 입법 연구 현황을 청취한다. 아울러 비무장지대(DMZ), 대한민국 역사박물관, 창덕궁 등을 찾아 한반도의 평화·안보 환경과 역사·문화에 대한 이해를 높이는 시간도 가진다. 
+    특히 방한 기간 국회를 방문해 각국 의원친선협회장과 면담을 갖고 의회 간 교류 및 협력 방안을 모색한다.
+    가제프 불가리아 국방위원장과는 국회 국방위원 간담회 및 국내 방산기업 면담을 주선해 동유럽 방산 수출 진흥을 모색한다. 
+    미국 조지아주 주의회 지한파 의원 모임인 '코리아 코커스' 의장을 맡고 있는 레트 상원의원은 현지 진출 우리 기업과의 면담을 통해 한-미 간 경제 협력 활성화 방안을 논의할 예정이다.
+    KF 관계자는 "중남미, 중동 등 글로벌 사우스 지역을 포함한 다양한 국가의 의회 인사들을 초청해 상호 이해를 증진하고, 교류·협력을 확대하는 자리가 될 것"이라고 밝혔다.
+    wakaru@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[KF, 엘살바도르 등 5개국 국회 주요 인사 초청]]></Title>
+         <Caption><![CDATA[[KF 제공]]]></Caption>
+         <FileName>AKR20260402034000371_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/02/AKR20260402034000371_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

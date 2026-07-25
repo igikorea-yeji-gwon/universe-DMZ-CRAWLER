@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260226136400060</ContentID>
+      <SendDate>20260226</SendDate>
+      <SendTime>145237</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005022" name="연천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0701004" name="축제"/>
+         <ClassCode code="0411002" name="관광"/>
+         <ClassCode code="0702007" name="문화재"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260226136400060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[연천 구석기 축제, 대한민국축제콘텐츠대상 수상]]></Title>
+      <Body><![CDATA[연천 구석기 축제, 대한민국축제콘텐츠대상 수상
+
+    (연천=연합뉴스) 노승혁 기자 = 경기 연천군은 지역 대표 축제인 '연천 구석기 축제'가 제14회 대한민국축제콘텐츠 대상 시상식에서 문화유산·역사 부문 대상을 받았다고 26일 밝혔다.
+
+    대한민국축제콘텐츠 대상은 한국축제콘텐츠협회가 주최하는 시상식으로, 지역 축제 콘텐츠 산업 발전에 기여한 우수 축제를 발굴·시상하고 있다.
+    연천 구석기 축제는 세계적 선사유적인 전곡리 구석기 유적을 콘텐츠로 30만년 인류 역사를 체험형 콘텐츠로 구현한 대한민국 대표 역사 문화축제다.
+    축제는 ▲ 구석기 바비큐 ▲ 세계구석기 체험 마당 ▲ 전곡리안 퍼레이드 ▲ 구석기 올림픽 등 차별화된 프로그램을 통해 선사 문화를 쉽고 흥미롭게 전달하며 교육성과 대중성을 동시에 확보했다는 평가를 받고 있다.
+    연천군 관계자는 "접경지역이라는 지리적 한계를 문화 브랜드 자산으로 전환하고, 지역 상권과 연계한 축제 운영으로 지속 가능한 관광 축제를 지향하고 있다"며 "8년 연속 문화체육관광부 지정 문화관광축제 선정, 축제콘텐츠 대상 등 명실상부 대한민국 대표축제가 됐다"고 전했다.
+    한편, 제33회 연천 구석기 축제는 5월 2∼5일 전곡리 유적 및 일원에서 개최된다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[연천 구석기 축제서 "바비큐 즐겨요"]]></Title>
+         <Caption><![CDATA[[연천군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PYH2015050303670006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2015/05/03/PYH2015050303670006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

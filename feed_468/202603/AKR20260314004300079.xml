@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260314004300079</ContentID>
+      <SendDate>20260314</SendDate>
+      <SendTime>040129</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260314004300079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘군, 레바논 다리 폭파 "가자 지구식 초토화" 경고]]></Title>
+      <SubTitle><![CDATA[주요 인프라 파괴하며 '헤즈볼라 무장해제' 압박
+사망자 약 700명, 피란민 80만명 넘어…"난민촌 수용 못해 노숙중"]]></SubTitle>
+      <Body><![CDATA[이스라엘군, 레바논 다리 폭파 "가자 지구식 초토화" 경고
+주요 인프라 파괴하며 '헤즈볼라 무장해제' 압박
+사망자 약 700명, 피란민 80만명 넘어…"난민촌 수용 못해 노숙중"     
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 이란 편에 서서 이스라엘을 공격 중인 친이란 무장 정파 헤즈볼라의 무장해제를 위해 국경 너머에 지상군을 투입한 이스라엘군이 교량 등 레바논의 주요 국가 인프라를 파괴하기 시작했다.
+    특히 이스라엘군은 레바논 수도 베이루트에 '가자지구와 같은 파괴' 문구가 담긴 경고 전단을 살포하며 압박 강도를 높이고 있다.
+    13일(현지시간) 로이터 통신 등 외신에 따르면 이스라엘군은 이날 레바논 남부 리타니 강을 가로지르는 즈라리에 다리를 폭격했다. 
+    군 당국은 이 교량이 헤즈볼라 대원들의 이동 경로로 사용되고 있다고 주장했으나 구체적인 증거는 제시하지 않았다. 
+    이는 이스라엘이 헤즈볼라를 겨냥한 이번 군사 작전 중 민간 인프라 공격을 공식 인정한 첫 사례다.
+    앞서 이스라엘 카츠 이스라엘 국방부 장관은 "헤즈볼라가 완전히 무장 해제될 때까지 레바논 정부는 인프라 파괴와 영토 손실 등 가혹한 대가를 치르게 될 것"이라고 강력히 경고했다. 
+    국제법상 민간 시설 공격은 원칙적으로 금지되어 있으나, 군사적 목적으로 사용될 경우에 한해 제한적으로 허용된다는 점을 이용한 압박으로 풀이된다.
+
+    이스라엘 공군은 이날 베이루트 상공에 전단을 살포하며 심리전도 강화했다. 
+    전단에는 "가자지구에서의 성공을 바탕으로 한 '새로운 현실'이 레바논에 왔다"는 내용이 담겼다. 지난 2년간 가자지구에서 벌어진 초토화 작전이 레바논에서도 재현될 수 있음을 시사하는 것으로 보인다.
+    일부 전단에는 헤즈볼라의 무장 해제를 촉구하며 실시간 정보 제보를 유도하는 왓츠앱 및 페이스북 연결 QR코드도 들어 있다.
+    이스라엘군은 레바논 남부와 베이루트 남쪽 외곽에 집중됐던 폭격을 베이루트 북쪽의 기독교도 밀집 지역까지 확대했다.
+
+    이런 가운데 피란민 수가 급격하게 늘어나는 등 인도적 위기도 커지고 있다. 현재까지 이스라엘의 공습으로 약 700명이 숨지고 80만 명 이상의 피란민이 발생했다.
+    아흐마드 알 하자르 레바논 내무장관은 "베이루트 내 모든 대피소를 개방했으나, 수십만 명의 피란민을 수용하기에는 역부족"이라며 많은 사람이 노숙 중이라고 상황을 전했다.
+    안토니우 구테흐스 유엔 사무총장은 이날 레바논을 직접 방문해 인도적 재앙을 막기 위한 3억800만 달러(약 4천100억 원) 규모의 긴급 자금 지원을 국제사회에 요청했다.
+    이스라엘은 최근 가자지구 인근의 보병 여단을 북부 접경지로 재배치한 데 이어, 에얄 자미르 총참모장이 병력 증원 명령을 내리며 전면전 대비 태세를 굳히고 있다. 
+    이란 최고지도자 아야톨라 알리 하메네이가 폭사한 뒤 이란 편에 서서 참전을 선언한 헤즈볼라는 이스라엘을 겨냥해 매일 수백발의 로켓을 발사하며 맞서고 있다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군에 의해 폭파된 레바논 남부 리타니강의 즈라리에 다리]]></Title>
+         <Caption><![CDATA[[로이터 연합뉴스]]]></Caption>
+         <FileName>AKR20260314004300079_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/14/AKR20260314004300079_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군이 베이루트 상공에 살포한 경고 전단.]]></Title>
+         <Caption><![CDATA[[EPA 연합뉴스]]]></Caption>
+         <FileName>AKR20260314004300079_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/14/AKR20260314004300079_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군의 레바논 남부 아바시에 마을 폭격 순간]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스]]]></Caption>
+         <FileName>AKR20260314004300079_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/14/AKR20260314004300079_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

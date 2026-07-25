@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260327101600004</ContentID>
+      <SendDate>20260327</SendDate>
+      <SendTime>141121</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0510001" name="사법"/>
+         <ClassCode code="0510002" name="검찰"/>
+         <ClassCode code="0510003" name="법원"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260327101600004]]></Href>
+      <Writer><![CDATA[이도흔]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['北무인기' 대학원생, 중앙지법 내란재판부 배당…내달 첫공판]]></Title>
+      <Body><![CDATA['北무인기' 대학원생, 중앙지법 내란재판부 배당…내달 첫공판
+
+
+    (서울=연합뉴스) 이도흔 기자 = 무인기를 제작해 허가 없이 북한에 날려 보낸 혐의로 기소된 대학원생 등 민간인 3명의 1심 재판이 서울중앙지법 내란전담재판부에 배당됐다. 이들에 대한 재판은 다음 달부터 본격 시작된다. 
+    27일 법조계에 따르면 서울중앙지법은 일반이적죄 및 항공안전법 위반 혐의를 받는 30대 대학원생 오모씨와 장모·김모씨 사건을 형사합의38-3부(류창성 장성훈 오창섭 부장판사)에 배당했다.
+    재판부는 오는 4월 15일 이들의 첫 공판을 열 예정이다. 
+    형사38부는 서울중앙지법이 지난 23일부터 가동한 내란전담재판부 2개 중 하나다. 
+    내란전담재판부는 '내란·외환·반란 범죄 등의 형사절차에 관한 특례법'(내란전담재판부 설치법)'에 따라 설치된 재판부로, 국가적 중요성이 인정되는 내란·외환·반란죄 또는 관련 사건만 담당한다. 
+    오씨 등의 혐의는 특례법이 규정한 '외환의 죄'에 해당해 전담재판부에 배정됐다. 
+    현재 형사38부는 부정선거 의혹을 수사할 비선조직 관련 임무를 받는 등 12·3 비상계엄에 관여한 혐의(내란 중요임무 종사)로 기소된 구삼회 전 육군 2기갑여단장과 방정환 전 국방혁신기획관 사건도 맡고 있다. 
+    오씨는 지난해 9월부터 올해 1월까지 4차례에 걸쳐 우리 군의 방공망 감시를 피해 민간 무인기를 군사분계선(MDL) 너머로 보내고, 북한 개성 일대를 비행시키며 영상을 촬영하게 한 혐의로 지난 25일 구속기소 됐다. 
+    오씨의 범행에 가담한 혐의를 받는 장씨·김씨는 불구속 상태로 재판에 넘겨졌다. 
+    이들이 날린 무인기 중 2기는 복귀하지 못한 채 북한에 추락했다. 북한은 추락한 기체와 SD카드를 수거해 자료를 분석한 후 무인기의 비행 이력 및 영상정보 등을 토대로 비난 성명을 발표하기도 했다.
+    앞서 사건을 수사한 군경 합동조사 태스크포스(TF) 이들 3명을 형법상 일반이적, 항공안전법 위반, 군사기지법 위반 혐의로 검찰에 송치했다. 
+    사건을 넘겨받은 검찰은 보완 수사 끝에 군사기지법 위반 혐의는 증거불충분을 이유로 무혐의 불기소 처분을 내렸다. 
+    leedh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북에 무인기 날린 대학원생 영장실질심사]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 박동주 기자 = 북한에 무인기를 보내 남북 긴장을 조성한 혐의를 받는 30대 대학원생 오모씨가 26일 구속 전 피의자 심문(영장실질심사)을 받기 위해 서울 서초구 서울중앙지법으로 들어서고 있다. 2026.2.26 pdj6635@yna.co.kr]]></Caption>
+         <FileName>PYH2026022608160001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/02/26/PYH2026022608160001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

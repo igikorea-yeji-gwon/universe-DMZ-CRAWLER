@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260709195300504</ContentID>
+      <SendDate>20260709</SendDate>
+      <SendTime>202259</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Region>
+         <RegionCode code="7102027" name="캄보디아"/>
+         <RegionCode code="7105011" name="베네수"/>
+      </Region>
+      <Class>
+         <ClassCode code="0108001" name="외교일반"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260709195300504]]></Href>
+      <Writer><![CDATA[민선희]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[외교부, 캄보디아 일부지역 여행금지 해제…"치안 개선"]]></Title>
+      <SubTitle><![CDATA[베네수엘라 일부 지역도…캄보디아·네팔 일부 경보 하향도]]></SubTitle>
+      <Body><![CDATA[외교부, 캄보디아 일부지역 여행금지 해제…"치안 개선"
+베네수엘라 일부 지역도…캄보디아·네팔 일부 경보 하향도
+
+
+    (서울=연합뉴스) 민선희 기자 = 외교부는 캄보디아와 베네수엘라 일부 지역에 대한 여행경보 4단계(여행금지)를 해제했다고 9일 밝혔다.
+    외교부는 지난해 10월 여행금지를 발령했던 캄보디아 캄폿주 보코산 지역, 바벳시, 포이펫시 여행경보를 3단계(출국권고)로 하향했다.
+    올해 상반기 현지에서 한국인의 감금 등 피해 신고가 전년 동기 대비 94% 감소하는 등 치안 상황이 개선된 점을 고려했다고 외교부는 설명했다. 
+    이와 함께 베네수엘라의 술리아주, 타치라주, 아푸레주, 수크레주에 발령됐던 여행경보 4단계도 3단계로 조정됐다.
+    다만 소말리아, 아프가니스탄, 이라크, 예멘, 리비아, 우크라이나, 수단, 아이티, 말리, 이란 등 10개 국가와 필리핀·미얀마·러시아·벨라루스·시리아 일부 지역, 팔레스타인 가자지구 등 12개 지역에 대한 여행금지 지정은 내년 1월 31일까지 연장하기로 했다.
+    여행금지 국가·지역을 허가 없이 방문하거나 체류할 경우 여권법에 따라 형사처벌과 여권 행정제재를 받을 수 있다.
+
+    이와 함께 외교부는 정기 여행경보 조정을 통해 캄보디아와 네팔 일부 지역의 여행경보도 하향했다.
+    캄보디아의 경우 시하누크빌주의 여행경보를 3단계에서 2단계(여행자제)로 하향하고, 태국 접경 7개 주에 발령했던 특별여행주의보를 해제해 1단계(여행유의)로 조정했다.
+    네팔도 지난 3월 신정부 출범 이후 정세가 안정된 점을 고려해 바그마티주에 발령했던 특별여행주의보를 1단계로 하향했다. 
+    반면 엘살바도르와 쿠바 등 15개국에 대한 특별여행주의보는 90일 연장됐다.
+    ssun@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[캄보디아 여행경보 조정 전후]]></Title>
+         <Caption><![CDATA[[외교부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260709195300504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/07/09/AKR20260709195300504_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[캄보디아 테코국제공항]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스 자료사진. 재판매 및 DB 금지] *기사와 관련이 없는 자료사진입니다.]]></Caption>
+         <FileName>PAP20250909143701009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2025/09/09/PAP20250909143701009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

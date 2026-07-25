@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260130152900108</ContentID>
+      <SendDate>20260130</SendDate>
+      <SendTime>180451</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107005" name="시리아"/>
+         <RegionCode code="7107017" name="튀르키예"/>
+         <RegionCode code="7103009" name="러시아"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260130152900108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[시리아, 쿠르드 조직과 포괄적 휴전…"병력 흡수"]]></Title>
+      <Body><![CDATA[시리아, 쿠르드 조직과 포괄적 휴전…"병력 흡수"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 시리아 임시정부가 30일(현지시간) 쿠르드족 주축 무장단체 시리아민주군(SDF)과 교전을 멈추고 병력을 흡수하는 내용의 포괄적 합의에 도달했다.
+    SDF는 이날 성명에서 "시리아 정부와 포괄적 합의에 따라 휴전 협정을 체결하고 양측 군사·행정의 단계적 통합에 대해 합의했다"고 밝혔다.
+    양측은 먼저 충돌 지점에서 병력을 물리고, 시리아 내무부 소속 보안군을 하사카와 카미실리 등 SDF가 장악했던 북동부 도시에 배치하기로 했다. 이 일대의 SDF 병력은 정부군으로 통합, 3개 여단으로 편성된다.
+    또 SDF의 자치 행정기구와 소속 직원들도 시리아 국가기관으로 승계하고 현지 쿠르드족 주민의 시민권도 보장하기로 했다.
+    SDF는 "이번 합의는 당사자간 협력을 강화하고 국가 재건을 위한 노력을 한데 모아 시리아 영토를 통일하고 지역 간 완전한 통합을 달성하는 것을 목표로 한다"고 강조했다.
+    이번 합의는 지난 28일 블라디미르 푸틴 러시아 대통령이 모스크바에서 아메드 알샤라 시리아 임시대통령과 정상회담하며 시리아 임시정부에 힘을 실은 뒤 성사됐다.
+    지난 수개월간 SDF가 자치 분권을 주장하며 임시정부와 유혈 충돌을 이어오면서 접경국 튀르키예가 군사적으로 개입하는 것 아니냐는 관측까지 나왔지만 이번 합의로 시리아 북동부 정세도 안정을 찾게 될 전망이다.
+    SDF는 시리아 내전 때 미군의 이슬람국가(IS) 소탕전에 참여하며 세력을 넓혔지만 2024년 12월 독재정권이 축출한 뒤 들어선 시리아 임시정부가 미군의 새로운 파트너가 되고, 동시에 튀르키예에 밀착하면서 SDF의 입지가 위축됐다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[지난 24일 시리아 북동부 하사카의 SDF 병력]]></Title>
+         <Caption><![CDATA[[AP 연합뉴스 자료사진 재판매 및 DB 금지]]]></Caption>
+         <FileName>PAP20260125053501009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2026/01/25/PAP20260125053501009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

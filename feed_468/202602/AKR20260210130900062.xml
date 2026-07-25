@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260210130900062</ContentID>
+      <SendDate>20260210</SendDate>
+      <SendTime>154056</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004018" name="화천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0506001" name="교통일반"/>
+         <ClassCode code="0410002" name="육상운수"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0506002" name="도로교통"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260210130900062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[화천군, 호출버스 '스마트 안심셔틀' 5년간 11만명 이용]]></Title>
+      <SubTitle><![CDATA[어린이가 스마트폰으로 버스 호출…수요 급증에 운행 확대]]></SubTitle>
+      <Body><![CDATA[화천군, 호출버스 '스마트 안심셔틀' 5년간 11만명 이용
+어린이가 스마트폰으로 버스 호출…수요 급증에 운행 확대
+
+    (화천=연합뉴스) 이상학 기자 = 강원 화천군이 버스를 호출해 타는 '스마트 안심셔틀' 이용객이 도입 5년 만에 10만명을 넘어섰다.
+
+    10일 화천군에 따르면 스마트 안심셔틀의 누적 이용객은 2021년 도입 이후 지난해 말까지 총 11만18명으로 집계됐다.
+    군은 대중교통 여건이 열악한 접경지역이자 농촌 지역 어린이의 안전하고 편리한 이동을 돕기 위해 스마트 안심셔틀을 전국 최초로 도입했다.
+    연도별 이용객은 첫해인 2021년 7천884명에서 2022년 2만6천30명, 2023년 1만8천953명, 2024년 2만1천906명, 2025년 3만5천245명으로 전반적인 증가세를 보이고 있다.
+    스마트 안심셔틀은 초등학생이 정해진 거점에서 스마트폰으로 버스를 콜택시처럼 호출해 이용할 수 있는 수요응답형 서비스다.
+    대중교통 이용이 어려운 어린이들이 호출하면 화천지역 교육 거점시설 등에서 본인이 거주하는 아파트나 다른 교육 거점시설로 이동할 수 있다.
+    이 같은 편의성과 안전성 덕분에 도입 첫해부터 학부모와 어린이들 사이에서 큰 호응을 얻었다.
+
+    화천군도 이용 수요 증가에 맞춰 운행 규모를 지속적으로 확대해왔다.
+    2021년 화천읍에서 1대로 시범운행을 시작했지만, 현재는 화천읍과 사내면 지역에 총 6대를 운영 중이다.
+    특히 모든 셔틀에는 동승 보호자를 배치해 어린이들의 안전한 승하차를 지원하고 있다.
+    최문순 화천군수는 "아이들이 교통편 걱정 없이 안전하게 이동하고, 배우고 활동할 수 있도록 지원하기 위해 스마트 안심셔틀을 도입했다"며 "어린이 이동권 보장을 위한 정책을 강화하겠다"고 말했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[화천군 스마트 안심셔틀]]></Title>
+         <Caption><![CDATA[[화천군 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260210130900062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/10/AKR20260210130900062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[화천군 스마트 안심셔틀]]></Title>
+         <Caption><![CDATA[[화천군 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260210130900062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/02/10/AKR20260210130900062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

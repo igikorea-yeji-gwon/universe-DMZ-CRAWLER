@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260422151400001</ContentID>
+      <SendDate>20260422</SendDate>
+      <SendTime>180320</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0106002" name="총리내각"/>
+         <ClassCode code="0106001" name="중앙행정"/>
+         <ClassCode code="0403003" name="재생에너"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260422151400001]]></Href>
+      <Writer><![CDATA[이상현]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[金총리 "시화·화옹지구, 재생에너지 최적지…빠르게 계획수립"]]></Title>
+      <SubTitle><![CDATA["이재명 정부 에너지 전환 방향 확고…문제는 속도와 집행력"]]></SubTitle>
+      <Body><![CDATA[金총리 "시화·화옹지구, 재생에너지 최적지…빠르게 계획수립"
+"이재명 정부 에너지 전환 방향 확고…문제는 속도와 집행력"
+
+
+
+    (서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 22일 시화·화옹지구 농업용지를 방문해 재생에너지 보급 여건을 점검하고 향후 개발 계획을 논의했다. 
+    김 총리는 이날 현장에서 지구 개발계획을 보고받고 "이재명 정부의 에너지 전환의 방향은 확고한 만큼 문제는 속도와 집행력"이라고 밝혔다. 
+    시화·화옹 지구는 농지조성을 위해 경기 안산·화성시 해안가 일대에 3천만평(1만ha) 규모의 간척 사업이 추진되는 곳이다. 
+    정부는 이 지구가 수도권 최대 규모의 재생에너지 보급이 가능한 잠재력을 가졌다고 보고 있다. 
+    김 총리는 "수도권인 시화·화옹지구는 영농과 재생에너지 발전의 결합으로 식량 안보를 위해 전략적으로 중요하다"며 "재생에너지를 통한 수도권 전력 공급이 가능한 최적지"라고 평가했다. 
+    그러면서 "농림축산식품부, 기후에너지환경부 등 관계기관이 긴밀히 협의해 최대한 빠른 시일 내에 사업계획을 수립하라"고 지시했다. 
+    김 총리는 이와 함께 주민의 소득증대와 주민 수용성을 높일 수 있는 영농형 재생에너지 모델을 마련해 전국에 신속히 보급될 수 있도록 범부처 차원의 협업도 지속해달라고 당부했다. 
+    그는 또 재생에너지의 보급 확대를 위해 접경지역, 공공시설 유휴부지 등 모든 가용한 공간을 활용하는 데 있어 공공부문의 선도적 역할을 강조하고, 추진 상황을 직접 점검하겠다는 방침도 밝혔다고 총리실은 전했다.
+    이번 방문은 중동 전쟁 등으로 에너지 안보의 중요성이 높아진 가운데 재생에너지 보급 확산을 위해 간척지에 영농형 태양광을 추진하는 방안을 모색하고자 마련됐다.
+
+
+    hapyry@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[시화지구　태양광　보급　현장　시찰하는　김민석　국무총리]]></Title>
+         <Caption><![CDATA[(화성=연합뉴스) 안정원 기자 = 김민석 국무총리가 22일 경기도 화성시 시화지구 태양광 보급 현장을 시찰하고 있다. 2026.4.22 jeong@yna.co.kr]]></Caption>
+         <FileName>PYH2026042212720001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/22/PYH2026042212720001300_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[정명근 화성시장과 인사하는 김민석　국무총리]]></Title>
+         <Caption><![CDATA[(화성=연합뉴스) 안정원 기자 = 김민석 국무총리가 22일 경기도 화성시 시화지구 태양광 보급 현장을 방문, 정명근 화성시장과 인사하고 있다. 2026.4.22 jeong@yna.co.kr]]></Caption>
+         <FileName>PYH2026042212790001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/22/PYH2026042212790001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

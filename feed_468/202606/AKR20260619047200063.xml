@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260619047200063</ContentID>
+      <SendDate>20260619</SendDate>
+      <SendTime>095656</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7011014" name="천안"/>
+         <RegionCode code="7011011" name="아산"/>
+      </Region>
+      <Class>
+         <ClassCode code="0901014" name="로봇AI"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0901001" name="IT"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260619047200063]]></Href>
+      <Writer><![CDATA[유의주]]></Writer>
+      <Desk code="063"><![CDATA[대전충남취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[천안-아산시, 5년간 6천억원 들여 'AI 도시'로 도약 추진]]></Title>
+      <Body><![CDATA[천안-아산시, 5년간 6천억원 들여 'AI 도시'로 도약 추진
+
+
+    
+    (천안=연합뉴스) 유의주 기자 = 충남 천안시와 아산시가 2030년까지 5년간 6천억원 규모의 사업과 함께 인공지능(AI) 특화 도시로 도약하는 방안을 추진한다.
+    19일 천안시에 따르면 아산시와 공동으로 신청한 국토교통부 주관 AI 특화 시범도시 공모사업에 충청권 최종 대상지로 선정됐다.
+    이번 공모는 기존 스마트시티의 데이터 고립 한계를 넘어, AI가 도시 데이터를 지식 자산으로 전환해 시민 일상을 자율 관리하는 대규모 국책 프로젝트다. 
+    생활권을 공유하는 천안시와 아산시는 지자체 간 경쟁 대신 초 광역적 협력 관계를 구축하고 충남도와 긴밀히 공조해 이번 성과를 끌어냈다.
+    사업은 올해부터 2030년까지 5개년간 추진된다. 총사업비는 국비 4천억원, 지방비 1천852억원, 민간 자본 257억원 등 모두 6천109억원 규모다. 
+    두 도시는 천안·아산 전체 면적 1,178㎢ 중 접경지역인 천안 불당동과 아산 배방·탕정 일대 7.4㎢를 우선 지구로 지정해 데이터 장벽을 허물 계획이다.
+    사업은 연결성(Connectivity), 자율형 AI(Agentic AI), 안전·안심(Safety & resilience), 미래지향형 정주 환경(Eco-Living) 등 4대 핵심 전략을 중심으로 추진된다.
+    세부적으로는 천안·아산 통합 도시지능센터와 디지털 트윈 플랫폼을 구축하고, 재난·교통·민원 분야의 자율형 AI 에이전트 서비스를 선제적으로 실증할 방침이다. 선제 대응형 통합재난관리, 지능형 에너지 통합 관리, AI 케어온 자율주행 등도 추진한다.
+    국토부는 올해 두 도시를 대상으로 기본구상 수립에 착수한다. 내년 하반기부터 2030년까지는 AI 인프라 구축, 시범도시 지정 및 규제 특례 부여, AI 기술 개발과 실증 등 단계별 사업을 진행할 예정이다.
+    장기수 천안시장 당선인은 시청 브리핑룸에서 가진 기자회견에서 "AI 특화 시범도시는 인공지능 기술과 도시 데이터를 기반으로 도시 문제를 해결하고, 새로운 산업과 일자리를 창출하는 국가 전략사업"이라며 "천안이 대한민국을 대표하는 K-AI 도시의 표준 모델로 성장하도록 책임 있게 사업을 추진하겠다"고 말했다.
+    yej@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[사업 구상도]]></Title>
+         <Caption><![CDATA[[천안시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260619047200063_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/19/AKR20260619047200063_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

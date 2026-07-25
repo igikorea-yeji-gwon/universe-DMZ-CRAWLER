@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260101002700108</ContentID>
+      <SendDate>20260101</SendDate>
+      <SendTime>021232</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107007" name="예멘"/>
+         <RegionCode code="7107006" name="아랍에미"/>
+         <RegionCode code="7107004" name="사우디"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260101002700108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[배후 UAE 물러서자…예멘 분리주의 세력도 조용히 철군]]></Title>
+      <Body><![CDATA[배후 UAE 물러서자…예멘 분리주의 세력도 조용히 철군
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 예멘의 분리주의 무장세력인 남부과도위원회(STC)를 지원해온 아랍에미리트(UAE)가 사우디아라비아의 경고성 공습에 물러서자 STC도 철군하기 시작한 것으로 알려졌다.
+    31일(현지시간) 사우디 매체 알아라비야에 따르면 이날 STC가 예멘의 사우디 접경지 하드라마우트의 주둔지에서 차량과 군인 등 병력을 철수하는 모습이 목격됐다.
+    STC는 이 과정에서 무기가 외부에 노출되는 것을 최소화했다고 한다.
+    하드라마우트 주지사 살렘 아메드 알칸바시는 "우리는 사우디와 긴밀히 협력해 STC 병력을 몰아내는 데에 노력했다"고 말했다.
+    이는 전날 UAE가 예멘에 남아있던 자국군을 모두 철수하겠다고 밝힌 직후 나온 움직임이어서 주목된다.
+    앞서 사우디는 지난 26일 STC의 거점을 공습했으며, 30일도 예멘 무칼라 항구에 들어간 UAE 측 물자를 타격했다.
+    이는 STC가 최근 석유 매장지인 예멘·사우디 국경 인근으로 활동을 확대한 것에 대한 경고였다. 예멘 내전에서 사우디는 예멘 정부군을, UAE는 과거 독립국이었던 남예멘의 부활을 추구하는 분리주의 세력 STC를 각각 지원해왔다.
+    UAE는 사우디의 안보를 위협하거나 STC를 움직여 국경 일대에서 군사작전을 펴도록 한 적이 없다며 "UAE는 형제국인 사우디 왕국의 안보와 안정에 대한 확고한 의지를 표명한다"고 언급하는 등 사우디와 정면충돌을 피하는 모습을 보였다.
+    다만 STC 대변인 안와르 알타미미는 이날 AFP통신에 "최근 일어난 일들로 남부 사람들은 국가 재건에 대한 결의를 더 굳게 다지게 됐다"며 "역사적으로, 국제적으로, 지역적으로 적절한 시기가 오면 우리는 국가를 재건할 준비가 돼 있을 것"이라고 말했다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[STC 군인들]]></Title>
+         <Caption><![CDATA[(아덴=AP 연합뉴스) 31일(현지시간) 예멘 남부 아덴의 거리에 배치된 분리주의 무장단체 STC 소속 대원들. 2026.1.1 photo@yna.co.kr]]></Caption>
+         <FileName>PAP20251231103601009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/ap/2025/12/31/PAP20251231103601009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

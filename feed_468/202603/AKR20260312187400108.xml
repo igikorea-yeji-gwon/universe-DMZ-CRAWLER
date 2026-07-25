@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260312187400108</ContentID>
+      <SendDate>20260312</SendDate>
+      <SendTime>223415</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107017" name="튀르키예"/>
+         <RegionCode code="7103007" name="독일"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="1102001" name="국제기구"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260312187400108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[튀르키예 "추가 배치 패트리엇, 독일 기지서 온 것"]]></Title>
+      <SubTitle><![CDATA["북키프로스에 튀르키예 전투기·방공망 배치는 정당"]]></SubTitle>
+      <Body><![CDATA[튀르키예 "추가 배치 패트리엇, 독일 기지서 온 것"
+"북키프로스에 튀르키예 전투기·방공망 배치는 정당"
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 미국·이스라엘과 이란의 전쟁이 이어지는 가운데 북대서양조약기구(NATO·나토)가 독일에 있던 방공 자산을 튀르키예로 이동 배치한 것으로 12일(현지시간) 확인됐다.
+    튀르키예 국방부 대변인인 제키 악튀르크 소장은 브리핑에서 "독일 람슈타인에 있는 나토 연합공군사령부(AIRCOM)의 패트리엇 체계가 말라티아에 배치됐다"고 밝혔다.
+    이어 "튀르키예와 나토의 공동 안보를 강화하기 위한 것"이라며 "영공과 국민의 안전을 확보하기 위해 나토 동맹과 협의하는 절차를 효과적으로 가동하고 있다"고 강조했다.
+    지난 10일 튀르키예 국방부는 튀르키예 동남부 말라티아에 패트리엇 포대가 추가로 배치됐다고 밝혔지만 어디에서 왔는지는 언급하지 않았었다. 독일 람슈타인 기지에는 미국 공군 유럽·아프리카사령부가 함께 있다.
+    지난 4일과 9일 두 차례 이란에서 튀르키예로 날아온 탄도미사일을 나토 방공망이 요격하는 등 이란 사태가 접경국인 튀르키예까지 번지자 이에 대응하기 위한 미국의 조치로 보인다.
+    말라티아는 이란 미사일이 격추되는 과정에서 일부 잔해가 떨어진 하타이, 가지안테프 등 튀르키예 남부 지역과 가깝다.
+    튀르키예는 나토 차원의 움직임과 별도로 이란 사태 대응을 명분으로 지중해 북키프로스에 군사력을 증강하고 있다.
+    악튀르크 대변인은 지난 9일 튀르키예군 F-16 전투기 6대와 방공시스템이 북키프로스에 배치된 것과 관련해 "북키프로스뿐만 아니라 키프로스섬 전체의 안보에 기여할 것"이라고 설명했다.
+    그는 북키프로스를 국가로 승인하지 않는 서방 국가들이 지난 2일 키프로스의 영국 공군 아크로티리 기지가 드론 공격을 받자 이곳에 군사력을 증강하는 상황을 두고 "우리의 조치는 매우 정당하고 적절한, 균형잡힌 접근"이라고 강조했다.
+    키프로스는 1974년 그리스 군사정권의 영향으로 쿠데타가 발생했을 때 튀르키예가 개입하면서 남북으로 분단됐다. 국제법상으로는 남부의 키프로스만 정식 국가로 인정받고 있으며 유럽연합(EU)에도 가입했다. 튀르키예는 북키프로스도 국가로 승인해야 한다며 '2국가 해법'을 주장한다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[12일(현지시간) 튀르키예 국방부 대변인 브리핑]]></Title>
+         <Caption><![CDATA[[튀르키예 국방부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260312187400108_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/12/AKR20260312187400108_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

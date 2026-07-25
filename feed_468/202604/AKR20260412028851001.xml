@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260412028851001</ContentID>
+      <SendDate>20260412</SendDate>
+      <SendTime>161410</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+         <RegionCode code="7004002" name="강릉"/>
+         <RegionCode code="7004006" name="속초"/>
+         <RegionCode code="7004014" name="춘천"/>
+         <RegionCode code="7004011" name="인제"/>
+      </Region>
+      <Class>
+         <ClassCode code="0101001" name="정치일반"/>
+         <ClassCode code="0104020" name="민주당"/>
+         <ClassCode code="0105004" name="지방선거"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260412028851001]]></Href>
+      <Writer><![CDATA[이슬기]]></Writer>
+      <Desk code="001"><![CDATA[정치부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[정청래, 속초·인제서 민심투어…"강원에 '파란 바람' 분다"(종합)]]></Title>
+      <SubTitle><![CDATA[하정우·조국 보선관련 질문엔 "민주당 승리에 최선…인재영입 1호 금주 공개"
+"李대통령 앞세워 강원발전 얘기해야"…우상호 "보수아성 영동 민심도 움직여"]]></SubTitle>
+      <Body><![CDATA[정청래, 속초·인제서 민심투어…"강원에 '파란 바람' 분다"(종합)
+하정우·조국 보선관련 질문엔 "민주당 승리에 최선…인재영입 1호 금주 공개"
+"李대통령 앞세워 강원발전 얘기해야"…우상호 "보수아성 영동 민심도 움직여"
+    
+
+    
+    (속초·인제·춘천=연합뉴스) 오규진 기자 = 더불어민주당 정청래 대표가 12일 강원도 속초시와 인제군을 찾아 6·3 지방선거를 앞둔 현지 민심을 훑으며 강원 지역 선거 승리를 다짐했다.
+    정 대표는 전날 강릉을 시작으로 1박 2일간 강원 지역을 돌고 있다. 접경 지역인 강원도는 전통적으로 보수 지지세가 강했지만, 민주당은 이번 지선에선 이재명 대통령의 높은 지지율에 힘입어 충분한 승산이 있다고 보고 있다.
+    정 대표는 강원 인제군 소재 원통전통시장에서 연합뉴스 기자와 만나 "조심스럽지만 강원도에도 이제 '파란 바람'이 불고 있다는 것을 몸으로 느낄 수 있다"고 말했다. 이번 지선에서 강원을 민주당 당색인 파란색으로 물들일 수 있을 거라는 기대감을 담은 말이다.
+    정 대표는 "방금 속초중앙시장에 다녀왔는데, 이 대통령이 방문한 닭강정 가게에선 '이 대통령이 다녀간 곳', '대통령 닭강정'이라며 홍보하는 모습을 봤다"고 했다.
+    그러면서 "예전 같으면 없던 현상일 수도 있다. 이 대통령을 앞세우는 게 장사에 도움이 된다는 것을 사장님께서 아시는 것 같다"고 설명했다.
+    정 대표는 "강원도에서 이 대통령에 대한 국정 지지도도 상당히 높다. 그래서 이 대통령을 앞세워서 강원도 발전을 얘기하는 것도 좋다고 생각한다"며 "이 대통령이 강원도 발전에 큰 관심을 가진 만큼, 당 차원에서 강원특별자치도법을 내실 있게 손질하겠다"고 강조했다.     
+    
+
+    
+    정 대표의 이날 속초 민생현장 방문엔 우상호 강원도지사 후보도 동행했다.
+    정 대표는 시장 곳곳을 돌며 "강원도지사 후보는 우상호" 등 구호를 외치며 우 후보를 밀착 지원했다.
+    정 대표는 이번 추경 여야 합의에 유가 연동 보조금을 전세버스에 한시 지원하는 시행령 개정이 포함된 점을 거론하면서 "전세버스를 타고 강원도로 관광을 많이 와야 한다며 우 후보가 준 아이디어였다"고 소개하기도 했다. 
+    우 후보는 "춘천 최고위 이후 열흘 만에 강원도를 1박 2일 일정으로 방문해 준 지도부에 감사드린다. 민주당이 강원도에 얼마나 공을 들이는지 여실히 느낄 수 있었다"며 "특히 보수 아성이었던 영동지방 민심이 놀랍게 바뀌고 있다. 영동도 민주당 쪽으로 움직이고 있다. 영원히 (국민의힘 쪽으로) 한 방향일 순 없다"고 강조했다.
+    
+
+    정 대표는 이날 오후 춘천 풍물시장에서 민생 행보를 이어갔다.
+    그는 풍물시장 방문 후 기자들과 만나 하정우 청와대 AI미래기획수석, 조국혁신당 조국 대표의 국회의원 재보궐선거 출마 등과 관련한 질문이 나오자, "저는 민주당 대표로서 민주당의 승리를 위해 최선을 다할 것이며, 6월 3일 저녁 6시 출구조사 시간에 맞춰 뛰고 있다"고 답했다. 민주당의 승리에 도움 되는 일은 하고, 도움 되지 않는 일은 안 하겠다는 말도 했다.
+    그러면서 "이번 주에 (재·보궐선거 관련) '인재영입 1호'가 공개될 예정"이라며 "지방선거 공천은 웬만하면 경선이 원칙이고, 국회의원 재·보궐선거는 전략공천이 원칙"이라고 덧붙였다.
+    acdc@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[정청래 대표, 강릉 표심 잡아라]]></Title>
+         <Caption><![CDATA[(강릉=연합뉴스) 양지웅 기자 = 더불어민주당 정청래 대표가 11일 강원 강릉시 중앙시장을 방문해 우상호 도지사 예비후보, 김중남 시장 예비후보를 지원하고 있다. 2026.4.11 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026041105290006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/11/PYH2026041105290006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[우상호 지원사격 나선 정청래 대표]]></Title>
+         <Caption><![CDATA[(강릉=연합뉴스) 양지웅 기자 = 더불어민주당 정청래 대표가 12일 강원 춘천시 풍물시장을 방문해 우상호 도지사 예비후보와 악수하고 있다. 2026.4.12 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026041204870006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/12/PYH2026041204870006200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[춘천 풍물시장 찾은 정청래 대표]]></Title>
+         <Caption><![CDATA[(강릉=연합뉴스) 양지웅 기자 = 더불어민주당 정청래 대표가 12일 강원 춘천시 풍물시장을 방문해 상인들과 인사하고 있다. 2026.4.12 yangdoo@yna.co.kr]]></Caption>
+         <FileName>PYH2026041204900006200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/12/PYH2026041204900006200_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

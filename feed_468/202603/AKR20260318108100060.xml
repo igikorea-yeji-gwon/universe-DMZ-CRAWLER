@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260318108100060</ContentID>
+      <SendDate>20260318</SendDate>
+      <SendTime>141835</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0505001" name="환경일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0402002" name="농업"/>
+         <ClassCode code="0201018" name="투자협력"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260318108100060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주시, 'DMZ 생태·평화 세미나' 25일 개최]]></Title>
+      <Body><![CDATA[파주시, 'DMZ 생태·평화 세미나' 25일 개최
+    
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시는 25일 오후 1시부터 탄현면 파주장단콩웰빙마루에서 '한반도 평화공존, 파주 DMZ 생태·평화 세미나'를 개최한다고 18일 밝혔다.
+
+    토론회는 국정과제로 제시된 '국제 생태·평화·관광 협력 지구 개발, 평화경제특구 조성'과 '한반도 생물다양성 회복' 정책에 선제적으로 대응하고, 파주 DMZ(비무장지대)의 평화적 이용과 체계적 보전 방안을 모색하기 위해 마련됐다.
+    토론회에서 강민조 국토연구원 한반도·동아시아연구센터장이 'DMZ의 보전 및 평화적 이용방안'을, 서형수 국립생태원 전임연구원이 '생물다양성 보전을 위한 DMZ 일원의 생태적 중요성과 보전 방향'을, 조성택 경기연구원 경기북부특별자치도연구센터장이 '경기북부 접경지역의 발전 방향'을 각각 발표한다.
+    이어 이상준 한미글로벌 통일한반도건설전략연구소 소장(전 국토연구원 부원장), 박은주 통일연구원 북한연구실 연구위원, 양철 강원연구원 분권 연구부 부장, 이경희 한국수출입은행 북한개발연구센터 책임연구원, 박준태 파주시 환경 국장 등이 '접경 지역 여건 변화에 대응한 파주시의 지속 가능한 환경보전과 평화적 이용 방안'을 논의할 계획이다.
+    시는 토론회에서 제시된 전문가 의견을 바탕으로 접경지역의 지속 가능한 발전 전략을 체계화하고, 평화경제특구 조성과 연계한 중장기 정책안을 마련할 방침이다.     
+    행사에는 강금실 외교부 글로벌 기후환경대사, 김경일 파주시장, 박정 국회의원, 박대성 파주시의회 의장을 비롯해 생태·환경·평화 분야 전문가, 시민 등 150여 명이 참석할 예정이다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[파주시, 25일 'DMZ 생태·평화 세미나' 개최]]></Title>
+         <Caption><![CDATA[[파주시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260318108100060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/18/AKR20260318108100060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260205082600065</ContentID>
+      <SendDate>20260205</SendDate>
+      <SendTime>110554</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7003007" name="인천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0408015" name="드론"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260205082600065]]></Href>
+      <Writer><![CDATA[홍현기]]></Writer>
+      <Desk code="065"><![CDATA[인천취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["노을 아름다워서"…접경지 강화도서 드론 날린 40대 검거]]></Title>
+      <Body><![CDATA["노을 아름다워서"…접경지 강화도서 드론 날린 40대 검거
+
+
+
+    (인천=연합뉴스) 홍현기 기자 = 인천 강화경찰서는 북한 접경지역에서 드론을 날린 혐의(항공안전법 위반)로 40대 남성 A씨를 수사하고 있다고 5일 밝혔다.
+    A씨는 전날 오후 6시께 인천시 강화군 교동 월선포구 인근 상공에서 드론을 날린 혐의를 받고 있다.
+    그는 드론 비행금지 구역에서 군 당국으로부터 비행·촬영 승인을 받지 않고 3분가량 드론을 날린 것으로 파악됐다.
+    경찰은 다만 아직 A씨의 드론에서 촬영물을 발견하지는 못했고, 드론은 북한이 아닌 강화도 내륙 방향으로 비행했다고 설명했다.
+    A씨는 경찰 조사에서 "아름다운 노을을 보려고 드론을 띄웠다"는 취지로 주장한 것으로 전해졌다.
+    경찰 관계자는 "군인의 신고로 A씨를 임의동행 방식으로 조사한 뒤 귀가 조치했다"며 "드론으로 촬영이 이뤄졌는지 다시 한번 확인할 계획"이라고 말했다.
+    hong@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[비행하는 드론]]></Title>
+         <Caption><![CDATA[※ 위 사진은 기사 내용과 직접적인 관련이 없습니다.[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20241114000061990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/11/14/61/PCM20241114000061990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

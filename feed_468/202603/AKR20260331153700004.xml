@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260331153700004</ContentID>
+      <SendDate>20260331</SendDate>
+      <SendTime>155520</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Region>
+         <RegionCode code="7002001" name="서울"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0204003" name="부동개발"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260331153700004]]></Href>
+      <Writer><![CDATA[정준영]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['이태원-용산공원 녹지축' 유엔사부지 공원 조성 본격 추진]]></Title>
+      <Body><![CDATA['이태원-용산공원 녹지축' 유엔사부지 공원 조성 본격 추진
+
+    (서울=연합뉴스) 정준영 기자 = 용산구(구청장 박희영)는 지난 30일 한국토지주택공사(LH) 서울지역본부 용산사업단, 용산일레븐과 함께 '유엔사부지 공원·녹지 조성 수준 향상을 위한 업무협약'을 체결했다고 31일 밝혔다.
+    이번 협약은 이태원동 22-34 일대 유엔사부지 내 공원·녹지를 쾌적하고 완성도 높은 도시 녹지공간으로 조성하기 위한 것이다. 
+    협약에 따라 구는 공원 조성계획 변경 등 행정적 지원을 맡고 준공 이후에는 시설물 인수와 유지관리를 담당한다. LH는 공원 조성을 위한 부지를 제공하고 정해진 사업비를 부담하며, 용산일레븐은 공원·녹지 조성 공사를 하고 수준 높은 공간 조성을 위한 추가 사업비 전액을 부담할 예정이다.
+    2023년부터 추진 중인 이 사업은 내년 완공을 목표로 한다.
+    박희영 구청장은 "유엔사부지는 용산공원과 이태원을 잇는 핵심 입지이자 용산의 변화를 상징하는 중요한 거점"이라며 "품격 있는 도심 정원으로 조성될 수 있도록 행정적 지원과 사후 관리에 최선을 다하겠다"고 말했다.
+
+    prince@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[유엔사부지 공원·녹지 조성 수준 향상을 위한 업무협약]]></Title>
+         <Caption><![CDATA[3월 30일 박희영 용산구청장이 LH 서울지역본부 용산사업단(사진 왼쪽, 단장 김연호), 용산일레븐(사진 오른쪽, 회장 엄석오)과 '유엔사부지 공원·녹지 조성 수준 향상을 위한 업무협약'을 체결했다. [용산구 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260331153700004_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/31/AKR20260331153700004_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

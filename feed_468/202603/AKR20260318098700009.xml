@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260318098700009</ContentID>
+      <SendDate>20260318</SendDate>
+      <SendTime>141657</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260318098700009]]></Href>
+      <Writer><![CDATA[곽민서]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA["중국 여행사들, 5월부터 북한 단체여행 프로모션"]]></Title>
+      <SubTitle><![CDATA[패키지 가격 150만원대부터…중국 측 공식 발표는 아직]]></SubTitle>
+      <Body><![CDATA["중국 여행사들, 5월부터 북한 단체여행 프로모션"
+패키지 가격 150만원대부터…중국 측 공식 발표는 아직
+
+
+
+    (서울=연합뉴스) 곽민서 기자 = 중국 여행사들이 오는 5월부터 출발하는 북한 단체여행 상품 홍보에 나섰다고 미국의 북한 전문 매체 NK뉴스가 17일(현지시간) 보도했다.
+    NK뉴스와 온라인에 게시된 여행 일정표에 따르면 중국의 다수 여행사가 5월 베이징에서 출발하는 8일 일정의 기차 여행 상품을 홍보 중인 것으로 나타났다.
+    여행 코스에는 평양·개성·비무장지대(DMZ)·금강산·묘향산 방문이 포함됐으며, 북한이 중국인 관광객을 겨냥해 새로 지은 것으로 알려진 동해안 원산갈마해안관광지구는 포함되지 않았다.
+    여행 가격은 열차 등급에 따라 1천60달러(7천380위안·약 157만원)에서 1천305달러(9천80위안·약 194만원) 사이로 책정됐다. 예약금은 287달러(2천위안·약 43만원) 선으로 알려졌다.
+    여행사들은 지난주 북·중 국경 간 여객 열차 서비스가 재개된 데 이어 에어차이나가 이달 말 베이징-평양 항공 노선을 재개하겠다고 발표한 이후 관련 상품 프로모션을 시작했다고 NK뉴스는 분석했다.
+    다만, 중국인의 북한 관광 재개에 대한 공식 발표는 아직 이뤄지지 않은 상황이다.
+    서울의 한 소식통은 "중국인 관광은 5월이 아닌 6월에 재개될 것으로 듣고 있다"고 NK뉴스에 전했다.
+    또 다른 소식통은 "중국인 관광 재개는 기차가 아닌 에어차이나 항공편을 통해 이뤄질 것"이라고 말했다.
+    앞서 코로나19 팬데믹 이전에는 한 해 수십만명에 달하는 중국인이 관광차 북한을 방문했으나, 북한은 코로나19 확산을 막겠다며 2020년 초 모든 외국인 여행객에게 문을 닫았다.
+    이후 공식적으로는 지난 2024년 러시아 관광객들에게만 선택적으로 다시 관광을 허용한 상태다.
+    mskwak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[베이징역에서 출발하는 북중 여객열차]]></Title>
+         <Caption><![CDATA[[로이터=연합뉴스 자료사진. 재판매 및 DB 금지]]]></Caption>
+         <FileName>PRU20260312361101009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/03/12/PRU20260312361101009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

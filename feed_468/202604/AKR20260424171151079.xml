@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260424171151079</ContentID>
+      <SendDate>20260425</SendDate>
+      <SendTime>011845</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260424171151079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘-헤즈볼라, 휴전 연장 후에도 공방…지상군 총격전도(종합)]]></Title>
+      <SubTitle><![CDATA[이스라엘군 "남부 요충지서 총격전…헤즈볼라 대원 6명 사살"]]></SubTitle>
+      <Body><![CDATA[이스라엘-헤즈볼라, 휴전 연장 후에도 공방…지상군 총격전도(종합)
+이스라엘군 "남부 요충지서 총격전…헤즈볼라 대원 6명 사살"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 도널드 트럼프 미국 대통령의 중재로 레바논 휴전이 3주간 연장됐지만 이스라엘군과 레바논 친이란 무장 정파 헤즈볼라 간 무력 공방은 계속되고 있다.
+    24일(현지시간) 이스라엘과 레바논 언론에 따르면 이스라엘군은 이날 오전 레바논 남부의 키르벳 셀름, 툴린 등의 건물을 공습했다.
+    이스라엘군은 이날 공격이 전날 밤 이스라엘 북부 접경 마을을 겨냥했던 헤즈볼라의 로켓 포격에 대한 보복 차원이라면서 "공습 대상 건물은 헤즈볼라의 공격 거점들"이라고 말했다.
+    이후 헤즈볼라는 레바논 남부에 주둔 중인 이스라엘군과 이스라엘 북부 접경 지역을 겨냥해 자폭 드론을 발사했다.
+    헤즈볼라가 쏜 드론은 이스라엘군이 점령 중인 칸타라 마을 인근에서 폭발했으나, 인명 피해는 발생하지 않았다고 이스라엘군이 밝혔다. 또 북부 접경지대에 있는 갈릴리를 향해 발사된 드론은 국경을 넘기 전에 요격됐다고 설명했다.
+    이스라엘군은 "헤즈볼라 테러 조직이 다시 한번 휴전 협정을 노골적으로 위반했다"고 비판했다.
+    이날 오후에는 레바논 남부 소도시 테러 상공에서 이스라엘군의 드론이 헤즈볼라의 방공 미사일에 요격됐다.
+    그 밖에도 이날 헤즈볼라의 핵심 요새로 알려진 빈트 즈베일에서는 이스라엘군과 헤즈볼라 대원 간의 총격전도 벌어졌다.
+    이스라엘군은 성명을 통해 "공수부대원들이 빈트 즈베일의 보안 구역에서 헤즈볼라 무장대원을 식별해 2명을 사살했고, 나머지 대원들이 은신한 건물을 정밀 타격해 4명을 추가로 사살했다"고 밝혔다.
+    트럼프 대통령은 전날 이스라엘과 레바논 고위급 대표들과 회담을 주재한 뒤 소셜미디어 트루스소셜을 통해 "이스라엘과 레바논의 휴전은 3주 연장될 것"이라고 말했다.
+    이스라엘과 레바논은 트럼프 대통령의 중재로 지난 18일부터 열흘간 휴전에 돌입했지만, 이후에도 이스라엘군과 헤즈볼라 간 무력 충돌은 간간이 이어졌다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군과 헤즈볼라 간 무력 공방 와중에 연기가 치솟는 레바논 남부 마을]]></Title>
+         <Caption><![CDATA[[로이터 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260424171151079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/24/AKR20260424171151079_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

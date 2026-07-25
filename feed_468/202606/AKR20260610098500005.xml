@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260610098500005</ContentID>
+      <SendDate>20260610</SendDate>
+      <SendTime>140000</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0701001" name="문화일반"/>
+         <ClassCode code="0702007" name="문화재"/>
+         <ClassCode code="0702001" name="유형문화"/>
+         <ClassCode code="0707002" name="사진영상"/>
+         <ClassCode code="0701003" name="전시공연"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260610098500005]]></Href>
+      <Writer><![CDATA[김예나]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[한반도 가로지르는 '분단의 상처'…사진으로 만나는 DMZ 이야기]]></Title>
+      <SubTitle><![CDATA[대한민국역사박물관, DMZ 관련 사진 80여 점 모은 특별전 11일 개막]]></SubTitle>
+      <Body><![CDATA[한반도 가로지르는 '분단의 상처'…사진으로 만나는 DMZ 이야기
+대한민국역사박물관, DMZ 관련 사진 80여 점 모은 특별전 11일 개막
+
+
+    (서울=연합뉴스) 김예나 기자 = 경기 파주시 정동리에서 강원 고성군 명호리로 이어지는 구간에는 1천292개의 표지판이 있다. 
+    1953년 7월 27일 정전협정에 따라 군사분계선을 표시해둔 흔적이다. 
+    표지판을 기준으로 남과 북 양쪽이 2㎞씩 물러나면서 새로운 지역이 만들어졌다. 가까운 듯하지만 쉽게 접근할 수 없는 땅, 비무장지대(DMZ)다. 
+    한반도를 가로지르는 DMZ의 역사와 의미를 짚는 사진 전시가 열린다.
+    대한민국역사박물관이 오는 11일부터 공개하는 '바람의 길목, DMZ' 기획전이다. 
+
+    전시는 6·25전쟁 이후 약 73년간 남북 간 긴장이 응축된 공간이자, 냉전 체제가 남긴 마지막 유산인 DMZ의 면면을 80여 점의 사진으로 구성했다. 
+    박물관 관계자는 "분단과 대립, 교류와 협력의 시간이 공존해 온 비무장지대 모습을 한자리에서 살펴볼 수 있을 것"이라고 소개했다. 
+    전시는 오늘날 분단의 현실을 비추며 시작된다. 
+    DMZ는 국가가 자국의 영토임에도 국제법상 병력이나 군사시설을 주둔시키지 않을 의무가 있는 특정 지역이나 구역을 뜻한다. 
+    그러나 군인과 감시초소, 철책이 늘어선 풍경은 생각할 여지를 남긴다. 안개에 둘러싸인 철원 풍천원 일대와 그 아래에 묻힌 지뢰는 이런 상황을 여실히 보여준다. 
+
+    DMZ에서 살아가는 사람들의 삶과 만남을 포착한 사진도 공개된다. 
+    유일한 민간인 거주지인 대성동 마을의 모습, 판문점 내 공동경비구역(JSA), 남북 교류의 결실로 다시 이어진 철길 등을 볼 수 있다. 
+    한수 대한민국역사박물관장은 "DMZ는 분단의 경계를 넘어 새로운 연결의 가능성을 품은 공간"이라며 "미래를 함께 상상할 수 있는 공간으로 바라보길 바란다"고 말했다. 
+    전시에 맞춰 DMZ를 둘러싼 이야기를 깊숙이 들여다보는 자리도 마련된다. 
+    이기환 전 경향신문 문화부 선임기자는 이달 24일 오후 2시 박물관 6층 제2강의실에서 '휴전선(군사분계선)에 숨겨진 7가지 오해와 진실'을 주제로 강연한다. 
+    전시는 9월 13일까지. 
+
+    yes@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[전시 및 강연 안내]]></Title>
+         <Caption><![CDATA[[대한민국역사박물관 제공. 재판매 및 DB 금지]]></Caption>
+         <FileName>AKR20260610098500005_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/10/AKR20260610098500005_03_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ 화살머리 고지 찾은 두루미들]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PYH2019022813880006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2019/02/28/PYH2019022813880006000_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['DMZ 평화 이음 열차']]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 10일 운행이 재개된 DMZ 평화 이음 열차가 서울역에서 출발해 경기도 파주시 도라산역으로 들어오고 있다. 서울역과 도라산을 오가는 정기 관광열차인 DMZ 평화 이음 열차는 6년 6개월 만에 운행이 재개됐다. 2026.4.10 [통일부 제공. 재판매 및 DB 금지] photo@yna.co.kr]]></Caption>
+         <FileName>PYH2026041011900001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/10/PYH2026041011900001300_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[적막한 남북의 경계]]></Title>
+         <Caption><![CDATA[(파주=연합뉴스) 임병식 기자 = 8일 경기도 파주시 접경지역에서 바라본 서부전선 비무장지대(DMZ)에 남측 대성동 태극기와 북측 기정동 인공기가 펄럭이고 있다. 2026.5.8 andphotodo@yna.co.kr]]></Caption>
+         <FileName>PYH2026050810410006000_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/05/08/PYH2026050810410006000_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

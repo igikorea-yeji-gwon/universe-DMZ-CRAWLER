@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260305082300704</ContentID>
+      <SendDate>20260305</SendDate>
+      <SendTime>113841</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001081" name="연합영상"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260305082300704]]></Href>
+      <Writer><![CDATA[진혜숙]]></Writer>
+      <Desk code="704"><![CDATA[영상미디어부]]></Desk>
+      <DeliCode>L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[영상] "쿠르드 전사, 이란 땅 진격"…'대리 지상전' 노리는 미국]]></Title>
+      <Body><![CDATA[[영상] "쿠르드 전사, 이란 땅 진격"…'대리 지상전' 노리는 미국
+
+[https://youtu.be/dtPQR9iwOzE]
+
+    (서울=연합뉴스) 쿠르드족 전사 수천 명이 이라크에서 이란으로 건너가서 지상 공격작전을 개시했다고 미국 폭스뉴스가 미국 정부 관계자를 인용해 보도했습니다. 
+    4일(현지시간) 매체에 따르면 전투원 중 많은 수는 이라크에 여러 해 동안 거주해온 이란 쿠르드족이며 이번 공격작전의 일환으로 이란 북서부로 돌아가고 있습니다. 
+    이스라엘 뉴스채널 'i24뉴스'도 이날 폭스 뉴스를 인용해 "쿠르드족 무장단체가 이미 이란군을 상대로 군사 공세를 시작했다"면서 "현재 수천 명의 쿠르드족 전투원이 국경을 넘어 이란과 이라크 접경지대의 산악 지역인 마리반(이란 서부)에서 공세적 위치를 점하고 있다는 소식이 전해지고 있다"고 보도했습니다. 
+    이들은 이란 현 정권에 맞서는 대규모 봉기를 일으키려고 시도하는 이란계 쿠르드 민병대인 것으로 알려졌습니다. 
+    이란계 쿠르드 무장 단체들은 이라크-이란 국경 지대, 주로 이라크 쿠르디스탄 자치구 지역에서 수천 명의 병력을 운용하고 있습니다.
+    앞서 피트 헤그세스 미국 국방부 장관은 미군이 이란 내 봉기 세력에 무기를 제공하지는 않고 있다고 말했으나, 미국 정부의 다른 기관들이 관여하고 있을 가능성을 시사했습니다. 
+    이스라엘은 이란 신정체제의 붕괴를 촉진할 반란을 촉발할 목적으로 쿠르드족과 손을 잡았다고 밝혔습니다. 
+    이스라엘 정부 당국자는 "우리(이스라엘)는 서부 이란에서 활동하는 쿠르드 민병대를 지원하고 있다"며 민병대가 이란 내 일부 지역을 장악해 정권에 도전하도록 해 더 광범위한 봉기를 유도하는 것이 지원의 목표라고 설명했습니다. 
+    다만 여러 취재원은 이라크 쿠르드족 전사들이 이란으로 넘어가 지상전을 벌이고 있다는 폭스뉴스의 보도와 상반된 정보를 내놓고 있습니다. 
+    이라크 쿠르디스탄 자치구 총리실 부비서실장은 이날 자신의 소셜미디어에 "국경을 넘은 이라크 쿠르드족은 단 한 명도 없다"고 부인했습니다. 
+
+제작: 진혜숙·최주리
+영상: 로이터·AFP·X @azizkahmad
+    jean@yna.co.kr
+
+
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260305082300704_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/05/AKR20260305082300704_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

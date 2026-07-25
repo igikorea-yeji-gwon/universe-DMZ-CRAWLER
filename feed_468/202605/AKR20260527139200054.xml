@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260527139200054</ContentID>
+      <SendDate>20260527</SendDate>
+      <SendTime>170829</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7008022" name="해남"/>
+      </Region>
+      <Class>
+         <ClassCode code="0712001" name="영화"/>
+         <ClassCode code="0712006" name="해외연예"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0801001" name="생활정보"/>
+         <ClassCode code="0803001" name="여행"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260527139200054]]></Href>
+      <Writer><![CDATA[조근영]]></Writer>
+      <Desk code="054"><![CDATA[광주전남취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[칸 뒤흔든 영화 '호프' 주 촬영지 해남에 테마 거리 조성]]></Title>
+      <SubTitle><![CDATA[북평면 남창에 영화 연계한 1970∼1980년대 거리 재현]]></SubTitle>
+      <Body><![CDATA[칸 뒤흔든 영화 '호프' 주 촬영지 해남에 테마 거리 조성
+북평면 남창에 영화 연계한 1970∼1980년대 거리 재현
+
+    
+
+    (해남=연합뉴스) 조근영 기자 = 칸 영화제를 뒤흔든 나홍진 감독의 영화 '호프' 주 촬영지인 전남 해남군 북평면 남창리에 문화의 거리가 생긴다.
+    27일 해남군에 따르면 군은 남창리 일원에 1970∼1980년대 문화의 거리를 조성하는 사업을 추진하고 있다.
+    영화 속 배경인 비무장지대 호포항의 주 무대로 2023년 10월부터 3개월여간 출연 배우들이 머물며 촬영한 곳이다.
+    해남군은 단순한 경관 개선을 넘어 문화자원과 영화적 서사를 결합한 독창적인 관광 명소를 구축할 계획이다.
+    기존 북평면 소재지에 위치한 버스터미널 공간은 영화 속 주요 배경이자 상징적 장소인 파출소 콘셉트로 전면 리모델링한다. 
+    방문객들을 위한 이색 안내소와 소통 공간으로 활용될 예정이다.
+    영업 중인 상가에는 촬영 당시의 간판을 달고, 영화에 등장하는 괴생명체 등도 연출해 볼거리로 삼는다.
+    촬영 소품인 '스텔라' 경찰차, 외계인 조형물, 체험형 콘텐츠도 배치해 방문객들에게 생생한 몰입감을 선사한다.
+    관광객 편의와 스토리텔링을 위한 인프라도 확충한다.
+    거리 진입로와 주요 거점에는 영화의 배경과 비하인드 스토리를 담은 디자인 안내판이 설치되며, 직관적인 안내 시스템으로 도보 관광의 즐거움을 살린다. 
+    남창 일원의 달량진성과 해월루 등 역사 문화자원과 해안 데크 길에는 포토존 등을 설치해 관광자원으로 재구성한다.
+    해남군 관계자는 "영화 호프로 창출된 독창적인 문화 콘텐츠를 지역의 자원과 결합해 상생형 관광 모델을 구현하겠다"고 말했다.
+
+    호프는 비무장지대에 있는 호포항 출장소장 범석(황정민 분)이 동네 청년들로부터 호랑이가 출현했다는 소식을 전해 듣고 믿기 어려운 현실을 만나게 되는 이야기를 담은 SF 액션 스릴러다.
+    제79회 칸 영화제에 경쟁작으로 초청돼 최고의 논쟁을 불러일으킨 작품으로 후반 작업을 마치고 오는 7월께 국내 개봉할 것으로 보인다. 
+    chogy@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[남창 주 촬영지]]></Title>
+         <Caption><![CDATA[[해남군 제공·재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260527139200054_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/27/AKR20260527139200054_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[호프 영화 장면]]></Title>
+         <Caption><![CDATA[[해남군 제공·재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260527139200054_04_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/27/AKR20260527139200054_04_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

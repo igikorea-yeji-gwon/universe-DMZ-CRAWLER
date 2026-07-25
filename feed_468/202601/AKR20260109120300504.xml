@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260109120300504</ContentID>
+      <SendDate>20260109</SendDate>
+      <SendTime>165149</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109008" name="주한미군"/>
+         <ClassCode code="0109013" name="안보국방"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260109120300504]]></Href>
+      <Writer><![CDATA[김철선]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[유엔사 신임 부사령관에 윈터 호주 중장 취임]]></Title>
+      <Body><![CDATA[유엔사 신임 부사령관에 윈터 호주 중장 취임
+
+
+    (서울=연합뉴스) 김철선 기자 = 스콧 윈터 호주 육군 중장이 9일 한반도 정전협정 준수를 책임지는 유엔군사령부(UNC·유엔사)의 부사령관으로 취임했다.
+    유엔사는 이날 경기도 평택에 있는 캠프 험프리스 유엔사 본부에서 부사령관 취임식을 열었다고 밝혔다.
+    윈터 부사령관은 두 번째 호주 출신 부사령관으로, 비(非) 미군 출신 유엔사 부사령관은 이번이 다섯 번째다.
+    윈터 부사령관은 "지역 안보가 분기점에 놓인 이 시점에 한국에서 유엔사, 주한미군사, 한미연합사 등 3개 사령부와 함께 복무할 수 있게 돼 매우 기쁘다"고 말했다.
+    데릭 매콜리 전임 부사령관(캐나다 육군 중장)의 이임식도 이날 열렸다.
+    kcs@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[스콧 윈터 신임 유엔군사령부 부사령관]]></Title>
+         <Caption><![CDATA[[유엔군사령부 제공. DB 및 재판매 금지]]]></Caption>
+         <FileName>AKR20260109120300504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/01/09/AKR20260109120300504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260524014800003</ContentID>
+      <SendDate>20260524</SendDate>
+      <SendTime>094631</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="02"/>
+      <Class>
+         <ClassCode code="0712001" name="영화"/>
+         <ClassCode code="0405004" name="자동차"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260524014800003]]></Href>
+      <Writer><![CDATA[홍규빈]]></Writer>
+      <Desk code="003"><![CDATA[산업부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[현대차, 칸영화제 초청작 '호프'에 클래식 모델 스텔라 후원]]></Title>
+      <Body><![CDATA[현대차, 칸영화제 초청작 '호프'에 클래식 모델 스텔라 후원
+
+
+    (서울=연합뉴스) 홍규빈 기자 = 현대자동차는 제79회 칸영화제 경쟁 부문에 초청된 영화 '호프'를 후원했다고 24일 밝혔다.
+    나홍진 감독의 신작 '호프'는 비무장지대에 위치한 항구마을 호포항에 정체를 알 수 없는 생명체가 찾아오면서 벌어지는 이야기를 그렸다.
+    현대차의 클래식 모델 '스텔라'는 출장소장 범석(황정민)과 순경 성애(정호연)의 차량인 경찰차로 등장한다.
+    스텔라는 영화 내 주요 추격 장면에서 시대적 배경을 살리고 작품의 긴장감을 높이는 상징적인 오브제로 활용됐다고 현대차는 설명했다.
+    현대차는 영화, 예술, 스포츠 등 다양한 문화 영역에서 창의적인 도전과 새로운 가능성을 지원하며 고객과의 소통을 확대해 나간다는 방침이다.
+    현대차 관계자는 "나홍진 감독의 대담한 상상력과 독창적인 세계관이 돋보이는 영화 '호프'가 칸 영화제 경쟁 부문을 통해 글로벌 무대에 소개돼 뜻깊다"면서 "스텔라가 전체 서사를 이끄는 핵심 역할을 하는 만큼 관객에게 강렬한 인상을 남길 것"이라고 말했다.
+
+    bingo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[영화 '호프' 주요 스틸컷]]></Title>
+         <Caption><![CDATA[[현대자동차 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260524014800003_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/24/AKR20260524014800003_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[현대자동차 '스텔라']]></Title>
+         <Caption><![CDATA[[현대자동차 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260524014800003_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/24/AKR20260524014800003_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260329035800704</ContentID>
+      <SendDate>20260329</SendDate>
+      <SendTime>165941</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0109003" name="육군"/>
+         <ClassCode code="0605009" name="마약"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001081" name="연합영상"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260329035800704]]></Href>
+      <Writer><![CDATA[김건태]]></Writer>
+      <Desk code="704"><![CDATA[영상미디어부]]></Desk>
+      <DeliCode>L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[영상] 전차 쾅! 공격헬기 드르륵…에콰도르군, 불법 채굴 광산 폭격]]></Title>
+      <Body><![CDATA[[영상] 전차 쾅! 공격헬기 드르륵…에콰도르군, 불법 채굴 광산 폭격
+    
+[https://youtu.be/ZOElNSkP_pI]
+    
+    (서울=연합뉴스) 에콰도르군이 전차와 공격헬기를 동원해 콜롬비아 국경에서 불법 채굴 광산을 폭격했습니다.
+    28일(현지시간) 로이터통신과 남미 현지 매체 등 외신 보도에 따르면 '광산 마피아와의 전쟁'을 선포한 에콰도르 육군은 전날 콜롬비아 접경 지역에 위치한 북부 카르치 주 엘 치칼 마을에서 불법 채굴 광산을 폭격하는 '치명적인 화염' 군사작전을 개시했습니다.
+    이번 공격에는 AMX-13 전차 3대, 81mm 박격포와 포탄 40발, 12.7mm 탄약으로 무장한 H125M 페넥(AS550 C3) 경공격 헬리콥터, 7.62mm 탄약 5천520발을 사용하는 공용화기 등 복합 무기 체계를 총동원해 지상과 공중에서 연합작전을 펼쳤습니다. 
+    에콰도르 국방부는 4일간 진행되는 이번 작전 동안 지속적인 폭격과 집중포화를 통해 약 50곳의 광산 입구를 파괴할 것이라고 밝혔습니다.
+    국방부에 따르면 광산 마피아들이 불법 채굴로 벌어들이는 수익은 하루 약 30만 달러(약 4억2천만원)정도인 것으로 알려졌습니다. 영상으로 보시죠.
+
+    제작: 김건태·신태희
+    영상: 로이터·X @UltimaHoraCR@EjercitoECU·@trig69080·@Cresatelitalecu
+    kgt1014@yna.co.kr
+
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <FileName>AKR20260329035800704_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/29/AKR20260329035800704_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

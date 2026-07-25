@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260518065100004</ContentID>
+      <SendDate>20260518</SendDate>
+      <SendTime>120007</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="03"/>
+      <Class>
+         <ClassCode code="0501001" name="사회일반"/>
+         <ClassCode code="0501003" name="인권"/>
+         <ClassCode code="0502001" name="사회보장"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260518065100004]]></Href>
+      <Writer><![CDATA[양수연]]></Writer>
+      <Desk code="004"><![CDATA[사회부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[인권위, 국방부에 "격오지 군무원 주거권·의료접근권 개선해야"]]></Title>
+      <Body><![CDATA[인권위, 국방부에 "격오지 군무원 주거권·의료접근권 개선해야"
+
+
+    
+    (서울=연합뉴스) 양수연 기자 = 국가인권위원회는 격오지와 접경지역에 근무하는 군무원들의 주거권과 의료접근권을 보장하기 위해 관련 규정을 정비하라고 국방부 장관에게 권고했다.
+    인권위는 지난해 10∼11월 취약지역에 근무하는 군무원 및 간부 등을 대상으로 방문 조사와 설문조사를 병행해 주거·의료 및 근무 여건 전반에 대한 실태를 점검하고 지난달 국방부에 이 같은 처우 개선 조치를 권고했다고 18일 밝혔다. 
+    조사 결과 군무원은 군인과 동일한 환경에서 근무하고 있음에도 관사 입주가 제한적으로 허용되고 있었다. 
+    관사에 입주한 경우에도 현역 군인의 신청이 있을 경우 2개월 내 퇴거해야 하는 등 주거 조건이 매우 불안정한 것으로 확인됐다.
+    또 군 의료기관에서 진료를 받을 수는 있지만, 군인과 달리 외부 약국을 이용해야 하는 불편을 겪는 것으로 나타났다.
+    이에 인권위는 국방부 장관에게 군무원을 주거지원 대상에 포함하는 제도를 마련하고 이들이 관사에 안정적으로 거주할 수 있도록 관련 규정을 정비하라고 권고했다. 
+    국회의장에게는 군무원 주거지원과 관련해 '군인복지기본법' 개정안의 조속한 심의·처리가 필요하다는 의견을 표명했다.
+    아울러 국방부 장관과 복지부 장관에게 군 의료시설에서 군무원에 대한 원내 조제가 가능하도록 '약사법 시행령' 개정을 추진할 것을 권고했다. 
+    seele@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[서울 중구 국가인권위원회 모습]]></Title>
+         <Caption><![CDATA[[촬영 홍해인] 2022.4.4]]></Caption>
+         <FileName>PCM20251020000106365_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/10/20/06/PCM20251020000106365_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

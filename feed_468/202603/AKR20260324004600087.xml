@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260324004600087</ContentID>
+      <SendDate>20260324</SendDate>
+      <SendTime>034007</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260324004600087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[콜롬비아서 군수송기 추락…120여명 탑승한 듯(종합)]]></Title>
+      <SubTitle><![CDATA[로이터 "71명 생존상태로 후송"…사상자 수·사고원인 파악되지 않아
+사고 수송기 1950년대 출시…볼리비아서도 2월 동종 기종 추락으로 50명 사상]]></SubTitle>
+      <Body><![CDATA[콜롬비아서 군수송기 추락…120여명 탑승한 듯(종합)
+로이터 "71명 생존상태로 후송"…사상자 수·사고원인 파악되지 않아
+사고 수송기 1950년대 출시…볼리비아서도 2월 동종 기종 추락으로 50명 사상
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = 콜롬비아 국방부는 23일(현지시간) 자국 남부 지역에서 군 수송기가 추락했다고 밝혔다. 로이터통신은 해당 수송기에 장병 125명이 탑승 중이었다고 보도했다.
+    페드로 산체스 콜롬비아 국방부 장관은 이번 사고가 페루 접경지인 아마존 남부 깊숙한 곳의 푸에르토 레기사모에서 군 병력을 이송하기 위해 이륙하던 중 발생했다고 전하며 "정확한 희생자 수와 추락 원인은 아직 파악되지 않았다"라고 말했다.
+    로이터통신은 군 관계자 2명을 인용해 추락한 기체 잔해 속에서 현재까지 71명이 생존한 상태로 구조돼 후송됐다고 보도했다.
+    현재 사고 현장에는 구조대가 급파됐으며 정확한 사고 원인은 조사 중이다.
+    사고지점은 도심에서 불과 3km 떨어진 곳으로, 현지 매체 블루라디오가 공개한 현장 영상에는 기체 잔해에서 짙은 연기가 치솟는 모습이 담겼다.
+    사고가 난 수송기는 록히드마틴사의 허큘리스 C-130으로, 최대 120명까지 탑승이 가능한 것으로 알려졌다. 
+    1950년대 출시된 노후 기종으로, 콜롬비아는 1960년대 말 이를 도입했다. 오래된 탓에 관련 사고도 잇따르고 있다. 
+    앞서 지난 2월 말에도 볼리비아 공군 소속 허큘리스 C-130 한 대가 인구 밀집 지역인 엘 알토시에 추락해 20명이 숨지고, 30명이 다쳤다.
+    구스타보 페트로 콜롬비아 대통령은 소셜미디어 엑스(X·옛 트위터)를 통해 "결코 일어나지 말았어야 할 이 끔찍한 사고에서 사망자가 없기를 바란다"라고 밝혔다.
+    아울러 군 현대화를 가로막는 관료적 장애물도 강도 높게 비판하면서 "우리 젊은이들의 생명이 달린 문제인 만큼 (군 현대화) 지체는 더 이상 용납하지 않겠다"고 강조했다. 
+    buff27@yna.co.kr
+[https://youtu.be/nsZ3ag_L7SU]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[콜롬비아서 군 수송기 추락]]></Title>
+         <Caption><![CDATA[[AFP=연합뉴스]]]></Caption>
+         <FileName>AKR20260324004600087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/24/AKR20260324004600087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

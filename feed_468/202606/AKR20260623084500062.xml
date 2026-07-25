@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260623084500062</ContentID>
+      <SendDate>20260623</SendDate>
+      <SendTime>113406</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004018" name="화천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0701004" name="축제"/>
+         <ClassCode code="0107003" name="지방정가"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260623084500062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[기본소득부터 AI 산천어축제까지…화천군 민선 9기 공약 점검]]></Title>
+      <SubTitle><![CDATA[인수위 보고회 개최…김세훈 당선인 주요 공약 검토]]></SubTitle>
+      <Body><![CDATA[기본소득부터 AI 산천어축제까지…화천군 민선 9기 공약 점검
+인수위 보고회 개최…김세훈 당선인 주요 공약 검토
+
+
+    (화천=연합뉴스) 이상학 기자 = 강원 화천군이 민선 9기 출범을 앞두고 군수 당선인 공약사항 점검과 이행계획 수립에 나섰다.
+    23일 화천군에 따르면 지난 22일부터 이날까지 군수직 인수위원회에서 민선 9기 공약사항 보고회를 열고 주요 공약의 실행 방안과 과제를 논의했다.
+    논의 대상은 기본소득과 지역경제 활성화, 미래농업 및 축산 혁신, 사계절 관광·스포츠 산업 육성, 정주여건 개선, 교육·돌봄 혁신, 복지 확대, 군인가족 지원 등 민선 9기 핵심 공약 전반이다.
+    특히 군민 기본소득과 인구 유입 및 정착 지원, 소상공인 경쟁력 강화, 농업예산 확대, 농산물 가격안정기금 조성, 전략작목 육성 등 경제·농업 분야 공약에 대한 추진 방향이 집중 논의됐다.
+
+    관광 분야에서는 화천산천어축제의 AI 기반 글로벌 스마트 축제 전환과 사계절 체류형 관광지 조성, DMZ 평화관광 거점 육성 방안 등이 검토됐다.
+    또 체육회관 건립과 스포츠마케팅 확대, 파크골프 산업 육성 등 지역 성장동력 확보 방안도 주요 의제로 다뤄졌다.
+    김세훈 화천군수 당선인은 보고회에서 "군민과 약속한 공약이 실질적인 성과로 이어질 수 있도록 실행력 있는 정책 추진 기반을 마련하겠다"며 "취임 이후 곧바로 군정이 속도를 낼 수 있도록 철저히 준비하겠다"고 밝혔다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[김세훈 당선인]]></Title>
+         <Caption><![CDATA[[화천군 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260623084500062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/23/AKR20260623084500062_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[인수회 보고회]]></Title>
+         <Caption><![CDATA[[화천군 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260623084500062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/23/AKR20260623084500062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

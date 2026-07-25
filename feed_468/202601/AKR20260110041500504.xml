@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260110041500504</ContentID>
+      <SendDate>20260110</SendDate>
+      <SendTime>160001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0109013" name="안보국방"/>
+         <ClassCode code="1001005" name="북한군사"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260110041500504]]></Href>
+      <Writer><![CDATA[김철선]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[軍 "북한 자극 의도 없다…민간 무인기 가능성 철저히 조사"]]></Title>
+      <SubTitle><![CDATA["1차 조사결과 우리 軍 보유기종 아냐…남북 긴장완화 위해 실질적 조치할 것"]]></SubTitle>
+      <Body><![CDATA[軍 "북한 자극 의도 없다…민간 무인기 가능성 철저히 조사"
+"1차 조사결과 우리 軍 보유기종 아냐…남북 긴장완화 위해 실질적 조치할 것"
+
+
+    (서울=연합뉴스) 김철선 기자 = 국방부는 10일 한국이 무인기를 또다시 침투시켰다는 북한의 주장에 대해 우리 군의 작전이 아니라고 거듭 강조하며 민간 영역에서 이뤄졌을 가능성을 철저히 조사하겠다고 밝혔다.
+    김홍철 국방정책실장은 이날 '무인기 관련 북 총참모부 성명에 대한 국방부 입장'을 발표하고, "1차 조사결과, 우리 군은 해당 무인기를 보유하고 있지 않으며 북한이 발표한 일자의 해당 시간대에 무인기를 운용한 사실도 없다"고 말했다.
+    김 실장은 "민간 영역에서 무인기를 운용했을 가능성에 대해선 정부 유관기관과 협조해 철저한 조사를 진행할 예정"이라고 밝혔다.
+    그러면서 "우리는 북한을 도발하거나 자극할 의도가 없으며, 남북 간 긴장을 완화하고 신뢰를 쌓아가기 위해 실질적인 조치와 노력을 지속해갈 것"이라고 덧붙였다.
+
+    앞서 북한은 이날 조선인민군 총참모부 대변인 성명을 통해 작년 9월과 이달 4일 한국이 무인기를 침투시켰다고 주장했다.
+    북한은 이들 무인기가 민간인 출입이 통제되는 접경지역에서 주간에 이륙해 한국군 감시장비를 모두 통과했다며 "배후를 어렵지 않게 짐작할 수 있게 해준다"고 했다. 무인기 침투가 한국군의 소행으로 지목한 것이다.
+    청와대는 북한 주장의 경위와 관련 내용을 확인하고 대응하기 위해 김현종 국가안보실 제1차장 주재로 국가안전보장회의(NSC) 실무조정회의를 열었다.
+    kcs@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[北 "韓, 작년 9월과 4일에 또 무인기 도발…대가 각오해야"]]></Title>
+         <Caption><![CDATA[(평양 조선중앙통신=연합뉴스) 북한 조선인민군 총참모부 대변인은 10일 조선중앙통신을 통해 작년 9월과 지난 4일에 한국이 침투시킨 무인기를 격추했다고 주장하며 이에 대한 대가를 치르게 될 것이라고 위협했다. 사진은 북한이 주장한 추락된 한국 무인기 잔해들. 2026.1.10 
+    [국내에서만 사용가능. 재배포 금지. For Use Only in the Republic of Korea. No Redistribution] nkphoto@yna.co.kr]]></Caption>
+         <FileName>PYH2026011000440004200_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/10/PYH2026011000440004200_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[북한의 한국 무인기 침투 주장 관련 입장발표]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 김인철 기자 = 김홍철 국방부 국방정책실장이 10일 서울 용산구 국방부 브리핑룸에서 무인기 관련 북한 총참모부 성명에 대한 국방부의 입장을 발표하고 있다.
+    이날 국방부는 한국이 무인기를 또다시 침투시켰다는 북한의 주장에 대해 우리 군의 작전이 아니라고 거듭 강조하며 민간 영역에서 이뤄졌을 가능성을 철저히 조사하겠다고 밝혔다. 2026.1.10 yatoya@yna.co.kr]]></Caption>
+         <FileName>PYH2026011002460001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/01/10/PYH2026011002460001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

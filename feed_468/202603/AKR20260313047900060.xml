@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260313047900060</ContentID>
+      <SendDate>20260313</SendDate>
+      <SendTime>095001</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260313047900060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주시, 미군 반환 공여지 '캠프하우즈 도시숲 조성사업' 착수]]></Title>
+      <Body><![CDATA[파주시, 미군 반환 공여지 '캠프하우즈 도시숲 조성사업' 착수
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시는 미군 반환 공여지인 조리읍 캠프하우즈 부지를 시민을 위한 녹색 휴식 공간으로 조성하기 위한 '캠프하우즈 도시숲 조성사업'을 본격적으로 추진한다고 13일 밝혔다.
+
+    캠프하우즈 도시숲 조성사업은 캠프하우즈 근린공원 조성사업의 일환으로 추진되는 총 3단계 사업 중 2단계에 해당한다. 
+    단계별 사업을 통해 과거 군사시설이었던 공간을 시민 중심의 공원·문화 공간으로 탈바꿈시키는 것이 목표다.
+    2단계 사업인 '도시숲 조성사업'은 접경지역 특수상황 지역개발 신규사업에 선정되면서 국비 50억원을 확보해 추진 중이다. 
+    이 사업은 3만1천㎡ 규모로 도시숲을 조성하며, 관리동과 주차장을 비롯해 자연과 어우러진 야영장 등을 설치하는 내용을 담고 있다. 
+    사업은 올해 설계를 마치고, 내년 착공해 2028년 준공을 목표로 한다.
+    파주시는 이번 사업을 통해 과거 미군이 주둔했던 공간을 시민들이 자유롭게 찾는 휴식과 여가의 공간으로 전환해 지역의 역사적 의미를 살리면서도 새로운 도시 자산으로 활용한다는 방침이다.
+    정해오 파주시 평화경제과장은 "자연과 문화, 휴식이 공존하는 공원을 조성해 시민들이 일상에서 평화를 체감할 수 있는 공간으로 만들어 가겠다"고 말했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[캠프하우즈 도시숲 조감도]]></Title>
+         <Caption><![CDATA[[파주시 제공.  재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260313047900060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/13/AKR20260313047900060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

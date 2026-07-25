@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260526178900079</ContentID>
+      <SendDate>20260526</SendDate>
+      <SendTime>235251</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001305" name="외신인용"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260526178900079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[이스라엘군, 레바논 남부 지상전 확대…"옐로라인 넘었다"]]></Title>
+      <Body><![CDATA[이스라엘군, 레바논 남부 지상전 확대…"옐로라인 넘었다"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 베냐민 네타냐후 이스라엘 총리가 레바논의 친이란 무장 정파 헤즈볼라에 대한 공세 강화를 지시한 이후 이스라엘군이 레바논 남부의 지상전 구역을 확대하고 있다.
+    이스라엘 히브리어 매체들은 26일(현지시간) 익명의 안보 소식통을 인용, 이스라엘군이 최근 옐로라인 너머로 지상 작전을 확대했다고 전했다.
+    옐로라인은 헤즈볼라에 의한 안보 위협을 줄이기 위해 이스라엘군이 지난달 중순 레바논 남부에 설정한 구역이다.
+    이스라엘군은 헤즈볼라의 군사 인프라와 작전 거점을 겨냥해 전방 방어선 외곽은 물론 리타니 강 이북까지 진출해 첩보 기반의 표적 급습 작전을 진행하고 있다.
+    이스라엘 군 당국은 헤즈볼라 병력을 국경에서 멀리 밀어내는 것이 이스라엘 북부 접경지 주민들에 대한 위협을 최소화하는 데 도움이 된다면서, 레바논 남부에 대규모 지상군 병력을 투입해 작전을 지속해왔다.
+    이스라엘군은 도널드 트럼프 미국 대통령의 중재로 휴전이 시작된 지난달 17일 이후에도 헤즈볼라가 레바논 남부에 주둔 중인 병력을 위협한다는 이유로 공세를 멈추지 않았다.
+    더욱이 최근에는 이스라엘 공군 전투기들이 레바논 남부 전역에 대한 대대적인 공습까지 재개하면서 사상자가 속출하고 있다.
+
+    이런 가운데 네타냐후 총리는 전날 영상 성명에서 헤즈볼라의 공격이 계속되고 있다면서 "우리에게 필요한 것은 공격 강도를 높이고 병력을 늘리는 것"이라며 이스라엘군에 공세 강화를 지시했다.
+    meolakim@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 남부 마을에서 작전 중인 이스라엘군 병사]]></Title>
+         <Caption><![CDATA[[이스라엘군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260526178900079_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/26/AKR20260526178900079_01_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군의 레바논 남부 공습 재개]]></Title>
+         <Caption><![CDATA[[AFP 연합뉴스. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260526178900079_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/26/AKR20260526178900079_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

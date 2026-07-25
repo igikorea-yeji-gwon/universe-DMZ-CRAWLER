@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260202133800062</ContentID>
+      <SendDate>20260202</SendDate>
+      <SendTime>160330</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004001" name="강원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0504001" name="복지일반"/>
+         <ClassCode code="0509001" name="노동일반"/>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0107005" name="지방발전"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260202133800062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도, 사회복지종사자 처우개선 종합계획 수립]]></Title>
+      <SubTitle><![CDATA[3년간 1천억원 투입…건강권·임금체계·장기근속 지원 강화]]></SubTitle>
+      <Body><![CDATA[강원도, 사회복지종사자 처우개선 종합계획 수립
+3년간 1천억원 투입…건강권·임금체계·장기근속 지원 강화
+
+    (춘천=연합뉴스) 이상학 기자 = 강원특별자치도가 사회복지종사자 처우개선 조례 제정 이후 13년 만에 처음으로 종합계획을 수립하며 관련 정책을 체계화한다.
+
+    강원도는 올해부터 2028년까지 3년간 적용되는 '제1차 강원특별자치도 사회복지종사자 처우개선 종합계획'을 마련했다고 2일 밝혔다. 
+    이번 계획에는 신규·확대 사업 7개를 포함해 4개 분야 15개 사업에 총 1천억원이 투입된다.
+    도의 사회복지사 등 처우개선 조례는 2013년 제정돼 도지사가 종합계획을 수립하도록 규정하고 있지만, 그동안 개별 사업 중심으로 정책이 추진돼 왔다. 
+    도는 이번 종합계획 수립을 통해 분산돼 있던 처우개선 정책을 중장기 전략으로 묶었다는 데 의미를 두고 있다.
+    종합계획은 사회복지종사자의 건강권 보장과 임금체계 개선, 권익 보호 강화, 장기근속 유도와 청년 인력 이탈 방지에 초점을 맞췄다. 
+
+    현재 강원도는 아동복지시설 호봉제 도입을 비롯해 종사자 복지수당·처우개선수당 지원, 장기근속휴가제와 유급병가제, 상해보험 가입 지원 등 다양한 사업을 단계적으로 추진하고 있다.
+    도는 이들 정책이 현장에 안착하며 성과를 거두고 있다고 판단하고 지원 대상을 넓히고 내용과 수준을 보완한 중장기 계획을 마련하게 됐다고 설명했다.
+    이에 따라 올해부터 사회복지종사자를 대상으로 1인당 20만원 규모의 종합건강검진비를 격년제로 지원하고, 다함께돌봄센터 종사자에 대한 호봉제를 도입한다. 
+    또 사회복지종사자 권익지원센터의 전담 인력과 운영 예산을 확충하고, 대체인력이 배치되지 않은 시·군에 대해 도 차원의 지원을 확대해 현장 인력 공백을 최소화할 계획이다.
+    특히 2027년부터는 청년 사회복지사의 장기근속과 지역 정착을 유도하기 위해 '청년사회복지사 정착수당'을 신설하고, 벽지·접경지·폐광지 등 특수지역 근무자를 대상으로 한 근무수당도 지원한다. 
+    김진태 지사는 "사회복지종사자 처우개선 종합계획을 수립한 것은 조례 제정 이후 13년 만에 처음"이라며 "앞으로도 사회복지종사자들의 현장 의견을 폭넓게 수렴해 점진적으로 보완·확대해 나가겠다"고 말했다.
+
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[가정형 호스피스 (PG)]]></Title>
+         <Caption><![CDATA[[정연주 제작] 일러스트]]></Caption>
+         <FileName>PCM20190709000136990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2019/07/09/36/PCM20190709000136990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[복지 (CG)]]></Title>
+         <Caption><![CDATA[[연합뉴스TV 제공]]]></Caption>
+         <FileName>PCM20220825000138990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2022/08/25/38/PCM20220825000138990_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[강원특별자치도 청사 현판]]></Title>
+         <Caption><![CDATA[[연합뉴스 자료사진]]]></Caption>
+         <FileName>PCM20250204000085990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2025/02/04/85/PCM20250204000085990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

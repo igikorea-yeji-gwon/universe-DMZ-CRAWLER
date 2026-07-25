@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260123151400109</ContentID>
+      <SendDate>20260123</SendDate>
+      <SendTime>182650</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7103036" name="우크"/>
+         <RegionCode code="7103009" name="러시아"/>
+         <RegionCode code="7104002" name="미국"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260123151400109]]></Href>
+      <Writer><![CDATA[민경락]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[젤렌스키 "미·러와 3자회의서 영토문제 논의…軍도 참석"]]></Title>
+      <SubTitle><![CDATA[3자회의 준비 착수…"회의 결과 유럽 동맹국과 공유"]]></SubTitle>
+      <Body><![CDATA[젤렌스키 "미·러와 3자회의서 영토문제 논의…軍도 참석"
+3자회의 준비 착수…"회의 결과 유럽 동맹국과 공유"
+
+
+    (로마=연합뉴스) 민경락 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 23일(현지시간) 아랍에미리트(UAE) 아부다비에서 열리는 미·러·우크라이나 당국자 3자회의에서 영토 문제를 논의할 것이라고 밝혔다. 
+    로이터통신에 따르면 젤렌스키 대통령은 이날 기자들과 나눈 SNS 대화에서 "3자회의에서 어떤 내용을 논의할지 우크라이나 협상팀과 의견을 나눌 예정"이라며 이같이 밝혔다.
+    영토 문제는 종전안 논의에서 최대 난제다.
+    러시아와 우크라이나는 동부 도네츠크주의 소유권을 두고 접점 없는 대치 중이다. 러시아는 도네츠크 전체를 포기하라고 요구하지만 우크라이나는 현재 전선을 동결하고 비무장지대를 만들자고 맞서고 있다.
+    젤렌스키 대통령은 "이번 3자회의에 군사·정보 당국 대표들도 참석한다"고 밝혔다. 민감한 영토 문제와 관련해 더 구체적인 논의가 이뤄질 가능성이 있다는 뜻으로 보인다.
+    그는 이날 3자회의가 끝난 뒤 결과를 모든 유럽 동맹국과 공유할 것이라고 밝혔다.
+    젤렌스키 대통령은 전날 도널드 트럼프 미국 대통령과 합의한 안전보장안과 관련해 미국 측의 구체적인 합의안 서명 날짜와 장소를 기다리고 있다고 전했다.
+    젤렌스키 대통령은 전날 다보스포럼에서 열린 트럼프 대통령과 회담의 의제에 '자유경제지대'도 포함됐다고 설명했다.
+    군사요충지인 돈바스(도네츠크와 루한스크) 지역을 두고 러시아와 우크라이나 간 의견이 대립하자 미국은 돈바스 지역을 특별행정 구역의 일종인 자유경제지대나 비무장지대로 하자는 안을 제시한 바 있다.
+    rock@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[다보스포럼서 만난 젤렌스키 우크라 대통령과 트럼프 미 대통령]]></Title>
+         <Caption><![CDATA[[로이터 연합뉴스 자료사진. 재배포 및 DB 금지]]]></Caption>
+         <FileName>PRU20260123085001009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/reuters/2026/01/23/PRU20260123085001009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

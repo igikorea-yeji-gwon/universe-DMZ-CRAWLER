@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260604012000062</ContentID>
+      <SendDate>20260604</SendDate>
+      <SendTime>014708</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004006" name="속초"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107001" name="지방행정"/>
+         <ClassCode code="0105001" name="선거일반"/>
+         <ClassCode code="0605004" name="강절도"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001006" name="인터뷰"/>
+         <AttributeCode code="9001226" name="강원선거"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260604012000062]]></Href>
+      <Writer><![CDATA[류호준]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[인터뷰] 이병선 속초시장 당선인 "위대한 시민 모두의 승리"]]></Title>
+      <SubTitle><![CDATA["갈등 뒤로 하고 하나로 나아가야…속초 미래 위해 함께 협력"]]></SubTitle>
+      <Body><![CDATA[[인터뷰] 이병선 속초시장 당선인 "위대한 시민 모두의 승리"
+"갈등 뒤로 하고 하나로 나아가야…속초 미래 위해 함께 협력"
+
+
+    (속초=연합뉴스) 류호준 기자 = 강원 속초시장 수성에 성공한 국민의힘 이병선 당선인은 4일 "존경하고 사랑하는 속초시민 여러분, 진심으로 감사드린다"며 "중단없는 발전과 더 큰 도약을 열망하신 위대한 속초시민 모두의 승리"라고 밝혔다.
+    이 당선인은 "이제 갈등을 뒤로하고 하나로 나아가야 한다"며 "끝까지 멋진 경쟁을 펼쳐주신 후보님들께도 깊은 위로와 감사를 전한다"고 말했다.
+    특히 "화합의 힘으로 '미래 100년 속초'의 위대한 여정을 시작하겠다"고 강조했다.
+
+    다음은 이 당선인과 일문일답.
+    -- 당선 소감은.
+    ▲ 속초 시민들의 위대한 승리다. 이제는 모든 걸 내려놓고 속초의 밝은 미래를 위해서 함께 지혜를 모으고, 같이 좀 협력해야 하지 않을까 생각한다.
+    -- 최우선 공약은.
+    ▲ 민생 회복 지원금 반드시 추진하겠다. 속초의 미래 비전과 철학을 위해서 동서 고속철도와 동해 북부선 양대 철도도 준비해야 한다. 접경 지역 특별법을 활용해서 속초의 미래 먹거리를 만들어야 한다. 그 밖에 공공기관 이전 유치, 영랑호 친환경 개발을 통한 균형 발전, 평화 경제특구 지정 등도 있다.
+    -- 이번 선거 준비하면서 어려웠던 점.
+    ▲ 민선 8기가 너무 저평가됐다고 생각했다. 상대방 후보들이 왜 이렇게 폄훼하는지 나는 그런 부분이 아쉬웠다. 홍보를 강화해 적극적으로 시민들에게 성과를 알릴 필요가 있다는 생각이 들었다. 그런 게 좀 아쉬웠고, 제가 부족하지 않았나 싶다.
+    -- 선거를 마치며 주변 사람들에게 하고 싶은 말.
+    ▲ 오늘의 이 결과는 제 개인의 어떤 영광이나 노력이 아니다. 속초 시민들이 속초시 발전을 함께 생각하고 고민하시는 부분이 반영했다. 잘 경청하고 그분들과 소통해서 앞으로 속초 발전을 위해서 노력하겠다는 말씀을 드리겠다.
+    ryu@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이병선 강원 속초시장 당선인(오른쪽)과 배우자]]></Title>
+         <Caption><![CDATA[[촬영 류호준]]]></Caption>
+         <FileName>AKR20260604012000062_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/04/AKR20260604012000062_02_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

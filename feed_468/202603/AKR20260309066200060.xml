@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260309066200060</ContentID>
+      <SendDate>20260309</SendDate>
+      <SendTime>103659</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005001" name="경기"/>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0402003" name="임업"/>
+         <ClassCode code="0505007" name="식물"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260309066200060]]></Href>
+      <Writer><![CDATA[김도윤]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA['봄 전령사' 복수초, DMZ에 2년 연속 빨리 개화]]></Title>
+      <Body><![CDATA['봄 전령사' 복수초, DMZ에 2년 연속 빨리 개화 
+
+    (포천=연합뉴스) 김도윤 기자 = 산림청 국립수목원은 국내 최북단 비무장지대(DMZ) 자생식물원에 보전 중인 복수초가 2년 연속 빨리 개화한 것으로 관찰됐다고 9일 밝혔다.
+
+    올해는 지난 8일 첫 꽃망울을 터뜨렸다. 지난해에는 11일, 2024년에는 18일 개화가 시작된 것과 비교하면 각각 3일과 10일 빠르다.
+    국립수목원은 이번 겨울 가뭄으로 눈이 일찍 녹으면서 복수초의 생육 활동이 앞당겨진 것으로 판단했다.
+    이봉우 DMZ산림생물자원연구과장은 "복수초는 현지 외 보전이 까다로운 종"이라며 "개화 시기 변화는 계절 현상 연구에 있어 가치가 매우 높다"고 말했다.
+    복수초는 온도 상승과 강수량 감소 등의 기후변화 실험 조건에서 개화가 앞당겨지는 것으로 보고됐다.
+    기상청에 따르면 지난해 12월부터 지난 2월까지 전국 강수량은 45.6㎜로 평년 89.0㎜의 53.0%에 그쳤다.
+    행운과 장수를 상징하는 복수초는 미나리아재비과 초본식물이다.
+    봄에 가장 먼저 피어 얼음새꽃(얼음 사이에 피는 꽃), 설련화(눈 속에서 피는 꽃), 원일초(설날에 피는 꽃) 등으로 불린다.
+    국내 자생하는 복수초속 식물은 복수초, 개복수초, ▲세복수초▲ 등 3종이다. 이중 주변에서 흔히 보는 식물은 개복수초다.
+    DMZ 자생식물원의 복수초는 최북단 고해발 산림에서 생육하는 종이다.
+    kyoon@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[지난 8일 개화한 DMZ 자생식물원 복수초]]></Title>
+         <Caption><![CDATA[[국립수목원 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260309066200060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/09/AKR20260309066200060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

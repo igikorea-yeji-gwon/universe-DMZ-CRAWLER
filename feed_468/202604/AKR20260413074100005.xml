@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260413074100005</ContentID>
+      <SendDate>20260413</SendDate>
+      <SendTime>111257</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="04"/>
+      <Class>
+         <ClassCode code="0703004" name="가톨릭"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260413074100005]]></Href>
+      <Writer><![CDATA[임미나]]></Writer>
+      <Desk code="005"><![CDATA[문화부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[분단의 상징 철조망을 평화의 십자가로…명동성당서 1년간 제작]]></Title>
+      <SubTitle><![CDATA[내년 교황 방한 세계청년대회 앞두고 남북 화해 기원 프로젝트]]></SubTitle>
+      <Body><![CDATA[분단의 상징 철조망을 평화의 십자가로…명동성당서 1년간 제작
+내년 교황 방한 세계청년대회 앞두고 남북 화해 기원 프로젝트   
+    
+
+    (서울=연합뉴스) 임미나 기자 = 남북 분단의 상징 철조망을 평화의 십자가로 탈바꿈시키는 프로젝트가 천주교계에서 진행된다.
+    '2027 서울 세계청년대회(WYD)' 조직위원회는 지난 12일 명동대성당 마당에서 '철조망 십자가 프로젝트' 개막식을 열고 분단과 갈등의 상징인 철조망을 평화의 표징으로 바꾸는 여정을 시작했다고 13일 밝혔다.
+    철조망 십자가 프로젝트는 교황 레오 14세가 방한 예정인 2027 서울 세계청년대회를 준비하면서 조직위원회와 재단법인 같이걷는길이 마련한 신자 참여형 행사다.
+    군사분계선을 비롯해 전국 각지에서 수거한 폐철조망을 청년들이 내년 4월 4일까지 약 1년간 망치로 두드려 펴 '평화의 십자가'를 완성해 나가는 방식으로 진행된다.
+    매주 일요일 오후 1∼3시 명동대성당 마당에서 사전 신청한 참가자들이 약 50cm 길이의 폐철조망을 망치로 두드려 펴 십자가 틀에 채워 넣는 과정을 통해 개인과 사회의 갈등과 상처를 성찰하고 평화를 기도하는 시간을 갖는다.
+    아울러 청년·신자들뿐 아니라 종교·사회·문화 각계 인사들도 참여해 사회적 통합과 화해의 메시지를 확산하는 장이 될 것으로 조직위는 기대했다.
+    철조망 십자가는 높이 약 5m 규모로 완성돼 내년 서울 세계청년대회 기간 중 교황과 전 세계 청년들 앞에서 공개될 예정이다.
+    서울 세계청년대회 조직위원장인 정순택 대주교는 전날 열린 프로젝트 개막식에서 "이스라엘의 사형 도구였던 십자가가 예수 그리스도의 십자가와 부활 사건을 통해 평화와 화해, 희생과 사랑의 상징이 되었듯이, 2027 서울 세계청년대회를 준비하는 우리 마음에 한반도 남북의 화합과 평화, 희생과 사랑의 상징으로 자리매김하기를 기원한다"고 말했다.
+    십자가 만들기 참여 신청은 2027 서울 세계청년대회 조직위 홈페이지(wydseoul.org)나 포스터 QR코드를 통해 이메일(events@wydseoul.org)로 하면 된다.
+    
+
+    mina@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['철조망 십자가 프로젝트' 시연]]></Title>
+         <Caption><![CDATA[[2027 서울 세계청년대회 조직위원회 제공. 재판매 및 DB 금지] 이경상 주교, 정순택 대주교, 박용만 이사장(왼쪽부터)이 지난 12일 명동대성당에서 열린 '철조망 십자가 프로젝트' 개막식에서 철조망을 두드려 펴는 시연을 하고 있다. 2025.4.13]]></Caption>
+         <FileName>AKR20260413074100005_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/13/AKR20260413074100005_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA['철조망 십자가 프로젝트' 개막식]]></Title>
+         <Caption><![CDATA[[2027 서울 세계청년대회 조직위원회 제공. 재판매 및 DB 금지] 2027 서울 세계청년대회 조직위원장 정순택 대주교, 총괄 코디네이터 이경상 주교와 참석자들이 지난 12일 명동대성당 마당에서 열린 '철조망 십자가 프로젝트' 개막식 후 기념촬영을 하고 있다. 2025.4.13]]></Caption>
+         <FileName>AKR20260413074100005_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/04/13/AKR20260413074100005_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

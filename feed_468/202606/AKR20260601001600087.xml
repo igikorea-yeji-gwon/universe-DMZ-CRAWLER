@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260601001600087</ContentID>
+      <SendDate>20260601</SendDate>
+      <SendTime>034733</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7102010" name="미얀마"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Attribute>
+         <AttributeCode code="9001303" name="취재"/>
+      </Attribute>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260601001600087]]></Href>
+      <Writer><![CDATA[송광호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[미얀마 북부서 폭발 사고…최소 46명 사망, 70여명 부상]]></Title>
+      <Body><![CDATA[미얀마 북부서 폭발 사고…최소 46명 사망, 70여명 부상 
+
+
+    (멕시코시티=연합뉴스) 송광호 특파원 = 5월 31일(현지시간) 미얀마 북부의 반군 장악 지역에서 대규모 폭발 사고가 발생해 어린이들을 포함해 최소 46명이 숨지고 70여명이 다쳤다고 AP통신이 보도했다. 
+    보도에 따르면 폭발은 중국 접경지대인 미얀마 샨주 남캄 타운십의 카웅탓 마을의 한 건물에서 발생했다. 
+    현장에 출동한 구조대원은 AP통신에 어린이 6명을 포함해 46구의 시신을 수습했다고 밝혔다. 부상자 또한 74명 안팎에 달해 인명피해는 더 늘어날 것으로 보인다. 현지 언론과 영국 BBC방송은 사망자가 최소 55명에 이른다고 보도했다. 
+    이번 참사는 민가와 인접한 곳에 보관 중이던 광산용 폭약이 터지면서 피해를 키웠다. 폭발 충격으로 인근 주택 100여채가 훼손됐고, 대형 화재도 발생했다고 AP통신은 보도했다.
+    이 지역을 통제하고 있는 소수민족 무장단체 타앙민족해방군(TNLA)은 성명을 통해 "광산 및 채석장용으로 보관하고 있던 젤리그나이트가 터졌다"고 밝혔다.
+    젤리그나이트는 광산 발파용으로 널리 쓰이지만, 보관 상태가 불량하거나 시간이 지나면 상태가 불안정해져 작은 충격에도 폭발하는 위험 물질로 알려졌다.
+    현지 구조대는 건물 잔해 속에 갇힌 주민들을 수색하고 있다.
+    buff27@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[폭발사고가 발생한 미얀마]]></Title>
+         <Caption><![CDATA[[AP=연합뉴스]]]></Caption>
+         <FileName>AKR20260601001600087_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/01/AKR20260601001600087_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

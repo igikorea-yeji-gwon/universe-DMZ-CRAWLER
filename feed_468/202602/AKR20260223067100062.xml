@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260223067100062</ContentID>
+      <SendDate>20260223</SendDate>
+      <SendTime>110846</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004018" name="화천"/>
+      </Region>
+      <Class>
+         <ClassCode code="0409007" name="소상공"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260223067100062]]></Href>
+      <Writer><![CDATA[이상학]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[화천군, 소상공인 노후시설 개선…업소별 최대 1천600만원 지원]]></Title>
+      <SubTitle><![CDATA[실내 시설 개선 원칙, 내부 공사비 80% 보조]]></SubTitle>
+      <Body><![CDATA[화천군, 소상공인 노후시설 개선…업소별 최대 1천600만원 지원
+실내 시설 개선 원칙, 내부 공사비 80% 보조
+
+
+    (화천=연합뉴스) 이상학 기자 = 강원 화천군이 2026년 접경지역 소상공인 시설 현대화 지원사업을 추진한다. 
+    업소별로 최대 1천600만원까지 시설 개선 사업비를 지원하는 내용이다.
+    화천군은 지역 내 위생분야 업소와 소상공인 업소를 대상으로 각각 신청을 받는다고 23일 밝혔다. 
+    위생분야 지원 대상은 대표자가 지역에 주민등록을 두고 1년 이상 사업을 영위 중인 숙박업, 이·미용업, 식품접객업, 목욕장업 등이다. 
+    사치·유흥·향락·투기 업종은 제외된다.
+    소상공인 지원 대상은 체육·문화 서비스업, 군 장병 대상 업소, 편의점과 슈퍼마켓, 서비스업 및 도·소매업 사업자 등이다. 
+    지원이 확정된 업소는 총사업비 2천만원 이내에서 최대 80%인 1천600만원까지 보조를 받을 수 있다.
+    다만, 이번 사업은 실내 시설 개선이 원칙이다. 
+    지원 요건과 세부 자격, 신청 절차 등은 군청 홈페이지에서 확인할 수 있다.
+
+    최문순 화천군수는 "비용 부담으로 시설 개선에 엄두를 내지 못했던 업소들에 실질적인 도움이 되길 기대한다"며 "지역 상권 경쟁력 강화와 소비 활성화가 지원의 목적"이라고 말했다.
+    hak@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[화천군청]]></Title>
+         <Caption><![CDATA[[화천군 제공.재판매 및 DB 금지]]]></Caption>
+         <FileName>PCM20240529000127062_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/05/29/27/PCM20240529000127062_P2.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[화천군]]></Title>
+         <Caption><![CDATA[[화천군 제공]]]></Caption>
+         <FileName>PCM20240812000004990_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2024/08/12/04/PCM20240812000004990_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

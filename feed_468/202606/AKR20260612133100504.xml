@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260612133100504</ContentID>
+      <SendDate>20260612</SendDate>
+      <SendTime>163444</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Category code="07"/>
+      <Class>
+         <ClassCode code="1007005" name="대북정책"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260612133100504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[통일차관 "접경지, 매력적 공간으로 회복中…평화가 민생"]]></Title>
+      <SubTitle><![CDATA[철원서 주민 참여 '평화 토론회']]></SubTitle>
+      <Body><![CDATA[통일차관 "접경지, 매력적 공간으로 회복中…평화가 민생"
+철원서 주민 참여 '평화 토론회'
+    
+    (서울=연합뉴스) 하채림 기자 = 김남중 통일부 차관은 12일, "이제 우리는 (접경지역에서) 평화로운 일상을 되찾고 철원을 비롯한 접경지역은 매력적인 공간으로 회복되고 있다"고 밝혔다. 
+    김 차관은 이날 강원도 철원 DMZ두루미 평화타운에서 '접경의 목소리, 평화를 말하다' 주제로 열린 평화 토론회 개회사를 통해 "평화가 곧 민생"이라며 이같이 평가했다. 
+    그는 윤석열 정부 당시 대북 확성기 방송 재개와 민간단체 대북 전단 살포, 북한의 대남 방송과 오물 풍선을 언급하며 "이전의 남북관계에서는 경험해보지 못했던 대립과 갈등의 악순환이 반복됐다"고 지적했다. 
+    김 차관은 이재명 정부 출범 직후 대북 확성기 방송과 대북 전단 살포 중단 등 '선제적인 신뢰 조치'로 대남 소음 방송이 중단되고 오물 풍선도 사라졌다고 설명했다. 
+    이어 "현재 남북관계나 국제정세 등은 결코 녹록지 않다"면서도, "바늘구멍이라도 뚫는다는 자세로 대화를 재개하고, 한반도 평화공존을 제도화해 나갈 것"이라고 강조했다. 
+
+     이날 토론회는 앞서 작년 11월 경기도 접경지역 민간인통제선 이북 3개 마을 주민 대상 토론회에 이어 강원도 접경지역 주민의 목소리를 경청하는 현장 소통의 하나로 마련됐다. 
+    토론회에는 통일부·국방부·철원군 당국자와 전문가 외에도 철원군 민간인 통제선 이북에 있는 유곡리·정연리·이길리 주민 대표들이 참여했다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[통일부, 철원서 접경지역 주민과 평화 토론회 개최]]></Title>
+         <Caption><![CDATA[[통일부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260612133100504_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/12/AKR20260612133100504_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

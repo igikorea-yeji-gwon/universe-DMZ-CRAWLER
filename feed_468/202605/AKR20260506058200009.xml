@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260506058200009</ContentID>
+      <SendDate>20260506</SendDate>
+      <SendTime>104502</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0109005" name="공군"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260506058200009]]></Href>
+      <Writer><![CDATA[임수정]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[주한미군 부사령관에 슈메이커 지명…한국서 3차례 근무]]></Title>
+      <SubTitle><![CDATA[연합사 공군 구성군사령관·미 7공군사령관 겸해]]></SubTitle>
+      <Body><![CDATA[주한미군 부사령관에 슈메이커 지명…한국서 3차례 근무
+연합사 공군 구성군사령관·미 7공군사령관 겸해
+
+
+    (서울=연합뉴스) 임수정 기자 = 미 국방부가 5일(현지시간) 데이비드 G. 슈메이커 공군 소장을 중장으로 진급시켜 주한미군 부사령관에 지명했다고 밝혔다.
+    피트 헤그세스 미 국방장관은 이날 보도자료를 통해 도널드 트럼프 대통령이 주요 장성급 지휘관들을 지명했다며 이같이 밝혔다.
+    슈메이커 지명자는 경기 오산기지의 미7공군사령관과 한미연합사령부 및 유엔사령부 공군 구성군사령관을 겸하게 된다.
+    그는 현재 카타르 알우데이드 공군기지에서 미 중부사령부 제9공군(중부공군) 부사령관 및 연합공군구성군사령부 부사령관으로 재직 중이라고 미 국방부는 설명했다.
+    미군 주요 사령부의 장성급 지휘관 보임자들은 의회 인준 절차를 거쳐 임명된다.
+    1994년 미 공군사관학교를 졸업한 그는 T-37, T-38, F-16A/B/C/D 기종에서 2천 시간 이상의 비행 경력을 보유한 베테랑 조종사 출신이다. 
+    한국 군산 공군기지에서 3차례 근무한 경력도 갖고 있다. 제8작전전대(2005∼2006년) 표준화·평가 책임자, 제35전투비행대대 작전 책임자(2010∼2011년), 제8전투비행단장(2017~2018년) 등을 거쳤다.  
+    sj9974@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[데이비드 슈메이커 공군 소장]]></Title>
+         <Caption><![CDATA[[미국 공군 홈페이지 캡처. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260506058200009_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/05/06/AKR20260506058200009_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

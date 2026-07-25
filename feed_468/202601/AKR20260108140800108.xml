@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260108140800108</ContentID>
+      <SendDate>20260108</SendDate>
+      <SendTime>184243</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107002" name="레바논"/>
+         <RegionCode code="7107012" name="이스라엘"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260108140800108]]></Href>
+      <Writer><![CDATA[김동호]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[레바논, 이스라엘 접경지서 '헤즈볼라 무장해제' 1단계 마쳐]]></Title>
+      <Body><![CDATA[레바논, 이스라엘 접경지서 '헤즈볼라 무장해제' 1단계 마쳐
+
+
+    (이스탄불=연합뉴스) 김동호 특파원 = 레바논이 이스라엘 접경지역에서 친이란 무장정파 헤즈볼라에 대한 무장해제 1단계를 완료했다고 레바논 국영 NNA통신이 8일(현지시간) 보도했다.
+    레바논군은 성명을 내고 리타니강 남쪽 지역에서 1단계 목표가 효과적이고 구체적으로 달성됨에 따라 '무기 통합 계획'이 상당한 진전을 이뤘다고 밝혔다.
+    레바논군은 이 일대에서 헤즈볼라의 재건을 막기 위해 통제권을 확보하는 작업과 함께 불발탄 제거, 땅굴 해체 등을 병행하고 있다고 설명했다.
+    레바논군은 "이스라엘이 레바논 영토를 계속 공격하면서 여러 지역을 점령하고 완충지역을 설정하는 등 행위는 2024년 11월 27일 체결된 휴전 협정을 위반하는 것으로, 레바논 국가의 '무기 독점'에 방해가 된다"고 지적했다.
+    이스라엘이 군사행동을 이어가는 것이 헤즈볼라에 대한 무장해제 추진에 도움이 되지 않는다는 주장이다.
+    레바논군의 이번 발표는 휴전 합의가 제대로 이행되고 있다는 점을 강조하면서 이스라엘의 추가 무력 도발을 억제하려는 의도로 해석된다.
+    헤즈볼라는 2023년 10월 발발한 가자지구 전쟁 국면에서 팔레스타인을 지지한다는 명분으로 이스라엘을 공격하기 시작했고, 이에 이스라엘은 레바논 남부로 지상전을 전개하며 대응하다 2024년 10월 미국과 프랑스의 중재로 휴전한 바 있다.
+    하지만 이스라엘은 리타니강 이남에서 헤즈볼라 병력을 철수하고 무장해제한다는 약속이 제대로 이행되지 않는다며 이 일대에 전초기지 5곳을 만들고 산발적인 공습을 이어왔다.
+    일각에서는 애초 도널드 트럼프 미국 행정부가 레바논 정부에 제시했던 무장해제 시한이 작년 말이었던 만큼 이스라엘이 이를 핑계로 레바논에서 본격적인 군사작전을 재개할 수 있다는 관측이 제기되고 있다.
+    dk@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[지난 6일(현지시간) 레바논 남부 시돈의 건물들이 이스라엘 공습 피해를 본 모습.]]></Title>
+         <Caption><![CDATA[[타스 연합뉴스 자료사진 재판매 및 DB 금지]]]></Caption>
+         <FileName>PTA20260107004401009_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/etc/ta/2026/01/07/PTA20260107004401009_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

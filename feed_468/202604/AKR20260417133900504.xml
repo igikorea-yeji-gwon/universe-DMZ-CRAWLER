@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260417133900504</ContentID>
+      <SendDate>20260417</SendDate>
+      <SendTime>172452</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="01"/>
+      <Class>
+         <ClassCode code="1007001" name="남북교류"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260417133900504]]></Href>
+      <Writer><![CDATA[하채림]]></Writer>
+      <Desk code="504"><![CDATA[외교안보부]]></Desk>
+      <DeliCode>H1G1L1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[민화협 등 9개 단체 민간통일운동 사업에 총 5억 보조]]></Title>
+      <Body><![CDATA[민화협 등 9개 단체 민간통일운동 사업에 총 5억 보조
+
+
+    (서울=연합뉴스) 하채림 기자 = 통일부는 '민간 통일운동 활성화 지원사업' 수행 단체 공모 결과 민족화해협력범국민협의회(민화협)와 평화삼천 등 9개 비영리 민간단체가 사업자로 선정했다고 17일 밝혔다. 
+    민족통일협의회, 남북평화재단, 통일농수산사업단, 평화문제연구소, 국제푸른나무, 한민족통일여성협의회, 북한발전연구원도 함께 선정됐다. 
+    이 가운데 평화삼천은 최근 재개된 도라산역행 정기 열차인 'DMZ 평화이음 관광열차'와 연계해 도라산역 평화여행 프로그램을 운영하며, 한민족통일여성협의회는 제22회 통일스피치대회를 개최한다. 
+    통일부는 선정된 사업 9건에 총 5억원을 보조한다. 
+    김남중 차관은 이날 통일부 대회의실에서 이들 단체와 간담회를 열고, 애로사항을 청취하고 투명한 보조금 집행을 당부했다. 
+    tree@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[DMZ 평화이음 열차의 종점인 도라산역]]></Title>
+         <Caption><![CDATA[(서울=연합뉴스) 신준희 기자 = 10일 운행이 재개된 DMZ 평화 이음 열차의 종점인 도라산역의 모습. 서울역과 도라산을 오가는 정기 관광열차인 DMZ 평화 이음 열차는 6년 6개월 만에 운행이 재개됐다. 2026.4.10 [공동취재] hama@yna.co.kr]]></Caption>
+         <FileName>PYH2026041009740001300_P2.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/yna/YH/2026/04/10/PYH2026041009740001300_P2.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

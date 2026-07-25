@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260312052800062</ContentID>
+      <SendDate>20260312</SendDate>
+      <SendTime>094722</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004007" name="양구"/>
+      </Region>
+      <Class>
+         <ClassCode code="0107004" name="지방일반"/>
+         <ClassCode code="0409007" name="소상공"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260312052800062]]></Href>
+      <Writer><![CDATA[양지웅]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[양구군, 소상공인 대상 라이브커머스 활성화 교육 진행]]></Title>
+      <SubTitle><![CDATA[기획부터 실제 운영까지 실무 중심 교육…20일까지 신청]]></SubTitle>
+      <Body><![CDATA[양구군, 소상공인 대상 라이브커머스 활성화 교육 진행
+기획부터 실제 운영까지 실무 중심 교육…20일까지 신청
+
+
+    (양구=연합뉴스) 양지웅 기자 = 강원 양구군은 지역 소상공인과 소기업, 예비 창업자의 온라인 판매 역량을 강화하고자 '라이브커머스 활성화 프로젝트 교육' 참가자를 모집한다고 12일 밝혔다.
+    이번 교육은 라이브커머스를 활용한 온라인 판로 확대와 로컬 콘텐츠 기반 상품 기획 역량을 강화하기 위해 마련됐다.
+    모집 대상은 양구군에 주소지를 둔 소상공인·소기업 또는 예비 창업자이며, 모집 인원은 20명 미만이다.
+    교육에 참여하려면 참가신청서와 사업 현황 확인 체크리스트, 개인정보 동의서 등을 작성해 오는 20일까지 담당자 이메일(twin0313@korea.kr)로 제출하면 된다.
+    교육은 오는 21일부터 내달 30일까지 6주간 양구군 DMZ경제순환센터 2층 교육관과 라이브커머스 시설에서 진행된다.
+    교육 과정은 로컬 콘텐츠 기획 이해, 홍보·마케팅 전략, 라이브커머스 방송 준비 및 운영, 온라인 마케팅과 데이터 분석, 콘텐츠 성과 공유 등 기획부터 실제 운영까지 실무 중심으로 이어진다.
+    아울러 교육 참가자를 대상으로 사전 진단을 기반으로 한 맞춤형 온라인 멘토링을 세 차례 제공해 콘텐츠와 상품, 서비스 기획 등에 대한 전문 상담을 지원할 계획이다.
+    이미숙 경제체육과장은 "이번 교육이 지역 소상공인들이 라이브커머스 시장에 효과적으로 진입하고 온라인 판로를 확대하는 데 도움이 되길 바란다"며 "지역 자원을 활용한 경쟁력 있는 로컬 콘텐츠 발굴에도 이바지할 것으로 기대한다"고 말했다.
+    yangdoo@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[양구군, 소상공인 대상 라이브커머스 활성화 교육]]></Title>
+         <Caption><![CDATA[[양구군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260312052800062_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/12/AKR20260312052800062_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

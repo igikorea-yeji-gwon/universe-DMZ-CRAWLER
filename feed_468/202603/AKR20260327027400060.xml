@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260327027400060</ContentID>
+      <SendDate>20260327</SendDate>
+      <SendTime>084803</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7005028" name="파주"/>
+      </Region>
+      <Class>
+         <ClassCode code="0109001" name="국방일반"/>
+         <ClassCode code="0401001" name="산업일반"/>
+         <ClassCode code="0204003" name="부동개발"/>
+         <ClassCode code="0107001" name="지방행정"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260327027400060]]></Href>
+      <Writer><![CDATA[노승혁]]></Writer>
+      <Desk code="060"><![CDATA[경기북부취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[파주시, 캠프스탠턴 산업단지 군 협의 타결…조성사업 본궤도]]></Title>
+      <Body><![CDATA[파주시, 캠프스탠턴 산업단지 군 협의 타결…조성사업 본궤도
+
+    (파주=연합뉴스) 노승혁 기자 = 경기 파주시는 광탄면 일원에 추진 중인 '캠프스탠턴 일반산업단지 조성사업'과 관련한 군사시설 보호구역 심의 절차가 '조건부 동의'로 타결됐다고 27일 밝혔다. 
+
+    이로써 수년째 정체돼 있던 산업단지 개발 사업이 본격적인 궤도에 오를 전망이다.
+    캠프스탠턴 일반산업단지 조성사업은 오랜 기간 방치된 미군 반환 공여지를 민간 주도로 개발해 경기 북부의 새로운 산업 거점으로 육성하려는 파주시의 핵심 과제다.
+    2020년 6월 GS건설 컨소시엄과 협약을 체결하고 2021년 경기도로부터 산업단지 물량을 배정받았으나, 사업 대상지가 군사시설 보호구역에 속해 있어 인허가의 첫 관문인 군 협의에 난항을 겪어왔다.
+    이에 파주시는 지난 1월 국방부가 주관한 반환공여지 개발 관련 간담회에서 신속한 인허가 협조를 건의하는 등 다양한 노력을 기울였다. 
+    시는 또 관할 군부대와 여러 차례의 협의를 거치며, 군 작전 수행에 지장이 없도록 군의 요구를 충족하는 합리적인 대안을 지속 제시해왔다.
+    이를 바탕으로 지난 3개월간 관할 군부대와 꾸준한 협의를 벌인 결과, 양측은 국가 안보를 튼튼히 유지하면서도 접경지역의 경제 활성화를 도모할 수 있는 접점을 찾았고, 마침내 심의에서 '조건부 동의'라는 극적인 합의를 끌어냈다.
+     캠프스탠턴 산업단지 개발 사업의 마지막 걸림돌이 됐던 인허가 문턱을 넘어선 파주시는 남은 행정절차에 더욱 속도를 낼 방침이다. 
+    군과 합의된 조건에 따라 이행각서를 체결하고 조건에 맞는 설계를 마친 후 올해 중 산업단지계획 승인을 완료할 예정이다. 
+    시는 2028년 준공을 목표로 차질 없이 사업을 추진해 나갈 계획이다.
+    파주시 관계자는 "남은 절차를 신속히 마무리하고, 캠프스탠턴을 파주시 경제 성장을 견인할 성공적인 산업단지로 완성해 내겠다"고 말했다.
+    nsh@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[캠프스탠턴 산업단지 조감도]]></Title>
+         <Caption><![CDATA[[파주시 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260327027400060_01_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/03/27/AKR20260327027400060_01_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

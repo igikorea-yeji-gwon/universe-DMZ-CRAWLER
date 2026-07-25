@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260409109000062</ContentID>
+      <SendDate>20260409</SendDate>
+      <SendTime>135831</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="07"/>
+      <Region>
+         <RegionCode code="7004013" name="철원"/>
+      </Region>
+      <Class>
+         <ClassCode code="0506002" name="도로교통"/>
+         <ClassCode code="0107005" name="지방발전"/>
+         <ClassCode code="0107002" name="지방의회"/>
+         <ClassCode code="0506001" name="교통일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260409109000062]]></Href>
+      <Writer><![CDATA[강태현]]></Writer>
+      <Desk code="062"><![CDATA[강원취재본부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[강원도의회, 포천∼철원 고속도로 건설사업 예타 통과 촉구]]></Title>
+      <Body><![CDATA[강원도의회, 포천∼철원 고속도로 건설사업 예타 통과 촉구
+
+
+    (춘천=연합뉴스) 강태현 기자 = 강원특별자치도의회는 9일 대한민국시도의회의장협의회 임시회에 접경지역의 열악한 교통 인프라 개선과 지역 균형발전을 위한 '포천∼철원 고속도로 건설사업 예비타당성조사 통과 촉구 건의안'을 제출했다.
+    도의회는 강원 철원군과 경기 포천시를 잇는 고속도로 건설 사업이 예비타당성조사 결과 발표를 앞둔 현시점에서 정부의 조속한 결단 등을 이끌기 위해 건의안을 마련했다.
+    건의안에는 이 지역이 지난 수십년간 국가 안보를 이유로 군사시설 보호구역 등 중첩된 규제를 받아오며 교통·산업·정주 여건 전반에서 뒤떨어진 사정을 강조했다.
+    특히 유일한 교통 연결축인 국도 43호선의 상습 정체가 지역 주민의 이동권을 제약하고 한탄강 유네스코(UNESCO) 세계지질공원 등 늘어나는 관광 수요를 수용하는 데 한계가 있다는 점을 주요 배경으로 내세웠다.
+    김시성 도의장은 "포천∼철원 고속도로는 단순한 도로 건설을 넘어 수도권 북부와 접경지역을 연결하는 핵심 교통축이자 국가 균형발전의 상징적 사업"이라며 "사업의 시급성과 정책적 필요성이 충분히 인정되는 만큼 바로 사업이 추진돼야 한다"고 말했다.
+    이어 "사업의 조속한 착공을 위해 정체와 수요가 집중되는 1단계 구간(포천시 신북면∼철원군 갈말읍)을 먼저 추진할 수 있도록 정부 차원의 전향적인 후속 조치가 필요하다"고 덧붙였다.
+    건의안에는 ▲ 포천∼철원 고속도로 건설사업의 조속한 예비타당성조사 통과 촉구 ▲ 접경지역 특수성을 반영한 정책적·재정적 지원 확대 ▲ 1단계 구간 우선 추진 ▲ 수도권 북부 및 접경지역 교통망 확충을 위한 국가 중점사업 반영 등 내용이 담겼다.
+    도의회 관계자는 "이번 건의안 채택을 시작으로 국회와 국토교통부, 기획재정부 등 관계 부처에 도민 염원을 전달하고, 접경지역의 획기적인 교통망 확충과 지역 경제 활성화를 위해 지속해 대응해 나갈 방침"이라고 말했다.
+    taetae@yna.co.kr
+(끝)]]></Body>
+      <AppendData mimetype="image/jpeg">
+         <Title><![CDATA[강원도의회]]></Title>
+         <Caption><![CDATA[[강원도의회 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>C0A8CA3D00000162CD26BB180005E7A2_P2.jpeg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/photo/cms/2018/04/16/02/C0A8CA3D00000162CD26BB180005E7A2_P2.jpeg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>

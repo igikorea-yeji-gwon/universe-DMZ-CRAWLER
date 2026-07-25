@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YNewsML>
+   <Header>
+      <Action>C</Action>
+      <ServiceType>AKR0</ServiceType>
+      <ContentID>AKR20260615139800079</ContentID>
+      <SendDate>20260615</SendDate>
+      <SendTime>163640</SendTime>
+   </Header>
+   <Metadata>
+      <Urgency>3</Urgency>
+      <Category code="06"/>
+      <Region>
+         <RegionCode code="7107012" name="이스라엘"/>
+         <RegionCode code="7107011" name="이란"/>
+         <RegionCode code="7104002" name="미국"/>
+         <RegionCode code="7107002" name="레바논"/>
+      </Region>
+      <Class>
+         <ClassCode code="1101001" name="국제일반"/>
+      </Class>
+      <Credit><![CDATA[YNA]]></Credit>
+      <Source><![CDATA[YNA]]></Source>
+      <Href><![CDATA[https://www.yna.co.kr/view/AKR20260615139800079]]></Href>
+      <Writer><![CDATA[김상훈]]></Writer>
+      <Desk code="009"><![CDATA[국제뉴스부]]></Desk>
+      <DeliCode>H1G1</DeliCode>
+   </Metadata>
+   <NewsContent>
+      <LangType>KR</LangType>
+      <Title><![CDATA[[미·이란 종전] 이스라엘 국방 "레바논서 철군 안해… 이란 도발시 타격"]]></Title>
+      <SubTitle><![CDATA["트럼프 대통령·헤그세스 장관에게 입장 전달"]]></SubTitle>
+      <Body><![CDATA[[미·이란 종전] 이스라엘 국방 "레바논서 철군 안해… 이란 도발시 타격"
+"트럼프 대통령·헤그세스 장관에게 입장 전달"
+
+
+    (카이로=연합뉴스) 김상훈 특파원 = 이스라엘 카츠 이스라엘 국방장관은 헤즈볼라와의 전투 종식을 포함하는 것으로 알려진 미·이란의 휴전 발표에도 이스라엘군이 레바논 남부에서 철수하지 않겠다고 15일(현지시간) 밝혔다.
+    카츠 장관은 성명을 통해 "베냐민 네타냐후 총리와 나는 이스라엘군이 레바논, 시리아, 가자지구의 보안 구역(완충 지대)에 기한 없이 주둔하며 이슬람 극단주의 세력으로부터 국경과 이스라엘 국민을 보호한다는 명확한 정책을 주도하고 있다"고 강조했다.
+    이어 "보안 구역에서는 지역 주민을 대피시키고 테러 전초기지로 사용된 접경 마을의 가옥을 포함해 지상·지하의 모든 테러 기반 시설을 파괴할 것"이라고 설명했다.
+    카츠 장관은 안보 구역 확보를 이번 전쟁에서 거둔 이스라엘군의 최대 성과 중 하나로 꼽으면서 "현재 가해지고 있거나 향후 예상되는 모든 압박에도 우리는 이스라엘군의 레바논 철수를 반대한다"고 단언했다.
+
+    그는 "네타냐후 총리는 도널드 트럼프 미국 대통령 및 미 고위급 인사들에게 이 같은 입장을 분명히 전달했으며, 나 역시 어제 피트 헤그세스 미 국방장관에게 이런 뜻을 명확히 밝혔다"고 설명했다. 
+    그러면서 "우리는 이스라엘의 국가 안보와 국민 보호 문제를 절대 타협하지 않을 것이며 안보 구역에서 물러나지도 않을 것"이라고 거듭 강조했다.
+    아울러 "이란이 레바논 내 상황을 빌미로 이스라엘을 공격할 경우 우리는 총력을 다해 이란을 타격할 것"이라고 경고하면서 "우리는 오직 이스라엘의 국가 안보와 국민만을 위해 헌신할 뿐"이라고 덧붙였다.
+    meolakim@yna.co.kr
+[https://youtu.be/0m28lr34KY8]
+(끝)]]></Body>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[레바논 남부에 투입된 이스라엘 지상군 병력]]></Title>
+         <Caption><![CDATA[[이스라엘군 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260615139800079_02_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/15/AKR20260615139800079_02_i.jpg]]></Href>
+      </AppendData>
+      <AppendData mimetype="image/jpg">
+         <Title><![CDATA[이스라엘군 수뇌부와 전황 평가 회의하는 이스라엘 카츠 국방부 장관(가운데)]]></Title>
+         <Caption><![CDATA[[이스라엘 국방부 제공. 재판매 및 DB 금지]]]></Caption>
+         <FileName>AKR20260615139800079_03_i.jpg</FileName>
+         <Href><![CDATA[http://img.yna.co.kr/etc/inner/KR/2026/06/15/AKR20260615139800079_03_i.jpg]]></Href>
+      </AppendData>
+   </NewsContent>
+</YNewsML>
