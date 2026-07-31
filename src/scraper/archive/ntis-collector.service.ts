@@ -15,9 +15,11 @@ import {
   ArchiveItem,
   sleep,
   sanitizeXmlAmp,
+  stripHighlightSpans,
   stripTags,
   toArray,
   withRetry,
+  xmlNodeText,
 } from './archive.types';
 
 const CRON_ID = 'archive-ntis-collect';
@@ -201,8 +203,9 @@ export class NtisCollectorService implements OnModuleInit {
         5000,
       );
 
-      // NTIS 본문에는 '국가R&D'처럼 이스케이프 안 된 & 가 섞여 와 엄격한 XML 파서가 깨진다
-      const xml = sanitizeXmlAmp(res.data);
+      // NTIS 본문에는 ①'국가R&D'처럼 이스케이프 안 된 &, ②검색어 하이라이트 <span> raw XML이 섞여 온다.
+      // &는 &amp;로 치환, 하이라이트 span은 파싱 전에 제거(안 그러면 텍스트 노드가 객체가 돼 "[object Object]").
+      const xml = stripHighlightSpans(sanitizeXmlAmp(res.data));
 
       let parsed: any;
       try {
@@ -283,10 +286,10 @@ export class NtisCollectorService implements OnModuleInit {
     };
   }
 
-  /** {Korean, English} 다국어 노드에서 특정 언어 텍스트 추출 */
+  /** {Korean, English} 다국어 노드에서 특정 언어 텍스트 추출 (혼합콘텐츠 객체 방어) */
   private lang(node: any, key: 'Korean' | 'English'): string {
     if (node === undefined || node === null) return '';
     if (typeof node === 'string') return key === 'Korean' ? node : '';
-    return String(node?.[key] ?? '');
+    return xmlNodeText(node?.[key]);
   }
 }

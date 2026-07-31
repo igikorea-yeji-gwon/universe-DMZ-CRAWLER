@@ -181,6 +181,31 @@ export function sanitizeXmlAmp(xml: string): string {
   );
 }
 
+/**
+ * NTIS 응답은 검색어 하이라이트를 이스케이프 안 된 raw XML(<span class="search_word">…</span>)로 반환한다.
+ * 이대로 파싱하면 xml2js가 <Korean> 같은 텍스트 노드를 자식 요소가 있는 '객체'로 만들어
+ * String(node) → "[object Object]"가 된다. 파싱 전에 span 래퍼만 벗겨 안쪽 텍스트를 인라인으로 남긴다.
+ */
+export function stripHighlightSpans(xml: string): string {
+  return String(xml ?? '')
+    .replace(/<span\b[^>]*>/gi, '')
+    .replace(/<\/span>/gi, '');
+}
+
+/** xml2js 노드(문자열·객체·배열)에서 텍스트만 재귀 추출 (혼합콘텐츠가 객체로 파싱돼도 방어). 속성($) 제외 */
+export function xmlNodeText(node: unknown): string {
+  if (node === undefined || node === null) return '';
+  if (typeof node === 'string') return node;
+  if (Array.isArray(node)) return node.map(xmlNodeText).join('');
+  if (typeof node === 'object') {
+    return Object.entries(node as Record<string, unknown>)
+      .filter(([k]) => k !== '$')
+      .map(([, v]) => xmlNodeText(v))
+      .join('');
+  }
+  return String(node);
+}
+
 /** NTIS 검색어 하이라이트(<span class="search_word">…</span>) 등 태그 제거 + 공백 정리 */
 export function stripTags(value: unknown): string {
   return String(value ?? '')
