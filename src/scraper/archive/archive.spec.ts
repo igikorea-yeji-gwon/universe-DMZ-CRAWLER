@@ -7,8 +7,17 @@ import { RelevanceFilterService } from './relevance-filter.service';
 import { KciCollectorService } from './kci-collector.service';
 import { RissCollectorService } from './riss-collector.service';
 import { NtisCollectorService } from './ntis-collector.service';
+import { LosiCollectorService } from './losi-collector.service';
+import { KistiCollectorService } from './kisti-collector.service';
+import { EncykoreaCollectorService } from './encykorea-collector.service';
 import { ArchiveExportService } from './archive-export.service';
-import { toArray, stripTags, titleToS3Suffix, withRetry, sanitizeXmlAmp } from './archive.types';
+import {
+  toArray,
+  stripTags,
+  titleToS3Suffix,
+  withRetry,
+  sanitizeXmlAmp,
+} from './archive.types';
 
 // ─── 테스트 더블 ──────────────────────────────────────────────────────────────
 
@@ -30,7 +39,10 @@ function makeCollector<T>(ctor: new (...args: any[]) => T): T {
 }
 
 const fixture = (name: string) =>
-  fs.readFileSync(path.join(__dirname, '../../../configs/samples', name), 'utf-8');
+  fs.readFileSync(
+    path.join(__dirname, '../../../configs/samples', name),
+    'utf-8',
+  );
 
 // ─── 기관 분류기 ──────────────────────────────────────────────────────────────
 
@@ -89,7 +101,10 @@ describe('InstitutionClassifierService', () => {
 
   it('빈 발행기관은 PRIVATE(default)', async () => {
     const classifier = makeClassifier();
-    expect(await classifier.classify('')).toEqual({ verdict: 'PRIVATE', by: 'default' });
+    expect(await classifier.classify('')).toEqual({
+      verdict: 'PRIVATE',
+      by: 'default',
+    });
   });
 });
 
@@ -117,12 +132,121 @@ describe('KciCollectorService XML 매핑', () => {
       matchedKeyword: 'DMZ',
     });
     // API 제공 영문 필드
-    expect(item.titleEn).toBe('Cultural Services Assessment in DMZ(Demilitarized Zone) Border Areas');
+    expect(item.titleEn).toBe(
+      'Cultural Services Assessment in DMZ(Demilitarized Zone) Border Areas',
+    );
     expect(item.authorEn).toContain('Ko, Ha-jung');
     // 저자 소속 괄호 제거
     expect(item.author).toBe('고하정, 권혁수, 김정인');
     expect(item.summary).toContain('본 연구는 접경지역 문화서비스 평가');
     expect(item.detailUrl).toContain('artiId=ART003027350');
+  });
+});
+
+// ─── LOSI 매핑 (실 응답 JSON 픽스처) ─────────────────────────────────────────
+
+describe('LosiCollectorService JSON 매핑', () => {
+  it('losi-sample.json 레코드를 ArchiveItem으로 정규화한다', () => {
+    const collector = makeCollector(LosiCollectorService) as any;
+    const data = JSON.parse(fixture('losi-sample.json'));
+    const list = data.result[0].searchList;
+
+    // ARTICLE: publisher 비어있음, 국문+로마자 저자 혼재 → 국문만
+    const article = collector.toArchiveItem(list[0], 'article', 'DMZ');
+    expect(article).toMatchObject({
+      source: 'losi',
+      sourceId: '8860089', // lodID
+      publisher: '',
+      publishYear: '2024',
+      materialType: 'article',
+      matchedKeyword: 'DMZ',
+    });
+    expect(article.author).toBe('이수광, 양재동, 이정희'); // 로마자(Sugwang Lee 등) 제외
+    expect(article.summary).toBeNull(); // abstractCont 비어있음
+    expect(article.category).toBeNull(); // 주제는 이후 태깅
+
+    // BOOK: publisher(국립수목원) 존재
+    const book = collector.toArchiveItem(list[1], 'book', 'DMZ');
+    expect(book).toMatchObject({
+      source: 'losi',
+      sourceId: '499252',
+      publisher: '국립수목원',
+      materialType: 'book',
+    });
+  });
+});
+
+// ─── KISTI 매핑 (문서 구조 픽스처) ───────────────────────────────────────────
+
+describe('KistiCollectorService XML 매핑', () => {
+  it('kisti-sample.xml 레코드를 target/DBCode로 정규화한다', async () => {
+    const collector = makeCollector(KistiCollectorService) as any;
+    const parsed = await parseStringPromise(fixture('kisti-sample.xml'), {
+      explicitArray: false,
+    });
+    const records = toArray<any>(parsed.MetaData.recordList.record);
+    expect(records.length).toBe(3);
+
+    // ARTI + JAKO → article, publisher 비면 JournalName 사용
+    const arti = collector.toArchiveItem(records[0], 'ARTI', 'article', 'DMZ');
+    expect(arti).toMatchObject({
+      source: 'kisti',
+      sourceId: 'JAKO202419076986999',
+      publisher: '한국환경생태학회지', // Publisher 비어 JournalName 대체
+      materialType: 'article',
+      publishYear: '2024',
+    });
+    expect(arti.summary).toContain('식생을 분석');
+
+    // REPORT + TRKO → report (NTIS와 겹치지만 스프링이 dedup)
+    const report = collector.toArchiveItem(
+      records[1],
+      'REPORT',
+      'report',
+      '접경',
+    );
+    expect(report).toMatchObject({
+      sourceId: 'TRKO201500002377',
+      publisher: '통일연구원',
+      materialType: 'report',
+    });
+
+    // ARTI + DIKO(DBCode) → thesis
+    const thesis = collector.toArchiveItem(
+      records[2],
+      'ARTI',
+      'article',
+      'DMZ',
+    );
+    expect(thesis.materialType).toBe('thesis');
+    expect(thesis.publisher).toBe('서울대학교 대학원');
+  });
+});
+
+// ─── EncyKorea 매핑 (예상 JSON 구조 픽스처) ────────────────────────────────
+
+describe('EncykoreaCollectorService JSON 매핑', () => {
+  it('encykorea-sample.json 레코드를 ArchiveItem으로 정규화한다', () => {
+    const collector = makeCollector(EncykoreaCollectorService) as any;
+    const data = JSON.parse(fixture('encykorea-sample.json'));
+    const rec = data.items[0];
+
+    const item = collector.toArchiveItem(rec, '비무장지대');
+    expect(item).toMatchObject({
+      source: 'encykorea',
+      sourceId: 'E0025142',
+      title: '비무장지대',
+      publisher: '한국학중앙연구원',
+      author: '김창수',
+      publishYear: '1995',
+      category: '정치·법제',
+      subCategory: '개념용어 / 군사',
+      materialType: 'article',
+      matchedKeyword: '비무장지대',
+      detailUrl: 'https://encykorea.aks.ac.kr/Article/E0025142',
+    });
+    expect(item.summary).toContain('군사분계선을 기준으로');
+    expect(item.isbn).toBeNull();
   });
 });
 
@@ -169,7 +293,10 @@ describe('NtisCollectorService HIT 매핑', () => {
         Korean: '<span class="search_word">DMZ</span> 일원 생태조사 보고서',
         English: 'DMZ Ecological Survey Report',
       },
-      Abstract: { Korean: '본 보고서는 <span class="search_word">DMZ</span> 일원…', English: '' },
+      Abstract: {
+        Korean: '본 보고서는 <span class="search_word">DMZ</span> 일원…',
+        English: '',
+      },
       Keyword: { Korean: 'DMZ;접경지역;', English: 'DMZ;Border;' },
       Contents: '',
       DocUrl: 'https://nrms.kisti.re.kr/sc/pop.do?rpt_ctrl_no=RT1',
@@ -205,7 +332,12 @@ describe('NtisCollectorService HIT 매핑', () => {
 describe('ArchiveExportService toDbReady', () => {
   const configStub = {
     get: (key: string) =>
-      ({ RISS_ORIGIN_ID: '1', KCI_ORIGIN_ID: '2', NTIS_ORIGIN_ID: '3' })[key],
+      ({
+        RISS_ORIGIN_ID: '1',
+        KCI_ORIGIN_ID: '2',
+        NTIS_ORIGIN_ID: '3',
+        ENCYKOREA_ORIGIN_ID: '6',
+      })[key],
   } as any;
 
   it('meta.json을 archive 테이블 적재용 행으로 변환한다 (고정값·trslYn 포함)', () => {
@@ -222,7 +354,12 @@ describe('ArchiveExportService toDbReady', () => {
       linkUrl: 'https://example.com',
       remark: 'KCI OpenAPI 수집',
     };
-    const row = service.toDbReady(2, 'kci', meta, new Date('2026-07-16T03:00:00+09:00'));
+    const row = service.toDbReady(
+      2,
+      'kci',
+      meta,
+      new Date('2026-07-16T03:00:00+09:00'),
+    );
 
     expect(row).toMatchObject({
       originId: 2,
@@ -240,7 +377,12 @@ describe('ArchiveExportService toDbReady', () => {
 
   it('영문 필드가 없으면 trslYn=N', () => {
     const service = new ArchiveExportService({} as any, configStub) as any;
-    const row = service.toDbReady(1, 'riss', { title: 't', registerNo: 'RISS:A1' }, null);
+    const row = service.toDbReady(
+      1,
+      'riss',
+      { title: 't', registerNo: 'RISS:A1' },
+      null,
+    );
     expect(row.trslYn).toBe('N');
     expect(row.collectedAt).toBeNull();
   });
@@ -248,7 +390,12 @@ describe('ArchiveExportService toDbReady', () => {
   it('미등록 origin은 knownOrigin:false로 빈 결과 반환', async () => {
     const service = new ArchiveExportService({} as any, configStub);
     const res = await service.exportArchives(99);
-    expect(res).toMatchObject({ originId: 99, total: 0, knownOrigin: false, items: [] });
+    expect(res).toMatchObject({
+      originId: 99,
+      total: 0,
+      knownOrigin: false,
+      items: [],
+    });
   });
 });
 
@@ -256,9 +403,9 @@ describe('ArchiveExportService toDbReady', () => {
 
 describe('stripTags', () => {
   it('하이라이트 span과 중첩 태그를 제거하고 공백을 정리한다', () => {
-    expect(stripTags('<span class="search_word">나노</span>융합산업  연구조합')).toBe(
-      '나노융합산업 연구조합',
-    );
+    expect(
+      stripTags('<span class="search_word">나노</span>융합산업  연구조합'),
+    ).toBe('나노융합산업 연구조합');
     expect(stripTags(null)).toBe('');
     expect(stripTags(201112)).toBe('201112');
   });
@@ -266,10 +413,12 @@ describe('stripTags', () => {
 
 describe('titleToS3Suffix', () => {
   it('S3 키 금지문자·공백을 _로 치환하고 길이를 제한한다', () => {
-    expect(titleToS3Suffix('DMZ 접경지역의 문화서비스 평가')).toBe('DMZ_접경지역의_문화서비스_평가');
-    expect(titleToS3Suffix('한반도 정전체제 하 "DMZ"의 평화적/국제법적 이용: 검토')).toBe(
-      '한반도_정전체제_하_DMZ_의_평화적_국제법적_이용_검토',
+    expect(titleToS3Suffix('DMZ 접경지역의 문화서비스 평가')).toBe(
+      'DMZ_접경지역의_문화서비스_평가',
     );
+    expect(
+      titleToS3Suffix('한반도 정전체제 하 "DMZ"의 평화적/국제법적 이용: 검토'),
+    ).toBe('한반도_정전체제_하_DMZ_의_평화적_국제법적_이용_검토');
     // 40자 초과는 잘리고 끝의 _는 제거
     expect(titleToS3Suffix('가'.repeat(60)).length).toBeLessThanOrEqual(40);
     expect(titleToS3Suffix('')).toBe('');
@@ -298,7 +447,14 @@ describe('withRetry', () => {
   it('모든 시도가 실패하면 마지막 오류를 throw한다', async () => {
     const onRetry = vi.fn();
     await expect(
-      withRetry(async () => { throw new Error('timeout'); }, onRetry, 3, 1),
+      withRetry(
+        async () => {
+          throw new Error('timeout');
+        },
+        onRetry,
+        3,
+        1,
+      ),
     ).rejects.toThrow('timeout');
     expect(onRetry).toHaveBeenCalledTimes(2); // 마지막 시도 후에는 재시도 안 함
   });
@@ -314,7 +470,9 @@ describe('sanitizeXmlAmp', () => {
     );
     // 치환 후엔 실제로 파싱 가능해야 한다 (NTIS 실패 케이스 재현)
     const parsed = await parseStringPromise(
-      sanitizeXmlAmp('<RESULT><HIT><ResultTitle><Korean>국가R&D와 DMZ</Korean></ResultTitle></HIT></RESULT>'),
+      sanitizeXmlAmp(
+        '<RESULT><HIT><ResultTitle><Korean>국가R&D와 DMZ</Korean></ResultTitle></HIT></RESULT>',
+      ),
       { explicitArray: false },
     );
     expect(parsed.RESULT.HIT.ResultTitle.Korean).toBe('국가R&D와 DMZ');
@@ -324,7 +482,14 @@ describe('sanitizeXmlAmp', () => {
 describe('RelevanceFilterService (규칙 판정)', () => {
   const svc = new RelevanceFilterService({} as any, {} as any);
   const item = (title: string, extra: any = {}) =>
-    ({ title, publisher: '', author: '', matchedKeyword: 'DMZ', source: 'riss', ...extra } as any);
+    ({
+      title,
+      publisher: '',
+      author: '',
+      matchedKeyword: 'DMZ',
+      source: 'riss',
+      ...extra,
+    }) as any;
 
   it('명백한 노이즈는 규칙으로 DROP (LLM 없이)', async () => {
     const cases: [string, string][] = [

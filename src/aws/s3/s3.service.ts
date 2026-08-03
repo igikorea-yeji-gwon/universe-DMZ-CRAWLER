@@ -64,6 +64,36 @@ export class S3Service {
     };
   }
 
+  /**
+   * 업로드 관문(다운로드 관문의 반대 방향): 내부망 CMS가 넘긴 첨부를 포털 버킷에 그대로 올린다.
+   * key는 CMS의 NAS 저장 경로와 동일해야(file_path=/{key}, ES payload의 bucket+key 정합)
+   * 하므로 재조립하지 않고 받은 값 그대로 쓴다. 같은 key 재요청은 덮어쓰기.
+   */
+  async putMediaObject(
+    key: string,
+    body: Buffer,
+    mimetype?: string,
+  ): Promise<{ bucket: string; key: string; etag?: string; size: number }> {
+    const bucket = this.configService.get<string>('AWS_BUCKET_NAME');
+    const ext = path.extname(key.split('/').pop() ?? '').toLowerCase();
+    // CMS/브라우저가 octet-stream만 보내는 경우가 많아 확장자로 보정한다 (hwp는 lookup 미지원)
+    let contentType =
+      mimetype && mimetype !== 'application/octet-stream'
+        ? mimetype
+        : lookup(ext) || 'application/octet-stream';
+    if (ext === '.hwp' || ext === '.hwpx') contentType = 'application/x-hwp';
+
+    const res = await this.s3.send(
+      new PutObjectCommand({
+        Bucket: bucket,
+        Key: key,
+        Body: body,
+        ContentType: contentType,
+      }),
+    );
+    return { bucket, key, etag: res.ETag, size: body.length };
+  }
+
   async getObjectStream(s3Uri: string): Promise<Readable> {
     const parts = s3Uri.replace('s3://', '').split('/');
     if (parts.length < 2) {

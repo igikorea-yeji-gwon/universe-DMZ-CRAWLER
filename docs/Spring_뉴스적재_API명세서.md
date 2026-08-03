@@ -14,7 +14,8 @@
 | 수집 (HTML 스크래핑 + 연합뉴스 RSS) | dmz_scraper (Node) | 수집 → 번역 → 이미지/파일 S3 업로드 → `meta.json` 저장 |
 | DB 적재 (news / news_file) | **Spring** | 아래 API를 주기 호출 → 중복 검사 → INSERT |
 
-- 연합뉴스(yna)도 별도 취급 없음. 다른 스크래퍼와 동일하게 S3에 저장되며, **같은 API·같은 스키마**로 내려간다. yna의 origin_id만 환경설정 값(YNA_ORIGIN_ID)으로 공유받으면 됨.
+- 연합뉴스(yna)도 같은 API·같은 스키마로 내려간다. yna의 origin_id만 환경설정 값(YNA_ORIGIN_ID)으로 공유받으면 됨.
+- 단, **yna origin으로 호출하면 조회 전에 RSS 피드 수집을 먼저 실행**해 최신분까지 이번 응답에 포함시킨다 (기사가 있으면 번역 포함 수십 초 걸릴 수 있으므로 **읽기 타임아웃 3분 이상** 권장). 수집 결과는 응답의 `collect` 필드(yna 호출에만 존재)로 내려간다 — `collect.ok=false`면 수집 실패(피드 차단 등)이며, 그 경우에도 기존 S3 누적분은 정상 반환되므로 적재는 그대로 진행하면 된다. 알 수 없는 필드를 무시하도록 파싱할 것.
 - dmz_scraper의 기존 DB 적재(download2)는 전환 검증 후 제거 예정.
 
 ---
@@ -43,6 +44,9 @@ GET http://localhost:3000/scraper/articles/16?since=2026-07-13 00:00:00
 
 ## 3. 응답 구조
 
+전역 인터셉터가 모든 응답을 `{ "success": true, "data": ..., "timestamp": "..." }`로 감싼다.
+아래 본문은 **`data` 안에 들어가는 내용**이다. yna origin 호출 시에만 `data.collect`(선행 수집 결과: `{ ok, summary | error }`)가 추가되며, 알 수 없는 필드는 무시하고 파싱할 것.
+
 ```json
 {
   "originId": 16,
@@ -67,7 +71,10 @@ GET http://localhost:3000/scraper/articles/16?since=2026-07-13 00:00:00
           "filePath": "/news-crawler/file/16/2026-07-12/img/abc.jpg",
           "fileUrl": "https://example.com/img/abc.jpg",
           "fileTy": "image",
-          "sortOrder": 0
+          "sortOrder": 0,
+          "fileName": "abc.jpg",
+          "mimeType": "image/jpeg",
+          "downloadUrl": "/scraper/media?path=%2Fnews-crawler%2Ffile%2F16%2F2026-07-12%2Fimg%2Fabc.jpg"
         }
       ],
       "skippedFiles": 0
@@ -96,6 +103,26 @@ GET http://localhost:3000/scraper/articles/16?since=2026-07-13 00:00:00
 | `articles[].files[].fileUrl` | string | 원 사이트의 파일 URL |
 | `articles[].files[].fileTy` | string | `image` 또는 `file` (확장자 기준 분류 완료. 허용 외 확장자는 이미 제외됨 → skippedFiles) |
 | `articles[].files[].sortOrder` | number | 0부터 시작 |
+| `articles[].files[].fileName` | string | 원본 파일명 (다운로드 저장 시 사용) |
+| `articles[].files[].mimeType` | string | 확장자 기반 MIME 타입 (예: `image/jpeg`, `application/pdf`) |
+| `articles[].files[].downloadUrl` | string | **미디어 프록시 다운로드 상대경로.** 폴링과 같은 수집서버 호스트에 이 경로를 붙여 GET 하면 바이너리가 스트리밍됨 (아래 3-1 참고) |
+
+### 3-1. 미디어(이미지/파일) 다운로드 — `GET /scraper/media`
+
+내부망은 S3로 직접 나갈 수 없으므로(화이트리스트: 수집서버 EC2만 허용), **수집서버가 S3 → 내부망 다운로드 관문 역할**을 한다. Spring은 기사 JSON을 받은 뒤 각 `files[].downloadUrl`을 같은 호스트로 GET 해서 바이너리를 받고, 내부 스토리지에 저장 후 자기 경로로 치환해 적재하면 된다.
+
+```
+GET {수집서버}/scraper/media?path={files[].filePath URL인코딩}
+```
+
+- `downloadUrl` 값이 이미 인코딩까지 끝난 완성형이므로 **그대로 붙여 쓰면 된다** (직접 조립 불필요).
+- 응답은 인터셉터 래핑 없는 **순수 바이너리 스트림**이며 다음 헤더를 포함한다:
+  - `Content-Type` — MIME 타입
+  - `Content-Length` — 파일 크기(byte). 수신 후 크기 검증에 사용 가능
+  - `ETag` — S3 체크섬 (단일 업로드 객체는 MD5와 일치). 무결성 검증에 사용 가능
+  - `Content-Disposition` — `attachment; filename*=UTF-8''{원본파일명}`
+- 오류: `400` = 허용되지 않는 path (`/news-crawler/` 하위만 허용), `404` = S3에 없는 파일. 이때는 바이너리가 아닌 `{ success: false, ... }` JSON이 내려온다.
+- 파일 단위 재시도 가능 — 일부 파일 다운로드 실패 시 기사 재조회 없이 해당 URL만 다시 GET 하면 된다.
 
 ---
 
@@ -165,10 +192,14 @@ articles[] 순회
         ↓
 news_id = MAX+1 채번 → INSERT INTO news
         ↓
-files[] 순회 → file_id = MAX+1 채번 → INSERT INTO news_file
+files[] 순회 → GET {수집서버}{downloadUrl} 로 바이너리 다운로드
+        → 내부 스토리지 저장, file_path를 내부 경로로 치환
+        → file_id = MAX+1 채번 → INSERT INTO news_file
         ↓
 커밋 (기사 단위)
 ```
+
+> 파일 다운로드 실패 시: 해당 파일만 재시도하거나, 기사 자체를 다음 회차로 미루는 것 중 정책 선택. (미디어 프록시는 파일 단위 GET이므로 부분 재시도 가능)
 
 ---
 
@@ -187,4 +218,5 @@ files[] 순회 → file_id = MAX+1 채번 → INSERT INTO news_file
 | HTTP 400 | since 형식 오류 — 요청 파라미터 수정 |
 | HTTP 5xx | 전체 배치 실패로 처리, 다음 회차 재시도 (멱등이므로 안전) |
 | `total: 0, articles: []` | 해당 originId의 신규 수집 결과 없음, 정상 종료 |
+| `knownOrigin: false` (+ `total: 0`) | 스크래퍼에 등록되지 않은 origin_id — 수집 대상이 아니므로 폴링 목록에서 제외 권장 |
 | `regDtParsed: false` | regDt(sentinel 1970-01-01)를 그대로 적재. SYSDATE로 바꾸지 말 것 |

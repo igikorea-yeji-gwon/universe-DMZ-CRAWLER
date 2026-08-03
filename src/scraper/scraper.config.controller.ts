@@ -4,6 +4,7 @@ import {
   Controller,
   Delete,
   Get,
+  InternalServerErrorException,
   Logger,
   NotFoundException,
   Param,
@@ -12,12 +13,16 @@ import {
   Post,
   Query,
   Res,
+  UploadedFile,
   UseFilters,
+  UseInterceptors,
 } from '@nestjs/common';
+import { FileInterceptor } from '@nestjs/platform-express';
 import { Response } from 'express';
 import { lookup } from 'mime-types';
 import {
   ApiBody,
+  ApiConsumes,
   ApiOperation,
   ApiParam,
   ApiQuery,
@@ -35,6 +40,23 @@ import { ArticleExportService } from './article-export.service';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
 import { ListConfigDto } from './dto/scraperDtos';
+
+// ─── 미디어 업로드 관문 설정 (POST /scraper/media/upload) ────────────────────
+// CMS의 Globals.Upload.S3Prefixes와 같은 값이어야 한다 (기본 law,archive).
+// 수집기 자체 산출물 프리픽스(news-crawler/, archive-crawler/)와는 별개다.
+const MEDIA_UPLOAD_PREFIXES = (process.env.MEDIA_UPLOAD_PREFIXES ?? 'law,archive')
+  .split(',')
+  .map((p) => p.trim().replace(/^\/+|\/+$/g, ''))
+  .filter(Boolean);
+const MEDIA_UPLOAD_MAX_MB = Number(process.env.MEDIA_UPLOAD_MAX_MB) || 100;
+
+/** multer 업로드 파일 (@types/multer 미설치 — 사용 필드만 정의) */
+interface UploadedMediaFile {
+  originalname: string;
+  mimetype: string;
+  size: number;
+  buffer: Buffer;
+}
 
 @ApiTags('Scraper')
 @Controller('scraper')
@@ -191,6 +213,93 @@ export class ScraperConfigController {
       res.destroy(err);
     });
     obj.body.pipe(res);
+  }
+
+  // ─── 스프링 연동: 미디어(첨부) 업로드 관문 ─────────────────────────────────
+  // 다운로드 관문의 반대 방향. 내부망 CMS(release)도 S3로 직접 못 나가므로,
+  // NAS 저장을 마친 archive/·law/ 첨부를 이 서버로 넘기면 여기서 포털 버킷에
+  // putObject 한다. (ES 파이프라인이 bucket+key로 읽어가는 사본)
+  // 키는 CMS의 NAS 경로와 동일해야 정합이 맞으므로 재조립하지 않는다.
+
+  @Post('media/upload')
+  @UseInterceptors(
+    FileInterceptor('file', {
+      // 메모리 버퍼 → 그대로 putObject. 문서 첨부라 수십 MB를 넘지 않는다.
+      limits: { fileSize: MEDIA_UPLOAD_MAX_MB * 1024 * 1024, files: 1 },
+    }),
+  )
+  @ApiOperation({
+    summary:
+      '미디어(첨부) 업로드 관문 — 내부망 CMS → S3 putObject. ' +
+      `key는 CMS가 준 값 그대로 사용하며 허용 prefix(${MEDIA_UPLOAD_PREFIXES.join('/')})만 받는다`,
+  })
+  @ApiConsumes('multipart/form-data')
+  @ApiBody({
+    schema: {
+      type: 'object',
+      required: ['file', 'key'],
+      properties: {
+        file: { type: 'string', format: 'binary', description: '업로드할 파일' },
+        key: {
+          type: 'string',
+          example: 'archive/ab12cd34.pdf',
+          description: 'S3 객체 키 (앞 / 없음). CMS의 NAS 저장 경로와 동일해야 한다',
+        },
+      },
+    },
+  })
+  @ApiResponse({
+    status: 200,
+    description: '업로드 성공',
+    schema: { example: { success: true, key: 'archive/ab12cd34.pdf', etag: '"9f8e..."' } },
+  })
+  async uploadMedia(
+    @UploadedFile() file: UploadedMediaFile,
+    @Body('key') rawKey: string,
+    @Res() res: Response,
+  ) {
+    if (!file?.buffer?.length) {
+      throw new BadRequestException('업로드할 file 파트가 없습니다 (빈 파일 포함)');
+    }
+    const key = this.assertUploadKey(rawKey);
+
+    let result: Awaited<ReturnType<S3Service['putMediaObject']>>;
+    try {
+      result = await this.s3Service.putMediaObject(key, file.buffer, file.mimetype);
+    } catch (e) {
+      const msg = (e as Error)?.message ?? String(e);
+      this.logger.error(`[media/upload] S3 업로드 실패: ${key} — ${msg}`);
+      throw new InternalServerErrorException(`S3 업로드에 실패했습니다: ${msg}`);
+    }
+
+    this.logger.log(`[media/upload] ${key} (${result.size}B) → s3://${result.bucket}/${key}`);
+    // CMS가 기대하는 응답은 { success, key, etag } — 전역 인터셉터 래핑을 피해 직접 내려준다
+    res.status(200).json({ success: true, key: result.key, etag: result.etag });
+  }
+
+  /**
+   * 업로드 key 검증 — 수집 산출물/CMS 첨부 프리픽스 밖의 임의 객체 쓰기를 막는다.
+   * (인증 없는 관문이라 prefix 화이트리스트가 유일한 방어선)
+   */
+  private assertUploadKey(rawKey: string): string {
+    // file_path는 `/{key}` 형태라 CMS가 앞 /를 붙여 보내는 경우가 있어 그것만 허용 정규화한다
+    const key = String(rawKey ?? '').trim().replace(/^\/+/, '');
+    const segments = key.split('/');
+    const invalid =
+      !key ||
+      key.length > 1024 || // S3 키 길이 상한
+      key.includes('\\') ||
+      /[\x00-\x1f]/.test(key) ||
+      segments.length < 2 ||
+      segments.some((s) => s === '' || s === '.' || s === '..') ||
+      !MEDIA_UPLOAD_PREFIXES.includes(segments[0]);
+
+    if (invalid) {
+      throw new BadRequestException(
+        `허용되지 않는 key입니다: ${rawKey} (허용 prefix: ${MEDIA_UPLOAD_PREFIXES.join(', ')})`,
+      );
+    }
+    return key;
   }
 
   // ─── 스프링 연동: S3 meta.json → DB 적재용 정규화 JSON ─────────────────────

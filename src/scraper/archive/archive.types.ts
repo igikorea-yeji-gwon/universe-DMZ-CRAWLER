@@ -5,7 +5,13 @@
  */
 
 export type ArchiveMenuId = 'PUBLICATIONS' | 'PAPERS' | 'BOOKS';
-export type ArchiveSource = 'riss' | 'kci' | 'ntis';
+export type ArchiveSource =
+  | 'riss'
+  | 'kci'
+  | 'ntis'
+  | 'losi'
+  | 'kisti'
+  | 'encykorea';
 export type ArchiveMaterialType = 'article' | 'thesis' | 'book' | 'report';
 
 /** 컬렉터가 API 응답을 정규화해 IngestService에 넘기는 아이템 */
@@ -212,6 +218,21 @@ export function stripTags(value: unknown): string {
     .replace(/<[^>]+>/g, '')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+/** HTML 엔티티(&#183; &amp; 등) 디코딩 — LOSI 등 JSON 응답 텍스트에 엔티티가 섞여 옴 */
+export function decodeHtmlEntities(value: unknown): string {
+  return String(value ?? '')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, n) =>
+      String.fromCharCode(parseInt(n, 16)),
+    )
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&'); // amp는 이중 디코딩 방지 위해 마지막
 }
 
 export function sleep(ms: number): Promise<void> {

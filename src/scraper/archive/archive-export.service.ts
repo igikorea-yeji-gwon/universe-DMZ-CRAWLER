@@ -24,7 +24,11 @@ export class ArchiveExportService {
   async exportArchives(originId: number, since?: string) {
     let sinceDate: Date | undefined;
     if (since) {
-      const m = moment(since, ['YYYY-MM-DD HH:mm:ss', 'YYYY-MM-DD', moment.ISO_8601], true);
+      const m = moment(
+        since,
+        ['YYYY-MM-DD HH:mm:ss', 'YYYY-MM-DD', moment.ISO_8601],
+        true,
+      );
       if (!m.isValid()) {
         throw new BadRequestException(
           `since 형식이 잘못되었습니다: "${since}" (YYYY-MM-DD 또는 YYYY-MM-DD HH:mm:ss)`,
@@ -36,11 +40,22 @@ export class ArchiveExportService {
     // 아카이브 origin(RISS/KCI/NTIS_ORIGIN_ID)이 아니면 S3 조회 없이 빈 결과 반환
     const source = this.sourceOfOrigin(originId);
     if (!source) {
-      this.logger.warn(`[archives] 등록되지 않은 origin_id=${originId} → 조회 생략, 빈 결과 반환`);
-      return { originId, since: since ?? null, total: 0, knownOrigin: false, items: [] };
+      this.logger.warn(
+        `[archives] 등록되지 않은 origin_id=${originId} → 조회 생략, 빈 결과 반환`,
+      );
+      return {
+        originId,
+        since: since ?? null,
+        total: 0,
+        knownOrigin: false,
+        items: [],
+      };
     }
 
-    const entries = await this.s3Service.listArchiveMetaEntries(originId, sinceDate);
+    const entries = await this.s3Service.listArchiveMetaEntries(
+      originId,
+      sinceDate,
+    );
     const items = entries.map(({ meta, lastModified }) =>
       this.toDbReady(originId, source, meta, lastModified),
     );
@@ -48,7 +63,13 @@ export class ArchiveExportService {
     this.logger.log(
       `[archives] origin=${originId}(${source}) since=${since ?? '-'} → ${items.length}건 반환`,
     );
-    return { originId, source, since: since ?? null, total: items.length, items };
+    return {
+      originId,
+      source,
+      since: since ?? null,
+      total: items.length,
+      items,
+    };
   }
 
   /** 아카이브 수집 origin인지: RISS/KCI/NTIS_ORIGIN_ID 매칭 시 소스명 반환 */
@@ -57,6 +78,9 @@ export class ArchiveExportService {
       ['RISS_ORIGIN_ID', 'riss'],
       ['KCI_ORIGIN_ID', 'kci'],
       ['NTIS_ORIGIN_ID', 'ntis'],
+      ['LOSI_ORIGIN_ID', 'losi'],
+      ['KISTI_ORIGIN_ID', 'kisti'],
+      ['ENCYKOREA_ORIGIN_ID', 'encykorea'],
     ];
     for (const [envKey, source] of mapping) {
       const id = Number(this.configService.get(envKey));

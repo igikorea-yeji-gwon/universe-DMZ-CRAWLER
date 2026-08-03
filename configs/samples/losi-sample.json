@@ -1,0 +1,135 @@
+{
+  "result": [
+    {
+      "totalCount": 1195,
+      "searchList": [
+        {
+          "divFlag": "ARTICLE",
+          "lodID": "8860089",
+          "title": "지역산업연관모델을 이용한 국가숲길의 지역경제 파급효과 분석: DMZ펀치볼둘레길을 중심으로",
+          "pubYear": "2024",
+          "authorList": [
+            {
+              "lodAuthorID": null,
+              "name": "이수광"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "양재동"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "이정희"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "Sugwang Lee"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "Jae Dong Yang"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "Jeonghee Lee"
+            }
+          ],
+          "publisher": "",
+          "journal": null,
+          "keywordList": [
+            {
+              "lodKeywordID": null,
+              "name": "DMZ punchbowl trail"
+            },
+            {
+              "lodKeywordID": null,
+              "name": "national forest trail"
+            },
+            {
+              "lodKeywordID": null,
+              "name": "forest tourism"
+            },
+            {
+              "lodKeywordID": "1051388",
+              "name": "economic impacts"
+            }
+          ],
+          "url": "http://click.ndsl.kr/servlet/OpenAPIDetailView?keyValue=08338619&target=NART&cn=JAKO202419076986999",
+          "lodYn": "N",
+          "abstractCont": "",
+          "policyDataSeq": "",
+          "controlNum": "JAKO202419076986999"
+        },
+        {
+          "divFlag": "BOOK",
+          "lodID": "499252",
+          "title": "DMZ 접경지역의 식물 =  7-9",
+          "pubYear": "2022",
+          "authorList": [
+            {
+              "lodAuthorID": "1247113",
+              "name": "장계선"
+            },
+            {
+              "lodAuthorID": "2129761",
+              "name": "송진헌"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "최영민"
+            },
+            {
+              "lodAuthorID": "2106461",
+              "name": "곽수빈"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "정재상"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "이종원"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "국립수목원"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "파주시"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "김포시"
+            },
+            {
+              "lodAuthorID": null,
+              "name": "강화군"
+            }
+          ],
+          "publisher": "국립수목원",
+          "journal": null,
+          "keywordList": [
+            {
+              "lodKeywordID": null,
+              "name": "Demilitarized zone"
+            },
+            {
+              "lodKeywordID": null,
+              "name": "DMZ"
+            },
+            {
+              "lodKeywordID": null,
+              "name": "비무장지대[非武裝地帶]"
+            }
+          ],
+          "url": null,
+          "lodYn": "N",
+          "abstractCont": "",
+          "policyDataSeq": "",
+          "controlNum": "MONO12024000074164"
+        }
+      ]
+    }
+  ]
+}
