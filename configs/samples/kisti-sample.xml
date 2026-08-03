@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData>
+  <resultSummary>
+    <TotalCount>123</TotalCount>
+  </resultSummary>
+  <recordList>
+    <record>
+      <CN>JAKO202419076986999</CN>
+      <DBCode>JAKO</DBCode>
+      <Title>DMZ 접경지역의 식생 연구</Title>
+      <Author>홍길동</Author>
+      <Abstract>비무장지대 인근 식생을 분석하였다.</Abstract>
+      <Publisher></Publisher>
+      <JournalName>한국환경생태학회지</JournalName>
+      <ISSN>1229-3857</ISSN>
+      <Pubyear>2024</Pubyear>
+      <DOI>10.1234/abc</DOI>
+      <Keyword>DMZ;식생;접경지역</Keyword>
+      <ContentURL>https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO202419076986999</ContentURL>
+    </record>
+    <record>
+      <CN>TRKO201500002377</CN>
+      <Title>남북 접경지역 협력방안 연구</Title>
+      <Author>손기웅</Author>
+      <Abstract>접경지역 협력방안을 제시한다.</Abstract>
+      <Publisher>통일연구원</Publisher>
+      <Pubyear>2014</Pubyear>
+      <Keyword>접경지역;통일</Keyword>
+      <ContentURL>https://scienceon.kisti.re.kr/commons/util/originalView.do?dbt=TRKO&amp;cn=TRKO201500002377</ContentURL>
+    </record>
+    <record>
+      <CN>DIKO2024DMZ0001</CN>
+      <DBCode>DIKO</DBCode>
+      <Title>DMZ 생태 보전에 관한 연구</Title>
+      <Author>김철수</Author>
+      <Publisher>서울대학교 대학원</Publisher>
+      <Pubyear>2023</Pubyear>
+      <ContentURL>https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO2024DMZ0001</ContentURL>
+    </record>
+  </recordList>
+</MetaData>

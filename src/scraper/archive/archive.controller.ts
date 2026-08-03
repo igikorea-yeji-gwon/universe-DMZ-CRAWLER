@@ -7,11 +7,20 @@ import {
   Query,
   UseFilters,
 } from '@nestjs/common';
-import { ApiOperation, ApiParam, ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
+import {
+  ApiOperation,
+  ApiParam,
+  ApiQuery,
+  ApiResponse,
+  ApiTags,
+} from '@nestjs/swagger';
 import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
 import { KciCollectorService } from './kci-collector.service';
 import { RissCollectorService } from './riss-collector.service';
 import { NtisCollectorService } from './ntis-collector.service';
+import { LosiCollectorService } from './losi-collector.service';
+import { KistiCollectorService } from './kisti-collector.service';
+import { EncykoreaCollectorService } from './encykorea-collector.service';
 import { ArchiveExportService } from './archive-export.service';
 import { ArchiveReportService } from './archive-report.service';
 import { ArchiveIngestService } from './archive-ingest.service';
@@ -34,6 +43,9 @@ export class ArchiveController {
     private readonly kciCollector: KciCollectorService,
     private readonly rissCollector: RissCollectorService,
     private readonly ntisCollector: NtisCollectorService,
+    private readonly losiCollector: LosiCollectorService,
+    private readonly kistiCollector: KistiCollectorService,
+    private readonly encykoreaCollector: EncykoreaCollectorService,
     private readonly archiveExportService: ArchiveExportService,
     private readonly reportService: ArchiveReportService,
     private readonly classifier: InstitutionClassifierService,
@@ -48,12 +60,41 @@ export class ArchiveController {
       'KCI 논문 즉시 수집 → 분류(발간자료/논문) → S3 meta.json 저장. ' +
       '백필은 파라미터 없이 async=true로 실행(전체 페이지). DB 적재는 스프링 담당',
   })
-  @ApiQuery({ name: 'keyword', required: false, description: '특정 키워드만 (미지정 시 KEYWORDS 14개 전체)' })
-  @ApiQuery({ name: 'maxPages', required: false, example: 1, description: '키워드당 최대 페이지 수 (테스트용)' })
-  @ApiQuery({ name: 'pageSize', required: false, example: 100, description: 'KCI는 10/20/50/100만 유효' })
-  @ApiQuery({ name: 'translate', required: false, example: 'true', description: "영문 번역 여부 (기본 true)" })
-  @ApiQuery({ name: 'dryRun', required: false, example: 'false', description: "'true'면 저장 없이 파싱/분류 미리보기만" })
-  @ApiQuery({ name: 'async', required: false, example: 'false', description: "'true'면 백그라운드 실행 + 즉시 응답 (백필용)" })
+  @ApiQuery({
+    name: 'keyword',
+    required: false,
+    description: '특정 키워드만 (미지정 시 KEYWORDS 14개 전체)',
+  })
+  @ApiQuery({
+    name: 'maxPages',
+    required: false,
+    example: 1,
+    description: '키워드당 최대 페이지 수 (테스트용)',
+  })
+  @ApiQuery({
+    name: 'pageSize',
+    required: false,
+    example: 100,
+    description: 'KCI는 10/20/50/100만 유효',
+  })
+  @ApiQuery({
+    name: 'translate',
+    required: false,
+    example: 'true',
+    description: '영문 번역 여부 (기본 true)',
+  })
+  @ApiQuery({
+    name: 'dryRun',
+    required: false,
+    example: 'false',
+    description: "'true'면 저장 없이 파싱/분류 미리보기만",
+  })
+  @ApiQuery({
+    name: 'async',
+    required: false,
+    example: 'false',
+    description: "'true'면 백그라운드 실행 + 즉시 응답 (백필용)",
+  })
   async collectKci(
     @Query('keyword') keyword?: string,
     @Query('maxPages') maxPages?: string,
@@ -63,7 +104,12 @@ export class ArchiveController {
     @Query('async') async?: string,
   ) {
     return this.runCollect('kci', (opts) => this.kciCollector.collect(opts), {
-      keyword, maxPages, pageSize, translate, dryRun, async,
+      keyword,
+      maxPages,
+      pageSize,
+      translate,
+      dryRun,
+      async,
     });
   }
 
@@ -88,7 +134,12 @@ export class ArchiveController {
     @Query('async') async?: string,
   ) {
     return this.runCollect('riss', (opts) => this.rissCollector.collect(opts), {
-      keyword, maxPages, pageSize, translate, dryRun, async,
+      keyword,
+      maxPages,
+      pageSize,
+      translate,
+      dryRun,
+      async,
     });
   }
 
@@ -114,8 +165,112 @@ export class ArchiveController {
     @Query('async') async?: string,
   ) {
     return this.runCollect('ntis', (opts) => this.ntisCollector.collect(opts), {
-      keyword, maxPages, pageSize, translate, dryRun, async,
+      keyword,
+      maxPages,
+      pageSize,
+      translate,
+      dryRun,
+      async,
     });
+  }
+
+  @Get('archive/losi/collect')
+  @ApiOperation({
+    summary:
+      '국회도서관 LOSI(ARTICLE/THESIS/BOOK) 즉시 수집 → 분류(단행본→BOOKS 등) → S3 저장. ' +
+      'POST/JSON API. 초록·ISBN·영문 미제공(상세보기 별도 신청). 백필은 async=true. DB 적재는 스프링',
+  })
+  @ApiQuery({ name: 'keyword', required: false })
+  @ApiQuery({ name: 'maxPages', required: false, example: 1 })
+  @ApiQuery({ name: 'pageSize', required: false, example: 100 })
+  @ApiQuery({ name: 'translate', required: false, example: 'true' })
+  @ApiQuery({ name: 'dryRun', required: false, example: 'false' })
+  @ApiQuery({ name: 'async', required: false, example: 'false' })
+  async collectLosi(
+    @Query('keyword') keyword?: string,
+    @Query('maxPages') maxPages?: string,
+    @Query('pageSize') pageSize?: string,
+    @Query('translate') translate?: string,
+    @Query('dryRun') dryRun?: string,
+    @Query('async') async?: string,
+  ) {
+    return this.runCollect('losi', (opts) => this.losiCollector.collect(opts), {
+      keyword,
+      maxPages,
+      pageSize,
+      translate,
+      dryRun,
+      async,
+    });
+  }
+
+  @Get('archive/kisti/collect')
+  @ApiOperation({
+    summary:
+      'KISTI ScienceON(ARTI 논문 / REPORT 보고서) 즉시 수집 → 분류 → S3 저장. ' +
+      '⚠️ 토큰 인증 + 신청 시 등록한 MAC에서만 발급 가능 (로컬은 MAC 불일치로 토큰 실패 정상, 운영 EC2에서 동작). ' +
+      '백필은 async=true. DB 적재는 스프링',
+  })
+  @ApiQuery({ name: 'keyword', required: false })
+  @ApiQuery({ name: 'maxPages', required: false, example: 1 })
+  @ApiQuery({ name: 'pageSize', required: false, example: 100 })
+  @ApiQuery({ name: 'translate', required: false, example: 'true' })
+  @ApiQuery({ name: 'dryRun', required: false, example: 'false' })
+  @ApiQuery({ name: 'async', required: false, example: 'false' })
+  async collectKisti(
+    @Query('keyword') keyword?: string,
+    @Query('maxPages') maxPages?: string,
+    @Query('pageSize') pageSize?: string,
+    @Query('translate') translate?: string,
+    @Query('dryRun') dryRun?: string,
+    @Query('async') async?: string,
+  ) {
+    return this.runCollect(
+      'kisti',
+      (opts) => this.kistiCollector.collect(opts),
+      {
+        keyword,
+        maxPages,
+        pageSize,
+        translate,
+        dryRun,
+        async,
+      },
+    );
+  }
+
+  @Get('archive/encykorea/collect')
+  @ApiOperation({
+    summary:
+      '한국민족문화대백과사전(EncyKorea) 항목 즉시 수집 → 임시 article/PUBLICATIONS 분류 → S3 저장. ' +
+      'GET/JSON API + X-API-Key 헤더. 백필은 async=true. DB 적재는 스프링',
+  })
+  @ApiQuery({ name: 'keyword', required: false })
+  @ApiQuery({ name: 'maxPages', required: false, example: 1 })
+  @ApiQuery({ name: 'pageSize', required: false, example: 100 })
+  @ApiQuery({ name: 'translate', required: false, example: 'true' })
+  @ApiQuery({ name: 'dryRun', required: false, example: 'false' })
+  @ApiQuery({ name: 'async', required: false, example: 'false' })
+  async collectEncykorea(
+    @Query('keyword') keyword?: string,
+    @Query('maxPages') maxPages?: string,
+    @Query('pageSize') pageSize?: string,
+    @Query('translate') translate?: string,
+    @Query('dryRun') dryRun?: string,
+    @Query('async') async?: string,
+  ) {
+    return this.runCollect(
+      'encykorea',
+      (opts) => this.encykoreaCollector.collect(opts),
+      {
+        keyword,
+        maxPages,
+        pageSize,
+        translate,
+        dryRun,
+        async,
+      },
+    );
   }
 
   // ─── 저장 현황 리포트 (프로젝트 루트 텍스트 파일) ──────────────────────────
@@ -126,13 +281,23 @@ export class ArchiveController {
       '(임시) 프로젝트 루트의 archive-report-{source}.txt를 S3 archive-crawler/reports/ 아래로 업로드. ' +
       '로컬 파일이 없으면 즉석 생성 후 업로드. source 미지정 시 kci/riss/ntis 전부',
   })
-  @ApiQuery({ name: 'source', required: false, example: 'kci', description: 'kci | riss | ntis (미지정 시 전체)' })
+  @ApiQuery({
+    name: 'source',
+    required: false,
+    example: 'kci',
+    description: 'kci | riss | ntis (미지정 시 전체)',
+  })
   @ApiResponse({
     status: 200,
     schema: {
       example: {
         uploaded: [
-          { source: 'kci', s3Uri: 's3://dmz-portal-bucket/archive-crawler/reports/archive-report-kci.txt', total: null },
+          {
+            source: 'kci',
+            s3Uri:
+              's3://dmz-portal-bucket/archive-crawler/reports/archive-report-kci.txt',
+            total: null,
+          },
         ],
       },
     },
@@ -147,10 +312,20 @@ export class ArchiveController {
       'S3에 저장된 아카이브 전체 현황(제목+메타+분류근거)을 프로젝트 루트에 archive-report-{source}.txt로 출력. ' +
       '수집 완료 시 자동 생성되지만, 이미 저장된 데이터만 다시 뽑고 싶을 때 수동 호출',
   })
-  @ApiQuery({ name: 'source', required: true, example: 'kci', description: 'kci | riss | ntis' })
+  @ApiQuery({
+    name: 'source',
+    required: true,
+    example: 'kci',
+    description: 'kci | riss | ntis',
+  })
   @ApiResponse({
     status: 200,
-    schema: { example: { filePath: '/home/ubuntu/dmz_scraper/archive-report-kci.txt', total: 1522 } },
+    schema: {
+      example: {
+        filePath: '/home/ubuntu/dmz_scraper/archive-report-kci.txt',
+        total: 1522,
+      },
+    },
   })
   async writeReport(@Query('source') source: string) {
     return this.reportService.writeReportBySource(source);
@@ -164,7 +339,12 @@ export class ArchiveController {
       'apply=true면 S3 meta.json 덮어쓰기, 기본(false)은 집계+SQL만 생성. ' +
       'CUBRID UPDATE SQL은 프로젝트 루트 archive-reclassify-riss.sql에 항상 생성',
   })
-  @ApiQuery({ name: 'apply', required: false, example: 'false', description: 'true면 S3 덮어쓰기 실행 (기본 false=미리보기)' })
+  @ApiQuery({
+    name: 'apply',
+    required: false,
+    example: 'false',
+    description: 'true면 S3 덮어쓰기 실행 (기본 false=미리보기)',
+  })
   @ApiResponse({
     status: 200,
     schema: {
@@ -190,9 +370,22 @@ export class ArchiveController {
       '(유지보수) CUBRID 적재분(docs/ARCHIVE_RISS.csv)만 재분류 — category=주제분류 18종(LLM), ' +
       'menu_id=발행처분류+자료유형 규칙. limit로 앞 N건만(샘플), apply=true면 S3 덮어쓰기+SQL 생성',
   })
-  @ApiQuery({ name: 'limit', required: false, example: '50', description: '앞 N건만 처리(샘플 확인용). 미지정 시 전건' })
-  @ApiQuery({ name: 'apply', required: false, example: 'false', description: 'true면 S3 덮어쓰기+SQL 생성 (기본 false=미리보기)' })
-  async reclassifyRissCsv(@Query('limit') limit?: string, @Query('apply') apply?: string) {
+  @ApiQuery({
+    name: 'limit',
+    required: false,
+    example: '50',
+    description: '앞 N건만 처리(샘플 확인용). 미지정 시 전건',
+  })
+  @ApiQuery({
+    name: 'apply',
+    required: false,
+    example: 'false',
+    description: 'true면 S3 덮어쓰기+SQL 생성 (기본 false=미리보기)',
+  })
+  async reclassifyRissCsv(
+    @Query('limit') limit?: string,
+    @Query('apply') apply?: string,
+  ) {
     return this.ingestService.reclassifyRissFromCsv({
       limit: limit ? Number(limit) : undefined,
       apply: String(apply) === 'true',
@@ -209,7 +402,14 @@ export class ArchiveController {
   @ApiQuery({ name: 'publisher', required: true, example: '통일연구원' })
   @ApiResponse({
     status: 200,
-    schema: { example: { publisher: '통일연구원', verdict: 'GOV', by: 'dict', menuIdIfNotBook: 'PUBLICATIONS' } },
+    schema: {
+      example: {
+        publisher: '통일연구원',
+        verdict: 'GOV',
+        by: 'dict',
+        menuIdIfNotBook: 'PUBLICATIONS',
+      },
+    },
   })
   async classify(@Query('publisher') publisher: string) {
     const result = await this.classifier.classify(publisher ?? '');
@@ -228,12 +428,18 @@ export class ArchiveController {
     summary:
       'origin_id 기준 아카이브 meta.json을 DB 적재용(정규화) JSON으로 반환 — 스프링 archive 적재 배치 연동용',
   })
-  @ApiParam({ name: 'originId', type: Number, example: 2, description: 'RISS=1, KCI=2, NTIS=3 (env, archive_origin 테이블)' })
+  @ApiParam({
+    name: 'originId',
+    type: Number,
+    example: 2,
+    description: 'RISS=1, KCI=2, NTIS=3 (env, archive_origin 테이블)',
+  })
   @ApiQuery({
     name: 'since',
     required: false,
     example: '2026-07-15 00:00:00',
-    description: '이 시각(KST) 이후에 수집 완료된 자료만 반환 (증분 폴링용). 생략 시 전체 반환',
+    description:
+      '이 시각(KST) 이후에 수집 완료된 자료만 반환 (증분 폴링용). 생략 시 전체 반환',
   })
   @ApiResponse({
     status: 200,
@@ -265,7 +471,8 @@ export class ArchiveController {
             hasFile: 'X',
             summary: '본 연구는 접경지역 문화서비스 평가를 통해…',
             summaryEn: 'This study examines…',
-            linkUrl: 'https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003027350',
+            linkUrl:
+              'https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003027350',
             registerNo: 'KCI:ART003027350',
             callNo: null,
             filePath: null,
@@ -294,8 +501,12 @@ export class ArchiveController {
     source: string,
     run: (opts: ArchiveCollectOptions) => Promise<any>,
     query: {
-      keyword?: string; maxPages?: string; pageSize?: string;
-      translate?: string; dryRun?: string; async?: string;
+      keyword?: string;
+      maxPages?: string;
+      pageSize?: string;
+      translate?: string;
+      dryRun?: string;
+      async?: string;
     },
   ) {
     const opts: ArchiveCollectOptions = {
@@ -310,7 +521,9 @@ export class ArchiveController {
     // 서비스 자체 running 가드가 중복 실행을 막는다.
     if (query.async === 'true') {
       void run(opts).catch((e) =>
-        this.logger.error(`[archive:${source}] 백그라운드 수집 실패: ${e.message}`),
+        this.logger.error(
+          `[archive:${source}] 백그라운드 수집 실패: ${e.message}`,
+        ),
       );
       return {
         started: true,

@@ -40,13 +40,21 @@ export class ArchiveReportService {
    */
   async uploadReportToS3(
     source?: string,
-  ): Promise<{ uploaded: { source: string; s3Uri: string; total: number | null }[] }> {
-    const sources = source ? [source] : ['kci', 'riss', 'ntis'];
-    const uploaded: { source: string; s3Uri: string; total: number | null }[] = [];
+  ): Promise<{
+    uploaded: { source: string; s3Uri: string; total: number | null }[];
+  }> {
+    const sources = source
+      ? [source]
+      : ['kci', 'riss', 'ntis', 'losi', 'kisti', 'encykorea'];
+    const uploaded: { source: string; s3Uri: string; total: number | null }[] =
+      [];
 
     for (const src of sources) {
       const normalized = String(src).toLowerCase();
-      const filePath = path.join(process.cwd(), `archive-report-${normalized}.txt`);
+      const filePath = path.join(
+        process.cwd(),
+        `archive-report-${normalized}.txt`,
+      );
 
       let content: string;
       let total: number | null = null;
@@ -68,20 +76,35 @@ export class ArchiveReportService {
   }
 
   /** 수동 재생성용 — source(kci/riss/ntis) → env의 ORIGIN_ID를 찾아 리포트 생성 */
-  async writeReportBySource(source: string): Promise<{ filePath: string; total: number }> {
+  async writeReportBySource(
+    source: string,
+  ): Promise<{ filePath: string; total: number }> {
     const normalized = String(source ?? '').toLowerCase();
-    if (!['kci', 'riss', 'ntis'].includes(normalized)) {
-      throw new BadRequestException(`source는 kci/riss/ntis 중 하나여야 합니다: "${source}"`);
+    if (
+      !['kci', 'riss', 'ntis', 'losi', 'kisti', 'encykorea'].includes(
+        normalized,
+      )
+    ) {
+      throw new BadRequestException(
+        `source는 kci/riss/ntis/losi/kisti/encykorea 중 하나여야 합니다: "${source}"`,
+      );
     }
-    const originId = Number(this.configService.get(`${normalized.toUpperCase()}_ORIGIN_ID`));
+    const originId = Number(
+      this.configService.get(`${normalized.toUpperCase()}_ORIGIN_ID`),
+    );
     if (!Number.isFinite(originId) || originId <= 0) {
-      throw new BadRequestException(`${normalized.toUpperCase()}_ORIGIN_ID 환경변수가 설정되지 않았습니다.`);
+      throw new BadRequestException(
+        `${normalized.toUpperCase()}_ORIGIN_ID 환경변수가 설정되지 않았습니다.`,
+      );
     }
     return this.writeReport(originId, normalized);
   }
 
   /** S3 저장분 전체를 읽어 리포트 파일 생성. 반환값은 파일 절대경로 (0건이면 null) */
-  async writeReport(originId: number, source: string): Promise<{ filePath: string; total: number }> {
+  async writeReport(
+    originId: number,
+    source: string,
+  ): Promise<{ filePath: string; total: number }> {
     const entries = await this.s3Service.listArchiveMetaEntries(originId);
     const metas = entries.map((e) => e.meta as ArchiveMeta);
 
@@ -94,7 +117,11 @@ export class ArchiveReportService {
     return { filePath, total: metas.length };
   }
 
-  private render(originId: number, source: string, metas: ArchiveMeta[]): string {
+  private render(
+    originId: number,
+    source: string,
+    metas: ArchiveMeta[],
+  ): string {
     const byMenu: Record<ArchiveMenuId, ArchiveMeta[]> = {
       PUBLICATIONS: [],
       PAPERS: [],
@@ -109,20 +136,29 @@ export class ArchiveReportService {
     const sub = '-'.repeat(100);
 
     lines.push(bar);
-    lines.push(` ${source.toUpperCase()} (origin ${originId}) 아카이브 저장 현황 리포트`);
+    lines.push(
+      ` ${source.toUpperCase()} (origin ${originId}) 아카이브 저장 현황 리포트`,
+    );
     lines.push(` 생성: ${moment().format('YYYY-MM-DD HH:mm:ss')} (KST)`);
     lines.push(
       ` 총 ${metas.length}건 — 발간자료(PUBLICATIONS) ${byMenu.PUBLICATIONS.length} / ` +
-      `논문(PAPERS) ${byMenu.PAPERS.length} / 단행본(BOOKS) ${byMenu.BOOKS.length}`,
+        `논문(PAPERS) ${byMenu.PAPERS.length} / 단행본(BOOKS) ${byMenu.BOOKS.length}`,
     );
     lines.push(
       ` 분류기준: 단행본→BOOKS 고정, 발행기관 GOV(정부·지자체·국책연)→PUBLICATIONS, PRIVATE(학회·대학·민간)→PAPERS`,
     );
-    lines.push(` 분류근거 표기: ${Object.entries(BY_LABEL).map(([k, v]) => `${k}=${v}`).join(', ')}`);
+    lines.push(
+      ` 분류근거 표기: ${Object.entries(BY_LABEL)
+        .map(([k, v]) => `${k}=${v}`)
+        .join(', ')}`,
+    );
     lines.push(bar);
 
     // ── 발행기관별 분류 요약 (오분류 검토용) ──
-    const byPublisher = new Map<string, { verdict: string; by: string; menuId: string; count: number }>();
+    const byPublisher = new Map<
+      string,
+      { verdict: string; by: string; menuId: string; count: number }
+    >();
     for (const m of metas) {
       const key = m.publisher || '(발행기관 없음)';
       const cur = byPublisher.get(key);
@@ -137,18 +173,26 @@ export class ArchiveReportService {
       }
     }
     lines.push('');
-    lines.push(`■ 발행기관별 분류 요약 — ${byPublisher.size}개 기관 (건수 내림차순)`);
+    lines.push(
+      `■ 발행기관별 분류 요약 — ${byPublisher.size}개 기관 (건수 내림차순)`,
+    );
     lines.push(sub);
-    const publishers = [...byPublisher.entries()].sort((a, b) => b[1].count - a[1].count);
+    const publishers = [...byPublisher.entries()].sort(
+      (a, b) => b[1].count - a[1].count,
+    );
     for (const [publisher, p] of publishers) {
       lines.push(
         `${String(p.count).padStart(5)}건 | ${p.menuId.padEnd(12)} | ` +
-        `${p.verdict.padEnd(7)}/${(BY_LABEL[p.by] ?? p.by).padEnd(10)} | ${publisher}`,
+          `${p.verdict.padEnd(7)}/${(BY_LABEL[p.by] ?? p.by).padEnd(10)} | ${publisher}`,
       );
     }
 
     // ── menu_id별 전체 아이템 목록 ──
-    for (const menuId of ['PUBLICATIONS', 'PAPERS', 'BOOKS'] as ArchiveMenuId[]) {
+    for (const menuId of [
+      'PUBLICATIONS',
+      'PAPERS',
+      'BOOKS',
+    ] as ArchiveMenuId[]) {
       const items = byMenu[menuId];
       lines.push('');
       lines.push(`■ ${menuId} (${MENU_LABEL[menuId]}) — ${items.length}건`);
@@ -161,12 +205,15 @@ export class ArchiveReportService {
           (a.title || '').localeCompare(b.title || '', 'ko'),
       );
       for (const m of items) {
-        const by = BY_LABEL[m.classification?.by ?? ''] ?? m.classification?.by ?? '-';
+        const by =
+          BY_LABEL[m.classification?.by ?? ''] ?? m.classification?.by ?? '-';
         lines.push(
           `[${m.registerNo}] ${m.publishYear || '----'} | ` +
-          `${m.publisher || '(발행기관 없음)'} → ${m.classification?.verdict ?? '-'}(${by}) | ` +
-          `"${m.title}"` +
-          (m.matchedKeywords?.length ? ` | 키워드: ${m.matchedKeywords.join(', ')}` : ''),
+            `${m.publisher || '(발행기관 없음)'} → ${m.classification?.verdict ?? '-'}(${by}) | ` +
+            `"${m.title}"` +
+            (m.matchedKeywords?.length
+              ? ` | 키워드: ${m.matchedKeywords.join(', ')}`
+              : ''),
         );
       }
       if (items.length === 0) lines.push('(없음)');

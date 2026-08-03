@@ -26,6 +26,9 @@ const SOURCE_LABEL: Record<string, string> = {
   kci: 'KCI OpenAPI 수집',
   riss: 'RISS OpenAPI 수집',
   ntis: 'NTIS OpenAPI 수집',
+  losi: '국회도서관 LOSI OpenAPI 수집',
+  kisti: 'KISTI ScienceON OpenAPI 수집',
+  encykorea: '한국민족문화대백과사전 OpenAPI 수집',
 };
 const DRY_RUN_PREVIEW_LIMIT = 20;
 
@@ -78,7 +81,7 @@ export class ArchiveIngestService {
     summary.deduped = merged.length;
     this.logger.log(
       `[archive:${source}] 수집 ${items.length}건 → 키워드 간 중복 병합 후 ${merged.length}건 처리 시작` +
-      ` (S3에 이미 저장된 건은 처리 중 스킵되므로 실제 신규 저장은 이 이하)${opts.dryRun ? ' [dryRun]' : ''}`,
+        ` (S3에 이미 저장된 건은 처리 중 스킵되므로 실제 신규 저장은 이 이하)${opts.dryRun ? ' [dryRun]' : ''}`,
     );
 
     for (const { item, matchedKeywords } of merged) {
@@ -89,7 +92,10 @@ export class ArchiveIngestService {
 
       try {
         if (!opts.dryRun) {
-          const exists = await this.s3Service.archiveItemExists(originId, itemHash);
+          const exists = await this.s3Service.archiveItemExists(
+            originId,
+            itemHash,
+          );
           if (exists) {
             summary.skippedExisting++;
             continue;
@@ -165,18 +171,24 @@ export class ArchiveIngestService {
 
         // 폴더명에 정리된 제목을 붙여 S3 콘솔에서 바로 식별 가능하게 저장
         await this.s3Service.saveArchiveMeta(
-          originId, itemHash, meta, titleToS3Suffix(item.title),
+          originId,
+          itemHash,
+          meta,
+          titleToS3Suffix(item.title),
         );
         summary.saved++;
         this.logger.log(
           `[archive:${item.source}] meta.json 저장 hash=${itemHash} menu=${menuId} ` +
-          `(발행: ${item.publisher || '-'} → ${classification.verdict}/${classification.by}) "${item.title}"`,
+            `(발행: ${item.publisher || '-'} → ${classification.verdict}/${classification.by}) "${item.title}"`,
         );
       } catch (e) {
         this.logger.error(
           `[archive:${item.source}] 아이템 처리 실패 (${item.sourceId}): ${(e as Error).message}`,
         );
-        summary.errors.push({ sourceId: item.sourceId, message: (e as Error).message });
+        summary.errors.push({
+          sourceId: item.sourceId,
+          message: (e as Error).message,
+        });
       }
     }
 
@@ -186,9 +198,9 @@ export class ArchiveIngestService {
 
     this.logger.log(
       `[archive:${source}] ingest 종료: fetched=${summary.fetched} deduped=${summary.deduped} ` +
-      `신규저장=${summary.saved} 중복=${summary.skippedExisting} DMZ무관제외=${summary.droppedIrrelevant} ` +
-      `(발간자료 ${summary.classified.PUBLICATIONS} / 논문 ${summary.classified.PAPERS} / 단행본 ${summary.classified.BOOKS}) ` +
-      `번역=${summary.translated} 오류=${summary.errors.length}${opts.dryRun ? ' [dryRun]' : ''}`,
+        `신규저장=${summary.saved} 중복=${summary.skippedExisting} DMZ무관제외=${summary.droppedIrrelevant} ` +
+        `(발간자료 ${summary.classified.PUBLICATIONS} / 논문 ${summary.classified.PAPERS} / 단행본 ${summary.classified.BOOKS}) ` +
+        `번역=${summary.translated} 오류=${summary.errors.length}${opts.dryRun ? ' [dryRun]' : ''}`,
     );
 
     // 수집 완료 후 S3 저장분 전체 현황(제목+메타+분류근거)을 프로젝트 루트에 텍스트 리포트로 출력.
@@ -205,7 +217,10 @@ export class ArchiveIngestService {
     return summary;
   }
 
-  private decideMenuId(item: ArchiveItem, verdict: 'GOV' | 'PRIVATE'): ArchiveMenuId {
+  private decideMenuId(
+    item: ArchiveItem,
+    verdict: 'GOV' | 'PRIVATE',
+  ): ArchiveMenuId {
     return decideArchiveMenu(item.materialType, verdict);
   }
 
@@ -225,18 +240,32 @@ export class ArchiveIngestService {
     sqlPath: string;
     menuMoves: Record<string, number>;
   }> {
-    const RISS_CAT: Record<string, { label: string; en: string; type: ArchiveItem['materialType'] }> = {
-      A: { label: '국내학술논문', en: 'Domestic Academic Article', type: 'article' },
+    const RISS_CAT: Record<
+      string,
+      { label: string; en: string; type: ArchiveItem['materialType'] }
+    > = {
+      A: {
+        label: '국내학술논문',
+        en: 'Domestic Academic Article',
+        type: 'article',
+      },
       T: { label: '학위논문', en: 'Dissertation', type: 'thesis' },
       U: { label: '단행본', en: 'Book', type: 'book' },
     };
 
     const originId = Number(process.env.RISS_ORIGIN_ID);
     const entries = await this.s3Service.listArchiveMetaEntries(originId);
-    this.logger.log(`[reclassify:riss] S3 meta ${entries.length}건 로드 — 재분류 시작 (dryRun=${dryRun})`);
+    this.logger.log(
+      `[reclassify:riss] S3 meta ${entries.length}건 로드 — 재분류 시작 (dryRun=${dryRun})`,
+    );
 
     // register_no별 최종 UPDATE 값 계산
-    const rows: { registerNo: string; menuId: ArchiveMenuId; label: string; en: string }[] = [];
+    const rows: {
+      registerNo: string;
+      menuId: ArchiveMenuId;
+      label: string;
+      en: string;
+    }[] = [];
     const menuMoves: Record<string, number> = {}; // "BOOKS→PUBLICATIONS" 형태 집계
     let menuChanged = 0;
     let catChanged = 0;
@@ -265,7 +294,12 @@ export class ArchiveIngestService {
           }
           if (catDiff) catChanged++;
 
-          rows.push({ registerNo: meta.registerNo, menuId: newMenu, label: cat.label, en: cat.en });
+          rows.push({
+            registerNo: meta.registerNo,
+            menuId: newMenu,
+            label: cat.label,
+            en: cat.en,
+          });
 
           if (!dryRun && (menuDiff || catDiff)) {
             const updated: ArchiveMeta = {
@@ -286,10 +320,18 @@ export class ArchiveIngestService {
     await fs.writeFile(sqlPath, this.buildReclassifySql(rows), 'utf-8');
     this.logger.log(
       `[reclassify:riss] 완료 — 총 ${rows.length} / menu변경 ${menuChanged} / cat변경 ${catChanged} ` +
-      `/ S3덮어쓰기 ${s3Updated} / SQL ${sqlPath}`,
+        `/ S3덮어쓰기 ${s3Updated} / SQL ${sqlPath}`,
     );
 
-    return { originId, total: rows.length, menuChanged, catChanged, s3Updated, sqlPath, menuMoves };
+    return {
+      originId,
+      total: rows.length,
+      menuChanged,
+      catChanged,
+      s3Updated,
+      sqlPath,
+      menuMoves,
+    };
   }
 
   /**
@@ -297,22 +339,31 @@ export class ArchiveIngestService {
    * (register_no가 유니크 키라 WHERE로 정확히 특정됨. mdfcn_dt는 SYSDATETIME)
    */
   private buildReclassifySql(
-    rows: { registerNo: string; menuId: ArchiveMenuId; label: string; en: string }[],
+    rows: {
+      registerNo: string;
+      menuId: ArchiveMenuId;
+      label: string;
+      en: string;
+    }[],
   ): string {
     const q = (s: string) => `'${s.replace(/'/g, "''")}'`;
     const lines: string[] = [];
 
     lines.push('-- RISS 자료마당 재분류 (자동 생성) — CUBRID');
-    lines.push('-- 1) category/category_en 를 자료유형 라벨로 (register_no 접두 A/T/U 기준), mdfcn_dt=현재시각');
+    lines.push(
+      '-- 1) category/category_en 를 자료유형 라벨로 (register_no 접두 A/T/U 기준), mdfcn_dt=현재시각',
+    );
     lines.push('UPDATE archive');
-    lines.push("SET category = CASE");
+    lines.push('SET category = CASE');
     lines.push("      WHEN register_no LIKE 'RISS:A%' THEN '국내학술논문'");
     lines.push("      WHEN register_no LIKE 'RISS:T%' THEN '학위논문'");
     lines.push("      WHEN register_no LIKE 'RISS:U%' THEN '단행본'");
     lines.push('      ELSE category');
     lines.push('    END,');
     lines.push('    category_en = CASE');
-    lines.push("      WHEN register_no LIKE 'RISS:A%' THEN 'Domestic Academic Article'");
+    lines.push(
+      "      WHEN register_no LIKE 'RISS:A%' THEN 'Domestic Academic Article'",
+    );
     lines.push("      WHEN register_no LIKE 'RISS:T%' THEN 'Dissertation'");
     lines.push("      WHEN register_no LIKE 'RISS:U%' THEN 'Book'");
     lines.push('      ELSE category_en');
@@ -320,18 +371,33 @@ export class ArchiveIngestService {
     lines.push('    mdfcn_dt = SYSDATETIME');
     lines.push("WHERE remark = 'RISS OpenAPI 수집';");
     lines.push('');
-    lines.push('-- 2) menu_id 재분류 — 목표 메뉴별로 대상 register_no를 IN-list로 UPDATE');
+    lines.push(
+      '-- 2) menu_id 재분류 — 목표 메뉴별로 대상 register_no를 IN-list로 UPDATE',
+    );
 
-    for (const target of ['PUBLICATIONS', 'PAPERS', 'BOOKS'] as ArchiveMenuId[]) {
-      const ids = rows.filter((r) => r.menuId === target).map((r) => r.registerNo);
+    for (const target of [
+      'PUBLICATIONS',
+      'PAPERS',
+      'BOOKS',
+    ] as ArchiveMenuId[]) {
+      const ids = rows
+        .filter((r) => r.menuId === target)
+        .map((r) => r.registerNo);
       if (ids.length === 0) continue;
       lines.push('');
       lines.push(`-- → ${target}: ${ids.length}건`);
       // IN-list는 900개 단위로 쪼개 (CUBRID IN 절 상한 대비)
       for (let i = 0; i < ids.length; i += 900) {
-        const chunk = ids.slice(i, i + 900).map(q).join(', ');
-        lines.push(`UPDATE archive SET menu_id = '${target}', mdfcn_dt = SYSDATETIME`);
-        lines.push(`WHERE remark = 'RISS OpenAPI 수집' AND register_no IN (${chunk});`);
+        const chunk = ids
+          .slice(i, i + 900)
+          .map(q)
+          .join(', ');
+        lines.push(
+          `UPDATE archive SET menu_id = '${target}', mdfcn_dt = SYSDATETIME`,
+        );
+        lines.push(
+          `WHERE remark = 'RISS OpenAPI 수집' AND register_no IN (${chunk});`,
+        );
       }
     }
     lines.push('');
@@ -347,7 +413,10 @@ export class ArchiveIngestService {
    * apply=false면 S3/SQL 안 만들고 분류 결과 샘플만, limit로 앞 N건만 처리(샘플 확인용).
    * S3 meta 덮어쓰기 + register_no 기준 CUBRID UPDATE SQL(archive-reclassify-riss.sql) 생성.
    */
-  async reclassifyRissFromCsv(opts: { limit?: number; apply?: boolean }): Promise<{
+  async reclassifyRissFromCsv(opts: {
+    limit?: number;
+    apply?: boolean;
+  }): Promise<{
     csvRegisterNos: number;
     notFoundInS3: number;
     processed: number;
@@ -356,8 +425,13 @@ export class ArchiveIngestService {
     themeDist: Record<string, number>;
     menuMoves: Record<string, number>;
     sample: {
-      registerNo: string; title: string; publisher: string;
-      oldMenu: string; newMenu: string; oldCategory: string | null; theme: string;
+      registerNo: string;
+      title: string;
+      publisher: string;
+      oldMenu: string;
+      newMenu: string;
+      oldCategory: string | null;
+      theme: string;
     }[];
   }> {
     const csvPath = path.join(process.cwd(), 'docs/ARCHIVE_RISS.csv');
@@ -369,10 +443,16 @@ export class ArchiveIngestService {
     const entries = await this.s3Service.listArchiveMetaEntries(originId);
     const byRn = new Map<string, { key: string; meta: ArchiveMeta }>();
     for (const e of entries) {
-      byRn.set((e.meta as ArchiveMeta).registerNo, { key: e.key, meta: e.meta as ArchiveMeta });
+      byRn.set((e.meta as ArchiveMeta).registerNo, {
+        key: e.key,
+        meta: e.meta as ArchiveMeta,
+      });
     }
 
-    let targets = rns.map((rn) => byRn.get(rn)).filter(Boolean) as { key: string; meta: ArchiveMeta }[];
+    let targets = rns.map((rn) => byRn.get(rn)).filter(Boolean) as {
+      key: string;
+      meta: ArchiveMeta;
+    }[];
     const notFoundInS3 = rns.length - targets.length;
     if (opts.limit && opts.limit > 0) targets = targets.slice(0, opts.limit);
 
@@ -381,10 +461,16 @@ export class ArchiveIngestService {
     );
 
     // 1) 주제분류 (LLM 배치) — 제목 기준
-    const themes = await this.themeClassifier.classifyTitles(targets.map((t) => t.meta.title));
+    const themes = await this.themeClassifier.classifyTitles(
+      targets.map((t) => t.meta.title),
+    );
 
     // 2) 발행처분류 → menu_id 재계산 + (apply) S3 덮어쓰기
-    const sqlRows: { registerNo: string; menuId: ArchiveMenuId; theme: string }[] = [];
+    const sqlRows: {
+      registerNo: string;
+      menuId: ArchiveMenuId;
+      theme: string;
+    }[] = [];
     const sample: any[] = [];
     const themeDist: Record<string, number> = {};
     const menuMoves: Record<string, number> = {};
@@ -411,14 +497,23 @@ export class ArchiveIngestService {
           sqlRows.push({ registerNo: meta.registerNo, menuId: newMenu, theme });
           if (sample.length < 60) {
             sample.push({
-              registerNo: meta.registerNo, title: meta.title, publisher: meta.publisher,
-              oldMenu: meta.menuId, newMenu, oldCategory: meta.category, theme,
+              registerNo: meta.registerNo,
+              title: meta.title,
+              publisher: meta.publisher,
+              oldMenu: meta.menuId,
+              newMenu,
+              oldCategory: meta.category,
+              theme,
             });
           }
 
           if (opts.apply) {
             const updated: ArchiveMeta = {
-              ...meta, menuId: newMenu, category: theme, categoryEn: null, classification: verdict,
+              ...meta,
+              menuId: newMenu,
+              category: theme,
+              categoryEn: null,
+              classification: verdict,
             };
             await this.s3Service.overwriteArchiveMeta(t.key, updated);
             s3Updated++;
@@ -430,12 +525,20 @@ export class ArchiveIngestService {
     if (opts.apply) {
       const sqlPath = path.join(process.cwd(), 'archive-reclassify-riss.sql');
       await fs.writeFile(sqlPath, this.buildCsvReclassifySql(sqlRows), 'utf-8');
-      this.logger.log(`[reclassify-csv] S3 ${s3Updated}건 덮어쓰기 + SQL ${sqlPath} (${sqlRows.length}행)`);
+      this.logger.log(
+        `[reclassify-csv] S3 ${s3Updated}건 덮어쓰기 + SQL ${sqlPath} (${sqlRows.length}행)`,
+      );
     }
 
     return {
-      csvRegisterNos: rns.length, notFoundInS3, processed: targets.length,
-      s3Updated, apply: !!opts.apply, themeDist, menuMoves, sample,
+      csvRegisterNos: rns.length,
+      notFoundInS3,
+      processed: targets.length,
+      s3Updated,
+      apply: !!opts.apply,
+      themeDist,
+      menuMoves,
+      sample,
     };
   }
 
@@ -451,7 +554,7 @@ export class ArchiveIngestService {
     for (const r of rows) {
       lines.push(
         `UPDATE archive SET menu_id=${q(r.menuId)}, category=${q(r.theme)}, category_en=NULL, ` +
-        `mdfcn_dt=SYSDATETIME WHERE register_no=${q(r.registerNo)};`,
+          `mdfcn_dt=SYSDATETIME WHERE register_no=${q(r.registerNo)};`,
       );
     }
     lines.push('');
@@ -461,7 +564,10 @@ export class ArchiveIngestService {
   private mergeBySourceId(
     items: ArchiveItem[],
   ): { item: ArchiveItem; matchedKeywords: string[] }[] {
-    const map = new Map<string, { item: ArchiveItem; matchedKeywords: string[] }>();
+    const map = new Map<
+      string,
+      { item: ArchiveItem; matchedKeywords: string[] }
+    >();
     for (const item of items) {
       const key = `${item.source}:${item.sourceId}`;
       const existing = map.get(key);
