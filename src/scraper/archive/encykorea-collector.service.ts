@@ -524,8 +524,12 @@ export class EncykoreaCollectorService implements OnModuleInit {
   }
 
   private firstText(obj: any, aliases: string[]): string {
-    const value = this.findValue(obj, aliases);
-    return this.toText(value);
+    for (const alias of aliases) {
+      const value = this.findValue(obj, [alias]);
+      const text = this.toText(value);
+      if (text) return text;
+    }
+    return '';
   }
 
   private findValue(obj: any, aliases: string[]): any {

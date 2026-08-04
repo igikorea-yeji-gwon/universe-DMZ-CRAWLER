@@ -270,6 +270,24 @@ describe('EncykoreaCollectorService JSON 매핑', () => {
     );
     expect(collector.needsDetail(item, { summary: item.summary })).toBe(false);
   });
+
+  it('summary가 빈 문자열이면 definition을 fallback으로 사용한다', () => {
+    const collector = makeCollector(EncykoreaCollectorService) as any;
+    const item = collector.toArchiveItem(
+      {
+        eid: 'E0025142',
+        title: '비무장지대',
+        writer: '박진구',
+        field: '정치·법제/국방',
+        writeYear: '1995',
+        summary: '',
+        definition: '조약이나 협정에 의하여 무장이 금지된 완충지대.',
+      },
+      '비무장지대',
+    );
+
+    expect(item.summary).toBe('조약이나 협정에 의하여 무장이 금지된 완충지대.');
+  });
 });
 
 // ─── RISS 매핑 (실 응답 샘플 픽스처) ─────────────────────────────────────────
