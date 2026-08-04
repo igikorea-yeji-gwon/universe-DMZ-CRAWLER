@@ -248,6 +248,28 @@ describe('EncykoreaCollectorService JSON 매핑', () => {
     expect(item.summary).toContain('군사분계선을 기준으로');
     expect(item.isbn).toBeNull();
   });
+
+  it('정의보다 내용요약(summary)을 summary로 우선 저장한다', () => {
+    const collector = makeCollector(EncykoreaCollectorService) as any;
+    const item = collector.toArchiveItem(
+      {
+        eid: 'E0080603',
+        title: '서해 해상군사분계선',
+        writer: '강석승',
+        field: '정치·법제/국방',
+        writeYear: '2024',
+        definition: '짧은 정의값',
+        summary: '내용요약에 해당하는 긴 설명값',
+      },
+      'DMZ',
+    );
+
+    expect(item.summary).toBe('내용요약에 해당하는 긴 설명값');
+    expect(collector.needsDetail(item, { definition: '짧은 정의값' })).toBe(
+      true,
+    );
+    expect(collector.needsDetail(item, { summary: item.summary })).toBe(false);
+  });
 });
 
 // ─── RISS 매핑 (실 응답 샘플 픽스처) ─────────────────────────────────────────

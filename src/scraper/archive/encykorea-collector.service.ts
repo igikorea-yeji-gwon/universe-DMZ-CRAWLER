@@ -206,7 +206,7 @@ export class EncykoreaCollectorService implements OnModuleInit {
         let merged = rec;
         const eid = this.extractEid(rec);
         const preliminary = this.toArchiveItem(rec, keyword);
-        if (fetchDetails && eid && this.needsDetail(preliminary)) {
+        if (fetchDetails && eid && this.needsDetail(preliminary, rec)) {
           try {
             const detail = await this.fetchDetail(
               base,
@@ -340,8 +340,13 @@ export class EncykoreaCollectorService implements OnModuleInit {
       ]),
     );
     const summary = this.firstText(rec, [
-      'definition',
       'summary',
+      'contentSummary',
+      'contentsSummary',
+      'contentSummaryText',
+      '요약',
+      '내용요약',
+      'definition',
       'abstract',
       'description',
       'desc',
@@ -409,9 +414,27 @@ export class EncykoreaCollectorService implements OnModuleInit {
     };
   }
 
-  private needsDetail(item: ArchiveItem | null): boolean {
+  private needsDetail(item: ArchiveItem | null, raw?: any): boolean {
     if (!item) return true;
-    return !item.summary || !item.author || !item.category || !item.publishYear;
+    return (
+      !this.hasContentSummary(raw) ||
+      !item.author ||
+      !item.category ||
+      !item.publishYear
+    );
+  }
+
+  private hasContentSummary(rec: any): boolean {
+    return Boolean(
+      this.firstText(rec, [
+        'summary',
+        'contentSummary',
+        'contentsSummary',
+        'contentSummaryText',
+        '요약',
+        '내용요약',
+      ]),
+    );
   }
 
   private unwrapPayload(data: any): any {
