@@ -1,4 +1,9 @@
-import { BadGatewayException, Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import {
+  BadGatewayException,
+  Injectable,
+  Logger,
+  OnModuleInit,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { CronJob } from 'cron';
@@ -6,7 +11,6 @@ import axios from 'axios';
 import { createHash } from 'crypto';
 import moment from 'moment';
 import { parseStringPromise } from 'xml2js';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { isSchedulingEnabled } from 'src/common/scheduling.util';
 import { BROWSER_UA, KEYWORDS } from '../yna-feed.service';
 import { ArchiveIngestService } from './archive-ingest.service';
@@ -30,7 +34,6 @@ const RISS_TYPES: { type: string; materialType: ArchiveMaterialType }[] = [
   { type: 'U', materialType: 'book' },
 ];
 
-
 /**
  * RISS(학술연구정보서비스) 수집기.
  * www.riss.kr/openApi 를 자료유형(A/T/U)×키워드로 페이징 조회(rsnum/rowcount)해
@@ -46,13 +49,14 @@ export class RissCollectorService implements OnModuleInit {
   constructor(
     private readonly configService: ConfigService,
     private readonly ingestService: ArchiveIngestService,
-    private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
 
   onModuleInit(): void {
     if (!isSchedulingEnabled(this.configService)) {
-      this.logger.warn('[riss] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.');
+      this.logger.warn(
+        '[riss] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.',
+      );
       return;
     }
     if (this.schedulerRegistry.getCronJobs().has(CRON_ID)) {
@@ -66,7 +70,12 @@ export class RissCollectorService implements OnModuleInit {
           // 크론은 증분(날짜필터) + 페이지 상한으로 가볍게 — 놓친 분량은 다음 회차/수동 백필이 커버
           const maxPages =
             Number(this.configService.get('ARCHIVE_CRON_MAX_PAGES')) || 1;
-          await this.collect({ translate: true, dryRun: false, incremental: true, maxPages });
+          await this.collect({
+            translate: true,
+            dryRun: false,
+            incremental: true,
+            maxPages,
+          });
         } catch (e) {
           this.logger.error(`[riss] 정기 수집 실패: ${(e as Error).message}`);
         }
@@ -80,7 +89,9 @@ export class RissCollectorService implements OnModuleInit {
     this.logger.log(`[riss] 정기 수집 크론 등록 완료 (${CRON_TIME})`);
   }
 
-  async collect(opts: ArchiveCollectOptions): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
+  async collect(
+    opts: ArchiveCollectOptions,
+  ): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
     if (this.running) {
       this.logger.warn('[riss] 이전 수집이 아직 실행 중 → 이번 회차 스킵');
       return { skipped: true, reason: 'already running' };
@@ -92,7 +103,9 @@ export class RissCollectorService implements OnModuleInit {
     const originId = Number(this.configService.get('RISS_ORIGIN_ID'));
     if (!apiUrl || !apiKey || !Number.isFinite(originId) || originId <= 0) {
       this.running = false;
-      this.logger.warn('[riss] RISS_API_URL / RISS_API_KEY / RISS_ORIGIN_ID 미설정 → 수집 생략');
+      this.logger.warn(
+        '[riss] RISS_API_URL / RISS_API_KEY / RISS_ORIGIN_ID 미설정 → 수집 생략',
+      );
       return { skipped: true, reason: 'env not configured' };
     }
 
@@ -103,7 +116,9 @@ export class RissCollectorService implements OnModuleInit {
       Number(this.configService.get('ARCHIVE_API_DELAY_MS')) ||
       1000;
     const pageSize = Math.min(
-      opts.pageSize ?? Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ?? 100,
+      opts.pageSize ??
+        Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ??
+        100,
       100, // rowcount 최대 100
     );
     const keywords = opts.keyword ? [opts.keyword] : [...KEYWORDS];
@@ -112,7 +127,7 @@ export class RissCollectorService implements OnModuleInit {
 
     this.logger.log(
       `[riss] 수집 시작 — keyword=${opts.keyword ?? '전체(14개)'} maxPages=${opts.maxPages ?? '무제한'} ` +
-      `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
+        `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
     );
 
     try {
@@ -124,11 +139,21 @@ export class RissCollectorService implements OnModuleInit {
         for (const keyword of keywords) {
           try {
             const fetched = await this.fetchByKeyword(
-              apiUrl, apiKey, type, materialType, keyword, pageSize, opts.maxPages, spubdate, delayMs,
+              apiUrl,
+              apiKey,
+              type,
+              materialType,
+              keyword,
+              pageSize,
+              opts.maxPages,
+              spubdate,
+              delayMs,
             );
             items.push(...fetched);
           } catch (e) {
-            failedFetches.push(`type=${type} "${keyword}": ${(e as Error).message}`);
+            failedFetches.push(
+              `type=${type} "${keyword}": ${(e as Error).message}`,
+            );
             this.logger.error(
               `[riss] type=${type} "${keyword}" 조회 실패(재시도 소진) → 다음 키워드 계속: ${(e as Error).message}`,
             );
@@ -139,25 +164,27 @@ export class RissCollectorService implements OnModuleInit {
       if (failedFetches.length) {
         this.logger.warn(
           `[riss] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행` +
-          ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
+            ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
         );
-        this.googleChatService.sendAlert('RISS 수집 일부 실패 (부분 저장은 진행)', {
-          실패: failedFetches.slice(0, 10).join('\n'),
-        });
       }
-      const summary = await this.ingestService.ingest(originId, items, opts, 'riss');
+      const summary = await this.ingestService.ingest(
+        originId,
+        items,
+        opts,
+        'riss',
+      );
       // 키워드 조회 실패도 HTTP 응답에서 보이게 — 로그 없이 "0건 성공"으로 오해하지 않도록
       if (failedFetches.length) {
         summary.errors.unshift(
-          ...failedFetches.map((message) => ({ sourceId: '(keyword-fetch)', message })),
+          ...failedFetches.map((message) => ({
+            sourceId: '(keyword-fetch)',
+            message,
+          })),
         );
       }
       return summary;
     } catch (e) {
       this.logger.error(`[riss] 수집 실패: ${(e as Error).message}`);
-      this.googleChatService.sendAlert('RISS 아카이브 수집 실패', {
-        에러: (e as Error).message,
-      });
       throw e;
     } finally {
       this.running = false;
@@ -210,14 +237,20 @@ export class RissCollectorService implements OnModuleInit {
         5000,
       );
 
-      const parsed = await parseStringPromise(res.data, { explicitArray: false });
+      const parsed = await parseStringPromise(res.data, {
+        explicitArray: false,
+      });
       const head = parsed?.record?.head;
       if (!head) {
         // BadGateway → HttpExceptionFilter가 원인 메시지를 응답에 그대로 실어준다
-        throw new BadGatewayException(`RISS 응답에 head 없음: ${String(res.data).slice(0, 200)}`);
+        throw new BadGatewayException(
+          `RISS 응답에 head 없음: ${String(res.data).slice(0, 200)}`,
+        );
       }
       if (String(head.Error ?? '0') !== '0') {
-        throw new BadGatewayException(`RISS 오류 응답 [${head.Error}]: ${head.ErrorMessage ?? ''}`);
+        throw new BadGatewayException(
+          `RISS 오류 응답 [${head.Error}]: ${head.ErrorMessage ?? ''}`,
+        );
       }
 
       total = Number(head.totalcount ?? 0);
@@ -257,7 +290,10 @@ export class RissCollectorService implements OnModuleInit {
     const stitle = String(metadata?.['riss.stitle'] ?? '').trim();
     const vol = String(metadata?.['riss.vol'] ?? '').trim();
     const no = String(metadata?.['riss.no'] ?? '').trim();
-    const volLabel = vol && vol !== '0' && vol !== '-' ? ` ${vol}${no && no !== '0' && no !== '-' ? `(${no})` : ''}` : '';
+    const volLabel =
+      vol && vol !== '0' && vol !== '-'
+        ? ` ${vol}${no && no !== '0' && no !== '-' ? `(${no})` : ''}`
+        : '';
     const subCategory = stitle ? `${stitle}${volLabel}` : null;
 
     // 저자 '길희영|정재상|…' → ', ' join

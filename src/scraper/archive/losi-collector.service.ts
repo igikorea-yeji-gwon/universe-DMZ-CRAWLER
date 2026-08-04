@@ -1,10 +1,14 @@
-import { BadGatewayException, Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import {
+  BadGatewayException,
+  Injectable,
+  Logger,
+  OnModuleInit,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { CronJob } from 'cron';
 import axios from 'axios';
 import moment from 'moment';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { isSchedulingEnabled } from 'src/common/scheduling.util';
 import { BROWSER_UA, KEYWORDS } from '../yna-feed.service';
 import { ArchiveIngestService } from './archive-ingest.service';
@@ -21,7 +25,10 @@ const CRON_ID = 'archive-losi-collect';
 const CRON_TIME = '0 0 4 * * *'; // 매일 04:00 KST (KCI 01:00 / NTIS 03:00 / RISS 06:00 / KISTI 05:00와 시차)
 
 /** 수집 대상 자료구분(searchRange) → materialType. RISS의 A/T/U 루프와 동일한 구조 */
-const LOSI_RANGES: { range: 'ARTICLE' | 'THESIS' | 'BOOK'; materialType: ArchiveMaterialType }[] = [
+const LOSI_RANGES: {
+  range: 'ARTICLE' | 'THESIS' | 'BOOK';
+  materialType: ArchiveMaterialType;
+}[] = [
   { range: 'ARTICLE', materialType: 'article' },
   { range: 'THESIS', materialType: 'thesis' },
   { range: 'BOOK', materialType: 'book' },
@@ -44,13 +51,14 @@ export class LosiCollectorService implements OnModuleInit {
   constructor(
     private readonly configService: ConfigService,
     private readonly ingestService: ArchiveIngestService,
-    private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
 
   onModuleInit(): void {
     if (!isSchedulingEnabled(this.configService)) {
-      this.logger.warn('[losi] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.');
+      this.logger.warn(
+        '[losi] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.',
+      );
       return;
     }
     if (this.schedulerRegistry.getCronJobs().has(CRON_ID)) {
@@ -61,8 +69,14 @@ export class LosiCollectorService implements OnModuleInit {
       CRON_TIME,
       async () => {
         try {
-          const maxPages = Number(this.configService.get('ARCHIVE_CRON_MAX_PAGES')) || 1;
-          await this.collect({ translate: true, dryRun: false, incremental: true, maxPages });
+          const maxPages =
+            Number(this.configService.get('ARCHIVE_CRON_MAX_PAGES')) || 1;
+          await this.collect({
+            translate: true,
+            dryRun: false,
+            incremental: true,
+            maxPages,
+          });
         } catch (e) {
           this.logger.error(`[losi] 정기 수집 실패: ${(e as Error).message}`);
         }
@@ -76,7 +90,9 @@ export class LosiCollectorService implements OnModuleInit {
     this.logger.log(`[losi] 정기 수집 크론 등록 완료 (${CRON_TIME})`);
   }
 
-  async collect(opts: ArchiveCollectOptions): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
+  async collect(
+    opts: ArchiveCollectOptions,
+  ): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
     if (this.running) {
       this.logger.warn('[losi] 이전 수집이 아직 실행 중 → 이번 회차 스킵');
       return { skipped: true, reason: 'already running' };
@@ -88,19 +104,25 @@ export class LosiCollectorService implements OnModuleInit {
     const originId = Number(this.configService.get('LOSI_ORIGIN_ID'));
     if (!apiUrl || !apiKey || !Number.isFinite(originId) || originId <= 0) {
       this.running = false;
-      this.logger.warn('[losi] LOSI_API_URL / LOSI_API_KEY / LOSI_ORIGIN_ID 미설정 → 수집 생략');
+      this.logger.warn(
+        '[losi] LOSI_API_URL / LOSI_API_KEY / LOSI_ORIGIN_ID 미설정 → 수집 생략',
+      );
       return { skipped: true, reason: 'env not configured' };
     }
 
-    const delayMs = Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
-    const pageSize = opts.pageSize ?? Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ?? 100;
+    const delayMs =
+      Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
+    const pageSize =
+      opts.pageSize ??
+      Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ??
+      100;
     const keywords = opts.keyword ? [opts.keyword] : [...KEYWORDS];
     // 증분(크론): LOSI는 등록일 필터가 없어 발행년(올해~) startYear로 좁힌다 — 겹침은 S3 마커가 거름
     const startYear = opts.incremental ? moment().format('YYYY') : undefined;
 
     this.logger.log(
       `[losi] 수집 시작 — keyword=${opts.keyword ?? '전체(14개)'} maxPages=${opts.maxPages ?? '무제한'} ` +
-      `pageSize=${pageSize} dryRun=${!!opts.dryRun} incremental=${!!opts.incremental} originId=${originId}`,
+        `pageSize=${pageSize} dryRun=${!!opts.dryRun} incremental=${!!opts.incremental} originId=${originId}`,
     );
 
     try {
@@ -110,11 +132,21 @@ export class LosiCollectorService implements OnModuleInit {
         for (const keyword of keywords) {
           try {
             const fetched = await this.fetchByKeyword(
-              apiUrl, apiKey, range, materialType, keyword, pageSize, opts.maxPages, startYear, delayMs,
+              apiUrl,
+              apiKey,
+              range,
+              materialType,
+              keyword,
+              pageSize,
+              opts.maxPages,
+              startYear,
+              delayMs,
             );
             items.push(...fetched);
           } catch (e) {
-            failedFetches.push(`range=${range} "${keyword}": ${(e as Error).message}`);
+            failedFetches.push(
+              `range=${range} "${keyword}": ${(e as Error).message}`,
+            );
             this.logger.error(
               `[losi] range=${range} "${keyword}" 조회 실패(재시도 소진) → 다음 키워드 계속: ${(e as Error).message}`,
             );
@@ -125,22 +157,26 @@ export class LosiCollectorService implements OnModuleInit {
       if (failedFetches.length) {
         this.logger.warn(
           `[losi] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행` +
-          ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
+            ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
         );
-        this.googleChatService.sendAlert('LOSI 수집 일부 실패 (부분 저장은 진행)', {
-          실패: failedFetches.slice(0, 10).join('\n'),
-        });
       }
-      const summary = await this.ingestService.ingest(originId, items, opts, 'losi');
+      const summary = await this.ingestService.ingest(
+        originId,
+        items,
+        opts,
+        'losi',
+      );
       if (failedFetches.length) {
         summary.errors.unshift(
-          ...failedFetches.map((message) => ({ sourceId: '(keyword-fetch)', message })),
+          ...failedFetches.map((message) => ({
+            sourceId: '(keyword-fetch)',
+            message,
+          })),
         );
       }
       return summary;
     } catch (e) {
       this.logger.error(`[losi] 수집 실패: ${(e as Error).message}`);
-      this.googleChatService.sendAlert('LOSI 아카이브 수집 실패', { 에러: (e as Error).message });
       throw e;
     } finally {
       this.running = false;
@@ -165,7 +201,10 @@ export class LosiCollectorService implements OnModuleInit {
     let total = Infinity;
     const endpoint = `${apiUrl.replace(/\/+$/, '')}/searchTotal`;
 
-    while ((pageNo - 1) * pageSize < total && (!maxPages || pageNo <= maxPages)) {
+    while (
+      (pageNo - 1) * pageSize < total &&
+      (!maxPages || pageNo <= maxPages)
+    ) {
       const body = new URLSearchParams({
         authKey: apiKey,
         searchTerm: keyword,
@@ -176,17 +215,29 @@ export class LosiCollectorService implements OnModuleInit {
       });
 
       // 일시 오류·타임아웃은 5s/10s 백오프로 최대 3회 재시도
-      const res = await this.postWithRetry(endpoint, body, range, keyword, pageNo);
+      const res = await this.postWithRetry(
+        endpoint,
+        body,
+        range,
+        keyword,
+        pageNo,
+      );
 
       // LOSI 응답: 성공 { result:[{ totalCount, searchList:[...] }] } / 오류 { result:[{ error:[{code,message}] }] } 또는 { error:[...] }
-      const wrap = Array.isArray(res.data?.result) ? res.data.result[0] : res.data?.result ?? res.data;
+      const wrap = Array.isArray(res.data?.result)
+        ? res.data.result[0]
+        : (res.data?.result ?? res.data);
       const err = wrap?.error ?? res.data?.error;
       if (err) {
         const e0 = Array.isArray(err) ? err[0] : err;
-        throw new BadGatewayException(`LOSI 오류 응답 [${e0?.code}]: ${e0?.message ?? JSON.stringify(err).slice(0, 150)}`);
+        throw new BadGatewayException(
+          `LOSI 오류 응답 [${e0?.code}]: ${e0?.message ?? JSON.stringify(err).slice(0, 150)}`,
+        );
       }
       total = Number(wrap?.totalCount ?? 0);
-      const list: any[] = Array.isArray(wrap?.searchList) ? wrap.searchList : [];
+      const list: any[] = Array.isArray(wrap?.searchList)
+        ? wrap.searchList
+        : [];
       for (const rec of list) {
         const item = this.toArchiveItem(rec, materialType, keyword);
         if (item) items.push(item);
@@ -216,7 +267,10 @@ export class LosiCollectorService implements OnModuleInit {
     for (let attempt = 1; attempt <= attempts; attempt++) {
       try {
         return await axios.post(endpoint, body.toString(), {
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': BROWSER_UA },
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'User-Agent': BROWSER_UA,
+          },
           timeout: 30000,
         });
       } catch (e) {
@@ -245,10 +299,12 @@ export class LosiCollectorService implements OnModuleInit {
 
     // authorList: 국문+로마자 혼재 → 한글 포함 이름만 author로, 없으면 전체 사용
     const names = Array.isArray(rec?.authorList)
-      ? rec.authorList.map((a: any) => decodeHtmlEntities(a?.name).trim()).filter(Boolean)
+      ? rec.authorList
+          .map((a: any) => decodeHtmlEntities(a?.name).trim())
+          .filter(Boolean)
       : [];
     const korNames = names.filter((n) => /[가-힣]/.test(n));
-    const author = [...new Set((korNames.length ? korNames : names))].join(', ');
+    const author = [...new Set(korNames.length ? korNames : names)].join(', ');
 
     // 발행년: 'YYYY'
     const yearMatch = String(rec?.pubYear ?? '').match(/\d{4}/);
@@ -256,9 +312,13 @@ export class LosiCollectorService implements OnModuleInit {
     // 보조분류: 학술지명(articles) 또는 주제어 몇 개
     const journalTitle = decodeHtmlEntities(rec?.journal?.title).trim();
     const keywords = Array.isArray(rec?.keywordList)
-      ? rec.keywordList.map((k: any) => decodeHtmlEntities(k?.name).trim()).filter(Boolean)
+      ? rec.keywordList
+          .map((k: any) => decodeHtmlEntities(k?.name).trim())
+          .filter(Boolean)
       : [];
-    const subCategory = journalTitle || (keywords.length ? keywords.slice(0, 5).join(', ') : null);
+    const subCategory =
+      journalTitle ||
+      (keywords.length ? keywords.slice(0, 5).join(', ') : null);
 
     // 초록은 목록에 대체로 비어있음(abstractCont) — 있으면 사용, 없으면 null
     const summary = String(rec?.abstractCont ?? '').trim() || null;

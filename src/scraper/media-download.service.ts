@@ -6,16 +6,12 @@ import { createWriteStream } from 'fs';
 import { Readable } from 'stream';
 import type { ReadableStream as WebReadableStream } from 'stream/web';
 import { S3Service } from 'src/aws/s3/s3.service';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 
 @Injectable()
 export class MediaDownloadService {
   private readonly logger = new Logger(MediaDownloadService.name);
 
-  constructor(
-    private readonly s3Service: S3Service,
-    private readonly googleChatService: GoogleChatService,
-  ) {}
+  constructor(private readonly s3Service: S3Service) {}
 
   /**
    * 페이지에서 이미지를 추출하고 S3에 업로드한다.
@@ -23,7 +19,13 @@ export class MediaDownloadService {
    * 브라우저 세션의 쿠키/인증 정보를 사용하여 보호된 이미지도 다운로드할 수 있다.
    * SVG 이미지는 건너뛴다.
    */
-  async handleImagesStep(page: Page, target: any, originId: number, webhook = true, articleHash = 'unknown') {
+  async handleImagesStep(
+    page: Page,
+    target: any,
+    originId: number,
+    webhook = true,
+    articleHash = 'unknown',
+  ) {
     const { selector, captionSelector, containerSelector } = target;
     // 1) selector에 해당하는 모든 이미지 URL 및 캡션 추출
     const items = await page.$$eval(
@@ -99,7 +101,7 @@ export class MediaDownloadService {
       const ext = path.extname(new URL(imgUrl).pathname) || '.png';
 
       // S3 업로드 (filenameBase에 index를 넘겨 고유명 생성)
-        if(ext != '.svg'){
+      if (ext != '.svg') {
         const s3Path = await this.s3Service.saveImgToS3(
           buffer,
           ext,
@@ -126,7 +128,14 @@ export class MediaDownloadService {
    * 파일명에서 공백/쉼표를 제거하고, 확장자가 없으면 .pdf를 추가한다.
    * KDI 사이트의 경우 특별한 클릭 처리를 수행한다.
    */
-  async handleFileStep(page: Page, target: any, originId: number, title?: string, webhook = true, articleHash = 'unknown') {
+  async handleFileStep(
+    page: Page,
+    target: any,
+    originId: number,
+    title?: string,
+    webhook = true,
+    articleHash = 'unknown',
+  ) {
     let { selector } = target;
     const { attribute } = target;
 
@@ -145,7 +154,11 @@ export class MediaDownloadService {
     await page.waitForSelector(selector, { state: 'attached', timeout: 5000 });
 
     const handles = await page.locator(`${selector}:visible`).elementHandles();
-    const output: Array<{ originalName: string; s3Path: string; file_ty: string }> = [];
+    const output: Array<{
+      originalName: string;
+      s3Path: string;
+      file_ty: string;
+    }> = [];
 
     for (const handle of handles) {
       if (!(await handle.isVisible())) continue;
@@ -168,29 +181,50 @@ export class MediaDownloadService {
               const apiUrl = new URL(fileDown2Match![1], page.url()).href;
               const apiRes = await page.context().request.get(apiUrl);
               if (!apiRes.ok()) {
-                console.warn(`⚠️ KINU fileDown2 API 실패 (${apiRes.status()}): ${apiUrl}`);
+                console.warn(
+                  `⚠️ KINU fileDown2 API 실패 (${apiRes.status()}): ${apiUrl}`,
+                );
                 continue;
               }
               downloadUrl = unescape((await apiRes.text()).trim());
             }
-            const res = await page.context().request.get(downloadUrl, { timeout: 120_000 });
+            const res = await page
+              .context()
+              .request.get(downloadUrl, { timeout: 120_000 });
             if (!res.ok()) {
-              console.warn(`⚠️ KINU 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
+              console.warn(
+                `⚠️ KINU 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`,
+              );
               continue;
             }
             const buffer = Buffer.from(await res.body());
-            const originalName = title ? `${title.replace(/[\s,+/\\:*?"<>|]+/g, '_')}.pdf` : `${fileId ?? 'kinu_file'}.pdf`;
-            const tempPath = path.join(process.cwd(), 'tmp', `${Date.now()}_${originalName}`);
+            const originalName = title
+              ? `${title.replace(/[\s,+/\\:*?"<>|]+/g, '_')}.pdf`
+              : `${fileId ?? 'kinu_file'}.pdf`;
+            const tempPath = path.join(
+              process.cwd(),
+              'tmp',
+              `${Date.now()}_${originalName}`,
+            );
             await fs.mkdir(path.dirname(tempPath), { recursive: true });
             await fs.writeFile(tempPath, buffer);
 
-            const key = await this.s3Service.saveFileToS3(tempPath, originId, originalName, articleHash);
+            const key = await this.s3Service.saveFileToS3(
+              tempPath,
+              originId,
+              originalName,
+              articleHash,
+            );
             await fs.unlink(tempPath);
-            const fileTy1 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
+            const fileTy1 = /\.(png|jpe?g)$/i.test(originalName)
+              ? 'image'
+              : 'file';
             output.push({ originalName, s3Path: key, file_ty: fileTy1 });
           } catch (e) {
             // 일시 오류 → 기사 저장 안 함 → 다음 수집 때 재시도
-            console.warn(`⚠️ KINU fileDown 다운로드 실패 (${(e as Error).message}), 기사 skip → 재수집 대상`);
+            console.warn(
+              `⚠️ KINU fileDown 다운로드 실패 (${(e as Error).message}), 기사 skip → 재수집 대상`,
+            );
             return null;
           }
           continue;
@@ -205,33 +239,58 @@ export class MediaDownloadService {
         if (attrVal && target.customTransform) {
           const { pattern, output } = target.customTransform;
           fileUrl = attrVal.replace(new RegExp(pattern), (_match, ...groups) =>
-            output.replace(/\$\{(\d+)\}/g, (_: string, n: string) => groups[parseInt(n) - 1] ?? ''),
+            output.replace(
+              /\$\{(\d+)\}/g,
+              (_: string, n: string) => groups[parseInt(n) - 1] ?? '',
+            ),
           );
         }
         if (fileUrl && !fileUrl.startsWith('javascript:')) {
           try {
             const downloadUrl = new URL(fileUrl, page.url()).href;
             // 대용량 파일 대비 다운로드 타임아웃 연장 (기본 30초 → 120초)
-            const res = await page.context().request.get(downloadUrl, { timeout: 120_000 });
+            const res = await page
+              .context()
+              .request.get(downloadUrl, { timeout: 120_000 });
             if (!res.ok()) {
-              console.warn(`⚠️ ${attribute} 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
+              console.warn(
+                `⚠️ ${attribute} 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`,
+              );
               continue;
             }
             const buffer = Buffer.from(await res.body());
-            const originalName = await this.extractFilenameFromResponse(res, handle, downloadUrl, title);
+            const originalName = await this.extractFilenameFromResponse(
+              res,
+              handle,
+              downloadUrl,
+              title,
+            );
             console.log('파일명:', `${Date.now()}_${originalName}`);
 
-            const tempPath = path.join(process.cwd(), 'tmp', `${Date.now()}_${originalName}`);
+            const tempPath = path.join(
+              process.cwd(),
+              'tmp',
+              `${Date.now()}_${originalName}`,
+            );
             await fs.mkdir(path.dirname(tempPath), { recursive: true });
             await fs.writeFile(tempPath, buffer);
 
-            const key = await this.s3Service.saveFileToS3(tempPath, originId, originalName, articleHash);
+            const key = await this.s3Service.saveFileToS3(
+              tempPath,
+              originId,
+              originalName,
+              articleHash,
+            );
             await fs.unlink(tempPath);
-            const fileTy0 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
+            const fileTy0 = /\.(png|jpe?g)$/i.test(originalName)
+              ? 'image'
+              : 'file';
             output.push({ originalName, s3Path: key, file_ty: fileTy0 });
           } catch (e) {
             // 타임아웃/네트워크 등 일시 오류 → 기사 저장 안 함(meta.json 미생성) → 다음 수집 때 재시도
-            console.warn(`⚠️ ${attribute} 다운로드 실패 (${(e as Error).message}), 기사 skip → 재수집 대상`);
+            console.warn(
+              `⚠️ ${attribute} 다운로드 실패 (${(e as Error).message}), 기사 skip → 재수집 대상`,
+            );
             return null;
           }
           continue;
@@ -241,7 +300,9 @@ export class MediaDownloadService {
       // 1차: 클릭 기반 다운로드 시도
       // 클릭이 다운로드 대신 페이지 이동을 일으키면(첨부 실파일 없음 등) 핸들이
       // 무효화되므로, fallback에 쓸 href와 현재 URL을 클릭 전에 미리 확보한다.
-      const hrefBeforeClick = await handle.getAttribute('href').catch(() => null);
+      const hrefBeforeClick = await handle
+        .getAttribute('href')
+        .catch(() => null);
       const urlBeforeClick = page.url();
       let download;
       try {
@@ -275,36 +336,62 @@ export class MediaDownloadService {
         if (hrefVal && !hrefVal.startsWith('javascript:')) {
           try {
             const downloadUrl = new URL(hrefVal, urlBeforeClick).href;
-            const res = await page.context().request.get(downloadUrl, { timeout: 120_000 });
+            const res = await page
+              .context()
+              .request.get(downloadUrl, { timeout: 120_000 });
             if (!res.ok()) {
-              console.warn(`⚠️ href 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`);
+              console.warn(
+                `⚠️ href 파일 다운로드 실패 (${res.status()}): ${downloadUrl}`,
+              );
               continue;
             }
             // 파일 대신 HTML이 오면 첨부 실파일이 서버에 없는 것 (예: mnd DN_* 옛 글)
             const contentType = res.headers()['content-type'] || '';
             if (contentType.includes('text/html')) {
-              console.warn(`⚠️ 첨부 실파일 없음(HTML 응답), 파일 skip: ${downloadUrl}`);
+              console.warn(
+                `⚠️ 첨부 실파일 없음(HTML 응답), 파일 skip: ${downloadUrl}`,
+              );
               continue;
             }
             const buffer = Buffer.from(await res.body());
-            const originalName = await this.extractFilenameFromResponse(res, handle, downloadUrl, title);
+            const originalName = await this.extractFilenameFromResponse(
+              res,
+              handle,
+              downloadUrl,
+              title,
+            );
             console.log('파일명:', `${Date.now()}_${originalName}`);
 
-            const tempPath = path.join(process.cwd(), 'tmp', `${Date.now()}_${originalName}`);
+            const tempPath = path.join(
+              process.cwd(),
+              'tmp',
+              `${Date.now()}_${originalName}`,
+            );
             await fs.mkdir(path.dirname(tempPath), { recursive: true });
             await fs.writeFile(tempPath, buffer);
 
-            const key = await this.s3Service.saveFileToS3(tempPath, originId, originalName, articleHash);
+            const key = await this.s3Service.saveFileToS3(
+              tempPath,
+              originId,
+              originalName,
+              articleHash,
+            );
             await fs.unlink(tempPath);
-            const fileTy2 = /\.(png|jpe?g)$/i.test(originalName) ? 'image' : 'file';
+            const fileTy2 = /\.(png|jpe?g)$/i.test(originalName)
+              ? 'image'
+              : 'file';
             output.push({ originalName, s3Path: key, file_ty: fileTy2 });
           } catch (hrefErr) {
             // 일시 오류 → 기사 저장 안 함 → 다음 수집 때 재시도
-            console.warn(`⚠️ href fallback 실패 (${(hrefErr as Error).message}), 기사 skip → 재수집 대상`);
+            console.warn(
+              `⚠️ href fallback 실패 (${(hrefErr as Error).message}), 기사 skip → 재수집 대상`,
+            );
             return null;
           }
         } else {
-          console.warn(`⚠️ 다운로드 실패 (${(e as Error).message}), 다음으로 넘어갑니다`);
+          console.warn(
+            `⚠️ 다운로드 실패 (${(e as Error).message}), 다음으로 넘어갑니다`,
+          );
         }
         continue;
       }
@@ -322,7 +409,10 @@ export class MediaDownloadService {
           displayedName = null;
         }
 
-        if (displayedName && !/원문|다운로드|다운|download|보기/i.test(displayedName)) {
+        if (
+          displayedName &&
+          !/원문|다운로드|다운|download|보기/i.test(displayedName)
+        ) {
           originalName = displayedName.replace(/\s+/g, '');
           if (!originalName.slice(-5).includes('.')) originalName += '.pdf';
         } else {
@@ -357,21 +447,12 @@ export class MediaDownloadService {
       const ext = path.extname(file.originalName).toLowerCase();
       if (!ext) {
         console.warn(`⚠️ 파일 확장자 없음 (${file.originalName}), 기사 skip`);
-        this.googleChatService.sendAlert('파일 확장자 없음 - 셀렉터 확인 필요', {
-          'originId': `${originId}`,
-          '파일명': file.originalName,
-          'URL': page.url(),
-        }, webhook);
         return null;
       }
       if (invalidExts.includes(ext)) {
-        console.warn(`⚠️ 비정상 파일 확장자 감지 (${file.originalName}), 기사 skip`);
-        this.googleChatService.sendAlert('비정상 파일 확장자 감지', {
-          'originId': `${originId}`,
-          '파일명': file.originalName,
-          '확장자': ext,
-          'URL': page.url(),
-        }, webhook);
+        console.warn(
+          `⚠️ 비정상 파일 확장자 감지 (${file.originalName}), 기사 skip`,
+        );
         return null;
       }
     }
@@ -539,12 +620,17 @@ export class MediaDownloadService {
     name = name.replace(/[\s,+]+/g, '');
     if (name && name.slice(-5).includes('.')) return name;
     // 2) 링크 텍스트
-    const linkText = ((await handle.textContent()) || '').trim().replace(/[\s,+]+/g, '');
+    const linkText = ((await handle.textContent()) || '')
+      .trim()
+      .replace(/[\s,+]+/g, '');
     if (linkText && linkText.slice(-5).includes('.')) return linkText;
     // 3) URL 경로 (.do 등 제외)
     const urlBase = path.basename(new URL(downloadUrl).pathname);
-    if (urlBase.slice(-5).includes('.') && !urlBase.endsWith('.do')) return urlBase;
+    if (urlBase.slice(-5).includes('.') && !urlBase.endsWith('.do'))
+      return urlBase;
     // 4) title fallback
-    return (title ? title.replace(/[\s,+/\\:*?"<>|]+/g, '_') : 'download') + '.pdf';
+    return (
+      (title ? title.replace(/[\s,+/\\:*?"<>|]+/g, '_') : 'download') + '.pdf'
+    );
   }
 }

@@ -1,11 +1,15 @@
-import { BadGatewayException, Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import {
+  BadGatewayException,
+  Injectable,
+  Logger,
+  OnModuleInit,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { CronJob } from 'cron';
 import axios from 'axios';
 import moment from 'moment';
 import { parseStringPromise } from 'xml2js';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { isSchedulingEnabled } from 'src/common/scheduling.util';
 import { BROWSER_UA, KEYWORDS } from '../yna-feed.service';
 import { ArchiveIngestService } from './archive-ingest.service';
@@ -43,13 +47,14 @@ export class NtisCollectorService implements OnModuleInit {
   constructor(
     private readonly configService: ConfigService,
     private readonly ingestService: ArchiveIngestService,
-    private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
 
   onModuleInit(): void {
     if (!isSchedulingEnabled(this.configService)) {
-      this.logger.warn('[ntis] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.');
+      this.logger.warn(
+        '[ntis] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.',
+      );
       return;
     }
     if (this.schedulerRegistry.getCronJobs().has(CRON_ID)) {
@@ -63,7 +68,12 @@ export class NtisCollectorService implements OnModuleInit {
           // 크론은 증분(날짜필터) + 페이지 상한으로 가볍게 — 놓친 분량은 다음 회차/수동 백필이 커버
           const maxPages =
             Number(this.configService.get('ARCHIVE_CRON_MAX_PAGES')) || 1;
-          await this.collect({ translate: true, dryRun: false, incremental: true, maxPages });
+          await this.collect({
+            translate: true,
+            dryRun: false,
+            incremental: true,
+            maxPages,
+          });
         } catch (e) {
           this.logger.error(`[ntis] 정기 수집 실패: ${(e as Error).message}`);
         }
@@ -77,7 +87,9 @@ export class NtisCollectorService implements OnModuleInit {
     this.logger.log(`[ntis] 정기 수집 크론 등록 완료 (${CRON_TIME})`);
   }
 
-  async collect(opts: ArchiveCollectOptions): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
+  async collect(
+    opts: ArchiveCollectOptions,
+  ): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
     if (this.running) {
       this.logger.warn('[ntis] 이전 수집이 아직 실행 중 → 이번 회차 스킵');
       return { skipped: true, reason: 'already running' };
@@ -89,13 +101,18 @@ export class NtisCollectorService implements OnModuleInit {
     const originId = Number(this.configService.get('NTIS_ORIGIN_ID'));
     if (!apiUrl || !apiKey || !Number.isFinite(originId) || originId <= 0) {
       this.running = false;
-      this.logger.warn('[ntis] NTIS_API_URL / NTIS_API_KEY / NTIS_ORIGIN_ID 미설정 → 수집 생략');
+      this.logger.warn(
+        '[ntis] NTIS_API_URL / NTIS_API_KEY / NTIS_ORIGIN_ID 미설정 → 수집 생략',
+      );
       return { skipped: true, reason: 'env not configured' };
     }
 
-    const delayMs = Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
+    const delayMs =
+      Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
     const pageSize =
-      opts.pageSize ?? Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ?? 100;
+      opts.pageSize ??
+      Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ??
+      100;
     const keywords = opts.keyword ? [opts.keyword] : [...KEYWORDS];
     // 증분(크론) 모드: 발행년도 작년 이상으로 좁힌다 — 겹침은 S3 완료 마커가 거름
     const addQuery = opts.incremental
@@ -104,7 +121,7 @@ export class NtisCollectorService implements OnModuleInit {
 
     this.logger.log(
       `[ntis] 수집 시작 — keyword=${opts.keyword ?? '전체(14개)'} maxPages=${opts.maxPages ?? '무제한'} ` +
-      `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
+        `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
     );
 
     try {
@@ -114,14 +131,22 @@ export class NtisCollectorService implements OnModuleInit {
       for (const keyword of keywords) {
         try {
           const fetched = await this.fetchByKeyword(
-            apiUrl, apiKey, keyword, pageSize, opts.maxPages, addQuery, delayMs,
+            apiUrl,
+            apiKey,
+            keyword,
+            pageSize,
+            opts.maxPages,
+            addQuery,
+            delayMs,
           );
           items.push(...fetched);
         } catch (e) {
           const message = (e as Error).message;
           failedFetches.push(`"${keyword}": ${message}`);
           if (message.includes('IP')) {
-            this.logger.error(`[ntis] IP 미등록 오류 — 나머지 키워드 수집 중단: ${message}`);
+            this.logger.error(
+              `[ntis] IP 미등록 오류 — 나머지 키워드 수집 중단: ${message}`,
+            );
             break;
           }
           this.logger.error(
@@ -133,25 +158,27 @@ export class NtisCollectorService implements OnModuleInit {
       if (failedFetches.length) {
         this.logger.warn(
           `[ntis] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행` +
-          ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
+            ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
         );
-        this.googleChatService.sendAlert('NTIS 수집 일부 실패 (부분 저장은 진행)', {
-          실패: failedFetches.slice(0, 10).join('\n'),
-        });
       }
-      const summary = await this.ingestService.ingest(originId, items, opts, 'ntis');
+      const summary = await this.ingestService.ingest(
+        originId,
+        items,
+        opts,
+        'ntis',
+      );
       // 키워드 조회 실패도 HTTP 응답에서 보이게 — 로그 없이 "0건 성공"으로 오해하지 않도록
       if (failedFetches.length) {
         summary.errors.unshift(
-          ...failedFetches.map((message) => ({ sourceId: '(keyword-fetch)', message })),
+          ...failedFetches.map((message) => ({
+            sourceId: '(keyword-fetch)',
+            message,
+          })),
         );
       }
       return summary;
     } catch (e) {
       this.logger.error(`[ntis] 수집 실패: ${(e as Error).message}`);
-      this.googleChatService.sendAlert('NTIS 아카이브 수집 실패', {
-        에러: (e as Error).message,
-      });
       throw e;
     } finally {
       this.running = false;
@@ -191,7 +218,10 @@ export class NtisCollectorService implements OnModuleInit {
               ...(addQuery ? { addQuery } : {}),
             },
             // axios 기본 Accept(application/json)를 보내면 NTIS가 JSON으로 응답해버린다 — XML 고정
-            headers: { 'User-Agent': BROWSER_UA, Accept: 'application/xml, text/xml, */*' },
+            headers: {
+              'User-Agent': BROWSER_UA,
+              Accept: 'application/xml, text/xml, */*',
+            },
             timeout: 30000,
             responseType: 'text',
           }),
@@ -225,9 +255,12 @@ export class NtisCollectorService implements OnModuleInit {
       }
       const result = parsed?.RESULT;
       if (!result) {
-        throw new BadGatewayException(`NTIS 응답 형식 오류: ${String(res.data).slice(0, 200)}`);
+        throw new BadGatewayException(
+          `NTIS 응답 형식 오류: ${String(res.data).slice(0, 200)}`,
+        );
       }
-      if (result.resMsg) throw new BadGatewayException(`NTIS 오류 응답: ${result.resMsg}`);
+      if (result.resMsg)
+        throw new BadGatewayException(`NTIS 오류 응답: ${result.resMsg}`);
 
       total = Number(result.TOTALHITS ?? 0);
       const hits = toArray<any>(result.RESULTSET?.HIT);
@@ -252,12 +285,12 @@ export class NtisCollectorService implements OnModuleInit {
     if (!title) return null;
 
     // 보고서등록번호(TRKO…)가 안정 식별자 — 없으면 성과번호(TermSn) 폴백
-    const sourceId =
-      stripTags(hit?.ResearchPublicNo) || stripTags(hit?.TermSn);
+    const sourceId = stripTags(hit?.ResearchPublicNo) || stripTags(hit?.TermSn);
     if (!sourceId) return null;
 
     // 발행년도: PublicationYear(YYYY) 또는 PublicationYm(YYYYMM)
-    const rawYear = stripTags(hit?.PublicationYear) || stripTags(hit?.PublicationYm);
+    const rawYear =
+      stripTags(hit?.PublicationYear) || stripTags(hit?.PublicationYm);
     const yearMatch = rawYear.match(/^\d{4}/);
 
     const keywordKo = stripTags(this.lang(hit?.Keyword, 'Korean'))

@@ -8,7 +8,6 @@ import { ConfigService } from '@nestjs/config';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { CronJob } from 'cron';
 import axios from 'axios';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { isSchedulingEnabled } from 'src/common/scheduling.util';
 import { BROWSER_UA, KEYWORDS } from '../yna-feed.service';
 import { ArchiveIngestService } from './archive-ingest.service';
@@ -45,7 +44,6 @@ export class EncykoreaCollectorService implements OnModuleInit {
   constructor(
     private readonly configService: ConfigService,
     private readonly ingestService: ArchiveIngestService,
-    private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
 
@@ -153,12 +151,6 @@ export class EncykoreaCollectorService implements OnModuleInit {
         this.logger.warn(
           `[encykorea] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행: ${failedFetches.join(' / ')}`,
         );
-        this.googleChatService.sendAlert(
-          'EncyKorea 수집 일부 실패 (부분 저장은 진행)',
-          {
-            실패: failedFetches.slice(0, 10).join('\n'),
-          },
-        );
       }
       const summary = await this.ingestService.ingest(
         originId,
@@ -177,9 +169,6 @@ export class EncykoreaCollectorService implements OnModuleInit {
       return summary;
     } catch (e) {
       this.logger.error(`[encykorea] 수집 실패: ${(e as Error).message}`);
-      this.googleChatService.sendAlert('EncyKorea 아카이브 수집 실패', {
-        에러: (e as Error).message,
-      });
       throw e;
     } finally {
       this.running = false;

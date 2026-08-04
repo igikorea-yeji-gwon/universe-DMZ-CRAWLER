@@ -1,4 +1,9 @@
-import { BadGatewayException, Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import {
+  BadGatewayException,
+  Injectable,
+  Logger,
+  OnModuleInit,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { CronJob } from 'cron';
@@ -7,7 +12,6 @@ import { createCipheriv } from 'crypto';
 import { networkInterfaces } from 'os';
 import moment from 'moment';
 import { parseStringPromise } from 'xml2js';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { isSchedulingEnabled } from 'src/common/scheduling.util';
 import { BROWSER_UA, KEYWORDS } from '../yna-feed.service';
 import { ArchiveIngestService } from './archive-ingest.service';
@@ -25,7 +29,10 @@ const CRON_ID = 'archive-kisti-collect';
 const CRON_TIME = '0 0 5 * * *'; // 매일 05:00 KST (KCI 01:00 / NTIS 03:00 / LOSI 04:00 / RISS 06:00와 시차)
 
 /** 수집 대상 컬렉션(target). ARTI=논문/학위/프로시딩, REPORT=연구·정책보고서 (PATENT 등은 제외) */
-const KISTI_TARGETS: { target: 'ARTI' | 'REPORT'; defaultType: ArchiveMaterialType }[] = [
+const KISTI_TARGETS: {
+  target: 'ARTI' | 'REPORT';
+  defaultType: ArchiveMaterialType;
+}[] = [
   { target: 'ARTI', defaultType: 'article' },
   { target: 'REPORT', defaultType: 'report' },
 ];
@@ -59,13 +66,14 @@ export class KistiCollectorService implements OnModuleInit {
   constructor(
     private readonly configService: ConfigService,
     private readonly ingestService: ArchiveIngestService,
-    private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
 
   onModuleInit(): void {
     if (!isSchedulingEnabled(this.configService)) {
-      this.logger.warn('[kisti] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.');
+      this.logger.warn(
+        '[kisti] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.',
+      );
       return;
     }
     if (this.schedulerRegistry.getCronJobs().has(CRON_ID)) {
@@ -76,8 +84,14 @@ export class KistiCollectorService implements OnModuleInit {
       CRON_TIME,
       async () => {
         try {
-          const maxPages = Number(this.configService.get('ARCHIVE_CRON_MAX_PAGES')) || 1;
-          await this.collect({ translate: true, dryRun: false, incremental: true, maxPages });
+          const maxPages =
+            Number(this.configService.get('ARCHIVE_CRON_MAX_PAGES')) || 1;
+          await this.collect({
+            translate: true,
+            dryRun: false,
+            incremental: true,
+            maxPages,
+          });
         } catch (e) {
           this.logger.error(`[kisti] 정기 수집 실패: ${(e as Error).message}`);
         }
@@ -91,7 +105,9 @@ export class KistiCollectorService implements OnModuleInit {
     this.logger.log(`[kisti] 정기 수집 크론 등록 완료 (${CRON_TIME})`);
   }
 
-  async collect(opts: ArchiveCollectOptions): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
+  async collect(
+    opts: ArchiveCollectOptions,
+  ): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
     if (this.running) {
       this.logger.warn('[kisti] 이전 수집이 아직 실행 중 → 이번 회차 스킵');
       return { skipped: true, reason: 'already running' };
@@ -102,23 +118,36 @@ export class KistiCollectorService implements OnModuleInit {
     const apiKey = this.configService.get<string>('KISTI_API_KEY');
     const clientId = this.configService.get<string>('KISTI_CLIENT_ID');
     const originId = Number(this.configService.get('KISTI_ORIGIN_ID'));
-    if (!apiUrl || !apiKey || !clientId || !Number.isFinite(originId) || originId <= 0) {
+    if (
+      !apiUrl ||
+      !apiKey ||
+      !clientId ||
+      !Number.isFinite(originId) ||
+      originId <= 0
+    ) {
       this.running = false;
-      this.logger.warn('[kisti] KISTI_API_URL / KISTI_API_KEY / KISTI_CLIENT_ID / KISTI_ORIGIN_ID 미설정 → 수집 생략');
+      this.logger.warn(
+        '[kisti] KISTI_API_URL / KISTI_API_KEY / KISTI_CLIENT_ID / KISTI_ORIGIN_ID 미설정 → 수집 생략',
+      );
       return { skipped: true, reason: 'env not configured' };
     }
 
-    const delayMs = Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
+    const delayMs =
+      Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
     const pageSize = Math.min(
-      opts.pageSize ?? Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ?? 100,
+      opts.pageSize ??
+        Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ??
+        100,
       100, // rowCount 최대 100
     );
     const keywords = opts.keyword ? [opts.keyword] : [...KEYWORDS];
-    const pubYearFrom = opts.incremental ? moment().subtract(1, 'year').format('YYYY') : undefined;
+    const pubYearFrom = opts.incremental
+      ? moment().subtract(1, 'year').format('YYYY')
+      : undefined;
 
     this.logger.log(
       `[kisti] 수집 시작 — keyword=${opts.keyword ?? '전체(14개)'} maxPages=${opts.maxPages ?? '무제한'} ` +
-      `pageSize=${pageSize} dryRun=${!!opts.dryRun} incremental=${!!opts.incremental} originId=${originId}`,
+        `pageSize=${pageSize} dryRun=${!!opts.dryRun} incremental=${!!opts.incremental} originId=${originId}`,
     );
 
     try {
@@ -131,11 +160,22 @@ export class KistiCollectorService implements OnModuleInit {
         for (const keyword of keywords) {
           try {
             const fetched = await this.fetchByKeyword(
-              apiUrl, apiKey, clientId, target, defaultType, keyword, pageSize, opts.maxPages, pubYearFrom, delayMs,
+              apiUrl,
+              apiKey,
+              clientId,
+              target,
+              defaultType,
+              keyword,
+              pageSize,
+              opts.maxPages,
+              pubYearFrom,
+              delayMs,
             );
             items.push(...fetched);
           } catch (e) {
-            failedFetches.push(`target=${target} "${keyword}": ${(e as Error).message}`);
+            failedFetches.push(
+              `target=${target} "${keyword}": ${(e as Error).message}`,
+            );
             this.logger.error(
               `[kisti] target=${target} "${keyword}" 조회 실패(재시도 소진) → 다음 키워드 계속: ${(e as Error).message}`,
             );
@@ -147,20 +187,24 @@ export class KistiCollectorService implements OnModuleInit {
         this.logger.warn(
           `[kisti] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행: ${failedFetches.join(' / ')}`,
         );
-        this.googleChatService.sendAlert('KISTI 수집 일부 실패 (부분 저장은 진행)', {
-          실패: failedFetches.slice(0, 10).join('\n'),
-        });
       }
-      const summary = await this.ingestService.ingest(originId, items, opts, 'kisti');
+      const summary = await this.ingestService.ingest(
+        originId,
+        items,
+        opts,
+        'kisti',
+      );
       if (failedFetches.length) {
         summary.errors.unshift(
-          ...failedFetches.map((message) => ({ sourceId: '(keyword-fetch)', message })),
+          ...failedFetches.map((message) => ({
+            sourceId: '(keyword-fetch)',
+            message,
+          })),
         );
       }
       return summary;
     } catch (e) {
       this.logger.error(`[kisti] 수집 실패: ${(e as Error).message}`);
-      this.googleChatService.sendAlert('KISTI 아카이브 수집 실패', { 에러: (e as Error).message });
       throw e;
     } finally {
       this.running = false;
@@ -170,21 +214,32 @@ export class KistiCollectorService implements OnModuleInit {
   // ─── 토큰 발급/갱신 ────────────────────────────────────────────────────────
 
   /** 유효한 access_token 확보 (캐시 → refresh → 신규발급 순). 만료 2분 전이면 미리 갱신 */
-  private async ensureToken(apiUrl: string, apiKey: string, clientId: string): Promise<string> {
+  private async ensureToken(
+    apiUrl: string,
+    apiKey: string,
+    clientId: string,
+  ): Promise<string> {
     const now = Date.now();
-    if (this.accessToken && now < this.accessTokenExpiresAt - 120_000) return this.accessToken;
+    if (this.accessToken && now < this.accessTokenExpiresAt - 120_000)
+      return this.accessToken;
 
     // refresh_token이 살아있으면 refresh, 아니면 신규발급
     if (this.refreshToken && now < this.refreshTokenExpiresAt - 120_000) {
       try {
-        return await this.requestToken(apiUrl, clientId, { refresh_token: this.refreshToken });
+        return await this.requestToken(apiUrl, clientId, {
+          refresh_token: this.refreshToken,
+        });
       } catch (e) {
-        this.logger.warn(`[kisti] refresh 실패 → 신규 토큰 발급 시도: ${(e as Error).message}`);
+        this.logger.warn(
+          `[kisti] refresh 실패 → 신규 토큰 발급 시도: ${(e as Error).message}`,
+        );
       }
     }
     const mac = this.detectMac();
     const datetime = moment().format('YYYYMMDDHHmmss');
-    this.logger.log(`[kisti] 토큰 발급 시도 — mac=${mac || '(감지실패)'} datetime=${datetime} (등록 MAC과 달라야 실패)`);
+    this.logger.log(
+      `[kisti] 토큰 발급 시도 — mac=${mac || '(감지실패)'} datetime=${datetime} (등록 MAC과 달라야 실패)`,
+    );
     const accounts = this.encryptAccounts(apiKey, mac, datetime);
     return this.requestToken(apiUrl, clientId, { accounts });
   }
@@ -207,7 +262,7 @@ export class KistiCollectorService implements OnModuleInit {
     if (!token) {
       throw new BadGatewayException(
         `KISTI 토큰 발급 실패: ${JSON.stringify(d ?? res.data).slice(0, 200)} ` +
-        `(MAC 미등록/AES 방식/키 확인 필요)`,
+          `(MAC 미등록/AES 방식/키 확인 필요)`,
       );
     }
     this.accessToken = token;
@@ -222,7 +277,11 @@ export class KistiCollectorService implements OnModuleInit {
   }
 
   /** {mac_address,datetime} JSON을 인증키(32자)로 AES-256-ECB 암호화 후 Base64 */
-  private encryptAccounts(apiKey: string, mac: string, datetime: string): string {
+  private encryptAccounts(
+    apiKey: string,
+    mac: string,
+    datetime: string,
+  ): string {
     const plain = JSON.stringify({ mac_address: mac, datetime });
     const key = Buffer.from(apiKey, 'utf8'); // 32바이트 = AES-256
     const cipher = createCipheriv('aes-256-ecb', key, null);
@@ -274,21 +333,42 @@ export class KistiCollectorService implements OnModuleInit {
       (!maxPages || curPage <= maxPages)
     ) {
       const token = await this.ensureToken(apiUrl, apiKey, clientId);
-      let res = await this.callSearch(endpoint, clientId, token, target, searchQuery, curPage, pageSize);
+      let res = await this.callSearch(
+        endpoint,
+        clientId,
+        token,
+        target,
+        searchQuery,
+        curPage,
+        pageSize,
+      );
 
       // 토큰 만료(E4103) 등 인증오류면 강제 재발급 후 1회 재시도
       if (this.isAuthError(res.parsed)) {
-        this.logger.warn(`[kisti] 인증 만료 추정 → 토큰 재발급 후 재시도 (target=${target} page=${curPage})`);
+        this.logger.warn(
+          `[kisti] 인증 만료 추정 → 토큰 재발급 후 재시도 (target=${target} page=${curPage})`,
+        );
         this.accessToken = null;
         const fresh = await this.ensureToken(apiUrl, apiKey, clientId);
-        res = await this.callSearch(endpoint, clientId, fresh, target, searchQuery, curPage, pageSize);
+        res = await this.callSearch(
+          endpoint,
+          clientId,
+          fresh,
+          target,
+          searchQuery,
+          curPage,
+          pageSize,
+        );
       }
 
       const meta = res.parsed?.MetaData;
       if (!meta) {
-        throw new BadGatewayException(`KISTI 응답에 MetaData 없음: ${String(res.raw).slice(0, 200)}`);
+        throw new BadGatewayException(
+          `KISTI 응답에 MetaData 없음: ${String(res.raw).slice(0, 200)}`,
+        );
       }
-      const errCode = meta?.errorDetail?.errorCode ?? meta?.resultSummary?.statusCode;
+      const errCode =
+        meta?.errorDetail?.errorCode ?? meta?.resultSummary?.statusCode;
       if (meta?.errorDetail?.errorCode) {
         throw new BadGatewayException(
           `KISTI 오류 [${errCode}]: ${meta?.errorDetail?.errorMessage ?? meta?.errorMessage ?? ''}`,
@@ -304,7 +384,7 @@ export class KistiCollectorService implements OnModuleInit {
 
       this.logger.log(
         `[kisti] target=${target} "${keyword}" page=${curPage} → ${records.length}건 ` +
-        `(전체 ${total}건${total > KISTI_WINDOW_CAP ? `, 상한 ${KISTI_WINDOW_CAP}까지만 조회` : ''})`,
+          `(전체 ${total}건${total > KISTI_WINDOW_CAP ? `, 상한 ${KISTI_WINDOW_CAP}까지만 조회` : ''})`,
       );
 
       if (records.length === 0) break;
@@ -334,11 +414,16 @@ export class KistiCollectorService implements OnModuleInit {
         curPage,
         rowCount,
       },
-      headers: { 'User-Agent': BROWSER_UA, Accept: 'application/xml, text/xml, */*' },
+      headers: {
+        'User-Agent': BROWSER_UA,
+        Accept: 'application/xml, text/xml, */*',
+      },
       timeout: 30000,
       responseType: 'text',
     });
-    const parsed = await parseStringPromise(String(res.data), { explicitArray: false }).catch(() => null);
+    const parsed = await parseStringPromise(String(res.data), {
+      explicitArray: false,
+    }).catch(() => null);
     return { parsed, raw: String(res.data) };
   }
 
@@ -362,7 +447,8 @@ export class KistiCollectorService implements OnModuleInit {
     const dbCode = String(rec?.DBCode ?? '').toUpperCase();
     let materialType: ArchiveMaterialType = defaultType;
     if (target === 'ARTI') {
-      materialType = sourceId.startsWith('DIKO') || dbCode === 'DIKO' ? 'thesis' : 'article';
+      materialType =
+        sourceId.startsWith('DIKO') || dbCode === 'DIKO' ? 'thesis' : 'article';
     }
 
     const yearMatch = String(rec?.Pubyear ?? rec?.Pubdate ?? '').match(/\d{4}/);
@@ -377,9 +463,11 @@ export class KistiCollectorService implements OnModuleInit {
       author: stripTags(rec?.Author),
       publishYear: yearMatch ? yearMatch[0] : '',
       category: null, // 주제분류는 수집 후 ThemeClassifier가 태깅
-      subCategory: stripTags(rec?.JournalName) || stripTags(rec?.Keyword) || null,
+      subCategory:
+        stripTags(rec?.JournalName) || stripTags(rec?.Keyword) || null,
       summary: stripTags(rec?.Abstract) || null,
-      detailUrl: stripTags(rec?.ContentURL) || stripTags(rec?.FulltextURL) || null,
+      detailUrl:
+        stripTags(rec?.ContentURL) || stripTags(rec?.FulltextURL) || null,
       isbn: stripTags(rec?.ISBN) || null,
       materialType,
       matchedKeyword,

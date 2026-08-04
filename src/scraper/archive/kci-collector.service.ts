@@ -1,11 +1,15 @@
-import { BadGatewayException, Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import {
+  BadGatewayException,
+  Injectable,
+  Logger,
+  OnModuleInit,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { CronJob } from 'cron';
 import axios from 'axios';
 import moment from 'moment';
 import { parseStringPromise } from 'xml2js';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { isSchedulingEnabled } from 'src/common/scheduling.util';
 import { KEYWORDS } from '../yna-feed.service';
 import { ArchiveIngestService } from './archive-ingest.service';
@@ -40,14 +44,15 @@ export class KciCollectorService implements OnModuleInit {
   constructor(
     private readonly configService: ConfigService,
     private readonly ingestService: ArchiveIngestService,
-    private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
 
   // 기존 스크래퍼와 동일하게 SchedulerRegistry로 동적 등록 (@Cron 데코레이터는 미발화)
   onModuleInit(): void {
     if (!isSchedulingEnabled(this.configService)) {
-      this.logger.warn('[kci] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.');
+      this.logger.warn(
+        '[kci] ⏸️ 전역 스케줄링 비활성화 — 정기 수집 크론 미등록.',
+      );
       return;
     }
     if (this.schedulerRegistry.getCronJobs().has(CRON_ID)) {
@@ -61,7 +66,12 @@ export class KciCollectorService implements OnModuleInit {
           // 크론은 증분(날짜필터) + 페이지 상한으로 가볍게 — 놓친 분량은 다음 회차/수동 백필이 커버
           const maxPages =
             Number(this.configService.get('ARCHIVE_CRON_MAX_PAGES')) || 1;
-          await this.collect({ translate: true, dryRun: false, incremental: true, maxPages });
+          await this.collect({
+            translate: true,
+            dryRun: false,
+            incremental: true,
+            maxPages,
+          });
         } catch (e) {
           this.logger.error(`[kci] 정기 수집 실패: ${(e as Error).message}`);
         }
@@ -75,7 +85,9 @@ export class KciCollectorService implements OnModuleInit {
     this.logger.log(`[kci] 정기 수집 크론 등록 완료 (${CRON_TIME})`);
   }
 
-  async collect(opts: ArchiveCollectOptions): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
+  async collect(
+    opts: ArchiveCollectOptions,
+  ): Promise<ArchiveIngestSummary | { skipped: true; reason: string }> {
     if (this.running) {
       this.logger.warn('[kci] 이전 수집이 아직 실행 중 → 이번 회차 스킵');
       return { skipped: true, reason: 'already running' };
@@ -87,13 +99,18 @@ export class KciCollectorService implements OnModuleInit {
     const originId = Number(this.configService.get('KCI_ORIGIN_ID'));
     if (!apiUrl || !apiKey || !Number.isFinite(originId) || originId <= 0) {
       this.running = false;
-      this.logger.warn('[kci] KCI_API_URL / KCI_API_KEY / KCI_ORIGIN_ID 미설정 → 수집 생략');
+      this.logger.warn(
+        '[kci] KCI_API_URL / KCI_API_KEY / KCI_ORIGIN_ID 미설정 → 수집 생략',
+      );
       return { skipped: true, reason: 'env not configured' };
     }
 
-    const delayMs = Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
+    const delayMs =
+      Number(this.configService.get('ARCHIVE_API_DELAY_MS')) || 1000;
     const pageSize = this.normalizePageSize(
-      opts.pageSize ?? Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ?? 100,
+      opts.pageSize ??
+        Number(this.configService.get('ARCHIVE_PAGE_SIZE')) ??
+        100,
     );
     const keywords = opts.keyword ? [opts.keyword] : [...KEYWORDS];
     // 증분(크론) 모드: 최근 N일 등록분만 조회 — 겹치는 건 S3 완료 마커가 걸러준다
@@ -103,7 +120,7 @@ export class KciCollectorService implements OnModuleInit {
 
     this.logger.log(
       `[kci] 수집 시작 — keyword=${opts.keyword ?? '전체(14개)'} maxPages=${opts.maxPages ?? '무제한'} ` +
-      `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
+        `dryRun=${!!opts.dryRun} incremental=${!!opts.incremental}`,
     );
 
     try {
@@ -116,11 +133,20 @@ export class KciCollectorService implements OnModuleInit {
         for (const field of ['title', 'keyword'] as const) {
           try {
             const fetched = await this.fetchByField(
-              apiUrl, apiKey, keyword, field, pageSize, opts.maxPages, regDateFrom, delayMs,
+              apiUrl,
+              apiKey,
+              keyword,
+              field,
+              pageSize,
+              opts.maxPages,
+              regDateFrom,
+              delayMs,
             );
             items.push(...fetched);
           } catch (e) {
-            failedFetches.push(`${field}="${keyword}": ${(e as Error).message}`);
+            failedFetches.push(
+              `${field}="${keyword}": ${(e as Error).message}`,
+            );
             this.logger.error(
               `[kci] ${field}="${keyword}" 조회 실패(재시도 소진) → 다음 키워드 계속: ${(e as Error).message}`,
             );
@@ -131,25 +157,27 @@ export class KciCollectorService implements OnModuleInit {
       if (failedFetches.length) {
         this.logger.warn(
           `[kci] 키워드 조회 실패 ${failedFetches.length}건 — 수집된 ${items.length}건은 정상 저장 진행` +
-          ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
+            ` (실패분은 재실행 시 이어서 수집): ${failedFetches.join(' / ')}`,
         );
-        this.googleChatService.sendAlert('KCI 수집 일부 실패 (부분 저장은 진행)', {
-          실패: failedFetches.slice(0, 10).join('\n'),
-        });
       }
-      const summary = await this.ingestService.ingest(originId, items, opts, 'kci');
+      const summary = await this.ingestService.ingest(
+        originId,
+        items,
+        opts,
+        'kci',
+      );
       // 키워드 조회 실패도 HTTP 응답에서 보이게 — 로그 없이 "0건 성공"으로 오해하지 않도록
       if (failedFetches.length) {
         summary.errors.unshift(
-          ...failedFetches.map((message) => ({ sourceId: '(keyword-fetch)', message })),
+          ...failedFetches.map((message) => ({
+            sourceId: '(keyword-fetch)',
+            message,
+          })),
         );
       }
       return summary;
     } catch (e) {
       this.logger.error(`[kci] 수집 실패: ${(e as Error).message}`);
-      this.googleChatService.sendAlert('KCI 아카이브 수집 실패', {
-        에러: (e as Error).message,
-      });
       throw e;
     } finally {
       this.running = false;
@@ -196,7 +224,9 @@ export class KciCollectorService implements OnModuleInit {
         5000,
       );
 
-      const parsed = await parseStringPromise(res.data, { explicitArray: false });
+      const parsed = await parseStringPromise(res.data, {
+        explicitArray: false,
+      });
       const output = parsed?.MetaData?.outputData;
       if (!output) {
         // 인증 오류 등은 outputData 없이 에러 메시지만 온다 (BadGateway → 필터가 메시지 노출)
@@ -221,19 +251,36 @@ export class KciCollectorService implements OnModuleInit {
   }
 
   /** KCI record(journalInfo + articleInfo) → 정규화 ArchiveItem */
-  private toArchiveItem(record: any, matchedKeyword: string): ArchiveItem | null {
+  private toArchiveItem(
+    record: any,
+    matchedKeyword: string,
+  ): ArchiveItem | null {
     const articleInfo = record?.articleInfo;
     const journalInfo = record?.journalInfo;
     if (!articleInfo) return null;
 
     const sourceId = String(articleInfo?.$?.['article-id'] ?? '').trim();
-    const title = this.pickByLang(articleInfo['title-group']?.['article-title'], 'original');
+    const title = this.pickByLang(
+      articleInfo['title-group']?.['article-title'],
+      'original',
+    );
     if (!sourceId || !title) return null;
 
-    const titleEn = this.pickByLang(articleInfo['title-group']?.['article-title'], 'english');
-    const abstractKo = this.pickByLang(articleInfo['abstract-group']?.abstract, 'original');
-    const abstractEn = this.pickByLang(articleInfo['abstract-group']?.abstract, 'english');
-    const { author, authorEn } = this.parseAuthors(articleInfo['author-group']?.author);
+    const titleEn = this.pickByLang(
+      articleInfo['title-group']?.['article-title'],
+      'english',
+    );
+    const abstractKo = this.pickByLang(
+      articleInfo['abstract-group']?.abstract,
+      'original',
+    );
+    const abstractEn = this.pickByLang(
+      articleInfo['abstract-group']?.abstract,
+      'english',
+    );
+    const { author, authorEn } = this.parseAuthors(
+      articleInfo['author-group']?.author,
+    );
 
     const journalName = String(journalInfo?.['journal-name'] ?? '').trim();
     const volume = String(journalInfo?.volume ?? '').trim();
@@ -249,7 +296,8 @@ export class KciCollectorService implements OnModuleInit {
       publisher: String(journalInfo?.['publisher-name'] ?? '').trim(),
       author,
       publishYear: String(journalInfo?.['pub-year'] ?? '').trim(),
-      category: String(articleInfo?.['article-categories'] ?? '').trim() || null,
+      category:
+        String(articleInfo?.['article-categories'] ?? '').trim() || null,
       subCategory,
       summary: abstractKo || null,
       detailUrl: String(articleInfo?.url ?? '').trim() || null,
@@ -279,7 +327,9 @@ export class KciCollectorService implements OnModuleInit {
     const names: string[] = [];
     const englishNames: string[] = [];
     for (const entry of toArray<any>(node)) {
-      const raw = String(typeof entry === 'string' ? entry : entry?._ ?? '').trim();
+      const raw = String(
+        typeof entry === 'string' ? entry : (entry?._ ?? ''),
+      ).trim();
       if (raw) names.push(raw.replace(/\([^)]*\)\s*$/, '').trim());
       const en = String(entry?.$?.english ?? '').trim();
       if (en) englishNames.push(en);
@@ -291,7 +341,8 @@ export class KciCollectorService implements OnModuleInit {
     if (ALLOWED_PAGE_SIZES.includes(size)) return size;
     // 유효하지 않으면 가장 가까운 허용값 (기본 100)
     return ALLOWED_PAGE_SIZES.reduce(
-      (best, cur) => (Math.abs(cur - size) < Math.abs(best - size) ? cur : best),
+      (best, cur) =>
+        Math.abs(cur - size) < Math.abs(best - size) ? cur : best,
       100,
     );
   }

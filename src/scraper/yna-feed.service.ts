@@ -8,7 +8,6 @@ import moment from 'moment';
 import { parseStringPromise } from 'xml2js';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { TranslationClientService } from './translation-client.service';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { isSchedulingEnabled } from 'src/common/scheduling.util';
 
 // 주무관 협의 키워드 — 제목/본문에 하나라도 포함되면 수집 대상
@@ -60,7 +59,6 @@ export class YnaFeedService implements OnModuleInit {
     private readonly configService: ConfigService,
     private readonly s3Service: S3Service,
     private readonly translationClient: TranslationClientService,
-    private readonly googleChatService: GoogleChatService,
     private readonly schedulerRegistry: SchedulerRegistry,
   ) {}
 
@@ -159,10 +157,15 @@ export class YnaFeedService implements OnModuleInit {
         seenInBatch.add(articleHash);
 
         try {
-          const alreadySaved = await this.s3Service.articleExists(originId, articleHash);
+          const alreadySaved = await this.s3Service.articleExists(
+            originId,
+            articleHash,
+          );
           if (alreadySaved) {
             summary.skippedDuplicate++;
-            this.logger.log(`[yna] 중복 스킵(수집 완료 마커 존재): "${item.title}"`);
+            this.logger.log(
+              `[yna] 중복 스킵(수집 완료 마커 존재): "${item.title}"`,
+            );
             continue;
           }
 
@@ -183,7 +186,11 @@ export class YnaFeedService implements OnModuleInit {
             );
           }
 
-          const imgRows = await this.uploadImages(item.imgUrls, originId, articleHash);
+          const imgRows = await this.uploadImages(
+            item.imgUrls,
+            originId,
+            articleHash,
+          );
           summary.imageUploaded += imgRows.length;
 
           // 기존 config 스크래퍼의 meta.json 스키마와 동일한 필드명 사용
@@ -205,26 +212,27 @@ export class YnaFeedService implements OnModuleInit {
           summary.saved++;
           this.logger.log(
             `[yna] meta.json 저장 완료 hash=${articleHash} (이미지 ${imgRows.length}건, ` +
-            `키워드: ${item.matchedKeywords.join(',')}) "${item.title}"`,
+              `키워드: ${item.matchedKeywords.join(',')}) "${item.title}"`,
           );
         } catch (e) {
-          this.logger.error(`[yna] 기사 저장 실패 (${item.link}): ${(e as Error).message}`);
-          summary.errors.push({ link: item.link, message: (e as Error).message });
+          this.logger.error(
+            `[yna] 기사 저장 실패 (${item.link}): ${(e as Error).message}`,
+          );
+          summary.errors.push({
+            link: item.link,
+            message: (e as Error).message,
+          });
         }
       }
 
       this.logger.log(
         `[yna] 수집 종료: 피드 ${summary.totalItems}건, 매칭 ${summary.keywordMatched}건, ` +
-        `신규 ${summary.saved}건, 중복 ${summary.skippedDuplicate}건, ` +
-        `번역 ${summary.translated}건, 실패 ${summary.errors.length}건`,
+          `신규 ${summary.saved}건, 중복 ${summary.skippedDuplicate}건, ` +
+          `번역 ${summary.translated}건, 실패 ${summary.errors.length}건`,
       );
       return summary;
     } catch (e) {
       this.logger.error(`[yna] 피드 수집 실패: ${(e as Error).message}`);
-      this.googleChatService.sendAlert('연합뉴스 피드 수집 실패', {
-        URL: feedUrl,
-        에러: (e as Error).message,
-      });
       throw e;
     } finally {
       this.running = false;
@@ -260,11 +268,12 @@ export class YnaFeedService implements OnModuleInit {
 
     // guid는 <guid isPermaLink="false">AKR...</guid> 형태 → 속성 있으면 '_'에 텍스트가 담긴다
     const guid = String(
-      typeof raw?.guid === 'object' ? raw.guid?._ ?? '' : raw?.guid ?? '',
+      typeof raw?.guid === 'object' ? (raw.guid?._ ?? '') : (raw?.guid ?? ''),
     ).trim();
 
     const descriptionHtml = String(raw?.description ?? '');
-    const { text: content, imgUrls: inlineImgs } = this.htmlToContent(descriptionHtml);
+    const { text: content, imgUrls: inlineImgs } =
+      this.htmlToContent(descriptionHtml);
 
     const enclosureUrl = String(raw?.enclosure?.$?.url ?? '').trim();
     const imgUrls = this.mergeImageUrls(inlineImgs, enclosureUrl);
@@ -273,7 +282,16 @@ export class YnaFeedService implements OnModuleInit {
     const writer = this.extractWriter(content);
     const matchedKeywords = this.matchKeywords(`${title}\n${content}`);
 
-    return { guid, title, link, regDt, writer, content, imgUrls, matchedKeywords };
+    return {
+      guid,
+      title,
+      link,
+      regDt,
+      writer,
+      content,
+      imgUrls,
+      matchedKeywords,
+    };
   }
 
   /** description HTML → 이미지 URL 추출 + 태그 제거 + 줄바꿈 <br> 변환 텍스트 */
@@ -312,7 +330,10 @@ export class YnaFeedService implements OnModuleInit {
    */
   private mergeImageUrls(inlineImgs: string[], enclosureUrl: string): string[] {
     const baseOf = (url: string) =>
-      (url.split('?')[0].split('/').pop() ?? url).replace(/_P\d+(?=\.[a-z]+$)/i, '');
+      (url.split('?')[0].split('/').pop() ?? url).replace(
+        /_P\d+(?=\.[a-z]+$)/i,
+        '',
+      );
 
     const merged: string[] = [];
     const seen = new Set<string>();
@@ -336,7 +357,9 @@ export class YnaFeedService implements OnModuleInit {
 
   /** '(서울=연합뉴스) 박재하 노선웅 기자 =' 패턴에서 기자명 추출. 없으면 '' */
   private extractWriter(content: string): string {
-    const m = content.match(/\([^)=]*=\s*연합뉴스\)\s*([가-힣]+(?:\s+[가-힣]+)*)\s*기자/);
+    const m = content.match(
+      /\([^)=]*=\s*연합뉴스\)\s*([가-힣]+(?:\s+[가-힣]+)*)\s*기자/,
+    );
     return m ? m[1].trim() : '';
   }
 
@@ -359,7 +382,10 @@ export class YnaFeedService implements OnModuleInit {
       try {
         const res = await axios.get(url, {
           responseType: 'arraybuffer',
-          headers: { 'User-Agent': BROWSER_UA, Referer: 'https://www.yna.co.kr' },
+          headers: {
+            'User-Agent': BROWSER_UA,
+            Referer: 'https://www.yna.co.kr',
+          },
           timeout: 15000,
         });
         const extMatch = url.split('?')[0].match(/\.([a-z0-9]+)$/i);
@@ -374,7 +400,9 @@ export class YnaFeedService implements OnModuleInit {
         );
         rows.push({ url, s3Path });
       } catch (e) {
-        this.logger.warn(`[yna] 이미지 다운로드 실패, 건너뜀: ${url} — ${(e as Error).message}`);
+        this.logger.warn(
+          `[yna] 이미지 다운로드 실패, 건너뜀: ${url} — ${(e as Error).message}`,
+        );
       }
     }
     return rows;

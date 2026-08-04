@@ -13,7 +13,6 @@ import { TaskTrackerService } from 'src/common/log/schedule/taskTracker.service'
 import { OpenAIService } from 'src/openai/opneai.service';
 import { ProcessService } from 'src/common/utils/scrapProcess/process.service';
 import { GeminiAnalyzerService } from 'src/common/utils/geminiAnalyze/gemini-analyzer.service';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { JsonConfigService } from './json-config.service';
 import { TranslationClientService } from './translation-client.service';
 import { NewsDbService } from './news-db.service';
@@ -51,7 +50,6 @@ import { NtisCollectorService } from './archive/ntis-collector.service';
     OpenAIService,
     ProcessService,
     GeminiAnalyzerService,
-    GoogleChatService,
     JsonConfigService,
     TranslationClientService,
     NewsDbService,

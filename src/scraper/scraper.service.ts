@@ -14,7 +14,6 @@ import { S3Service } from 'src/aws/s3/s3.service';
 import { MediaDownloadService } from './media-download.service';
 import { HtmlParsingService } from './html-parsing.service';
 import { PageNavigationService } from './page-navigation.service';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 import { TranslationClientService } from './translation-client.service';
 
 interface ScrapeConfig {
@@ -40,7 +39,6 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     private mediaDownloadService: MediaDownloadService,
     private htmlParsingService: HtmlParsingService,
     private pageNavigationService: PageNavigationService,
-    private googleChatService: GoogleChatService,
     private translationClient: TranslationClientService,
   ) {}
 
@@ -101,8 +99,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     } catch {
       return; // 잘못된 URL이면 스로틀 생략
     }
-    const minInterval =
-      this.THROTTLE_BY_HOST[host] ?? this.DEFAULT_THROTTLE_MS;
+    const minInterval = this.THROTTLE_BY_HOST[host] ?? this.DEFAULT_THROTTLE_MS;
     const now = Date.now();
     const last = this.lastRequestAt.get(host) ?? 0;
     const jitter = last ? Math.floor(Math.random() * 500) : 0;
@@ -255,7 +252,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
       .digest('hex')
       .slice(0, 8);
 
-    const alreadySaved = originId > 0 && await this.s3Service.articleExists(originId, articleHash);
+    const alreadySaved =
+      originId > 0 &&
+      (await this.s3Service.articleExists(originId, articleHash));
     if (alreadySaved) {
       this.logger.log(`[${configId}] 이미 저장된 기사 skip (S3): ${url}`);
       return null;
@@ -284,14 +283,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         await this.throttle(url);
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 50000 });
       } catch (e) {
-        this.googleChatService.sendAlert(
-          '상세 페이지 접근 실패',
-          {
-            configId: `${configId}`,
-            URL: url,
-            에러: (e as Error).message,
-          },
-          webhook,
+        this.logger.error(
+          `[${configId}] 상세 페이지 접근 실패: ${url} — ${(e as Error).message}`,
         );
         throw e;
       }
@@ -308,14 +301,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
       // 제목이 비어있으면 알림 후 skip
       if (!titleText.trim()) {
         console.warn(`⚠️ 제목 없음, 기사 skip: ${url}`);
-        this.googleChatService.sendAlert(
-          '제목 없음, 기사 skip',
-          {
-            configId: `${configId}`,
-            셀렉터: titleSelector || '없음',
-            URL: url,
-          },
-          webhook,
+        this.logger.warn(
+          `[${configId}] 제목 없음, 기사 skip: selector=${titleSelector || '없음'} url=${url}`,
         );
         return null;
       }
@@ -337,7 +324,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
       // 검수 패턴: null이면 검수 생략(키워드 검색으로 수집된 URL — 사이트가 이미 필터링),
       // RegExp면 키워드 검수, 미지정(undefined)이면 기존 DMZ 검수
-      const dmzPattern = keywordPattern === null ? null : (keywordPattern ?? /dmz/i);
+      const dmzPattern =
+        keywordPattern === null ? null : (keywordPattern ?? /dmz/i);
       let dmzChecked = false;
 
       for (const target of targets) {
@@ -345,12 +333,18 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         if (target.name.endsWith('-list')) continue;
 
         // 미디어 타겟 직전 DMZ 검수 — 한 번만 체크 (dmzPattern이 null이면 생략)
-        if (!dmzChecked && dmzPattern && (target.type === 'images' || target.type === 'file')) {
+        if (
+          !dmzChecked &&
+          dmzPattern &&
+          (target.type === 'images' || target.type === 'file')
+        ) {
           dmzChecked = true;
-          const titleStr   = String(temp.title   ?? '');
-          const contentStr = String(temp.content  ?? '');
+          const titleStr = String(temp.title ?? '');
+          const contentStr = String(temp.content ?? '');
           if (!dmzPattern.test(titleStr) && !dmzPattern.test(contentStr)) {
-            this.logger.log(`[${configId}] DMZ 검수 실패 → 미디어 skip: ${url}`);
+            this.logger.log(
+              `[${configId}] DMZ 검수 실패 → 미디어 skip: ${url}`,
+            );
             return null;
           }
         }
@@ -423,7 +417,10 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
               data = textsViaEval.join(' ');
               // writer 필드에서 '기자명' 제거
               if (target.name === 'writer') {
-                data = data.replace(/기자명\s*/g, '').replace(/^작성자\s*/g, '').trim();
+                data = data
+                  .replace(/기자명\s*/g, '')
+                  .replace(/^작성자\s*/g, '')
+                  .trim();
               }
             }
           } else if (target.type === 'images') {
@@ -435,7 +432,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
               articleHash,
             );
           } else if (target.type === 'file') {
-            const selectorExists = (await page.locator(target.selector).count()) > 0;
+            const selectorExists =
+              (await page.locator(target.selector).count()) > 0;
             if (!selectorExists) {
               data = target.optional ? [] : null;
               if (!target.optional) {
@@ -503,8 +501,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
       // 저장용 URL도 정규화 — link_url 기반 DB 중복 판별이 토큰 차이로 뚫리지 않도록
       temp.currentUrl = this.normalizeArticleUrl(url);
-      temp._originId   = originId;
-      temp._hash       = articleHash;
+      temp._originId = originId;
+      temp._hash = articleHash;
 
       return temp;
     } catch (e) {
@@ -581,7 +579,17 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
         this.logger.log(`[${config.id}] 수집 진행 ${progress}`);
         // 키워드 검색 URL은 사후 검수 생략(null), 그 외엔 키워드/DMZ 검수
         const inspectPattern = entry.fromKeyword ? null : keywordPattern;
-        return this.scrapeUrl(entry.url, config.steps, config.id, webhook, useListSession, originId, config.maxPage, seenDetailUrls, inspectPattern);
+        return this.scrapeUrl(
+          entry.url,
+          config.steps,
+          config.id,
+          webhook,
+          useListSession,
+          originId,
+          config.maxPage,
+          seenDetailUrls,
+          inspectPattern,
+        );
       }),
     );
 
@@ -589,7 +597,9 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
     // scrapeOne에서 DMZ 검수 실패 시 null 반환 → 제거
     const scraperData = pagesData.flat().filter(Boolean);
 
-    this.logger.log(`[${config.id}] DMZ 검수 완료: ${scraperData.length}건 통과`);
+    this.logger.log(
+      `[${config.id}] DMZ 검수 완료: ${scraperData.length}건 통과`,
+    );
 
     // 검수 통과한 기사 번역 후 meta.json 저장
     await Promise.all(
@@ -599,7 +609,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
         this.logger.log(`[${config.id}] 번역 시작: "${meta.title ?? ''}"`);
         try {
-          const translated = await this.translationClient.translateArticle(meta);
+          const translated =
+            await this.translationClient.translateArticle(meta);
           meta.title_en = translated.title_en ?? '';
           meta.content_text_en = translated.content_en ?? '';
           this.logger.log(
@@ -616,9 +627,7 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
         return this.s3Service
           .saveArticleMeta(_originId, _hash, meta)
-          .catch((e) =>
-            this.logger.warn(`meta.json 저장 실패: ${e.message}`),
-          );
+          .catch((e) => this.logger.warn(`meta.json 저장 실패: ${e.message}`));
       }),
     );
 
@@ -778,17 +787,19 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
               const rows = this.getByPath(json, p.listPath);
               const rowArr: any[] = Array.isArray(rows) ? rows : [];
-              const totalPages = Number(this.getByPath(json, p.totalPagePath)) || 0;
+              const totalPages =
+                Number(this.getByPath(json, p.totalPagePath)) || 0;
 
               // 상세 URL 조립: 템플릿의 ${FIELD}를 JSON 행 필드로 치환
               const tmpl: string = p.detailUrlTemplate;
-              const extractedDetailUrls = rowArr.map((row) =>
-                new URL(
-                  tmpl.replace(/\$\{(\w+)\}/g, (_m, k) =>
-                    encodeURIComponent(String(row[k] ?? '')),
-                  ),
-                  url,
-                ).href,
+              const extractedDetailUrls = rowArr.map(
+                (row) =>
+                  new URL(
+                    tmpl.replace(/\$\{(\w+)\}/g, (_m, k) =>
+                      encodeURIComponent(String(row[k] ?? '')),
+                    ),
+                    url,
+                  ).href,
               );
 
               // JSON 필드 → 리스트 데이터(writer/writedate 등) 매핑, 원본 행 순서로 보관
@@ -829,7 +840,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
               if (detailUrls.length === 0) break;
               // ajaxListApi가 JSON으로 만든 리스트 데이터가 있으면 그대로 사용,
               // 없으면 리스트 페이지 DOM에서 '-list' 타겟 데이터 추출
-              const listDataArray: Record<string, string>[] = pageListData ?? [];
+              const listDataArray: Record<string, string>[] =
+                pageListData ?? [];
               if (!pageListData) {
                 const listTargets = (step.params.targets || []).filter((t) =>
                   t.name.endsWith('-list'),
@@ -930,7 +942,8 @@ export class ScraperService implements OnModuleInit, OnModuleDestroy {
 
         // ajaxListApi 모드: DOM 페이징 대신 page 파라미터를 증가시켜 다음 페이지 요청
         if (hasAjaxListStep) {
-          if (stopPagingByDuplicatePage || currentPage >= pageLimit) break outer;
+          if (stopPagingByDuplicatePage || currentPage >= pageLimit)
+            break outer;
           currentPage += 1;
           continue;
         }

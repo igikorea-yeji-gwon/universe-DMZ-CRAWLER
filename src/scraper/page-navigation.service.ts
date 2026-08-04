@@ -1,12 +1,9 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Page } from 'playwright';
-import { GoogleChatService } from 'src/common/webhook/google-chat.service';
 
 @Injectable()
 export class PageNavigationService {
   private readonly logger = new Logger(PageNavigationService.name);
-
-  constructor(private readonly googleChatService: GoogleChatService) {}
 
   /**
    * 목록 페이지에서 상세 페이지 URL을 추출한다.
@@ -27,12 +24,9 @@ export class PageNavigationService {
         timeout: 29000,
       });
     } catch (e) {
-      this.googleChatService.sendAlert('리스트 셀렉터 타임아웃', {
-        'configId': `${configId ?? '알 수 없음'}`,
-        '셀렉터': step.params.selector,
-        'URL': page.url(),
-        '에러': (e as Error).message,
-      }, webhook, 'timeout');
+      this.logger.warn(
+        `[${configId ?? '?'}] 리스트 셀렉터 타임아웃: selector=${step.params.selector} url=${page.url()} error=${(e as Error).message}`,
+      );
       throw e;
     }
 
@@ -150,12 +144,13 @@ export class PageNavigationService {
     configId?: any,
     webhook = true,
   ): Promise<string[]> {
-
     const url = page.url();
 
     // keia.org: AJAX 기반 검색 결과 페이지 - networkidle이 AJAX 요청 전에 resolve될 수 있어 추가 대기
     if (url.includes('keia.org')) {
-      await page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => {});
+      await page
+        .waitForLoadState('networkidle', { timeout: 30000 })
+        .catch(() => {});
     }
 
     try {
@@ -165,7 +160,9 @@ export class PageNavigationService {
       });
     } catch (e) {
       // 페이지네이션 후 결과 없는 페이지거나 마지막 페이지일 수 있음 → 빈 배열 반환
-      this.logger.warn(`[${configId ?? '?'}] 리스트 셀렉터 없음 (결과 없음 또는 페이지 끝): ${url}`);
+      this.logger.warn(
+        `[${configId ?? '?'}] 리스트 셀렉터 없음 (결과 없음 또는 페이지 끝): ${url}`,
+      );
       return [];
     }
 
@@ -188,9 +185,11 @@ export class PageNavigationService {
 
     // onclick에서 this.href 치환을 위해 요소의 실제 resolved href 수집
     if (step.params.attribute === 'onclick') {
-      elementHrefs = await page.$$eval(
-        step.params.selector,
-        (els) => els.map((el) => (el as HTMLAnchorElement).href || el.getAttribute('href') || ''),
+      elementHrefs = await page.$$eval(step.params.selector, (els) =>
+        els.map(
+          (el) =>
+            (el as HTMLAnchorElement).href || el.getAttribute('href') || '',
+        ),
       );
     }
 
@@ -214,8 +213,13 @@ export class PageNavigationService {
       const val = rawVals[i];
       if (step.params.customTransform) {
         const { pattern, output } = step.params.customTransform;
-        const transformed = val.replace(new RegExp(pattern), (_match, ...groups) =>
-          output.replace(/\$\{(\d+)\}/g, (_: string, n: string) => groups[parseInt(n) - 1] ?? ''),
+        const transformed = val.replace(
+          new RegExp(pattern),
+          (_match, ...groups) =>
+            output.replace(
+              /\$\{(\d+)\}/g,
+              (_: string, n: string) => groups[parseInt(n) - 1] ?? '',
+            ),
         );
         const hrefUrl = transformed.startsWith('http')
           ? transformed
@@ -233,13 +237,11 @@ export class PageNavigationService {
 
         const resolvedHref = elementHrefs[i] || '';
         const args = argsString
-          ? argsString
-              .split(/,(?=(?:[^']*'[^']*')*[^']*$)/)
-              .map((arg) => {
-                const trimmed = arg.trim().replace(/^'(.*)'$/, '$1');
-                // this.href → 요소의 실제 href로 치환
-                return trimmed === 'this.href' ? resolvedHref : trimmed;
-              })
+          ? argsString.split(/,(?=(?:[^']*'[^']*')*[^']*$)/).map((arg) => {
+              const trimmed = arg.trim().replace(/^'(.*)'$/, '$1');
+              // this.href → 요소의 실제 href로 치환
+              return trimmed === 'this.href' ? resolvedHref : trimmed;
+            })
           : [];
 
         await Promise.all([
@@ -527,7 +529,10 @@ export class PageNavigationService {
             // (AJAX 페이징이라 URL이 원래 안 바뀌는 사이트는 7초 대기 후 그대로 진행)
             if (page.url() === beforeUrl) {
               await page
-                .waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 7_000 })
+                .waitForNavigation({
+                  waitUntil: 'domcontentloaded',
+                  timeout: 7_000,
+                })
                 .catch(() => {});
               await page
                 .waitForLoadState('networkidle', { timeout: 10_000 })
