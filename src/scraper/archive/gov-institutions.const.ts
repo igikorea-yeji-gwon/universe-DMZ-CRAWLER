@@ -191,6 +191,14 @@ export const GOV_STRONG_PREFIX_PATTERNS: readonly RegExp[] = [
 ];
 
 /**
+ * 언론사(신문·방송·통신사 등) 발행처 판별용.
+ * institution 분류(민간확정, PRIVATE_PATTERNS에 포함)와 archive 수집 파이프라인의
+ * "학술논문 아님" 저장 제외 필터(archive-ingest.service.ts) 양쪽에서 재사용한다.
+ */
+export const PRESS_PUBLISHER_PATTERN =
+  /신문(사)?$|일보(사)?$|방송(국)?$|미디어$|통신사?$|TV$/;
+
+/**
  * 민간(PRIVATE) 확정 패턴 — GOV 패턴보다 먼저 평가한다.
  * 학회·대학(원)·기업·출판사·언론·종교단체 등.
  * '대학원'이 '…원' GOV 패턴에 오인되지 않도록 순서가 중요하다.
@@ -204,7 +212,7 @@ export const PRIVATE_PATTERNS: readonly RegExp[] = [
   /University/i, // 영문 표기(Chonnam National University 등) — 위와 동일 원칙
   /\(주\)|주식회사|㈜/,
   /출판(사)?$|문화사$|서원$|북스$/, // 경인문화사 등 출판사
-  /신문(사)?$|일보(사)?$|방송(국)?$|미디어$/,
+  PRESS_PUBLISHER_PATTERN,
   /교회$|성당$|사찰$|불교|천주교|기독교|총무원/, // 대한불교조계종 총무원 등
   /협동조합$|조합$/,
   /동산$/, // 한국DMZ평화생명동산(민간 사단법인)
