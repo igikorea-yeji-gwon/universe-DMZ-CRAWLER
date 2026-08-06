@@ -35,6 +35,26 @@ describe('NewsRelevanceFilterService', () => {
     expect(v.by).toBe('rule-drop');
   });
 
+  it('일반어와 겹치는 국가명(수단·인도·말리·조지아)은 오제외하지 않는다', () => {
+    const svc = make();
+    const cases = [
+      '접경지역 감시 수단 확대',
+      '접경지 주민 인도적 지원 논의',
+      'DMZ 인근 농작물 말리기 작업',
+      '접경지 카페서 조지아 원두 판매',
+    ];
+    for (const title of cases) {
+      expect(svc.isRelevant({ title, content: '' }).relevant).toBe(true);
+    }
+  });
+
+  it('국가 형태로 쓰인 수단·인도는 제외한다', () => {
+    const svc = make();
+    for (const title of ['수단 내전 접경지 교전', '인도-파키스탄 접경 총격']) {
+      expect(svc.isRelevant({ title, content: '' }).by).toBe('rule-drop');
+    }
+  });
+
   it('해외 국경 키워드가 있어도 한반도 앵커어가 있으면 수집한다', () => {
     const v = make().isRelevant({
       title: '통일부, 접경지역 정책 유럽 사례 참고',
