@@ -127,10 +127,11 @@ export class YnaFeedService implements OnModuleInit {
       keywordMatched: 0,
       skippedDuplicate: 0,
       skippedIrrelevant: 0,
+      ambiguousKept: 0,
       saved: 0,
       imageUploaded: 0,
       translated: 0,
-      // 무관 판정으로 제외된 기사 — 일 1회 수동 모니터링용 (LLM 판정은 오판 가능)
+      // 무관 판정으로 제외된 기사 — 일 1회 수동 모니터링용
       dropped: [] as { title: string; link: string; by: string; reason?: string }[],
       errors: [] as { link: string; message: string }[],
     };
@@ -174,13 +175,19 @@ export class YnaFeedService implements OnModuleInit {
             continue;
           }
 
-          // 키워드만 우연히 걸린 무관 기사(해외 국경·난민 이슈 등) 제외.
-          // 중복 확인 뒤에 두어 이미 수집한 기사에는 LLM을 쓰지 않는다.
-          const verdict = await this.relevanceFilter.isRelevant({
+          // 키워드만 우연히 걸린 무관 기사(해외 국경·난민 이슈 등) 제외
+          const verdict = this.relevanceFilter.isRelevant({
             title: item.title,
             content: item.content,
             matchedKeywords: item.matchedKeywords,
           });
+          if (verdict.by === 'ambiguous-keep') {
+            // 규칙만으로는 못 거르는 건 — 수집하되 수동 확인 대상으로 남긴다
+            summary.ambiguousKept++;
+            this.logger.log(
+              `[yna-relevance] CHECK "${item.title}" — ${verdict.reason} ${item.link}`,
+            );
+          }
           if (!verdict.relevant) {
             summary.skippedIrrelevant++;
             summary.dropped.push({
@@ -254,7 +261,7 @@ export class YnaFeedService implements OnModuleInit {
       this.logger.log(
         `[yna] 수집 종료: 피드 ${summary.totalItems}건, 매칭 ${summary.keywordMatched}건, ` +
           `신규 ${summary.saved}건, 중복 ${summary.skippedDuplicate}건, ` +
-          `무관제외 ${summary.skippedIrrelevant}건, ` +
+          `무관제외 ${summary.skippedIrrelevant}건, 확인필요 ${summary.ambiguousKept}건, ` +
           `번역 ${summary.translated}건, 실패 ${summary.errors.length}건`,
       );
       return summary;
@@ -268,7 +275,7 @@ export class YnaFeedService implements OnModuleInit {
 
   /**
    * 현재 피드에 대해 관련성 판정만 수행하고 결과를 돌려준다 (저장·번역·중복확인 없음).
-   * LLM 판정은 오판 가능하므로 일 1회 수동 모니터링에 쓰기 위한 조회 전용 API.
+   * 무관 제외 건과 확인 필요 건을 일 1회 수동 점검하기 위한 조회 전용 API.
    */
   async previewRelevance() {
     const feedUrl = this.configService.get<string>('YNA_FEED_URL');
@@ -277,27 +284,25 @@ export class YnaFeedService implements OnModuleInit {
     const items = await this.fetchFeed(feedUrl);
     const matched = items.filter((it) => it.matchedKeywords.length > 0);
 
-    const results = [];
-    for (const item of matched) {
-      const verdict = await this.relevanceFilter.isRelevant({
+    const results = matched.map((item) => ({
+      title: item.title,
+      link: item.link,
+      regDt: item.regDt,
+      matchedKeywords: item.matchedKeywords,
+      ...this.relevanceFilter.isRelevant({
         title: item.title,
         content: item.content,
         matchedKeywords: item.matchedKeywords,
-      });
-      results.push({
-        title: item.title,
-        link: item.link,
-        regDt: item.regDt,
-        matchedKeywords: item.matchedKeywords,
-        ...verdict,
-      });
-    }
+      }),
+    }));
 
     return {
       totalItems: items.length,
       keywordMatched: matched.length,
       keep: results.filter((r) => r.relevant).length,
       drop: results.filter((r) => !r.relevant).length,
+      // 규칙으로는 못 거르는 애매한 건 — 수동 확인 대상
+      check: results.filter((r) => r.by === 'ambiguous-keep').length,
       results,
     };
   }

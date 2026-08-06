@@ -525,6 +525,7 @@ export class ScraperConfigController {
         keywordMatched: 3,
         skippedDuplicate: 2,
         skippedIrrelevant: 1,
+        ambiguousKept: 0,
         saved: 1,
         imageUploaded: 2,
         translated: 1,
@@ -541,17 +542,20 @@ export class ScraperConfigController {
   @ApiOperation({
     summary:
       '현재 연합뉴스 피드의 DMZ 관련성 판정만 조회 (저장·번역 없음). ' +
-      'LLM 판정 오판 확인용 일일 모니터링 API',
+      '무관 제외·확인 필요 건 확인용 일일 모니터링 API',
   })
   @ApiResponse({
     status: 200,
-    description: '기사별 판정 결과 (by: anchor-keep | rule-drop | llm | default-keep)',
+    description:
+      '기사별 판정 결과 (by: anchor-keep | rule-drop | ambiguous-keep | default-keep). ' +
+      'check = 규칙으로 못 거른 애매한 건(수집됨, 수동 확인 대상)',
     schema: {
       example: {
         totalItems: 30,
         keywordMatched: 4,
         keep: 3,
         drop: 1,
+        check: 1,
         results: [
           {
             title: '스페인-모로코 접경서 난민 수백명 월경 시도',
