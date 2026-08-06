@@ -524,15 +524,49 @@ export class ScraperConfigController {
         totalItems: 30,
         keywordMatched: 3,
         skippedDuplicate: 2,
+        skippedIrrelevant: 1,
         saved: 1,
         imageUploaded: 2,
         translated: 1,
+        dropped: [],
         errors: [],
       },
     },
   })
   async collectYnaFeed() {
     return this.ynaFeedService.collect();
+  }
+
+  @Get('yna/relevance-preview')
+  @ApiOperation({
+    summary:
+      '현재 연합뉴스 피드의 DMZ 관련성 판정만 조회 (저장·번역 없음). ' +
+      'LLM 판정 오판 확인용 일일 모니터링 API',
+  })
+  @ApiResponse({
+    status: 200,
+    description: '기사별 판정 결과 (by: anchor-keep | rule-drop | llm | default-keep)',
+    schema: {
+      example: {
+        totalItems: 30,
+        keywordMatched: 4,
+        keep: 3,
+        drop: 1,
+        results: [
+          {
+            title: '스페인-모로코 접경서 난민 수백명 월경 시도',
+            link: 'https://www.yna.co.kr/view/AKR...',
+            matchedKeywords: ['접경'],
+            relevant: false,
+            by: 'rule-drop',
+            reason: '해외 국경 이슈(스페인·모로코 국경, 난민·이민 이슈) — 한반도 앵커어 없음',
+          },
+        ],
+      },
+    },
+  })
+  async previewYnaRelevance() {
+    return this.ynaFeedService.previewRelevance();
   }
 
   // ─── 연합뉴스 과거 XML 백필 ─────────────────────────────────────────────────

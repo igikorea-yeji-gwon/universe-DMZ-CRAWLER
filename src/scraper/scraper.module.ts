@@ -19,6 +19,7 @@ import { NewsDbService } from './news-db.service';
 import { CubridService } from 'src/database/cubrid.service';
 import { YnaFeedService } from './yna-feed.service';
 import { YnaBackfillService } from './yna-backfill.service';
+import { NewsRelevanceFilterService } from './news-relevance-filter.service';
 import { ArticleExportService } from './article-export.service';
 import { IsbnModule } from 'src/isbn/isbn.module';
 import { ArchiveController } from './archive/archive.controller';
@@ -56,6 +57,7 @@ import { NtisCollectorService } from './archive/ntis-collector.service';
     CubridService,
     YnaFeedService,
     YnaBackfillService,
+    NewsRelevanceFilterService,
     ArticleExportService,
     ArchiveIngestService,
     ArchiveExportService,
