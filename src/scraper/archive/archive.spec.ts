@@ -2,6 +2,7 @@ import { describe, expect, it, vi } from 'vitest';
 import * as fs from 'fs';
 import * as path from 'path';
 import { parseStringPromise } from 'xml2js';
+import { AcademicFilterService } from './academic-filter.service';
 import { InstitutionClassifierService } from './institution-classifier.service';
 import { RelevanceFilterService } from './relevance-filter.service';
 import { KciCollectorService } from './kci-collector.service';
@@ -12,6 +13,7 @@ import { KistiCollectorService } from './kisti-collector.service';
 import { EncykoreaCollectorService } from './encykorea-collector.service';
 import { ArchiveExportService } from './archive-export.service';
 import {
+  ArchiveItem,
   toArray,
   stripTags,
   titleToS3Suffix,
@@ -105,6 +107,71 @@ describe('InstitutionClassifierService', () => {
       verdict: 'PRIVATE',
       by: 'default',
     });
+  });
+});
+
+// ─── 학술자료 필터 ────────────────────────────────────────────────────────────
+
+describe('AcademicFilterService', () => {
+  // LLM이 불려야 할 경우를 구분하려고 gemini 스텁 호출 여부를 함께 본다
+  function makeFilter(llmReply = '{"academic":false,"reason":"잡지 기사"}') {
+    const gemini = geminiStub(llmReply);
+    return { filter: new AcademicFilterService(s3Stub, gemini), gemini };
+  }
+  const item = (over: Partial<ArchiveItem>): ArchiveItem =>
+    ({
+      source: 'losi',
+      sourceId: 'x',
+      title: '제목',
+      publisher: '한국조경학회',
+      author: '홍길동',
+      publishYear: '2024',
+      category: null,
+      subCategory: null,
+      summary: null,
+      detailUrl: null,
+      isbn: null,
+      materialType: 'article',
+      matchedKeyword: 'DMZ',
+      ...over,
+    }) as ArchiveItem;
+
+  it.each([
+    // [설명, item, 기대 academic, 기대 by]
+    ['언론사 발행처는 소스 불문 제외', { source: 'riss', publisher: '경향신문사' }, false, 'rule-publisher'],
+    ['의원실 발행물 제외', { publisher: '한기호 의원실' }, false, 'rule-publisher'],
+    ['사무처 발행물 제외', { publisher: '국회사무처 국회민원지원센터' }, false, 'rule-publisher'],
+    ['EncyKorea는 면제', { source: 'encykorea', publisher: '한국학중앙연구원' }, true, 'rule-exempt'],
+    ['단행본은 학술 여부 안 따짐', { materialType: 'book' }, true, 'rule-exempt'],
+    ['플래그 신뢰 소스는 통과', { source: 'kci' }, true, 'source-flag'],
+    ['NTIS 연구보고서 통과', { source: 'ntis', materialType: 'report' }, true, 'source-flag'],
+    ['인터뷰 기사 제외', { title: '접경지 규제 사슬 끊고 :김성원 의원 [인터뷰]' }, false, 'rule-title'],
+    ['좌담·칼럼 제외', { title: 'DMZ 평화 좌담회' }, false, 'rule-title'],
+    ['학술지 수록은 통과', { subCategory: '한국환경생태학회지' }, true, 'rule-journal'],
+    ['영문 저널명도 통과', { subCategory: 'Korean Journal of Ecology' }, true, 'rule-journal'],
+  ])('%s', async (_desc, over, expected, by) => {
+    const { filter, gemini } = makeFilter();
+    const verdict = await filter.isAcademic(item(over as Partial<ArchiveItem>));
+    expect(verdict.academic).toBe(expected);
+    expect(verdict.by).toBe(by);
+    // 규칙으로 결론난 건은 LLM을 부르지 않아야 한다 (비용/지연)
+    expect(gemini.askQuestion).not.toHaveBeenCalled();
+  });
+
+  it('규칙에 안 걸리는 LOSI 건만 LLM으로 판정한다', async () => {
+    const { filter, gemini } = makeFilter();
+    const verdict = await filter.isAcademic(
+      item({ title: '세계의 분열을 거부한다', subCategory: '주간경향' }),
+    );
+    expect(gemini.askQuestion).toHaveBeenCalledOnce();
+    expect(verdict).toMatchObject({ academic: false, by: 'llm' });
+  });
+
+  it('LLM 실패 시 보수적으로 KEEP한다', async () => {
+    const gemini = { askQuestion: vi.fn(async () => 'JSON 아님') } as any;
+    const filter = new AcademicFilterService(s3Stub, gemini);
+    const verdict = await filter.isAcademic(item({ title: '애매한 제목' }));
+    expect(verdict).toMatchObject({ academic: true, by: 'llm-error-keep' });
   });
 });
 

@@ -6,8 +6,8 @@ import moment from 'moment';
 import { S3Service } from 'src/aws/s3/s3.service';
 import { IsbnService } from 'src/isbn/isbn.service';
 import { TranslationClientService } from '../translation-client.service';
+import { AcademicFilterService } from './academic-filter.service';
 import { ArchiveReportService } from './archive-report.service';
-import { NON_ACADEMIC_PUBLISHER_PATTERNS } from './gov-institutions.const';
 import { InstitutionClassifierService } from './institution-classifier.service';
 import { RelevanceFilterService } from './relevance-filter.service';
 import {
@@ -53,6 +53,7 @@ export class ArchiveIngestService {
     private readonly isbnService: IsbnService,
     private readonly reportService: ArchiveReportService,
     private readonly relevanceFilter: RelevanceFilterService,
+    private readonly academicFilter: AcademicFilterService,
     private readonly themeClassifier: ThemeClassifierService,
   ) {}
 
@@ -126,16 +127,13 @@ export class ArchiveIngestService {
           continue;
         }
 
-        // 언론사·의원실·사무처 발행물은 발행기관 판정이 옳더라도 학술자료가 아니므로 제외.
-        // (LOSI의 ARTICLE 검색범위가 시사주간지·신문 칼럼까지 함께 잡아오는 문제 대응)
-        if (
-          NON_ACADEMIC_PUBLISHER_PATTERNS.some((p) =>
-            p.test(item.publisher ?? ''),
-          )
-        ) {
+        // 학술자료(논문·학위논문·연구보고서) 여부 — 포털 논문/발간자료 분류의 공통 전제.
+        // 발행처 규칙 → 소스 플래그 → 제목/수록지 규칙 → LLM 순으로 판정한다.
+        const academic = await this.academicFilter.isAcademic(item);
+        if (!academic.academic) {
           summary.droppedNonAcademic++;
           this.logger.log(
-            `[archive:${item.source}] 학술자료 발행처 아님 → 저장 제외 (발행처: ${item.publisher}) "${item.title}"`,
+            `[archive:${item.source}] 학술자료 아님 → 저장 제외 (${academic.by}${academic.reason ? `: ${academic.reason}` : ''}) "${item.title}"`,
           );
           continue;
         }
@@ -260,6 +258,7 @@ export class ArchiveIngestService {
     // LLM 판정 캐시 영속화 (실패해도 무시)
     await this.classifier.flushCache();
     await this.relevanceFilter.flushCache();
+    await this.academicFilter.flushCache();
 
     this.logger.log(
       `[archive:${source}] ingest 종료: fetched=${summary.fetched} deduped=${summary.deduped} ` +

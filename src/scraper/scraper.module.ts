@@ -32,6 +32,7 @@ import { LosiCollectorService } from './archive/losi-collector.service';
 import { KistiCollectorService } from './archive/kisti-collector.service';
 import { EncykoreaCollectorService } from './archive/encykorea-collector.service';
 import { RelevanceFilterService } from './archive/relevance-filter.service';
+import { AcademicFilterService } from './archive/academic-filter.service';
 import { KciCollectorService } from './archive/kci-collector.service';
 import { RissCollectorService } from './archive/riss-collector.service';
 import { NtisCollectorService } from './archive/ntis-collector.service';
@@ -65,6 +66,7 @@ import { NtisCollectorService } from './archive/ntis-collector.service';
     InstitutionClassifierService,
     ThemeClassifierService,
     RelevanceFilterService,
+    AcademicFilterService,
     KciCollectorService,
     RissCollectorService,
     NtisCollectorService,
