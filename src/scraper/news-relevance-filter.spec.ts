@@ -35,23 +35,53 @@ describe('NewsRelevanceFilterService', () => {
     expect(v.by).toBe('rule-drop');
   });
 
-  it('일반어와 겹치는 국가명(수단·인도·말리·조지아)은 오제외하지 않는다', () => {
+  it('우크라이나(축약형 포함)는 제외한다', () => {
     const svc = make();
-    const cases = [
+    for (const title of [
+      '러-우크라 접경지대 무인기 공습',
+      '우크라이나 접경 지역 포격 재개',
+      '젤렌스키, 접경 방어선 시찰',
+    ]) {
+      const v = svc.isRelevant({ title, content: '' });
+      expect(v.relevant).toBe(false);
+      expect(v.by).toBe('rule-drop');
+    }
+  });
+
+  it('러시아 단독은 제외하지 않는다 (북러 협력 기사 보호)', () => {
+    const v = make().isRelevant({
+      title: '러시아, 접경 훈련에 신형 무기 투입',
+      content: '현지 매체 보도.',
+    });
+    expect(v.relevant).toBe(true);
+    expect(v.by).toBe('ambiguous-keep');
+  });
+
+  it('제외 목록에서 내린 지역은 수집하고 확인 대상으로만 표시한다', () => {
+    const svc = make();
+    for (const title of [
+      '멕시코 접경 지역 단속 강화 조치',
+      '미얀마 접경서 무력 충돌',
+      '수단 내전 접경지 교전',
+      '인도-파키스탄 접경 총격',
+    ]) {
+      const v = svc.isRelevant({ title, content: '' });
+      expect(v.relevant).toBe(true);
+      expect(v.by).toBe('ambiguous-keep');
+    }
+  });
+
+  it('일반어와 겹치는 국가명(수단·인도·말리·조지아)은 오탐하지 않는다', () => {
+    const svc = make();
+    for (const title of [
       '접경지역 감시 수단 확대',
       '접경지 주민 인도적 지원 논의',
       'DMZ 인근 농작물 말리기 작업',
       '접경지 카페서 조지아 원두 판매',
-    ];
-    for (const title of cases) {
-      expect(svc.isRelevant({ title, content: '' }).relevant).toBe(true);
-    }
-  });
-
-  it('국가 형태로 쓰인 수단·인도는 제외한다', () => {
-    const svc = make();
-    for (const title of ['수단 내전 접경지 교전', '인도-파키스탄 접경 총격']) {
-      expect(svc.isRelevant({ title, content: '' }).by).toBe('rule-drop');
+    ]) {
+      const v = svc.isRelevant({ title, content: '' });
+      expect(v.relevant).toBe(true);
+      expect(v.by).toBe('default-keep');
     }
   });
 
@@ -65,15 +95,14 @@ describe('NewsRelevanceFilterService', () => {
     expect(v.by).toBe('anchor-keep');
   });
 
-  it('애매한 국가(러시아·우크라)만 있으면 수집하되 확인 대상으로 표시한다', () => {
+  it('우크라이나 기사도 한반도 앵커어가 있으면 수집한다', () => {
     const v = make().isRelevant({
-      title: '러-우크라 접경지대 무인기 공습',
-      content: '현지 당국이 피해 규모를 집계 중이다.',
+      title: '북한군 우크라이나 전선 추가 파병 정황',
+      content: '국방부는 관련 동향을 확인 중이라고 밝혔다.',
       matchedKeywords: ['접경'],
     });
     expect(v.relevant).toBe(true);
-    expect(v.by).toBe('ambiguous-keep');
-    expect(v.matched?.length).toBeGreaterThan(0);
+    expect(v.by).toBe('anchor-keep');
   });
 
   it('이란·중국도 제외하지 않고 확인 대상으로만 표시한다', () => {
