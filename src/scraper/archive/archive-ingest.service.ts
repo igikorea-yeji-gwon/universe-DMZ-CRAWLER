@@ -10,7 +10,10 @@ import { ArchiveReportService } from './archive-report.service';
 import { NON_ACADEMIC_PUBLISHER_PATTERNS } from './gov-institutions.const';
 import { InstitutionClassifierService } from './institution-classifier.service';
 import { RelevanceFilterService } from './relevance-filter.service';
-import { ThemeClassifierService } from './theme-classifier.service';
+import {
+  ARCHIVE_THEME_FALLBACK,
+  ThemeClassifierService,
+} from './theme-classifier.service';
 import {
   ArchiveCollectOptions,
   ArchiveIngestSummary,
@@ -87,8 +90,8 @@ export class ArchiveIngestService {
         ` (S3에 이미 저장된 건은 처리 중 스킵되므로 실제 신규 저장은 이 이하)${opts.dryRun ? ' [dryRun]' : ''}`,
     );
 
-    // Pass 1: 중복확인(S3) + DMZ 관련성 필터 — 생존 아이템만 다음 단계로 넘긴다.
-    // (스킵/제외될 건에 불필요한 주제분류 LLM 호출을 하지 않기 위해 먼저 거른다)
+    // Pass 1: 중복확인(S3) + 저장 제외 판정(DMZ 무관 / 비학술 발행처 / 발행기관 판정불가).
+    // 제외될 건에 Pass 2의 주제분류 LLM을 태우지 않으려면 모든 제외 판정이 여기 모여 있어야 한다.
     const survivors: {
       item: ArchiveItem;
       matchedKeywords: string[];
@@ -137,6 +140,17 @@ export class ArchiveIngestService {
           continue;
         }
 
+        // 발행기관 정보가 아예 없으면 GOV/PRIVATE 판정 근거가 없다. 그대로 두면 분류기가
+        // PRIVATE 기본값으로 찍어 논문(PAPERS)이 되는데, 이는 "발간기관이 정부기관이 아님이
+        // 확인된 논문"이라는 포털 기준을 만족하지 못한다 → 저장하지 않는다.
+        if (!this.classifier.normalize(item.publisher)) {
+          summary.droppedUnclassifiable++;
+          this.logger.log(
+            `[archive:${item.source}] 발행기관 판정불가(publisher 없음) → 저장 제외 "${item.title}"`,
+          );
+          continue;
+        }
+
         survivors.push({ item, matchedKeywords, itemHash });
       } catch (e) {
         this.logger.error(
@@ -160,20 +174,12 @@ export class ArchiveIngestService {
     // Pass 3: 발행기관분류(menu_id) + 번역 + (BOOKS) 표지조회 + 저장
     for (let i = 0; i < survivors.length; i++) {
       const { item, matchedKeywords, itemHash } = survivors[i];
-      const category = themes[i] ?? '접경지역';
+      const category = themes[i] ?? ARCHIVE_THEME_FALLBACK;
 
       try {
         // menu_id 결정: 단행본은 BOOKS 고정, 그 외 발행기관 분류로 발간자료/논문 분기
+        // (publisher 없는 건은 Pass 1에서 이미 제외돼 여기 오지 않는다)
         const classification = await this.classifier.classify(item.publisher);
-        // publisher가 없어 판정 근거가 전혀 없는 건(by='default')은 PRIVATE로 찍고 논문 취급하면
-        // "정부기관 아님이 확인된 논문"이라는 분류기준을 만족 못 하므로 저장하지 않는다.
-        if (classification.by === 'default') {
-          summary.droppedUnclassifiable++;
-          this.logger.log(
-            `[archive:${item.source}] 발행기관 판정불가(publisher 없음) → 저장 제외 "${item.title}"`,
-          );
-          continue;
-        }
         const menuId = this.decideMenuId(item, classification.verdict);
         summary.classified[menuId]++;
 
@@ -547,7 +553,7 @@ export class ArchiveIngestService {
             prefix === 'U' ? 'book' : prefix === 'T' ? 'thesis' : 'article';
           const verdict = await this.classifier.classify(meta.publisher);
           const newMenu = decideArchiveMenu(materialType, verdict.verdict);
-          const theme = themes[i] ?? '접경지역';
+          const theme = themes[i] ?? ARCHIVE_THEME_FALLBACK;
 
           themeDist[theme] = (themeDist[theme] ?? 0) + 1;
           if (newMenu !== meta.menuId) {
@@ -667,7 +673,7 @@ export class ArchiveIngestService {
       entries.map((entry, i) =>
         limit(async () => {
           const meta = entry.meta as ArchiveMeta;
-          const theme = themes[i] ?? '접경지역';
+          const theme = themes[i] ?? ARCHIVE_THEME_FALLBACK;
           themeDist[theme] = (themeDist[theme] ?? 0) + 1;
           if (sample.length < 60) {
             sample.push({
@@ -725,7 +731,7 @@ export class ArchiveIngestService {
     ];
     entries.forEach((entry, i) => {
       const meta = entry.meta as ArchiveMeta;
-      const theme = themes[i] ?? '접경지역';
+      const theme = themes[i] ?? ARCHIVE_THEME_FALLBACK;
       lines.push(
         `UPDATE archive SET category=${q(theme)}, category_en=NULL, ` +
           `mdfcn_dt=SYSDATETIME WHERE register_no=${q(meta.registerNo)};`,

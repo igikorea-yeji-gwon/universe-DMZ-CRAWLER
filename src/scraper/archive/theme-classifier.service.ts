@@ -29,7 +29,9 @@ export const ARCHIVE_THEMES = [
 export type ArchiveTheme = (typeof ARCHIVE_THEMES)[number];
 
 const THEME_SET = new Set<string>(ARCHIVE_THEMES);
-const FALLBACK = '접경지역';
+/** 분류 실패·미매칭 시 기본 주제. 호출부(ingest·재분류)도 같은 값을 써야 하므로 export한다. */
+export const ARCHIVE_THEME_FALLBACK: ArchiveTheme = '접경지역';
+const FALLBACK = ARCHIVE_THEME_FALLBACK;
 const BATCH = 25;
 
 /**
