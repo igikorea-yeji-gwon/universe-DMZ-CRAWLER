@@ -392,6 +392,24 @@ export class ArchiveController {
     });
   }
 
+  @Get('archive/reclassify/losi')
+  @ApiOperation({
+    summary:
+      '(유지보수, 1회성) 이미 S3에 저장된 LOSI meta.json의 category(주제분류 18종)를 ' +
+      'ThemeClassifier로 재분류 — LOSI는 원래 category를 늘 null로 수집해 전건이 접경지역 기본값으로 ' +
+      '보이던 문제 해소용. menu_id는 건드리지 않음. apply=true면 S3 덮어쓰기, 기본(false)은 집계만.',
+  })
+  @ApiQuery({
+    name: 'apply',
+    required: false,
+    example: 'false',
+    description: 'true면 S3 덮어쓰기 실행 (기본 false=미리보기)',
+  })
+  async reclassifyLosi(@Query('apply') apply?: string) {
+    const dryRun = String(apply) !== 'true';
+    return this.ingestService.reclassifyLosi(dryRun);
+  }
+
   // ─── 기관 분류기 단독 테스트 ───────────────────────────────────────────────
 
   @Get('archive/classify')

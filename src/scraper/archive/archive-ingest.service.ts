@@ -84,6 +84,13 @@ export class ArchiveIngestService {
         ` (S3에 이미 저장된 건은 처리 중 스킵되므로 실제 신규 저장은 이 이하)${opts.dryRun ? ' [dryRun]' : ''}`,
     );
 
+    // Pass 1: 중복확인(S3) + DMZ 관련성 필터 — 생존 아이템만 다음 단계로 넘긴다.
+    // (스킵/제외될 건에 불필요한 주제분류 LLM 호출을 하지 않기 위해 먼저 거른다)
+    const survivors: {
+      item: ArchiveItem;
+      matchedKeywords: string[];
+      itemHash: string;
+    }[] = [];
     for (const { item, matchedKeywords } of merged) {
       const itemHash = createHash('md5')
         .update(`${item.source}:${item.sourceId}`)
@@ -113,6 +120,32 @@ export class ArchiveIngestService {
           continue;
         }
 
+        survivors.push({ item, matchedKeywords, itemHash });
+      } catch (e) {
+        this.logger.error(
+          `[archive:${item.source}] 아이템 처리 실패 (${item.sourceId}): ${(e as Error).message}`,
+        );
+        summary.errors.push({
+          sourceId: item.sourceId,
+          message: (e as Error).message,
+        });
+      }
+    }
+
+    // Pass 2: 주제분류(포털 18종, ThemeClassifier) — 소스 불문 제목 기준 일괄 배치 분류.
+    // 컬렉터가 채운 원래 category(있다면)는 쓰지 않고 여기서 결정한 값으로 통일한다.
+    const themes = survivors.length
+      ? await this.themeClassifier.classifyTitles(
+          survivors.map((s) => s.item.title),
+        )
+      : [];
+
+    // Pass 3: 발행기관분류(menu_id) + 번역 + (BOOKS) 표지조회 + 저장
+    for (let i = 0; i < survivors.length; i++) {
+      const { item, matchedKeywords, itemHash } = survivors[i];
+      const category = themes[i] ?? '접경지역';
+
+      try {
         // menu_id 결정: 단행본은 BOOKS 고정, 그 외 발행기관 분류로 발간자료/논문 분기
         const classification = await this.classifier.classify(item.publisher);
         const menuId = this.decideMenuId(item, classification.verdict);
@@ -146,8 +179,8 @@ export class ArchiveIngestService {
           author: item.author,
           authorEn: en.authorEn,
           publishYear: item.publishYear,
-          category: item.category,
-          categoryEn: en.categoryEn,
+          category,
+          categoryEn: null, // 주제분류(18종)는 고정 한국어 라벨 — 번역하지 않음
           subCategory: item.subCategory,
           subCategoryEn: null,
           summary: item.summary,
@@ -178,7 +211,7 @@ export class ArchiveIngestService {
         );
         summary.saved++;
         this.logger.log(
-          `[archive:${item.source}] meta.json 저장 hash=${itemHash} menu=${menuId} ` +
+          `[archive:${item.source}] meta.json 저장 hash=${itemHash} menu=${menuId} category=${category} ` +
             `(발행: ${item.publisher || '-'} → ${classification.verdict}/${classification.by}) "${item.title}"`,
         );
       } catch (e) {
@@ -561,6 +594,120 @@ export class ArchiveIngestService {
     return lines.join('\n');
   }
 
+  /**
+   * (유지보수, 1회성) 이미 S3에 저장된 LOSI meta.json의 category를 ThemeClassifier(18종)로 채운다.
+   * LOSI 컬렉터는 원래 category를 늘 null로 수집했고(재분류 파이프라인 부재), CUBRID 쪽에서
+   * null이 기본값 '접경지역'으로 들어가 전건이 같은 분류로 보이던 문제를 제목 기준 일괄 재분류로 해소한다.
+   * menu_id는 건드리지 않는다(문제된 건 category뿐). dryRun=true면 S3는 안 건드리고 집계만 낸다.
+   */
+  async reclassifyLosi(dryRun = true): Promise<{
+    originId: number;
+    total: number;
+    s3Updated: number;
+    sqlPath: string | null;
+    themeDist: Record<string, number>;
+    sample: {
+      registerNo: string;
+      title: string;
+      oldCategory: string | null;
+      theme: string;
+    }[];
+  }> {
+    const originId = Number(process.env.LOSI_ORIGIN_ID);
+    const entries = await this.s3Service.listArchiveMetaEntries(originId);
+    this.logger.log(
+      `[reclassify:losi] S3 meta ${entries.length}건 로드 — 재분류 시작 (dryRun=${dryRun})`,
+    );
+
+    const themes = entries.length
+      ? await this.themeClassifier.classifyTitles(
+          entries.map((e) => (e.meta as ArchiveMeta).title),
+        )
+      : [];
+
+    const themeDist: Record<string, number> = {};
+    const sample: {
+      registerNo: string;
+      title: string;
+      oldCategory: string | null;
+      theme: string;
+    }[] = [];
+    let s3Updated = 0;
+
+    const pLimit = (await import('p-limit')).default;
+    const limit = pLimit(20);
+    await Promise.all(
+      entries.map((entry, i) =>
+        limit(async () => {
+          const meta = entry.meta as ArchiveMeta;
+          const theme = themes[i] ?? '접경지역';
+          themeDist[theme] = (themeDist[theme] ?? 0) + 1;
+          if (sample.length < 60) {
+            sample.push({
+              registerNo: meta.registerNo,
+              title: meta.title,
+              oldCategory: meta.category,
+              theme,
+            });
+          }
+          if (!dryRun) {
+            const updated: ArchiveMeta = {
+              ...meta,
+              category: theme,
+              categoryEn: null,
+            };
+            await this.s3Service.overwriteArchiveMeta(entry.key, updated);
+            s3Updated++;
+          }
+        }),
+      ),
+    );
+
+    let sqlPath: string | null = null;
+    if (!dryRun) {
+      sqlPath = path.join(process.cwd(), 'archive-reclassify-losi.sql');
+      await fs.writeFile(
+        sqlPath,
+        this.buildLosiReclassifySql(entries, themes),
+        'utf-8',
+      );
+    }
+    this.logger.log(
+      `[reclassify:losi] 완료 — 총 ${entries.length} / S3덮어쓰기 ${s3Updated}` +
+        (sqlPath ? ` / SQL ${sqlPath}` : ''),
+    );
+
+    return {
+      originId,
+      total: entries.length,
+      s3Updated,
+      sqlPath,
+      themeDist,
+      sample,
+    };
+  }
+
+  /** register_no 기준 per-row UPDATE (category=주제 18종, category_en=NULL, mdfcn_dt). CUBRID */
+  private buildLosiReclassifySql(
+    entries: { meta: unknown }[],
+    themes: string[],
+  ): string {
+    const q = (s: string) => `'${s.replace(/'/g, "''")}'`;
+    const lines: string[] = [
+      '-- LOSI 재분류 (자동 생성) — category=주제분류(18종, ThemeClassifier), category_en=NULL — CUBRID',
+    ];
+    entries.forEach((entry, i) => {
+      const meta = entry.meta as ArchiveMeta;
+      const theme = themes[i] ?? '접경지역';
+      lines.push(
+        `UPDATE archive SET category=${q(theme)}, category_en=NULL, ` +
+          `mdfcn_dt=SYSDATETIME WHERE register_no=${q(meta.registerNo)};`,
+      );
+    });
+    lines.push('');
+    return lines.join('\n');
+  }
+
   private mergeBySourceId(
     items: ArchiveItem[],
   ): { item: ArchiveItem; matchedKeywords: string[] }[] {
@@ -596,17 +743,16 @@ export class ArchiveIngestService {
       summaryEn: this.presentOrNull(item.summaryEn),
       authorEn: this.presentOrNull(item.authorEn), // 인명은 번역하지 않음 — API 제공분만
       publisherEn: null as string | null,
-      categoryEn: null as string | null,
     };
 
     if (!opts.translate || opts.dryRun) return en;
 
     // 번역이 필요한 필드만 모은다 (원문이 없으면 번역할 것도 없음)
+    // category는 ThemeClassifier가 정한 18종 고정 라벨로 통일되므로 번역 대상에서 제외
     const fields: Record<string, string> = {};
     if (!en.titleEn && item.title) fields.title = item.title;
     if (item.publisher) fields.publisher = item.publisher;
     if (!en.summaryEn && item.summary) fields.summary = item.summary;
-    if (item.category) fields.category = item.category;
     if (Object.keys(fields).length === 0) return en;
 
     try {
@@ -614,7 +760,6 @@ export class ArchiveIngestService {
       en.titleEn = en.titleEn ?? this.presentOrNull(translated.title);
       en.publisherEn = this.presentOrNull(translated.publisher);
       en.summaryEn = en.summaryEn ?? this.presentOrNull(translated.summary);
-      en.categoryEn = this.presentOrNull(translated.category);
       summary.translated++;
     } catch (e) {
       // 번역 앱 다운/실패 → _en null 저장, trsl_yn='N' (export 시 판정)
