@@ -102,7 +102,7 @@ export interface ArchiveIngestSummary {
   deduped: number; // 키워드 간 중복 제거 후 아이템 수
   skippedExisting: number; // S3 완료 마커 존재로 스킵
   droppedIrrelevant: number; // DMZ 무관 판정으로 저장 제외
-  droppedPress: number; // 언론사 발행물(학술논문 아님)로 저장 제외
+  droppedNonAcademic: number; // 학술자료 발행처가 아님(언론사·의원실·사무처)으로 저장 제외
   droppedUnclassifiable: number; // 발행기관 판정불가(publisher 없음)로 저장 제외
   classified: Record<ArchiveMenuId, number>;
   translated: number;

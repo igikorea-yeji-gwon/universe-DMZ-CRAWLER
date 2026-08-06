@@ -7,7 +7,7 @@ import { S3Service } from 'src/aws/s3/s3.service';
 import { IsbnService } from 'src/isbn/isbn.service';
 import { TranslationClientService } from '../translation-client.service';
 import { ArchiveReportService } from './archive-report.service';
-import { PRESS_PUBLISHER_PATTERN } from './gov-institutions.const';
+import { NON_ACADEMIC_PUBLISHER_PATTERNS } from './gov-institutions.const';
 import { InstitutionClassifierService } from './institution-classifier.service';
 import { RelevanceFilterService } from './relevance-filter.service';
 import { ThemeClassifierService } from './theme-classifier.service';
@@ -68,7 +68,7 @@ export class ArchiveIngestService {
       deduped: 0,
       skippedExisting: 0,
       droppedIrrelevant: 0,
-      droppedPress: 0,
+      droppedNonAcademic: 0,
       droppedUnclassifiable: 0,
       classified: { PUBLICATIONS: 0, PAPERS: 0, BOOKS: 0 },
       translated: 0,
@@ -123,12 +123,16 @@ export class ArchiveIngestService {
           continue;
         }
 
-        // 언론사(신문·방송·통신사) 발행물은 발행기관이 민간이라도 학술논문이 아니므로 제외.
+        // 언론사·의원실·사무처 발행물은 발행기관 판정이 옳더라도 학술자료가 아니므로 제외.
         // (LOSI의 ARTICLE 검색범위가 시사주간지·신문 칼럼까지 함께 잡아오는 문제 대응)
-        if (PRESS_PUBLISHER_PATTERN.test(item.publisher ?? '')) {
-          summary.droppedPress++;
+        if (
+          NON_ACADEMIC_PUBLISHER_PATTERNS.some((p) =>
+            p.test(item.publisher ?? ''),
+          )
+        ) {
+          summary.droppedNonAcademic++;
           this.logger.log(
-            `[archive:${item.source}] 언론사 발행물(학술논문 아님) → 저장 제외 (발행처: ${item.publisher}) "${item.title}"`,
+            `[archive:${item.source}] 학술자료 발행처 아님 → 저장 제외 (발행처: ${item.publisher}) "${item.title}"`,
           );
           continue;
         }
@@ -254,7 +258,7 @@ export class ArchiveIngestService {
     this.logger.log(
       `[archive:${source}] ingest 종료: fetched=${summary.fetched} deduped=${summary.deduped} ` +
         `신규저장=${summary.saved} 중복=${summary.skippedExisting} DMZ무관제외=${summary.droppedIrrelevant} ` +
-        `언론사발행물제외=${summary.droppedPress} 발행기관판정불가제외=${summary.droppedUnclassifiable} ` +
+        `비학술발행처제외=${summary.droppedNonAcademic} 발행기관판정불가제외=${summary.droppedUnclassifiable} ` +
         `(발간자료 ${summary.classified.PUBLICATIONS} / 논문 ${summary.classified.PAPERS} / 단행본 ${summary.classified.BOOKS}) ` +
         `번역=${summary.translated} 오류=${summary.errors.length}${opts.dryRun ? ' [dryRun]' : ''}`,
     );

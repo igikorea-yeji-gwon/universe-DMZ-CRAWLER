@@ -192,11 +192,21 @@ export const GOV_STRONG_PREFIX_PATTERNS: readonly RegExp[] = [
 
 /**
  * 언론사(신문·방송·통신사 등) 발행처 판별용.
- * institution 분류(민간확정, PRIVATE_PATTERNS에 포함)와 archive 수집 파이프라인의
- * "학술논문 아님" 저장 제외 필터(archive-ingest.service.ts) 양쪽에서 재사용한다.
+ * institution 분류(민간확정, PRIVATE_PATTERNS에 포함)와 아래 수집 제외 패턴 양쪽에서 재사용한다.
  */
 export const PRESS_PUBLISHER_PATTERN =
   /신문(사)?$|일보(사)?$|방송(국)?$|미디어$|통신사?$|TV$/;
+
+/**
+ * 학술자료 발행처가 아니라 수집 자체를 제외할 발행처 패턴 (archive-ingest.service.ts).
+ * 발행기관 GOV/PRIVATE 판정과는 별개 — 판정이 옳아도 자료 성격이 학술자료가 아니면 담지 않는다.
+ * (의원실·사무처는 GOV로 정상 판정되지만 발간물이 정책자료집·민원안내라 자료마당 대상이 아니다)
+ */
+export const NON_ACADEMIC_PUBLISHER_PATTERNS: readonly RegExp[] = [
+  PRESS_PUBLISHER_PATTERN, // 시사주간지·신문 칼럼 (LOSI ARTICLE 검색범위에 섞여 들어옴)
+  /의원실/, // 국회의원실 정책자료집·세미나 자료 ('한기호 의원실'처럼 공백 표기도 매치)
+  /사무처/, // 국회사무처·민주평화통일자문회의 사무처 등 ('국회사무처 국회민원지원센터'처럼 뒤에 조직이 붙는 표기도 매치)
+];
 
 /**
  * 민간(PRIVATE) 확정 패턴 — GOV 패턴보다 먼저 평가한다.
