@@ -319,6 +319,64 @@ export class NtisCollectorService implements OnModuleInit {
     };
   }
 
+  /**
+   * (임시/디버그) NTIS 원본 응답을 가공 없이 그대로 반환 — 실제 필드 구조 확인용.
+   * NTIS는 등록 IP에서만 호출되므로 로컬에선 '접근 허용 IP가 아닙니다' 가 정상이고,
+   * 운영(EC2)에서 실행해야 실제 구조를 볼 수 있다.
+   * 구조 확인이 끝나면 이 메서드와 컨트롤러 라우트를 함께 제거할 것.
+   */
+  async fetchRaw(
+    keyword = 'DMZ',
+    rows = 1,
+  ): Promise<{
+    requestUrl: string;
+    params: Record<string, string | number>;
+    httpStatus: number;
+    raw: string;
+  }> {
+    const apiUrl = this.configService.get<string>('NTIS_API_URL');
+    const apiKey = this.configService.get<string>('NTIS_API_KEY');
+    if (!apiUrl || !apiKey) {
+      throw new BadGatewayException('[ntis] NTIS_API_URL / NTIS_API_KEY 미설정');
+    }
+
+    const params = {
+      collection: 'rresearchpdf',
+      query: keyword,
+      searchField: 'BI',
+      sortBy: 'DATE/DESC',
+      startPosition: 1,
+      displayCount: Math.min(Math.max(rows, 1), 5), // 구조 확인용이라 최대 5건
+      returnType: 'xml',
+    };
+
+    const res = await axios.get(apiUrl, {
+      params: { apprvKey: apiKey, ...params },
+      headers: {
+        'User-Agent': BROWSER_UA,
+        Accept: 'application/xml, text/xml, */*',
+      },
+      timeout: 30000,
+      responseType: 'text',
+      validateStatus: () => true, // 오류 응답 본문도 그대로 보기 위해
+    });
+
+    this.logger.log(
+      `[ntis] (임시) 원본 구조 조회 keyword="${keyword}" rows=${params.displayCount} → HTTP ${res.status}`,
+    );
+
+    // 응답 전문을 로그로도 남긴다 (pm2 logs 로 확인 가능)
+    this.logger.log(`[ntis] (임시) 원본 응답:\n${String(res.data)}`);
+
+    // apprvKey는 응답에 싣지 않는다
+    return {
+      requestUrl: apiUrl,
+      params,
+      httpStatus: res.status,
+      raw: String(res.data),
+    };
+  }
+
   /** {Korean, English} 다국어 노드에서 특정 언어 텍스트 추출 (혼합콘텐츠 객체 방어) */
   private lang(node: any, key: 'Korean' | 'English'): string {
     if (node === undefined || node === null) return '';

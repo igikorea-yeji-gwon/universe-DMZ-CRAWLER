@@ -410,6 +410,29 @@ export class ArchiveController {
     return this.ingestService.reclassifyLosi(dryRun);
   }
 
+  // ─── (임시) NTIS 원본 구조 확인 — 확인 후 라우트와 fetchRaw 함께 제거 ────────
+
+  @Get('archive/ntis/raw')
+  @ApiOperation({
+    summary:
+      '(임시/디버그) NTIS 원본 응답을 가공 없이 반환 — 실제 필드 구조 확인용. ' +
+      'NTIS는 등록 IP에서만 호출되므로 운영(EC2)에서 실행해야 한다. ' +
+      '응답 전문은 pm2 로그에도 남는다.',
+  })
+  @ApiQuery({ name: 'keyword', required: false, example: 'DMZ' })
+  @ApiQuery({
+    name: 'rows',
+    required: false,
+    example: '1',
+    description: '조회 건수 (최대 5, 기본 1)',
+  })
+  async ntisRaw(
+    @Query('keyword') keyword?: string,
+    @Query('rows') rows?: string,
+  ) {
+    return this.ntisCollector.fetchRaw(keyword || 'DMZ', Number(rows) || 1);
+  }
+
   // ─── 기관 분류기 단독 테스트 ───────────────────────────────────────────────
 
   @Get('archive/classify')
