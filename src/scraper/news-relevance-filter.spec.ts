@@ -35,6 +35,27 @@ describe('NewsRelevanceFilterService', () => {
     expect(v.by).toBe('rule-drop');
   });
 
+  it('6·25 참전국 관련 기사는 해외 기사로 오인하지 않는다', () => {
+    const svc = make();
+    for (const title of [
+      '6·25 참전국 콜롬비아, DMZ 평화의 길 방문',
+      '튀르키예 참전용사 유족, 판문점 견학',
+    ]) {
+      const v = svc.isRelevant({ title, content: '' });
+      expect(v.relevant).toBe(true);
+      expect(v.by).toBe('anchor-keep');
+    }
+  });
+
+  it('콜롬비아 등 국가명만으로는 제외하지 않는다', () => {
+    const v = make().isRelevant({
+      title: '콜롬비아 접경 지역서 반군 충돌',
+      content: '현지 매체 보도.',
+    });
+    expect(v.relevant).toBe(true);
+    expect(v.by).toBe('ambiguous-keep');
+  });
+
   it('우크라이나(축약형 포함)는 제외한다', () => {
     const svc = make();
     for (const title of [
@@ -81,7 +102,7 @@ describe('NewsRelevanceFilterService', () => {
     ]) {
       const v = svc.isRelevant({ title, content: '' });
       expect(v.relevant).toBe(true);
-      expect(v.by).toBe('default-keep');
+      expect(v.by).not.toBe('rule-drop');
     }
   });
 
@@ -133,11 +154,21 @@ describe('NewsRelevanceFilterService', () => {
     expect(v.by).toBe('filter-off');
   });
 
-  it('해외·애매 키워드가 없으면 기본 수집한다', () => {
+  it('DMZ는 영문 표기도 앵커로 인정한다', () => {
     const v = make().isRelevant({
       title: 'DMZ 생태관광 프로그램 확대',
       content: '방문객 편의시설을 늘린다.',
       matchedKeywords: ['DMZ'],
+    });
+    expect(v.relevant).toBe(true);
+    expect(v.by).toBe('anchor-keep');
+  });
+
+  it('해외·애매 키워드가 없으면 기본 수집한다', () => {
+    const v = make().isRelevant({
+      title: '접경지역 지원 조례 개정안 의결',
+      content: '주민 편의시설 확충 예산이 포함됐다.',
+      matchedKeywords: ['접경'],
     });
     expect(v.relevant).toBe(true);
     expect(v.by).toBe('default-keep');
