@@ -40,16 +40,20 @@ const KISTI_TARGETS: {
 // curPage × rowCount < 10000 (KISTI 응답 상한). 넘으면 서버가 자름 → 페이징 중단 기준으로 사용
 const KISTI_WINDOW_CAP = 10000;
 
+// 토큰 발급용 accounts 암호화 IV (KISTI 고정값 — 기관/키와 무관)
+const KISTI_TOKEN_IV = 'jvHJ1EFA0IXBrxxz';
+
 /**
  * KISTI ScienceON 수집기.
  * apigateway.kisti.re.kr/openapicall.do 를 target(ARTI/REPORT)×키워드로 페이징 조회(GET+XML).
  *
  * 인증이 기존 소스와 다르다(2단계 토큰):
- *  1) 인증키(32자)를 AES256 키로 {mac_address,datetime} JSON을 암호화(URIEncoding) → tokenrequest.do 로 access_token 발급
+ *  1) 인증키(32자)를 AES256 키로 {datetime,mac_address} JSON을 암호화(URL-safe Base64) → tokenrequest.do 로 access_token 발급
  *  2) 데이터 호출 시 client_id + token(access_token) 파라미터 전달, 만료(2h) 시 refresh_token(2주)로 재발급
- * ⚠️ **신청 시 등록한 MAC에서만** 토큰 발급됨(NTIS의 IP 제한과 유사) → 운영 EC2에서만 동작.
- *    로컬은 MAC 불일치로 토큰 발급 실패가 정상. 필요 시 KISTI_MAC env로 MAC 강제 지정.
- * ⚠️ AES 모드는 공식 문서에 미명시 → 관례(AES-256-ECB+Base64)로 구현. 토큰 실패 시 이 부분부터 점검.
+ * ⚠️ 검증 대상은 **암호문 안의 mac_address 값**(신청 시 등록한 MAC)이지 호출 호스트의 실제 MAC이 아니다.
+ *    → KISTI_MAC env에 등록 MAC을 넣으면 로컬에서도 발급된다(NTIS의 IP 제한과는 성격이 다름).
+ * ⚠️ AES 모드는 공식 문서에 미명시지만 실제로는 AES-256-CBC + 고정 IV(KISTI_TOKEN_IV).
+ *    E4006('MAC Address 확인 불가')은 MAC 불일치가 아니라 **복호화 실패** 신호에 가깝다(쓰레기값도 같은 코드).
  * REPORT의 TRKO는 NTIS와 동일 식별자로 겹치지만, 크로스소스 중복은 스프링이 (발행년+제목+저자로) 거르므로 스킵 없이 전량 수집.
  */
 @Injectable()
@@ -238,7 +242,7 @@ export class KistiCollectorService implements OnModuleInit {
     const mac = this.detectMac();
     const datetime = moment().format('YYYYMMDDHHmmss');
     this.logger.log(
-      `[kisti] 토큰 발급 시도 — mac=${mac || '(감지실패)'} datetime=${datetime} (등록 MAC과 달라야 실패)`,
+      `[kisti] 토큰 발급 시도 — mac=${mac || '(감지실패)'} datetime=${datetime} (등록 MAC과 같아야 성공)`,
     );
     const accounts = this.encryptAccounts(apiKey, mac, datetime);
     return this.requestToken(apiUrl, clientId, { accounts });
@@ -276,23 +280,36 @@ export class KistiCollectorService implements OnModuleInit {
     return token;
   }
 
-  /** {mac_address,datetime} JSON을 인증키(32자)로 AES-256-ECB 암호화 후 Base64 */
+  /**
+   * {datetime,mac_address} JSON을 인증키(32자)로 AES-256-CBC 암호화 후 URL-safe Base64.
+   * IV는 KISTI가 지정한 고정값(KISTI_TOKEN_IV). ECB/랜덤IV로는 서버가 복호화하지 못해 E4006이 난다.
+   */
   private encryptAccounts(
     apiKey: string,
     mac: string,
     datetime: string,
   ): string {
-    const plain = JSON.stringify({ mac_address: mac, datetime });
+    const plain = JSON.stringify({ datetime, mac_address: mac });
     const key = Buffer.from(apiKey, 'utf8'); // 32바이트 = AES-256
-    const cipher = createCipheriv('aes-256-ecb', key, null);
+    const cipher = createCipheriv(
+      'aes-256-cbc',
+      key,
+      Buffer.from(KISTI_TOKEN_IV, 'utf8'),
+    );
     const enc = Buffer.concat([cipher.update(plain, 'utf8'), cipher.final()]);
-    return enc.toString('base64');
+    return enc.toString('base64url'); // axios가 다시 인코딩하지 않도록 URL-safe로
   }
 
-  /** 등록된 MAC 우선(KISTI_MAC) → 아니면 첫 비내부 인터페이스 MAC. 형식: 대문자, 하이픈 구분 */
+  /**
+   * 등록된 MAC 우선(KISTI_MAC) → 아니면 첫 비내부 인터페이스 MAC. 형식: 대문자, 하이픈 구분.
+   * 호스트 MAC 폴백은 신청 시 등록한 MAC과 다를 게 거의 확실하므로(= 토큰 실패) 경고를 남긴다.
+   */
   private detectMac(): string {
     const envMac = this.configService.get<string>('KISTI_MAC');
     if (envMac) return envMac.toUpperCase().replace(/:/g, '-');
+    this.logger.warn(
+      '[kisti] KISTI_MAC 미설정 → 호스트 MAC으로 폴백. 신청 시 등록한 MAC이 아니면 토큰 발급에 실패한다.',
+    );
     const ifaces = networkInterfaces();
     for (const name of Object.keys(ifaces)) {
       for (const ni of ifaces[name] ?? []) {

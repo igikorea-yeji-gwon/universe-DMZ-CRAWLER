@@ -208,7 +208,7 @@ export class ArchiveController {
   @ApiOperation({
     summary:
       'KISTI ScienceON(ARTI 논문 / REPORT 보고서) 즉시 수집 → 분류 → S3 저장. ' +
-      '⚠️ 토큰 인증 + 신청 시 등록한 MAC에서만 발급 가능 (로컬은 MAC 불일치로 토큰 실패 정상, 운영 EC2에서 동작). ' +
+      '⚠️ 토큰 인증 — KISTI_MAC env에 신청 시 등록한 MAC이 있어야 발급됨(값만 검증하므로 로컬에서도 동작). ' +
       '백필은 async=true. DB 적재는 스프링',
   })
   @ApiQuery({ name: 'keyword', required: false })
