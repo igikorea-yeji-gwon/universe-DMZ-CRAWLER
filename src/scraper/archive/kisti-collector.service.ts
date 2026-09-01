@@ -456,40 +456,62 @@ export class KistiCollectorService implements OnModuleInit {
     defaultType: ArchiveMaterialType,
     matchedKeyword: string,
   ): ArchiveItem | null {
-    const title = stripTags(rec?.Title);
-    const sourceId = stripTags(rec?.CN);
+    const f = kistiRecordFields(rec);
+    const title = f.Title;
+    const sourceId = f.CN;
     if (!title || !sourceId) return null;
 
-    // materialType: REPORT는 항상 report. ARTI는 CN/DBCode 접두로 학위(DIKO)/논문 구분
-    const dbCode = String(rec?.DBCode ?? '').toUpperCase();
+    // materialType: REPORT는 항상 report. ARTI는 DBCode(DIKO)·학위구분으로 학위논문 구분
+    const dbCode = (f.DBCode ?? '').toUpperCase();
     let materialType: ArchiveMaterialType = defaultType;
     if (target === 'ARTI') {
       materialType =
-        sourceId.startsWith('DIKO') || dbCode === 'DIKO' ? 'thesis' : 'article';
+        dbCode === 'DIKO' || sourceId.startsWith('DIKO') || f.Degree
+          ? 'thesis'
+          : 'article';
     }
 
-    const yearMatch = String(rec?.Pubyear ?? rec?.Pubdate ?? '').match(/\d{4}/);
+    const yearMatch = `${f.Pubyear ?? ''} ${f.Pubdate ?? ''}`.match(/\d{4}/);
     // 발행기관: 보고서는 Publisher, 논문은 발행기관(Publisher) 없으면 저널명
-    const publisher = stripTags(rec?.Publisher) || stripTags(rec?.JournalName);
+    const publisher = f.Publisher || f.JournalName || '';
 
     return {
       source: 'kisti',
       sourceId,
       title,
       publisher,
-      author: stripTags(rec?.Author),
+      author: f.Author || '',
       publishYear: yearMatch ? yearMatch[0] : '',
       category: null, // 주제분류는 수집 후 ThemeClassifier가 태깅
-      subCategory:
-        stripTags(rec?.JournalName) || stripTags(rec?.Keyword) || null,
-      summary: stripTags(rec?.Abstract) || null,
-      detailUrl:
-        stripTags(rec?.ContentURL) || stripTags(rec?.FulltextURL) || null,
-      isbn: stripTags(rec?.ISBN) || null,
+      subCategory: f.JournalName || f.Keyword || null,
+      summary: f.Abstract || null,
+      detailUrl: f.ContentURL || f.FulltextURL || null,
+      isbn: f.ISBN || null,
       materialType,
       matchedKeyword,
+      // KISTI는 영문 제목·초록·저자를 별도 필드(…2)로 준다 → 있으면 번역앱 호출 생략
+      titleEn: f.Title2 || null,
+      summaryEn: f.Abstract2 || null,
+      authorEn: f.Author2 || null,
     };
   }
+}
+
+/**
+ * KISTI record를 metaCode → 값 맵으로 눕힌다.
+ *
+ * 응답이 <record><Title>…</Title></record>가 아니라
+ * <record><item metaCode="Title" metaName="논문명">…</item>…</record> 평면 리스트라
+ * xml2js(explicitArray:false) 결과가 { $: {rownum}, item: [{ _: '값', $: {metaCode} }] } 형태다.
+ * 값이 빈 필드는 '_'가 아예 없으므로 빈 문자열로 채운다(호출부는 `||` 폴백에 의존).
+ */
+function kistiRecordFields(rec: any): Record<string, string> {
+  const fields: Record<string, string> = {};
+  for (const it of toArray<any>(rec?.item)) {
+    const code = String(it?.$?.metaCode ?? '').trim();
+    if (code) fields[code] = stripTags(it?._);
+  }
+  return fields;
 }
 
 /** JSON 문자열 안전 파싱 (실패 시 null) */
