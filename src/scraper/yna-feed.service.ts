@@ -103,7 +103,7 @@ export class YnaFeedService implements OnModuleInit {
 
   /**
    * 연합뉴스 RSS 피드 수집 → 키워드 필터 → 중복 확인(S3 meta.json 존재 여부)
-   * → (신규만) 번역 → 이미지 S3 업로드 → meta.json 저장.
+   * → 관련성 판정(규칙 + LLM 최종 확인) → (신규·관련만) 번역 → 이미지 S3 업로드 → meta.json 저장.
    * DB 적재는 하지 않는다 — 스프링이 GET /scraper/articles/:originId 로 가져가 적재한다.
    * meta.json 필드는 기존 config 스크래퍼 출력과 동일 스키마를 따른다.
    */
@@ -127,12 +127,18 @@ export class YnaFeedService implements OnModuleInit {
       keywordMatched: 0,
       skippedDuplicate: 0,
       skippedIrrelevant: 0,
-      ambiguousKept: 0,
+      llmChecked: 0,
+      llmDropped: 0,
       saved: 0,
       imageUploaded: 0,
       translated: 0,
       // 무관 판정으로 제외된 기사 — 일 1회 수동 모니터링용
-      dropped: [] as { title: string; link: string; by: string; reason?: string }[],
+      dropped: [] as {
+        title: string;
+        link: string;
+        by: string;
+        reason?: string;
+      }[],
       errors: [] as { link: string; message: string }[],
     };
 
@@ -175,19 +181,16 @@ export class YnaFeedService implements OnModuleInit {
             continue;
           }
 
-          // 키워드만 우연히 걸린 무관 기사(해외 국경·난민 이슈 등) 제외
-          const verdict = this.relevanceFilter.isRelevant({
+          // 키워드만 우연히 걸린 무관 기사 제외 —
+          // 규칙(해외 국경·난민 이슈 등) 1차 필터 후 LLM으로 DMZ 관련 여부 최종 확인
+          const verdict = await this.relevanceFilter.confirmRelevance({
             title: item.title,
             content: item.content,
             matchedKeywords: item.matchedKeywords,
+            key: item.guid || item.link,
           });
-          if (verdict.by === 'ambiguous-keep') {
-            // 규칙만으로는 못 거르는 건 — 수집하되 수동 확인 대상으로 남긴다
-            summary.ambiguousKept++;
-            this.logger.log(
-              `[yna-relevance] CHECK "${item.title}" — ${verdict.reason} ${item.link}`,
-            );
-          }
+          if (verdict.by.startsWith('llm-')) summary.llmChecked++;
+          if (verdict.by === 'llm-drop') summary.llmDropped++;
           if (!verdict.relevant) {
             summary.skippedIrrelevant++;
             summary.dropped.push({
@@ -261,7 +264,7 @@ export class YnaFeedService implements OnModuleInit {
       this.logger.log(
         `[yna] 수집 종료: 피드 ${summary.totalItems}건, 매칭 ${summary.keywordMatched}건, ` +
           `신규 ${summary.saved}건, 중복 ${summary.skippedDuplicate}건, ` +
-          `무관제외 ${summary.skippedIrrelevant}건, 확인필요 ${summary.ambiguousKept}건, ` +
+          `무관제외 ${summary.skippedIrrelevant}건(LLM ${summary.llmDropped}건), ` +
           `번역 ${summary.translated}건, 실패 ${summary.errors.length}건`,
       );
       return summary;
@@ -269,40 +272,54 @@ export class YnaFeedService implements OnModuleInit {
       this.logger.error(`[yna] 피드 수집 실패: ${(e as Error).message}`);
       throw e;
     } finally {
+      // LLM 판정 캐시는 회차 종료 시 한 번만 저장한다 (같은 기사 재판정 방지)
+      await this.relevanceFilter.flushCache();
       this.running = false;
     }
   }
 
   /**
    * 현재 피드에 대해 관련성 판정만 수행하고 결과를 돌려준다 (저장·번역·중복확인 없음).
-   * 무관 제외 건과 확인 필요 건을 일 1회 수동 점검하기 위한 조회 전용 API.
+   * 실제 수집과 동일하게 규칙 + LLM 최종 확인을 거치므로, 어떤 기사가 왜 빠지는지 그대로 볼 수 있다.
+   * (판정은 캐시되므로 같은 피드를 반복 조회해도 LLM을 다시 부르지 않는다.)
    */
-  async previewRelevance() {
+  async previewRelevance(opts: { llm?: boolean } = {}) {
     const feedUrl = this.configService.get<string>('YNA_FEED_URL');
     if (!feedUrl) return { skipped: true, reason: 'YNA_FEED_URL not configured' };
 
     const items = await this.fetchFeed(feedUrl);
     const matched = items.filter((it) => it.matchedKeywords.length > 0);
+    const useLlm = opts.llm !== false;
 
-    const results = matched.map((item) => ({
-      title: item.title,
-      link: item.link,
-      regDt: item.regDt,
-      matchedKeywords: item.matchedKeywords,
-      ...this.relevanceFilter.isRelevant({
+    // LLM 호출은 순차 실행 (Gemini 속도 제한 대비)
+    const results: any[] = [];
+    for (const item of matched) {
+      const input = {
         title: item.title,
         content: item.content,
         matchedKeywords: item.matchedKeywords,
-      }),
-    }));
+        key: item.guid || item.link,
+      };
+      const verdict = useLlm
+        ? await this.relevanceFilter.confirmRelevance(input)
+        : this.relevanceFilter.isRelevant(input);
+      results.push({
+        title: item.title,
+        link: item.link,
+        regDt: item.regDt,
+        matchedKeywords: item.matchedKeywords,
+        ...verdict,
+      });
+    }
+    await this.relevanceFilter.flushCache();
 
     return {
       totalItems: items.length,
       keywordMatched: matched.length,
       keep: results.filter((r) => r.relevant).length,
       drop: results.filter((r) => !r.relevant).length,
-      // 규칙으로는 못 거르는 애매한 건 — 수동 확인 대상
-      check: results.filter((r) => r.by === 'ambiguous-keep').length,
+      // LLM이 최종 제외한 건 (규칙만으로는 못 걸렀을 기사)
+      llmDrop: results.filter((r) => r.by === 'llm-drop').length,
       results,
     };
   }

@@ -514,7 +514,8 @@ export class ScraperConfigController {
   @Get('yna/collect')
   @ApiOperation({
     summary:
-      '연합뉴스 RSS 피드 즉시 수집 → S3 meta.json 저장 (5분 주기 자동 수집과 동일 로직, 테스트용. DB 적재는 스프링 담당)',
+      '연합뉴스 RSS 피드 즉시 수집 → 키워드 필터 → DMZ 관련성 확인(규칙 + LLM) → S3 meta.json 저장 ' +
+      '(5분 주기 자동 수집과 동일 로직, 테스트용. DB 적재는 스프링 담당)',
   })
   @ApiResponse({
     status: 200,
@@ -525,11 +526,19 @@ export class ScraperConfigController {
         keywordMatched: 3,
         skippedDuplicate: 2,
         skippedIrrelevant: 1,
-        ambiguousKept: 0,
+        llmChecked: 1,
+        llmDropped: 1,
         saved: 1,
         imageUploaded: 2,
         translated: 1,
-        dropped: [],
+        dropped: [
+          {
+            title: '파주서 승용차 전복…1명 경상',
+            link: 'https://www.yna.co.kr/view/AKR...',
+            by: 'llm-drop',
+            reason: 'DMZ·접경 맥락과 무관한 지역 사건·사고 기사',
+          },
+        ],
         errors: [],
       },
     },
@@ -544,18 +553,26 @@ export class ScraperConfigController {
       '현재 연합뉴스 피드의 DMZ 관련성 판정만 조회 (저장·번역 없음). ' +
       '무관 제외·확인 필요 건 확인용 일일 모니터링 API',
   })
+  @ApiQuery({
+    name: 'llm',
+    required: false,
+    description:
+      'false면 LLM 최종 확인을 건너뛰고 규칙 판정만 조회 (기본 true — 실제 수집과 동일)',
+    example: 'true',
+  })
   @ApiResponse({
     status: 200,
     description:
-      '기사별 판정 결과 (by: anchor-keep | rule-drop | ambiguous-keep | default-keep). ' +
-      'check = 규칙으로 못 거른 애매한 건(수집됨, 수동 확인 대상)',
+      '기사별 판정 결과. by = 최종 판정 근거(llm-keep | llm-drop | llm-cache | llm-error-keep | ' +
+      'llm-off | rule-drop), ruleBy = LLM 확인 전 규칙 판정(anchor-keep | ambiguous-keep | default-keep). ' +
+      'llmDrop = LLM이 최종 제외한 건',
     schema: {
       example: {
         totalItems: 30,
         keywordMatched: 4,
-        keep: 3,
-        drop: 1,
-        check: 1,
+        keep: 2,
+        drop: 2,
+        llmDrop: 1,
         results: [
           {
             title: '스페인-모로코 접경서 난민 수백명 월경 시도',
@@ -564,13 +581,23 @@ export class ScraperConfigController {
             relevant: false,
             by: 'rule-drop',
             reason: '해외 국경 이슈(스페인·모로코 국경, 난민·이민 이슈) — 한반도 앵커어 없음',
+            ruleBy: 'rule-drop',
+          },
+          {
+            title: '방화벽 DMZ 구간 설정 오류로 서비스 장애',
+            link: 'https://www.yna.co.kr/view/AKR...',
+            matchedKeywords: ['DMZ'],
+            relevant: false,
+            by: 'llm-drop',
+            reason: 'DMZ가 네트워크 용어로 쓰임',
+            ruleBy: 'default-keep',
           },
         ],
       },
     },
   })
-  async previewYnaRelevance() {
-    return this.ynaFeedService.previewRelevance();
+  async previewYnaRelevance(@Query('llm') llm?: string) {
+    return this.ynaFeedService.previewRelevance({ llm: llm !== 'false' });
   }
 
   // ─── 연합뉴스 과거 XML 백필 ─────────────────────────────────────────────────
