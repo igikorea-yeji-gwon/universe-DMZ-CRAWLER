@@ -9,13 +9,13 @@ export interface NewsRelevanceVerdict {
   relevant: boolean;
   /**
    * anchor-keep    : 한반도 앵커어가 있어 규칙 단계 통과
-   * rule-drop      : 해외 국경 이슈 키워드 동시 확인 → 제외 (LLM 호출 없음)
+   * rule-drop      : 해외 국경 이슈 키워드 동시 확인 → 제외 (LLM 불가 시 폴백 판정)
    * ambiguous-keep : 러시아·우크라·이란처럼 애매한 국가만 확인됨 → 규칙 단계 통과
    * default-keep   : 어느 규칙에도 걸리지 않아 규칙 단계 통과
    * filter-off     : 규칙 필터 비활성화 상태
    * llm-keep/-drop : LLM(Gemini)이 DMZ 관련/무관으로 최종 판정
    * llm-cache      : 같은 기사에 대한 이전 LLM 판정 재사용
-   * llm-error-keep : LLM 호출 실패 → 보수적으로 수집
+   * llm-error-keep : LLM 호출 실패 → 규칙 판정으로 폴백, 규칙도 통과라 수집
    * llm-off        : LLM 확인 비활성화(또는 API 키 미설정) → 규칙 판정만 사용
    */
   by:
@@ -140,17 +140,18 @@ const DMZ_RELEVANCE_PROMPT = `당신은 뉴스 기사 분류기입니다.
 /**
  * 연합뉴스 등 뉴스 수집의 DMZ 관련성 필터 — 키워드 규칙 + LLM(Gemini) 최종 확인.
  *
- * [규칙 단계 — isRelevant(), 동기·무비용]
- * ① 한반도 앵커어 있으면 통과
- * ② 해외 국경 이슈 키워드 동시 확인 → 제외 (LLM까지 갈 필요 없는 확정 노이즈)
- * ③ 애매한 국가(러시아·우크라·이란 등)만 있으면 통과 — 제외 판단은 LLM에 맡긴다
- * ④ 어디에도 안 걸리면 통과
- *
  * [LLM 단계 — confirmRelevance(), 최종 적재 판정]
- * 규칙을 통과한 기사만 Gemini에 보내 "DMZ·접경지역과 실질적으로 관련된 기사인지"를 확인한다.
- * 규칙만으로는 못 거르는 유형(파주의 일반 교통사고, 방화벽 DMZ, 스치듯 언급 등)을 여기서 제외한다.
+ * 키워드 매칭 기사를 전부 Gemini에 보내 "DMZ·접경지역과 실질적으로 관련된 기사인지"를 확인한다.
+ * 규칙으로는 못 거르는 유형(파주의 일반 교통사고, 방화벽 DMZ, 스치듯 언급 등)도 여기서 제외된다.
  * 판정은 S3 캐시에 남겨 같은 기사를 5분마다 재판정하지 않는다(제외 기사는 S3 완료 마커가 없어
  * 피드에 남아 있는 동안 계속 후보로 올라오기 때문).
+ *
+ * [규칙 단계 — isRelevant(), 동기·무비용 · LLM 폴백 전용]
+ * ① 한반도 앵커어 있으면 통과
+ * ② 해외 국경 이슈 키워드 동시 확인 → 제외
+ * ③ 애매한 국가(러시아·우크라·이란 등)만 있으면 통과
+ * ④ 어디에도 안 걸리면 통과
+ * LLM 비활성화·API 키 미설정·호출 실패일 때만 이 판정을 쓴다.
  *
  * 제외 건은 `[yna-relevance] DROP` 로그로 남긴다 (일 1회 수동 모니터링용).
  */
@@ -230,18 +231,18 @@ export class NewsRelevanceFilterService {
   }
 
   /**
-   * 최종 적재 판정 — 규칙 통과 기사에 대해 LLM(Gemini)으로 DMZ 관련 여부를 확인한다.
-   * 규칙에서 이미 제외된 기사는 LLM을 호출하지 않는다(확정 노이즈 + 토큰 절약).
-   * LLM 호출이 불가하거나 실패하면 보수적으로 수집한다 — 관련 기사를 실수로 버리지 않기 위함.
+   * 최종 적재 판정 — 기사의 DMZ 관련 여부는 LLM(Gemini)이 단독으로 정한다.
+   *
+   * 규칙(isRelevant)은 판정에 관여하지 않고 폴백으로만 쓴다. 규칙이 해외 국경 기사로 보는 건도
+   * LLM에는 보낸다 — "키프로스 완충지대가 한국에 주는 교훈"처럼 해외 사례를 한반도에 빗댄 기사는
+   * 규칙에선 앵커어가 안 잡혀 버려지지만, 프롬프트 기준으로는 관련 기사이기 때문이다.
+   * LLM을 못 쓰는 상황(비활성화·API 키 없음·호출 실패)에서만 규칙 판정으로 되돌아간다.
    */
   async confirmRelevance(
     item: NewsRelevanceInput,
   ): Promise<NewsRelevanceVerdict> {
     const rule = this.isRelevant(item);
     const ruleBy = rule.by;
-
-    // 규칙 제외 건 → LLM 확인 없이 그대로 제외
-    if (!rule.relevant) return { ...rule, ruleBy };
 
     if (!this.llmEnabled) {
       return { ...rule, ruleBy };
@@ -256,8 +257,10 @@ export class NewsRelevanceFilterService {
       }
       return {
         ...rule,
-        by: 'llm-off',
-        reason: 'GEMINI_API_KEY 미설정 — LLM 확인 생략',
+        by: rule.relevant ? 'llm-off' : 'rule-drop',
+        reason: rule.relevant
+          ? 'GEMINI_API_KEY 미설정 — LLM 확인 생략'
+          : rule.reason,
         ruleBy,
       };
     }
@@ -274,7 +277,7 @@ export class NewsRelevanceFilterService {
       };
     }
 
-    const decided = await this.classifyByLlm(item);
+    const decided = await this.classifyByLlm(item, rule);
     // 실패 폴백(llm-error-keep)은 캐시하지 않는다 — 다음 회차에 다시 판정받도록
     if (decided.by !== 'llm-error-keep') {
       this.cache.set(key, {
@@ -289,6 +292,7 @@ export class NewsRelevanceFilterService {
 
   private async classifyByLlm(
     item: NewsRelevanceInput,
+    rule: NewsRelevanceVerdict,
   ): Promise<NewsRelevanceVerdict> {
     const title = String(item.title ?? '').trim();
     const body = String(item.content ?? '')
@@ -321,10 +325,16 @@ export class NewsRelevanceFilterService {
         reason,
       };
     } catch (e) {
+      // LLM을 못 쓰면 규칙 판정으로 폴백 — 규칙이 확정 노이즈로 본 건만 제외되고,
+      // 나머지는 보수적으로 수집한다(관련 기사를 실수로 버리지 않도록).
       this.logger.warn(
-        `[yna-relevance] LLM 확인 실패 → KEEP(보수) "${title}": ${(e as Error).message}`,
+        `[yna-relevance] LLM 확인 실패 → 규칙 판정 사용(${rule.by}) "${title}": ${(e as Error).message}`,
       );
-      return { relevant: true, by: 'llm-error-keep' };
+      return {
+        relevant: rule.relevant,
+        by: rule.relevant ? 'llm-error-keep' : 'rule-drop',
+        reason: rule.reason,
+      };
     }
   }
 

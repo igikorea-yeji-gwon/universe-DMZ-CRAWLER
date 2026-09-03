@@ -103,7 +103,7 @@ export class YnaFeedService implements OnModuleInit {
 
   /**
    * 연합뉴스 RSS 피드 수집 → 키워드 필터 → 중복 확인(S3 meta.json 존재 여부)
-   * → 관련성 판정(규칙 + LLM 최종 확인) → (신규·관련만) 번역 → 이미지 S3 업로드 → meta.json 저장.
+   * → DMZ 관련성 LLM 확인 → (신규·관련만) 번역 → 이미지 S3 업로드 → meta.json 저장.
    * DB 적재는 하지 않는다 — 스프링이 GET /scraper/articles/:originId 로 가져가 적재한다.
    * meta.json 필드는 기존 config 스크래퍼 출력과 동일 스키마를 따른다.
    */
@@ -181,8 +181,8 @@ export class YnaFeedService implements OnModuleInit {
             continue;
           }
 
-          // 키워드만 우연히 걸린 무관 기사 제외 —
-          // 규칙(해외 국경·난민 이슈 등) 1차 필터 후 LLM으로 DMZ 관련 여부 최종 확인
+          // 키워드만 우연히 걸린 무관 기사 제외 — LLM이 DMZ 관련 여부를 최종 판정한다
+          // (LLM 비활성화·장애 시에만 키워드 규칙 판정으로 폴백)
           const verdict = await this.relevanceFilter.confirmRelevance({
             title: item.title,
             content: item.content,

@@ -193,9 +193,55 @@ describe('NewsRelevanceFilterService', () => {
   // ─── LLM 최종 확인 (confirmRelevance) ──────────────────────────────────────
 
   describe('confirmRelevance (LLM 최종 확인)', () => {
-    it('규칙 제외 건은 LLM을 호출하지 않고 그대로 제외한다', async () => {
-      const gemini = { askQuestion: vi.fn() };
+    it('규칙이 해외 국경으로 본 건도 LLM에 보내 최종 판정한다', async () => {
+      const gemini = {
+        askQuestion: vi
+          .fn()
+          .mockResolvedValue('{"relevant": false, "reason": "한반도와 연결고리 없는 해외 사안"}'),
+      };
       const v = await make(LLM_ENV, gemini).confirmRelevance({
+        title: '스페인-모로코 접경서 난민 수백명 월경 시도',
+        content: '유럽연합은 세우타 국경 통제를 강화하기로 했다.',
+        matchedKeywords: ['접경'],
+      });
+      expect(v.relevant).toBe(false);
+      expect(v.by).toBe('llm-drop');
+      expect(v.ruleBy).toBe('rule-drop');
+      expect(gemini.askQuestion).toHaveBeenCalledTimes(1);
+    });
+
+    it('해외 사례를 한반도에 빗댄 기사는 규칙이 버려도 LLM이 살린다', async () => {
+      const gemini = {
+        askQuestion: vi
+          .fn()
+          .mockResolvedValue('{"relevant": true, "reason": "해외 완충지대 사례를 한국에 적용"}'),
+      };
+      const v = await make(LLM_ENV, gemini).confirmRelevance({
+        title: '우크라 종전 협상 속 완충지대 구상, 한국에 주는 교훈',
+        content: '분단국 접경 관리 모델을 비교한다.',
+        matchedKeywords: ['접경'],
+      });
+      expect(v.ruleBy).toBe('rule-drop'); // 규칙만으로는 버려졌을 기사
+      expect(v.relevant).toBe(true);
+      expect(v.by).toBe('llm-keep');
+    });
+
+    it('LLM 호출이 실패하면 규칙 제외 판정으로 폴백한다', async () => {
+      const gemini = {
+        askQuestion: vi.fn().mockRejectedValue(new Error('503 Service Unavailable')),
+      };
+      const v = await make(LLM_ENV, gemini).confirmRelevance({
+        title: '스페인-모로코 접경서 난민 수백명 월경 시도',
+        content: '유럽연합은 세우타 국경 통제를 강화하기로 했다.',
+        matchedKeywords: ['접경'],
+      });
+      expect(v.relevant).toBe(false);
+      expect(v.by).toBe('rule-drop');
+    });
+
+    it('GEMINI_API_KEY가 없으면 규칙 제외 판정을 그대로 쓴다', async () => {
+      const gemini = { askQuestion: vi.fn() };
+      const v = await make({}, gemini).confirmRelevance({
         title: '스페인-모로코 접경서 난민 수백명 월경 시도',
         content: '유럽연합은 세우타 국경 통제를 강화하기로 했다.',
         matchedKeywords: ['접경'],
