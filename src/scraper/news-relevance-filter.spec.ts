@@ -396,4 +396,81 @@ describe('NewsRelevanceFilterService', () => {
       expect(s3.putJson).toHaveBeenCalledTimes(1); // 변경 없으면 재저장 안 함
     });
   });
+  // ─── 재판·수사 기사 제외 (주무관 확정 기준) ──────────────────────────────────
+
+  describe('재판 기사 제외 규칙', () => {
+    it('제목이 재판 기사이고 DMZ 언급이 본문에만 있으면 제외한다', () => {
+      const v = make().isRelevant({
+        title: "尹 '한덕수 재판 위증' 항소심 오늘 선고…1심은 무죄",
+        content:
+          '한덕수 전 국무총리의 내란 재판에서 위증한 혐의로 기소된 윤석열 전 대통령의 항소심 결론이 나온다.<br>' +
+          '오씨 등은 민간 무인기를 군사분계선(MDL) 너머로 보내 북한 개성 일대를 비행시킨 혐의를 받는다.',
+        matchedKeywords: ['군사분계선', 'MDL'],
+      });
+      expect(v.relevant).toBe(false);
+      expect(v.by).toBe('trial-drop');
+      expect(v.matched).toEqual(['재판', '군사분계선']);
+    });
+
+    it('무인기 재판 기사도 제목의 재판 표현으로 제외한다', () => {
+      const svc = make();
+      for (const title of [
+        "북한에 무인기 날린 대학원생, 항공안전법 위반 혐의 추가 기소",
+        "'北에 무인기' 대학원생 보석 기각…법원 \"증거인멸·도주 우려\"",
+        "北에 무인기 네차례 보낸 3명 송치…\"국익 위협\" 이적죄 적용(종합)",
+      ]) {
+        const v = svc.isRelevant({
+          title,
+          content: '무인기를 군사분계선 너머로 보낸 혐의를 받는다.',
+        });
+        expect(v.by).toBe('trial-drop');
+      }
+    });
+
+    it('제목에 재판 표현이 없는 남북관계 기사는 유지한다', () => {
+      const v = make().isRelevant({
+        title: '李대통령, 무인기 北침투에 "유감…이런 시기 한반도 평화 중요"',
+        content:
+          '대통령은 군사분계선을 넘은 무인기 사건에 유감을 표했다.<br>검찰이 관련자를 기소한 사건이다.',
+        matchedKeywords: ['군사분계선'],
+      });
+      expect(v.relevant).toBe(true);
+      expect(v.by).toBe('anchor-keep');
+    });
+
+    it('제목에 DMZ 핵심어가 함께 있으면 규칙을 적용하지 않는다 (LLM 판단으로 넘김)', async () => {
+      const gemini = {
+        askQuestion: vi
+          .fn()
+          .mockResolvedValue('{"relevant": true, "reason": "DMZ 사업이 기사 주제"}'),
+      };
+      const v = await make(LLM_ENV, gemini).confirmRelevance({
+        title: 'DMZ 평화의 길 조성사업 특혜 의혹…업체 대표 기소',
+        content: '검찰은 사업 과정에서 특혜가 있었다고 보고 기소했다.',
+        matchedKeywords: ['DMZ'],
+      });
+      expect(v.relevant).toBe(true);
+      expect(v.by).toBe('llm-keep');
+      expect(gemini.askQuestion).toHaveBeenCalledTimes(1);
+    });
+
+    it('재판 기사는 LLM을 호출하지 않고 확정 제외한다', async () => {
+      const gemini = { askQuestion: vi.fn() };
+      const v = await make(LLM_ENV, gemini).confirmRelevance({
+        title: "'北무인기' 대학원생, 중앙지법 내란재판부 배당…내달 첫공판",
+        content: '오씨는 무인기를 군사분계선 너머로 보낸 혐의를 받는다.',
+      });
+      expect(v.relevant).toBe(false);
+      expect(v.by).toBe('trial-drop');
+      expect(gemini.askQuestion).not.toHaveBeenCalled();
+    });
+
+    it('YNA_TRIAL_FILTER=false면 규칙을 건너뛴다', () => {
+      const v = make({ YNA_TRIAL_FILTER: 'false' }).isRelevant({
+        title: "尹 '한덕수 재판 위증' 항소심 오늘 선고",
+        content: '무인기를 군사분계선 너머로 보낸 혐의를 받는다.',
+      });
+      expect(v.by).not.toBe('trial-drop');
+    });
+  });
 });

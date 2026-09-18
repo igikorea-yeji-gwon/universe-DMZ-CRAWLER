@@ -8,6 +8,7 @@ import { GeminiAnalyzerService } from 'src/common/utils/geminiAnalyze/gemini-ana
 export interface NewsRelevanceVerdict {
   relevant: boolean;
   /**
+   * trial-drop     : 제목이 재판·수사 기사인데 DMZ 언급이 본문에만 있음 → 확정 제외 (주무관 기준)
    * anchor-keep    : 한반도 앵커어가 있어 규칙 단계 통과
    * rule-drop      : 해외 국경 이슈 키워드 동시 확인 → 제외 (LLM 불가 시 폴백 판정)
    * ambiguous-keep : 러시아·우크라·이란처럼 애매한 국가만 확인됨 → 규칙 단계 통과
@@ -19,6 +20,7 @@ export interface NewsRelevanceVerdict {
    * llm-off        : LLM 확인 비활성화(또는 API 키 미설정) → 규칙 판정만 사용
    */
   by:
+    | 'trial-drop'
     | 'anchor-keep'
     | 'rule-drop'
     | 'ambiguous-keep'
@@ -101,6 +103,24 @@ const AMBIGUOUS_TERMS: RegExp[] = [
   /콩고|르완다|에티오피아|에리트레아|리비아|알제리|튀니지|남수단|수단\s*(공화국|정부|내전|군|반군)|말리\s*(공화국|정부|내전|반군|북부)/,
 ];
 
+/**
+ * 재판·수사 기사 제외 규칙 (주무관 확정 기준, 2026-09-18) — 제목 기준.
+ *
+ * 연합뉴스 재판 기사는 제목에 기소·선고·공판 등이 반드시 들어간다. 이 표현이 제목에 있고
+ * DMZ 언급이 본문에만 있으면, 기사 주제는 재판이고 군사분계선은 공소사실 설명일 뿐이다.
+ * (예: "尹 '한덕수 재판 위증' 항소심 오늘 선고", "'北무인기' 대학원생 보석 기각")
+ *
+ * 제목에 DMZ 핵심어가 함께 있으면 이 규칙을 적용하지 않는다 — 제목이 DMZ를 가리키는 기사
+ * (가령 "DMZ 평화의 길 사업 특혜 기소")는 재판 기사라도 주제가 DMZ일 수 있어 LLM에 판단을 넘긴다.
+ * 또한 남북관계·정책 기사(예: 李대통령 "무인기 北침투 유감")는 제목에 재판 표현이 없어 유지된다.
+ */
+const TRIAL_TITLE_TERMS =
+  /재판|선고|공판|기소|구속|영장|판결|위증|무죄|유죄|징역|송치|보석|항소심|상고심|특검|압수수색|기각|법정/;
+
+/** 정전체제·DMZ 핵심어 — 재판 기사 규칙의 판정 대상을 이 키워드가 언급된 기사로 한정한다 */
+const DMZ_CORE_TERMS =
+  /군사분계선|\bMDL\b|비무장지대|DMZ|판문점|민통선|유엔사|군사정전위|정전협정/i;
+
 /** LLM 최종 확인 판정 캐시 (S3 영속화) */
 const CACHE_S3_KEY = 'news-crawler/classifier-cache/yna-relevance-cache.json';
 
@@ -111,7 +131,7 @@ const CACHE_TTL_DAYS = 30;
 const LLM_CONTENT_CHARS = 2000;
 
 /** 주무관 확정 프롬프트 — DMZ 관련 기사 확인 (수정 시 이 상수만 고치면 된다) */
-const DMZ_RELEVANCE_PROMPT = `당신은 뉴스 기사 분류기입니다.
+export const DMZ_RELEVANCE_PROMPT = `당신은 뉴스 기사 분류기입니다.
 아래 기사가 "대한민국의 DMZ(비무장지대) 또는 접경지역"과 실질적으로 관련이 있는지 판단하세요.
 
 [관련 있음으로 판단하는 기준]
@@ -139,6 +159,9 @@ const DMZ_RELEVANCE_PROMPT = `당신은 뉴스 기사 분류기입니다.
 
 /**
  * 연합뉴스 등 뉴스 수집의 DMZ 관련성 필터 — 키워드 규칙 + LLM(Gemini) 최종 확인.
+ *
+ * [확정 제외 규칙 — 주무관 기준]
+ * 제목이 재판·수사 기사이고 DMZ 언급이 본문에만 있으면 LLM 확인 없이 제외한다(trial-drop).
  *
  * [LLM 단계 — confirmRelevance(), 최종 적재 판정]
  * 키워드 매칭 기사를 전부 Gemini에 보내 "DMZ·접경지역과 실질적으로 관련된 기사인지"를 확인한다.
@@ -178,6 +201,13 @@ export class NewsRelevanceFilterService {
     );
   }
 
+  /** 재판 기사 제외 규칙 사용 여부 (기본 ON, YNA_TRIAL_FILTER=false 로 끌 수 있음) */
+  private get trialFilterEnabled(): boolean {
+    return (
+      String(this.configService.get('YNA_TRIAL_FILTER') ?? 'true') !== 'false'
+    );
+  }
+
   /** LLM 최종 확인 사용 여부 (기본 ON, YNA_LLM_RELEVANCE_FILTER=false 로 끌 수 있음) */
   private get llmEnabled(): boolean {
     return (
@@ -188,13 +218,29 @@ export class NewsRelevanceFilterService {
 
   /** 규칙 단계 판정 (동기·무비용) — LLM 확인 전 1차 필터 */
   isRelevant(item: NewsRelevanceInput): NewsRelevanceVerdict {
-    if (!this.filterEnabled) {
-      return { relevant: true, by: 'filter-off' };
-    }
-
     const title = String(item.title ?? '');
     const body = String(item.content ?? '').replace(/<br>/g, '\n');
     const text = `${title}\n${body}`;
+
+    // ⓪ 재판·수사 기사 제외 (주무관 확정 기준) — 제목이 재판 기사임을 가리키고,
+    //    DMZ 언급이 본문에만 있는 경우. 이 판정은 LLM 확인 없이 확정 제외된다.
+    if (this.trialFilterEnabled) {
+      const trialTerm = title.match(TRIAL_TITLE_TERMS)?.[0];
+      const bodyTerm = body.match(DMZ_CORE_TERMS)?.[0];
+      if (trialTerm && bodyTerm && !DMZ_CORE_TERMS.test(title)) {
+        return {
+          relevant: false,
+          by: 'trial-drop',
+          reason:
+            `재판·수사 기사(제목: '${trialTerm}') — DMZ 언급('${bodyTerm}')이 본문에만 등장`,
+          matched: [trialTerm, bodyTerm],
+        };
+      }
+    }
+
+    if (!this.filterEnabled) {
+      return { relevant: true, by: 'filter-off' };
+    }
 
     // ① 한반도 앵커어 → 수집 확정
     if (KOREA_ANCHORS.some((re) => re.test(text))) {
@@ -243,6 +289,11 @@ export class NewsRelevanceFilterService {
   ): Promise<NewsRelevanceVerdict> {
     const rule = this.isRelevant(item);
     const ruleBy = rule.by;
+
+    // 재판 기사 제외는 주무관 확정 기준 — LLM 판단 대상이 아니다
+    if (rule.by === 'trial-drop') {
+      return { ...rule, ruleBy };
+    }
 
     if (!this.llmEnabled) {
       return { ...rule, ruleBy };
