@@ -130,6 +130,7 @@ export class YnaFeedService implements OnModuleInit {
       llmChecked: 0,
       llmDropped: 0,
       trialDropped: 0,
+      roundupDropped: 0,
       saved: 0,
       imageUploaded: 0,
       translated: 0,
@@ -193,6 +194,7 @@ export class YnaFeedService implements OnModuleInit {
           if (verdict.by.startsWith('llm-')) summary.llmChecked++;
           if (verdict.by === 'llm-drop') summary.llmDropped++;
           if (verdict.by === 'trial-drop') summary.trialDropped++;
+          if (verdict.by === 'roundup-drop') summary.roundupDropped++;
           if (!verdict.relevant) {
             summary.skippedIrrelevant++;
             summary.dropped.push({
@@ -267,7 +269,7 @@ export class YnaFeedService implements OnModuleInit {
         `[yna] 수집 종료: 피드 ${summary.totalItems}건, 매칭 ${summary.keywordMatched}건, ` +
           `신규 ${summary.saved}건, 중복 ${summary.skippedDuplicate}건, ` +
           `무관제외 ${summary.skippedIrrelevant}건(LLM ${summary.llmDropped}건, ` +
-          `재판기사 ${summary.trialDropped}건), ` +
+          `재판기사 ${summary.trialDropped}건, 목록기사 ${summary.roundupDropped}건), ` +
           `번역 ${summary.translated}건, 실패 ${summary.errors.length}건`,
       );
       return summary;

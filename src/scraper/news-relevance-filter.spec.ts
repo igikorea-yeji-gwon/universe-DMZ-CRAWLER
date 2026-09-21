@@ -473,4 +473,74 @@ describe('NewsRelevanceFilterService', () => {
       expect(v.by).not.toBe('trial-drop');
     });
   });
+  // ─── 목록·편성물 기사 제외 (주무관 확정 기준) ────────────────────────────────
+
+  describe('목록·편성물 제외 규칙', () => {
+    it('지정된 편성물 머리말이면 제외한다', () => {
+      const svc = make();
+      for (const title of [
+        '[연합뉴스 이 시각 헤드라인] - 14:30',
+        '[주간 뉴스캘린더](29∼5일)-1',
+        '[오늘의 주요 일정](21일·수)',
+        '[전국 주요 신문 사설](24일 조간)',
+        '[전국 주요 신문 톱뉴스](18일 조간)',
+        '[오늘의 국회일정](2일·월)',
+        '[총리·장차관 일정](29일·수)',
+      ]) {
+        const v = svc.isRelevant({
+          title,
+          content: '북한군의 군사분계선 침범 관련 소식 등이 목록에 포함돼 있다.',
+        });
+        expect(v.relevant).toBe(false);
+        expect(v.by).toBe('roundup-drop');
+      }
+    });
+
+    it('[고침]으로 감싼 편성물 제목도 제외한다', () => {
+      const v = make().isRelevant({
+        title: '[고침] 기타([주간 뉴스캘린더](23일∼3월1일)-2)',
+        content: 'DMZ 관련 일정이 한 줄 포함돼 있다.',
+      });
+      expect(v.by).toBe('roundup-drop');
+    });
+
+    it('[영상]·[게시판]은 개별 기사이므로 규칙을 적용하지 않는다', async () => {
+      const gemini = {
+        askQuestion: vi
+          .fn()
+          .mockResolvedValue('{"relevant": true, "reason": "DMZ 보도"}'),
+      };
+      const svc = make(LLM_ENV, gemini);
+      for (const title of [
+        '[영상] 잇따르는 북한군 MDL 침범…휴전선에 무슨 일?',
+        '[게시판] 통일부, DMZ 피스트레인 뮤직페스티벌과 협업',
+      ]) {
+        const v = await svc.confirmRelevance({
+          title,
+          content: '군사분계선 일대 상황을 다룬다.',
+        });
+        expect(v.by).not.toBe('roundup-drop');
+        expect(v.relevant).toBe(true);
+      }
+    });
+
+    it('편성물은 LLM을 호출하지 않고 확정 제외한다', async () => {
+      const gemini = { askQuestion: vi.fn() };
+      const v = await make(LLM_ENV, gemini).confirmRelevance({
+        title: '[연합뉴스 이 시각 헤드라인] - 07:30',
+        content: '북한군 군사분계선 침범 등 주요 소식.',
+      });
+      expect(v.relevant).toBe(false);
+      expect(v.by).toBe('roundup-drop');
+      expect(gemini.askQuestion).not.toHaveBeenCalled();
+    });
+
+    it('YNA_ROUNDUP_FILTER=false면 규칙을 건너뛴다', () => {
+      const v = make({ YNA_ROUNDUP_FILTER: 'false' }).isRelevant({
+        title: '[연합뉴스 이 시각 헤드라인] - 07:30',
+        content: '북한군 군사분계선 침범 등 주요 소식.',
+      });
+      expect(v.by).not.toBe('roundup-drop');
+    });
+  });
 });

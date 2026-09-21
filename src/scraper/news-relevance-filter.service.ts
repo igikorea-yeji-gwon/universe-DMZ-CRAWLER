@@ -9,6 +9,7 @@ export interface NewsRelevanceVerdict {
   relevant: boolean;
   /**
    * trial-drop     : 제목이 재판·수사 기사인데 DMZ 언급이 본문에만 있음 → 확정 제외 (주무관 기준)
+   * roundup-drop   : 여러 소식을 모아놓은 목록·일정 기사 → 확정 제외 (주무관 기준)
    * anchor-keep    : 한반도 앵커어가 있어 규칙 단계 통과
    * rule-drop      : 해외 국경 이슈 키워드 동시 확인 → 제외 (LLM 불가 시 폴백 판정)
    * ambiguous-keep : 러시아·우크라·이란처럼 애매한 국가만 확인됨 → 규칙 단계 통과
@@ -21,6 +22,7 @@ export interface NewsRelevanceVerdict {
    */
   by:
     | 'trial-drop'
+    | 'roundup-drop'
     | 'anchor-keep'
     | 'rule-drop'
     | 'ambiguous-keep'
@@ -121,6 +123,23 @@ const TRIAL_TITLE_TERMS =
 const DMZ_CORE_TERMS =
   /군사분계선|\bMDL\b|비무장지대|DMZ|판문점|민통선|유엔사|군사정전위|정전협정/i;
 
+/**
+ * 목록·편성물 기사 제외 규칙 (주무관 확정 기준, 2026-09-21) — 제목 머리말 기준.
+ *
+ * 여러 소식을 한 기사에 모아 싣는 정형 편성물이다. 목록 안 DMZ 항목 한 줄 때문에 수집되지만
+ * 기사 자체가 DMZ를 다루는 것은 아니다. 제목 머리말이 고정 포맷이라 규칙으로 정확히 걸린다.
+ *
+ * 머리말이 붙어도 개별 기사인 유형은 넣지 않는다 — LLM 판단으로 넘긴다:
+ *   [영상] (예: "잇따르는 북한군 MDL 침범…휴전선에 무슨 일?" — 실제 DMZ 보도)
+ *   [게시판] (예: "통일부, DMZ 피스트레인 뮤직페스티벌과 협업" — 실제 DMZ 소식)
+ *   [북한단신], [인사] 등
+ */
+const ROUNDUP_TITLE_TERMS =
+  /^\[(연합뉴스 이 시각 헤드라인|주간 뉴스캘린더|오늘의 주요 일정|오늘의 국회일정|총리·장차관 일정|전국 주요 신문 사설|전국 주요 신문 톱뉴스)\]/;
+
+/** '[고침] 기타([주간 뉴스캘린더]...)' 처럼 고침 표기가 감싼 제목에서 원 제목을 꺼낸다 */
+const CORRECTION_PREFIX = /^\[고침\][^(]*\(/;
+
 /** LLM 최종 확인 판정 캐시 (S3 영속화) */
 const CACHE_S3_KEY = 'news-crawler/classifier-cache/yna-relevance-cache.json';
 
@@ -162,6 +181,7 @@ export const DMZ_RELEVANCE_PROMPT = `당신은 뉴스 기사 분류기입니다.
  *
  * [확정 제외 규칙 — 주무관 기준]
  * 제목이 재판·수사 기사이고 DMZ 언급이 본문에만 있으면 LLM 확인 없이 제외한다(trial-drop).
+ * 여러 소식을 모아놓은 목록·일정 편성물도 제목 머리말로 확정 제외한다(roundup-drop).
  *
  * [LLM 단계 — confirmRelevance(), 최종 적재 판정]
  * 키워드 매칭 기사를 전부 Gemini에 보내 "DMZ·접경지역과 실질적으로 관련된 기사인지"를 확인한다.
@@ -208,6 +228,13 @@ export class NewsRelevanceFilterService {
     );
   }
 
+  /** 목록·편성물 제외 규칙 사용 여부 (기본 ON, YNA_ROUNDUP_FILTER=false 로 끌 수 있음) */
+  private get roundupFilterEnabled(): boolean {
+    return (
+      String(this.configService.get('YNA_ROUNDUP_FILTER') ?? 'true') !== 'false'
+    );
+  }
+
   /** LLM 최종 확인 사용 여부 (기본 ON, YNA_LLM_RELEVANCE_FILTER=false 로 끌 수 있음) */
   private get llmEnabled(): boolean {
     return (
@@ -222,7 +249,21 @@ export class NewsRelevanceFilterService {
     const body = String(item.content ?? '').replace(/<br>/g, '\n');
     const text = `${title}\n${body}`;
 
-    // ⓪ 재판·수사 기사 제외 (주무관 확정 기준) — 제목이 재판 기사임을 가리키고,
+    // ⓪-1 목록·편성물 제외 (주무관 확정 기준) — 제목 머리말이 정형 편성물 포맷인 경우
+    if (this.roundupFilterEnabled) {
+      const plain = title.replace(CORRECTION_PREFIX, '');
+      const head = plain.match(ROUNDUP_TITLE_TERMS)?.[1];
+      if (head) {
+        return {
+          relevant: false,
+          by: 'roundup-drop',
+          reason: `여러 소식을 모아놓은 목록 기사([${head}]) — 목록 내 DMZ 항목 1줄로 매칭`,
+          matched: [head],
+        };
+      }
+    }
+
+    // ⓪-2 재판·수사 기사 제외 (주무관 확정 기준) — 제목이 재판 기사임을 가리키고,
     //    DMZ 언급이 본문에만 있는 경우. 이 판정은 LLM 확인 없이 확정 제외된다.
     if (this.trialFilterEnabled) {
       const trialTerm = title.match(TRIAL_TITLE_TERMS)?.[0];
@@ -290,8 +331,8 @@ export class NewsRelevanceFilterService {
     const rule = this.isRelevant(item);
     const ruleBy = rule.by;
 
-    // 재판 기사 제외는 주무관 확정 기준 — LLM 판단 대상이 아니다
-    if (rule.by === 'trial-drop') {
+    // 재판 기사·목록 편성물 제외는 주무관 확정 기준 — LLM 판단 대상이 아니다
+    if (rule.by === 'trial-drop' || rule.by === 'roundup-drop') {
       return { ...rule, ruleBy };
     }
 
