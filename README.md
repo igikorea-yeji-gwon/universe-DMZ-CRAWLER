@@ -95,6 +95,7 @@ configs/          # Config JSON 파일 저장 폴더 (id별 파일)
 ```
 
 **로그 파일 형식**
+
 ```json
 {
   "id": 1,
@@ -117,13 +118,23 @@ configs/          # Config JSON 파일 저장 폴더 (id별 파일)
 
 ```json
 [
-  { "id": "step-001", "type": "detailLinks", "params": { "selector": "a.article", "attribute": "href" } },
-  { "id": "step-002", "type": "scrapDetail", "params": { "targets": [
-      { "name": "title",     "type": "uniqueText",     "selector": "h1" },
-      { "name": "writedate", "type": "uniqueText",     "selector": ".date" },
-      { "name": "content",   "type": "duplicatedText", "selector": ".body" },
-      { "name": "img",       "type": "images",         "selector": "img" }
-  ]}},
+  {
+    "id": "step-001",
+    "type": "detailLinks",
+    "params": { "selector": "a.article", "attribute": "href" }
+  },
+  {
+    "id": "step-002",
+    "type": "scrapDetail",
+    "params": {
+      "targets": [
+        { "name": "title", "type": "uniqueText", "selector": "h1" },
+        { "name": "writedate", "type": "uniqueText", "selector": ".date" },
+        { "name": "content", "type": "duplicatedText", "selector": ".body" },
+        { "name": "img", "type": "images", "selector": "img" }
+      ]
+    }
+  },
   { "id": "step-003", "type": "paging", "params": { "selector": "div.pager" } }
 ]
 ```
@@ -138,35 +149,33 @@ configs/          # Config JSON 파일 저장 폴더 (id별 파일)
 
 ## 주요 기술 스택
 
-| 역할 | 라이브러리 |
-|---|---|
-| 프레임워크 | NestJS + @nestjs/schedule |
+| 역할            | 라이브러리                     |
+| --------------- | ------------------------------ |
+| 프레임워크      | NestJS + @nestjs/schedule      |
 | 브라우저 자동화 | Playwright (chromium headless) |
-| HTML 파싱 | cheerio |
-| Config 관리 | JSON 파일 (configs/*.json) |
-| 파일 저장 | AWS S3 |
-| 실행 로그 | AWS S3 (news-crawler/log/) |
-| AI 분석 | Google Gemini (날짜 파싱) |
-| 동시성 제어 | p-limit (최대 2 concurrent) |
-| API 문서 | Swagger (@nestjs/swagger) |
+| HTML 파싱       | cheerio                        |
+| Config 관리     | JSON 파일 (configs/\*.json)    |
+| 파일 저장       | AWS S3                         |
+| 실행 로그       | AWS S3 (news-crawler/log/)     |
+| AI 분석         | Google Gemini (날짜 파싱)      |
+| 동시성 제어     | p-limit (최대 2 concurrent)    |
+| API 문서        | Swagger (@nestjs/swagger)      |
 
 ---
 
 ## 환경변수 (.env)
 
-| 변수 | 필수 | 설명 |
-|---|---|---|
-| `AWS_REGION` | ✅ | S3 리전 (기본: ap-northeast-2) |
-| `AWS_BUCKET_NAME` | ✅ | S3 버킷 이름 |
-| `AWS_ACCESS_KEY_ID` | ✅ | AWS 자격증명 |
-| `AWS_SECRET_ACCESS_KEY` | ✅ | AWS 자격증명 |
-| `GEMINI_API_KEY` | ❌ | Gemini AI (날짜 파싱/영문 번역, 없으면 번역 API 비활성화) |
-| `GEMINI_TRANSLATION_MODEL` | ❌ | 번역 모델 (기본: `gemini-2.5-flash-lite`) |
-| `GEMINI_TRANSLATION_MAX_CHARS` | ❌ | 번역 요청당 최대 글자 수 (기본: `6000`) |
-| `GEMINI_TRANSLATION_CONCURRENCY` | ❌ | 동시 번역 요청 수 (기본: `2`) |
-| `OPENAI_API_KEY` | ❌ | Config 자동 생성 기능 (`POST /scraper/config/init`) |
-| `GOOGLE_WEB_HOOK` | ❌ | Google Chat 에러 알림 웹훅 URL |
-| `GOOGLE_WEB_HOOK_TIMEOUT` | ❌ | 타임아웃용 대체 웹훅 URL |
+| 변수                             | 필수 | 설명                                                      |
+| -------------------------------- | ---- | --------------------------------------------------------- |
+| `AWS_REGION`                     | ✅   | S3 리전 (기본: ap-northeast-2)                            |
+| `AWS_BUCKET_NAME`                | ✅   | S3 버킷 이름                                              |
+| `AWS_ACCESS_KEY_ID`              | ✅   | AWS 자격증명                                              |
+| `AWS_SECRET_ACCESS_KEY`          | ✅   | AWS 자격증명                                              |
+| `GEMINI_API_KEY`                 | ❌   | Gemini AI (날짜 파싱/영문 번역, 없으면 번역 API 비활성화) |
+| `GEMINI_TRANSLATION_MODEL`       | ❌   | 번역 모델 (기본: `gemini-2.5-flash-lite`)                 |
+| `GEMINI_TRANSLATION_MAX_CHARS`   | ❌   | 번역 요청당 최대 글자 수 (기본: `6000`)                   |
+| `GEMINI_TRANSLATION_CONCURRENCY` | ❌   | 동시 번역 요청 수 (기본: `2`)                             |
+| `OPENAI_API_KEY`                 | ❌   | Config 자동 생성 기능 (`POST /scraper/config/init`)       |
 
 ---
 
