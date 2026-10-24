@@ -22,6 +22,12 @@ jobs:
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
             cd /home/${{ secrets.EC2_USER }}/universe-DMZ-CRAWLER
             git pull origin deploy
+            # .nvmrc 버전 사용 (서버에 미설치면 중단 → nvm install 후 재배포)
+            nvm use || exit 1
             npm install
             npm run build
             pm2 startOrReload ecosystem.config.js
+            # PM2 데몬은 자신이 뜬 Node로 앱을 실행함 → 버전 불일치 시 pm2 update 필요
+            APP_NODE="v$(pm2 jlist | node -e "const l=JSON.parse(require('fs').readFileSync(0,'utf8'));console.log(l.find(p=>p.name==='dmz-scraper').pm2_env.node_version)")"
+            echo "nvm node: $(node -v) / pm2 app node: $APP_NODE"
+            [ "$APP_NODE" = "$(node -v)" ] || { echo "PM2 Node 버전 불일치 - 서버에서 'pm2 update' 실행 필요"; exit 1; }
